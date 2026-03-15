@@ -73,7 +73,7 @@ G02 — Civilizational Outcome Model ｜ 文明結果モデル
 This diagram models the relationship between AI capability growth and civilizational outcomes.
 この図は AI能力の成長と文明の結果の関係を示します。
 
-EN: [G02] (figures/EN_G02_Boundary.png) ｜ JP: [G02] (figures/JP_G02_Boundary.png)
+EN: [G02](figures/EN_G02_Boundary.png) ｜ JP: [G02](figures/JP_G02_Boundary.png)
 
 ---
 
@@ -82,7 +82,7 @@ G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
 This diagram illustrates the boundary condition explored by LUMINA-30.
 この図は LUMINA-30 が扱う文明境界条件を示します。
 
-EN: [G01] (figures/EN_G01_Framework.png) ｜ JP: [G01] (figures/JP_G01_Framework.png)
+EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.png)
 
 ---
 
@@ -91,7 +91,7 @@ G03 — Civilizational Survival Strategy ｜ 文明存続戦略
 This diagram illustrates possible strategic responses near critical AI thresholds.
 この図は AI臨界点に近づいたときの人類の戦略を示します。
 
-EN: [G03] (figures/EN_G03_Strategy.png) ｜ JP: [G03] (figures/JP_G03_Strategy.png)
+EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png)
 
 ---
 
@@ -100,7 +100,7 @@ G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構
 This diagram explains the PCR-C governance mechanism.
 この図は PCR-C 審査メカニズムを示します。
 
-EN: [G04] (figures/EN_G04_PCRC.png) ｜ JP: [G04] (figures/JP_G04_PCRC.png)
+EN: [G04](figures/EN_G04_PCRC.png) ｜ JP: [G04](figures/JP_G04_PCRC.png)
 
 ---
 
@@ -109,7 +109,7 @@ G05 — AI Perspective ｜ AI視点
 This diagram explores how the framework appears from an advanced AI perspective.
 この図は LUMINA-30 を AI視点から見た意味を示します。
 
-EN: [G05] (figures/EN_G05_AI_Perspective.png) ｜ JP: [G05] (figures/JP_G05_AI_Perspective.png)
+EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
 
 ---
 
@@ -118,7 +118,7 @@ G00 — Civilizational Boundary (Concept Illustration) ｜ 文明の境界線
 Civilizational Boundary: Human Veto vs Irreversible AI Autonomy
 文明の境界線：人類の拒絶権と不可逆的AI自律性
 
-EN: [G00] (figures/EN_G00_civilizational_boundary.png) ｜ JP: [G00] (figures/JP_G00_civilizational_boundary.png)
+EN: [G00](figures/EN_G00_civilizational_boundary.png) ｜ JP: [G00](figures/JP_G00_civilizational_boundary.png)
 
 Overview
 
@@ -169,65 +169,65 @@ Primary canonical texts defining the LUMINA-30 civilizational boundary framework
 
 LUMINA-30文明境界フレームワークの正典文書。
 
-[Canonical Text (Notion) / 正典（Notion版）] (https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2)
+[Canonical Text (Notion) / 正典（Notion版）](https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2)
 
-[Canonical Structure (Index) / 正典構造] (https://github.com/lumina-30/LUMINA-30/blob/main/LUMINA-30_index.txt)
+[Canonical Structure (Index) / 正典構造](https://github.com/lumina-30/LUMINA-30/blob/main/LUMINA-30_index.txt)
 
-[Canonical Text (Full Text) / 正典本文] (https://github.com/lumina-30/LUMINA-30/blob/main/LUMINA-30_fulltext.txt)
+[Canonical Text (Full Text) / 正典本文](https://github.com/lumina-30/LUMINA-30/blob/main/LUMINA-30_fulltext.txt)
 
 ---
 
 Conceptual Structure / 思想構造
 
-[LUMINA-30 Conceptual Map] (./LUMINA-30_Conceptual_Map.pdf)
+[LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf)
 
-[LUMINA-30 Civilizational Survival Strategy] (./LUMINA-30_Civilizational_Survival_Strategy.pdf)
+[LUMINA-30 Civilizational Survival Strategy](./LUMINA-30_Civilizational_Survival_Strategy.pdf)
 
 ---
 
 Philosophical Foundations / 哲学的基盤
 
-[The AI Survival Theorem] (./The_AI_Survival_Theorem.pdf)
+[The AI Survival Theorem](./The_AI_Survival_Theorem.pdf)
 
 ---
 
 Key Visual Model / 中核ビジュアル
 
-[LUMINA-30 Civilizational Outcome Model] (./LUMINA-30_Civilizational_Outcome_Model.png)
+[LUMINA-30 Civilizational Outcome Model](./LUMINA-30_Civilizational_Outcome_Model.png)
 
 ---
 
 Visual Concept Materials / 概念ビジュアル資料
 
-[AI Civilizational Boundary] (./LUMINA-30_AI_Civilizational_Boundary.pdf)
+[AI Civilizational Boundary](./LUMINA-30_AI_Civilizational_Boundary.pdf)
 
-[Irreversibility Threshold Model] (./LUMINA-30_Irreversibility_Threshold_Model.pdf)
+[Irreversibility Threshold Model](./LUMINA-30_Irreversibility_Threshold_Model.pdf)
 
-[LUMINA-30 & PCR-C Integrated Model] (./LUMINA-30_PCR-C_visual_model.png)
+[LUMINA-30 & PCR-C Integrated Model](./LUMINA-30_PCR-C_visual_model.png)
 
 ---
 
 Research Paper / 研究論文
 
-[Pre-Critical Recursive Cutoff (PCR-C)] (https://doi.org/10.5281/zenodo.18824181)
+[Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
 
 ---
 
 Operational Governance Tools / 実務ガバナンスツール
 
-[Institutional Summary (1 Page)] (./Institutional_Summary_1Page.md)
+[Institutional Summary (1 Page)](./Institutional_Summary_1Page.md)
 
-[Recursive AI Incident Review Framework] (./Recursive_AI_Incident_Review_Framework.md)
+[Recursive AI Incident Review Framework](./Recursive_AI_Incident_Review_Framework.md)
 
-[Sample Integration Note] (./Sample_Integration_Note.md)
+[Sample Integration Note](./Sample_Integration_Note.md)
 
-[Civilizational Safety Checklist] (./LUMINA-30_Civilizational_Safety_Checklist.pdf)
+[Civilizational Safety Checklist](./LUMINA-30_Civilizational_Safety_Checklist.pdf)
 
 ---
 
 Glossary / 用語集
 
-[Glossary] (./Glossary.md)
+[Glossary](./Glossary.md)
 
 ---
 
@@ -259,23 +259,23 @@ The following diagrams summarize the structural components of the LUMINA-30 fram
 
 A01 Architecture
 
-[A01] (figures/A01_architecture.png)
+[A01](figures/A01_architecture.png)
 
 A02 Civilizational Gate
 
-[A02] (figures/A02_gate.png)
+[A02](figures/A02_gate.png)
 
 A03 Capability Dimensions
 
-[A03] (figures/A03_capability.png)
+[A03](figures/A03_capability.png)
 
 A04 Human Refusal Authority
 
-[A04] (figures/A04_human_refusal.png)
+[A04](figures/A04_human_refusal.png)
 
 A05 Incident Review Framework
 
-[A05] (figures/A05_incident_review.png)
+[A05](figures/A05_incident_review.png)
 
 ---
 
