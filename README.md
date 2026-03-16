@@ -160,10 +160,6 @@ LUMINA-30文明境界フレームワークの正典文書。
 — Structural overview of the LUMINA-30 framework showing the relationships between the civilizational boundary principle, governance layers, and technical safeguards.  
 LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を示す思想体系の構造マップ。
 
-[LUMINA-30 Civilizational Survival Strategy](./LUMINA-30_Civilizational_Survival_Strategy.pdf)  
-— Visual explanation of the LUMINA-30 boundary concept as a civilizational safeguard, showing how human refusal authority prevents optimization collapse and preserves human agency in the AI era.  
-AI時代において人間の拒否権を文明境界として配置し、最適化暴走や文明停滞を防ぐというLUMINA-30の文明生存戦略を説明するビジュアル資料。
-
 ---
 
 # Philosophical Foundations / 哲学的基盤
