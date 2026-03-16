@@ -65,9 +65,18 @@ AIの振る舞いではなく
 
 ---
 
-# Concept Diagrams ｜ 概念図
-These diagrams present the conceptual structure of the LUMINA-30 framework.  
+## Concept Diagrams ｜ 概念図
+
+These diagrams present the conceptual structure of the LUMINA-30 framework.
 各図は LUMINA-30 の概念構造を示しています。
+
+A visual introduction to the LUMINA-30 civilizational boundary framework.
+
+These diagrams illustrate the structural problem addressed by LUMINA-30:
+how human refusal authority can be preserved before advanced AI systems
+reach the point of irreversible external impact.
+
+LUMINA-30文明境界フレームワークの概念図。
 
 ---
 
