@@ -50,6 +50,18 @@ LUMINA-30は
 
 ---
 
+## Research Paper / 研究論文
+
+Pre-Critical Recursive Cutoff (PCR-C)
+
+Infrastructure control framework for preventing irreversible external impact risks in advanced AI systems.
+
+[Read the paper](https://doi.org/10.5281/zenodo.18824181)
+
+高度AIにおける不可逆的外界影響リスクを防ぐためのインフラ制御フレームワーク。
+
+---
+
 LUMINA-30 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
 
 The central AI safety problem may not be AI behaviour,
@@ -204,12 +216,6 @@ Visual Concept Materials / 概念ビジュアル資料
 [Irreversibility Threshold Model](./LUMINA-30_Irreversibility_Threshold_Model.pdf)
 
 [LUMINA-30 & PCR-C Integrated Model](./LUMINA-30_PCR-C_visual_model.png)
-
----
-
-Research Paper / 研究論文
-
-[Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
 
 ---
 
