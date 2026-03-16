@@ -148,7 +148,9 @@ Primary canonical texts defining the LUMINA-30 civilizational boundary framework
 LUMINA-30文明境界フレームワークの正典文書。
 
 [Canonical Text (Notion) / 正典（Notion版）](https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2)
+
 [Canonical Structure (Index) / 正典構造](https://github.com/lumina-30/Lumi30-Index)
+
 [Canonical Text (Full Text) / 正典本文](https://github.com/lumina-30/Lumi30-FullText)
 
 ---
