@@ -189,10 +189,6 @@ LUMINA-30問答から抽出された文明主体の存続条件を定式化し�
 — Illustration of the irreversible external impact threshold and the concept of a civilizational boundary.  
 不可逆的外界影響の臨界点と文明境界の概念を示す図。
 
-[LUMINA-30 & PCR-C Integrated Model](./LUMINA-30_PCR-C_visual_model.png)  
-— Integrated visualization of the LUMINA-30 civilizational boundary and PCR-C safeguard architecture.  
-LUMINA-30文明境界とPCR-C技術防壁の統合モデル。
-
 ---
 
 # Operational Governance Tools / 実務ガバナンスツール
