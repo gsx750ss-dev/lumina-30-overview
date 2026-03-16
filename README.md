@@ -102,17 +102,17 @@ EN: [G02](figures/EN_G02_Boundary.png) ｜ JP: [G02](figures/JP_G02_Boundary.png
 
 ---
 
-## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
-This diagram illustrates the boundary condition explored by LUMINA-30.  
-この図は LUMINA-30 が扱う文明境界条件を示します。  
-EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.png)
-
----
-
 ## G03 — Civilizational Survival Strategy ｜ 文明存続戦略
 This diagram illustrates possible strategic responses near critical AI thresholds.  
 この図は AI臨界点に近づいたときの人類の戦略を示します。  
 EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png)
+
+---
+
+## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
+This diagram illustrates the boundary condition explored by LUMINA-30.  
+この図は LUMINA-30 が扱う文明境界条件を示します。  
+EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.png)
 
 ---
 
