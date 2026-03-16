@@ -173,13 +173,6 @@ LUMINA-30問答から抽出された文明主体の存続条件を定式化し�
 
 ---
 
-# Key Visual Model / 中核ビジュアル
-[LUMINA-30 Civilizational Outcome Model](./LUMINA-30_Civilizational_Outcome_Model.png)  
-— A high-level visual summary of the LUMINA-30 framework showing the relationship between human refusal authority, the civilizational boundary, irreversible impact thresholds, and the PCR-C safeguard architecture.  
-人間拒否権・文明境界・不可逆臨界点・PCR-C制御構造の関係を統合的に示すLUMINA-30の中核ビジュアル。
-
----
-
 ## Visual Concept Materials / 概念ビジュアル資料
 [AI Civilizational Boundary](./LUMINA-30_AI_Civilizational_Boundary.pdf)  
 — Explanation of the boundary model between human civilization and advanced AI systems.  
