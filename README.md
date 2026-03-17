@@ -46,6 +46,33 @@ LUMINA-30は
 人間の拒否権（Refusal Authority）が実質的に残っているかを  
 検討するための非拘束型文明フレームワークです。
 
+Core focus:
+Not AI behavior,
+but whether human refusal authority remains
+before irreversible external impact.
+
+中核焦点：
+AIの振る舞いではなく、
+不可逆的外界影響の前に
+人間の拒否権が残っているか。
+
+Positioning:
+LUMINA-30 does not prescribe actions,
+policies, or enforcement mechanisms.
+It defines a boundary condition.
+
+位置づけ：
+LUMINA-30は行動・政策・強制を提示せず、
+境界条件を定義する参照フレームです。
+
+Recommended path:
+Start from Concept Diagrams,
+then move to Canonical References,
+and finally to Operational Governance Tools.
+
+推奨読書順：
+Concept Diagrams → Canonical References → Operational Governance Tools
+
 ---
 
 ## Research Paper / 研究論文
