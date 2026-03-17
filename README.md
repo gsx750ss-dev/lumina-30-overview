@@ -50,6 +50,24 @@ LUMINA-30は
 
 ## Research Paper / 研究論文
 
+This research paper introduces the PCR-C concept,
+which addresses the problem of irreversible external impact
+from advanced AI systems.
+
+本研究論文は、
+高度AIによる不可逆的外界影響の問題に対処するための
+PCR-C概念を提示しています。
+
+Recommended reading order:
+1. Research paper (concept and infrastructure layer)
+2. Canonical Index (framework structure)
+3. Operational tools (review and governance application)
+
+推奨読書順：
+1. 研究論文（概念とインフラ層）
+2. Canonical Index（フレームワーク構造）
+3. 実務ツール（レビュー・ガバナンス適用）
+
 [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)  
 — Infrastructure control framework for preventing irreversible external impact risks in advanced AI systems.  
 高度AIにおける不可逆的外界影響リスクを防ぐためのインフラ制御フレームワーク。
