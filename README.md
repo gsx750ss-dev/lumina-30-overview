@@ -203,6 +203,20 @@ LUMINA-30問答から抽出された文明主体の存続条件を定式化し�
 ---
 
 # Operational Governance Tools / 実務ガバナンスツール
+
+Practical tools for applying the LUMINA-30 framework  
+in governance, safety review, and institutional oversight contexts.
+
+LUMINA-30をガバナンス・安全審査・制度的監督に適用するための実務ツール群。
+
+Recommended usage:
+Use Institutional Summary for quick overview,
+then apply Incident Review and Checklist for evaluation and decision processes.
+
+推奨利用手順：
+まずInstitutional Summaryで全体を把握し、
+その後、Incident ReviewとChecklistを用いて評価・判断に適用してください。
+
 [Institutional Summary (1 Page)](./Institutional_Summary_1Page.md)  
 — One-page overview explaining the purpose, structure, and governance relevance of the LUMINA-30 civilizational boundary framework.  
 LUMINA-30文明境界フレームワークの目的・構造・ガバナンス上の意義をまとめた1ページ概要。
@@ -218,7 +232,6 @@ LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ
 [Civilizational Safety Checklist](./LUMINA-30_Civilizational_Safety_Checklist.pdf)  
 — Practical review checklist for evaluating AI systems and governance decisions before irreversible external impact occurs.  
 不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するための実務レビュー・チェックリスト。
-
 ---
 
 # Glossary / 用語集
