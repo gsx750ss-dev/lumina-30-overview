@@ -35,6 +35,12 @@ Refusal is the last safeguard of sovereignty.
 
 ---
 
+Quick entry:
+→ [Canonical Index](https://github.com/lumina-30/Lumi30-Index)  
+→ [AI Incident Review Framework](https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf)
+
+---
+
 ## What is LUMINA-30
 
 LUMINA-30 is a non-binding civilizational reference framework  
