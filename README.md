@@ -232,6 +232,8 @@ LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ
 [Civilizational Safety Checklist](./LUMINA-30_Civilizational_Safety_Checklist.pdf)  
 — Practical review checklist for evaluating AI systems and governance decisions before irreversible external impact occurs.  
 不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するための実務レビュー・チェックリスト。
+
+
 ---
 
 # Glossary / 用語集
