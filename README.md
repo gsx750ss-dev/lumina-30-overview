@@ -144,6 +144,9 @@ EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Per
 Explore the core LUMINA-30 documents.  
 LUMINA-30 の主要文書はこちらから参照できます。
 
+Recommended reading path:
+Canonical Index → Incident Review Framework
+
 ---
 
 ## Start Here
