@@ -131,6 +131,8 @@ reach the point of irreversible external impact.
 LUMINA-30文明境界フレームワークの概念図。
 
 ---
+
+
 ## AI Incident Review Template ｜ AIインシデントレビュー様式
 
 [Pre-Irreversibility AI Incident Review Template (EN)](https://raw.githubusercontent.com/lumina-30/Lumi30-Index/main/tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)  
@@ -138,6 +140,7 @@ LUMINA-30文明境界フレームワークの概念図。
 
 [Pre-Irreversibility AIインシデントレビュー様式（JP）](https://raw.githubusercontent.com/lumina-30/Lumi30-Index/main/tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)  
 — 不可逆的外界影響が発生する前に人間の拒否権が保持されているかを評価するための構造化レビュー様式。
+
 
 ---
 
