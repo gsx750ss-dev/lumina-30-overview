@@ -130,17 +130,6 @@ reach the point of irreversible external impact.
 
 LUMINA-30文明境界フレームワークの概念図。
 
----
-
-
-## AI Incident Review Template ｜ AIインシデントレビュー様式
-
-[Pre-Irreversibility AI Incident Review Template (EN)](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)  
-— Structured review template for evaluating human refusal authority before irreversible AI impact.  
-
-[Pre-Irreversibility AIインシデントレビュー様式（JP）](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)  
-— 不可逆的外界影響が発生する前に人間の拒否権が保持されているかを評価するための構造化レビュー様式。
-
 
 ---
 
@@ -200,6 +189,16 @@ EN: [G04](figures/EN_G04_PCRC.png) ｜ JP: [G04](figures/JP_G04_PCRC.png)
 This diagram explores how the framework appears from an advanced AI perspective.  
 この図は LUMINA-30 を AI視点から見た意味を示します。  
 EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
+
+---
+
+## AI Incident Review Template ｜ AIインシデントレビュー様式
+
+[Pre-Irreversibility AI Incident Review Template (EN)](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)  
+— Structured review template for evaluating human refusal authority before irreversible AI impact.  
+
+[Pre-Irreversibility AIインシデントレビュー様式（JP）](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)  
+— 不可逆的外界影響が発生する前に人間の拒否権が保持されているかを評価するための構造化レビュー様式。
 
 ---
 
