@@ -192,13 +192,19 @@ EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Per
 
 ---
 
-## AI Incident Review Template ｜ AIインシデントレビュー様式
+## Civilizational Safety Checklist / 文明安全チェックリスト
 
-[Pre-Irreversibility AI Incident Review Template (EN)](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)  
-— Structured review template for evaluating human refusal authority before irreversible AI impact.  
+A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact.  
+不可逆的影響の発生前に人間の拒否権が維持されているかを評価するための非依存型評価プロトコル。  
 
-[Pre-Irreversibility AIインシデントレビュー様式（JP）](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)  
-— 不可逆的外界影響が発生する前に人間の拒否権が保持されているかを評価するための構造化レビュー様式。
+[EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
+
+## AI Incident Review Template / インシデントレビュー
+
+A structured post-event review protocol to analyze incidents under the civilizational boundary framework.  
+文明境界フレームワークに基づき、インシデントを分析するための構造化レビュー手順。  
+
+[EN Incident Review](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf) / [JP インシデントレビュー](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)
 
 ---
 
