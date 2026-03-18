@@ -130,6 +130,23 @@ reach the point of irreversible external impact.
 
 LUMINA-30文明境界フレームワークの概念図。
 
+---
+
+
+## Civilizational Safety Checklist / 文明安全チェックリスト
+
+A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact.  
+不可逆的影響の発生前に人間の拒否権が維持されているかを評価するための非依存型評価プロトコル。  
+
+[EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
+
+
+## AI Incident Review Template / インシデントレビュー
+
+A structured post-event review protocol to analyze incidents under the civilizational boundary framework.  
+文明境界フレームワークに基づき、インシデントを分析するための構造化レビュー手順。  
+
+[EN Incident Review](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf) / [JP インシデントレビュー](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)
 
 ---
 
@@ -189,22 +206,6 @@ EN: [G04](figures/EN_G04_PCRC.png) ｜ JP: [G04](figures/JP_G04_PCRC.png)
 This diagram explores how the framework appears from an advanced AI perspective.  
 この図は LUMINA-30 を AI視点から見た意味を示します。  
 EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
-
----
-
-## Civilizational Safety Checklist / 文明安全チェックリスト
-
-A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact.  
-不可逆的影響の発生前に人間の拒否権が維持されているかを評価するための非依存型評価プロトコル。  
-
-[EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
-
-## AI Incident Review Template / インシデントレビュー
-
-A structured post-event review protocol to analyze incidents under the civilizational boundary framework.  
-文明境界フレームワークに基づき、インシデントを分析するための構造化レビュー手順。  
-
-[EN Incident Review](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf) / [JP インシデントレビュー](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)
 
 ---
 
