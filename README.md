@@ -105,7 +105,6 @@ before potential irreversibility?
 ---
 
 
-
 ## Research Paper / 研究論文
 
 This research paper introduces the PCR-C concept,
@@ -317,13 +316,6 @@ LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ
 
 ---
 
-# Glossary / 用語集
-[Glossary](./Glossary.md)  
-— Definitions of key concepts used in the LUMINA-30 framework.  
-LUMINA-30フレームワークで使用される主要概念の定義集。
-
----
-
 # Position and Scope / 位置づけ
 LUMINA-30 does not propose policies, implementation requirements, or enforcement mechanisms.  
 LUMINA-30は政策提案・実装要件・強制制度を提示するものではありません。  
@@ -382,7 +374,16 @@ before potential irreversibility?
 +
 + - [Core Terminology (EN)](./CORE_TERMINOLOGY.md)
 + - [用語集（日本語）](./CORE_TERMINOLOGY_JP.md)
- 
+
+
+ ---
+
+# Glossary / 用語集
+[Glossary](./Glossary.md)  
+— Definitions of key concepts used in the LUMINA-30 framework.  
+LUMINA-30フレームワークで使用される主要概念の定義集。
+
+
 ---
 
 # License
