@@ -55,6 +55,7 @@ LUMINA-30フレームワークで使用される主要概念の定義集。
 ---
 
 Quick entry:
+
 → [Canonical Index](https://github.com/lumina-30/Lumi30-Index)  
 → [AI Incident Review Framework](https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf)
 
