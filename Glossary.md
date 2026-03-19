@@ -1,3 +1,12 @@
++ # Glossary – Interface Layer (Non-Normative)
++
++ This glossary provides interpretive support for LUMINA-30.
++ It does not define core terminology and must not override CORE_TERMINOLOGY.md.
++
++ 本用語集はLUMINA-30の解釈補助を目的とするものであり、
++ コア語彙の定義を行うものではない。
++ CORE_TERMINOLOGY.mdを上書きしてはならない。
+
 Glossary – Interface Layer (Minimal)
 
 This document provides minimal definitional alignment for core terms used in LUMINA-30.
