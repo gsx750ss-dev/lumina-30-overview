@@ -80,6 +80,13 @@ and finally to Operational Governance Tools.
 Concept Diagrams → Canonical References → Operational Governance Tools
 
 ---
+Intervention authority must remain valid
+regardless of perceived system agency.
+
+システムがどのような主体性を持つように見えても、
+介入権は常に有効でなければならない。
+
+---
 
 ## Research Paper / 研究論文
 
