@@ -88,6 +88,24 @@ regardless of perceived system agency.
 
 ---
 
+
+Intervention authority must remain valid
+regardless of perceived system agency.
+
+システムがどのような主体性を持つように見えても、
+介入権は常に有効でなければならない。
+
+Why was intervention not executed
+before potential irreversibility?
+
+潜在的な不可逆性の前に、
+なぜ介入が実行されなかったのか。
+
+
+---
+
+
+
 ## Research Paper / 研究論文
 
 This research paper introduces the PCR-C concept,
