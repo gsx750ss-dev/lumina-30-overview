@@ -1,123 +1,94 @@
-[//]: # (EDITING POLICY START)
+[//]: # (=====================================================)
+[//]: # (LUMINA-30 README EDIT PROTECTION BLOCK)
+[//]: # (This block must be preserved in all future versions)
+[//]: # (=====================================================)
 
-<!-- ===================================================== -->
-<!-- LUMINA-30 README EDIT PROTECTION BLOCK (DO NOT REMOVE) -->
-<!-- ===================================================== -->
+[//]: # (Editing Policy / 編集ポリシー)
+[//]: # (This document is structure-critical)
+[//]: # (本ドキュメントは構造上重要です)
 
-# Editing Policy / 編集ポリシー（構造保護）
+[//]: # (Absolute Rules)
+[//]: # (Do NOT remove sections)
+[//]: # (Do NOT summarize content)
+[//]: # (Do NOT reorganize structure)
+[//]: # (Do NOT merge sections)
+[//]: # (Do NOT rewrite existing content)
+[//]: # (Do NOT reduce content volume)
+[//]: # (Only formatting adjustments are allowed)
 
-This document is structure-critical.  
-この文書は構造上重要です。
+[//]: # (絶対ルール)
+[//]: # (セクション削除禁止)
+[//]: # (要約禁止)
+[//]: # (構造変更禁止)
+[//]: # (セクション統合禁止)
+[//]: # (既存文章の書き換え禁止)
+[//]: # (情報量削減禁止)
+[//]: # (表記調整のみ許可)
 
-This block must remain intact and must be preserved across all copies, forks, and derivative works.  
-本ブロックはすべての複製・派生・編集において必ず保持されなければなりません。
+[//]: # (Mandatory Editing Procedure)
+[//]: # (All changes must be presented as diff)
+[//]: # (Full rewrite is prohibited)
+[//]: # (User approval required before modification)
 
----
+[//]: # (編集手続き)
+[//]: # (すべての変更は差分提示)
+[//]: # (全文書き換え禁止)
+[//]: # (変更前にユーザー許可必須)
 
-## Absolute Rules（絶対ルール）
+[//]: # (Structural Protection Declaration)
+[//]: # (The following sections must never be removed or reduced)
 
-- Do NOT remove sections  
-  セクション削除禁止  
+[//]: # (Conceptual Structure)
+[//]: # (Framework Structure)
+[//]: # (Canonical References)
+[//]: # (Operational Governance Tools)
+[//]: # (G-series diagrams)
+[//]: # (A-series diagrams)
+[//]: # (S-series slides)
 
-- Do NOT summarize content  
-  要約禁止  
+[//]: # (構造保護対象)
+[//]: # (Conceptual Structure)
+[//]: # (Framework Structure)
+[//]: # (Canonical References)
+[//]: # (Operational Governance Tools)
+[//]: # (図表 Gシリーズ)
+[//]: # (図表 Aシリーズ)
+[//]: # (スライド Sシリーズ)
 
-- Do NOT reorganize structure  
-  構造変更禁止  
+[//]: # (Index Protection Rule)
+[//]: # (Index sections must be preserved completely)
+[//]: # (Do NOT remove even if redundant)
 
-- Do NOT merge sections  
-  セクション統合禁止  
+[//]: # (索引保護ルール)
+[//]: # (索引セクションは完全保持)
+[//]: # (冗長に見えても削除禁止)
 
-- Do NOT rewrite existing content  
-  既存文章の書き換え禁止  
+[//]: # (No Optimization Clause)
+[//]: # (Do NOT optimize by removing content)
+[//]: # (Do NOT compress explanations)
+[//]: # (Do NOT simplify structure)
 
-- Do NOT reduce content volume  
-  情報量削減禁止  
+[//]: # (最適化禁止)
+[//]: # (削除による最適化禁止)
+[//]: # (説明圧縮禁止)
+[//]: # (構造簡略化禁止)
 
-- Only formatting adjustments are allowed  
-  表記調整のみ許可  
+[//]: # (Persistence Requirement)
+[//]: # (This block must be preserved in all future versions)
+[//]: # (Removal is a structural violation)
 
----
+[//]: # (継承義務)
+[//]: # (本ブロックは全バージョンで保持)
+[//]: # (削除は構造違反)
 
-## Mandatory Editing Procedure（編集手続き）
+[//]: # (AI Interaction Rule)
+[//]: # (AI must follow all rules above)
+[//]: # (If unsure, do NOT modify)
 
-All changes must be presented as diff.  
-すべての変更は差分形式で提示すること。
+[//]: # (AI作業ルール)
+[//]: # (AIは上記ルール遵守)
+[//]: # (不明時は変更禁止)
 
-Full rewrite is strictly prohibited.  
-全文書き換えは禁止。
-
-Before any modification, explicit user approval is required.  
-変更前に必ずユーザーの明示的許可を得ること。
-
----
-
-## Structural Protection Declaration（構造保護宣言）
-
-The following sections are critical and must never be removed or reduced:
-
-以下のセクションは重要構造であり、削除・削減してはならない：
-
-- Conceptual Structure  
-- Framework Structure  
-- Canonical References  
-- Operational Governance Tools  
-- All Diagram Sections (G-series, A-series)  
-- All Slide Sections (S-series)
-
-These sections function as a structural index of the framework.  
-これらはフレームワークの構造索引として機能する。
-
----
-
-## Index Protection Rule（索引保護ルール）
-
-Sections functioning as index layers must be preserved completely.  
-索引層として機能するセクションは完全保持すること。
-
-Even if content appears redundant, it must not be removed.  
-冗長に見えても削除してはならない。
-
----
-
-## No Optimization Clause（最適化禁止）
-
-Do NOT optimize for readability by removing content.  
-可読性向上を理由とした削除は禁止。
-
-Do NOT compress explanations.  
-説明の圧縮禁止。
-
-Do NOT simplify structure.  
-構造の簡略化禁止。
-
----
-
-## Persistence Requirement（継承義務）
-
-This entire block must be copied and preserved in all future versions.  
-本ブロックは今後のすべてのバージョンにおいてコピー・保持されなければならない。
-
-Removal or alteration of this block is considered structural violation.  
-本ブロックの削除・改変は構造違反とみなす。
-
----
-
-## AI Interaction Rule（AI作業ルール）
-
-Any AI modifying this document must follow all rules above.  
-本ドキュメントを扱うAIは上記ルールに従わなければならない。
-
-If unsure, do NOT modify and ask for clarification.  
-不明点がある場合は変更せず確認すること。
-
----
-
-<!-- ===================== -->
-<!-- END PROTECTION BLOCK  -->
-<!-- ===================== -->
-
-[//]: # (EDITING POLICY END)
 
 
 # LUMINA-30 Overview
