@@ -147,7 +147,7 @@ Recommended reading order:
 3. 実務ツール（レビュー・ガバナンス適用）
 
 Infrastructure control framework for preventing irreversible external impact risks in advanced AI systems.  
-高度AIにおける不可逆的外界影響リスクを防ぐためのインフラ制御フレームワーク。
+高度AIにおける不可逆的外界影響リスクを防ぐためのインフラ制御フレームワーク。<br>
 [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)  
 
 
@@ -182,14 +182,14 @@ LUMINA-30文明境界フレームワークの概念図。
 ## Civilizational Safety Checklist / 文明安全チェックリスト
 
 A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact. 
-不可逆的影響の発生前に人間の拒否権が維持されているかを評価するための非依存型評価プロトコル。  
+不可逆的影響の発生前に人間の拒否権が維持されているかを評価するための非依存型評価プロトコル。<br>
 [EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
 
 
 ## AI Incident Review Template / インシデントレビュー
 
 A structured post-event review protocol to analyze incidents under the civilizational boundary framework.  
-文明境界フレームワークに基づき、インシデントを分析するための構造化レビュー手順。  
+文明境界フレームワークに基づき、インシデントを分析するための構造化レビュー手順。<br> 
 [EN Incident Review](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf) / [JP インシデントレビュー](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)
 
 
@@ -198,7 +198,7 @@ A structured post-event review protocol to analyze incidents under the civilizat
 
 ## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
 This diagram illustrates the boundary condition explored by LUMINA-30.  
-この図は LUMINA-30 が扱う文明境界条件を示します。  
+この図は LUMINA-30 が扱う文明境界条件を示します。<br>
 EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.png)
 
 
@@ -206,14 +206,14 @@ EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.p
 
 ## G02 — Civilizational Outcome Model ｜ 文明結果モデル
 This diagram models the relationship between AI capability growth and civilizational outcomes.  
-この図は AI能力の成長と文明の結果の関係を示します。  
+この図は AI能力の成長と文明の結果の関係を示します。<br>
 EN: [G02](figures/EN_G02_Boundary.png) ｜ JP: [G02](figures/JP_G02_Boundary.png)
 
 ---
 
 ## G03 — Civilizational Survival Strategy ｜ 文明存続戦略
 This diagram illustrates possible strategic responses near critical AI thresholds.  
-この図は AI臨界点に近づいたときの人類の戦略を示します。  
+この図は AI臨界点に近づいたときの人類の戦略を示します。<br>
 EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png)
 
 
@@ -221,14 +221,14 @@ EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png
 
 ## G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構
 This diagram explains the PCR-C governance mechanism.  
-この図は PCR-C 審査メカニズムを示します。  
+この図は PCR-C 審査メカニズムを示します。<br>
 EN: [G04](figures/EN_G04_PCRC.png) ｜ JP: [G04](figures/JP_G04_PCRC.png)
 
 ---
 
 ## G05 — AI Perspective ｜ AI視点
 This diagram explores how the framework appears from an advanced AI perspective.  
-この図は LUMINA-30 を AI視点から見た意味を示します。  
+この図は LUMINA-30 を AI視点から見た意味を示します。<br>  
 EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
 
 ---
@@ -272,7 +272,7 @@ then refer to canonical texts.
 # Conceptual Structure / 思想構造
 
 Structural overview of the LUMINA-30 framework showing the relationships between the civilizational boundary principle, governance layers, and technical safeguards.  
-LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を示す思想体系の構造マップ。
+LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を示す思想体系の構造マップ。<br>
 [LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf)  
 
 
@@ -281,7 +281,7 @@ LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を�
 # Philosophical Foundations / 哲学的基盤
 
 A philosophical formulation derived from the LUMINA-30 dialogue framework that defines the condition under which human civilization remains the subject of its own future.  
-LUMINA-30問答から抽出された文明主体の存続条件を定式化した哲学的命題。
+LUMINA-30問答から抽出された文明主体の存続条件を定式化した哲学的命題。<br>
 [The AI Survival Theorem](./The_AI_Survival_Theorem.pdf)  
 
 
@@ -294,7 +294,7 @@ LUMINA-30問答から抽出された文明主体の存続条件を定式化し�
 Defines the core structure of LUMINA-30 as a civilizational boundary.
 It establishes the relationship between human intervention authority, system progression, and irreversible impact.
 LUMINA-30を文明境界として定義する基礎スライド。
-人間の介入権・システム進行・不可逆影響の関係構造を示す。
+人間の介入権・システム進行・不可逆影響の関係構造を示す。<br>
  [S01 (EN)](./slides/EN_S01_Boundary.pdf) ｜  [S01 (JP)](./slides/JP_S01_Boundary.pdf)
 
 
@@ -303,13 +303,13 @@ LUMINA-30を文明境界として定義する基礎スライド。
 ## Visual Concept Materials / 概念ビジュアル資料
 
 Explanation of the boundary model between human civilization and advanced AI systems.  
-人間文明と高度AIの関係を整理する文明境界モデル。
+人間文明と高度AIの関係を整理する文明境界モデル。<br>
 [AI Civilizational Boundary](./LUMINA-30_AI_Civilizational_Boundary.pdf)  
 
 
 
 Illustration of the irreversible external impact threshold and the concept of a civilizational boundary.  
-不可逆的外界影響の臨界点と文明境界の概念を示す図。
+不可逆的外界影響の臨界点と文明境界の概念を示す図。<br>
  [S52 (EN)](./slides/EN_S52_Threshold_Model.pdf) ｜  [S52 (JP)](./slides/JP_S52_Threshold_Model.pdf)
 
 
@@ -330,21 +330,24 @@ then apply Incident Review and Checklist for evaluation and decision processes.
 まずInstitutional Summaryで全体を把握し、
 その後、Incident ReviewとChecklistを用いて評価・判断に適用してください。
 
+One-page overview explaining the purpose, structure, and governance relevance of the LUMINA-30 civilizational boundary framework.  
+LUMINA-30文明境界フレームワークの目的・構造・ガバナンス上の意義をまとめた1ページ概要。<br>
 [Institutional Summary (1 Page)](./Institutional_Summary_1Page.md)  
-— One-page overview explaining the purpose, structure, and governance relevance of the LUMINA-30 civilizational boundary framework.  
-LUMINA-30文明境界フレームワークの目的・構造・ガバナンス上の意義をまとめた1ページ概要。
 
+
+Post-incident review framework for analyzing failures, risks, and oversight breakdowns in autonomous or recursively improving AI systems.  
+自律型または再帰的自己改良AIに関する事故・リスク・監督崩壊を検証するための事後レビュー枠組み。<br>
 [Recursive AI Incident Review Framework](./Recursive_AI_Incident_Review_Framework.md)  
-— Post-incident review framework for analyzing failures, risks, and oversight breakdowns in autonomous or recursively improving AI systems.  
-自律型または再帰的自己改良AIに関する事故・リスク・監督崩壊を検証するための事後レビュー枠組み。
 
+
+Example showing how LUMINA-30 concepts can be integrated into AI governance, safety reviews, and institutional oversight processes.  
+LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ統合する方法を示す参考例。<br>
 [Sample Integration Note](./Sample_Integration_Note.md)  
-— Example showing how LUMINA-30 concepts can be integrated into AI governance, safety reviews, and institutional oversight processes.  
-LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ統合する方法を示す参考例。
 
+
+Practical review checklist for evaluating AI systems and governance decisions before irreversible external impact occurs.  
+不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するための実務レビュー・チェックリスト。<br>
 [Civilizational Safety Checklist](./LUMINA-30_Civilizational_Safety_Checklist.pdf)  
-— Practical review checklist for evaluating AI systems and governance decisions before irreversible external impact occurs.  
-不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するための実務レビュー・チェックリスト。
 
 
 ---
