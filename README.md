@@ -39,18 +39,15 @@ Refusal is the last safeguard of sovereignty.
  ## Core Terminology
 
  LUMINA-30 defines a minimal set of operational terms for pre-irreversibility intervention and civilizational boundary conditions.
- 
- LUMINA-30は、不可逆前介入および文明境界条件に関する最小語彙を定義する。
-
- - [Core Terminology (EN)](./CORE_TERMINOLOGY.md)
- - [用語集（日本語）](./CORE_TERMINOLOGY_JP.md)
+ LUMINA-30は、不可逆前介入および文明境界条件に関する最小語彙を定義する。<br>
+ [Core Terminology (EN)](./CORE_TERMINOLOGY.md) | [用語集（日本語）](./CORE_TERMINOLOGY_JP.md)
 
  ---
 
 # Glossary / 用語集
 
 Definitions of key concepts used in the LUMINA-30 framework.  
-LUMINA-30フレームワークで使用される主要概念の定義集。
+LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 [Glossary](./Glossary.md)  
 
 ---
@@ -228,7 +225,7 @@ EN: [G04](figures/EN_G04_PCRC.png) ｜ JP: [G04](figures/JP_G04_PCRC.png)
 
 ## G05 — AI Perspective ｜ AI視点
 This diagram explores how the framework appears from an advanced AI perspective.  
-この図は LUMINA-30 を AI視点から見た意味を示します。<br>  
+この図は LUMINA-30 を AI視点から見た意味を示します。<br>
 EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
 
 ---
