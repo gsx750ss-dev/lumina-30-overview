@@ -1,4 +1,4 @@
-<!-- EDITING POLICY START -->
+[//]: # (EDITING POLICY START)
 
 <!-- ===================================================== -->
 <!-- LUMINA-30 README EDIT PROTECTION BLOCK (DO NOT REMOVE) -->
@@ -117,7 +117,7 @@ If unsure, do NOT modify and ask for clarification.
 <!-- END PROTECTION BLOCK  -->
 <!-- ===================== -->
 
-<!-- EDITING POLICY END -->
+[//]: # (EDITING POLICY END)
 
 
 # LUMINA-30 Overview
