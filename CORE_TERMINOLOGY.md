@@ -1,29 +1,38 @@
-LUMINA-30 Core Terminology
-LUMINA-30 コア用語
++ # LUMINA-30 Core Terminology (Minimal Standard)
 
-The following terms are fixed and must not be altered.
-以下の用語は固定されており、変更してはならない。
++ This file defines the fixed core terminology of LUMINA-30.
++ The following terms are fixed and must not be altered.
 
-- Pre-Irreversibility
-- Intervention Authority
-- Human Refusal Authority
-- Civilizational Gate
-- Irreversible Impact
-- Procedural Validity
-- Procedural Invalidity
-- Subject Attribution Irrelevance
+## Pre-Irreversibility
+A state in which intervention can still prevent irreversible external impact.
 
-Rules:
-ルール：
+## Intervention Authority
+The procedural right to halt, override, or refuse system execution prior to irreversible consequences.
 
-- No rephrasing
-  言い換え禁止
+## Human Refusal Authority
+The non-negotiable right of humans to refuse continuation, deployment, or execution of a system.
 
-- No synonym substitution
-  類義語への置換禁止
+## Civilizational Gate
+A boundary condition that must be satisfied before any action with potential irreversible impact is permitted.
 
-- No expansion of meaning
-  意味の拡張禁止
+## Irreversible Impact
+An outcome that cannot be undone within meaningful human or ecological timescales.
 
-- No additional terms introduced
-  新語追加禁止
+## Procedural Validity
+A condition in which intervention and review processes are properly executed and enforceable.
+
+## Procedural Invalidity
+A state in which intervention authority is bypassed, ignored, or rendered ineffective.
+
+## Subject Attribution Irrelevance
+Intervention authority remains valid regardless of perceived agency, autonomy, or self-claimed consciousness of the system.
+
++ ---
++
++ ## Rules
++
++ - No rephrasing  
++ - No synonym substitution  
++ - No expansion of meaning  
++ - No additional terms introduced
+
