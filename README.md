@@ -305,6 +305,7 @@ LUMINA-30を文明境界として定義する基礎スライド。
 人間文明と高度AIの関係を整理する文明境界モデル。
 
 
+
  [S52 (EN)](./slides/EN_S52_Threshold_Model.pdf) ｜  [S52 (JP)](./slides/JP_S52_Threshold_Model.pdf)
 
 — Illustration of the irreversible external impact threshold and the concept of a civilizational boundary.  
