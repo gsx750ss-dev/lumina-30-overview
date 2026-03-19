@@ -48,9 +48,10 @@ Refusal is the last safeguard of sovereignty.
  ---
 
 # Glossary / 用語集
-[Glossary](./Glossary.md)  
-— Definitions of key concepts used in the LUMINA-30 framework.  
+
+Definitions of key concepts used in the LUMINA-30 framework.  
 LUMINA-30フレームワークで使用される主要概念の定義集。
+[Glossary](./Glossary.md)  
 
 ---
 
@@ -145,9 +146,10 @@ Recommended reading order:
 2. Canonical Index（フレームワーク構造）
 3. 実務ツール（レビュー・ガバナンス適用）
 
-[Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)  
-— Infrastructure control framework for preventing irreversible external impact risks in advanced AI systems.  
+Infrastructure control framework for preventing irreversible external impact risks in advanced AI systems.  
 高度AIにおける不可逆的外界影響リスクを防ぐためのインフラ制御フレームワーク。
+[Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)  
+
 
 ---
 
@@ -179,9 +181,8 @@ LUMINA-30文明境界フレームワークの概念図。
 
 ## Civilizational Safety Checklist / 文明安全チェックリスト
 
-A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact.  
+A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact. 
 不可逆的影響の発生前に人間の拒否権が維持されているかを評価するための非依存型評価プロトコル。  
-
 [EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
 
 
@@ -189,7 +190,6 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 
 A structured post-event review protocol to analyze incidents under the civilizational boundary framework.  
 文明境界フレームワークに基づき、インシデントを分析するための構造化レビュー手順。  
-
 [EN Incident Review](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf) / [JP インシデントレビュー](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)
 
 
@@ -270,16 +270,20 @@ then refer to canonical texts.
 ---
 
 # Conceptual Structure / 思想構造
-[LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf)  
-— Structural overview of the LUMINA-30 framework showing the relationships between the civilizational boundary principle, governance layers, and technical safeguards.  
+
+Structural overview of the LUMINA-30 framework showing the relationships between the civilizational boundary principle, governance layers, and technical safeguards.  
 LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を示す思想体系の構造マップ。
+[LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf)  
+
 
 ---
 
 # Philosophical Foundations / 哲学的基盤
-[The AI Survival Theorem](./The_AI_Survival_Theorem.pdf)  
+
 A philosophical formulation derived from the LUMINA-30 dialogue framework that defines the condition under which human civilization remains the subject of its own future.  
 LUMINA-30問答から抽出された文明主体の存続条件を定式化した哲学的命題。
+[The AI Survival Theorem](./The_AI_Survival_Theorem.pdf)  
+
 
 ---
 
@@ -287,29 +291,26 @@ LUMINA-30問答から抽出された文明主体の存続条件を定式化し�
 
 **S01 Boundary / S01 境界 ** 
 
- [S01 (EN)](./slides/EN_S01_Boundary.pdf) ｜  [S01 (JP)](./slides/JP_S01_Boundary.pdf)
-
-— Defines the core structure of LUMINA-30 as a civilizational boundary.
+Defines the core structure of LUMINA-30 as a civilizational boundary.
 It establishes the relationship between human intervention authority, system progression, and irreversible impact.
 LUMINA-30を文明境界として定義する基礎スライド。
 人間の介入権・システム進行・不可逆影響の関係構造を示す。
+ [S01 (EN)](./slides/EN_S01_Boundary.pdf) ｜  [S01 (JP)](./slides/JP_S01_Boundary.pdf)
 
 
 ---
 
 ## Visual Concept Materials / 概念ビジュアル資料
 
+Explanation of the boundary model between human civilization and advanced AI systems.  
+人間文明と高度AIの関係を整理する文明境界モデル。
 [AI Civilizational Boundary](./LUMINA-30_AI_Civilizational_Boundary.pdf)  
 
-— Explanation of the boundary model between human civilization and advanced AI systems.  
-人間文明と高度AIの関係を整理する文明境界モデル。
 
 
-
- [S52 (EN)](./slides/EN_S52_Threshold_Model.pdf) ｜  [S52 (JP)](./slides/JP_S52_Threshold_Model.pdf)
-
-— Illustration of the irreversible external impact threshold and the concept of a civilizational boundary.  
+Illustration of the irreversible external impact threshold and the concept of a civilizational boundary.  
 不可逆的外界影響の臨界点と文明境界の概念を示す図。
+ [S52 (EN)](./slides/EN_S52_Threshold_Model.pdf) ｜  [S52 (JP)](./slides/JP_S52_Threshold_Model.pdf)
 
 
 ---
