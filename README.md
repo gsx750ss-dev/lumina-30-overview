@@ -222,15 +222,6 @@ Recommended reading path:
 Canonical Index → Incident Review Framework
 
 ---
-
-
-Core Terminology
-[View Core Terminology](./CORE_TERMINOLOGY.md)
-
-コア用語
-[コア用語を見る](./CORE_TERMINOLOGY.md)
-
----
 ## Start Here
 [Canonical Index](https://github.com/lumina-30/Lumi30-Index)
 
@@ -270,6 +261,14 @@ LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を�
 [The AI Survival Theorem](./The_AI_Survival_Theorem.pdf)  
 A philosophical formulation derived from the LUMINA-30 dialogue framework that defines the condition under which human civilization remains the subject of its own future.  
 LUMINA-30問答から抽出された文明主体の存続条件を定式化した哲学的命題。
+
+---
+
+## Slides
+
+- [S01 Boundary (EN)](./slides/EN_S01_Boundary.pdf)
+- [S01 Boundary (JP)](./slides/JP_S01_Boundary.pdf)
+
 
 ---
 
