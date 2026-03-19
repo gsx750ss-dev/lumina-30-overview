@@ -225,6 +225,14 @@ Canonical Index → Incident Review Framework
 
 ---
 
+
+Core Terminology
+[View Core Terminology](./CORE_TERMINOLOGY.md)
+
+コア用語
+[コア用語を見る](./CORE_TERMINOLOGY.md)
+
+---
 ## Start Here
 [Canonical Index](https://github.com/lumina-30/Lumi30-Index)
 
