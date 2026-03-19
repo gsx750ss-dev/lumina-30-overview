@@ -155,29 +155,15 @@ A structured post-event review protocol to analyze incidents under the civilizat
 
 [EN Incident Review](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf) / [JP インシデントレビュー](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)
 
+
 ---
 
-## G00 — Civilizational Boundary ｜ 文明の境界線
-Civilizational Boundary: Human Veto vs Irreversible AI Autonomy  
-文明の境界線：人類の拒絶権と不可逆的AI自律性  
-EN: [G00](figures/EN_G00_civilizational_boundary.png) ｜ JP: [G00](figures/JP_G00_civilizational_boundary.png)
 
-Overview  
-This diagram illustrates the fundamental civilizational boundary addressed by LUMINA-30.  
-It visualizes the structural transition from:  
-Human refusal authority  
-AI capability escalation  
-Irreversibility threshold  
-Irreversible AI autonomy  
-The boundary represents the point where human veto authority must remain preserved before irreversible external consequences emerge.
+## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
+This diagram illustrates the boundary condition explored by LUMINA-30.  
+この図は LUMINA-30 が扱う文明境界条件を示します。  
+EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.png)
 
-この図は、LUMINA-30が扱う文明的境界を示す概念図です。  
-この図は次の構造的移行を視覚化しています：  
-人間の拒絶権限  
-AI能力の拡張  
-不可逆閾値  
-不可逆的AI自律性  
-この境界は、不可逆的な外部結果が発生する前に人間の拒絶権が保持されるべき文明的境界を表しています。
 
 ---
 
@@ -193,12 +179,6 @@ This diagram illustrates possible strategic responses near critical AI threshold
 この図は AI臨界点に近づいたときの人類の戦略を示します。  
 EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png)
 
----
-
-## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
-This diagram illustrates the boundary condition explored by LUMINA-30.  
-この図は LUMINA-30 が扱う文明境界条件を示します。  
-EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.png)
 
 ---
 
