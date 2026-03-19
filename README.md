@@ -374,6 +374,18 @@ before potential irreversibility?
 
 ---
 
+
++ ## Core Terminology
++
++ LUMINA-30 defines a minimal set of operational terms for pre-irreversibility intervention and civilizational boundary conditions.
++ 
++ LUMINA-30は、不可逆前介入および文明境界条件に関する最小語彙を定義する。
++
++ - [Core Terminology (EN)](./CORE_TERMINOLOGY.md)
++ - [用語集（日本語）](./CORE_TERMINOLOGY_JP.md)
+ 
+---
+
 # License
 All LUMINA-30 materials are released under **CC0 (Public Domain)**.  
 LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
