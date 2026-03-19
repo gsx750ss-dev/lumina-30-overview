@@ -358,6 +358,14 @@ The following diagrams summarize the structural components of the LUMINA-30 fram
 ## A05 Incident Review Framework
 [A05](figures/A05_incident_review.png)
 
+Primary Review Question:
+Why was intervention not executed
+before potential irreversibility?
+
+主要レビュー質問：
+潜在的な不可逆性の前に、
+なぜ介入が実行されなかったのか。
+
 ---
 
 # License
