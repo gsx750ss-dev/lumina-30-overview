@@ -2,7 +2,9 @@
 Refusal is the last safeguard of sovereignty.  
 拒否は主権を守る最後の防壁である。
 
+
 ---
+
 
  ## Core Terminology
 
@@ -13,12 +15,15 @@ Refusal is the last safeguard of sovereignty.
  - [Core Terminology (EN)](./CORE_TERMINOLOGY.md)
  - [用語集（日本語）](./CORE_TERMINOLOGY_JP.md)
 
+
  ---
+
 
 # Glossary / 用語集
 [Glossary](./Glossary.md)  
 — Definitions of key concepts used in the LUMINA-30 framework.  
 LUMINA-30フレームワークで使用される主要概念の定義集。
+
 
 ---
 
