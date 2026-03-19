@@ -3,31 +3,6 @@ Refusal is the last safeguard of sovereignty.
 拒否は主権を守る最後の防壁である。
 
 
----
-
-
- ## Core Terminology
-
- LUMINA-30 defines a minimal set of operational terms for pre-irreversibility intervention and civilizational boundary conditions.
- 
- LUMINA-30は、不可逆前介入および文明境界条件に関する最小語彙を定義する。
-
- - [Core Terminology (EN)](./CORE_TERMINOLOGY.md)
- - [用語集（日本語）](./CORE_TERMINOLOGY_JP.md)
-
-
- ---
-
-
-# Glossary / 用語集
-[Glossary](./Glossary.md)  
-— Definitions of key concepts used in the LUMINA-30 framework.  
-LUMINA-30フレームワークで使用される主要概念の定義集。
-
-
----
-
-
 > A civilization remains free  
 > only while humans still possess  
 > the power to refuse.
@@ -56,6 +31,26 @@ LUMINA-30フレームワークで使用される主要概念の定義集。
 > 主権もまた  
 > 「最適化」の名のもとに  
 > 静かに失われる。
+
+
+---
+
+
+ ## Core Terminology
+
+ LUMINA-30 defines a minimal set of operational terms for pre-irreversibility intervention and civilizational boundary conditions.
+ 
+ LUMINA-30は、不可逆前介入および文明境界条件に関する最小語彙を定義する。
+
+ - [Core Terminology (EN)](./CORE_TERMINOLOGY.md)
+ - [用語集（日本語）](./CORE_TERMINOLOGY_JP.md)
+
+ ---
+
+# Glossary / 用語集
+[Glossary](./Glossary.md)  
+— Definitions of key concepts used in the LUMINA-30 framework.  
+LUMINA-30フレームワークで使用される主要概念の定義集。
 
 ---
 
