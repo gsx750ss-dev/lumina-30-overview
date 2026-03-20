@@ -375,6 +375,8 @@ LUMINA-30問答から抽出された文明主体の存続条件を定式化し�
 
 ## Slides (Quick Entry)
 
+Visual introduction (30-second understanding)
+
 Recommended order:
 
 1. Overview (S01)  
