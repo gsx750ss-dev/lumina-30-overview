@@ -379,14 +379,15 @@ LUMINA-30問答から抽出された文明主体の存続条件を定式化し�
 
 ## Slides (Quick Entry)
 
-Visual introduction (30-second understanding)
+Recommended reading order:
+S01 → S02 → S03 → S04
 
-Recommended order:
+S01: Boundary definition
+S02: Gate mechanism
+S03: Conceptual necessity
+S04: Operational flow
 
-1. Overview (S01)  
-2. Civilizational Gate (S02)  
-3. Conceptual Necessity (S03)  
-4. Operational Flow (S04)
+The S-series provides a minimal structural explanation of the LUMINA-30 framework from boundary definition to operational application.
 
 ---
 
