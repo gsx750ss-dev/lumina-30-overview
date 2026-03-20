@@ -84,6 +84,8 @@ Do not remove or reduce sections.
 
 # LUMINA-30 Overview
 
+LUMINA-30 provides a minimal pre-irreversibility framework for evaluating whether systems remain interruptible before irreversible impact.
+
 Refusal is the last safeguard of sovereignty.  
 拒否は主権を守る最後の防壁である。
 
