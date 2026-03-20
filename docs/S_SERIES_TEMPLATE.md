@@ -112,7 +112,10 @@ S06 = Operational (Decision)
 2. Do not rephrase core terminology  
 3. Do not reduce or expand information arbitrarily  
 4. Structure over design  
-5. One slide = one message  
+5. One slide = one message
+6. Each step must be visually separable
+7. Avoid text wrapping within steps
+
 
 ---
 
@@ -126,3 +129,10 @@ Output Rules:
 - Slide count must match
 - Line count per slide must match
 - Do not translate loosely; maintain structural equivalence
+
+
+### Generation Priority
+
+Structure must be preserved over completeness.
+Do not add explanatory text beyond defined constraints.
+
