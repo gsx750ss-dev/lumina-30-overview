@@ -386,7 +386,7 @@ Recommended order:
 
 ### English
 
-- S01: [Overview](./slides/EN_S01_Overview.pdf)  
+- S01: [Overview](./slides/EN_S01_Boundary.pdf)  
 - S02: [Civilizational Gate](./slides/EN_S02_Civilizational_Gate.pdf)  
 - S03: [Conceptual Necessity](./slides/EN_S03_Conceptual_Necessity.pdf)  
 - S04: [Operational Flow](./slides/EN_S04_Pre-Irreversibility_Flow.pdf)
@@ -395,7 +395,7 @@ Recommended order:
 
 ### Japanese (Reference)
 
-- S01: [概要](./slides/JP_S01_Overview.pdf)  
+- S01: [概要](./slides/JP_S01_Boundary.pdf)  
 - S02: [文明境界](./slides/JP_S02_Civilizational_Gate.pdf)  
 - S03: [概念的必然性](./slides/JP_S03_Conceptual_Necessity.pdf)  
 - S04: [実務フロー](./slides/JP_S04_Pre-Irreversibility_Flow.pdf)
