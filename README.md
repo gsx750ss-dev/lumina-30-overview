@@ -410,6 +410,13 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 
 ---
 
+**S05 Positioning (Reference) / S05 位置づけ**  
+Clarifies what LUMINA-30 is not and what it structurally represents.  
+LUMINA-30の位置づけを「非該当」と「構造定義」によって明確化する。  
+[S05 EN](./slides/EN_S05_Positioning_Boundary.pdf) ｜ [S05 JP](./slides/JP_S05_Positioning_Boundary.pdf)
+
+---
+
 ## Visual Concept Materials / 概念ビジュアル資料
 
 Explanation of the boundary model between human civilization and advanced AI systems.  
