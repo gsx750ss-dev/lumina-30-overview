@@ -367,17 +367,11 @@ LUMINA-30問答から抽出された文明主体の存続条件を定式化し�
 
 ## Slides
 
-**S01 Boundary**
-
+**S01 Boundary / S01 境界**  
 Defines the core structure of LUMINA-30 as a civilizational boundary.  
-It establishes the relationship between human intervention authority, system progression, and irreversible impact.
-
-**S01 境界**
-
 LUMINA-30を文明境界として定義する基礎スライド。  
-人間の介入権・システム進行・不可逆影響の関係構造を示す。  
-<br>
 [S01 EN](./slides/EN_S01_Boundary.pdf) ｜ [S01 JP](./slides/JP_S01_Boundary.pdf)
+
 
 ---
 
@@ -390,15 +384,11 @@ Explanation of the boundary model between human civilization and advanced AI sys
 
 ---
 
-**S52 Threshold Model**
-
-Illustration of the irreversible external impact threshold and the concept of a civilizational boundary.
-
-**S52 閾値モデル**
-
+**S52 Threshold Model / S52 閾値モデル**  
+Illustration of the irreversible external impact threshold and the concept of a civilizational boundary.  
 不可逆的外界影響の臨界点と文明境界の概念を示す図。  
-<br>
 [S52 EN](./slides/EN_S52_Threshold_Model.pdf) ｜ [S52 JP](./slides/JP_S52_Threshold_Model.pdf)
+
 
 ---
 
