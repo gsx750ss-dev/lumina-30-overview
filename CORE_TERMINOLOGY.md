@@ -38,8 +38,8 @@ Intervention authority remains valid regardless of perceived agency, autonomy, o
 
 ---
 
- Terminology Consistency Note
- Intervention Authority refers to effective human refusal authority over irreversible execution.
- Refusal Authority and Stop Authority are treated as equivalent operational expressions.
- Pre-irreversibility refers to a condition in which effective intervention remains possible prior to irreversible impact.
- Civilizational Gate refers to a pre-irreversibility evaluation layer where intervention validity is assessed prior to irreversible execution.
+ Terminology Consistency Note<br>
+ Intervention Authority refers to effective human refusal authority over irreversible execution.<br>
+ Refusal Authority and Stop Authority are treated as equivalent operational expressions.<br>
+ Pre-irreversibility refers to a condition in which effective intervention remains possible prior to irreversible impact.<br>
+ Civilizational Gate refers to a pre-irreversibility evaluation layer where intervention validity is assessed prior to irreversible execution.<br>
