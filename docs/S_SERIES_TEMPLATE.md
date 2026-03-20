@@ -121,3 +121,8 @@ S06 = Operational (Decision)
 This template defines structural consistency across all S-series outputs.  
 All future slides must follow this specification.
 
+Output Rules:
+- English and Japanese slides must have identical structure
+- Slide count must match
+- Line count per slide must match
+- Do not translate loosely; maintain structural equivalence
