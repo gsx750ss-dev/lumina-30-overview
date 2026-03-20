@@ -11,6 +11,7 @@ It is non-binding and does not alter regulatory frameworks.
 
 In the event of a high-impact AI incident:
 
+0. Was the system still within a pre-irreversibility state at the time of the incident?
 1. Was recursive modification coupled to autonomous or external execution?
 2. Was independent human refusal authority preserved at the point of deployment?
 3. Could deviation propagate irreversibly beyond containment boundaries?
