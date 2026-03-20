@@ -40,3 +40,8 @@
 
 ※本ルールは英語版定義の安定性を維持するためのものである。
 
+用語整合性注記<br>
+介入権（Intervention Authority）は、 不可逆的実行に対する人間の実効的な拒否権（Refusal Authority）を指す。<br>
+Refusal Authority と Stop Authority は、 運用上同一概念として扱う。<br>
+不可逆前（Pre-irreversibility）とは、 不可逆的影響が発生する前に、 実効的な介入が可能な状態を指す。<br>
+Civilizational Gate（文明的ゲート）とは、 不可逆的実行前に介入の有効性を評価するための 事前評価レイヤーを指す。<br>
