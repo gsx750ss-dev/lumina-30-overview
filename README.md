@@ -77,6 +77,10 @@ Do not remove or reduce sections.
 [//]: # (AI作業ルール)
 [//]: # (AIは上記ルール遵守)
 [//]: # (不明時は変更禁止)
+[//]: # (## Slide Generation Template)
+[//]: # (Defines the structure and generation rules for S-series slides.)
+[//]: # (スライド生成の構造とルールを定義します。)
+[//]: # ([S_SERIES_TEMPLATE](./docs/S_SERIES_TEMPLATE.md))
 
 # LUMINA-30 Overview
 
