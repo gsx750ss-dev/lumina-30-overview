@@ -161,6 +161,7 @@ Not AI behavior,
 but whether human refusal authority remains  
 before irreversible external impact.
 
+These documents are intended for researchers, governance institutions, and incident review bodies dealing with advanced AI systems.<br>
 This evaluation includes a pre-irreversibility check to determine whether effective intervention remained possible.<br>
 
 中核焦点：  
@@ -168,7 +169,8 @@ AIの振る舞いではなく、
 不可逆的外界影響の前に  
 人間の拒否権が残っているか。
 
-本評価では、不可逆化前に実効的介入が可能であったかを確認する。
+本評価では、不可逆化前に実効的介入が可能であったかを確認する。<br>
+本評価には、不可逆的影響が発生する前に実効的な介入が可能であったかを確認するプロセスが含まれる。<br>
 
 Positioning:  
 LUMINA-30 does not prescribe actions,  
