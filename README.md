@@ -3,10 +3,6 @@
 This document is structure-critical.  
 Do not remove or reduce sections.
 
-本ドキュメントは構造上重要です。  
-セクションの削除・削減は禁止されています。
-
-
 [//]: # (=====================================================)
 [//]: # (LUMINA-30 README EDIT PROTECTION BLOCK)
 [//]: # (This block must be preserved in all future versions)
