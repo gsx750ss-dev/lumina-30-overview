@@ -168,7 +168,6 @@ policies, or enforcement mechanisms.
 It defines a boundary condition.
 
 This evaluation includes a pre-irreversibility check to determine whether effective intervention remained possible.<br>
-<br>
 本評価は、有効な介入が依然として可能であったかを判断するために、不可逆前状態（Pre-Irreversibility）の確認を含む。<br>
 
 位置づけ：  
