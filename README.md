@@ -157,6 +157,9 @@ Not AI behavior,
 but whether human refusal authority remains  
 before irreversible external impact.
 
+This evaluation includes a pre-irreversibility check to determine whether effective intervention remained possible.
+本評価では、不可逆化前に実効的介入が可能であったかを確認する。
+
 中核焦点：  
 AIの振る舞いではなく、  
 不可逆的外界影響の前に  
