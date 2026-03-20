@@ -128,9 +128,8 @@ LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る�
 
 ## Glossary / 用語集
 
-Definitions of key concepts used in the LUMINA-30 framework.  
-LUMINA-30フレームワークで使用される主要概念の定義集。  
-<br>
+Definitions of key concepts used in the LUMINA-30 framework.  <br>
+LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 [Glossary](./Glossary.md)
 
 ---
