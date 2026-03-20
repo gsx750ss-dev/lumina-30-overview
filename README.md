@@ -344,6 +344,7 @@ Canonical Index → Incident Review Framework
 ---
 
 # Canonical References / 正典参照
+<!-- INDEX: DO NOT REMOVE →
 Primary canonical texts defining the LUMINA-30 civilizational boundary framework.  
 LUMINA-30文明境界フレームワークの正典文書。
 
@@ -411,6 +412,7 @@ Illustration of the irreversible external impact threshold and the concept of a 
 ---
 
 # Operational Governance Tools / 実務ガバナンスツール
+<!-- CORE: DO NOT REMOVE -->
 
 Practical tools for applying the LUMINA-30 framework  
 in governance, safety review, and institutional oversight contexts.
@@ -466,6 +468,7 @@ LUMINA-30は、高度な人工知能の存在下において文明主体を維�
 ---
 
 # Framework Structure ｜ フレームワーク構造
+<!-- STRUCTURE: DO NOT REMOVE →
 The following diagrams summarize the structural components of the LUMINA-30 framework.  
 以下の図は LUMINA-30 フレームワークの構造要素を示します。
 
