@@ -373,12 +373,32 @@ LUMINA-30問答から抽出された文明主体の存続条件を定式化し�
 
 ---
 
-## Slides
+## Slides (Quick Entry)
 
-**S01 Boundary / S01 境界**  
-Defines the core structure of LUMINA-30 as a civilizational boundary.  
-LUMINA-30を文明境界として定義する基礎スライド。  
-[S01 EN](./slides/EN_S01_Boundary.pdf) ｜ [S01 JP](./slides/JP_S01_Boundary.pdf)
+Recommended order:
+
+1. Overview (S01)  
+2. Civilizational Gate (S02)  
+3. Conceptual Necessity (S03)  
+4. Operational Flow (S04)
+
+---
+
+### English
+
+- S01: [Overview](./slides/EN_S01_Overview.pdf)  
+- S02: [Civilizational Gate](./slides/EN_S02_Civilizational_Gate.pdf)  
+- S03: [Conceptual Necessity](./slides/EN_S03_Conceptual_Necessity.pdf)  
+- S04: [Operational Flow](./slides/EN_S04_Pre-Irreversibility_Flow.pdf)
+
+---
+
+### Japanese (Reference)
+
+- S01: [概要](./slides/JP_S01_Overview.pdf)  
+- S02: [文明境界](./slides/JP_S02_Civilizational_Gate.pdf)  
+- S03: [概念的必然性](./slides/JP_S03_Conceptual_Necessity.pdf)  
+- S04: [実務フロー](./slides/JP_S04_Pre-Irreversibility_Flow.pdf)
 
 
 ---
