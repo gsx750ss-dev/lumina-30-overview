@@ -45,3 +45,8 @@ Irreversible includes physical, technical, institutional, economic, or time-cons
 
 English Definition:
 Optimization displacement refers to the gradual replacement of human judgment by algorithmic output, regardless of declared intent.
+
+Consistency Note
+This glossary aligns with CORE_TERMINOLOGY definitions.
+Certain terms (Intervention Authority, Refusal Authority, Stop Authority) are used interchangeably.
+
