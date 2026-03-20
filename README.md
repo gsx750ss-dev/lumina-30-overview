@@ -120,9 +120,8 @@ Refusal is the last safeguard of sovereignty.
 
 ## Core Terminology
 
-LUMINA-30 provides a minimal Pre-Irreversibility framework for evaluating whether systems remain interruptible before Irreversible Impact.
-LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る前に介入可能であるかを評価するための最小限のPre-Irreversibilityフレームワークを提供する。
-<br>
+LUMINA-30 provides a minimal Pre-Irreversibility framework for evaluating whether systems remain interruptible before Irreversible Impact.<br>
+LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る前に介入可能であるかを評価するための最小限のPre-Irreversibilityフレームワークを提供する。<br>
 [Core Terminology (EN)](./CORE_TERMINOLOGY.md) | [用語集（日本語）](./CORE_TERMINOLOGY_JP.md)
 
 ---
