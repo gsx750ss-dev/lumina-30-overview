@@ -423,16 +423,16 @@ LUMINA-30の位置づけを「非該当」と「構造定義」によって明�
 
 ## Visual Concept Materials / 概念ビジュアル資料
 
- ** S51 — Civilizational Boundary Map**
-Conceptual map of the LUMINA-30 boundary structure.
-LUMINA-30の境界構造を俯瞰する概念マップ。
+ ** S51 — Civilizational Boundary Map**<br>
+Conceptual map of the LUMINA-30 boundary structure.<br>
+LUMINA-30の境界構造を俯瞰する概念マップ。<br>
 [S51 EN](./slides/EN_S51_Civilizational_Boundary_Map.pdf) ｜  [S51 JP](./slides/JP_S51_Civilizational_Boundary_Map.pdf) 
 
 ---
 
-**S52 Threshold Model / S52 閾値モデル**  
-Illustration of the irreversible external impact threshold and the concept of a civilizational boundary.  
-不可逆的外界影響の臨界点と文明境界の概念を示す図。  
+**S52 Threshold Model / S52 閾値モデル**<br>
+Illustration of the irreversible external impact threshold and the concept of a civilizational boundary. <br> 
+不可逆的外界影響の臨界点と文明境界の概念を示す図。<br>
 [S52 EN](./slides/EN_S52_Threshold_Model.pdf) ｜ [S52 JP](./slides/JP_S52_Threshold_Model.pdf)
 
 
