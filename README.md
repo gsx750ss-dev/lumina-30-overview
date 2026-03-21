@@ -423,10 +423,10 @@ LUMINA-30の位置づけを「非該当」と「構造定義」によって明�
 
 ## Visual Concept Materials / 概念ビジュアル資料
 
-Explanation of the boundary model between human civilization and advanced AI systems.  
-人間文明と高度AIの関係を整理する文明境界モデル。  
-<br>
-[AI Civilizational Boundary](./LUMINA-30_AI_Civilizational_Boundary.pdf)
+ ** S51 — Civilizational Boundary Map**
+Conceptual map of the LUMINA-30 boundary structure.
+LUMINA-30の境界構造を俯瞰する概念マップ。
+[S51 EN](./slides/EN_S51_Civilizational_Boundary_Map.pdf) ｜  [S51 JP](./slides/JP_S51_Civilizational_Boundary_Map.pdf) 
 
 ---
 
