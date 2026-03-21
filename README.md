@@ -186,6 +186,9 @@ Start from Concept Diagrams,
 then move to Canonical References,  
 and finally to Operational Governance Tools.
 
+Primary use-case:
+Post-incident review and pre-irreversibility evaluation
+
 推奨読書順：  
 Concept Diagrams → Canonical References → Operational Governance Tools
 
@@ -528,6 +531,11 @@ before potential irreversibility?
 主要レビュー質問：  
 潜在的な不可逆性の前に、  
 なぜ介入が実行されなかったのか。
+
+---
+
+Repository DOI: https://doi.org/10.5281/zenodo.18850343<br>
+Paper DOI: https://doi.org/10.5281/zenodo.18824181
 
 ---
 
