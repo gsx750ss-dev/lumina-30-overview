@@ -423,7 +423,7 @@ LUMINA-30の位置づけを「非該当」と「構造定義」によって明�
 
 ## Visual Concept Materials / 概念ビジュアル資料
 
-**S51 — Civilizational Boundary Map**<br>
+**S51 — Civilizational Boundary Map / S51 文明境界マップ**<br>
 Conceptual map of the LUMINA-30 boundary structure.<br>
 LUMINA-30の境界構造を俯瞰する概念マップ。<br>
 [S51 EN](./slides/EN_S51_Civilizational_Boundary_Map.pdf) ｜  [S51 JP](./slides/JP_S51_Civilizational_Boundary_Map.pdf) 
