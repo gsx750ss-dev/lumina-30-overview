@@ -429,6 +429,15 @@ LUMINA-30の位置づけを「非該当」と「構造定義」によって明�
 
 ## Visual Concept Materials / 概念ビジュアル資料
 
+**S50 — AI Survival Theorem / S50 AI生存定理**<br>
+What are the conditions for civilizational survival?<br>
+Under what conditions can a civilization be sustained?<br>
+文明の生存条件とはなにか？<br>
+文明はどの条件のもとで存続し得るのか？<br>
+[S50 EN](./slides/EN_S50_AI_Survival_Theorem.pdf) ｜ [S50 JP](./slides/JP_S50_AI_Survival_Theorem.pdf)
+
+---
+
 **S51 — Civilizational Boundary Map / S51 文明境界マップ**<br>
 Conceptual map of the LUMINA-30 boundary structure.<br>
 LUMINA-30の境界構造を俯瞰する概念マップ。<br>
