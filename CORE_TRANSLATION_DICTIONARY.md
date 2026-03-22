@@ -5,13 +5,16 @@ This document defines the canonical terminology used across the LUMINA-30 framew
 All translations must follow these canonical expressions.
 No alternative wording or synonyms are allowed.
 
+Note: Japanese terms are provided for internal consistency and reference, and are not intended as globally standardized terminology.  
+注：日本語表現は内部的な整合性と参照のために提供されるものであり、国際的な標準用語を意図するものではありません。
+
 ---
 
 ## Rule
 
-- ⇆ indicates conceptual correspondence
-- [canonical] defines the mandatory expression
-- Always prioritize canonical expressions
+- ⇆ indicates conceptual correspondence  
+- [canonical] defines the mandatory expression  
+- Always prioritize canonical expressions  
 
 ---
 
