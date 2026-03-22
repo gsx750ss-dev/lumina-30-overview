@@ -376,14 +376,6 @@ LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を�
 <br>
 [LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf)
 
----
-
-## Philosophical Foundations / 哲学的基盤
-
-A philosophical formulation derived from the LUMINA-30 dialogue framework that defines the condition under which human civilization remains the subject of its own future.  
-LUMINA-30問答から抽出された文明主体の存続条件を定式化した哲学的命題。  
-<br>
-[The AI Survival Theorem](./The_AI_Survival_Theorem.pdf)
 
 ---
 
