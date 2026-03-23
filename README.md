@@ -84,6 +84,7 @@ Do not remove or reduce sections.
 [//]: # ([S_SERIES_TEMPLATE](./docs/S_SERIES_TEMPLATE.md))
 
 ---
+<!-- L30:ENTRY -->
 
 LUMINA-30 defines a civilizational boundary for AI systems.
 It introduces a single invariant missing from existing frameworks:
