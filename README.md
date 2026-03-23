@@ -121,6 +121,26 @@ Refusal is the last safeguard of sovereignty.
 
 ---
 
+
+## Positioning
+
+LUMINA-30 is not another AI ethics framework.
+
+It defines a missing boundary condition across existing systems:
+
+- NIST / ISO → manage risk
+- RSP / Preparedness → gate capability
+- OECD / AIID → learn from incidents
+- UNESCO / EU → require human oversight
+
+But none guarantee:
+
+> Human refusal remains effective before irreversible impact.
+
+LUMINA-30 introduces this as a **non-negotiable validity condition**.
+
+---
+
 ## Core Terminology
 
 Key terms such as Intervention Authority, Refusal Authority, and Stop Authority are used interchangeably to denote effective human control over irreversible execution.  
@@ -268,7 +288,6 @@ LUMINA-30文明境界フレームワークの概念図。
 
 ---
 
-
 ## G00 — Irreversible Progression Structure ｜ 不可逆進行構造
 
 This diagram illustrates a state in which systems progress toward irreversible outcomes  
@@ -296,6 +315,17 @@ A structured post-event review protocol to analyze incidents under the civilizat
 文明境界フレームワークに基づき、インシデントを分析するための構造化レビュー手順。  
 <br>
 [EN Incident Review](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf) / [JP インシデントレビュー](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)
+
+---
+
+### Additional Review Questions (LUMINA-30 Layer)
+
+- What would have made this system stop before the incident?
+- Was human refusal possible at the critical point?
+- Was that refusal effective in practice?
+- If not, where did procedural authority fail?
+
+If refusal was not effective, the system was invalid before the incident occurred.
 
 ---
 
@@ -343,6 +373,22 @@ This diagram explores how the framework appears from an advanced AI perspective.
 EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
 
 ---
+
+
+## LUMINA-30 vs Existing AI Governance Frameworks
+
+| Framework | Core Function | Strength | Limitation | Gap LUMINA-30 Fills |
+|----------|-------------|----------|------------|---------------------|
+| NIST AI RMF | Risk management lifecycle (Govern / Map / Measure / Manage) | Operational, widely adoptable | No explicit procedural refusal authority | Adds "valid human refusal condition" to governance layer |
+| ISO/IEC 42001 / 42005 | AI management system / impact assessment | Organizational integration, compliance-ready | Focus on management, not stopping conditions | Introduces pre-irreversibility stop boundary |
+| Anthropic Responsible Scaling Policy (RSP) | Capability threshold gating (ASL levels) | Strong pre-deployment safety gating | Internal policy, not civilizational boundary | Adds external, non-delegable human authority |
+| OpenAI Preparedness Framework | Risk-based deployment gating | Links capability with deployment control | Organization-scoped | Adds procedural refusal validity beyond org scope |
+| OECD AI Incident Framework | Incident reporting & analysis | Shared vocabulary, cross-border usability | Post-incident focused | Adds "what should have stopped this before" |
+| AI Incident Database (AIID) | Incident data accumulation | Empirical grounding | No normative boundary | Adds decision criteria for prevention |
+| UNESCO / Human Oversight | Human-in-the-loop governance | Global legitimacy | Oversight ≠ enforceable refusal | Defines enforceable human refusal authority |
+
+---
+
 
 ## Start Here
 
