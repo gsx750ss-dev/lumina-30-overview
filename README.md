@@ -83,11 +83,14 @@ Do not remove or reduce sections.
 [//]: # (スライド生成の構造とルールを定義します。)
 [//]: # ([S_SERIES_TEMPLATE](./docs/S_SERIES_TEMPLATE.md))
 
+---
+
 LUMINA-30 defines a civilizational boundary for AI systems.
 It introduces a single invariant missing from existing frameworks:
 Human refusal must remain effective before irreversible impact.
 This is not a replacement framework, but a boundary condition across all AI governance layers.
 
+---
 
 # LUMINA-30 Overview
 
