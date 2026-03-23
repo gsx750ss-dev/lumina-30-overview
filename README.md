@@ -83,11 +83,7 @@ Do not remove or reduce sections.
 <!-- スライド生成の構造とルールを定義します。 -->
 <!-- [S_SERIES_TEMPLATE](./docs/S_SERIES_TEMPLATE.md) -->
 
-
-
 ---
-
-
 <!-- L30:ENTRY -->
 LUMINA-30 defines a civilizational boundary for AI systems.
 It introduces a single invariant missing from existing frameworks:
@@ -166,7 +162,6 @@ LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る�
 + All translations and references must follow the canonical expressions defined in this dictionary.  
 + 用語の正式定義は [CORE_TRANSLATION_DICTIONARY.md](./CORE_TRANSLATION_DICTIONARY.md) に記載されています。すべての翻訳および参照は、この辞書の正規表現（canonical）に準拠する必要があります。
 
-
 ---
 <!-- L30:GLOSSARY -->
 ## Glossary / 用語集
@@ -176,14 +171,14 @@ LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 [Glossary](./Glossary.md)
 
 ---
-
+<!-- L30:QUICK -->
 ## Quick Entry
 
 [Canonical Index](https://github.com/lumina-30/Lumi30-Index)  
 [AI Incident Review Framework](https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf)
 
 ---
-
+<!-- L30:WHAT -->
 ## What is LUMINA-30
 
 LUMINA-30 is a non-binding civilizational reference framework  
@@ -246,7 +241,7 @@ before potential irreversibility?
 なぜ介入が実行されなかったのか。
 
 ---
-
+<!-- L30:RESEARCH -->
 ## Research Paper / 研究論文
 
 This research paper introduces the PCR-C concept,  
@@ -273,7 +268,7 @@ Infrastructure control framework for preventing irreversible external impact ris
 [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
 
 ---
-
+<!-- L30:ENTRY_POINT -->
 ## LUMINA-30 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
 
 The central AI safety problem may not be AI behaviour,  
@@ -283,7 +278,7 @@ AIの振る舞いではなく
 人間社会の「拒否権（Refusal Authority）」の喪失かもしれない。
 
 ---
-
+<!-- L30:CONCEPT -->
 ## Concept Diagrams ｜ 概念図
 
 These diagrams present the conceptual structure of the LUMINA-30 framework.
@@ -299,7 +294,7 @@ reach the point of irreversible external impact.
 LUMINA-30文明境界フレームワークの概念図。
 
 ---
-
+<!-- L30:G00 -->
 ## G00 — Irreversible Progression Structure ｜ 不可逆進行構造
 
 This diagram illustrates a state in which systems progress toward irreversible outcomes  
@@ -311,7 +306,7 @@ without a structural point of intervention.
 EN: [G00](figures/EN_G00_Framework.png) ｜ JP: [G00](figures/JP_G00_Framework.png)
 
 ---
-
+<!-- L30:CHECKLIST -->
 ## Civilizational Safety Checklist / 文明安全チェックリスト
 
 A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact.  
@@ -320,7 +315,7 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 [EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
 
 ---
-
+<!-- L30:INCIDENT -->
 ## AI Incident Review Template / インシデントレビュー
 
 A structured post-event review protocol to analyze incidents under the civilizational boundary framework.  
@@ -329,7 +324,7 @@ A structured post-event review protocol to analyze incidents under the civilizat
 [EN Incident Review](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf) / [JP インシデントレビュー](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)
 
 ---
-
+<!-- L30:QUESTIONS -->
 ### Additional Review Questions (LUMINA-30 Layer)
 
 - What would have made this system stop before the incident?
@@ -340,7 +335,7 @@ A structured post-event review protocol to analyze incidents under the civilizat
 If refusal was not effective, the system was invalid before the incident occurred.
 
 ---
-
+<!-- L30:G01 -->
 ## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
 
 This diagram illustrates the boundary condition explored by LUMINA-30.  
@@ -349,7 +344,7 @@ This diagram illustrates the boundary condition explored by LUMINA-30.
 EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.png)
 
 ---
-
+<!-- L30:G02 -->
 ## G02 — Civilizational Outcome Model ｜ 文明結果モデル
 
 This diagram models the relationship between AI capability growth and civilizational outcomes.  
@@ -358,7 +353,7 @@ This diagram models the relationship between AI capability growth and civilizati
 EN: [G02](figures/EN_G02_Boundary.png) ｜ JP: [G02](figures/JP_G02_Boundary.png)
 
 ---
-
+<!-- L30:G03 -->
 ## G03 — Civilizational Survival Strategy ｜ 文明存続戦略
 
 This diagram illustrates possible strategic responses near critical AI thresholds.  
@@ -367,7 +362,7 @@ This diagram illustrates possible strategic responses near critical AI threshold
 EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png)
 
 ---
-
+<!-- L30:G04 -->
 ## G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構
 
 This diagram explains the PCR-C governance mechanism.  
@@ -376,7 +371,7 @@ This diagram explains the PCR-C governance mechanism.
 EN: [G04](figures/EN_G04_PCRC.png) ｜ JP: [G04](figures/JP_G04_PCRC.png)
 
 ---
-
+<!-- L30:G05 -->
 ## G05 — AI Perspective ｜ AI視点
 
 This diagram explores how the framework appears from an advanced AI perspective.  
@@ -385,8 +380,7 @@ This diagram explores how the framework appears from an advanced AI perspective.
 EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
 
 ---
-
-
+<!-- L30:COMPARISON -->
 ## LUMINA-30 vs Existing AI Governance Frameworks
 
 | Framework | Core Function | Strength | Limitation | Gap LUMINA-30 Fills |
@@ -400,8 +394,7 @@ EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Per
 | UNESCO / Human Oversight | Human-in-the-loop governance | Global legitimacy | Oversight ≠ enforceable refusal | Defines enforceable human refusal authority |
 
 ---
-
-
+<!-- L30:START -->
 ## Start Here
 
 Explore the core LUMINA-30 documents.  
@@ -416,7 +409,7 @@ Canonical Index → Incident Review Framework
 [AI Incident Review Framework](https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf)
 
 ---
-
+<!-- L30:CANONICAL --
 ## Canonical References / 正典参照
 <!-- STRUCTURE: DO NOT REMOVE -->
 
@@ -439,7 +432,7 @@ then refer to canonical texts.
 [Canonical Text (Full Text) / 正典本文](https://github.com/lumina-30/Lumi30-FullText)
 
 ---
-
+<!-- L30:MAP -->
 ## Conceptual Structure / 思想構造
 
 Structural overview of the LUMINA-30 framework showing the relationships between the civilizational boundary principle, governance layers, and technical safeguards.  
@@ -449,7 +442,7 @@ LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を�
 
 
 ---
-
+<!-- L30:SLIDES -->
 ## Slides (Quick Entry)
 
 Recommended reading order:
