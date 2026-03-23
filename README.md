@@ -133,7 +133,6 @@ Refusal is the last safeguard of sovereignty.
 > 静かに失われる。
 
 ---
-
 <!-- L30:POSITION -->
 ## Positioning
 
@@ -169,7 +168,7 @@ LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る�
 
 
 ---
-
+<!-- L30:GLOSSARY -->
 ## Glossary / 用語集
 
 Definitions of key concepts used in the LUMINA-30 framework.  <br>
