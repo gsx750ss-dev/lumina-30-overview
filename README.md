@@ -87,15 +87,15 @@ Do not remove or reduce sections.
 
 ---
 
-<!-- L30:ENTRY -->
 
+<!-- L30:ENTRY -->
 LUMINA-30 defines a civilizational boundary for AI systems.
 It introduces a single invariant missing from existing frameworks:
 Human refusal must remain effective before irreversible impact.
 This is not a replacement framework, but a boundary condition across all AI governance layers.
 
 ---
-
+<!-- L30:OVERVIEW -->
 # LUMINA-30 Overview
 
 LUMINA-30 provides a minimal pre-irreversibility framework for evaluating whether systems remain interruptible before irreversible impact.
@@ -134,7 +134,7 @@ Refusal is the last safeguard of sovereignty.
 
 ---
 
-
+<!-- L30:POSITION -->
 ## Positioning
 
 LUMINA-30 is not another AI ethics framework.
@@ -153,7 +153,7 @@ But none guarantee:
 LUMINA-30 introduces this as a **non-negotiable validity condition**.
 
 ---
-
+<!-- L30:TERMINOLOGY -->
 ## Core Terminology
 
 Key terms such as Intervention Authority, Refusal Authority, and Stop Authority are used interchangeably to denote effective human control over irreversible execution.  
