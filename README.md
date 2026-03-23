@@ -268,6 +268,19 @@ LUMINA-30文明境界フレームワークの概念図。
 
 ---
 
+
+## G00 — Irreversible Progression Structure ｜ 不可逆進行構造
+
+This diagram illustrates a state in which systems progress toward irreversible outcomes  
+without a structural point of intervention.
+
+この図は、不可逆的な結果へ向かって進行する構造において、  
+介入可能な停止点が存在しない状態を示します。
+<br>
+EN: [G00](figures/EN_G00_Framework.png) ｜ JP: [G00](figures/JP_G00_Framework.png)
+
+---
+
 ## Civilizational Safety Checklist / 文明安全チェックリスト
 
 A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact.  
