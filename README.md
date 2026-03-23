@@ -83,7 +83,9 @@ Do not remove or reduce sections.
 [//]: # (スライド生成の構造とルールを定義します。)
 [//]: # ([S_SERIES_TEMPLATE](./docs/S_SERIES_TEMPLATE.md))
 
+
 ---
+
 <!-- L30:ENTRY -->
 
 LUMINA-30 defines a civilizational boundary for AI systems.
