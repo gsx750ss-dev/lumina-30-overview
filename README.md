@@ -409,7 +409,7 @@ Canonical Index → Incident Review Framework
 [AI Incident Review Framework](https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf)
 
 ---
-<!-- ● L30:CANONICAL --
+<!-- ● L30:CANONICAL -->
 ## Canonical References / 正典参照
 <!-- STRUCTURE: DO NOT REMOVE -->
 
@@ -482,9 +482,10 @@ LUMINA-30の位置づけを「非該当」と「構造定義」によって明�
 [S05 EN](./slides/EN_S05_Positioning_Boundary.pdf) ｜ [S05 JP](./slides/JP_S05_Positioning_Boundary.pdf)
 
 ---
-
+<!-- ● L30:VISUALS -->
 ## Visual Concept Materials / 概念ビジュアル資料
 
+<!-- ● L30:S50 -->
 **S50 — Civilizational Survival Theorem / S50 文明生存定理**<br>
 What are the conditions for civilizational survival?<br>
 Under what conditions can a civilization be sustained?<br>
@@ -508,7 +509,7 @@ Illustration of the irreversible external impact threshold and the concept of a 
 
 
 ---
-
+<!-- ● L30:OPERATIONAL -->
 ## Operational Governance Tools / 実務ガバナンスツール
 <!-- STRUCTURE: DO NOT REMOVE -->
 
@@ -552,7 +553,7 @@ Practical review checklist for evaluating AI systems and governance decisions be
 [Civilizational Safety Checklist](./LUMINA-30_Civilizational_Safety_Checklist.pdf)
 
 ---
-
+<!-- ● L30:SCOPE -->
 ## Position and Scope / 位置づけ
 
 LUMINA-30 does not propose policies, implementation requirements, or enforcement mechanisms.  
@@ -561,7 +562,7 @@ Instead, it defines a civilizational boundary concept intended to preserve human
 本フレームワークは、不可逆的外界影響が成立する前段階において、人間の拒否権を保持するための文明的境界概念を提示します。
 
 ---
-
+<!-- ● L30:CONTEXT -->
 ## Civilizational Context / 文明的文脈
 
 LUMINA-30 records a boundary concept for preserving civilizational agency in the presence of advanced artificial intelligence.  
@@ -572,7 +573,7 @@ LUMINA-30は、高度な人工知能の存在下において文明主体を維�
 しかし、人類がAIの不可逆的外界影響という問題に直面した際に参照可能な、一つの到達点として公開されています。
 
 ---
-
+<!-- ● L30:STRUCTURE -->
 ## Framework Structure ｜ フレームワーク構造
 <!-- STRUCTURE: DO NOT REMOVE -->
 
@@ -610,7 +611,7 @@ Repository DOI: https://doi.org/10.5281/zenodo.18850343<br>
 Paper DOI: https://doi.org/10.5281/zenodo.18824181
 
 ---
-
+<!-- ● L30:LICENSE -->
 ## License
 
 All LUMINA-30 materials are released under **CC0 (Public Domain)**.  
