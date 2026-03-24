@@ -91,6 +91,24 @@ Human refusal must remain effective before irreversible impact.
 This is not a replacement framework, but a boundary condition across all AI governance layers.
 
 ---
+<!-- ● L30:ENTRY_10SEC -->
+## Start Here (10-Second Overview)
+LUMINA-30 is a civilizational boundary framework for AI systems.
+It defines a single invariant:
+
+**Human refusal must remain effective before irreversible impact.**
+This repository provides:
+- A **pre-incident boundary** (what must hold before deployment)
+- A **post-incident review framework** (how failures are evaluated)
+It does not prescribe actions, policies, or alignment strategies.
+
+---
+**Quick Entry**
+- [Conceptual Map (1-page)](./docs/LUMINA-30_Conceptual_Map.pdf)
+- [S50 — Civilizational Survival Theorem](./slides/EN_S50_Civilizational_Survival_Theorem.pdf)
+- [Incident Review Framework](./docs/Recursive_AI_Incident_Review_Framework.md)
+
+---
 <!-- ● L30:OVERVIEW -->
 # LUMINA-30 Overview
 
