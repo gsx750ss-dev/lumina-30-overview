@@ -81,7 +81,7 @@ Do not remove or reduce sections.
 <!-- ## Slide Generation Template -->
 <!-- Defines the structure and generation rules for S-series slides. -->
 <!-- スライド生成の構造とルールを定義します。 -->
-<!-- [S_SERIES_TEMPLATE](./docs/S_SERIES_TEMPLATE.md) -->
+<!-- [S_SERIES_TEMPLATE](./docs/L30_S_SERIES_TEMPLATE.md) -->
 
 ---
 <!-- ● L30:ENTRY -->
@@ -155,12 +155,12 @@ Key terms such as Intervention Authority, Refusal Authority, and Stop Authority 
 LUMINA-30 provides a minimal Pre-Irreversibility framework for evaluating whether systems remain interruptible before Irreversible Impact.<br>
 LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る前に介入可能であるかを評価するための最小限のPre-Irreversibilityフレームワークを提供する。<br>
 
-[Core Terminology (EN)](./CORE_TERMINOLOGY.md) | [用語集（日本語）](./CORE_TERMINOLOGY_JP.md)
+[Core Terminology (EN)](./docs/L30_CORE_TERMINOLOGY.md) | [用語集（日本語）](./docs/L30_CORE_TERMINOLOGY_JP.md))
 
 + **Core Terminology / 用語定義**  
-+ Core terminology is formally defined in [CORE_TRANSLATION_DICTIONARY.md](./CORE_TRANSLATION_DICTIONARY.md).  
++ Core terminology is formally defined in [L30_CORE_TRANSLATION_DICTIONARY.md](./L30_CORE_TRANSLATION_DICTIONARY.md).  
 + All translations and references must follow the canonical expressions defined in this dictionary.  
-+ 用語の正式定義は [CORE_TRANSLATION_DICTIONARY.md](./CORE_TRANSLATION_DICTIONARY.md) に記載されています。すべての翻訳および参照は、この辞書の正規表現（canonical）に準拠する必要があります。
++ 用語の正式定義は [L30_CORE_TRANSLATION_DICTIONARY.md](./L30_CORE_TRANSLATION_DICTIONARY.md) に記載されています。すべての翻訳および参照は、この辞書の正規表現（canonical）に準拠する必要があります。
 
 ---
 <!-- ● L30:GLOSSARY -->
@@ -168,7 +168,7 @@ LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る�
 
 Definitions of key concepts used in the LUMINA-30 framework.  <br>
 LUMINA-30フレームワークで使用される主要概念の定義集。<br>
-[Glossary](./Glossary.md)
+[Glossary](./docs/L30_Glossary.md)
 
 ---
 <!-- ● L30:QUICK -->
@@ -473,7 +473,6 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 - S03: [概念的必然性](./slides/JP_S03_Conceptual_Necessity.pdf)  
 - S04: [実務フロー](./slides/JP_S04_Pre-Irreversibility_Flow.pdf)
 
-
 ---
 
 **S05 Positioning (Reference) / S05 位置づけ**  
@@ -529,21 +528,21 @@ then apply Incident Review and Checklist for evaluation and decision processes.
 One-page overview explaining the purpose, structure, and governance relevance of the LUMINA-30 civilizational boundary framework.  
 LUMINA-30文明境界フレームワークの目的・構造・ガバナンス上の意義をまとめた1ページ概要。  
 <br>
-[Institutional Summary (1 Page)](./Institutional_Summary_1Page.md)
+[Institutional Summary (1 Page)](./docs/Institutional_Summary_1Page.md)
 
 ---
 
 Post-incident review framework for analyzing failures, risks, and oversight breakdowns in autonomous or recursively improving AI systems.  
 自律型または再帰的自己改良AIに関する事故・リスク・監督崩壊を検証するための事後レビュー枠組み。  
 <br>
-[Recursive AI Incident Review Framework](./Recursive_AI_Incident_Review_Framework.md)
+[Recursive AI Incident Review Framework](./docs/Recursive_AI_Incident_Review_Framework.md)
 
 ---
 
 Example showing how LUMINA-30 concepts can be integrated into AI governance, safety reviews, and institutional oversight processes.  
 LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ統合する方法を示す参考例。  
 <br>
-[Sample Integration Note](./Sample_Integration_Note.md)
+[Sample Integration Note](./docs/Sample_Integration_Note.md)
 
 ---
 
