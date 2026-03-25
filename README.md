@@ -93,6 +93,7 @@ This is not a replacement framework, but a boundary condition across all AI gove
 ---
 <!-- ● L30:ENTRY_VISUAL -->
 <img src="figures/EN_G00_Irreversibility_Boundary.png" width="900">
+<img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 <img src="figures/EN_G01_Framework.png" width="900">
 <img src="figures/EN_G02_Boundary.png" width="900">
 
