@@ -92,32 +92,16 @@ This is not a replacement framework, but a boundary condition across all AI gove
 
 ---
 <!-- ● L30:ENTRY_VISUAL -->
-<img src="figures/EN_G00_Approaching_Boundary.png" width="900">
-<img src="figures/EN_G01_Framework.png" width="900">
-<img src="figures/EN_G02_Boundary.png" width="900">
+<a href="figures/EN_G00_Approaching_Boundary.png" target="_blank">
+  <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
+</a>
 
----
-<!-- ● L30:VISUAL_ENTRY -->
-## Concept Visuals ｜ 概念ビジュアル
-<a href="graphics/EN_G00_Approaching_Boundary.png" target="_blank">
-  <img src="graphics/EN_G00_Approaching_Boundary.png" width="900">
+<a href="figures/EN_G01_Framework.png" target="_blank">
+  <img src="figures/EN_G01_Framework.png" width="900">
 </a>
-<a href="graphics/EN_G01_LUMINA-30_Framework_Overview.png" target="_blank">
-  <img src="graphics/EN_G01_LUMINA-30_Framework_Overview.png" width="900">
-</a>
-LUMINA-30 defines a civilizational boundary for AI systems.
 
-<a href="graphics/EN_G02_Civilizational_Boundaries.png" target="_blank">
-  <img src="graphics/EN_G02_Civilizational_Boundaries.png" width="900">
-</a>
-<a href="graphics/EN_G03_Civilizational_Survival_Strategy.png" target="_blank">
-  <img src="graphics/EN_G03_Civilizational_Survival_Strategy.png" width="900">
-</a>
-<a href="graphics/EN_G04_AI_Governance_Integration_Map.png" target="_blank">
-  <img src="graphics/EN_G04_AI_Governance_Integration_Map.png" width="900">
-</a>
-<a href="graphics/EN_G05_AI_Perspective.png" target="_blank">
-  <img src="graphics/EN_G05_AI_Perspective.png" width="900">
+<a href="figures/EN_G02_Boundary.png" target="_blank">
+  <img src="figures/EN_G02_Boundary.png" width="900">
 </a>
 
 ---
