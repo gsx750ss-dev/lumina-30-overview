@@ -1,9 +1,3 @@
-## Editing Rule
-
-This document is structure-critical.  
-Do not remove or reduce sections.
-
-
 <!-- ===================================================== -->
 <!-- LUMINA-30 README EDIT PROTECTION BLOCK -->
 <!-- This block must be preserved in all future versions -->
@@ -651,3 +645,8 @@ Paper DOI: https://doi.org/10.5281/zenodo.18824181
 All LUMINA-30 materials are released under **CC0 (Public Domain)**.  
 LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
 
+---
+## Editing Rule
+
+This document is structure-critical.  
+Do not remove or reduce sections.
