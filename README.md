@@ -104,6 +104,18 @@ This is not a replacement framework, but a boundary condition across all AI gove
   <img src="figures/EN_G02_Boundary.png" width="900">
 </a>
 
+<a href="figures/EN_G03_Civilizational_Survival_Strategy.png" target="_blank">
+  <img src="figures/EN_G03_Civilizational_Survival_Strategy.png" width="900">
+</a>
+
+<a href="figures/EN_G04_PCR-C_Governance_Model.png" target="_blank">
+  <img src="figures/EN_G04_PCR-C_Governance_Model.png" width="900">
+</a>
+
+<a href="figures/EN_G05_AI_Perspective.png" target="_blank">
+  <img src="figures/EN_G05_AI_Perspective.png" width="900">
+</a>
+
 ---
 <!-- ● L30:OVERVIEW -->
 # LUMINA-30 Overview
