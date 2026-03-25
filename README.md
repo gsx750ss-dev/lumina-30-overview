@@ -117,6 +117,15 @@ This is not a replacement framework, but a boundary condition across all AI gove
 </a>
 
 ---
+<!-- ● L30:S50_HOOK -->
+What is the Great Filter?
+
+- At what point does progress become irreversible?
+- When does optimization eliminate refusal?
+- Can a system continue without human rejection?
+- What remains when intervention is no longer possible?
+
+---
 <!-- ● L30:OVERVIEW -->
 # LUMINA-30 Overview
 
