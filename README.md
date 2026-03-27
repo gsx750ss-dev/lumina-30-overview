@@ -114,6 +114,22 @@ This is not a replacement framework, but a boundary condition across all AI gove
   <img src="figures/EN_G06_Critical_Boundary.png" width="900">
 </a>
 
+  ---
+  <!-- ● L30:READING_PATH -->
+  ## Start Here (30s Path)
+ 
+  If you are new to LUMINA-30:
+ 
+  1. View the concept diagrams (G00–G06) above  
+  2. Read the Overview section below  
+  3. Proceed to Canonical Index or Incident Review Framework
+ 
+  初めての場合：
+ 
+  1. 上の概念図（G00〜G06）を見る  
+  2. 下のOverviewを読む  
+  3. CanonicalまたはIncident Reviewへ進む
+
 ---
 <!-- ● L30:S50_HOOK -->
 What is the Great Filter?
