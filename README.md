@@ -110,6 +110,10 @@ This is not a replacement framework, but a boundary condition across all AI gove
   <img src="figures/EN_G05_AI_Perspective.png" width="900">
 </a>
 
+<a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
+  <img src="figures/EN_G06_Critical_Boundary.png" width="900">
+</a>
+
 ---
 <!-- ● L30:S50_HOOK -->
 What is the Great Filter?
