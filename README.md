@@ -398,6 +398,20 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 <!-- ● L30:INCIDENT -->
 ## AI Incident Review Template / インシデントレビュー
 
+  ---
+  ### Example Incident Evaluations (LUMINA-30)
+ 
+  Minimal case-based applications of the boundary condition:
+ 
+  - Flash Crash (2010)
+  - Closed-Loop Review Failure
+  - Medical AI Misdiagnosis Scenario
+ 
+  See full cases:
+  ./examples/
+ 
+  ---
+
 A structured post-event review protocol to analyze incidents under the civilizational boundary framework.  
 文明境界フレームワークに基づき、インシデントを分析するための構造化レビュー手順。  
 <br>
