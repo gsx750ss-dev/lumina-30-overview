@@ -117,9 +117,29 @@ This is not a replacement framework, but a boundary condition across all AI gove
   <img src="figures/EN_G05_AI_Perspective.png" width="900">
 </a>
 
+<!-- ● L30:BOUNDARY_DECISION -->
+## Critical Boundary (G06) / 臨界境界
+
+**Validity Condition / 成立条件**
+
+A system is procedurally invalid if it cannot be stopped at the critical point before irreversible impact.
+
+不可逆的影響に至る前の臨界点において停止できないシステムは、手続き的に無効である。
+
 <a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
   <img src="figures/EN_G06_Critical_Boundary.png" width="900">
 </a>
+
+**Incident Review Sample Cases / インシデントレビュー用サンプル事例**
+
+These sample cases illustrate how LUMINA-30 can be used to evaluate whether human refusal remained effective before irreversible impact.
+
+これらのサンプル事例は、不可逆的影響の前に人間の拒否が実効性を維持していたかを、
+LUMINA-30 によって評価するための参照例です。
+
+- [Flash Crash / フラッシュクラッシュ](./examples/flash-crash.md)
+- [Closed-Loop Review / 閉ループ審査](./examples/closed-loop-review.md)
+- [Medical AI / 医療AI](./examples/medical-ai.md)
 
   ---
   <!-- ● L30:READING_PATH -->
