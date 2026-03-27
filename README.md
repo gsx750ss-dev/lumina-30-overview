@@ -141,6 +141,10 @@ LUMINA-30 によって評価するための参照例です。
 - [Closed-Loop Review / 閉ループ審査](./examples/closed-loop-review.md)
 - [Medical AI / 医療AI](./examples/medical-ai.md)
 
+
+If this cannot be stopped, it must not be allowed to run.<br>
+これを止められないなら、そのシステムは稼働させてはならない。
+
   ---
   <!-- ● L30:READING_PATH -->
   ## Start Here (30s Path)
