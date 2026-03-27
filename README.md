@@ -84,6 +84,13 @@ It introduces a single invariant missing from existing frameworks:
 Human refusal must remain effective before irreversible impact.
 This is not a replacement framework, but a boundary condition across all AI governance layers.
 
+ ---
+ LUMINA-30 defines a validity condition:
+ systems are invalid if human refusal is not effective before irreversible impact.
+
+ LUMINA-30は、不可逆的影響の前に人間の拒否が実効性を持たない場合、
+ そのシステムは無効であるとする成立条件を定義する。
+ 
 ---
 <!-- ● L30:ENTRY_VISUAL -->
 <a href="figures/EN_G00_Approaching_Boundary.png" target="_blank">
