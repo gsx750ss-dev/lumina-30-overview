@@ -765,12 +765,6 @@ Repository DOI: https://doi.org/10.5281/zenodo.18850343<br>
 Paper DOI: https://doi.org/10.5281/zenodo.18824181
 
 ---
-<!-- ● L30:LICENSE -->
-## License
-
-All LUMINA-30 materials are released under **CC0 (Public Domain)**.  
-LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
----
 
 Application context:
 
@@ -779,9 +773,15 @@ This framework is designed to support:
 - Safety audit and compliance evaluation
 - Institutional governance decisions
 
-
 ---
 ## Editing Rule
 
 This document is structure-critical.  
 Do not remove or reduce sections.
+
+---
+<!-- ● L30:LICENSE -->
+## License
+
+All LUMINA-30 materials are released under **CC0 (Public Domain)**.  
+LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
