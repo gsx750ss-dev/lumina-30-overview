@@ -200,7 +200,6 @@ This is not a replacement framework, but a boundary condition across all AI gove
  そのシステムは無効であるとする成立条件を定義する。
  
 ---
----
 <!-- ● L30:OVERVIEW -->
 # LUMINA-30 Overview
 
