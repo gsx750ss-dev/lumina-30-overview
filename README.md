@@ -146,7 +146,10 @@ LUMINA-30 によって評価するための参照例です。
 
 
 If this cannot be stopped, it must not be allowed to run.<br>
-これを止められないなら、そのシステムは稼働させてはならない。
+This is the decisive boundary condition of the framework.
+
+これを止められないなら、そのシステムは稼働させてはならない。<br>
+ここが、このフレームワークの成立／不成立を分ける決定境界である。
 
   ---
   <!-- ● L30:READING_PATH -->
