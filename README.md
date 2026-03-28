@@ -85,6 +85,7 @@ Primary validity condition:
 A system is procedurally invalid
 if human refusal authority is not effective
 before irreversible impact.
+
 ---
 
 LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.
