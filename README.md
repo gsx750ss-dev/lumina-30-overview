@@ -187,9 +187,9 @@ What is the Great Filter?
 - Can a system continue without human rejection?
 - What remains when intervention is no longer possible?
 
-グレートフィルターとは何か？
-人類はどの段階で進化を止めるのか？
-そして、それはAIによって引き起こされるのか？
+グレートフィルターとは何か？<br>
+人類はどの段階で進化を止めるのか？<br>
+そして、それはAIによって引き起こされるのか？<br>
 
 ---
 
