@@ -104,6 +104,7 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 This defines a procedural validity condition,
 not a safety optimization objective.
 
+## G00: Civilizational Entry Point
 <a href="figures/EN_G00_Approaching_Boundary.png" target="_blank">
   <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 </a>
@@ -135,7 +136,7 @@ not a safety optimization objective.
 
 ---
 <!-- ● L30:BOUNDARY_DECISION -->
-## Critical Boundary (G06) / 臨界境界
+## G06: Extended Application Layer / 臨界境界
 This diagram represents the pre-irreversibility critical boundary where human refusal must remain effective.  
 この図は、人間の拒否権が実効性を持ち続けなければならない不可逆化前の臨界境界を示す。
 
