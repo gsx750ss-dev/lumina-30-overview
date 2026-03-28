@@ -167,7 +167,7 @@ If this cannot be stopped, it must not be allowed to run.<br>
 ---
 ## Paper Reference
 
-Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control mechanism for managing irreversibility risk in advanced AI systems.
+Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control mechanism for managing irreversibility risk in advanced AI systems.<br>
 本論文（PCR-C）は、不可逆性リスクを制御するための段階的インフラ制御モデルを提示します。
 LUMINA-30は、その前提となる文明的境界構造を提供します。
 DOI:
@@ -186,6 +186,10 @@ What is the Great Filter?
 - When does optimization eliminate refusal?
 - Can a system continue without human rejection?
 - What remains when intervention is no longer possible?
+
+グレートフィルターとは何か？
+人類はどの段階で進化を止めるのか？
+そして、それはAIによって引き起こされるのか？
 
 ---
 
