@@ -1,3 +1,15 @@
+## Paper Reference
+
+Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control mechanism for managing irreversibility risk in advanced AI systems.
+
+DOI:
+https://doi.org/10.5281/zenodo.18824181
+
+This repository provides the conceptual and visual framework that supports the paper, including:
+- Civilizational boundary model (LUMINA-30)
+- Irreversibility structure
+- Governance and review perspective
+
 <!-- ===================================================== -->
 <!-- LUMINA-30 README EDIT PROTECTION BLOCK -->
 <!-- This block must be preserved in all future versions -->
