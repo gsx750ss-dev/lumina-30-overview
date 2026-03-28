@@ -82,8 +82,8 @@
 ---
 Primary validity condition:
 
-A system is procedurally invalid
-if human refusal authority is not effective
+A system is procedurally invalid<br>
+if human refusal authority is not effective<br>
 before irreversible impact.
 
 ---
