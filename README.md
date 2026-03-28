@@ -128,9 +128,10 @@ A system is procedurally invalid if it cannot be stopped at the critical point b
 <a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
   <img src="figures/EN_G06_Critical_Boundary.png" width="900">
 </a>
+
 This diagram represents the pre-irreversibility critical boundary where human refusal must remain effective.  
 この図は、人間の拒否権が実効性を持ち続けなければならない不可逆化前の臨界境界を示す。
-
+---
 **Incident Review Sample Cases / インシデントレビュー用サンプル事例**
 
 These sample cases illustrate how LUMINA-30 can be used to evaluate whether human refusal remained effective before irreversible impact.
