@@ -86,6 +86,12 @@ A system is procedurally invalid<br>
 if human refusal authority is not effective<br>
 before irreversible impact.
 
+## Primary Question
+
+Was human refusal authority effective
+before irreversible impact?
+If not, the system is procedurally invalid.
+
 ---
 
 LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.
@@ -167,6 +173,13 @@ Operational interpretation:
 The framework is intended to be used
 in incident review, audit, and governance contexts
 as a procedural validity check.
+
+---
+## Usage
+
+This framework is used as a procedural validity check in:
+- Incident review
+- Governance validation
 
 ---
 
