@@ -167,6 +167,7 @@ Operational interpretation:
 The framework is intended to be used
 in incident review, audit, and governance contexts
 as a procedural validity check.
+
 ---
 
   <!-- ● L30:READING_PATH -->
