@@ -79,6 +79,13 @@
 
 ---
 # LUMINA-30
+---
+Primary validity condition:
+
+A system is procedurally invalid
+if human refusal authority is not effective
+before irreversible impact.
+---
 
 LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.
 Civilization remains free only while humans retain the power to refuse.<br>
@@ -87,6 +94,8 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 
 ---
 <!-- ● L30:ENTRY_VISUAL -->
+This defines a procedural validity condition,
+not a safety optimization objective.
 
 <a href="figures/EN_G00_Approaching_Boundary.png" target="_blank">
   <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
@@ -151,7 +160,14 @@ This is the decisive boundary condition of the framework.
 これを止められないなら、そのシステムは稼働させてはならない。<br>
 ここが、このフレームワークの成立／不成立を分ける決定境界である。
 
-  ---
+---
+Operational interpretation:
+
+The framework is intended to be used
+in incident review, audit, and governance contexts
+as a procedural validity check.
+---
+
   <!-- ● L30:READING_PATH -->
   ## Start Here (30s Path)
  
@@ -752,6 +768,15 @@ Paper DOI: https://doi.org/10.5281/zenodo.18824181
 
 All LUMINA-30 materials are released under **CC0 (Public Domain)**.  
 LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
+---
+
+Application context:
+
+This framework is designed to support:
+- Incident review processes
+- Safety audit and compliance evaluation
+- Institutional governance decisions
+
 
 ---
 ## Editing Rule
