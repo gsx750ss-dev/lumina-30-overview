@@ -79,26 +79,8 @@
 
 ---
 # LUMINA-30
-
 LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.
-
 Civilization remains free only while humans retain the power to refuse.
-
----
-
-<!-- ● L30:ENTRY -->
-LUMINA-30 defines a civilizational boundary for AI systems.
-It introduces a single invariant missing from existing frameworks:
-Human refusal must remain effective before irreversible impact.
-This is not a replacement framework, but a boundary condition across all AI governance layers.
-
- ---
- LUMINA-30 defines a validity condition:
- systems are invalid if human refusal is not effective before irreversible impact.
-
- LUMINA-30は、不可逆的影響の前に人間の拒否が実効性を持たない場合、
- そのシステムは無効であるとする成立条件を定義する。
- 
 ---
 <!-- ● L30:ENTRY_VISUAL -->
 
@@ -197,6 +179,24 @@ What is the Great Filter?
 - Can a system continue without human rejection?
 - What remains when intervention is no longer possible?
 
+---
+
+## Explanation
+
+<!-- ● L30:ENTRY -->
+LUMINA-30 defines a civilizational boundary for AI systems.
+It introduces a single invariant missing from existing frameworks:
+Human refusal must remain effective before irreversible impact.
+This is not a replacement framework, but a boundary condition across all AI governance layers.
+
+ ---
+ LUMINA-30 defines a validity condition:
+ systems are invalid if human refusal is not effective before irreversible impact.
+
+ LUMINA-30は、不可逆的影響の前に人間の拒否が実効性を持たない場合、
+ そのシステムは無効であるとする成立条件を定義する。
+ 
+---
 ---
 <!-- ● L30:OVERVIEW -->
 # LUMINA-30 Overview
