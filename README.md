@@ -116,17 +116,15 @@ Civilization remains free only while humans retain the power to refuse.
   <img src="figures/EN_G05_AI_Perspective.png" width="900">
 </a>
 
+---
 <!-- ● L30:BOUNDARY_DECISION -->
-
+## Critical Boundary (G06) / 臨界境界
 This diagram represents the pre-irreversibility critical boundary where human refusal must remain effective.  
 この図は、人間の拒否権が実効性を持ち続けなければならない不可逆化前の臨界境界を示す。
-
-## Critical Boundary (G06) / 臨界境界
 
 **Validity Condition / 成立条件**
 
 A system is procedurally invalid if it cannot be stopped at the critical point before irreversible impact.
-
 不可逆的影響に至る前の臨界点において停止できないシステムは、手続き的に無効である。
 
 <a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
