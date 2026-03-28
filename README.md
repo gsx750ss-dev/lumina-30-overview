@@ -78,7 +78,7 @@
 <!-- [S_SERIES_TEMPLATE](./docs/L30_S_SERIES_TEMPLATE.md) -->
 
 ---
-# LUMINA-30
+# LUMINA-30<br>
 LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.
 Civilization remains free only while humans retain the power to refuse.
 ---
