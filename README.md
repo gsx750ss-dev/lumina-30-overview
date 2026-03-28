@@ -131,6 +131,7 @@ A system is procedurally invalid if it cannot be stopped at the critical point b
 
 This diagram represents the pre-irreversibility critical boundary where human refusal must remain effective.  
 この図は、人間の拒否権が実効性を持ち続けなければならない不可逆化前の臨界境界を示す。
+
 ---
 **Incident Review Sample Cases / インシデントレビュー用サンプル事例**
 
