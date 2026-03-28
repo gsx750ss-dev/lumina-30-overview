@@ -195,6 +195,8 @@ What is the Great Filter?
 
 ## Explanation
 
+This section explains the conceptual role of LUMINA-30 within the overall framework.
+
 <!-- ● L30:ENTRY -->
 LUMINA-30 defines a civilizational boundary for AI systems.
 It introduces a single invariant missing from existing frameworks:
