@@ -621,6 +621,7 @@ S01: Boundary definition
 S02: Gate mechanism
 S03: Conceptual necessity
 S04: Operational flow
+S05: Structural positioning (what this is / is not)
 
 The S-series provides a minimal structural explanation of the LUMINA-30 framework from boundary definition to operational application.
 
