@@ -79,16 +79,6 @@
 
 ---
 
----
-### Back to top structure
-
-- [Core](#core)
-- [Start Here](#start)
-- [Index](#index)
-[★ Index ｜ 目次](#index)
-
----
-
 <!-- ● L30:TITLE -->
 # LUMINA-30
 ---
@@ -119,12 +109,7 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 ---
 ### Back to top structure
 
-- [Core](#core)
-- [Start Here](#start)
-- [Index](#index)
-[★ Index ｜ 目次](#index)
 ---
-
 <!-- ● L30:CORE -->
 <a id="core"></a>
 ## ★ Core (Concept → Judgment)
@@ -956,12 +941,6 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 
 ---
 *********************
----
-### Back to top structure
-
-- [Core](#core)
-- [Start Here](#start)
-- [Index](#index)
 ### ★ Index ｜ 目次
 <a id="index"></a>
 *********************
