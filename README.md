@@ -78,6 +78,8 @@
 <!-- [S_SERIES_TEMPLATE](./docs/L30_S_SERIES_TEMPLATE.md) -->
 
 ---
+
+
 # LUMINA-30
 ---
 Primary validity condition:
@@ -99,6 +101,10 @@ Civilization remains free only while humans retain the power to refuse.<br>
 LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権を維持するための文明的境界フレームワークです。
 本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。
 
+---
+<a id="core"></a>
+## Entry Visuals (G00 – G06)
+[★ Index ｜ 目次](#index)
 ---
 <!-- ● L30:ENTRY_VISUAL -->
 This defines a procedural validity condition,
@@ -869,3 +875,49 @@ Do not remove or reduce sections.
 
 All LUMINA-30 materials are released under **CC0 (Public Domain)**.  
 LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
+
+---
+*********************
+### ★ Index ｜ 目次
+<a id="index"></a>
+*********************
+
+- [★ Core (Concept → Judgment)](#core)
+  - Entry Visuals (G00 – G06)
+  - Concept Diagrams ｜ 概念図
+    - [★G06: Procedural Validity Core (LUMINA-30 Core)](#g06-en)
+    - [★G06: 手続的有効性コア（LUMINA-30の中核）](#g06-jp)
+  - Framework Structure ｜ フレームワーク構造
+  - Conceptual Structure / 思想構造
+
+- [★ Start Here (30s Path)](#start)
+  - What is LUMINA-30
+  - LUMINA-30 Overview
+  - Positioning
+
+- [★ Application (Usage)](#application)
+  - AI Incident Review Template / インシデントレビュー
+  - Incident Review Sample Cases / インシデントレビュー用サンプル事例
+  - Civilizational Safety Checklist / 文明安全チェックリスト
+  - Operational Governance Tools / 実務ガバナンスツール
+
+- [★ Reference](#reference)
+  - Canonical References / 正典参照
+  - Research Paper / 研究論文
+  - Paper Reference
+  - Core Terminology
+  - Glossary / 用語集
+
+- [★ Materials](#materials)
+  - Slides (Quick Entry)
+  - Visual Concept Materials / 概念ビジュアル資料
+
+- [★ Context](#context)
+  - Civilizational Context / 文明的文脈
+  - Position and Scope / 位置づけ
+
+- [★ Others](#others)
+  - Editing Rule
+  - License
+
+- [★ Index ｜ 目次](#index)
