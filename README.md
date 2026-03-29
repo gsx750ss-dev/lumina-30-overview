@@ -153,32 +153,33 @@ This diagram represents the pre-irreversibility critical boundary where human re
 
 **Validity Condition / 成立条件**
 
-A system is procedurally invalid if it cannot be stopped at the critical point before irreversible impact.
+A system is procedurally invalid if it cannot be stopped at the critical point before irreversible impact.  
 不可逆的影響に至る前の臨界点において停止できないシステムは、手続き的に無効である。
 
+---
+### ■ Critical Boundary ｜ 臨界境界
+
+This is the only point where procedural validity is evaluated.  
+手続的有効性が評価される唯一の地点
+
+<br>
+EN: [G06](figures/EN_G06_Critical_Boundary.png) ｜ JP: [G06](figures/JP_G06_Critical_Boundary.png)
+
+<a id="g06-en"></a>
 <a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
----
-### ■ Critical Boundary ｜ 臨界境界
-
-This is the only point where procedural validity is evaluated.
-手続的有効性が評価される唯一の地点
-
----
   <img src="figures/EN_G06_Critical_Boundary.png" width="900">
----
-### ■ Critical Boundary ｜ 臨界境界
-
-This is the only point where procedural validity is evaluated.
-手続的有効性が評価される唯一の地点
-
----
 </a>
 
- This diagram provides a conceptual overview.  
- The formal definition is provided below.
+<a id="g06-jp"></a>
+<a href="figures/JP_G06_Critical_Boundary.png" target="_blank">
+  <img src="figures/JP_G06_Critical_Boundary.png" width="900">
+</a>
 
- See detailed definition:  
- → [English G06](#g06-core-en) | [日本語G06](#g06-core-jp)
+This diagram provides a conceptual overview.  
+The formal definition is provided below.
+
+See detailed definition:  
+→ [English G06 Core](#g06-core-en) | [日本語G06コア](#g06-core-jp)
 
 ---
 
@@ -259,6 +260,16 @@ This diagram explores how the framework appears from an advanced AI perspective.
 この図は LUMINA-30 を AI視点から見た意味を示します。  
 <br>
 EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
+
+---
+
+<!-- ● L30:G06 -->
+## G06 — Critical Boundary ｜ 臨界境界
+
+This diagram defines the critical procedural boundary before irreversible impact.  
+この図は、不可逆影響の前に評価される手続的臨界境界を示します。  
+<br>
+EN: [G06](figures/EN_G06_Critical_Boundary.png) ｜ JP: [G06](figures/JP_G06_Critical_Boundary.png)
 
 ---
 
@@ -942,8 +953,8 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 - [★ Core (Concept → Judgment)](#core)
   - Entry Visuals (G00 – G06)
   - Concept Diagrams ｜ 概念図
-    - [★G06: Procedural Validity Core (LUMINA-30 Core)](#g06-core-en)
-    - [★G06: 手続的有効性コア（LUMINA-30の中核）](#g06-core-jp)
+    - [★G06: Critical Boundary (EN)](#g06-en)
+    - [★G06: 臨界境界（JP）](#g06-jp)
   - Framework Structure ｜ フレームワーク構造
   - Conceptual Structure / 思想構造
 
@@ -984,22 +995,3 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 - [Start Here](#start)
 - [Index](#index)
 - [★ Index ｜ 目次](#index)
-
-
-
-<!-- ===== G06 (Aligned bilingual structure) ===== -->
-
-<a id="g06-en"></a>
-### ★ G06: Critical Boundary (EN)
-
-<a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
-<img src="figures/EN_G06_Critical_Boundary.png" width="900">
-</a>
-
-<a id="g06-jp"></a>
-### ★ G06：臨界境界（JP）
-
-<a href="figures/JP_G06_Critical_Boundary.png" target="_blank">
-<img src="figures/JP_G06_Critical_Boundary.png" width="900">
-</a>
-
