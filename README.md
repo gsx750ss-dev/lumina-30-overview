@@ -101,7 +101,7 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。
 
 ---
-<!--## Entry Visuals (G00 – G06)<br> -->
+<!--## Entry Visuals (G00 — G06)<br> -->
 [★ Index ｜ 目次](#index)
 ---
 <!-- ● L30:CORE -->
@@ -114,7 +114,7 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 This defines a procedural validity condition,
 not a safety optimization objective.
 
-## G00: Civilizational Entry Point ｜ G00：文明入口
+## G00 — Civilizational Entry Point ｜ G00：文明入口
 <a href="figures/EN_G00_Approaching_Boundary.png" target="_blank">
   <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 </a>
@@ -146,7 +146,7 @@ not a safety optimization objective.
 
 ---
 <!-- ● L30:BOUNDARY_DECISION -->
-## G06: Extended Application Layer ｜ G06：拡張適用層
+## G06 — Extended Application Layer ｜ G06：拡張適用層
 <a id="g06-en"></a>
 <a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
   <img src="figures/EN_G06_Critical_Boundary.png" width="900">
@@ -188,7 +188,7 @@ LUMINA-30文明境界フレームワークの概念図。
 
 ---
 
-<!-- ● L30:G00 -->
+<!-- ● L30:G00 — ->
 ## G00 — Irreversible Progression Structure ｜ 不可逆進行構造
 
 This diagram illustrates a state in which systems progress toward irreversible outcomes  
@@ -201,7 +201,7 @@ EN: [G00](figures/EN_G00_Framework.png) ｜ JP: [G00](figures/JP_G00_Framework.p
 
 ---
 
-<!-- ● L30:G01 -->
+<!-- ● L30:G01 — ->
 ## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
 
 This diagram illustrates the boundary condition explored by LUMINA-30.  
@@ -211,7 +211,7 @@ EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.p
 
 ---
 
-<!-- ● L30:G02 -->
+<!-- ● L30:G02 — ->
 ## G02 — Civilizational Outcome Model ｜ 文明結果モデル
 
 This diagram models the relationship between AI capability growth and civilizational outcomes.  
@@ -221,7 +221,7 @@ EN: [G02](figures/EN_G02_Boundary.png) ｜ JP: [G02](figures/JP_G02_Boundary.png
 
 ---
 
-<!-- ● L30:G03 -->
+<!-- ● L30:G03 — ->
 ## G03 — Civilizational Survival Strategy ｜ 文明存続戦略
 
 This diagram illustrates possible strategic responses near critical AI thresholds.  
@@ -231,7 +231,7 @@ EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png
 
 ---
 
-<!-- ● L30:G04 -->
+<!-- ● L30:G04 — ->
 ## G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構
 
 This diagram explains the PCR-C governance mechanism.  
@@ -241,7 +241,7 @@ EN: [G04](figures/EN_G04_PCRC.png) ｜ JP: [G04](figures/JP_G04_PCRC.png)
 
 ---
 
-<!-- ● L30:G05 -->
+<!-- ● L30:G05 — ->
 ## G05 — AI Perspective ｜ AI視点
 
 This diagram explores how the framework appears from an advanced AI perspective.  
@@ -251,7 +251,7 @@ EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Per
 
 ---
 
-<!-- ● L30:G06 -->
+<!-- ● L30:G06 — ->
 ## G06 — Critical Boundary ｜ 臨界境界
 
 This diagram defines the critical procedural boundary before irreversible impact.  
@@ -262,7 +262,7 @@ EN: [G06](figures/EN_G06_Critical_Boundary.png) ｜ JP: [G06](figures/JP_G06_Cri
 ---
 
 <!-- ● L30:G06_CORE_EN -->
-## ★ G06: Procedural Validity Core (LUMINA-30 Core)
+## ★ G06 — Procedural Validity Core (LUMINA-30 Core)
 <a id="g06-core-en"></a>
 
 **Definition**
@@ -295,7 +295,7 @@ This is a structural validity condition.
 ---
 
 <!-- ● L30:G06_CORE_JP -->
-## ★ G06: 手続的有効性コア（LUMINA-30の中核）
+## ★ G06 — 手続的有効性コア（LUMINA-30の中核）
 <a id="g06-core-jp"></a>
 
 【定義】
@@ -391,7 +391,7 @@ LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を�
 ## ★ Start Here (30s Path) ｜ はじめに（30秒導線）
   If you are new to LUMINA-30:
  
-  1. View the concept diagrams (G00–G06) above  
+  1. View the concept diagrams (G00 — G06) above  
   2. Read the Overview section below  
   3. Proceed to Canonical Index or Incident Review Framework
  
@@ -874,7 +874,7 @@ Under what conditions can a civilization be sustained?<br>
 **S51 — Civilizational Boundary Map / S51 文明境界マップ**<br>
 Conceptual map of the LUMINA-30 boundary structure.<br>
 LUMINA-30の境界構造を俯瞰する概念マップ。<br>
-[S51 EN](./slides/EN_S51_Civilizational_Boundary_Map.pdf) ｜  [S51 JP](./slides/JP_S51_Civilizational_Boundary_Map.pdf) 
+[S51 EN](./slides/EN_S51_Civilizational_Boundary_Map.pdf) ｜ [S51 JP](./slides/JP_S51_Civilizational_Boundary_Map.pdf) 
 
 ---
 
@@ -939,10 +939,10 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 *********************
 
 - [★ Core (Concept → Judgment)](#core)
-  - Entry Visuals (G00 – G06)
+  - Entry Visuals (G00 — G06)
   - Concept Diagrams ｜ 概念図
-    - [★G06: Critical Boundary (EN)](#g06-en)
-    - [★G06: 臨界境界（JP）](#g06-jp)
+    - [★G06 — Critical Boundary (EN)](#g06-en)
+    - [★G06 — 臨界境界（JP）](#g06-jp)
   - Framework Structure ｜ フレームワーク構造
   - Conceptual Structure / 思想構造
 
