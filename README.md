@@ -198,7 +198,7 @@ This framework is used as a procedural validity check in:
 ---
 　<a id="start"></a>
   <!-- ● L30:READING_PATH -->
-  ## Start Here (30s Path)
+  ## ★ Start Here (30s Path)
  
   If you are new to LUMINA-30:
  
@@ -564,7 +564,7 @@ EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Per
 
 ---
 <a id="g06-core-en"></a>
-## G06: Procedural Validity Core (LUMINA-30 Core)
+## ★ G06: Procedural Validity Core (LUMINA-30 Core)
 
 **Definition**
 G06 defines the core procedural validity condition of LUMINA-30.
@@ -595,7 +595,7 @@ This is a structural validity condition.
 
 ---
 <a id="g06-core-jp"></a>
-## G06: 手続的有効性コア（LUMINA-30の中核）
+## ★ G06: 手続的有効性コア（LUMINA-30の中核）
 
 【定義】
 G06はLUMINA-30の中核となる手続的有効性条件を定義する。
