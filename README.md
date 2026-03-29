@@ -100,8 +100,11 @@ LUMINA-30 is a civilizational boundary framework for preserving human refusal au
 Civilization remains free only while humans retain the power to refuse.<br>
 LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権を維持するための文明的境界フレームワークです。
 本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。
+
 ---
+
 <!--## Entry Visuals (G00 – G06)<br> -->
+
 [★ Index ｜ 目次](#index)
 ---
 ## ★ Core (Concept → Judgment)
