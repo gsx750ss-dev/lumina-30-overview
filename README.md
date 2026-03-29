@@ -102,6 +102,7 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。
 
 ---
+## Core (Concept → Judgment)
 <a id="core"></a>
 <!--## Entry Visuals (G00 – G06)<br> -->
 [★ Index ｜ 目次](#index)
@@ -195,7 +196,7 @@ This framework is used as a procedural validity check in:
 - Governance validation
 
 ---
-
+　<a id="start"></a>
   <!-- ● L30:READING_PATH -->
   ## Start Here (30s Path)
  
@@ -885,8 +886,8 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 - [★ Core (Concept → Judgment)](#core)
   - Entry Visuals (G00 – G06)
   - Concept Diagrams ｜ 概念図
-    - [★G06: Procedural Validity Core (LUMINA-30 Core)](#g06-en)
-    - [★G06: 手続的有効性コア（LUMINA-30の中核）](#g06-jp)
+    - [★G06: Procedural Validity Core (LUMINA-30 Core)](#g06-core-en)
+    - [★G06: 手続的有効性コア（LUMINA-30の中核）](#g06-core-jp)
   - Framework Structure ｜ フレームワーク構造
   - Conceptual Structure / 思想構造
 
