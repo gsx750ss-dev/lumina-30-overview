@@ -155,11 +155,11 @@ not a safety optimization objective.
 This diagram represents the pre-irreversibility critical boundary where human refusal must remain effective.  
 この図は、人間の拒否権が実効性を持ち続けなければならない不可逆化前の臨界境界を示す。
 
-**Validity Condition / 成立条件**
+**Validity Condition / 成立条件**<br>
 A system is procedurally invalid if it cannot be stopped at the critical point before irreversible impact.  
 不可逆的影響に至る前の臨界点において停止できないシステムは、手続き的に無効である。
 
-**Critical Boundary ｜ 臨界境界**
+**Critical Boundary ｜ 臨界境界**<br>
 This is the only point where procedural validity is evaluated.  
 手続的有効性が評価される唯一の地点<br>
 
