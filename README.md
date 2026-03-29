@@ -145,9 +145,13 @@ not a safety optimization objective.
 </a>
 
 ---
-
 <!-- ● L30:BOUNDARY_DECISION -->
 ## G06: Extended Application Layer
+<a id="g06-en"></a>
+<a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
+  <img src="figures/EN_G06_Critical_Boundary.png" width="900">
+</a>
+
 This diagram represents the pre-irreversibility critical boundary where human refusal must remain effective.  
 この図は、人間の拒否権が実効性を持ち続けなければならない不可逆化前の臨界境界を示す。
 
@@ -156,19 +160,10 @@ This diagram represents the pre-irreversibility critical boundary where human re
 A system is procedurally invalid if it cannot be stopped at the critical point before irreversible impact.  
 不可逆的影響に至る前の臨界点において停止できないシステムは、手続き的に無効である。
 
----
-### ■ Critical Boundary ｜ 臨界境界
+#**Critical Boundary ｜ 臨界境界**
 
 This is the only point where procedural validity is evaluated.  
-手続的有効性が評価される唯一の地点
-
-<br>
-EN: [G06](figures/EN_G06_Critical_Boundary.png) ｜ JP: [G06](figures/JP_G06_Critical_Boundary.png)
-
-<a id="g06-en"></a>
-<a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
-  <img src="figures/EN_G06_Critical_Boundary.png" width="900">
-</a>
+手続的有効性が評価される唯一の地点<br>
 
 This diagram provides a conceptual overview.  
 The formal definition is provided below.
