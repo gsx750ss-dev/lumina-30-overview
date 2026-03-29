@@ -102,7 +102,7 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。
 
 ---
-## Core (Concept → Judgment)
+## ★ Core (Concept → Judgment)
 <a id="core"></a>
 <!--## Entry Visuals (G00 – G06)<br> -->
 [★ Index ｜ 目次](#index)
