@@ -984,3 +984,22 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 - [Start Here](#start)
 - [Index](#index)
 - [★ Index ｜ 目次](#index)
+
+
+
+<!-- ===== G06 (Aligned bilingual structure) ===== -->
+
+<a id="g06-en"></a>
+### ★ G06: Critical Boundary (EN)
+
+<a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
+<img src="figures/EN_G06_Critical_Boundary.png" width="900">
+</a>
+
+<a id="g06-jp"></a>
+### ★ G06：臨界境界（JP）
+
+<a href="figures/JP_G06_Critical_Boundary.png" target="_blank">
+<img src="figures/JP_G06_Critical_Boundary.png" width="900">
+</a>
+
