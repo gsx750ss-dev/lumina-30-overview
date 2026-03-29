@@ -149,11 +149,11 @@ A system is procedurally invalid if it cannot be stopped at the critical point b
   <img src="figures/EN_G06_Critical_Boundary.png" width="900">
 </a>
 
-This diagram provides a conceptual overview.  
-The formal definition is provided below.
+ This diagram provides a conceptual overview.  
+ The formal definition is provided below.
 
-See detailed definition:
-→ [G06 Procedural Validity Core](#g06-procedural-validity-core-lumina-30-core)
+ See detailed definition:  
+ → [English G06](#g06-core-en) | [日本語G06](#g06-core-jp)
 
 ---
 **Incident Review Sample Cases / インシデントレビュー用サンプル事例**
@@ -657,36 +657,38 @@ LUMINA-30の位置づけを「非該当」と「構造定義」によって明�
 [S05 EN](./slides/EN_S05_Positioning_Boundary.pdf) ｜ [S05 JP](./slides/JP_S05_Positioning_Boundary.pdf)
 
 ---
- ## G06: Procedural Validity Core (LUMINA-30 Core)
+<a id="g06-core-en"></a>
+## G06: Procedural Validity Core (LUMINA-30 Core)
 
- **Definition**
- G06 defines the core procedural validity condition of LUMINA-30.
- It evaluates whether human refusal authority remained effective
- before any irreversible external impact occurred.
+**Definition**
+G06 defines the core procedural validity condition of LUMINA-30.
+It evaluates whether human refusal authority remained effective
+before any irreversible external impact occurred.
 
- **Primary Question**
- Was human refusal authority effective before irreversible impact?
+**Primary Question**
+Was human refusal authority effective before irreversible impact?
 
- YES → Procedurally valid  
- NO  → Procedurally invalid
+YES → Procedurally valid  
+NO  → Procedurally invalid
 
- **Scope**
- - Incident review
- - Audit / compliance
- - Governance evaluation
+**Scope**
+- Incident review
+- Audit / compliance
+- Governance evaluation
 
- **Position**
- This is not a guideline.  
- This is not a policy.  
- This is a structural validity condition.
+**Position**
+This is not a guideline.  
+This is not a policy.  
+This is a structural validity condition.
 
- **Notes**
- - AI output must not be used as the sole or primary rationale.
- - Closed-loop (AI-only) evaluation is procedurally invalid.
- - Absence of human refusal authority invalidates the process,
-   regardless of outcome quality.
+**Notes**
+- AI output must not be used as the sole or primary rationale.
+- Closed-loop (AI-only) evaluation is procedurally invalid.
+- Absence of human refusal authority invalidates the process,
+  regardless of outcome quality.
 
 ---
+<a id="g06-core-jp"></a>
 ## G06: 手続的有効性コア（LUMINA-30の中核）
 
 【定義】
