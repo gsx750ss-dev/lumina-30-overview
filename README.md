@@ -87,7 +87,7 @@ if human refusal authority is not effective<br>
 before irreversible impact.
 
 <!-- ● L30:PRIMARY_QUESTION -->
-## Primary Question
+## Primary Question ｜ 主要問い
 
 Was human refusal authority effective
 before irreversible impact?
@@ -106,7 +106,7 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 ---
 <!-- ● L30:CORE -->
 <a id="core"></a>
-## ★ Core (Concept → Judgment)
+## ★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）
 ---
 
 → Next: [Start Here (30s Path)](#start)
@@ -114,39 +114,39 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 This defines a procedural validity condition,
 not a safety optimization objective.
 
-## G00: Civilizational Entry Point
+## G00: Civilizational Entry Point ｜ G00：文明入口
 <a href="figures/EN_G00_Approaching_Boundary.png" target="_blank">
   <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 </a>
 
-## G01 — Framework Overview
+## G01 — Framework Overview ｜ G01：フレームワーク概要
 <a href="figures/EN_G01_Framework.png" target="_blank">
   <img src="figures/EN_G01_Framework.png" width="900">
 </a>
 
-## G02 — Civilizational Boundary Model
+## G02 — Civilizational Boundary Model ｜ G02：文明境界モデル
 <a href="figures/EN_G02_Boundary.png" target="_blank">
   <img src="figures/EN_G02_Boundary.png" width="900">
 </a>
 
-## G03 — Civilizational Survival Strategy
+## G03 — Civilizational Survival Strategy ｜ G03：文明生存戦略
 <a href="figures/EN_G03_Strategy.png" target="_blank">
   <img src="figures/EN_G03_Strategy.png" width="900">
 </a>
 
-## G04 — PCR-C Governance Model
+## G04 — PCR-C Governance Model ｜ G04：PCR-Cガバナンスモデル
 <a href="figures/EN_G04_PCRC.png" target="_blank">
   <img src="figures/EN_G04_PCRC.png" width="900">
 </a>
 
-## G05 — AI Perspective
+## G05 — AI Perspective ｜ G05：AI視点
 <a href="figures/EN_G05_AI_Perspective.png" target="_blank">
   <img src="figures/EN_G05_AI_Perspective.png" width="900">
 </a>
 
 ---
 <!-- ● L30:BOUNDARY_DECISION -->
-## G06: Extended Application Layer
+## G06: Extended Application Layer ｜ G06：拡張適用層
 <a id="g06-en"></a>
 <a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
   <img src="figures/EN_G06_Critical_Boundary.png" width="900">
@@ -388,7 +388,7 @@ LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を�
 
 <!-- ● L30:READING_PATH -->
 <a id="start"></a>
-## ★ Start Here (30s Path)
+## ★ Start Here (30s Path) ｜ はじめに（30秒導線）
   If you are new to LUMINA-30:
  
   1. View the concept diagrams (G00–G06) above  
@@ -558,7 +558,7 @@ AIの振る舞いではなく
 ---
 
 <!-- ● L30:QUICK -->
-## Quick Entry
+## Quick Entry ｜ クイック導線
 
 [Canonical Index](https://github.com/lumina-30/Lumi30-Index)  
 [AI Incident Review Framework](https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf)
@@ -567,11 +567,11 @@ AIの振る舞いではなく
 
 <!-- ● L30:APPLICATION_GROUP -->
 <a id="application"></a>
-## ★ Application (Usage)
+## ★ Application (Usage) ｜ 適用（使用方法）
 ---
 
 <!-- ● L30:USAGE -->
-## Usage
+## Usage ｜ 使用方法
 
 This framework is used as a procedural validity check in:
 - Incident review
@@ -816,7 +816,7 @@ What is the Great Filter?
 This section explains the conceptual role of LUMINA-30 within the overall framework.
 
 <!-- ● L30:SLIDES -->
-## Slides (Quick Entry)
+## Slides (Quick Entry) ｜ クイック導線
 
 Recommended reading order:
 S01 → S02 → S03 → S04
