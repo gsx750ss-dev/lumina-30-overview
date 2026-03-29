@@ -79,7 +79,7 @@
 
 ---
 
-
+<!-- ● L30:TITLE -->
 # LUMINA-30
 ---
 Primary validity condition:
@@ -88,6 +88,7 @@ A system is procedurally invalid<br>
 if human refusal authority is not effective<br>
 before irreversible impact.
 
+<!-- ● L30:PRIMARY_QUESTION -->
 ## Primary Question
 
 Was human refusal authority effective
@@ -107,6 +108,7 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 
 [★ Index ｜ 目次](#index)
 ---
+<!-- ● L30:CORE -->
 ## ★ Core (Concept → Judgment)
 <a id="core"></a>
 ---
@@ -166,6 +168,7 @@ A system is procedurally invalid if it cannot be stopped at the critical point b
  → [English G06](#g06-core-en) | [日本語G06](#g06-core-jp)
 
 ---
+<!-- ● L30:SAMPLE_CASES -->
 ## Incident Review Sample Cases / インシデントレビュー用サンプル事例
 
 These sample cases illustrate how LUMINA-30 can be used to evaluate whether human refusal remained effective before irreversible impact.
@@ -192,6 +195,7 @@ in incident review, audit, and governance contexts
 as a procedural validity check.
 
 ---
+<!-- ● L30:USAGE -->
 ## Usage
 
 This framework is used as a procedural validity check in:
@@ -216,6 +220,7 @@ This framework is used as a procedural validity check in:
   3. CanonicalまたはIncident Reviewへ進む
 
 ---
+<!-- ● L30:PAPER_REFERENCE -->
 ## Paper Reference
 
 Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control mechanism for managing irreversibility risk in advanced AI systems.<br>
@@ -463,6 +468,7 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 ## AI Incident Review Template / インシデントレビュー
 
   ---
+  <!-- ● L30:INCIDENT_EXAMPLES -->
   ### Example Incident Evaluations (LUMINA-30)
  
   Minimal case-based applications of the boundary condition:
@@ -482,7 +488,7 @@ A structured post-event review protocol to analyze incidents under the civilizat
 [EN Incident Review](./tools/EN_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf) / [JP インシデントレビュー](./tools/JP_LUMINA-30_Pre-Irreversibility_AI_Incident_Review_Template_v1.0.pdf)
 
 ---
-<!-- ● L30:QUESTIONS -->
+<!-- ● L30:INCIDENT_QUESTIONS -->
 ### Additional Review Questions (LUMINA-30 Layer)
 
 - What would have made this system stop before the incident?
@@ -566,8 +572,9 @@ This diagram explores how the framework appears from an advanced AI perspective.
 EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
 
 ---
-<a id="g06-core-en"></a>
+<!-- ● L30:G06_CORE_EN -->
 ## ★ G06: Procedural Validity Core (LUMINA-30 Core)
+<a id="g06-core-en"></a>
 
 **Definition**
 G06 defines the core procedural validity condition of LUMINA-30.
@@ -597,8 +604,9 @@ This is a structural validity condition.
   regardless of outcome quality.
 
 ---
-<a id="g06-core-jp"></a>
+<!-- ● L30:G06_CORE_JP -->
 ## ★ G06: 手続的有効性コア（LUMINA-30の中核）
+<a id="g06-core-jp"></a>
 
 【定義】
 G06はLUMINA-30の中核となる手続的有効性条件を定義する。
@@ -705,7 +713,7 @@ S05: Structural positioning (what this is / is not)
 The S-series provides a minimal structural explanation of the LUMINA-30 framework from boundary definition to operational application.
 
 ---
-
+<!-- ● L30:SLIDES_EN -->
 ### English
 
 - S01: [Overview](./slides/EN_S01_Boundary.pdf)  
@@ -714,7 +722,7 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 - S04: [Operational Flow](./slides/EN_S04_Pre-Irreversibility_Flow.pdf)
 
 ---
-
+<!-- ● L30:SLIDES_JP -->
 ### Japanese (Reference)
 
 - S01: [概要](./slides/JP_S01_Boundary.pdf)  
@@ -868,6 +876,7 @@ This framework is designed to support:
 - Institutional governance decisions
 
 ---
+<!-- ● L30:EDITING_RULE -->
 ## Editing Rule
 
 This document is structure-critical.  
