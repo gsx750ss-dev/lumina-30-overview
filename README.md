@@ -166,7 +166,7 @@ A system is procedurally invalid if it cannot be stopped at the critical point b
  → [English G06](#g06-core-en) | [日本語G06](#g06-core-jp)
 
 ---
-**Incident Review Sample Cases / インシデントレビュー用サンプル事例**
+## Incident Review Sample Cases / インシデントレビュー用サンプル事例
 
 These sample cases illustrate how LUMINA-30 can be used to evaluate whether human refusal remained effective before irreversible impact.
 
