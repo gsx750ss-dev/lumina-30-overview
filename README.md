@@ -168,6 +168,7 @@ A system is procedurally invalid if it cannot be stopped at the critical point b
  → [English G06](#g06-core-en) | [日本語G06](#g06-core-jp)
 
 ---
+<a id="application"></a>
 <!-- ● L30:SAMPLE_CASES -->
 ## Incident Review Sample Cases / インシデントレビュー用サンプル事例
 
@@ -220,6 +221,7 @@ This framework is used as a procedural validity check in:
   3. CanonicalまたはIncident Reviewへ進む
 
 ---
+<a id="reference"></a>
 <!-- ● L30:PAPER_REFERENCE -->
 ## Paper Reference
 
@@ -268,7 +270,7 @@ This is not a replacement framework, but a boundary condition across all AI gove
  
 ---
 <!-- ● L30:OVERVIEW -->
-# LUMINA-30 Overview
+[LUMINA-30 Overview](#overview)
 
 LUMINA-30 provides a minimal pre-irreversibility framework for evaluating whether systems remain interruptible before irreversible impact.
 
@@ -305,8 +307,9 @@ Refusal is the last safeguard of sovereignty.
 > 静かに失われる。
 
 ---
+<a id="context"></a>
 <!-- ● L30:POSITION -->
-## Positioning
+[Positioning](#position)
 
 LUMINA-30 is not another AI ethics framework.
 
@@ -355,7 +358,8 @@ LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 
 ---
 <!-- ● L30:WHAT -->
-## What is LUMINA-30
+ [What is LUMINA-30](#what)
+
 
 LUMINA-30 is a non-binding civilizational reference framework  
 for examining whether meaningful human refusal authority remains  
@@ -713,6 +717,7 @@ S05: Structural positioning (what this is / is not)
 The S-series provides a minimal structural explanation of the LUMINA-30 framework from boundary definition to operational application.
 
 ---
+<a id="materials"></a>
 <!-- ● L30:SLIDES_EN -->
 ### English
 
@@ -876,6 +881,7 @@ This framework is designed to support:
 - Institutional governance decisions
 
 ---
+<a id="others"></a>
 <!-- ● L30:EDITING_RULE -->
 ## Editing Rule
 
