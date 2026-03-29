@@ -438,33 +438,6 @@ AI安全の中心問題は
 AIの振る舞いではなく  
 人間社会の「拒否権（Refusal Authority）」の喪失かもしれない。
 
----
-<!-- ● L30:CONCEPT -->
-## Concept Diagrams ｜ 概念図
-
-These diagrams present the conceptual structure of the LUMINA-30 framework.
-
-各図は LUMINA-30 の概念構造を示しています。
-
-A visual introduction to the LUMINA-30 civilizational boundary framework.
-
-These diagrams illustrate the structural problem addressed by LUMINA-30:  
-how human refusal authority can be preserved before advanced AI systems  
-reach the point of irreversible external impact.
-
-LUMINA-30文明境界フレームワークの概念図。
-
----
-<!-- ● L30:G00 -->
-## G00 — Irreversible Progression Structure ｜ 不可逆進行構造
-
-This diagram illustrates a state in which systems progress toward irreversible outcomes  
-without a structural point of intervention.
-
-この図は、不可逆的な結果へ向かって進行する構造において、  
-介入可能な停止点が存在しない状態を示します。
-<br>
-EN: [G00](figures/EN_G00_Framework.png) ｜ JP: [G00](figures/JP_G00_Framework.png)
 
 ---
 <!-- ● L30:CHECKLIST -->
@@ -508,6 +481,34 @@ A structured post-event review protocol to analyze incidents under the civilizat
 - If not, where did procedural authority fail?
 
 If refusal was not effective, the system was invalid before the incident occurred.
+
+---
+<!-- ● L30:CONCEPT -->
+## Concept Diagrams ｜ 概念図
+
+These diagrams present the conceptual structure of the LUMINA-30 framework.
+
+各図は LUMINA-30 の概念構造を示しています。
+
+A visual introduction to the LUMINA-30 civilizational boundary framework.
+
+These diagrams illustrate the structural problem addressed by LUMINA-30:  
+how human refusal authority can be preserved before advanced AI systems  
+reach the point of irreversible external impact.
+
+LUMINA-30文明境界フレームワークの概念図。
+
+---
+<!-- ● L30:G00 -->
+## G00 — Irreversible Progression Structure ｜ 不可逆進行構造
+
+This diagram illustrates a state in which systems progress toward irreversible outcomes  
+without a structural point of intervention.
+
+この図は、不可逆的な結果へ向かって進行する構造において、  
+介入可能な停止点が存在しない状態を示します。
+<br>
+EN: [G00](figures/EN_G00_Framework.png) ｜ JP: [G00](figures/JP_G00_Framework.png)
 
 ---
 <!-- ● L30:G01 -->
