@@ -910,9 +910,9 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
   - Conceptual Structure / 思想構造
 
 - [★ Start Here (30s Path)](#start)
-  - What is LUMINA-30
-  - LUMINA-30 Overview
-  - Positioning
+  - [What is LUMINA-30](#what)
+  - [LUMINA-30 Overview](#overview)
+  - [Positioning](#position)
 
 - [★ Application (Usage)](#application)
   - AI Incident Review Template / インシデントレビュー
@@ -940,3 +940,5 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
   - License
 
 - [★ Index ｜ 目次](#index)
+
+
