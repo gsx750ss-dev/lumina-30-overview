@@ -170,11 +170,6 @@ EN: [G06](figures/EN_G06_Critical_Boundary.png) ｜ JP: [G06](figures/JP_G06_Cri
   <img src="figures/EN_G06_Critical_Boundary.png" width="900">
 </a>
 
-<a id="g06-jp"></a>
-<a href="figures/JP_G06_Critical_Boundary.png" target="_blank">
-  <img src="figures/JP_G06_Critical_Boundary.png" width="900">
-</a>
-
 This diagram provides a conceptual overview.  
 The formal definition is provided below.
 
