@@ -556,6 +556,68 @@ This diagram explores how the framework appears from an advanced AI perspective.
 EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
 
 ---
+<a id="g06-core-en"></a>
+## G06: Procedural Validity Core (LUMINA-30 Core)
+
+**Definition**
+G06 defines the core procedural validity condition of LUMINA-30.
+It evaluates whether human refusal authority remained effective
+before any irreversible external impact occurred.
+
+**Primary Question**
+Was human refusal authority effective before irreversible impact?
+
+YES → Procedurally valid  
+NO  → Procedurally invalid
+
+**Scope**
+- Incident review
+- Audit / compliance
+- Governance evaluation
+
+**Position**
+This is not a guideline.  
+This is not a policy.  
+This is a structural validity condition.
+
+**Notes**
+- AI output must not be used as the sole or primary rationale.
+- Closed-loop (AI-only) evaluation is procedurally invalid.
+- Absence of human refusal authority invalidates the process,
+  regardless of outcome quality.
+
+---
+<a id="g06-core-jp"></a>
+## G06: 手続的有効性コア（LUMINA-30の中核）
+
+【定義】
+G06はLUMINA-30の中核となる手続的有効性条件を定義する。
+不可逆な外部影響が発生する前に、
+人間の最終拒否権が有効に機能していたかを評価する。
+
+【主判定】
+不可逆影響の発生前に、
+人間の最終拒否権は有効だったか？
+
+YES → 手続的に有効  
+NO  → 手続的に無効
+
+【適用範囲】
+・事故レビュー
+・監査／コンプライアンス
+・ガバナンス評価
+
+【位置づけ】
+これはガイドラインではない  
+これは政策ではない  
+これは構造的な有効性条件である
+
+【補足】
+・AI出力を単独または主たる根拠としてはならない  
+・AIのみの閉ループ評価は手続的に無効  
+・人間の拒否権が欠如している場合、結果の良し悪しに関係なく無効
+
+---
 <!-- ● L30:COMPARISON -->
 ## LUMINA-30 vs Existing AI Governance Frameworks
 
@@ -656,68 +718,6 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 Clarifies what LUMINA-30 is not and what it structurally represents.  
 LUMINA-30の位置づけを「非該当」と「構造定義」によって明確化する。  
 [S05 EN](./slides/EN_S05_Positioning_Boundary.pdf) ｜ [S05 JP](./slides/JP_S05_Positioning_Boundary.pdf)
-
----
-<a id="g06-core-en"></a>
-## G06: Procedural Validity Core (LUMINA-30 Core)
-
-**Definition**
-G06 defines the core procedural validity condition of LUMINA-30.
-It evaluates whether human refusal authority remained effective
-before any irreversible external impact occurred.
-
-**Primary Question**
-Was human refusal authority effective before irreversible impact?
-
-YES → Procedurally valid  
-NO  → Procedurally invalid
-
-**Scope**
-- Incident review
-- Audit / compliance
-- Governance evaluation
-
-**Position**
-This is not a guideline.  
-This is not a policy.  
-This is a structural validity condition.
-
-**Notes**
-- AI output must not be used as the sole or primary rationale.
-- Closed-loop (AI-only) evaluation is procedurally invalid.
-- Absence of human refusal authority invalidates the process,
-  regardless of outcome quality.
-
----
-<a id="g06-core-jp"></a>
-## G06: 手続的有効性コア（LUMINA-30の中核）
-
-【定義】
-G06はLUMINA-30の中核となる手続的有効性条件を定義する。
-不可逆な外部影響が発生する前に、
-人間の最終拒否権が有効に機能していたかを評価する。
-
-【主判定】
-不可逆影響の発生前に、
-人間の最終拒否権は有効だったか？
-
-YES → 手続的に有効  
-NO  → 手続的に無効
-
-【適用範囲】
-・事故レビュー
-・監査／コンプライアンス
-・ガバナンス評価
-
-【位置づけ】
-これはガイドラインではない  
-これは政策ではない  
-これは構造的な有効性条件である
-
-【補足】
-・AI出力を単独または主たる根拠としてはならない  
-・AIのみの閉ループ評価は手続的に無効  
-・人間の拒否権が欠如している場合、結果の良し悪しに関係なく無効
 
 ---
 <!-- ● L30:VISUALS -->
