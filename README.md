@@ -78,7 +78,6 @@
 <!-- [S_SERIES_TEMPLATE](./docs/L30_S_SERIES_TEMPLATE.md) -->
 
 ---
-
 <!-- ● L30:TITLE -->
 # LUMINA-30
 Primary validity condition:
@@ -102,10 +101,7 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。
 
 ---
-
 <!--## Entry Visuals (G00 – G06)<br> -->
-
----
 [★ Index ｜ 目次](#index)
 ---
 <!-- ● L30:CORE -->
