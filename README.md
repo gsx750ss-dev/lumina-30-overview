@@ -81,7 +81,6 @@
 
 <!-- ● L30:TITLE -->
 # LUMINA-30
----
 Primary validity condition:
 
 A system is procedurally invalid<br>
@@ -107,8 +106,7 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 <!--## Entry Visuals (G00 – G06)<br> -->
 
 ---
-### Back to top structure
-
+[★ Index ｜ 目次](#index)
 ---
 <!-- ● L30:CORE -->
 <a id="core"></a>
