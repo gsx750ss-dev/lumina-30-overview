@@ -327,6 +327,36 @@ NO  → 手続的に無効
 
 ---
 
+## From Concept to Practice
+
+The models above describe the boundary conditions for preserving human refusal authority.
+
+These conditions can be directly applied in real-world incident analysis.
+
+---
+
+### → Apply LUMINA-30 in Incident Review
+
+A practical incident review protocol is available:
+
+👉 https://github.com/lumina-30/lumina30-incident-review
+
+This includes:
+
+- A minimal evaluation protocol (Basic)
+- A full structural analysis version (Extended)
+- A ready-to-use reporting template
+
+---
+### Core Question
+
+> Was human refusal authority preserved in a way that allowed meaningful human intervention and the ability to stop the system before irreversible real-world impact occurred?
+
+---
+
+This is the operational form of LUMINA-30.
+
+---
 <!-- ● L30:STRUCTURE -->
 ## Framework Structure ｜ フレームワーク構造
 <!-- STRUCTURE: DO NOT REMOVE -->
