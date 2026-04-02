@@ -988,6 +988,7 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 - [★ Context](#context)
   - Civilizational Context / 文明的文脈
   - Position and Scope / 位置づけ
+  - [Practical Application / 実務適用](#practical-application--実務適用)
 
 - [★ Others](#others)
   - Editing Rule
