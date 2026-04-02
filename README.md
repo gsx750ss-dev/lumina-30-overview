@@ -327,13 +327,19 @@ NO  → 手続的に無効
 
 ---
 
-### Practical Application
+### Practical Application / 実務適用
 
 When an AI incident occurs, the evaluation reduces to a single question:
 
+AIインシデントが発生した場合、評価は1つの問いに集約されます：
+
 > Was human refusal authority preserved in a way that allowed meaningful human intervention and the ability to stop the system before irreversible real-world impact occurred?
 
+> 人間の拒否権は、不可逆な現実世界への影響が発生する前に、意味のある介入およびシステム停止を可能にする形で維持されていたか？
+
 If this cannot be answered clearly, the system cannot be considered controlled.
+
+この問いに明確に答えられない場合、そのシステムは制御されていたとは見なせません。
 
 → https://github.com/lumina-30/lumina30-incident-review
 
