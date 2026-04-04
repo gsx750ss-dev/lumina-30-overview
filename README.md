@@ -203,10 +203,9 @@ EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.p
 <!-- ● L30:G02 — ->
 ## G02 — Civilizational Outcome Model ｜ 文明結果モデル
 
-This diagram models the relationship between AI capability growth and civilizational outcomes. <br>
-This diagram represents the irreversible progression structure under advanced AI conditions.<br>
-この図は AI能力の成長と文明の結果の関係を示します。<br>
-この図は、高度AI環境下における不可逆的な進行構造を示しています。<br>
+This diagram models the relationship between AI capability growth and civilizational outcomes,  
+including the irreversible progression structure under advanced AI conditions.<br>
+この図は、AI能力の成長と文明の結果の関係、および高度AI環境下における不可逆的な進行構造を示します。<br>
 <br>
 EN: [G02](figures/EN_G02_Boundary.png) ｜ JP: [G02](figures/JP_G02_Boundary.png)
 
