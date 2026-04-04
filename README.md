@@ -1001,5 +1001,4 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 
 - [Core](#core)
 - [Start Here](#start)
-- [Index](#index)
 - [★ Index ｜ 目次](#index)
