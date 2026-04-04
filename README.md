@@ -627,7 +627,10 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 <!-- ● L30:INCIDENT -->
 ## AI Incident Review Template / インシデントレビュー
 
- [Practical repository](https://github.com/lumina-30/lumina30-incident-review)
+A practical repository for conducting AI incident reviews based on the LUMINA-30 framework.<br>
+LUMINA-30フレームワークに基づくAIインシデントレビューを実施するための実務リポジトリ。<br>
+<br>
+[Practical repository](https://github.com/lumina-30/lumina30-incident-review)
  
   ---
 
