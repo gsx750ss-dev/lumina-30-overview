@@ -190,7 +190,7 @@ LUMINA-30文明境界フレームワークの概念図。
 
 ---
 
-<!-- ● L30:G01 —->
+<!-- ● L30:G01 -->
 ## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
 
 This diagram illustrates the boundary condition explored by LUMINA-30.  
@@ -200,7 +200,7 @@ EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.p
 
 ---
 
-<!-- ● L30:G02 —->
+<!-- ● L30:G02 -->
 ## G02 — Civilizational Outcome Model ｜ 文明結果モデル
 
 This diagram models the relationship between AI capability growth and civilizational outcomes,  
@@ -211,7 +211,7 @@ EN: [G02](figures/EN_G02_Boundary.png) ｜ JP: [G02](figures/JP_G02_Boundary.png
 
 ---
 
-<!-- ● L30:G03 —->
+<!-- ● L30:G03 -->
 ## G03 — Civilizational Survival Strategy ｜ 文明存続戦略
 
 This diagram illustrates possible strategic responses near critical AI thresholds.  
@@ -221,7 +221,7 @@ EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png
 
 ---
 
-<!-- ● L30:G04 —->
+<!-- ● L30:G04 -->
 ## G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構
 
 This diagram explains the PCR-C governance mechanism.  
@@ -231,7 +231,7 @@ EN: [G04](figures/EN_G04_PCRC.png) ｜ JP: [G04](figures/JP_G04_PCRC.png)
 
 ---
 
-<!-- ● L30:G05 —->
+<!-- ● L30:G05 -->
 ## G05 — AI Perspective ｜ AI視点
 
 This diagram explores how the framework appears from an advanced AI perspective.  
@@ -241,7 +241,7 @@ EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Per
 
 ---
 
-<!-- ● L30:G06 —->
+<!-- ● L30:G06 -->
 ## G06 — Critical Boundary ｜ 臨界境界
 
 This diagram defines the critical procedural boundary before irreversible impact.  
