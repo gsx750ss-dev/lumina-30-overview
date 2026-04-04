@@ -100,6 +100,8 @@ Civilization remains free only while humans retain the power to refuse.<br>
 LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権を維持するための文明的境界フレームワークです。
 本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。
 
+LUMINA-30 can also be applied as a practical review instrument for determining whether human refusal authority remained effective before irreversible real-world impact.
+
 ---
 <!--## Entry Visuals (G00 — G06)<br> -->
 [★ Index ｜ 目次](#index)
