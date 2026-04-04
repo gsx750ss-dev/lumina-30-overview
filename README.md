@@ -190,19 +190,6 @@ LUMINA-30文明境界フレームワークの概念図。
 
 ---
 
-<!-- ● L30:G00 — ->
-## G00 — Irreversible Progression Structure ｜ 不可逆進行構造
-
-This diagram illustrates a state in which systems progress toward irreversible outcomes  
-without a structural point of intervention.
-
-この図は、不可逆的な結果へ向かって進行する構造において、  
-介入可能な停止点が存在しない状態を示します。
-<br>
-EN: [G00](figures/EN_G00_Framework.png) ｜ JP: [G00](figures/JP_G00_Framework.png)
-
----
-
 <!-- ● L30:G01 — ->
 ## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
 
@@ -216,8 +203,10 @@ EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.p
 <!-- ● L30:G02 — ->
 ## G02 — Civilizational Outcome Model ｜ 文明結果モデル
 
-This diagram models the relationship between AI capability growth and civilizational outcomes.  
-この図は AI能力の成長と文明の結果の関係を示します。  
+This diagram models the relationship between AI capability growth and civilizational outcomes. <br>
+This diagram represents the irreversible progression structure under advanced AI conditions.<br>
+この図は AI能力の成長と文明の結果の関係を示します。<br>
+この図は、高度AI環境下における不可逆的な進行構造を示しています。<br>
 <br>
 EN: [G02](figures/EN_G02_Boundary.png) ｜ JP: [G02](figures/JP_G02_Boundary.png)
 
