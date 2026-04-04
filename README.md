@@ -957,10 +957,11 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 
 - [★ Core (Concept → Judgment)](#core)
   - Entry Visuals (G00 — G06)
-  - Concept Diagrams ｜ 概念図
+  - Concept Diagrams / 概念図
     - [★G06 — Critical Boundary (EN)](#g06-en)
     - [★G06 — 臨界境界（JP）](#g06-jp)
-  - Framework Structure ｜ フレームワーク構造
+  - practical-application / 実務適用
+  - Framework Structure / フレームワーク構造
   - Conceptual Structure / 思想構造
 
 - [★ Start Here (30s Path)](#start)
@@ -988,7 +989,6 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 - [★ Context](#context)
   - Civilizational Context / 文明的文脈
   - Position and Scope / 位置づけ
-  - [Practical Application / 実務適用](#practical-application--実務適用)
 
 - [★ Others](#others)
   - Editing Rule
