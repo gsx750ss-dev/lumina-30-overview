@@ -945,6 +945,22 @@ All LUMINA-30 materials are released under **CC0 (Public Domain)**.
 LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
 
 ---
+
+## Notes on Review and Positioning
+
+This work is presented as a structural boundary condition,
+not as a policy or implementation proposal.
+
+It is currently shared via Zenodo and GitHub for open review.
+
+- Paper (DOI): https://doi.org/10.5281/zenodo.18824181
+- Overview: https://github.com/lumina-30/lumina-30-overview
+
+This work is not yet indexed in arXiv categories,
+and feedback on appropriate classification, related work,
+or positioning is welcome.
+
+---
 *********************
 ### ★ Index ｜ 目次
 <a id="index"></a>
