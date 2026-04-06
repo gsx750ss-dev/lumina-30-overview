@@ -579,7 +579,8 @@ AIの振る舞いではなく
 
 ---
 
-Validation Layer｜検証レイヤー
+<!-- ● L30:Validation_Layer -->
+## Validation Layer｜検証レイヤー
 
 Defines procedural invalidity, not correctness.  
 Applied to decision processes before and after deployment.  
