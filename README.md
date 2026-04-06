@@ -984,6 +984,7 @@ or positioning is welcome.
 [Back to Core](#core)
 
 ---
+
 *********************
 ### ★ Index ｜ 目次
 <a id="index"></a>
