@@ -86,10 +86,10 @@ A system is procedurally invalid<br>
 if human refusal authority is not effective<br>
 before irreversible impact.
 
-This repository is the conceptual entry point to LUMINA-30.
-For practical incident review usage, see the dedicated incident-review repository.
-このリポジトリはLUMINA-30の概念入口です。
-実務的なインシデントレビュー用途は、専用のincident-reviewリポジトリを参照してください。
+This repository is the conceptual entry point to LUMINA-30.<br>
+For practical incident review usage, see the dedicated incident-review repository.<br>
+このリポジトリはLUMINA-30の概念入口です。<br>
+実務的なインシデントレビュー用途は、専用のincident-reviewリポジトリを参照してください。<br>
  
 <!-- ● L30:PRIMARY_QUESTION -->
 ## Primary Question ｜ 主要問い
@@ -100,10 +100,10 @@ If not, the system is procedurally invalid.
 
 ---
 
-LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.
+LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.<br>
 Civilization remains free only while humans retain the power to refuse.<br>
-LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権を維持するための文明的境界フレームワークです。
-本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。
+LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権を維持するための文明的境界フレームワークです。<br>
+本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。<br>
 
 LUMINA-30 can also be applied as a practical review instrument for determining whether human refusal authority remained effective before irreversible real-world impact.
 
