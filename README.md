@@ -86,6 +86,11 @@ A system is procedurally invalid<br>
 if human refusal authority is not effective<br>
 before irreversible impact.
 
+This repository is the conceptual entry point to LUMINA-30.
+For practical incident review usage, see the dedicated incident-review repository.
+このリポジトリはLUMINA-30の概念入口です。
+実務的なインシデントレビュー用途は、専用のincident-reviewリポジトリを参照してください。
+ 
 <!-- ● L30:PRIMARY_QUESTION -->
 ## Primary Question ｜ 主要問い
 
