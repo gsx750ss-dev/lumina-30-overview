@@ -91,22 +91,6 @@ For practical incident review usage, see the dedicated incident-review repositor
 このリポジトリはLUMINA-30の概念入口です。<br>
 実務的なインシデントレビュー用途は、専用のincident-reviewリポジトリを参照してください。<br>
  
-<!-- ● L30:PRIMARY_QUESTION -->
-## Primary Question ｜ 主要問い
-
-Was human refusal authority effective
-before irreversible impact?
-If not, the system is procedurally invalid.
-
----
-
-LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.<br>
-Civilization remains free only while humans retain the power to refuse.<br>
-LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権を維持するための文明的境界フレームワークです。<br>
-本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。<br>
-
-LUMINA-30 can also be applied as a practical review instrument for determining whether human refusal authority remained effective before irreversible real-world impact.
-
 ---
 <!--## Entry Visuals (G00 — G06)<br> -->
 [★ Index ｜ 目次](#index)
@@ -178,7 +162,23 @@ See detailed definition:
 → [English G06 Core](#g06-core-en) | [日本語G06コア](#g06-core-jp)
 
 ---
+<!-- ● L30:PRIMARY_QUESTION -->
+## Primary Question ｜ 主要問い
 
+Was human refusal authority effective
+before irreversible impact?
+If not, the system is procedurally invalid.
+
+---
+
+LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.<br>
+Civilization remains free only while humans retain the power to refuse.<br>
+LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権を維持するための文明的境界フレームワークです。<br>
+本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。<br>
+
+LUMINA-30 can also be applied as a practical review instrument for determining whether human refusal authority remained effective before irreversible real-world impact.
+
+---
 <!-- ● L30:CONCEPT -->
 ## Concept Diagrams ｜ 概念図
 
@@ -395,24 +395,6 @@ Structural overview of the LUMINA-30 framework showing the relationships between
 LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を示す思想体系の構造マップ。  
 <br>
 [LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf)
-
-
----
-
-<!-- ● L30:READING_PATH -->
-<a id="start"></a>
-## ★ Start Here (30s Path) ｜ はじめに（30秒導線）
-  If you are new to LUMINA-30:
- 
-  1. View the concept diagrams (G00 — G06) above  
-  2. Read the Overview section below  
-  3. Proceed to Canonical Index or Incident Review Framework
- 
-  初めての場合：
- 
-  1. 上の概念図（G00〜G06）を見る  
-  2. 下のOverviewを読む  
-  3. CanonicalまたはIncident Reviewへ進む
 
 ---
 
@@ -981,6 +963,25 @@ It is currently shared via Zenodo and GitHub for open review.
 This work is not yet indexed in arXiv categories,
 and feedback on appropriate classification, related work,
 or positioning is welcome.
+
+---
+<!-- ● L30:READING_PATH -->
+<a id="start"></a>
+## ★ Start Here (30s Path) ｜ はじめに（30秒導線）
+  If you are new to LUMINA-30:
+ 
+  1. View the concept diagrams (G00 — G06) above  
+  2. Read the Overview section below  
+  3. Proceed to Canonical Index or Incident Review Framework
+ 
+  初めての場合：
+ 
+  1. 上の概念図（G00〜G06）を見る  
+  2. 下のOverviewを読む  
+  3. CanonicalまたはIncident Reviewへ進む
+
+★ Coreに戻る
+[Back to Core](#core)
 
 ---
 *********************
