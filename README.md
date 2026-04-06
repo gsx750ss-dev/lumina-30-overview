@@ -1031,6 +1031,5 @@ or positioning is welcome.
 ---
 ### Back to top structure
 
-- [Core](#core)
-- [Start Here](#start)
-- [★ Index ｜ 目次](#index)
+- [★ Core](#core)
+- [★ Start Here](#start)
