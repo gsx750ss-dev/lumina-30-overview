@@ -97,6 +97,7 @@ LUMINA-30 defines a boundary where human refusal must remain effective before ir
 LUMINA-30は、不可逆なAI自律の前に人間の拒否権が有効であるべき境界を定義する。
 
 <a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a>
+
 ---
 <!-- ● L30:CORE -->
 <a id="core"></a>
