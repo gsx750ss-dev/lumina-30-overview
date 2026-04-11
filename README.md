@@ -96,9 +96,7 @@ For practical incident review usage, see the dedicated incident-review repositor
 LUMINA-30 defines a boundary where human refusal must remain effective before irreversible AI autonomy.  
 LUMINA-30は、不可逆なAI自律の前に人間の拒否権が有効であるべき境界を定義する。
 
-<p align="center">
-  <a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a>
-</p>
+<a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a>
 ---
 <!-- ● L30:CORE -->
 <a id="core"></a>
@@ -567,9 +565,7 @@ AIの振る舞いではなく
 ---
 
 
-<p align="right">
-  <a href="#core">🔼 coreへ戻る</a>
-</p>
+<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <!-- ● L30:APPLICATION_GROUP -->
 <a id="application"></a>
@@ -709,9 +705,7 @@ Practical review checklist for evaluating AI systems and governance decisions be
 ---
 
 
-<p align="right">
-  <a href="#core">🔼 coreへ戻る</a>
-</p>
+<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <!-- ● L30:REFERENCE_GROUP -->
 <a id="reference"></a>
@@ -828,9 +822,7 @@ LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 ---
 
 
-<p align="right">
-  <a href="#core">🔼 coreへ戻る</a>
-</p>
+<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <!-- ● L30:MATERIALS_GROUP -->
 <a id="materials"></a>
@@ -928,9 +920,7 @@ Illustration of the irreversible external impact threshold and the concept of a 
 ---
 
 
-<p align="right">
-  <a href="#core">🔼 coreへ戻る</a>
-</p>
+<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <!-- ● L30:CONTEXT_GROUP -->
 <a id="context"></a>
@@ -960,9 +950,7 @@ LUMINA-30は、高度な人工知能の存在下において文明主体を維�
 ---
 
 
-<p align="right">
-  <a href="#core">🔼 coreへ戻る</a>
-</p>
+<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <!-- ● L30:OTHERS_GROUP -->
 <a id="others"></a>
@@ -985,9 +973,7 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 
 ---
 
-<p align="right">
-  <a href="#core">🔼 coreへ戻る</a>
-</p>
+<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 ## Notes on Review and Positioning
 
@@ -1063,3 +1049,5 @@ or positioning is welcome.
   ▶ 運用・編集・ライセンス関連
   - Editing Rule
   - License
+
+<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
