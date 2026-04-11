@@ -997,7 +997,7 @@ or positioning is welcome.
 *********************
 
 - [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
-  ※ 全読者向け：概念と全体構造の理解  
+  ※ 全読者向け：境界概念と全体構造の理解  
   ▶ LUMINA-30の境界条件と中核概念を視覚的に把握
   - Entry Visuals (G00 — G06) ｜ 導入ビジュアル
   - [G06 — Critical Boundary ｜ 臨界境界](#g06-critical-boundary)  
@@ -1011,7 +1011,7 @@ or positioning is welcome.
   - [Positioning ｜ 位置づけ](#position)
 
 - [★ Application (Usage) ｜ 適用（使用方法）](#application)  
-  ※ 開発・実務向け：レビュー・運用  
+  ※ 開発・実務向け：評価・運用  
   ▶ 判定結果を実際の制御・運用に接続する
   - [Civilizational Safety Checklist ｜ 文明安全チェックリスト](#civilizational-safety-checklist)  
     ⚑ 即時に安全性を判定できる中核ツール
@@ -1024,7 +1024,7 @@ or positioning is welcome.
   - Operational Governance Tools / 実務ガバナンスツール
 
 - [★ Reference ｜ 参照 / Reference](#reference)  
-  ※ 研究者・政策関係者向け：定義・基準  
+  ※ 研究者・政策関係者向け：定義・評価基準  
   ▶ 理論基盤と評価体系を確認
   - Paper Reference
   - [Research Paper ｜ 研究論文](#research-paper)  
@@ -1034,19 +1034,19 @@ or positioning is welcome.
   - Glossary / 用語集
 
 - [★ Materials ｜ 資料 / Materials](#materials)  
-  ※ 実装補助：図・スライド  
+  ※ 理解・実装補助：図・スライド  
   ▶ プレゼン・説明・共有に即使用可能
   - [Slides (Quick Entry) ｜ クイック導線](#materials-slides)
   - Visual Concept Materials / 概念ビジュアル資料
 
 - [★ Context ｜ 背景 / Context](#context)  
-  ※ 一般向け：背景と位置づけの理解  
+  ※ 一般向け：背景と文明的な位置づけの理解  
   ▶ 文明的な意味と適用範囲を把握
   - Position and Scope / 位置づけ
   - Civilizational Context / 文明的文脈
 
 - [★ Others ｜ その他 / Others](#others)  
-  ※ 補足情報  
+  ※ 運用補足情報  
   ▶ 運用・編集・ライセンス関連
   - Editing Rule
   - License
