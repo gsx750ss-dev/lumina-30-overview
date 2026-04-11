@@ -93,7 +93,12 @@ For practical incident review usage, see the dedicated incident-review repositor
  
 ---
 <!--## Entry Visuals (G00 — G06)<br> -->
-[★ Index ｜ 目次](#index)
+LUMINA-30 defines a boundary where human refusal must remain effective before irreversible AI autonomy.  
+LUMINA-30は、不可逆なAI自律の前に人間の拒否権が有効であるべき境界を定義する。
+
+<p align="center">
+  <a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a>
+</p>
 ---
 <!-- ● L30:CORE -->
 <a id="core"></a>
@@ -101,7 +106,6 @@ For practical incident review usage, see the dedicated incident-review repositor
 
 ---
 
-→ Next: [Start Here (30s Path)](#start)
 <!-- ● L30:ENTRY_VISUAL -->
 This defines a procedural validity condition,
 not a safety optimization objective.
@@ -140,6 +144,7 @@ not a safety optimization objective.
 <!-- ● L30:BOUNDARY_DECISION -->
 ## G06 — Extended Application Layer ｜ G06：拡張適用層
 <a id="g06-en"></a>
+<a id="g06-critical-boundary"></a>
 <a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
   <img src="figures/EN_G06_Critical_Boundary.png" width="900">
 </a>
@@ -228,6 +233,7 @@ EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png
 ---
 
 <!-- ● L30:G04 -->
+<a id="g04-pcrc-governance-model"></a>
 ## G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構
 
 This diagram explains the PCR-C governance mechanism.  
@@ -560,6 +566,11 @@ AIの振る舞いではなく
 
 ---
 
+
+<p align="right">
+  <a href="#core">🔼 coreへ戻る</a>
+</p>
+
 <!-- ● L30:APPLICATION_GROUP -->
 <a id="application"></a>
 ## ★ Application (Usage) ｜ 適用（使用方法）
@@ -619,6 +630,7 @@ as a procedural validity check.
 ---
 
 <!-- ● L30:CHECKLIST -->
+<a id="civilizational-safety-checklist"></a>
 ## Civilizational Safety Checklist / 文明安全チェックリスト
 
 A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact.  
@@ -629,6 +641,7 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 ---
 
 <!-- ● L30:INCIDENT -->
+<a id="ai-incident-review-template"></a>
 ## AI Incident Review Template / インシデントレビュー
 
 A practical repository for conducting AI incident reviews based on the LUMINA-30 framework.<br>
@@ -695,9 +708,14 @@ Practical review checklist for evaluating AI systems and governance decisions be
 
 ---
 
+
+<p align="right">
+  <a href="#core">🔼 coreへ戻る</a>
+</p>
+
 <!-- ● L30:REFERENCE_GROUP -->
 <a id="reference"></a>
-## ★ Reference
+## ★ Reference ｜ 参照 / Reference
 ---
 
 <!-- ● L30:PAPER_REFERENCE -->
@@ -717,6 +735,7 @@ This repository provides the conceptual and visual framework that supports the p
 ---
 
 <!-- ● L30:RESEARCH -->
+<a id="research-paper"></a>
 ## Research Paper / 研究論文
 
 This research paper introduces the PCR-C concept,  
@@ -808,9 +827,14 @@ LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 
 ---
 
+
+<p align="right">
+  <a href="#core">🔼 coreへ戻る</a>
+</p>
+
 <!-- ● L30:MATERIALS_GROUP -->
 <a id="materials"></a>
-## ★ Materials
+## ★ Materials ｜ 資料 / Materials
 ---
 
 <!-- ● L30:S50_HOOK -->
@@ -832,6 +856,7 @@ What is the Great Filter?
 This section explains the conceptual role of LUMINA-30 within the overall framework.
 
 <!-- ● L30:SLIDES -->
+<a id="materials-slides"></a>
 ## Slides (Quick Entry) ｜ クイック導線
 
 Recommended reading order:
@@ -902,9 +927,14 @@ Illustration of the irreversible external impact threshold and the concept of a 
 
 ---
 
+
+<p align="right">
+  <a href="#core">🔼 coreへ戻る</a>
+</p>
+
 <!-- ● L30:CONTEXT_GROUP -->
 <a id="context"></a>
-## ★ Context
+## ★ Context ｜ 背景 / Context
 ---
 
 <!-- ● L30:SCOPE -->
@@ -929,9 +959,14 @@ LUMINA-30は、高度な人工知能の存在下において文明主体を維�
 
 ---
 
+
+<p align="right">
+  <a href="#core">🔼 coreへ戻る</a>
+</p>
+
 <!-- ● L30:OTHERS_GROUP -->
 <a id="others"></a>
-## ★ Others
+## ★ Others ｜ その他 / Others
 ---
 
 <!-- ● L30:EDITING_RULE -->
@@ -950,6 +985,10 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 
 ---
 
+<p align="right">
+  <a href="#core">🔼 coreへ戻る</a>
+</p>
+
 ## Notes on Review and Positioning
 
 This work is presented as a structural boundary condition,
@@ -965,72 +1004,62 @@ and feedback on appropriate classification, related work,
 or positioning is welcome.
 
 ---
-<!-- ● L30:READING_PATH -->
-<a id="start"></a>
-## ★ Start Here (30s Path) ｜ はじめに（30秒導線）
-  If you are new to LUMINA-30:
- 
-  1. View the concept diagrams (G00 — G06) above  
-  2. Read the Overview section below  
-  3. Proceed to Canonical Index or Incident Review Framework
- 
-  初めての場合：
- 
-  1. 上の概念図（G00〜G06）を見る  
-  2. 下のOverviewを読む  
-  3. CanonicalまたはIncident Reviewへ進む
-
-★ Coreに戻る
-[Back to Core](#core)
-
----
-
 *********************
-### ★ Index ｜ 目次
 <a id="index"></a>
+### ★ Index (Navigation) ｜ 目次
 *********************
 
-- [★ Core (Concept → Judgment)](#core)
-  - Entry Visuals (G00 — G06)
+- [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
+  ※ 全読者向け：概念と全体構造の理解  
+  ▶ LUMINA-30の境界条件と中核概念を視覚的に把握
+  - Entry Visuals (G00 — G06) ｜ 導入ビジュアル
+  - [G06 — Critical Boundary ｜ 臨界境界](#g06-critical-boundary)  
+    ⚑ 判断基準そのもの（最初に確認する核心）
   - Concept Diagrams / 概念図
-    - [★G06 — Critical Boundary (EN)](#g06-en)
-    - [★G06 — 臨界境界（JP）](#g06-jp)
-  - practical-application / 実務適用
+  - Practical Application / 実務適用
   - Framework Structure / フレームワーク構造
   - Conceptual Structure / 思想構造
+  - [LUMINA-30 Overview ｜ 概要](#overview)
+  - [What is LUMINA-30 ｜ LUMINA-30とは](#what)
+  - [Positioning ｜ 位置づけ](#position)
 
-- [★ Start Here (30s Path)](#start)
-  - [What is LUMINA-30](#what)
-  - [LUMINA-30 Overview](#overview)
-  - [Positioning](#position)
-
-- [★ Application (Usage)](#application)
-  - AI Incident Review Template / インシデントレビュー
+- [★ Application (Usage) ｜ 適用（使用方法）](#application)  
+  ※ 開発・実務向け：レビュー・運用  
+  ▶ 判定結果を実際の制御・運用に接続する
+  - [Civilizational Safety Checklist ｜ 文明安全チェックリスト](#civilizational-safety-checklist)  
+    ⚑ 即時に安全性を判定できる中核ツール
+  - [G04 — PCR-C Governance Model ｜ PCR-Cガバナンスモデル](#g04-pcrc-governance-model)  
+    ⚑ 不可逆化を防ぐインフラ制御モデル
+  - [AI Incident Review Template ｜ インシデントレビュー](#ai-incident-review-template)  
+    ⚑ 現場でそのまま使える運用導線
   - Incident Review Sample Cases / インシデントレビュー用サンプル事例
-  - Civilizational Safety Checklist / 文明安全チェックリスト
+  - Validation Layer / 検証レイヤー
   - Operational Governance Tools / 実務ガバナンスツール
 
-- [★ Reference](#reference)
-  - Canonical References / 正典参照
-  - Research Paper / 研究論文
+- [★ Reference ｜ 参照 / Reference](#reference)  
+  ※ 研究者・政策関係者向け：定義・基準  
+  ▶ 理論基盤と評価体系を確認
   - Paper Reference
-  - Core Terminology
+  - [Research Paper ｜ 研究論文](#research-paper)  
+    ⚑ 理論的裏付けと外部参照の核
+  - Canonical References / 正典参照
+  - Core Terminology / 中核用語
   - Glossary / 用語集
 
-- [★ Materials](#materials)
-  - Slides (Quick Entry)
+- [★ Materials ｜ 資料 / Materials](#materials)  
+  ※ 実装補助：図・スライド  
+  ▶ プレゼン・説明・共有に即使用可能
+  - [Slides (Quick Entry) ｜ クイック導線](#materials-slides)
   - Visual Concept Materials / 概念ビジュアル資料
 
-- [★ Context](#context)
-  - Civilizational Context / 文明的文脈
+- [★ Context ｜ 背景 / Context](#context)  
+  ※ 一般向け：背景と位置づけの理解  
+  ▶ 文明的な意味と適用範囲を把握
   - Position and Scope / 位置づけ
+  - Civilizational Context / 文明的文脈
 
-- [★ Others](#others)
+- [★ Others ｜ その他 / Others](#others)  
+  ※ 補足情報  
+  ▶ 運用・編集・ライセンス関連
   - Editing Rule
   - License
-
----
-### Back to top structure
-
-- [★ Core](#core)
-- [★ Start Here](#start)
