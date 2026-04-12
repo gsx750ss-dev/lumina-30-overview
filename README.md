@@ -919,8 +919,8 @@ Illustration of the irreversible external impact threshold and the concept of a 
 
 
 ---
-
-## Extensions (Non-Core / Optional) ｜ 拡張（非コア / 任意）
+<a id="extensions"></a>
+## ★ Extensions (Non-Core / Optional) ｜ 拡張（非コア / 任意）
 
 These materials extend interpretation and application context.  
 They do not modify the core framework or its conditions.
