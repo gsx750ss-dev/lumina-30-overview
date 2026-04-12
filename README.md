@@ -1074,7 +1074,7 @@ or positioning is welcome.
   - [Slides (Quick Entry) ｜ クイック導線](#materials-slides)
   - Visual Concept Materials / 概念ビジュアル資料
 
-- [★ Extensions ｜ 拡張 / Extensions (Non-Core)](#extensions)  
+- [★ Extensions ｜ 拡張 / Extensions (Non-Core / Optional)](#extensions)  
   ※ 非コア：解釈・応用の補助資料  
   ▶ 必須ではないが、理解と適用を補助
   - Governance / ガバナンス
