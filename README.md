@@ -928,31 +928,31 @@ They do not modify the core framework or its conditions.
 これらの資料は解釈および適用文脈を補助するものです。  
 コアフレームワークおよびその条件を変更するものではありません。
 
-### Governance
-- [Certification](./docs/extensions/governance/certification.md)
-- [Audit Structure](./docs/extensions/governance/audit-structure.md)
-- [Operational Guidelines](./docs/extensions/governance/operational-guidelines.md)
+### Governance ｜ ガバナンス
+- [Certification ｜ 認定](./docs/extensions/governance/certification.md)
+- [Audit Structure ｜ 監査構造](./docs/extensions/governance/audit-structure.md)
+- [Operational Guidelines ｜ 運用指針](./docs/extensions/governance/operational-guidelines.md)
 
-### Boundary Cases
-- [Self-Reconstruction](./docs/extensions/boundary-cases/self-reconstruction.md)
-- [Replication Risk](./docs/extensions/boundary-cases/replication-risk.md)
+### Boundary Cases ｜ 境界事例
+- [Self-Reconstruction ｜ 自己再構成](./docs/extensions/boundary-cases/self-reconstruction.md)
+- [Replication Risk ｜ 複製リスク](./docs/extensions/boundary-cases/replication-risk.md)
 
-### Socio-Economic
-- [Unemployment Prevention](./docs/extensions/socio-economic/unemployment-prevention.md)
-- [Transition Model](./docs/extensions/socio-economic/transition-model.md)
+### Socio-Economic ｜ 社会経済
+- [Unemployment Prevention ｜ 失業防止](./docs/extensions/socio-economic/unemployment-prevention.md)
+- [Transition Model ｜ 移行モデル](./docs/extensions/socio-economic/transition-model.md)
 
-### Signaling
-- [Certification Mark](./docs/extensions/signaling/certification-mark.md)
+### Signaling ｜ シグナリング
+- [Certification Mark ｜ 認定マーク](./docs/extensions/signaling/certification-mark.md)
 
-### Interpretation
-- [Evaluation Guidelines](./docs/extensions/interpretation/evaluation-guidelines.md)
+### Interpretation ｜ 解釈補助
+- [Evaluation Guidelines ｜ 評価ガイドライン](./docs/extensions/interpretation/evaluation-guidelines.md)
 
-### Experimental
-- [Scenario Analysis](./docs/extensions/experimental/scenario-analysis.md)
+### Experimental ｜ 実験的補助
+- [Scenario Analysis ｜ シナリオ分析](./docs/extensions/experimental/scenario-analysis.md)
 
-### Meta
-- [Terminology](./docs/extensions/meta/terminology.md)
-- [Model Notes](./docs/extensions/meta/model-notes.md)
+### Meta ｜ メタ補助
+- [Terminology ｜ 用語定義](./docs/extensions/meta/terminology.md)
+- [Model Notes ｜ モデル補足](./docs/extensions/meta/model-notes.md)
 
 ---
 
@@ -1073,6 +1073,17 @@ or positioning is welcome.
   ▶ プレゼン・説明・共有に即使用可能
   - [Slides (Quick Entry) ｜ クイック導線](#materials-slides)
   - Visual Concept Materials / 概念ビジュアル資料
+
+- [★ Extensions ｜ 拡張 / Extensions (Non-Core)](#extensions)  
+  ※ 非コア：解釈・応用の補助資料  
+  ▶ 必須ではないが、理解と適用を補助
+  - Governance / ガバナンス
+  - Boundary Cases / 境界事例
+  - Socio-Economic / 社会経済
+  - Signaling / シグナリング
+  - Interpretation / 解釈補助
+  - Experimental / 実験的補助
+  - Meta / メタ補助
 
 - [★ Context ｜ 背景 / Context](#context)  
   ※ 一般向け：背景と文明的な位置づけの理解  
