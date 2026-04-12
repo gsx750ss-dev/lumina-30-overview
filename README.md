@@ -920,6 +920,41 @@ Illustration of the irreversible external impact threshold and the concept of a 
 
 ---
 
+## Extensions (Non-Core / Optional) ｜ 拡張（非コア / 任意）
+
+These materials extend interpretation and application context.  
+They do not modify the core framework or its conditions.
+
+これらの資料は解釈および適用文脈を補助するものです。  
+コアフレームワークおよびその条件を変更するものではありません。
+
+### Governance
+- [Certification](./docs/extensions/governance/certification.md)
+- [Audit Structure](./docs/extensions/governance/audit-structure.md)
+- [Operational Guidelines](./docs/extensions/governance/operational-guidelines.md)
+
+### Boundary Cases
+- [Self-Reconstruction](./docs/extensions/boundary-cases/self-reconstruction.md)
+- [Replication Risk](./docs/extensions/boundary-cases/replication-risk.md)
+
+### Socio-Economic
+- [Unemployment Prevention](./docs/extensions/socio-economic/unemployment-prevention.md)
+- [Transition Model](./docs/extensions/socio-economic/transition-model.md)
+
+### Signaling
+- [Certification Mark](./docs/extensions/signaling/certification-mark.md)
+
+### Interpretation
+- [Evaluation Guidelines](./docs/extensions/interpretation/evaluation-guidelines.md)
+
+### Experimental
+- [Scenario Analysis](./docs/extensions/experimental/scenario-analysis.md)
+
+### Meta
+- [Terminology](./docs/extensions/meta/terminology.md)
+- [Model Notes](./docs/extensions/meta/model-notes.md)
+
+---
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
