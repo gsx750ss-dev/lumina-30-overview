@@ -479,6 +479,27 @@ LUMINA-30 introduces this as a **non-negotiable validity condition**.
 
 ---
 
+## ■ Theoretical Foundation｜理論的基盤
+
+LUMINA-30 is supported by a complementary theoretical model, Pre-Critical Recursive Cutoff (PCR-C).
+
+PCR-C formalizes the evaluation condition for irreversibility risk, providing a minimal, testable structure for determining whether human refusal authority remains effective prior to irreversible impact.
+
+While LUMINA-30 defines the boundary condition, PCR-C provides its formalization.
+
+---
+
+LUMINA-30は、補完的な理論モデルであるPCR-C（Pre-Critical Recursive Cutoff）によって支えられています。
+
+PCR-Cは、不可逆リスクに対する評価条件を形式化し、人間の拒否権が不可逆的影響の前に実効的に機能しているかを判定する最小かつ検証可能な構造を提供します。
+
+LUMINA-30が境界を定義するのに対し、PCR-Cはその形式化を担います。
+
+→ Paper: Pre-Critical Recursive Cutoff (PCR-C)
+→ DOI: https://doi.org/10.5281/zenodo.18824181
+
+---
+
 <!-- ● L30:WHAT -->
 <a id="what"></a>
  [What is LUMINA-30](#what)
