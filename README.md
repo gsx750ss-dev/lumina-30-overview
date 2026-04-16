@@ -558,6 +558,29 @@ Post-incident review and pre-irreversibility evaluation
 
 推奨読書順：  
 Concept Diagrams → Canonical References → Operational Governance Tools
+---
+
+## Usage Context / 使用文脈
+
+This framework is intended for:
+- incident reviewers
+- auditors
+- governance bodies
+
+本フレームワークは以下の主体を対象とする：
+- インシデント審査者
+- 監査担当者
+- ガバナンス機関
+
+It is used in post-incident review and governance evaluation.
+
+本フレームワークは、インシデント後レビューおよびガバナンス評価において使用される。
+
+If refusal cannot be demonstrated as effective before irreversible impact,
+the system is procedurally invalid.
+
+不可逆的影響の前に拒否権の有効性が実証できない場合、
+当該システムは手続き的に無効と判断される。
 
 ---
 
