@@ -619,6 +619,18 @@ This framework is intended for:
 - Governance bodies
 - Institutional auditors
 
+
+## Incident Review Template
+
+1. Identify system context
+2. Check intervention points
+3. Evaluate refusal effectiveness
+4. Assess irreversibility proximity
+
+Result:
+- Valid
+- Procedurally Invalid
+
 ---
 ### Evaluation Output ｜ 評価出力
 
