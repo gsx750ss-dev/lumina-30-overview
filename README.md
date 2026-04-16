@@ -80,6 +80,9 @@
 ---
 <!-- ● L30:TITLE -->
 # LUMINA-30
+Refusal before irreversibility — a boundary that cannot be substituted.  
+不可逆の前に拒否が機能しているか——代替不能な境界。
+
 Primary validity condition:
 
 A system is procedurally invalid<br>
