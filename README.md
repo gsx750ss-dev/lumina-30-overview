@@ -94,8 +94,11 @@ For practical incident review usage, see the dedicated incident-review repositor
 このリポジトリはLUMINA-30の概念入口です。<br>
 実務的なインシデントレビュー用途は、専用のincident-reviewリポジトリを参照してください。<br>
  
-Primary Question:
+## Primary Question
+
 Was human refusal authority effective before irreversible impact?
+
+If not, the system is procedurally invalid.
 
 ---
 <!--## Entry Visuals (G00 — G06)<br> -->
@@ -599,6 +602,12 @@ AIの振る舞いではなく
 <a id="application"></a>
 ## ★ Application (Usage) ｜ 適用（使用方法）
 ---
+
+## Usage
+
+This framework is used for:
+- Incident review
+- Governance validation
 
 Apply this framework when:
 - An AI incident occurs
