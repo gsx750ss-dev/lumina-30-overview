@@ -94,6 +94,9 @@ For practical incident review usage, see the dedicated incident-review repositor
 このリポジトリはLUMINA-30の概念入口です。<br>
 実務的なインシデントレビュー用途は、専用のincident-reviewリポジトリを参照してください。<br>
  
+Primary Question:
+Was human refusal authority effective before irreversible impact?
+
 ---
 <!--## Entry Visuals (G00 — G06)<br> -->
 LUMINA-30 defines a boundary where human refusal must remain effective before irreversible AI autonomy.  
@@ -595,6 +598,17 @@ AIの振る舞いではなく
 <!-- ● L30:APPLICATION_GROUP -->
 <a id="application"></a>
 ## ★ Application (Usage) ｜ 適用（使用方法）
+---
+
+Apply this framework when:
+- An AI incident occurs
+- System escalation is suspected
+- Human intervention is questioned
+
+This framework is intended for:
+- Incident reviewers
+- Governance bodies
+- Institutional auditors
 
 ---
 ### Evaluation Output ｜ 評価出力
