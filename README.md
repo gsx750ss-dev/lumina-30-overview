@@ -1126,7 +1126,7 @@ or positioning is welcome.
 
 - [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
   ※ 全読者向け：境界概念と全体構造の理解  
-  ▶ LUMINA-30の境界条件と中核概念を視覚的に把握
+  ▶ 理解：LUMINA-30の境界条件と中核概念を視覚的に把握｜実務：G06とチェック項目へ直行
   - Entry Visuals (G00 — G06) ｜ 導入ビジュアル
   - [G06 — Critical Boundary ｜ 臨界境界](#g06-critical-boundary)  
     ⚑ 判断基準そのもの（最初に確認する核心）
@@ -1140,7 +1140,7 @@ or positioning is welcome.
 
 - [★ Application (Usage) ｜ 適用（使用方法）](#application)  
   ※ 開発・実務向け：評価・運用  
-  ▶ 判定結果を実際の制御・運用に接続する
+  ▶ 理解：判定結果の意味を把握｜実務：Checklist / Incident Review Template / Governance Model へ接続
   - [Civilizational Safety Checklist ｜ 文明安全チェックリスト](#civilizational-safety-checklist)  
     ⚑ 即時に安全性を判定できる中核ツール
   - [G04 — PCR-C Governance Model ｜ PCR-Cガバナンスモデル](#g04-pcrc-governance-model)  
@@ -1153,7 +1153,7 @@ or positioning is welcome.
 
 - [★ Reference ｜ 参照 / Reference](#reference)  
   ※ 研究者・政策関係者向け：定義・評価基準  
-  ▶ 理論基盤と評価体系を確認
+  ▶ 理解：理論基盤と評価体系を確認｜実務：論文・定義・評価基準を引用用に参照
   - Paper Reference
   - [Research Paper ｜ 研究論文](#research-paper)  
     ⚑ 理論的裏付けと外部参照の核
@@ -1163,7 +1163,8 @@ or positioning is welcome.
 
 - [★ Materials ｜ 資料 / Materials](#materials)  
   ※ 理解・実装補助：図・スライド  
-  ▶ プレゼン・説明・共有に即使用可能
+  ▶ 理解：図とスライドで全体像を把握｜実務：説明・共有・提示資料として即使用
+効果
   - [Slides (Quick Entry) ｜ クイック導線](#materials-slides)
   - Visual Concept Materials / 概念ビジュアル資料
 
