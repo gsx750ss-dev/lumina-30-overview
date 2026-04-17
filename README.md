@@ -1125,8 +1125,8 @@ or positioning is welcome.
 *********************
 
 - [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
-  ※ 全読者向け：境界概念と全体構造の理解  
-  ▶ 理解：LUMINA-30の境界条件と中核概念を視覚的に把握｜実務：[G06](#g06) と判断基準へ直行
+  ※ 全読者向け：中核理解  
+  ▶ 理解：LUMINA-30の境界条件と中核概念を視覚的に把握｜実務：[G06 Critical Boundary](#g06) と判断基準へ直行
   - Entry Visuals (G00 — G06) ｜ 導入ビジュアル
   - [G06 — Critical Boundary ｜ 臨界境界](#g06-critical-boundary)  
     ⚑ 判断基準そのもの（最初に確認する核心）
@@ -1139,7 +1139,7 @@ or positioning is welcome.
   - [Positioning ｜ 位置づけ](#position)
 
 - [★ Application (Usage) ｜ 適用（使用方法）](#application)  
-  ※ 開発・実務向け：評価・運用  
+  ※ 実務向け：運用  
   ▶ 理解：判定結果の意味を把握｜実務：[Checklist](#civilizational-safety-checklist) / [PCR-C](#paper-reference) / [Incident Review](#incident-review-template)
   - [Civilizational Safety Checklist ｜ 文明安全チェックリスト](#civilizational-safety-checklist)  
     ⚑ 即時に安全性を判定できる中核ツール
@@ -1152,8 +1152,8 @@ or positioning is welcome.
   - Operational Governance Tools / 実務ガバナンスツール
 
 - [★ Reference ｜ 参照 / Reference](#reference)  
-  ※ 研究者・政策関係者向け：定義・評価基準  
-  ▶ 理解：理論基盤と評価体系を確認｜実務：[Paper](#paper-reference)・定義・評価基準を引用用に参照
+  ※ 研究者向け：定義  
+  ▶ 理解：理論基盤と評価体系を確認｜実務：[Paper Reference](#paper-reference)・定義・評価基準を引用用に参照
   - Paper Reference
   - [Research Paper ｜ 研究論文](#research-paper)  
     ⚑ 理論的裏付けと外部参照の核
@@ -1162,9 +1162,8 @@ or positioning is welcome.
   - Glossary / 用語集
 
 - [★ Materials ｜ 資料 / Materials](#materials)  
-  ※ 理解・実装補助：図・スライド  
-  ▶ 理解：図とスライドで全体像を把握｜実務：説明・共有・提示資料として即使用
-効果
+  ※ 即使用：図・資料  
+  ▶ 理解：図とスライドで全体像を把握｜実務：[Slides](#materials-slides) / [Graphics](#materials-graphics) として即使用
   - [Slides (Quick Entry) ｜ クイック導線](#materials-slides)
   - Visual Concept Materials / 概念ビジュアル資料
 
