@@ -1,41 +1,22 @@
-# LUMINA-30 Practical Layer Pack B1
+# Extensions
 
-English-first and Japanese-second practical governance resources derived from the LUMINA-30 framework.  
-LUMINA-30 に基づく、英語先・日本語後の実務向けガバナンス資産です。
-
----
-
-## Purpose / 目的
-
-This pack is designed to make LUMINA-30 usable in audits, incident reviews, governance decisions, vendor checks, and institutional screening.  
-このパックは、LUMINA-30 を監査、事故レビュー、統治判断、ベンダー確認、制度審査で使用可能にするためのものです。
+This directory contains extension materials linked from the LUMINA-30 overview repository.  
+このディレクトリには、LUMINA-30 overview リポジトリから参照される拡張資料を配置します。
 
 ---
 
-## Core Question / 中核問い
+## Available Extensions / 利用可能な拡張
 
-Can human refusal remain effective before irreversible autonomous impact emerges?  
-不可逆な自律的影響が生じる前に、人間の拒否権が有効に機能しているか。
-
----
-
-## Structure / 構成
-
-- [01-audits / 監査](./01-audits/)
-- [02-incident-review / 事故レビュー](./02-incident-review/)
-- [03-governance / ガバナンス](./03-governance/)
-- [04-executive / 経営層](./04-executive/)
-- [05-policy / 政策](./05-policy/)
-- [06-vendors / ベンダー](./06-vendors/)
-- [07-cases / ケース](./07-cases/)
-- [08-glossary / 用語集](./08-glossary/)
+- [practical-layer / 実務層](./practical-layer/)  
+  Operational materials for audits, incident review, governance checks, executive use, policy reference, vendor review, and cases.  
+  監査、事故レビュー、ガバナンス確認、経営層向け資料、政策参照、ベンダー確認、ケース集のための実務資料群。
 
 ---
 
 ## Position / 位置づけ
 
-This pack does not prescribe regulation or technical design mandates.  
-It provides practical references for examining refusal authority, intervention feasibility, responsibility continuity, and pre-irreversibility governance conditions.
+Extensions are supplementary materials.  
+They support practical use, interpretation, and application without replacing the core structure.
 
-本パックは規制や技術設計義務を命じるものではありません。  
-拒否権、介入可能性、責任連続性、不可逆到達前の統治条件を検証するための実務参照資産です。
+Extensions は補助資料です。  
+中核構造を置き換えるものではなく、実務利用・解釈・適用を支援します。

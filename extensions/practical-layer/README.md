@@ -1,46 +1,41 @@
-# LUMINA-30 Practical Tools
+# Practical Layer
 
-Practical governance resources derived from the LUMINA-30 framework.  
-LUMINA-30 に基づく実務向けガバナンス資産です。
+Operational resources derived from the LUMINA-30 framework.  
+LUMINA-30 に基づく実務向け資産です。
 
 ---
 
 ## Purpose / 目的
 
-To make LUMINA-30 usable in real-world organizations, audits, and incident reviews.  
-LUMINA-30 を現実の組織・監査・事故レビューで使用可能にすることを目的とします。
-
----
-
-## Includes / 収録内容
-
-- Refusal Authority Audit Checklist / 拒否権監査チェックリスト
-- Procedural Validity Assessment / 手続的有効性判定票
-- 48-Hour Incident Review Template / 48時間事故初動レビュー票
-- Governance Readiness Checks / ガバナンス準備確認票
-- Evidence Integrity Review / 証拠完全性確認票
+This directory is designed to make LUMINA-30 usable in audits, incident reviews, governance decisions, vendor checks, and institutional screening.  
+このディレクトリは、LUMINA-30 を監査、事故レビュー、統治判断、ベンダー確認、制度審査で使用可能にするためのものです。
 
 ---
 
 ## Core Question / 中核問い
 
 Can human refusal remain effective before irreversible autonomous impact emerges?  
-不可逆な自律影響が生じる前に、人間の拒否権は有効に機能しているか。
+不可逆な自律的影響が生じる前に、人間の拒否権は有効に機能しているか。
 
 ---
 
-## Files / ファイル一覧
+## Structure / 構成
 
-- refusal-authority-audit.md
-- procedural-validity.md
-- initial-48h-review.md
+- [01-audits / 監査](./01-audits/)
+- [02-incident-review / 事故レビュー](./02-incident-review/)
+- [03-governance / ガバナンス](./03-governance/)
+- [04-executive / 経営層](./04-executive/)
+- [05-policy / 政策](./05-policy/)
+- [06-vendors / ベンダー](./06-vendors/)
+- [07-cases / ケース](./07-cases/)
+- [08-glossary / 用語集](./08-glossary/)
 
 ---
 
 ## Position / 位置づけ
 
-This repository does not prescribe regulation.  
-It provides operational references for governance review.
+This layer does not prescribe regulation or technical design mandates.  
+It provides practical references for examining refusal authority, intervention feasibility, responsibility continuity, and pre-irreversibility governance conditions.
 
-本リポジトリは規制を命じるものではありません。  
-ガバナンス検証のための実務参照資産です。
+この層は、規制や技術設計義務を命じるものではありません。  
+拒否権、介入可能性、責任連続性、不可逆到達前の統治条件を検証するための実務参照資産です。
