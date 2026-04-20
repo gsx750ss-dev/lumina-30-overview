@@ -21,14 +21,14 @@ Can human refusal remain effective before irreversible autonomous impact emerges
 
 ## Structure / 構成
 
-- 01-audits / 監査
-- 02-incident-review / 事故レビュー
-- 03-governance / ガバナンス
-- 04-executive / 経営層
-- 05-policy / 政策
-- 06-vendors / ベンダー
-- 07-cases / ケース
-- 08-glossary / 用語集
+- [01-audits / 監査](./01-audits/)
+- [02-incident-review / 事故レビュー](./02-incident-review/)
+- [03-governance / ガバナンス](./03-governance/)
+- [04-executive / 経営層](./04-executive/)
+- [05-policy / 政策](./05-policy/)
+- [06-vendors / ベンダー](./06-vendors/)
+- [07-cases / ケース](./07-cases/)
+- [08-glossary / 用語集](./08-glossary/)
 
 ---
 

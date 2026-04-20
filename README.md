@@ -875,6 +875,22 @@ Recommended reading order:
 2. Canonical Index（フレームワーク構造）  
 3. 実務ツール（レビュー・ガバナンス適用）
 
+### [Practical Layer / 実務層](./extensions/practical-layer/)
+
+Operational materials for applied use are available here.  
+実務適用向け資料はこちらです。
+
+- [Audits / 監査](./extensions/practical-layer/01-audits/)
+- [Incident Review / 事故レビュー](./extensions/practical-layer/02-incident-review/)
+- [Governance / ガバナンス](./extensions/practical-layer/03-governance/)
+- [Executive Use / 経営層向け](./extensions/practical-layer/04-executive/)
+- [Policy Reference / 政策参照](./extensions/practical-layer/05-policy/)
+- [Vendor Checks / ベンダー確認](./extensions/practical-layer/06-vendors/)
+- [Cases / ケース](./extensions/practical-layer/07-cases/)
+- [Glossary / 用語集](./extensions/practical-layer/08-glossary/)
+
+---
+
 Infrastructure control framework for preventing irreversible external impact risks in advanced AI systems.  
 高度AIにおける不可逆的外界影響リスクを防ぐためのインフラ制御フレームワーク。  
 <br>
