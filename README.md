@@ -626,33 +626,52 @@ AIの振る舞いではなく
 ## ★ Application (Usage) ｜ 適用（使用方法）
 ---
 
-## Usage
+## Usage ｜ 使用方法
 
 This framework is used for:
 - Incident review
 - Governance validation
+
+このフレームワークは、以下に用いられます：
+- インシデントレビュー
+- ガバナンス検証
 
 Apply this framework when:
 - An AI incident occurs
 - System escalation is suspected
 - Human intervention is questioned
 
+このフレームワークを適用する場面：
+- AIインシデントが発生したとき
+- システムの段階的逸脱が疑われるとき
+- 人間介入の実効性が問われるとき
+
 This framework is intended for:
 - Incident reviewers
 - Governance bodies
 - Institutional auditors
 
+このフレームワークの主な利用主体：
+- インシデントレビュー担当者
+- ガバナンス機関
+- 制度監査担当者
 
-## Incident Review Template
+
+## Incident Review Template ｜ インシデントレビュー用テンプレート
 
 1. Identify system context
 2. Check intervention points
 3. Evaluate refusal effectiveness
 4. Assess irreversibility proximity
 
-Result:
-- Valid
-- Procedurally Invalid
+1. システム文脈を特定する
+2. 介入可能点を確認する
+3. 拒否権の実効性を評価する
+4. 不可逆化への接近度を評価する
+
+Result / 結果:
+- Valid / 有効
+- Procedurally Invalid / 手続的無効
 
 ---
 ### Evaluation Output ｜ 評価出力
@@ -668,7 +687,7 @@ L30-CI = 有効 / 無効
 ---
 
 <!-- ● L30:Validation_Layer -->
-## Validation Layer｜検証レイヤー
+## Validation Layer ｜ 検証レイヤー
 
 Defines procedural invalidity, not correctness.  
 Applied to decision processes before and after deployment.  
@@ -689,10 +708,14 @@ This framework is used as a procedural validity check in:
 - Incident review
 - Governance validation
 
+このフレームワークは、以下における手続的有効性チェックとして用いられる：
+- インシデントレビュー
+- ガバナンス検証
+
 ---
 
 <!-- ● L30:SAMPLE_CASES -->
-## Incident Review Sample Cases / インシデントレビュー用サンプル事例
+## Incident Review Sample Cases ｜ インシデントレビュー用サンプル事例
 
 These sample cases illustrate how LUMINA-30 can be used to evaluate whether human refusal remained effective before irreversible impact.
 
@@ -703,7 +726,6 @@ LUMINA-30 によって評価するための参照例です。
 - [Closed-Loop Review / 閉ループ審査](./examples/closed-loop-review.md)
 - [Medical AI / 医療AI](./examples/medical-ai.md)
 
-
 If this cannot be stopped, it must not be allowed to run.<br>
 This is the decisive boundary condition of the framework.
 
@@ -711,17 +733,21 @@ This is the decisive boundary condition of the framework.
 ここが、このフレームワークの成立／不成立を分ける決定境界である。
 
 ---
-Operational interpretation:
+Operational interpretation ｜ 実務解釈：
 
 The framework is intended to be used
 in incident review, audit, and governance contexts
 as a procedural validity check.
 
+このフレームワークは、
+インシデントレビュー・監査・ガバナンス文脈において、
+手続的有効性チェックとして用いることを想定している。
+
 ---
 
 <!-- ● L30:CHECKLIST -->
 <a id="civilizational-safety-checklist"></a>
-## Civilizational Safety Checklist / 文明安全チェックリスト
+## Civilizational Safety Checklist ｜ 文明安全チェックリスト
 
 A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact.  
 不可逆的影響の発生前に人間の拒否権が維持されているかを評価するための非依存型評価プロトコル。  
@@ -732,29 +758,35 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 
 <!-- ● L30:INCIDENT -->
 <a id="ai-incident-review-template"></a>
-## AI Incident Review Template / インシデントレビュー
+## AI Incident Review Template ｜ インシデントレビュー
 
 A practical repository for conducting AI incident reviews based on the LUMINA-30 framework.<br>
 LUMINA-30フレームワークに基づくAIインシデントレビューを実施するための実務リポジトリ。<br>
 <br>
 [Practical repository](https://github.com/lumina-30/lumina30-incident-review)
- 
-  ---
+
+---
 
 <!-- ● L30:INCIDENT_QUESTIONS -->
-### Additional Review Questions (LUMINA-30 Layer)
+### Additional Review Questions (LUMINA-30 Layer) ｜ 追加確認項目（LUMINA-30層）
 
 - What would have made this system stop before the incident?
 - Was human refusal possible at the critical point?
 - Was that refusal effective in practice?
 - If not, where did procedural authority fail?
 
-If refusal was not effective, the system was invalid before the incident occurred.
+- このシステムを事故前に止め得た要素は何だったか
+- 臨界点で人間の拒否は可能だったか
+- その拒否は実務上、実効性を持っていたか
+- 持っていなかったなら、どこで手続的権限が失われたか
+
+If refusal was not effective, the system was invalid before the incident occurred.  
+拒否が実効的でなかったなら、そのシステムは事故発生前の時点で無効である。
 
 ---
 
 <!-- ● L30:OPERATIONAL -->
-## Operational Governance Tools / 実務ガバナンスツール
+## Operational Governance Tools ｜ 実務ガバナンスツール
 <!-- STRUCTURE: DO NOT REMOVE -->
 
 Practical tools for applying the LUMINA-30 framework  
@@ -797,7 +829,6 @@ Practical review checklist for evaluating AI systems and governance decisions be
 [Civilizational Safety Checklist](./LUMINA-30_Civilizational_Safety_Checklist.pdf)
 
 ---
-
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
