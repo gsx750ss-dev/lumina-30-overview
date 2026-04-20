@@ -1216,7 +1216,8 @@ or positioning is welcome.
 
 - [★ Extensions ｜ 拡張 / Extensions (Non-Core / Optional)](#extensions)  
   ※ 非コア：解釈・応用の補助資料  
-  ▶ 必須ではないが、理解と適用を補助
+  ▶ 必須ではないが、理解と適用を補助  
+  - [Practical Layer / 実務層](./extensions/practical-layer/)
   - Governance / ガバナンス
   - Boundary Cases / 境界事例
   - Socio-Economic / 社会経済
