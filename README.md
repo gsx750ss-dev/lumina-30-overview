@@ -875,6 +875,13 @@ Recommended reading order:
 2. Canonical Index（フレームワーク構造）  
 3. 実務ツール（レビュー・ガバナンス適用）
 
+Infrastructure control framework for preventing irreversible external impact risks in advanced AI systems.  
+高度AIにおける不可逆的外界影響リスクを防ぐためのインフラ制御フレームワーク。  
+<br>
+[Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
+
+---
+
 ### [Practical Layer / 実務層](./extensions/practical-layer/)
 
 Operational materials for applied use are available here.  
@@ -891,12 +898,6 @@ Operational materials for applied use are available here.
 
 ---
 
-Infrastructure control framework for preventing irreversible external impact risks in advanced AI systems.  
-高度AIにおける不可逆的外界影響リスクを防ぐためのインフラ制御フレームワーク。  
-<br>
-[Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
-
----
 
 <!-- ● L30:CANONICAL -->
 ## Canonical References / 正典参照
@@ -1033,6 +1034,7 @@ LUMINA-30の位置づけを「非該当」と「構造定義」によって明�
 ---
 
 <!-- ● L30:VISUALS -->
+<a id="materials-graphics"></a>
 ## Visual Concept Materials / 概念ビジュアル資料
 
 <!-- ● L30:S50 -->
@@ -1067,6 +1069,11 @@ They do not modify the core framework or its conditions.
 
 これらの資料は解釈および適用文脈を補助するものです。  
 コアフレームワークおよびその条件を変更するものではありません。
+
+### Practical Layer ｜ 実務層
+- [Practical Layer / 実務層](./extensions/practical-layer/)  
+  Operational materials for audits, incident review, governance checks, executive use, policy reference, vendor review, and cases.  
+  監査、事故レビュー、ガバナンス確認、経営層向け資料、政策参照、ベンダー確認、ケース集のための実務資料群。
 
 ### Governance ｜ ガバナンス
 - [Certification ｜ 認定](./docs/extensions/governance/certification.md)
@@ -1216,7 +1223,7 @@ or positioning is welcome.
 
 - [★ Extensions ｜ 拡張 / Extensions (Non-Core / Optional)](#extensions)  
   ※ 非コア：解釈・応用の補助資料  
-  ▶ 必須ではないが、理解と適用を補助  
+  ▶ 必須ではないが、理解と適用を補助
   - Governance / ガバナンス
   - Boundary Cases / 境界事例
   - Socio-Economic / 社会経済
