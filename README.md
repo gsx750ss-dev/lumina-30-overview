@@ -884,48 +884,63 @@ Infrastructure control framework for preventing irreversible external impact ris
 
 ## Operational Review and Governance Network / 実務・検証ネットワーク
 
-The following repositories extend LUMINA-30 from conceptual structure into incident review, public record integrity, policy/accountability language, and institutional friction analysis.  
-以下のリポジトリ群は、LUMINA-30を概念構造から、事故レビュー、公開記録の真正性、政策・説明責任言語、制度摩擦分析へ拡張する。
+The following repositories extend LUMINA-30 from conceptual structure into incident review, public record integrity, accountability language, institutional friction analysis, and stop-authority definition.  
+以下のリポジトリ群は、LUMINA-30を概念構造から、事故レビュー、公開記録真正性、説明責任言語、制度摩擦分析、拒否権定義へ拡張する。
 
 - **Incident Review Hub / 事故レビュー主ハブ**  
   [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review)  
-  Main operational review repository for refusal effectiveness, incident review, and pre-irreversibility assessment.  
-  拒否有効性、事故レビュー、不可逆前評価のための主実務リポジトリ。
+  Main operational review repository for refusal effectiveness, Required Questions, review templates, and stakeholder-facing one-page briefs.  
+  拒否有効性、Required Questions、レビュー用テンプレート、相手別1枚資料を扱う主実務リポジトリ。
 
 - **Practical Layer / 実務層**  
   [extensions/practical-layer](./extensions/practical-layer/)  
-  Cross-role practical shelf for audits, incident review, governance, executive use, policy support, vendors, cases, and glossary.  
-  監査、事故レビュー、ガバナンス、経営層向け説明、政策補助、ベンダー確認、事例、用語集の横断実務棚。
+  Cross-role operational shelf for audits, incident review, governance, executive explanation, policy support, vendors, cases, and glossary.  
+  監査、事故レビュー、ガバナンス、経営説明、政策補助、ベンダー確認、事例、用語集の横断実務棚。
 
 - **Public Reference / 公開参照ハブ**  
   [lumina30-public-reference](https://github.com/lumina-30/lumina30-public-reference)  
-  Stable public citation and discovery hub.  
-  公開引用と発見性のための安定参照ハブ。
+  Compact public-facing citation and discovery hub leading readers into the correct layer.  
+  読者を正しい層へ導く、公開向けの簡潔な引用・発見性ハブ。
 
-- **Public Record / 公開記録**  
+- **Public Record / 公開記録真正性**  
   [Lumi30-Public-Record](https://github.com/lumina-30/Lumi30-Public-Record)  
-  Integrity layer fixing canonical record identity and hashes.  
-  正典記録の真正性とハッシュを固定する層。
+  Integrity layer fixing canonical record identity and SHA256 hashes for the Core Canon.  
+  Core Canon の記録識別子と SHA256 を固定する真正性レイヤー。
 
-- **PDF Archive / PDFアーカイブ**  
+- **PDF Archive / PDF固定配布**  
   [Lumi30-PDF-Archive](https://github.com/lumina-30/Lumi30-PDF-Archive)  
-  Fixed downloadable PDF archive for preservation and stable distribution.  
-  保存と安定配布のための固定PDFアーカイブ。
+  Stable downloadable PDF archive for preservation and offline distribution.  
+  保存とオフライン配布のための固定 PDF アーカイブ。
 
 - **Accountability Reference / 説明責任参照**  
   [ai-accountability-reference](https://github.com/lumina-30/ai-accountability-reference)  
-  Institutional language for accountability, auditability, and responsibility continuity.  
-  説明責任、監査可能性、責任連続性の制度言語。
+  Institutional language for accountability, auditability, post-hoc responsibility, and responsibility continuity.  
+  説明責任、監査可能性、事後責任、責任連続性の制度言語。
 
 - **Institutional Friction Toolkit / 制度摩擦ツールキット**  
   [institutional-friction-toolkit](https://github.com/lumina-30/institutional-friction-toolkit)  
-  Failure-to-stop, override breakdown, restart control, and procedural invalidity analysis.  
-  停止不全、override崩壊、再起動統制、手続的無効の分析。
+  Failure-to-stop, override breakdown, restart control failure, and procedural invalidity analysis.  
+  停止不全、override 崩壊、再起動統制不全、手続的無効の分析。
 
-- **Stop Authority Reference / 拒否権定義参照**  
+- **Stop Authority Reference / 拒否権定義アンカー**  
   [stop-authority-reference](https://github.com/lumina-30/stop-authority-reference)  
-  Definition anchor for meaningful human refusal authority.  
-  有意味な人間拒否権の定義アンカー。
+  Compact anchor for stop authority, refusal authority, and pre-irreversibility interruption.  
+  stop authority、refusal authority、不可逆前中断可能性の簡潔な定義アンカー。
+
+---
+
+## Comparison with Other Approaches / 他アプローチとの比較
+
+| Approach | Primary question | Main focus | Failure condition | Typical use |
+|---|---|---|---|---|
+| **LUMINA-30** | Did effective human refusal remain available before irreversible impact? | Boundary validity before irreversibility | Loss of effective human refusal before irreversible impact | Incident review, governance review, boundary assessment |
+| **Incident / governance frameworks** | What happened, why, and how can recurrence be reduced? | Event analysis, accountability, mitigation | Process failure, control failure, compliance failure | Post-incident review, audit, reporting |
+| **AI principles / policy documents** | What values or principles should guide AI? | Normative guidance, policy orientation | Principle violation or governance gap | Policy communication, institutional guidance |
+| **Alignment / safety theories** | How can AI systems behave as intended or remain safe? | Behavior, robustness, optimization, control | Misalignment, unsafe behavior, loss of control | Research, technical safety analysis |
+
+**Key distinction / 重要な違い**  
+LUMINA-30 does not first ask what AI should do. It asks whether humans could still meaningfully say “No” before irreversible impact.  
+LUMINA-30は、まずAIが何をすべきかを問うのではない。不可逆影響の前に、人間がなお実効的に「No」と言えたかを問う。
 
 ---
 
@@ -1064,6 +1079,7 @@ LUMINA-30の位置づけを「非該当」と「構造定義」によって明�
 ---
 
 <!-- ● L30:VISUALS -->
+<a id="materials-graphics"></a>
 ## Visual Concept Materials / 概念ビジュアル資料
 
 <!-- ● L30:S50 -->
@@ -1104,9 +1120,9 @@ They do not modify the core framework or its conditions.
 - [Incident Review Hub / 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)
 
 Practical Layer provides a cross-role operational shelf.  
-It is designed for audits, incident review, governance checks, executive explanation, policy support, vendor review, and case-based understanding.  
+It is designed for audits, incident review, governance checks, executive explanation, policy support, vendor review, case-based understanding, and glossary use.  
 Practical Layer は、役割横断の実務棚を提供する。  
-監査、事故レビュー、ガバナンス確認、経営説明、政策補助、ベンダー審査、事例理解のために設計されている。
+監査、事故レビュー、ガバナンス確認、経営説明、政策補助、ベンダー審査、事例理解、用語利用のために設計されている。
 
 `lumina30-incident-review` should be treated as the main incident-review hub, while Practical Layer serves as a broader operational entry shelf.  
 `lumina30-incident-review` は事故レビューの主ハブであり、Practical Layer はより広い実務入口棚として扱う。
@@ -1157,20 +1173,28 @@ Instead, it defines a civilizational boundary concept intended to preserve human
 ### Quick Routing / 目的別の最短導線
 
 - **For incident reviewers / 事故レビュー担当向け**  
-  Start with the incident-review repository and Required Questions.  
-  incident-review リポジトリと Required Questions から開始。
+  Start with [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review).  
+  First look for: Required Questions, Protocol, Template, and stakeholder one-page briefs.  
+  まず [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review) を参照。  
+  Required Questions、Protocol、Template、相手別1枚資料から開始。
 
-- **For auditors, legal, and risk control / 法務・監査・リスク管理向け**  
-  Use the stakeholder one-page briefs and accountability / friction materials.  
-  相手別1枚資料と accountability / friction 資料を使用。
+- **For legal, audit, and risk control / 法務・監査・リスク管理向け**  
+  Use [ai-accountability-reference](https://github.com/lumina-30/ai-accountability-reference) and [institutional-friction-toolkit](https://github.com/lumina-30/institutional-friction-toolkit).  
+  First look for: accountability language, audit wording, responsibility continuity, procedural invalidity, and failure-to-stop analysis.  
+  [ai-accountability-reference](https://github.com/lumina-30/ai-accountability-reference) と [institutional-friction-toolkit](https://github.com/lumina-30/institutional-friction-toolkit) を使用。  
+  説明責任言語、監査文言、責任連続性、手続的無効、停止不全分析から開始。
 
 - **For researchers / 研究者向け**  
-  Start with Paper Reference, Research Paper, and Core Terminology.  
-  Paper Reference、Research Paper、Core Terminology から開始。
+  Start with Paper Reference, Research Paper, Canonical References, and Core Terminology.  
+  First look for: PCR-C, canonical index, and terminology.  
+  Paper Reference、Research Paper、Canonical References、Core Terminology から開始。  
+  PCR-C、正典 Index、用語定義を先に確認。
 
 - **For public and policy-facing explanation / 公開・政策説明向け**  
-  Use Public Reference, Public Record, PDF Archive, and the comparison materials.  
-  Public Reference、Public Record、PDF Archive、および比較資料を使用。
+  Use [lumina30-public-reference](https://github.com/lumina-30/lumina30-public-reference), [Lumi30-Public-Record](https://github.com/lumina-30/Lumi30-Public-Record), and [Lumi30-PDF-Archive](https://github.com/lumina-30/Lumi30-PDF-Archive).  
+  First look for: public entry, fixed record identity, hashes, and stable PDFs.  
+  [lumina30-public-reference](https://github.com/lumina-30/lumina30-public-reference)、[Lumi30-Public-Record](https://github.com/lumina-30/Lumi30-Public-Record)、[Lumi30-PDF-Archive](https://github.com/lumina-30/Lumi30-PDF-Archive) を使用。  
+  公開入口、固定記録識別子、ハッシュ、安定 PDF を先に確認。
 
 ---
 
@@ -1266,6 +1290,7 @@ or positioning is welcome.
   - [Research Paper ｜ 研究論文](#research-paper)  
     ⚑ 理論的裏付けと外部参照の核
   - Operational Review and Governance Network / 実務・検証ネットワーク
+  - Comparison with Other Approaches / 他アプローチとの比較
   - Canonical References / 正典参照
   - Core Terminology / 中核用語
   - Glossary / 用語集
@@ -1292,6 +1317,7 @@ or positioning is welcome.
   ※ 一般向け：背景と文明的な位置づけの理解  
   ▶ 文明的な意味と適用範囲を把握
   - Position and Scope / 位置づけ
+  - Quick Routing / 目的別最短導線
   - Civilizational Context / 文明的文脈
 
 - [★ Others ｜ その他 / Others](#others)  
