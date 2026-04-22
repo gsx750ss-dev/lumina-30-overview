@@ -882,22 +882,52 @@ Infrastructure control framework for preventing irreversible external impact ris
 
 ---
 
-### [Practical Layer / 実務層](./extensions/practical-layer/)
+## Operational Review and Governance Network / 実務・検証ネットワーク
 
-Operational materials for applied use are available here.  
-実務適用向け資料はこちらです。
+The following repositories extend LUMINA-30 from conceptual structure into incident review, public record integrity, policy/accountability language, and institutional friction analysis.  
+以下のリポジトリ群は、LUMINA-30を概念構造から、事故レビュー、公開記録の真正性、政策・説明責任言語、制度摩擦分析へ拡張する。
 
-- [Audits / 監査](./extensions/practical-layer/01-audits/)
-- [Incident Review / 事故レビュー](./extensions/practical-layer/02-incident-review/)
-- [Governance / ガバナンス](./extensions/practical-layer/03-governance/)
-- [Executive Use / 経営層向け](./extensions/practical-layer/04-executive/)
-- [Policy Reference / 政策参照](./extensions/practical-layer/05-policy/)
-- [Vendor Checks / ベンダー確認](./extensions/practical-layer/06-vendors/)
-- [Cases / ケース](./extensions/practical-layer/07-cases/)
-- [Glossary / 用語集](./extensions/practical-layer/08-glossary/)
+- **Incident Review Hub / 事故レビュー主ハブ**  
+  [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review)  
+  Main operational review repository for refusal effectiveness, incident review, and pre-irreversibility assessment.  
+  拒否有効性、事故レビュー、不可逆前評価のための主実務リポジトリ。
+
+- **Practical Layer / 実務層**  
+  [extensions/practical-layer](./extensions/practical-layer/)  
+  Cross-role practical shelf for audits, incident review, governance, executive use, policy support, vendors, cases, and glossary.  
+  監査、事故レビュー、ガバナンス、経営層向け説明、政策補助、ベンダー確認、事例、用語集の横断実務棚。
+
+- **Public Reference / 公開参照ハブ**  
+  [lumina30-public-reference](https://github.com/lumina-30/lumina30-public-reference)  
+  Stable public citation and discovery hub.  
+  公開引用と発見性のための安定参照ハブ。
+
+- **Public Record / 公開記録**  
+  [Lumi30-Public-Record](https://github.com/lumina-30/Lumi30-Public-Record)  
+  Integrity layer fixing canonical record identity and hashes.  
+  正典記録の真正性とハッシュを固定する層。
+
+- **PDF Archive / PDFアーカイブ**  
+  [Lumi30-PDF-Archive](https://github.com/lumina-30/Lumi30-PDF-Archive)  
+  Fixed downloadable PDF archive for preservation and stable distribution.  
+  保存と安定配布のための固定PDFアーカイブ。
+
+- **Accountability Reference / 説明責任参照**  
+  [ai-accountability-reference](https://github.com/lumina-30/ai-accountability-reference)  
+  Institutional language for accountability, auditability, and responsibility continuity.  
+  説明責任、監査可能性、責任連続性の制度言語。
+
+- **Institutional Friction Toolkit / 制度摩擦ツールキット**  
+  [institutional-friction-toolkit](https://github.com/lumina-30/institutional-friction-toolkit)  
+  Failure-to-stop, override breakdown, restart control, and procedural invalidity analysis.  
+  停止不全、override崩壊、再起動統制、手続的無効の分析。
+
+- **Stop Authority Reference / 拒否権定義参照**  
+  [stop-authority-reference](https://github.com/lumina-30/stop-authority-reference)  
+  Definition anchor for meaningful human refusal authority.  
+  有意味な人間拒否権の定義アンカー。
 
 ---
-
 
 <!-- ● L30:CANONICAL -->
 ## Canonical References / 正典参照
@@ -1034,7 +1064,6 @@ LUMINA-30の位置づけを「非該当」と「構造定義」によって明�
 ---
 
 <!-- ● L30:VISUALS -->
-<a id="materials-graphics"></a>
 ## Visual Concept Materials / 概念ビジュアル資料
 
 <!-- ● L30:S50 -->
@@ -1070,10 +1099,17 @@ They do not modify the core framework or its conditions.
 これらの資料は解釈および適用文脈を補助するものです。  
 コアフレームワークおよびその条件を変更するものではありません。
 
-### Practical Layer ｜ 実務層
-- [Practical Layer / 実務層](./extensions/practical-layer/)  
-  Operational materials for audits, incident review, governance checks, executive use, policy reference, vendor review, and cases.  
-  監査、事故レビュー、ガバナンス確認、経営層向け資料、政策参照、ベンダー確認、ケース集のための実務資料群。
+### Practical Layer / 実務層
+- [Practical Layer / 実務層](./extensions/practical-layer/)
+- [Incident Review Hub / 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)
+
+Practical Layer provides a cross-role operational shelf.  
+It is designed for audits, incident review, governance checks, executive explanation, policy support, vendor review, and case-based understanding.  
+Practical Layer は、役割横断の実務棚を提供する。  
+監査、事故レビュー、ガバナンス確認、経営説明、政策補助、ベンダー審査、事例理解のために設計されている。
+
+`lumina30-incident-review` should be treated as the main incident-review hub, while Practical Layer serves as a broader operational entry shelf.  
+`lumina30-incident-review` は事故レビューの主ハブであり、Practical Layer はより広い実務入口棚として扱う。
 
 ### Governance ｜ ガバナンス
 - [Certification ｜ 認定](./docs/extensions/governance/certification.md)
@@ -1117,6 +1153,24 @@ LUMINA-30 does not propose policies, implementation requirements, or enforcement
 LUMINA-30は政策提案・実装要件・強制制度を提示するものではありません。  
 Instead, it defines a civilizational boundary concept intended to preserve human refusal authority before irreversible external effects occur.  
 本フレームワークは、不可逆的外界影響が成立する前段階において、人間の拒否権を保持するための文明的境界概念を提示します。
+
+### Quick Routing / 目的別の最短導線
+
+- **For incident reviewers / 事故レビュー担当向け**  
+  Start with the incident-review repository and Required Questions.  
+  incident-review リポジトリと Required Questions から開始。
+
+- **For auditors, legal, and risk control / 法務・監査・リスク管理向け**  
+  Use the stakeholder one-page briefs and accountability / friction materials.  
+  相手別1枚資料と accountability / friction 資料を使用。
+
+- **For researchers / 研究者向け**  
+  Start with Paper Reference, Research Paper, and Core Terminology.  
+  Paper Reference、Research Paper、Core Terminology から開始。
+
+- **For public and policy-facing explanation / 公開・政策説明向け**  
+  Use Public Reference, Public Record, PDF Archive, and the comparison materials.  
+  Public Reference、Public Record、PDF Archive、および比較資料を使用。
 
 ---
 
@@ -1211,6 +1265,7 @@ or positioning is welcome.
   - Paper Reference
   - [Research Paper ｜ 研究論文](#research-paper)  
     ⚑ 理論的裏付けと外部参照の核
+  - Operational Review and Governance Network / 実務・検証ネットワーク
   - Canonical References / 正典参照
   - Core Terminology / 中核用語
   - Glossary / 用語集
@@ -1224,6 +1279,7 @@ or positioning is welcome.
 - [★ Extensions ｜ 拡張 / Extensions (Non-Core / Optional)](#extensions)  
   ※ 非コア：解釈・応用の補助資料  
   ▶ 必須ではないが、理解と適用を補助
+  - Practical Layer / 実務層
   - Governance / ガバナンス
   - Boundary Cases / 境界事例
   - Socio-Economic / 社会経済
