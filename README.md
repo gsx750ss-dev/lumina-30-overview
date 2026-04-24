@@ -80,32 +80,28 @@
 ---
 <!-- ● L30:TITLE -->
 # LUMINA-30
+
 Refusal before irreversibility — a boundary that cannot be substituted.  
 不可逆の前に拒否が機能しているか——代替不能な境界。
 
-Primary validity condition:
+**Primary validity condition / 主要成立条件**  
 
-A system is procedurally invalid<br>
-if human refusal authority is not effective<br>
-before irreversible impact.
+A system is procedurally invalid if human refusal authority is not effective before irreversible impact.  
+不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的に無効である。
 
-This repository is the conceptual entry point to LUMINA-30.<br>
-For practical incident review usage, see the dedicated incident-review repository.<br>
-このリポジトリはLUMINA-30の概念入口です。<br>
-実務的なインシデントレビュー用途は、専用のincident-reviewリポジトリを参照してください。<br>
- 
-## Primary Question
+**Primary Question / 主要問い**  
 
-Was human refusal authority effective before irreversible impact?
+Was human refusal authority effective before irreversible impact?  
+不可逆的影響の前に、人間の拒否権は実効的だったか？
 
-If not, the system is procedurally invalid.
+This repository is the conceptual entry point to LUMINA-30.  
+For practical incident review usage, see the dedicated incident-review repository.  
 
----
-<!--## Entry Visuals (G00 — G06)<br> -->
-LUMINA-30 defines a boundary where human refusal must remain effective before irreversible AI autonomy.  
-LUMINA-30は、不可逆なAI自律の前に人間の拒否権が有効であるべき境界を定義する。
+このリポジトリはLUMINA-30の概念入口です。  
+実務的なインシデントレビュー用途は、専用のincident-reviewリポジトリを参照してください。
 
 <a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a> ｜ <a href="#quick-section-jump"><b>🔽 View Quick Section Jump｜ジャンル別ショートカットを見る</b></a>
+
 
 ---
 <!-- ● L30:CORE -->
