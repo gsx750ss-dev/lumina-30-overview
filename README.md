@@ -105,34 +105,7 @@ If not, the system is procedurally invalid.
 LUMINA-30 defines a boundary where human refusal must remain effective before irreversible AI autonomy.  
 LUMINA-30は、不可逆なAI自律の前に人間の拒否権が有効であるべき境界を定義する。
 
-<a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a>
-
-### Quick Section Jump ｜ ジャンル別ショートカット
-
-- [Core / Theory ｜ 中核 / 理論](#core)  
-  Concept, boundary condition, and judgment logic.  
-  概念、境界条件、判断ロジック。
-
-- [Application / Practical Use ｜ 適用 / 実務使用](#application)  
-  Checklists, templates, and operational use.  
-  チェックリスト、テンプレート、運用使用。
-
-- [Reference / Research ｜ 参照 / 研究](#reference)  
-  Papers, terminology, and canonical references.  
-  論文、用語、正典参照。
-
-- [Materials / Visuals ｜ 資料 / ビジュアル](#materials)  
-  Slides, figures, and quick visual understanding.  
-  スライド、図、素早い視覚理解。
-
-- [Extensions / Optional Paths ｜ 拡張 / 補助導線](#extensions)  
-  Practical layer, governance, and supplementary paths.  
-  実務層、ガバナンス、補助導線。
-
-- [Context / Scope ｜ 背景 / 射程](#context)  
-  Positioning, scope, and civilizational context.  
-  位置づけ、射程、文明的文脈。
-
+<a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a> ｜ <a href="#quick-section-jump"><b>🔽 View Quick Section Jump｜ジャンル別ショートカットを見る</b></a>
 
 ---
 <!-- ● L30:CORE -->
@@ -1354,3 +1327,35 @@ or positioning is welcome.
   - License
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+
+<a id="quick-section-jump"></a>
+### ★ Quick Section Jump ｜ ジャンル別ショートカット
+
+- [Core / Theory ｜ 中核 / 理論](#core)  
+  Concept, boundary condition, and judgment logic.  
+  概念、境界条件、判断ロジック。
+
+- [Application / Practical Use ｜ 適用 / 実務使用](#application)  
+  Checklists, templates, and operational use.  
+  チェックリスト、テンプレート、運用使用。
+
+- [Reference / Research ｜ 参照 / 研究](#reference)  
+  Papers, terminology, and canonical references.  
+  論文、用語、正典参照。
+
+- [Materials / Visuals ｜ 資料 / ビジュアル](#materials)  
+  Slides, figures, and quick visual understanding.  
+  スライド、図、素早い視覚理解。
+
+- [Extensions / Optional Paths ｜ 拡張 / 補助導線](#extensions)  
+  Practical layer, governance, and supplementary paths.  
+  実務層、ガバナンス、補助導線。
+
+- [Context / Scope ｜ 背景 / 射程](#context)  
+  Positioning, scope, and civilizational context.  
+  位置づけ、射程、文明的文脈。
+
+---
+
+<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+
