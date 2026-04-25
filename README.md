@@ -657,14 +657,18 @@ Result / 結果:
 
 ## Evaluation Output ｜ 評価出力
 
-L30-CI (LUMINA-30 Compliance Indicator) is a minimal, evidence-based indicator expressing whether a system satisfies LUMINA-30 boundary conditions.  
-L30-CI（LUMINA-30 Compliance Indicator）は、システムがLUMINA-30の境界条件を満たしているかを表す最小かつ検証可能な指標です。
+L30-CI (LUMINA-30 Condition Indicator) is a minimal, evidence-based indicator expressing whether a reviewed system satisfies LUMINA-30 boundary conditions.<br>
+L30-CI（LUMINA-30 Condition Indicator）は、レビュー対象のシステムがLUMINA-30の境界条件を満たしているかを示す、最小かつ証拠ベースの指標です。<br>
 
-Result:  
-L30-CI = Valid / Invalid  
-結果：  
-L30-CI = 有効 / 無効
+Result:
+- L30-CI = Valid
+- L30-CI = Invalid
+- L30-CI = Invalid (Not Verifiable)
 
+結果：
+- L30-CI = 有効
+- L30-CI = 無効
+- L30-CI = 無効（確認不能）
 
 <!-- ● L30:Validation_Layer -->
 <a id="validation-layer"></a>
