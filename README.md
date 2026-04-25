@@ -1375,31 +1375,46 @@ or positioning is welcome.
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <a id="quick-section-jump"></a>
-### ★ Quick Section Jump ｜ ジャンル別ショートカット
+### ★ Quick Section Jump ｜ 目的別ショートカット
 
-- [Core / Theory ｜ 中核 / 理論](#core)  
-  Concept, boundary condition, and judgment logic.  
-  概念、境界条件、判断ロジック。
+Use this section to choose the next destination by purpose, not to browse the whole site.  
+このセクションは、全体を回遊するためではなく、目的に合う到達先を選ぶための導線です。
 
-- [Application / Practical Use ｜ 適用 / 実務使用](#application)  
-  Checklists, templates, and operational use.  
-  チェックリスト、テンプレート、運用使用。
+- [Understand the core boundary ｜ 中核境界を理解する](#core)  
+  For first-time readers who need the basic structure, boundary condition, and judgment logic.  
+  初見読者が、基本構造・境界条件・判断ロジックを確認する場合。
 
-- [Reference / Research ｜ 参照 / 研究](#reference)  
-  Papers, terminology, and canonical references.  
-  論文、用語、正典参照。
+- [Check the critical failure point ｜ 失効境界を確認する](#g06-critical-boundary)  
+  For readers who need to identify where refusal authority becomes ineffective.  
+  拒否権がどこで実効性を失うかを確認する場合。
 
-- [Materials / Visuals ｜ 資料 / ビジュアル](#materials)  
-  Slides, figures, and quick visual understanding.  
-  スライド、図、素早い視覚理解。
+- [Use practical review tools ｜ 実務レビューに使う](#application)  
+  For incident review, checklists, templates, and operational evaluation.  
+  事故レビュー、チェックリスト、テンプレート、運用評価に使う場合。
 
-- [Extensions / Optional Paths ｜ 拡張 / 補助導線](#extensions)  
-  Practical layer, governance, and supplementary paths.  
-  実務層、ガバナンス、補助導線。
+- [Review an AI incident ｜ AI事故をレビューする](#ai-incident-review-template)  
+  For checking whether intervention remained possible before irreversible impact.  
+  不可逆的影響の前に介入可能性が残っていたかを確認する場合。
 
-- [Context / Scope ｜ 背景 / 射程](#context)  
-  Positioning, scope, and civilizational context.  
-  位置づけ、射程、文明的文脈。
+- [Check governance and responsibility ｜ ガバナンスと責任構造を確認する](#operational-governance-tools)  
+  For policy, audit, institutional responsibility, and procedural review contexts.  
+  政策、監査、制度責任、手続きレビューの文脈で確認する場合。
+
+- [Research or cite LUMINA-30 ｜ 研究・引用する](#reference)  
+  For papers, terminology, canonical references, and stable citation paths.  
+  論文、用語、正典参照、安定した引用導線を確認する場合。
+
+- [Use figures or slides ｜ 図・スライドを使う](#materials)  
+  For quick visual understanding, presentations, and explanatory materials.  
+  視覚的理解、説明資料、プレゼン用資料を確認する場合。
+
+- [Check optional support materials ｜ 補助資料を確認する](#extensions)  
+  For supplementary paths that support, but do not replace, the core framework.  
+  中核を置き換えずに補助する追加資料を確認する場合。
+
+- [Confirm scope and positioning ｜ 射程と位置づけを確認する](#context)  
+  For understanding what LUMINA-30 is, and what it does not claim to be.  
+  LUMINA-30が何であり、何ではないかを確認する場合。
 
 ---
 
