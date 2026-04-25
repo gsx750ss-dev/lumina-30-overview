@@ -347,7 +347,9 @@ If this cannot be answered clearly, the system cannot be considered controlled.
 
 この問いに明確に答えられない場合、そのシステムは制御されていたとは見なせません。
 
-→ https://github.com/lumina-30/lumina30-incident-review
+→ [Incident Review Hub / 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)  
+Use this for practical incident review, boundary checks, and stakeholder-facing review materials.  
+事故レビュー、境界判定、相手別レビュー資料に使用。
 
 ---
 <!-- ● L30:STRUCTURE -->
@@ -384,8 +386,8 @@ before potential irreversibility?
 
 ---
 
-Repository DOI: https://doi.org/10.5281/zenodo.18850343<br>
-Paper DOI: https://doi.org/10.5281/zenodo.18824181
+Repository DOI: [10.5281/zenodo.18850343](https://doi.org/10.5281/zenodo.18850343)<br>
+Paper DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
 ---
 
@@ -500,8 +502,8 @@ PCR-Cは、不可逆リスクに対する評価条件を形式化し、人間の
 
 LUMINA-30が境界を定義するのに対し、PCR-Cはその形式化を担います。
 
-→ Paper: Pre-Critical Recursive Cutoff (PCR-C)
-→ DOI: https://doi.org/10.5281/zenodo.18824181
+→ Paper: Pre-Critical Recursive Cutoff (PCR-C)  
+→ DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
 ---
 
@@ -609,8 +611,13 @@ AIの振る舞いではなく
 <!-- ● L30:QUICK -->
 ## Quick Entry ｜ クイック導線
 
-[Canonical Index](https://github.com/lumina-30/Lumi30-Index)  
-[AI Incident Review Framework](https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf)
+- [Canonical Index / 正典索引](https://github.com/lumina-30/Lumi30-Index)  
+  Start here for the repository network and canonical navigation.  
+  repo群全体と正典導線を確認する入口。
+
+- [AI Incident Review Framework / AI事故レビュー枠組み](https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf)  
+  Use this when reviewing whether human refusal remained effective before irreversible impact.  
+  不可逆的影響の前に人間の拒否が実効性を持っていたかを確認する場合に使用。
 
 ---
 
@@ -759,7 +766,9 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 A practical repository for conducting AI incident reviews based on the LUMINA-30 framework.<br>
 LUMINA-30フレームワークに基づくAIインシデントレビューを実施するための実務リポジトリ。<br>
 <br>
-[Practical repository](https://github.com/lumina-30/lumina30-incident-review)
+[Practical Incident Review Repository / 実務用事故レビューrepo](https://github.com/lumina-30/lumina30-incident-review)  
+Use this for practical incident review, boundary checks, and operational templates.  
+事故レビュー、境界判定、実務テンプレートに使用。
 
 ---
 
@@ -839,8 +848,7 @@ Practical review checklist for evaluating AI systems and governance decisions be
 Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control mechanism for managing irreversibility risk in advanced AI systems.<br>
 本論文（PCR-C）は、不可逆性リスクを制御するための段階的インフラ制御モデルを提示します。
 LUMINA-30は、その前提となる文明的境界構造を提供します。
-DOI:
-https://doi.org/10.5281/zenodo.18824181
+DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
 This repository provides the conceptual and visual framework that supports the paper, including:
 - Civilizational boundary model (LUMINA-30)
@@ -1239,8 +1247,13 @@ not as a policy or implementation proposal.
 
 It is currently shared via Zenodo and GitHub for open review.
 
-- Paper (DOI): https://doi.org/10.5281/zenodo.18824181
-- Overview: https://github.com/lumina-30/lumina-30-overview
+- [Paper DOI / 論文DOI](https://doi.org/10.5281/zenodo.18824181)  
+  Fixed DOI entry for the PCR-C research paper.  
+  PCR-C論文の固定DOI入口。
+
+- [LUMINA-30 Overview / LUMINA-30 概要](https://github.com/lumina-30/lumina-30-overview)  
+  Conceptual overview and visual navigation.  
+  概念概要と視覚導線。
 
 This work is not yet indexed in arXiv categories,
 and feedback on appropriate classification, related work,
@@ -1354,4 +1367,3 @@ or positioning is welcome.
 ---
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
-
