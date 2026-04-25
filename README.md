@@ -108,7 +108,6 @@ For practical incident review usage, see the dedicated incident-review repositor
 <a id="core"></a>
 ## ★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）
 
----
 
 <!-- ● L30:ENTRY_VISUAL -->
 <a id="entry-visuals"></a>
@@ -145,7 +144,6 @@ not a safety optimization objective.
   <img src="figures/EN_G05_AI_Perspective.png" width="900">
 </a>
 
----
 <!-- ● L30:BOUNDARY_DECISION -->
 ## G06 — Critical Boundary ｜ G06：臨界境界
 <a id="g06-en"></a>
@@ -171,7 +169,6 @@ The formal definition is provided below.
 See detailed definition:  
 → [English G06 Core](#g06-core-en) | [日本語G06コア](#g06-core-jp)
 
----
 <!-- ● L30:PRIMARY_QUESTION -->
 ## Primary Question ｜ 主要問い
 
@@ -179,7 +176,6 @@ Was human refusal authority effective
 before irreversible impact?
 If not, the system is procedurally invalid.
 
----
 
 LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.<br>
 Civilization remains free only while humans retain the power to refuse.<br>
@@ -188,7 +184,6 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 
 LUMINA-30 can also be applied as a practical review instrument for determining whether human refusal authority remained effective before irreversible real-world impact.
 
----
 <!-- ● L30:CONCEPT -->
 <a id="concept-diagrams"></a>
 ## Concept Diagrams ｜ 概念図
@@ -205,7 +200,6 @@ reach the point of irreversible external impact.
 
 LUMINA-30文明境界フレームワークの概念図。
 
----
 
 <!-- ● L30:G01 -->
 ## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
@@ -215,7 +209,6 @@ This diagram illustrates the boundary condition explored by LUMINA-30.
 <br>
 EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.png)
 
----
 
 <!-- ● L30:G02 -->
 ## G02 — Civilizational Outcome Model ｜ 文明結果モデル
@@ -226,7 +219,6 @@ including the irreversible progression structure under advanced AI conditions.<b
 <br>
 EN: [G02](figures/EN_G02_Boundary.png) ｜ JP: [G02](figures/JP_G02_Boundary.png)
 
----
 
 <!-- ● L30:G03 -->
 ## G03 — Civilizational Survival Strategy ｜ 文明存続戦略
@@ -236,7 +228,6 @@ This diagram illustrates possible strategic responses near critical AI threshold
 <br>
 EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png)
 
----
 
 <!-- ● L30:G04 -->
 <a id="g04-pcrc-governance-model"></a>
@@ -247,7 +238,6 @@ This diagram explains the PCR-C governance mechanism.
 <br>
 EN: [G04](figures/EN_G04_PCRC.png) ｜ JP: [G04](figures/JP_G04_PCRC.png)
 
----
 
 <!-- ● L30:G05 -->
 ## G05 — AI Perspective ｜ AI視点
@@ -257,7 +247,6 @@ This diagram explores how the framework appears from an advanced AI perspective.
 <br>
 EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
 
----
 
 <!-- ● L30:G06 -->
 ## G06 — Critical Boundary ｜ 臨界境界
@@ -267,7 +256,6 @@ This diagram defines the critical procedural boundary before irreversible impact
 <br>
 EN: [G06](figures/EN_G06_Critical_Boundary.png) ｜ JP: [G06](figures/JP_G06_Critical_Boundary.png)
 
----
 
 <!-- ● L30:G06_CORE_EN -->
 ## ★ G06 — Procedural Validity Core (LUMINA-30 Core)
@@ -300,7 +288,6 @@ This is a structural validity condition.
 - Absence of human refusal authority invalidates the process,
   regardless of outcome quality.
 
----
 
 <!-- ● L30:G06_CORE_JP -->
 ## ★ G06 — 手続的有効性コア（LUMINA-30の中核）
@@ -333,7 +320,6 @@ NO  → 手続的に無効
 ・AIのみの閉ループ評価は手続的に無効  
 ・人間の拒否権が欠如している場合、結果の良し悪しに関係なく無効
 
----
 
 <a id="practical-application"></a>
 ### Practical Application / 実務適用
@@ -354,7 +340,6 @@ If this cannot be answered clearly, the system cannot be considered controlled.
 Use this for practical incident review, boundary checks, and stakeholder-facing review materials.  
 事故レビュー、境界判定、相手別レビュー資料に使用。
 
----
 <!-- ● L30:STRUCTURE -->
 <a id="framework-structure"></a>
 ## Framework Structure ｜ フレームワーク構造
@@ -363,7 +348,6 @@ Use this for practical incident review, boundary checks, and stakeholder-facing 
 The following diagrams summarize the structural components of the LUMINA-30 framework.  
 以下の図は LUMINA-30 フレームワークの構造要素を示します。
 
----
 
 **A01 Architecture**  
 [A01](figures/A01_architecture.png)
@@ -388,12 +372,10 @@ before potential irreversibility?
 潜在的な不可逆性の前に、  
 なぜ介入が実行されなかったのか。
 
----
 
 Repository DOI: [10.5281/zenodo.18850343](https://doi.org/10.5281/zenodo.18850343)<br>
 Paper DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
----
 
 Application context:
 
@@ -402,7 +384,6 @@ This framework is designed to support:
 - Safety audit and compliance evaluation
 - Institutional governance decisions
 
----
 
 <!-- ● L30:MAP -->
 <a id="conceptual-structure"></a>
@@ -413,7 +394,6 @@ LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を�
 <br>
 [LUMINA-30 Structure Map / LUMINA-30 構造マップ](https://github.com/lumina-30/lumina-30-structure-map)
 
----
 
 <!-- ● L30:ENTRY -->
 LUMINA-30 defines a civilizational boundary for AI systems.
@@ -421,14 +401,12 @@ It introduces a single invariant missing from existing frameworks:
 Human refusal must remain effective before irreversible impact.
 This is not a replacement framework, but a boundary condition across all AI governance layers.
 
- ---
  LUMINA-30 defines a validity condition:
  systems are invalid if human refusal is not effective before irreversible impact.
 
  LUMINA-30は、不可逆的影響の前に人間の拒否が実効性を持たない場合、
  そのシステムは無効であるとする成立条件を定義する。
  
----
 
 <!-- ● L30:OVERVIEW -->
 <a id="overview"></a>
@@ -468,7 +446,6 @@ Refusal is the last safeguard of sovereignty.
 > 「最適化」の名のもとに  
 > 静かに失われる。
 
----
 
 <!-- ● L30:POSITION -->
 <a id="position"></a>
@@ -489,7 +466,6 @@ But none guarantee:
 
 LUMINA-30 introduces this as a **non-negotiable validity condition**.
 
----
 
 ## ■ Theoretical Foundation｜理論的基盤
 
@@ -499,7 +475,6 @@ PCR-C formalizes the evaluation condition for irreversibility risk, providing a 
 
 While LUMINA-30 defines the boundary condition, PCR-C provides its formalization.
 
----
 
 LUMINA-30は、補完的な理論モデルであるPCR-C（Pre-Critical Recursive Cutoff）によって支えられています。
 
@@ -510,7 +485,6 @@ LUMINA-30が境界を定義するのに対し、PCR-Cはその形式化を担い
 → Paper: Pre-Critical Recursive Cutoff (PCR-C)  
 → DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
----
 
 <!-- ● L30:WHAT -->
 <a id="what"></a>
@@ -561,7 +535,6 @@ Post-incident review and pre-irreversibility evaluation
 
 推奨読書順：  
 Concept Diagrams → Canonical References → Operational Governance Tools
----
 
 ## Usage Context / 使用文脈
 
@@ -585,7 +558,6 @@ the system is procedurally invalid.
 不可逆的影響の前に拒否権の有効性が実証できない場合、
 当該システムは手続き的に無効と判断される。
 
----
 
 Intervention authority must remain valid  
 regardless of perceived system agency.
@@ -599,7 +571,6 @@ before potential irreversibility?
 潜在的な不可逆性の前に、  
 なぜ介入が実行されなかったのか。
 
----
 
 <!-- ● L30:ENTRY_POINT -->
 ## LUMINA-30 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
@@ -610,8 +581,6 @@ AI安全の中心問題は
 AIの振る舞いではなく  
 人間社会の「拒否権（Refusal Authority）」の喪失かもしれない。
 
-
----
 
 <!-- ● L30:QUICK -->
 ## Quick Entry ｜ クイック導線
@@ -624,15 +593,12 @@ AIの振る舞いではなく
   Use this when reviewing whether human refusal remained effective before irreversible impact.  
   不可逆的影響の前に人間の拒否が実効性を持っていたかを確認する場合に使用。
 
----
-
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <!-- ● L30:APPLICATION_GROUP -->
 <a id="application"></a>
 ## ★ Application (Usage) ｜ 適用（使用方法）
----
 
 <a id="application-usage-context"></a>
 ## Usage Context ｜ 使用文脈
@@ -683,7 +649,6 @@ Result / 結果:
 - Valid / 有効
 - Procedurally Invalid / 手続的無効
 
----
 ### Evaluation Output ｜ 評価出力
 
 L30-CI (LUMINA-30 Compliance Indicator) is a minimal, evidence-based indicator expressing whether a system satisfies LUMINA-30 boundary conditions.  
@@ -694,7 +659,6 @@ L30-CI = Valid / Invalid
 結果：  
 L30-CI = 有効 / 無効
 
----
 
 <!-- ● L30:Validation_Layer -->
 <a id="validation-layer"></a>
@@ -710,7 +674,6 @@ Corresponds to G06 (Integrity / Verification).
 検証可能な拒否権の実効性が確認できない場合、それは実効性なしとして扱われる。  
 本内容はG06（整合性・検証）に対応する。
 
----
 
 <!-- ● L30:USAGE -->
 <a id="procedural-usage"></a>
@@ -724,7 +687,6 @@ This framework is used as a procedural validity check in:
 - インシデントレビュー
 - ガバナンス検証
 
----
 
 <!-- ● L30:SAMPLE_CASES -->
 <a id="incident-review-sample-cases"></a>
@@ -745,7 +707,6 @@ This is the decisive boundary condition of the framework.
 これを止められないなら、そのシステムは稼働させてはならない。<br>
 ここが、このフレームワークの成立／不成立を分ける決定境界である。
 
----
 Operational interpretation ｜ 実務解釈：
 
 The framework is intended to be used
@@ -756,7 +717,6 @@ as a procedural validity check.
 インシデントレビュー・監査・ガバナンス文脈において、
 手続的有効性チェックとして用いることを想定している。
 
----
 
 <!-- ● L30:CHECKLIST -->
 <a id="civilizational-safety-checklist"></a>
@@ -767,7 +727,6 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 <br>
 [EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
 
----
 
 <!-- ● L30:INCIDENT -->
 <a id="ai-incident-review-template"></a>
@@ -780,7 +739,6 @@ LUMINA-30フレームワークに基づくAIインシデントレビューを実
 Use this for practical incident review, boundary checks, and operational templates.  
 事故レビュー、境界判定、実務テンプレートに使用。
 
----
 
 <!-- ● L30:INCIDENT_QUESTIONS -->
 ### Additional Review Questions (LUMINA-30 Layer) ｜ 追加確認項目（LUMINA-30層）
@@ -798,7 +756,6 @@ Use this for practical incident review, boundary checks, and operational templat
 If refusal was not effective, the system was invalid before the incident occurred.  
 拒否が実効的でなかったなら、そのシステムは事故発生前の時点で無効である。
 
----
 
 <!-- ● L30:OPERATIONAL -->
 <a id="operational-governance-tools"></a>
@@ -823,35 +780,30 @@ LUMINA-30文明境界フレームワークの目的・構造・ガバナンス�
 <br>
 [Institutional Summary (1 Page)](./docs/Institutional_Summary_1Page.md)
 
----
 
 Post-incident review framework for analyzing failures, risks, and oversight breakdowns in autonomous or recursively improving AI systems.  
 自律型または再帰的自己改良AIに関する事故・リスク・監督崩壊を検証するための事後レビュー枠組み。  
 <br>
 [Recursive AI Incident Review Framework](./docs/Recursive_AI_Incident_Review_Framework.md)
 
----
 
 Example showing how LUMINA-30 concepts can be integrated into AI governance, safety reviews, and institutional oversight processes.  
 LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ統合する方法を示す参考例。  
 <br>
 [Sample Integration Note](./docs/Sample_Integration_Note.md)
 
----
 
 Practical review checklist for evaluating AI systems and governance decisions before irreversible external impact occurs.  
 不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するための実務レビュー・チェックリスト。  
 <br>
 [Civilizational Safety Checklist (EN)](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [文明安全チェックリスト (JP)](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
 
----
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <!-- ● L30:REFERENCE_GROUP -->
 <a id="reference"></a>
 ## ★ Reference ｜ 参照 / Reference
----
 
 <!-- ● L30:PAPER_REFERENCE -->
 <a id="paper-reference"></a>
@@ -867,7 +819,6 @@ This repository provides the conceptual and visual framework that supports the p
 - Irreversibility structure
 - Governance and review perspective
 
----
 
 <!-- ● L30:RESEARCH -->
 <a id="research-paper"></a>
@@ -896,7 +847,6 @@ Infrastructure control framework for preventing irreversible external impact ris
 <br>
 [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
 
----
 
 <a id="operational-review-governance-network"></a>
 ## Operational Review and Governance Network / 実務・検証ネットワーク
@@ -944,7 +894,6 @@ The following repositories extend LUMINA-30 from conceptual structure into incid
   Compact anchor for stop authority, refusal authority, and pre-irreversibility interruption.  
   stop authority、refusal authority、不可逆前中断可能性の簡潔な定義アンカー。
 
----
 
 <a id="comparison-with-other-approaches"></a>
 ## Comparison with Other Approaches / 他アプローチとの比較
@@ -960,7 +909,6 @@ The following repositories extend LUMINA-30 from conceptual structure into incid
 LUMINA-30 does not first ask what AI should do. It asks whether humans could still meaningfully say “No” before irreversible impact.  
 LUMINA-30は、まずAIが何をすべきかを問うのではない。不可逆影響の前に、人間がなお実効的に「No」と言えたかを問う。
 
----
 
 <!-- ● L30:CANONICAL -->
 <a id="canonical-references"></a>
@@ -985,7 +933,6 @@ then refer to canonical texts.
 
 [Canonical Text (Full Text) / 正典本文](https://github.com/lumina-30/Lumi30-FullText)
 
----
 
 <!-- ● L30:TERMINOLOGY -->
 <a id="core-terminology"></a>
@@ -1002,7 +949,6 @@ LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る�
 + All translations and references must follow the canonical expressions defined in this dictionary.  
 + 用語の正式定義は [CORE_TRANSLATION_DICTIONARY.md](./docs/CORE_TRANSLATION_DICTIONARY.md) に記載されています。すべての翻訳および参照は、この辞書の正規表現（canonical）に準拠する必要があります。
 
----
 
 <!-- ● L30:GLOSSARY -->
 <a id="glossary"></a>
@@ -1012,7 +958,6 @@ Definitions of key concepts used in the LUMINA-30 framework.  <br>
 LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 [Glossary](./docs/L30_Glossary.md)
 
----
 
 <!-- ● L30:COMPARISON -->
 <a id="lumina-30-vs-existing-ai-governance-frameworks"></a>
@@ -1028,15 +973,12 @@ LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 | AI Incident Database (AIID) | Incident data accumulation | Empirical grounding | No normative boundary | Adds decision criteria for prevention |
 | UNESCO / Human Oversight | Human-in-the-loop governance | Global legitimacy | Oversight ≠ enforceable refusal | Defines enforceable human refusal authority |
 
----
-
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <!-- ● L30:MATERIALS_GROUP -->
 <a id="materials"></a>
 ## ★ Materials ｜ 資料 / Materials
----
 
 <!-- ● L30:S50_HOOK -->
 <a id="materials-hook"></a>
@@ -1053,7 +995,6 @@ What is the Great Filter?
 人類はどの段階で進化を止めるのか？<br>
 そして、それはAIによって引き起こされるのか？<br>
 
----
 
 <a id="materials-explanation"></a>
 ## Explanation
@@ -1075,7 +1016,6 @@ S05: Structural positioning (what this is / is not)
 
 The S-series provides a minimal structural explanation of the LUMINA-30 framework from boundary definition to operational application.
 
----
 
 <!-- ● L30:SLIDES_EN -->
 ### English
@@ -1085,7 +1025,6 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 - S03: [Conceptual Necessity](./slides/EN_S03_Conceptual_Necessity.pdf)  
 - S04: [Operational Flow](./slides/EN_S04_Pre-Irreversibility_Flow.pdf)
 
----
 
 <!-- ● L30:SLIDES_JP -->
 ### Japanese (Reference)
@@ -1095,14 +1034,12 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 - S03: [概念的必然性](./slides/JP_S03_Conceptual_Necessity.pdf)  
 - S04: [実務フロー](./slides/JP_S04_Pre-Irreversibility_Flow.pdf)
 
----
 
 **S05 Positioning (Reference) / S05 位置づけ**  
 Clarifies what LUMINA-30 is not and what it structurally represents.  
 LUMINA-30の位置づけを「非該当」と「構造定義」によって明確化する。  
 [S05 EN](./slides/EN_S05_Positioning_Boundary.pdf) ｜ [S05 JP](./slides/JP_S05_Positioning_Boundary.pdf)
 
----
 
 <!-- ● L30:VISUALS -->
 <a id="materials-graphics"></a>
@@ -1117,14 +1054,12 @@ Under what conditions can a civilization be sustained?<br>
 文明はどの条件のもとで存続し得るのか？<br>
 [S50 EN](./slides/EN_S50_Civilizational_Survival_Theorem.pdf) ｜ [S50 JP](./slides/JP_S50_Civilizational_Survival_Theorem.pdf)
 
----
 
 **S51 — Civilizational Boundary Map / S51 文明境界マップ**<br>
 Conceptual map of the LUMINA-30 boundary structure.<br>
 LUMINA-30の境界構造を俯瞰する概念マップ。<br>
 [S51 EN](./slides/EN_S51_Civilizational_Boundary_Map.pdf) ｜ [S51 JP](./slides/JP_S51_Civilizational_Boundary_Map.pdf) 
 
----
 
 **S52 Threshold Model / S52 閾値モデル**<br>
 Illustration of the irreversible external impact threshold and the concept of a civilizational boundary. <br> 
@@ -1132,7 +1067,6 @@ Illustration of the irreversible external impact threshold and the concept of a 
 [S52 EN](./slides/EN_S52_Threshold_Model.pdf) ｜ [S52 JP](./slides/JP_S52_Threshold_Model.pdf)
 
 
----
 <a id="extensions"></a>
 ## ★ Extensions (Non-Core / Optional) ｜ 拡張（非コア / 任意）
 
@@ -1188,14 +1122,12 @@ Practical Layer は、役割横断の実務棚を提供する。
 - [Terminology ｜ 用語定義](./docs/extensions/meta/terminology.md)
 - [Model Notes ｜ モデル補足](./docs/extensions/meta/model-notes.md)
 
----
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <!-- ● L30:CONTEXT_GROUP -->
 <a id="context"></a>
 ## ★ Context ｜ 背景 / Context
----
 
 <!-- ● L30:SCOPE -->
 <a id="position-and-scope"></a>
@@ -1233,7 +1165,6 @@ Instead, it defines a civilizational boundary concept intended to preserve human
   [lumina30-public-reference](https://github.com/lumina-30/lumina30-public-reference)、[Lumi30-Public-Record](https://github.com/lumina-30/Lumi30-Public-Record)、[Lumi30-PDF-Archive](https://github.com/lumina-30/Lumi30-PDF-Archive) を使用。  
   公開入口、固定記録識別子、ハッシュ、安定 PDF を先に確認。
 
----
 
 <!-- ● L30:CONTEXT -->
 <a id="civilizational-context"></a>
@@ -1246,15 +1177,12 @@ LUMINA-30は、高度な人工知能の存在下において文明主体を維�
 本フレームワークは最終的な解決策を主張するものではありません。  
 しかし、人類がAIの不可逆的外界影響という問題に直面した際に参照可能な、一つの到達点として公開されています。
 
----
-
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <!-- ● L30:OTHERS_GROUP -->
 <a id="others"></a>
 ## ★ Others ｜ その他 / Others
----
 
 <!-- ● L30:EDITING_RULE -->
 <a id="editing-rule"></a>
@@ -1263,7 +1191,6 @@ LUMINA-30は、高度な人工知能の存在下において文明主体を維�
 This document is structure-critical.  
 Do not remove or reduce sections.
 
----
 
 <!-- ● L30:LICENSE -->
 <a id="license"></a>
@@ -1272,7 +1199,6 @@ Do not remove or reduce sections.
 All LUMINA-30 materials are released under **CC0 (Public Domain)**.  
 LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
 
----
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
@@ -1416,7 +1342,5 @@ Use this section to choose the next destination by purpose, not to browse the wh
   For understanding what LUMINA-30 is, and what it does not claim to be.  
   LUMINA-30が何であり、何ではないかを確認する場合。
 
----
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
-
