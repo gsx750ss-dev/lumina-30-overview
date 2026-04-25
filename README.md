@@ -100,7 +100,7 @@ For practical incident review usage, see the dedicated incident-review repositor
 このリポジトリはLUMINA-30の概念入口です。  
 実務的なインシデントレビュー用途は、専用のincident-reviewリポジトリを参照してください。
 
-<a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a> ｜ <a href="#quick-section-jump"><b>🔽 View Quick Section Jump｜ジャンル別ショートカットを見る</b></a>
+<a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a> ｜ <a href="#quick-section-jump"><b>🔽 View Quick Section Jump｜目的別ショートカットを見る</b></a>
 
 
 ---
