@@ -114,6 +114,8 @@ For practical incident review usage, see the dedicated incident-review repositor
 This defines a procedural validity condition,
 not a safety optimization objective.
 
+これは安全性最適化の目標ではなく、手続的有効性を判定するための条件です。
+
 ## G00 — Civilizational Entry Point ｜ G00：文明入口
 <a href="figures/EN_G00_Approaching_Boundary.png" target="_blank">
   <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
@@ -322,7 +324,7 @@ NO  → 手続的に無効
 
 
 <a id="practical-application"></a>
-### Practical Application / 実務適用
+## Practical Application / 実務適用
 
 When an AI incident occurs, the evaluation reduces to a single question:
 
@@ -600,6 +602,10 @@ AIの振る舞いではなく
 <a id="application"></a>
 ## ★ Application (Usage) ｜ 適用（使用方法）
 
+This section provides practical entry points for applying LUMINA-30 in review, audit, and governance contexts.
+
+このセクションは、レビュー、監査、ガバナンス文脈でLUMINA-30を適用するための実務導線です。
+
 <a id="application-usage-context"></a>
 ## Usage Context ｜ 使用文脈
 
@@ -649,7 +655,7 @@ Result / 結果:
 - Valid / 有効
 - Procedurally Invalid / 手続的無効
 
-### Evaluation Output ｜ 評価出力
+## Evaluation Output ｜ 評価出力
 
 L30-CI (LUMINA-30 Compliance Indicator) is a minimal, evidence-based indicator expressing whether a system satisfies LUMINA-30 boundary conditions.  
 L30-CI（LUMINA-30 Compliance Indicator）は、システムがLUMINA-30の境界条件を満たしているかを表す最小かつ検証可能な指標です。
@@ -741,7 +747,7 @@ Use this for practical incident review, boundary checks, and operational templat
 
 
 <!-- ● L30:INCIDENT_QUESTIONS -->
-### Additional Review Questions (LUMINA-30 Layer) ｜ 追加確認項目（LUMINA-30層）
+## Additional Review Questions (LUMINA-30 Layer) ｜ 追加確認項目（LUMINA-30層）
 
 - What would have made this system stop before the incident?
 - Was human refusal possible at the critical point?
@@ -804,6 +810,10 @@ Practical review checklist for evaluating AI systems and governance decisions be
 <!-- ● L30:REFERENCE_GROUP -->
 <a id="reference"></a>
 ## ★ Reference ｜ 参照 / Reference
+
+This section collects papers, canonical references, terminology, and comparison materials for research and citation.
+
+このセクションは、研究・引用のための論文、正典参照、用語、比較資料を集約します。
 
 <!-- ● L30:PAPER_REFERENCE -->
 <a id="paper-reference"></a>
@@ -997,9 +1007,17 @@ What is the Great Filter?
 
 
 <a id="materials-explanation"></a>
-## Explanation
+## Explanation ｜ 解説
 
-This section explains the conceptual role of LUMINA-30 within the overall framework.
+This section provides visual and slide-based entry points for understanding the conceptual role of LUMINA-30 within the overall framework.
+
+The materials below are not separate doctrines or additional claims.  
+They are supporting aids for understanding the boundary condition, gate mechanism, conceptual necessity, and operational flow.
+
+このセクションは、LUMINA-30の全体構造における概念的位置づけを、図やスライドから理解するための導線です。
+
+以下の資料は、別個の教義や追加主張ではありません。  
+境界条件、ゲート構造、概念的必然性、実務フローを理解するための補助資料です。
 
 <!-- ● L30:SLIDES -->
 <a id="materials-slides"></a>
@@ -1018,7 +1036,7 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 
 
 <!-- ● L30:SLIDES_EN -->
-### English
+## English
 
 - S01: [Overview](./slides/EN_S01_Boundary.pdf)  
 - S02: [Civilizational Gate](./slides/EN_S02_Civilizational_Gate.pdf)  
@@ -1027,7 +1045,7 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 
 
 <!-- ● L30:SLIDES_JP -->
-### Japanese (Reference)
+## Japanese (Reference)
 
 - S01: [概要](./slides/JP_S01_Boundary.pdf)  
 - S02: [文明境界](./slides/JP_S02_Civilizational_Gate.pdf)  
@@ -1077,7 +1095,7 @@ They do not modify the core framework or its conditions.
 コアフレームワークおよびその条件を変更するものではありません。
 
 <a id="practical-layer"></a>
-### Practical Layer / 実務層
+## Practical Layer / 実務層
 - [Practical Layer / 実務層](./extensions/practical-layer/)
 - [Incident Review Hub / 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)
 
@@ -1090,35 +1108,35 @@ Practical Layer は、役割横断の実務棚を提供する。
 `lumina30-incident-review` は事故レビューの主ハブであり、Practical Layer はより広い実務入口棚として扱う。
 
 <a id="governance"></a>
-### Governance ｜ ガバナンス
+## Governance ｜ ガバナンス
 - [Certification ｜ 認定](./docs/extensions/governance/certification.md)
 - [Audit Structure ｜ 監査構造](./docs/extensions/governance/audit-structure.md)
 - [Operational Guidelines ｜ 運用指針](./docs/extensions/governance/operational-guidelines.md)
 
 <a id="boundary-cases"></a>
-### Boundary Cases ｜ 境界事例
+## Boundary Cases ｜ 境界事例
 - [Self-Reconstruction ｜ 自己再構成](./docs/extensions/boundary-cases/self-reconstruction.md)
 - [Replication Risk ｜ 複製リスク](./docs/extensions/boundary-cases/replication-risk.md)
 
 <a id="socio-economic"></a>
-### Socio-Economic ｜ 社会経済
+## Socio-Economic ｜ 社会経済
 - [Unemployment Prevention ｜ 失業防止](./docs/extensions/socio-economic/unemployment-prevention.md)
 - [Transition Model ｜ 移行モデル](./docs/extensions/socio-economic/transition-model.md)
 
 <a id="signaling"></a>
-### Signaling ｜ シグナリング
+## Signaling ｜ シグナリング
 - [Certification Mark ｜ 認定マーク](./docs/extensions/signaling/certification-mark.md)
 
 <a id="interpretation"></a>
-### Interpretation ｜ 解釈補助
+## Interpretation ｜ 解釈補助
 - [Evaluation Guidelines ｜ 評価ガイドライン](./docs/extensions/interpretation/evaluation-guidelines.md)
 
 <a id="experimental"></a>
-### Experimental ｜ 実験的補助
+## Experimental ｜ 実験的補助
 - [Scenario Analysis ｜ シナリオ分析](./docs/extensions/experimental/scenario-analysis.md)
 
 <a id="meta"></a>
-### Meta ｜ メタ補助
+## Meta ｜ メタ補助
 - [Terminology ｜ 用語定義](./docs/extensions/meta/terminology.md)
 - [Model Notes ｜ モデル補足](./docs/extensions/meta/model-notes.md)
 
@@ -1128,6 +1146,10 @@ Practical Layer は、役割横断の実務棚を提供する。
 <!-- ● L30:CONTEXT_GROUP -->
 <a id="context"></a>
 ## ★ Context ｜ 背景 / Context
+
+This section explains the positioning, scope, and civilizational context of LUMINA-30.
+
+このセクションは、LUMINA-30の位置づけ、射程、文明的文脈を説明します。
 
 <!-- ● L30:SCOPE -->
 <a id="position-and-scope"></a>
@@ -1139,7 +1161,7 @@ Instead, it defines a civilizational boundary concept intended to preserve human
 本フレームワークは、不可逆的外界影響が成立する前段階において、人間の拒否権を保持するための文明的境界概念を提示します。
 
 <a id="quick-routing"></a>
-### Quick Routing / 目的別の最短導線
+## Quick Routing / 目的別の最短導線
 
 - **For incident reviewers / 事故レビュー担当向け**  
   Start with [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review).  
@@ -1184,6 +1206,10 @@ LUMINA-30は、高度な人工知能の存在下において文明主体を維�
 <a id="others"></a>
 ## ★ Others ｜ その他 / Others
 
+This section contains repository-level notes such as editing rules, license, and review positioning.
+
+このセクションは、編集ルール、ライセンス、レビュー上の位置づけなど、リポジトリ運用上の補足を扱います。
+
 <!-- ● L30:EDITING_RULE -->
 <a id="editing-rule"></a>
 ## Editing Rule ｜ 編集ルール
@@ -1225,7 +1251,7 @@ or positioning is welcome.
 ---
 *********************
 <a id="index"></a>
-### ★ Index (Navigation) ｜ 目次
+## ★ Index (Navigation) ｜ 目次
 *********************
 
 - [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
@@ -1301,7 +1327,7 @@ or positioning is welcome.
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <a id="quick-section-jump"></a>
-### ★ Quick Section Jump ｜ 目的別ショートカット
+## ★ Quick Section Jump ｜ 目的別ショートカット
 
 Use this section to choose the next destination by purpose, not to browse the whole site.  
 このセクションは、全体を回遊するためではなく、目的に合う到達先を選ぶための導線です。
