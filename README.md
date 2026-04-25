@@ -84,21 +84,21 @@
 Refusal before irreversibility — a boundary that cannot be substituted.  
 不可逆の前に拒否が機能しているか——代替不能な境界。
 
-**Primary validity condition / 主要成立条件**  
+## Primary validity condition ｜ 主要成立条件
 
 A system is procedurally invalid if human refusal authority is not effective before irreversible impact.  
 不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的に無効である。
 
-**Primary Question / 主要問い**  
+## Primary Question ｜ 主要問い
 
 Was human refusal authority effective before irreversible impact?  
 不可逆的影響の前に、人間の拒否権は実効的だったか？
 
 This repository is the conceptual entry point to LUMINA-30.  
-For practical incident review usage, see the dedicated incident-review repository.  
+For practical incident review usage, see the [dedicated incident-review repository](https://github.com/lumina-30/lumina30-incident-review).  
 
 このリポジトリはLUMINA-30の概念入口です。  
-実務的なインシデントレビュー用途は、専用のincident-reviewリポジトリを参照してください。
+実務的なインシデントレビュー用途は、[専用のincident-reviewリポジトリ](https://github.com/lumina-30/lumina30-incident-review)を参照してください。
 
 <a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a> ｜ <a href="#quick-section-jump"><b>🔽 View Quick Section Jump｜目的別ショートカットを見る</b></a>
 
@@ -116,27 +116,27 @@ not a safety optimization objective.
 
 これは安全性最適化の目標ではなく、手続的有効性を判定するための条件です。
 
-## G00 — Civilizational Entry Point ｜ G00：文明入口
+## G00 — Civilizational Boundary ｜ G00：文明境界
 <a href="figures/EN_G00_Approaching_Boundary.png" target="_blank">
   <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 </a>
 
-## G01 — Framework Overview ｜ G01：フレームワーク概要
+## G01 — Boundary Framework ｜ G01：境界フレームワーク
 <a href="figures/EN_G01_Framework.png" target="_blank">
   <img src="figures/EN_G01_Framework.png" width="900">
 </a>
 
-## G02 — Civilizational Boundary Model ｜ G02：文明境界モデル
+## G02 — Civilizational Outcome Model ｜ G02：文明結果モデル
 <a href="figures/EN_G02_Boundary.png" target="_blank">
   <img src="figures/EN_G02_Boundary.png" width="900">
 </a>
 
-## G03 — Civilizational Survival Strategy ｜ G03：文明生存戦略
+## G03 — Civilizational Survival Strategy ｜ G03：文明存続戦略
 <a href="figures/EN_G03_Strategy.png" target="_blank">
   <img src="figures/EN_G03_Strategy.png" width="900">
 </a>
 
-## G04 — PCR-C Governance Model ｜ G04：PCR-Cガバナンスモデル
+## G04 — PCR-C Governance Mechanism ｜ G04：PCR-Cガバナンス機構
 <a href="figures/EN_G04_PCRC.png" target="_blank">
   <img src="figures/EN_G04_PCRC.png" width="900">
 </a>
@@ -204,7 +204,7 @@ LUMINA-30文明境界フレームワークの概念図。
 
 
 <!-- ● L30:G01 -->
-## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
+## G01 — Boundary Framework ｜ 境界フレームワーク
 
 This diagram illustrates the boundary condition explored by LUMINA-30.  
 この図は LUMINA-30 が扱う文明境界条件を示します。  
@@ -263,28 +263,28 @@ EN: [G06](figures/EN_G06_Critical_Boundary.png) ｜ JP: [G06](figures/JP_G06_Cri
 ## ★ G06 — Procedural Validity Core (LUMINA-30 Core)
 <a id="g06-core-en"></a>
 
-**Definition**
+**Definition ｜ 定義**
 G06 defines the core procedural validity condition of LUMINA-30.
 It evaluates whether human refusal authority remained effective
 before any irreversible external impact occurred.
 
-**Primary Question**
+**Primary Question ｜ 主要問い**
 Was human refusal authority effective before irreversible impact?
 
 YES → Procedurally valid  
 NO  → Procedurally invalid
 
-**Scope**
+**Scope ｜ 範囲**
 - Incident review
 - Audit / compliance
 - Governance evaluation
 
-**Position**
+**Position ｜ 位置づけ**
 This is not a guideline.  
 This is not a policy.  
 This is a structural validity condition.
 
-**Notes**
+**Notes ｜ 注記**
 - AI output must not be used as the sole or primary rationale.
 - Closed-loop (AI-only) evaluation is procedurally invalid.
 - Absence of human refusal authority invalidates the process,
@@ -324,7 +324,7 @@ NO  → 手続的に無効
 
 
 <a id="practical-application"></a>
-## Practical Application / 実務適用
+## Practical Application ｜ 実務適用
 
 When an AI incident occurs, the evaluation reduces to a single question:
 
@@ -338,7 +338,7 @@ If this cannot be answered clearly, the system cannot be considered controlled.
 
 この問いに明確に答えられない場合、そのシステムは制御されていたとは見なせません。
 
-→ [Incident Review Hub / 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)  
+→ [Incident Review Hub ｜ 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)  
 Use this for practical incident review, boundary checks, and stakeholder-facing review materials.  
 事故レビュー、境界判定、相手別レビュー資料に使用。
 
@@ -351,19 +351,19 @@ The following diagrams summarize the structural components of the LUMINA-30 fram
 以下の図は LUMINA-30 フレームワークの構造要素を示します。
 
 
-**A01 Architecture**  
+**A01 Architecture ｜ A01：構造**  
 [A01](figures/A01_architecture.png)
 
-**A02 Civilizational Gate**  
+**A02 Civilizational Gate ｜ A02：文明ゲート**  
 [A02](figures/A02_gate.png)
 
-**A03 Capability Dimensions**  
+**A03 Capability Dimensions ｜ A03：能力次元**  
 [A03](figures/A03_capability.png)
 
-**A04 Human Refusal Authority**  
+**A04 Human Refusal Authority ｜ A04：人間の拒否権**  
 [A04](figures/A04_human_refusal.png)
 
-**A05 Incident Review Framework**  
+**A05 Incident Review Framework ｜ A05：事故レビュー枠組み**  
 [A05](figures/A05_incident_review.png)
 
 Primary Review Question:  
@@ -389,12 +389,12 @@ This framework is designed to support:
 
 <!-- ● L30:MAP -->
 <a id="conceptual-structure"></a>
-## Conceptual Structure / 思想構造
+## Conceptual Structure ｜ 思想構造
 
 Structural overview of the LUMINA-30 framework showing the relationships between the civilizational boundary principle, governance layers, and technical safeguards.  
 LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を示す思想体系の構造マップ。  
 <br>
-[LUMINA-30 Structure Map / LUMINA-30 構造マップ](https://github.com/lumina-30/lumina-30-structure-map)
+[LUMINA-30 Structure Map ｜ LUMINA-30 構造マップ](https://github.com/lumina-30/lumina-30-structure-map)
 
 
 <!-- ● L30:ENTRY -->
@@ -538,7 +538,7 @@ Post-incident review and pre-irreversibility evaluation
 推奨読書順：  
 Concept Diagrams → Canonical References → Operational Governance Tools
 
-## Usage Context / 使用文脈
+## Usage Context ｜ 使用文脈
 
 This framework is intended for:
 - incident reviewers
@@ -587,11 +587,11 @@ AIの振る舞いではなく
 <!-- ● L30:QUICK -->
 ## Quick Entry ｜ クイック導線
 
-- [Canonical Index / 正典索引](https://github.com/lumina-30/Lumi30-Index)  
+- [Canonical Index ｜ 正典索引](https://github.com/lumina-30/Lumi30-Index)  
   Start here for the repository network and canonical navigation.  
   repo群全体と正典導線を確認する入口。
 
-- [AI Incident Review Framework / AI事故レビュー枠組み](https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf)  
+- [AI Incident Review Framework ｜ AI事故レビュー枠組み](https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf)  
   Use this when reviewing whether human refusal remained effective before irreversible impact.  
   不可逆的影響の前に人間の拒否が実効性を持っていたかを確認する場合に使用。
 
@@ -741,7 +741,7 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 A practical repository for conducting AI incident reviews based on the LUMINA-30 framework.<br>
 LUMINA-30フレームワークに基づくAIインシデントレビューを実施するための実務リポジトリ。<br>
 <br>
-[Practical Incident Review Repository / 実務用事故レビューrepo](https://github.com/lumina-30/lumina30-incident-review)  
+[Practical Incident Review Repository ｜ 実務用事故レビューrepo](https://github.com/lumina-30/lumina30-incident-review)  
 Use this for practical incident review, boundary checks, and operational templates.  
 事故レビュー、境界判定、実務テンプレートに使用。
 
@@ -809,7 +809,7 @@ Practical review checklist for evaluating AI systems and governance decisions be
 
 <!-- ● L30:REFERENCE_GROUP -->
 <a id="reference"></a>
-## ★ Reference ｜ 参照 / Reference
+## ★ Reference ｜ 参照
 
 This section collects papers, canonical references, terminology, and comparison materials for research and citation.
 
@@ -832,7 +832,7 @@ This repository provides the conceptual and visual framework that supports the p
 
 <!-- ● L30:RESEARCH -->
 <a id="research-paper"></a>
-## Research Paper / 研究論文
+## Research Paper ｜ 研究論文
 
 This research paper introduces the PCR-C concept,  
 which addresses the problem of irreversible external impact  
@@ -859,54 +859,54 @@ Infrastructure control framework for preventing irreversible external impact ris
 
 
 <a id="operational-review-governance-network"></a>
-## Operational Review and Governance Network / 実務・検証ネットワーク
+## Operational Review and Governance Network ｜ 実務・検証ネットワーク
 
 The following repositories extend LUMINA-30 from conceptual structure into incident review, public record integrity, accountability language, institutional friction analysis, and stop-authority definition.  
 以下のリポジトリ群は、LUMINA-30を概念構造から、事故レビュー、公開記録真正性、説明責任言語、制度摩擦分析、拒否権定義へ拡張する。
 
-- **Incident Review Hub / 事故レビュー主ハブ**  
+- **Incident Review Hub ｜ 事故レビュー主ハブ**  
   [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review)  
   Main operational review repository for refusal effectiveness, Required Questions, review templates, and stakeholder-facing one-page briefs.  
   拒否有効性、Required Questions、レビュー用テンプレート、相手別1枚資料を扱う主実務リポジトリ。
 
-- **Practical Layer / 実務層**  
+- **Practical Layer ｜ 実務層**  
   [extensions/practical-layer](./extensions/practical-layer/)  
   Cross-role operational shelf for audits, incident review, governance, executive explanation, policy support, vendors, cases, and glossary.  
   監査、事故レビュー、ガバナンス、経営説明、政策補助、ベンダー確認、事例、用語集の横断実務棚。
 
-- **Public Reference / 公開参照ハブ**  
+- **Public Reference ｜ 公開参照ハブ**  
   [lumina30-public-reference](https://github.com/lumina-30/lumina30-public-reference)  
   Compact public-facing citation and discovery hub leading readers into the correct layer.  
   読者を正しい層へ導く、公開向けの簡潔な引用・発見性ハブ。
 
-- **Public Record / 公開記録真正性**  
+- **Public Record ｜ 公開記録真正性**  
   [Lumi30-Public-Record](https://github.com/lumina-30/Lumi30-Public-Record)  
   Integrity layer fixing canonical record identity and SHA256 hashes for the Core Canon.  
   Core Canon の記録識別子と SHA256 を固定する真正性レイヤー。
 
-- **PDF Archive / PDF固定配布**  
+- **PDF Archive ｜ PDF固定配布**  
   [Lumi30-PDF-Archive](https://github.com/lumina-30/Lumi30-PDF-Archive)  
   Stable downloadable PDF archive for preservation and offline distribution.  
   保存とオフライン配布のための固定 PDF アーカイブ。
 
-- **Accountability Reference / 説明責任参照**  
+- **Accountability Reference ｜ 説明責任参照**  
   [ai-accountability-reference](https://github.com/lumina-30/ai-accountability-reference)  
   Institutional language for accountability, auditability, post-hoc responsibility, and responsibility continuity.  
   説明責任、監査可能性、事後責任、責任連続性の制度言語。
 
-- **Institutional Friction Toolkit / 制度摩擦ツールキット**  
+- **Institutional Friction Toolkit ｜ 制度摩擦ツールキット**  
   [institutional-friction-toolkit](https://github.com/lumina-30/institutional-friction-toolkit)  
   Failure-to-stop, override breakdown, restart control failure, and procedural invalidity analysis.  
   停止不全、override 崩壊、再起動統制不全、手続的無効の分析。
 
-- **Stop Authority Reference / 拒否権定義アンカー**  
+- **Stop Authority Reference ｜ 拒否権定義アンカー**  
   [stop-authority-reference](https://github.com/lumina-30/stop-authority-reference)  
   Compact anchor for stop authority, refusal authority, and pre-irreversibility interruption.  
   stop authority、refusal authority、不可逆前中断可能性の簡潔な定義アンカー。
 
 
 <a id="comparison-with-other-approaches"></a>
-## Comparison with Other Approaches / 他アプローチとの比較
+## Comparison with Other Approaches ｜ 他アプローチとの比較
 
 | Approach | Primary question | Main focus | Failure condition | Typical use |
 |---|---|---|---|---|
@@ -915,14 +915,14 @@ The following repositories extend LUMINA-30 from conceptual structure into incid
 | **AI principles / policy documents** | What values or principles should guide AI? | Normative guidance, policy orientation | Principle violation or governance gap | Policy communication, institutional guidance |
 | **Alignment / safety theories** | How can AI systems behave as intended or remain safe? | Behavior, robustness, optimization, control | Misalignment, unsafe behavior, loss of control | Research, technical safety analysis |
 
-**Key distinction / 重要な違い**  
+**Key distinction ｜ 重要な違い**  
 LUMINA-30 does not first ask what AI should do. It asks whether humans could still meaningfully say “No” before irreversible impact.  
 LUMINA-30は、まずAIが何をすべきかを問うのではない。不可逆影響の前に、人間がなお実効的に「No」と言えたかを問う。
 
 
 <!-- ● L30:CANONICAL -->
 <a id="canonical-references"></a>
-## Canonical References / 正典参照
+## Canonical References ｜ 正典参照
 <!-- STRUCTURE: DO NOT REMOVE -->
 
 Primary canonical texts defining the LUMINA-30 civilizational boundary framework.  
@@ -937,11 +937,11 @@ then refer to canonical texts.
 まずIndexで全体構造を把握し、  
 その後、正典本文を参照してください。
 
-[Canonical Text (Notion) / 正典（Notion版）](https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2)
+[Canonical Text (Notion) ｜ 正典（Notion版）](https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2)
 
-[Canonical Structure (Index) / 正典構造](https://github.com/lumina-30/Lumi30-Index)
+[Canonical Structure (Index) ｜ 正典構造](https://github.com/lumina-30/Lumi30-Index)
 
-[Canonical Text (Full Text) / 正典本文](https://github.com/lumina-30/Lumi30-FullText)
+[Canonical Text (Full Text) ｜ 正典本文](https://github.com/lumina-30/Lumi30-FullText)
 
 
 <!-- ● L30:TERMINOLOGY -->
@@ -954,7 +954,7 @@ LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る�
 
 [Core Terminology (EN)](./docs/L30_CORE_TERMINOLOGY.md) | [用語集（日本語）](./docs/L30_CORE_TERMINOLOGY_JP.md)
 
-+ **Core Terminology / 用語定義**  
++ **Core Terminology ｜ 用語定義**  
 + Core terminology is formally defined in [CORE_TRANSLATION_DICTIONARY.md](./docs/CORE_TRANSLATION_DICTIONARY.md).  
 + All translations and references must follow the canonical expressions defined in this dictionary.  
 + 用語の正式定義は [CORE_TRANSLATION_DICTIONARY.md](./docs/CORE_TRANSLATION_DICTIONARY.md) に記載されています。すべての翻訳および参照は、この辞書の正規表現（canonical）に準拠する必要があります。
@@ -962,7 +962,7 @@ LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る�
 
 <!-- ● L30:GLOSSARY -->
 <a id="glossary"></a>
-## Glossary / 用語集
+## Glossary ｜ 用語集
 
 Definitions of key concepts used in the LUMINA-30 framework.  <br>
 LUMINA-30フレームワークで使用される主要概念の定義集。<br>
@@ -988,11 +988,11 @@ LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 
 <!-- ● L30:MATERIALS_GROUP -->
 <a id="materials"></a>
-## ★ Materials ｜ 資料 / Materials
+## ★ Materials ｜ 資料
 
 <!-- ● L30:S50_HOOK -->
 <a id="materials-hook"></a>
-**Context Hook / 文脈フック**
+## Context Hook ｜ 文脈フック
 
 What is the Great Filter?
 
@@ -1036,7 +1036,7 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 
 
 <!-- ● L30:SLIDES_EN -->
-## English
+## English Slides ｜ 英語版スライド
 
 - S01: [Overview](./slides/EN_S01_Boundary.pdf)  
 - S02: [Civilizational Gate](./slides/EN_S02_Civilizational_Gate.pdf)  
@@ -1045,7 +1045,7 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 
 
 <!-- ● L30:SLIDES_JP -->
-## Japanese (Reference)
+## Japanese Slides (Reference) ｜ 日本語版スライド（参照）
 
 - S01: [概要](./slides/JP_S01_Boundary.pdf)  
 - S02: [文明境界](./slides/JP_S02_Civilizational_Gate.pdf)  
@@ -1053,19 +1053,18 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 - S04: [実務フロー](./slides/JP_S04_Pre-Irreversibility_Flow.pdf)
 
 
-**S05 Positioning (Reference) / S05 位置づけ**  
-Clarifies what LUMINA-30 is not and what it structurally represents.  
-LUMINA-30の位置づけを「非該当」と「構造定義」によって明確化する。  
-[S05 EN](./slides/EN_S05_Positioning_Boundary.pdf) ｜ [S05 JP](./slides/JP_S05_Positioning_Boundary.pdf)
+- S05: [Positioning (Reference)](./slides/EN_S05_Positioning_Boundary.pdf) ｜ [S05 位置づけ](./slides/JP_S05_Positioning_Boundary.pdf)  
+  Clarifies what LUMINA-30 is not and what it structurally represents.  
+  LUMINA-30の位置づけを「非該当」と「構造定義」によって明確化する。
 
 
 <!-- ● L30:VISUALS -->
 <a id="materials-graphics"></a>
 <a id="visual-concept-materials"></a>
-## Visual Concept Materials / 概念ビジュアル資料
+## Visual Concept Materials ｜ 概念ビジュアル資料
 
 <!-- ● L30:S50 -->
-**S50 — Civilizational Survival Theorem / S50 文明生存定理**<br>
+**S50 — Civilizational Survival Theorem ｜ S50 文明生存定理**<br>
 What are the conditions for civilizational survival?<br>
 Under what conditions can a civilization be sustained?<br>
 文明の生存条件とはなにか？<br>
@@ -1073,13 +1072,13 @@ Under what conditions can a civilization be sustained?<br>
 [S50 EN](./slides/EN_S50_Civilizational_Survival_Theorem.pdf) ｜ [S50 JP](./slides/JP_S50_Civilizational_Survival_Theorem.pdf)
 
 
-**S51 — Civilizational Boundary Map / S51 文明境界マップ**<br>
+**S51 — Civilizational Boundary Map ｜ S51 文明境界マップ**<br>
 Conceptual map of the LUMINA-30 boundary structure.<br>
 LUMINA-30の境界構造を俯瞰する概念マップ。<br>
 [S51 EN](./slides/EN_S51_Civilizational_Boundary_Map.pdf) ｜ [S51 JP](./slides/JP_S51_Civilizational_Boundary_Map.pdf) 
 
 
-**S52 Threshold Model / S52 閾値モデル**<br>
+**S52 Threshold Model ｜ S52 閾値モデル**<br>
 Illustration of the irreversible external impact threshold and the concept of a civilizational boundary. <br> 
 不可逆的外界影響の臨界点と文明境界の概念を示す図。<br>
 [S52 EN](./slides/EN_S52_Threshold_Model.pdf) ｜ [S52 JP](./slides/JP_S52_Threshold_Model.pdf)
@@ -1095,9 +1094,9 @@ They do not modify the core framework or its conditions.
 コアフレームワークおよびその条件を変更するものではありません。
 
 <a id="practical-layer"></a>
-## Practical Layer / 実務層
-- [Practical Layer / 実務層](./extensions/practical-layer/)
-- [Incident Review Hub / 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)
+## Practical Layer ｜ 実務層
+- [Practical Layer ｜ 実務層](./extensions/practical-layer/)
+- [Incident Review Hub ｜ 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)
 
 Practical Layer provides a cross-role operational shelf.  
 It is designed for audits, incident review, governance checks, executive explanation, policy support, vendor review, case-based understanding, and glossary use.  
@@ -1145,7 +1144,7 @@ Practical Layer は、役割横断の実務棚を提供する。
 
 <!-- ● L30:CONTEXT_GROUP -->
 <a id="context"></a>
-## ★ Context ｜ 背景 / Context
+## ★ Context ｜ 背景
 
 This section explains the positioning, scope, and civilizational context of LUMINA-30.
 
@@ -1153,7 +1152,7 @@ This section explains the positioning, scope, and civilizational context of LUMI
 
 <!-- ● L30:SCOPE -->
 <a id="position-and-scope"></a>
-## Position and Scope / 位置づけ
+## Position and Scope ｜ 位置づけ
 
 LUMINA-30 does not propose policies, implementation requirements, or enforcement mechanisms.  
 LUMINA-30は政策提案・実装要件・強制制度を提示するものではありません。  
@@ -1161,27 +1160,27 @@ Instead, it defines a civilizational boundary concept intended to preserve human
 本フレームワークは、不可逆的外界影響が成立する前段階において、人間の拒否権を保持するための文明的境界概念を提示します。
 
 <a id="quick-routing"></a>
-## Quick Routing / 目的別の最短導線
+## Quick Routing ｜ 目的別の最短導線
 
-- **For incident reviewers / 事故レビュー担当向け**  
+- **For incident reviewers ｜ 事故レビュー担当向け**  
   Start with [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review).  
   First look for: Required Questions, Protocol, Template, and stakeholder one-page briefs.  
   まず [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review) を参照。  
   Required Questions、Protocol、Template、相手別1枚資料から開始。
 
-- **For legal, audit, and risk control / 法務・監査・リスク管理向け**  
+- **For legal, audit, and risk control ｜ 法務・監査・リスク管理向け**  
   Use [ai-accountability-reference](https://github.com/lumina-30/ai-accountability-reference) and [institutional-friction-toolkit](https://github.com/lumina-30/institutional-friction-toolkit).  
   First look for: accountability language, audit wording, responsibility continuity, procedural invalidity, and failure-to-stop analysis.  
   [ai-accountability-reference](https://github.com/lumina-30/ai-accountability-reference) と [institutional-friction-toolkit](https://github.com/lumina-30/institutional-friction-toolkit) を使用。  
   説明責任言語、監査文言、責任連続性、手続的無効、停止不全分析から開始。
 
-- **For researchers / 研究者向け**  
+- **For researchers ｜ 研究者向け**  
   Start with Paper Reference, Research Paper, Canonical References, and Core Terminology.  
   First look for: PCR-C, canonical index, and terminology.  
   Paper Reference、Research Paper、Canonical References、Core Terminology から開始。  
   PCR-C、正典 Index、用語定義を先に確認。
 
-- **For public and policy-facing explanation / 公開・政策説明向け**  
+- **For public and policy-facing explanation ｜ 公開・政策説明向け**  
   Use [lumina30-public-reference](https://github.com/lumina-30/lumina30-public-reference), [Lumi30-Public-Record](https://github.com/lumina-30/Lumi30-Public-Record), and [Lumi30-PDF-Archive](https://github.com/lumina-30/Lumi30-PDF-Archive).  
   First look for: public entry, fixed record identity, hashes, and stable PDFs.  
   [lumina30-public-reference](https://github.com/lumina-30/lumina30-public-reference)、[Lumi30-Public-Record](https://github.com/lumina-30/Lumi30-Public-Record)、[Lumi30-PDF-Archive](https://github.com/lumina-30/Lumi30-PDF-Archive) を使用。  
@@ -1190,7 +1189,7 @@ Instead, it defines a civilizational boundary concept intended to preserve human
 
 <!-- ● L30:CONTEXT -->
 <a id="civilizational-context"></a>
-## Civilizational Context / 文明的文脈
+## Civilizational Context ｜ 文明的文脈
 
 LUMINA-30 records a boundary concept for preserving civilizational agency in the presence of advanced artificial intelligence.  
 It does not claim to be a final solution.  
@@ -1204,7 +1203,7 @@ LUMINA-30は、高度な人工知能の存在下において文明主体を維�
 
 <!-- ● L30:OTHERS_GROUP -->
 <a id="others"></a>
-## ★ Others ｜ その他 / Others
+## ★ Others ｜ その他
 
 This section contains repository-level notes such as editing rules, license, and review positioning.
 
@@ -1236,11 +1235,11 @@ not as a policy or implementation proposal.
 
 It is currently shared via Zenodo and GitHub for open review.
 
-- [Paper DOI / 論文DOI](https://doi.org/10.5281/zenodo.18824181)  
+- [Paper DOI ｜ 論文DOI](https://doi.org/10.5281/zenodo.18824181)  
   Fixed DOI entry for the PCR-C research paper.  
   PCR-C論文の固定DOI入口。
 
-- [LUMINA-30 Overview / LUMINA-30 概要](https://github.com/lumina-30/lumina-30-overview)  
+- [LUMINA-30 Overview ｜ LUMINA-30 概要](https://github.com/lumina-30/lumina-30-overview)  
   Conceptual overview and visual navigation.  
   概念概要と視覚導線。
 
@@ -1260,10 +1259,10 @@ or positioning is welcome.
   - [Entry Visuals (G00 — G06) ｜ 導入ビジュアル](#entry-visuals)
   - [G06 — Critical Boundary ｜ 臨界境界](#g06-critical-boundary)  
     ⚑ 判断基準そのもの（最初に確認する核心）
-  - [Concept Diagrams / 概念図](#concept-diagrams)
-  - [Practical Application / 実務適用](#practical-application)
-  - [Framework Structure / フレームワーク構造](#framework-structure)
-  - [Conceptual Structure / 思想構造](#conceptual-structure)
+  - [Concept Diagrams ｜ 概念図](#concept-diagrams)
+  - [Practical Application ｜ 実務適用](#practical-application)
+  - [Framework Structure ｜ フレームワーク構造](#framework-structure)
+  - [Conceptual Structure ｜ 思想構造](#conceptual-structure)
   - [LUMINA-30 Overview ｜ 概要](#overview)
   - [What is LUMINA-30 ｜ LUMINA-30とは](#what)
   - [Positioning ｜ 位置づけ](#position)
@@ -1277,48 +1276,48 @@ or positioning is welcome.
     ⚑ 不可逆化を防ぐインフラ制御モデル
   - [AI Incident Review Template ｜ インシデントレビュー](#ai-incident-review-template)  
     ⚑ 現場でそのまま使える運用導線
-  - [Incident Review Sample Cases / インシデントレビュー用サンプル事例](#incident-review-sample-cases)
-  - [Validation Layer / 検証レイヤー](#validation-layer)
-  - [Operational Governance Tools / 実務ガバナンスツール](#operational-governance-tools)
+  - [Incident Review Sample Cases ｜ インシデントレビュー用サンプル事例](#incident-review-sample-cases)
+  - [Validation Layer ｜ 検証レイヤー](#validation-layer)
+  - [Operational Governance Tools ｜ 実務ガバナンスツール](#operational-governance-tools)
 
-- [★ Reference ｜ 参照 / Reference](#reference)  
+- [★ Reference ｜ 参照](#reference)  
   ※ 研究者向け：定義  
   ▶ 理解：理論基盤と評価体系を確認｜実務：[Paper Reference](#paper-reference)・定義・評価基準を引用用に参照
   - [Paper Reference ｜ 論文参照](#paper-reference)
   - [Research Paper ｜ 研究論文](#research-paper)  
     ⚑ 理論的裏付けと外部参照の核
-  - [Operational Review and Governance Network / 実務・検証ネットワーク](#operational-review-governance-network)
-  - [Comparison with Other Approaches / 他アプローチとの比較](#comparison-with-other-approaches)
-  - [Canonical References / 正典参照](#canonical-references)
-  - [Core Terminology / 中核用語](#core-terminology)
-  - [Glossary / 用語集](#glossary)
+  - [Operational Review and Governance Network ｜ 実務・検証ネットワーク](#operational-review-governance-network)
+  - [Comparison with Other Approaches ｜ 他アプローチとの比較](#comparison-with-other-approaches)
+  - [Canonical References ｜ 正典参照](#canonical-references)
+  - [Core Terminology ｜ 中核用語](#core-terminology)
+  - [Glossary ｜ 用語集](#glossary)
 
-- [★ Materials ｜ 資料 / Materials](#materials)  
+- [★ Materials ｜ 資料](#materials)  
   ※ 即使用：図・資料  
   ▶ 理解：図とスライドで全体像を把握｜実務：[Slides](#materials-slides) / [Graphics](#materials-graphics) として即使用
   - [Slides (Quick Entry) ｜ クイック導線](#materials-slides)
-  - [Visual Concept Materials / 概念ビジュアル資料](#visual-concept-materials)
+  - [Visual Concept Materials ｜ 概念ビジュアル資料](#visual-concept-materials)
 
-- [★ Extensions ｜ 拡張 / Extensions (Non-Core / Optional)](#extensions)  
+- [★ Extensions (Non-Core / Optional) ｜ 拡張（非コア / 任意）](#extensions)  
   ※ 非コア：解釈・応用の補助資料  
   ▶ 必須ではないが、理解と適用を補助
-  - [Practical Layer / 実務層](#practical-layer)
-  - [Governance / ガバナンス](#governance)
-  - [Boundary Cases / 境界事例](#boundary-cases)
-  - [Socio-Economic / 社会経済](#socio-economic)
-  - [Signaling / シグナリング](#signaling)
-  - [Interpretation / 解釈補助](#interpretation)
-  - [Experimental / 実験的補助](#experimental)
-  - [Meta / メタ補助](#meta)
+  - [Practical Layer ｜ 実務層](#practical-layer)
+  - [Governance ｜ ガバナンス](#governance)
+  - [Boundary Cases ｜ 境界事例](#boundary-cases)
+  - [Socio-Economic ｜ 社会経済](#socio-economic)
+  - [Signaling ｜ シグナリング](#signaling)
+  - [Interpretation ｜ 解釈補助](#interpretation)
+  - [Experimental ｜ 実験的補助](#experimental)
+  - [Meta ｜ メタ補助](#meta)
 
-- [★ Context ｜ 背景 / Context](#context)  
+- [★ Context ｜ 背景](#context)  
   ※ 一般向け：背景と文明的な位置づけの理解  
   ▶ 文明的な意味と適用範囲を把握
-  - [Position and Scope / 位置づけ](#position-and-scope)
-  - [Quick Routing / 目的別最短導線](#quick-routing)
-  - [Civilizational Context / 文明的文脈](#civilizational-context)
+  - [Position and Scope ｜ 位置づけ](#position-and-scope)
+  - [Quick Routing ｜ 目的別最短導線](#quick-routing)
+  - [Civilizational Context ｜ 文明的文脈](#civilizational-context)
 
-- [★ Others ｜ その他 / Others](#others)  
+- [★ Others ｜ その他](#others)  
   ※ 運用補足情報  
   ▶ 運用・編集・ライセンス関連
   - [Editing Rule ｜ 編集ルール](#editing-rule)
@@ -1370,3 +1369,4 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+
