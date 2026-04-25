@@ -432,7 +432,7 @@ This is not a replacement framework, but a boundary condition across all AI gove
 
 <!-- ● L30:OVERVIEW -->
 <a id="overview"></a>
-[LUMINA-30 Overview](#overview)
+## LUMINA-30 Overview ｜ LUMINA-30概要
 
 LUMINA-30 provides a minimal pre-irreversibility framework for evaluating whether systems remain interruptible before irreversible impact.
 
@@ -472,7 +472,7 @@ Refusal is the last safeguard of sovereignty.
 
 <!-- ● L30:POSITION -->
 <a id="position"></a>
-[Positioning](#position)
+## Positioning ｜ 位置づけ
 
 LUMINA-30 is not another AI ethics framework.
 
@@ -514,7 +514,7 @@ LUMINA-30が境界を定義するのに対し、PCR-Cはその形式化を担い
 
 <!-- ● L30:WHAT -->
 <a id="what"></a>
- [What is LUMINA-30](#what)
+## What is LUMINA-30 ｜ LUMINA-30とは何か
 
 
 LUMINA-30 is a non-binding civilizational reference framework  
@@ -855,7 +855,7 @@ Practical review checklist for evaluating AI systems and governance decisions be
 
 <!-- ● L30:PAPER_REFERENCE -->
 <a id="paper-reference"></a>
-## Paper Reference
+## Paper Reference ｜ 論文参照
 
 Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control mechanism for managing irreversibility risk in advanced AI systems.<br>
 本論文（PCR-C）は、不可逆性リスクを制御するための段階的インフラ制御モデルを提示します。
@@ -989,7 +989,7 @@ then refer to canonical texts.
 
 <!-- ● L30:TERMINOLOGY -->
 <a id="core-terminology"></a>
-## Core Terminology
+## Core Terminology ｜ 中核用語
 
 Key terms such as Intervention Authority, Refusal Authority, and Stop Authority are used interchangeably to denote effective human control over irreversible execution.  
 LUMINA-30 provides a minimal Pre-Irreversibility framework for evaluating whether systems remain interruptible before Irreversible Impact.<br>
@@ -1016,7 +1016,7 @@ LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 
 <!-- ● L30:COMPARISON -->
 <a id="lumina-30-vs-existing-ai-governance-frameworks"></a>
-## LUMINA-30 vs Existing AI Governance Frameworks
+## LUMINA-30 vs Existing AI Governance Frameworks ｜ 既存AIガバナンス枠組みとの比較
 
 | Framework | Core Function | Strength | Limitation | Gap LUMINA-30 Fills |
 |----------|-------------|----------|------------|---------------------|
@@ -1258,7 +1258,7 @@ LUMINA-30は、高度な人工知能の存在下において文明主体を維�
 
 <!-- ● L30:EDITING_RULE -->
 <a id="editing-rule"></a>
-## Editing Rule
+## Editing Rule ｜ 編集ルール
 
 This document is structure-critical.  
 Do not remove or reduce sections.
@@ -1267,7 +1267,7 @@ Do not remove or reduce sections.
 
 <!-- ● L30:LICENSE -->
 <a id="license"></a>
-## License
+## License ｜ ライセンス
 
 All LUMINA-30 materials are released under **CC0 (Public Domain)**.  
 LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
@@ -1277,7 +1277,7 @@ LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** と�
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
 <a id="notes-on-review-and-positioning"></a>
-## Notes on Review and Positioning
+## Notes on Review and Positioning ｜ レビューと位置づけに関する注記
 
 This work is presented as a structural boundary condition,
 not as a policy or implementation proposal.
@@ -1332,7 +1332,7 @@ or positioning is welcome.
 - [★ Reference ｜ 参照 / Reference](#reference)  
   ※ 研究者向け：定義  
   ▶ 理解：理論基盤と評価体系を確認｜実務：[Paper Reference](#paper-reference)・定義・評価基準を引用用に参照
-  - [Paper Reference](#paper-reference)
+  - [Paper Reference ｜ 論文参照](#paper-reference)
   - [Research Paper ｜ 研究論文](#research-paper)  
     ⚑ 理論的裏付けと外部参照の核
   - [Operational Review and Governance Network / 実務・検証ネットワーク](#operational-review-governance-network)
@@ -1369,8 +1369,8 @@ or positioning is welcome.
 - [★ Others ｜ その他 / Others](#others)  
   ※ 運用補足情報  
   ▶ 運用・編集・ライセンス関連
-  - [Editing Rule](#editing-rule)
-  - [License](#license)
+  - [Editing Rule ｜ 編集ルール](#editing-rule)
+  - [License ｜ ライセンス](#license)
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
 
@@ -1419,3 +1419,4 @@ Use this section to choose the next destination by purpose, not to browse the wh
 ---
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+
