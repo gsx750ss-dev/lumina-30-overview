@@ -78,6 +78,7 @@
 <!-- [S_SERIES_TEMPLATE](./docs/L30_S_SERIES_TEMPLATE.md) -->
 
 ---
+<a id="top"></a>
 <!-- ● L30:TITLE -->
 # LUMINA-30
 
@@ -94,7 +95,7 @@ A system is procedurally invalid if human refusal authority is not effective bef
 Was human refusal authority effective before irreversible impact?  
 不可逆的影響の前に、人間の拒否権は実効的だったか？
 
-<a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a> ｜ <a href="#quick-section-jump"><b>🔽 View Quick Section Jump｜目的別ショートカットを見る</b></a>
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 
 ---
@@ -164,6 +165,8 @@ The formal definition is provided below.
 
 See detailed definition:  
 → [English G06 Core](#g06-core-en) | [日本語G06コア](#g06-core-jp)
+
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 <!-- ● L30:PRIMARY_QUESTION -->
 ## Primary Question ｜ 主要問い
@@ -317,6 +320,8 @@ NO  → 手続的に無効
 ・人間の拒否権が欠如している場合、結果の良し悪しに関係なく無効
 
 
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
 <a id="practical-application"></a>
 ## Practical Application ｜ 実務適用
 
@@ -335,6 +340,8 @@ If this cannot be answered clearly, the system cannot be considered controlled.
 → [Incident Review Hub ｜ 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)  
 Use this for practical incident review, boundary checks, and stakeholder-facing review materials.  
 事故レビュー、境界判定、相手別レビュー資料に使用。
+
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 <!-- ● L30:STRUCTURE -->
 <a id="framework-structure"></a>
@@ -380,6 +387,8 @@ This framework is designed to support:
 - Safety audit and compliance evaluation
 - Institutional governance decisions
 
+
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 <!-- ● L30:MAP -->
 <a id="conceptual-structure"></a>
@@ -482,6 +491,8 @@ LUMINA-30が境界を定義するのに対し、PCR-Cはその形式化を担い
 → DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
 
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
 <!-- ● L30:WHAT -->
 <a id="what"></a>
 ## What is LUMINA-30 ｜ LUMINA-30とは何か
@@ -568,6 +579,8 @@ before potential irreversibility?
 なぜ介入が実行されなかったのか。
 
 
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
 <!-- ● L30:ENTRY_POINT -->
 ## LUMINA-30 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
 
@@ -590,7 +603,7 @@ AIの振る舞いではなく
   不可逆的影響の前に人間の拒否が実効性を持っていたかを確認する場合に使用。
 
 
-<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 <!-- ● L30:APPLICATION_GROUP -->
 <a id="application"></a>
@@ -732,6 +745,30 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 [EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
 
 
+<!-- ● L30:BAS_PRACTICAL_SHEETS -->
+<a id="l30-bas-practical-sheets"></a>
+## L30-BAS Practical Sheets ｜ L30-BAS 実務シート
+
+Practical PDF and editable DOCX sheets for applying L30-BAS without treating it as certification, compliance, or approval authority.  
+L30-BASを認証・適合・承認制度として扱わず、実務上の境界確認に用いるためのPDF版および編集用DOCX版。
+
+- **Boundary Check ｜ 境界チェック**
+  - [EN PDF](./tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.pdf) / [EN DOCX](./tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.docx)
+  - [JP PDF](./tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.pdf) / [JP DOCX](./tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.docx)
+
+- **Civilizational Safety Checklist ｜ 文明安全チェックリスト**
+  - [EN PDF](./tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) / [EN DOCX](./tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx)
+  - [JP PDF](./tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) / [JP DOCX](./tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx)
+
+- **AI Incident Review Template ｜ AIインシデントレビュー票**
+  - [EN PDF](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [EN DOCX](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
+  - [JP PDF](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [JP DOCX](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
+
+Canonical address reference: [L30-BAS](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)
+
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
+
 <!-- ● L30:INCIDENT -->
 <a id="ai-incident-review-template"></a>
 ## AI Incident Review Template ｜ インシデントレビュー
@@ -803,7 +840,7 @@ Practical review checklist for evaluating AI systems and governance decisions be
 [Civilizational Safety Checklist (EN)](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [文明安全チェックリスト (JP)](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
 
 
-<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 <!-- ● L30:REFERENCE_GROUP -->
 <a id="reference"></a>
@@ -903,6 +940,8 @@ The following repositories extend LUMINA-30 from conceptual structure into incid
   stop authority、refusal authority、不可逆前中断可能性の簡潔な定義アンカー。
 
 
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
 <a id="comparison-with-other-approaches"></a>
 ## Comparison with Other Approaches ｜ 他アプローチとの比較
 
@@ -982,7 +1021,7 @@ LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 | UNESCO / Human Oversight | Human-in-the-loop governance | Global legitimacy | Oversight ≠ enforceable refusal | Defines enforceable human refusal authority |
 
 
-<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 <!-- ● L30:MATERIALS_GROUP -->
 <a id="materials"></a>
@@ -1138,7 +1177,7 @@ Practical Layer は、役割横断の実務棚を提供する。
 - [Model Notes ｜ モデル補足](./docs/extensions/meta/model-notes.md)
 
 
-<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 <!-- ● L30:CONTEXT_GROUP -->
 <a id="context"></a>
@@ -1194,6 +1233,8 @@ For practical incident review usage, see the [dedicated incident-review reposito
   公開入口、固定記録識別子、ハッシュ、安定 PDF を先に確認。
 
 
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
 <!-- ● L30:CONTEXT -->
 <a id="civilizational-context"></a>
 ## Civilizational Context ｜ 文明的文脈
@@ -1206,7 +1247,7 @@ LUMINA-30は、高度な人工知能の存在下において文明主体を維�
 しかし、人類がAIの不可逆的外界影響という問題に直面した際に参照可能な、一つの到達点として公開されています。
 
 
-<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 <!-- ● L30:OTHERS_GROUP -->
 <a id="others"></a>
@@ -1232,7 +1273,7 @@ All LUMINA-30 materials are released under **CC0 (Public Domain)**.
 LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
 
 
-<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 <a id="notes-on-review-and-positioning"></a>
 ## Notes on Review and Positioning ｜ レビューと位置づけに関する注記
@@ -1335,7 +1376,7 @@ or positioning is welcome.
   - [Editing Rule ｜ 編集ルール](#editing-rule)
   - [License ｜ ライセンス](#license)
 
-<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 <a id="quick-section-jump"></a>
 ## ★ Quick Section Jump ｜ 目的別ショートカット
@@ -1380,6 +1421,6 @@ Use this section to choose the next destination by purpose, not to browse the wh
   LUMINA-30が何であり、何ではないかを確認する場合。
 
 
-<a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 
