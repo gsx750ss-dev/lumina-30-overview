@@ -1276,6 +1276,10 @@ or positioning is welcome.
   ▶ 理解：判定結果の意味を把握｜実務：[Checklist](#civilizational-safety-checklist) / [PCR-C](#paper-reference) / [Incident Review](#incident-review-template)
   - [Civilizational Safety Checklist ｜ 文明安全チェックリスト](#civilizational-safety-checklist)  
     ⚑ 即時に安全性を判定できる中核ツール
+  - [L30-BAS Practical Sheets ｜ L30-BAS 実務シート](#l30-bas-practical-sheets)  
+    ⚑ 3種の英日PDF/DOCXを使う実務導線
+  - [LUMINA-30 Boundary Address System (L30-BAS) ｜ 境界番地体系](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
+    ⚑ チェックリスト・レビュー票・監査票をLUMINA-30中核命題へ戻す参照番地
   - [G04 — PCR-C Governance Mechanism ｜ PCR-Cガバナンス機構](#g04-pcrc-governance-model)  
     ⚑ 不可逆化を防ぐインフラ制御モデル
   - [AI Incident Review Template ｜ インシデントレビュー](#ai-incident-review-template)  
@@ -1373,4 +1377,6 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
+
+
 

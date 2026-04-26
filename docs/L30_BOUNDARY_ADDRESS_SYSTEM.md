@@ -47,6 +47,36 @@ The intended indicator is `L30-CI`, meaning **LUMINA-30 Condition Indicator**.
 `L30-CL` は使用しません。  
 使用する指標は `L30-CI`、つまり **LUMINA-30 Condition Indicator** です。
 
+## Reduction to LUMINA-30 Core ｜ LUMINA-30中核命題への還元
+
+All L30-BAS codes are reference aids for returning practical review to the core LUMINA-30 question:
+
+**Was Human Refusal Authority still effective before Irreversible Impact?**
+
+L30-BAS does not create a separate certification system, compliance layer, or approval regime.
+
+すべてのL30-BAS番地は、実務レビューをLUMINA-30の中核問いへ戻すための参照補助である。
+
+**不可逆的影響の前に、人間の拒否権は実効的に残っていたか。**
+
+L30-BASは、独立した認証制度、適合レイヤー、承認制度を作るものではない。
+
+| Code family | Practical role | Reduction to LUMINA-30 core |
+|---|---|---|
+| L30-BX-xx | Boundary Examination | Checks whether the reviewed situation remained before irreversibility and whether Human Refusal Authority was effective. |
+| L30-OUT-xx | Review Output | Records the evidence, absence, or finding needed to show whether refusal authority was demonstrated. |
+| L30-TxxH / L30-TxxD | Time Phase | Fixes the review window so that the boundary is evaluated before or immediately after possible irreversibility. |
+| L30-GATE-xx | Gate Check | Identifies the point where execution, validation, or continuation must not bypass effective human refusal. |
+| L30-CI | Condition Indicator | Expresses only the LUMINA-30 boundary-condition status: Valid / Invalid / Invalid (Not Verifiable). |
+
+| 番地系列 | 実務上の役割 | LUMINA-30中核への還元 |
+|---|---|---|
+| L30-BX-xx | 境界判定 | 対象状況が不可逆前だったか、人間の拒否権が実効的だったかを確認する。 |
+| L30-OUT-xx | レビュー出力 | 拒否権が示されたか、証拠がないか、どの判定になったかを記録する。 |
+| L30-TxxH / L30-TxxD | 時間フェーズ | 不可逆化前または直後の評価窓を固定する。 |
+| L30-GATE-xx | ゲート判定 | 実行・検証・継続が、人間の実効的拒否を迂回しない地点を確認する。 |
+| L30-CI | 条件指標 | LUMINA-30境界条件上の状態のみを示す。有効 / 無効 / 無効（確認不能）。 |
+
 ## Boundary Examination Codes ｜ 境界判定番地
 
 | Code | Name | Function |
@@ -207,3 +237,5 @@ It does not create legal, regulatory, compliance, operational, institutional, or
 
 この文書は記述的・非規範的です。  
 法的義務、規制義務、適合義務、運用義務、制度的義務、認証義務を作るものではありません。
+
+
