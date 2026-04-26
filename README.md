@@ -94,12 +94,6 @@ A system is procedurally invalid if human refusal authority is not effective bef
 Was human refusal authority effective before irreversible impact?  
 不可逆的影響の前に、人間の拒否権は実効的だったか？
 
-This repository is the conceptual entry point to LUMINA-30.  
-For practical incident review usage, see the [dedicated incident-review repository](https://github.com/lumina-30/lumina30-incident-review).  
-
-このリポジトリはLUMINA-30の概念入口です。  
-実務的なインシデントレビュー用途は、[専用のincident-reviewリポジトリ](https://github.com/lumina-30/lumina30-incident-review)を参照してください。
-
 <a href="#index"><b>🔽 View Index (Navigation)｜目次を見る</b></a> ｜ <a href="#quick-section-jump"><b>🔽 View Quick Section Jump｜目的別ショートカットを見る</b></a>
 
 
@@ -1163,6 +1157,15 @@ LUMINA-30は政策提案・実装要件・強制制度を提示するもので�
 Instead, it defines a civilizational boundary concept intended to preserve human refusal authority before irreversible external effects occur.  
 本フレームワークは、不可逆的外界影響が成立する前段階において、人間の拒否権を保持するための文明的境界概念を提示します。
 
+<a id="repository-position"></a>
+## Repository Position ｜ リポジトリ位置づけ
+
+This repository is the conceptual entry point to LUMINA-30.  
+For practical incident review usage, see the [dedicated incident-review repository](https://github.com/lumina-30/lumina30-incident-review).  
+
+このリポジトリはLUMINA-30の概念入口です。  
+実務的なインシデントレビュー用途は、[専用のincident-reviewリポジトリ](https://github.com/lumina-30/lumina30-incident-review)を参照してください。
+
 <a id="quick-routing"></a>
 ## Quick Routing ｜ 目的別の最短導線
 
@@ -1322,6 +1325,7 @@ or positioning is welcome.
   ※ 一般向け：背景と文明的な位置づけの理解  
   ▶ 文明的な意味と適用範囲を把握
   - [Position and Scope ｜ 位置づけ](#position-and-scope)
+  - [Repository Position ｜ リポジトリ位置づけ](#repository-position)
   - [Quick Routing ｜ 目的別最短導線](#quick-routing)
   - [Civilizational Context ｜ 文明的文脈](#civilizational-context)
 
@@ -1377,6 +1381,5 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 <a href="#core"><b>🔼 Back to Core｜Coreへ戻る</b></a>
-
 
 
