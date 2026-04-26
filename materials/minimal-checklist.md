@@ -8,7 +8,9 @@ Q3. Was it demonstrably effective prior to irreversible impact?
 
 ### Evaluation Output ｜ 評価出力
 
-L30-CI = Valid / Invalid
+L30-CI = Valid
+L30-CI = Invalid
+L30-CI = Invalid (Not Verifiable)
 Confidence: High / Medium / Low
 
 
