@@ -8,6 +8,13 @@ Map responsibility from model creation to deployment and incident response.
 
 ---
 
+## LUMINA-30 Core Link / LUMINA-30中核への接続
+
+This sheet clarifies who could authorize, stop, review, or answer for the system before and after escalation.  
+このシートは、拡張前後において、誰が承認・停止・審査・説明責任を担えたかを明確化するための補助資料である。
+
+---
+
 ## Review Items / 確認項目
 
 - Who owned the system?  

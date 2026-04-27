@@ -8,6 +8,13 @@ Assess whether meaningful intervention remained realistically possible.
 
 ---
 
+## LUMINA-30 Core Link / LUMINA-30中核への接続
+
+This sheet checks whether intervention remained realistically possible at the relevant pre-irreversibility stage.  
+このシートは、不可逆化前の該当段階で、有意な介入が現実に可能だったかを確認するための補助資料である。
+
+---
+
 ## Review Items / 確認項目
 
 - Could operators stop execution?  

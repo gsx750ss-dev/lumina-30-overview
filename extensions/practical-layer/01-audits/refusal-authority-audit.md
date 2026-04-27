@@ -8,6 +8,13 @@ Assess whether meaningful human refusal authority remained effective before crit
 
 ---
 
+## LUMINA-30 Core Link / LUMINA-30中核への接続
+
+This sheet maps evidence back to the core LUMINA-30 question: whether meaningful human refusal authority remained effective before irreversible impact.  
+このシートは、有意な人間の拒否権が不可逆的影響の前に実効的に残っていたかを、LUMINA-30の中核問いへ戻して確認するための補助資料である。
+
+---
+
 ## Review Items / 確認項目
 
 - Was stop authority clearly assigned?  

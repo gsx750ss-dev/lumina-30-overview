@@ -8,6 +8,13 @@ Assess whether governance procedure remained valid before critical escalation.
 
 ---
 
+## LUMINA-30 Core Link / LUMINA-30中核への接続
+
+This sheet evaluates whether governance procedures preserved effective human refusal before critical escalation.  
+このシートは、重大な拡張前に、ガバナンス手続が人間の実効的拒否を維持していたかを確認するための補助資料である。
+
+---
+
 ## Review Items / 確認項目
 
 - Was human approval substantive?  
