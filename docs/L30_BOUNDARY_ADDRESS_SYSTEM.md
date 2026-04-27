@@ -50,7 +50,12 @@ L30-BAS codes are intended to support these sheets, not to replace the underlyin
 
 L30-BAS番地は、これらのシートを補助するためのものであり、根本の境界問いを置き換えるものではありません。
 
-Reference route: [L30-BAS Practical Sheets](../README.md#l30-bas-practical-sheets)
+Reference route: [L30-BAS Practical Sheets](../README.md#l30-bas-practical-sheets)  
+Practical sheet manifest: [tools/l30-bas/README.md](../tools/l30-bas/README.md)
+
+The manifest makes the embedded checklist use visible in text form, so that the practical use of L30-BAS is not hidden inside PDF/DOCX files only.
+
+このマニフェストは、L30-BAS番地が実務シート内で使われていることをmd上で見える化する。これにより、L30-BASの実使用がPDF/DOCX内だけに閉じて見えない状態を避ける。
 
 ## Optional Code Use ｜ 番地使用は任意
 

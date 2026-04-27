@@ -764,7 +764,20 @@ L30-BASを認証・適合・承認制度として扱わず、実務上の境界�
   - [EN PDF](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [EN DOCX](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
   - [JP PDF](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [JP DOCX](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
 
-Canonical address reference: [L30-BAS](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)
+Canonical address reference: [L30-BAS](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
+Practical sheet manifest: [tools/l30-bas/README.md](./tools/l30-bas/README.md)
+
+### What is inside these sheets? ｜ シート内に何が入っているか
+
+These files are not only downloads. They are the practical places where L30-BAS codes are used.
+
+これらは単なるダウンロードファイルではない。L30-BAS番地が実際に使われる実務上の配置先である。
+
+| Sheet | What it contains | Visible L30-BAS use |
+|---|---|---|
+| Boundary Check | Minimal A4 boundary check for rapid triage. | L30-BX-01〜04, L30-CI, L30-OUT-01 |
+| Civilizational Safety Checklist | Broader safety / audit / governance checklist. | Boundary checks, evidence notes, L30-CI-style outcome |
+| AI Incident Review Template | Structured post-incident review sheet for context, timeline, evidence, refusal authority, and output. | Boundary checks, review outputs, final condition status |
 
 File pairing rule: the public L30-BAS v1.0 sheet set consists of three families, each provided as EN PDF / EN DOCX / JP PDF / JP DOCX.  
 Use only the `v1_0` filenames in public links. Earlier draft names such as `v0_2` must not be used for public README links.
