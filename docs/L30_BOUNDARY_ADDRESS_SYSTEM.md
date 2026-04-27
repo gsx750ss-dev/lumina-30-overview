@@ -52,6 +52,26 @@ L30-BAS番地は、これらのシートを補助するためのものであり�
 
 Reference route: [L30-BAS Practical Sheets](../README.md#l30-bas-practical-sheets)
 
+## Optional Code Use ｜ 番地使用は任意
+
+L30-BAS codes are optional labels for reference, citation, and checklist embedding.  
+They are useful when a reviewer needs stable addresses, but they are not required for a valid boundary review.
+
+L30-BAS番地は、参照、引用、チェックリスト埋め込みのための任意ラベルである。  
+安定した参照番地が必要な場合には有用だが、有効な境界レビューの必須条件ではない。
+
+The practical order is:
+
+1. Start with Boundary Check or the relevant practical sheet.
+2. Use L30-BAS codes only when stable references help record or communicate the result.
+3. Always return to the core question: Was Human Refusal Authority still effective before Irreversible Impact?
+
+実務上の順序は以下である。
+
+1. Boundary Check または該当する実務シートから開始する。
+2. 結果の記録・伝達に安定した参照番地が役立つ場合のみ、L30-BAS番地を使用する。
+3. 常に中核問いへ戻る。不可逆的影響の前に、人間の拒否権は実効的に残っていたか。
+
 ## Code Families ｜ 番地系列
 
 | Family | Meaning | Use |
