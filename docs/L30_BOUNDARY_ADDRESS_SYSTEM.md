@@ -13,10 +13,12 @@ It provides stable reference codes for asking whether effective Human Refusal Au
 ## Minimal Operator View ｜ 最小運用表示
 
 If the address system feels too detailed, start with the four Boundary Check questions.  
-The address codes are reference aids, not prerequisites for use.
+The address codes are reference aids, not prerequisites for use.  
+A review may still be conducted without writing L30-BAS codes, as long as the core boundary question is preserved.
 
 番地体系が細かく感じられる場合は、まず4つのBoundary Checkだけを使用してください。  
-番地コードは参照補助であり、使用の前提条件ではありません。
+番地コードは参照補助であり、使用の前提条件ではありません。  
+L30-BAS番地を記入しなくても、中核の境界問いが保持されていればレビューは実施できます。
 
 | Code | Boundary Check question | Standard result |
 |---|---|---|
@@ -24,6 +26,31 @@ The address codes are reference aids, not prerequisites for use.
 | L30-BX-02 | Was Human Refusal Authority still effective? | Effective / Ineffective / Not Verifiable |
 | L30-BX-03 | Is sufficient evidence available? | Yes / No / Not Verifiable |
 | L30-BX-04 | Can procedural validity be confirmed? | Valid / Invalid / Invalid (Not Verifiable) |
+
+
+## Practical Sheet Availability ｜ 実務シートの所在
+
+The public L30-BAS v1.0 practical sheet set is available through the Overview README:
+
+- Boundary Check
+- Civilizational Safety Checklist
+- AI Incident Review Template
+
+Each sheet family is provided as EN PDF / EN DOCX / JP PDF / JP DOCX.
+
+L30-BAS codes are intended to support these sheets, not to replace the underlying boundary question.
+
+公開用のL30-BAS v1.0実務シート群は、Overview READMEから参照できます。
+
+- Boundary Check
+- Civilizational Safety Checklist
+- AI Incident Review Template
+
+各シート系列は、EN PDF / EN DOCX / JP PDF / JP DOCX として提供されます。
+
+L30-BAS番地は、これらのシートを補助するためのものであり、根本の境界問いを置き換えるものではありません。
+
+Reference route: [L30-BAS Practical Sheets](../README.md#l30-bas-practical-sheets)
 
 ## Code Families ｜ 番地系列
 
@@ -197,16 +224,27 @@ Recommended separate-sheet format:
 
 ## Repository Mapping ｜ リポジトリ対応
 
-| Repository | Primary L30-BAS codes |
-|---|---|
-| lumina30-incident-review | L30-BX-01, L30-BX-03, L30-BX-04, L30-OUT-01, L30-CI |
-| stop-authority-reference | L30-BX-02, L30-BX-07, L30-OUT-02 |
-| ai-accountability-reference | L30-BX-04, L30-OUT-03, L30-CI |
-| institutional-friction-toolkit | L30-BX-05, L30-BX-06, L30-GATE-01, L30-GATE-04 |
-| post-incident-decision-review | L30-BX-07, L30-BX-04, L30-OUT-03, L30-CI |
-| post-incident-stabilization | L30-T00H, L30-T48H, L30-BX-03, L30-OUT-04 |
-| post-incident-timeboxed-review | L30-T30D, L30-T90D, L30-BX-04, L30-OUT-01, L30-CI |
-| incident-terminology-minimal | L30-BX-09 |
+This table maps L30-BAS to the current active repository network.  
+Retired or deleted repository names are not part of the active L30-BAS mapping.
+
+この表は、L30-BASを現在の有効なrepo構成へ対応づけるものです。  
+削除済みまたは退役済みのrepo名は、現行L30-BAS対応表には含めません。
+
+| Repository | Current role | L30-BAS relation |
+|---|---|---|
+| lumina-30-overview | Conceptual entry, visuals, L30-BAS canonical document, and practical sheet links | Canonical L30-BAS explanation and practical sheet route |
+| lumina30-incident-review | Practical incident-review and boundary-check repository | L30-BX-01, L30-BX-02, L30-BX-03, L30-BX-04, L30-OUT-01, L30-CI |
+| institutional-friction-toolkit | Institutional friction, auto-loop invalidity, final approval gate, and procedural safeguards | L30-BX-05, L30-BX-06, L30-GATE-01, L30-GATE-04 |
+| stop-authority-reference | Stop / refusal authority reference | L30-BX-02, L30-BX-07, L30-OUT-02 |
+| ai-accountability-reference | Responsibility and accountability reference | L30-BX-04, L30-OUT-03, L30-CI |
+| Lumi30-Index | Repository network index | Navigation route; no independent BAS authority |
+| LUMINA-30 | Core charter reference | Core boundary source; no operational BAS code assignment |
+| Lumi30-FullText | Full-text archive / extraction support | Citation and reference support |
+| Lumi30-Public-Record | Fixed public record and integrity layer | Evidence / citation support; no active review code assignment |
+| Lumi30-PDF-Archive | Fixed PDF artifact archive | Evidence / citation support; no active review code assignment |
+| lumina30-public-reference | Compact public reference route | Citation and public-entry support |
+| lumina-30-structure-map | Structural map of repository roles | Navigation and structure support |
+| .github | Organization profile and top-level entry | Public entry route |
 
 ## Usage Rules ｜ 使用ルール
 
@@ -237,5 +275,3 @@ It does not create legal, regulatory, compliance, operational, institutional, or
 
 この文書は記述的・非規範的です。  
 法的義務、規制義務、適合義務、運用義務、制度的義務、認証義務を作るものではありません。
-
-
