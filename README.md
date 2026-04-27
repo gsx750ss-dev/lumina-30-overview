@@ -766,6 +766,12 @@ L30-BASを認証・適合・承認制度として扱わず、実務上の境界�
 
 Canonical address reference: [L30-BAS](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)
 
+File pairing rule: the public L30-BAS v1.0 sheet set consists of three families, each provided as EN PDF / EN DOCX / JP PDF / JP DOCX.  
+Use only the `v1_0` filenames in public links. Earlier draft names such as `v0_2` must not be used for public README links.
+
+ファイル対応ルール：公開用L30-BAS v1.0実務シートは3系列で構成され、各系列に EN PDF / EN DOCX / JP PDF / JP DOCX がある。  
+公開READMEリンクでは `v1_0` ファイル名のみを使用する。`v0_2` などの試作版名は公開リンクに使用しない。
+
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
 
 
@@ -1422,5 +1428,3 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
-
-
