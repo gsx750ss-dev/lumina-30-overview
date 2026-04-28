@@ -38,7 +38,7 @@ The central question remains:
 
 ## Reading Order
 
-1. CORE_TERMINOLOGY.md
+1. L30_CORE_TERMINOLOGY.md
 2. README.md
 3. Slides (S01 → S02 → S03)
 4. Operational Tools

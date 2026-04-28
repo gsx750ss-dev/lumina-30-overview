@@ -1,7 +1,7 @@
-+ # LUMINA-30 Core Terminology (Minimal Standard)
+# LUMINA-30 Core Terminology (Minimal Standard)
 
-+ This file defines the fixed core terminology of LUMINA-30.
-+ The following terms are fixed and must not be altered.
+This file defines the fixed core terminology of LUMINA-30.
+The following terms are fixed and must not be altered.
 
 ## Pre-Irreversibility
 A state in which intervention can still prevent irreversible external impact.
@@ -27,14 +27,14 @@ A state in which intervention authority is bypassed, ignored, or rendered ineffe
 ## Subject Attribution Irrelevance
 Intervention authority remains valid regardless of perceived agency, autonomy, or self-claimed consciousness of the system.
 
-+ ---
-+
-+ ## Rules
-+
-+ - No rephrasing  
-+ - No synonym substitution  
-+ - No expansion of meaning  
-+ - No additional terms introduced
+---
+
+## Rules
+
+- No rephrasing  
+- No synonym substitution  
+- No expansion of meaning  
+- No additional terms introduced
 
 ---
 

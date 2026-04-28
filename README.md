@@ -598,7 +598,7 @@ AIの振る舞いではなく
   Start here for the repository network and canonical navigation.  
   repo群全体と正典導線を確認する入口。
 
-- [AI Incident Review Framework ｜ AI事故レビュー枠組み](https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf)  
+- [AI Incident Review Framework ｜ AI事故レビュー枠組み](https://github.com/lumina-30/lumina30-incident-review)  
   Use this when reviewing whether human refusal remained effective before irreversible impact.  
   不可逆的影響の前に人間の拒否が実効性を持っていたかを確認する場合に使用。
 
@@ -1010,10 +1010,10 @@ LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る�
 
 [Core Terminology (EN)](./docs/L30_CORE_TERMINOLOGY.md) | [用語集（日本語）](./docs/L30_CORE_TERMINOLOGY_JP.md)
 
-+ **Core Terminology ｜ 用語定義**  
-+ Core terminology is formally defined in [CORE_TRANSLATION_DICTIONARY.md](./docs/CORE_TRANSLATION_DICTIONARY.md).  
-+ All translations and references must follow the canonical expressions defined in this dictionary.  
-+ 用語の正式定義は [CORE_TRANSLATION_DICTIONARY.md](./docs/CORE_TRANSLATION_DICTIONARY.md) に記載されています。すべての翻訳および参照は、この辞書の正規表現（canonical）に準拠する必要があります。
+**Core Terminology ｜ 用語定義**  
+Core terminology is formally defined in [CORE_TRANSLATION_DICTIONARY.md](./docs/CORE_TRANSLATION_DICTIONARY.md).  
+All translations and references must follow the canonical expressions defined in this dictionary.  
+用語の正式定義は [CORE_TRANSLATION_DICTIONARY.md](./docs/CORE_TRANSLATION_DICTIONARY.md) に記載されています。すべての翻訳および参照は、この辞書の正規表現（canonical）に準拠する必要があります。
 
 
 <!-- ● L30:GLOSSARY -->

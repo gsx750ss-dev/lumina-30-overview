@@ -1,7 +1,7 @@
 # LUMINA-30 用語集（最小標準）
 
 本ファイルは、LUMINA-30のコア語彙の日本語参照版です。
-定義の正本は英語版（CORE_TERMINOLOGY.md）とします。
+定義の正本は英語版（L30_CORE_TERMINOLOGY.md）とします。
 
 ---
 
