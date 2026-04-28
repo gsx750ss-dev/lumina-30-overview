@@ -60,7 +60,7 @@ Additional constraints:
 ---
 
 ## Content Source
-- Follow S_SERIES_TEMPLATE.md strictly
+- Follow [L30_S_SERIES_TEMPLATE.md](./L30_S_SERIES_TEMPLATE.md) strictly
 - Do not invent new concepts
 - Do not expand beyond defined structure
 - Preserve terminology consistency
@@ -92,3 +92,5 @@ Additional constraints:
 ## Execution Instruction
 You must strictly follow all rules above.
 Do not deviate.
+
+
