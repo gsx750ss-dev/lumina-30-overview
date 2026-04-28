@@ -752,6 +752,9 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 Practical PDF and editable DOCX sheets for applying L30-BAS without treating it as certification, compliance, or approval authority.  
 L30-BASを認証・適合・承認制度として扱わず、実務上の境界確認に用いるためのPDF版および編集用DOCX版。
 
+The sheets may be used by reading the boundary questions only. Writing L30-BAS codes is optional.  
+シートは境界問いを読むだけでも使用できます。L30-BAS番地の記入は任意です。
+
 PDF files are recommended for viewing on mobile devices.  
 DOCX files are provided for download and editing. If Word preview causes garbled text on Android, use the PDF for viewing and download the DOCX for editing on PC.
 
@@ -1447,3 +1450,5 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
+

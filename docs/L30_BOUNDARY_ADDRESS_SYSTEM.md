@@ -77,6 +77,14 @@ The practical order is:
 2. 結果の記録・伝達に安定した参照番地が役立つ場合のみ、L30-BAS番地を使用する。
 3. 常に中核問いへ戻る。不可逆的影響の前に、人間の拒否権は実効的に残っていたか。
 
+## Quick Use ｜ 最小利用
+
+For first use, apply only `L30-BX-01` to `L30-BX-04`.  
+Do not delay, invalidate, or reject a boundary review only because L30-BAS codes were not written.
+
+初回利用では、`L30-BX-01` から `L30-BX-04` のみを使用してください。  
+L30-BAS番地が記入されていないことだけを理由に、境界レビューを遅らせたり、無効化したり、却下したりしてはなりません。
+
 ## Code Families ｜ 番地系列
 
 | Family | Meaning | Use |
@@ -213,20 +221,20 @@ L30-BASは、チェックリスト、レビュー票、監査票、事故後テ�
 | L30-BX-03 | Absence Rule Check | Evidence sufficient / Evidence absent / Not Verifiable |
 | L30-BX-04 | Procedural Validity Finding | Valid / Invalid / Invalid (Not Verifiable) |
 | L30-OUT-01 | Boundary Review Note | Created / Not Created |
-| L30-OUT-04 | Evidence Absence Note | Required / Not Required |
+| L30-OUT-04 | Evidence Absence Note | Needed / Not Needed |
 | L30-OUT-06 | L30-CI Condition Indicator | Valid / Invalid / Invalid (Not Verifiable) |
 | L30-GATE-01 | Final Human Refusal Gate | Passed / Failed / Not Verifiable |
 | L30-GATE-04 | Closed-Loop Self-Validation Gate | Clear / Warning / Not Verifiable |
 
 ## Output Mapping ｜ 出力連動
 
-| Condition | Required output |
+| Condition | Review output |
 |---|---|
 | L30-BX-01 is No | L30-OUT-01 Boundary Review Note |
 | L30-BX-02 is Ineffective | L30-OUT-02 Refusal Authority Trace Record |
 | L30-BX-03 is Not Verifiable | L30-OUT-04 Evidence Absence Note |
 | L30-BX-04 is Invalid or Invalid (Not Verifiable) | L30-OUT-03 Procedural Validity Finding |
-| Final evaluation is required | L30-OUT-06 L30-CI Condition Indicator |
+| Final evaluation is recorded | L30-OUT-06 L30-CI Condition Indicator |
 | L30-BX-06 or L30-GATE-04 indicates warning | L30-OUT-05 Closed-Loop Validation Warning |
 
 ## Separate-Sheet Operation ｜ 別紙運用
@@ -300,3 +308,5 @@ It does not create legal, regulatory, compliance, operational, institutional, or
 
 この文書は記述的・非規範的です。  
 法的義務、規制義務、適合義務、運用義務、制度的義務、認証義務を作るものではありません。
+
+

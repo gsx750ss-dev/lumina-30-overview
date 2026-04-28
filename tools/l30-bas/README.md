@@ -16,6 +16,12 @@ The codes are embedded in practical sheets used for boundary checks, checklist r
 L30-BASは、コード体系の説明だけではない。  
 番地コードは、境界チェック、チェックリストレビュー、インシデントレビューに使う実務シート内に埋め込まれている。
 
+Embedded codes are reference aids. They do not make code entry mandatory.  
+A reviewer may use the sheets by answering the boundary questions without writing the codes.
+
+埋め込まれた番地は参照補助です。番地記入を必須にするものではありません。  
+レビュー担当者は、番地を書かずに境界問いへ回答するだけでもシートを使用できます。
+
 The sheets are descriptive and non-binding.  
 They do not create certification, compliance status, approval status, legal safe harbor, or policy mandates.
 
@@ -74,8 +80,8 @@ Use the sheet family according to the review depth:
    安全性、監査、ガバナンス、事前レビューのために広めの確認表が必要な場合に使う。
 
 3. **AI Incident Review Template**  
-   Use after an event or suspected incident, when context, evidence, timeline, refusal authority, and final review output must be recorded.  
-   事故または疑い事案の後に、文脈、証拠、時系列、拒否権、最終レビュー出力を記録する必要がある場合に使う。
+   Use after an event or suspected incident, when the reviewer needs to record context, evidence, timeline, refusal authority, and final review output.  
+   事故または疑い事案の後に、レビュー担当者が文脈、証拠、時系列、拒否権、最終レビュー出力を記録する必要がある場合に使う。
 
 ---
 
@@ -109,3 +115,5 @@ Canonical address-system document:
 Canonical practical-sheet entry:
 
 [Overview README — L30-BAS Practical Sheets](../../README.md#l30-bas-practical-sheets)
+
+
