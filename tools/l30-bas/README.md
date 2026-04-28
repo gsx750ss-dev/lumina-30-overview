@@ -36,26 +36,26 @@ They do not create certification, compliance status, approval status, legal safe
 
 ## File List ｜ ファイル一覧
 
+PDF files are recommended for viewing on mobile devices.  
+DOCX files are provided for download and editing. If Word preview causes garbled text on Android, use the PDF for viewing and download the DOCX for editing on PC.
+
+スマートフォンではPDF版での確認を推奨する。  
+DOCX版はダウンロード・編集用であり、Android上のWordプレビューで文字化けする場合は、閲覧にはPDFを使い、DOCXはPC編集用としてダウンロードする。
+
 ### Boundary Check ｜ 境界チェック
 
-- `EN_L30_BAS_Boundary_Check_v1_0.pdf`
-- `EN_L30_BAS_Boundary_Check_v1_0.docx`
-- `JP_L30_BAS_Boundary_Check_v1_0.pdf`
-- `JP_L30_BAS_Boundary_Check_v1_0.docx`
+- EN PDF: [Open](./EN_L30_BAS_Boundary_Check_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.pdf) ｜ EN DOCX: [Open](./EN_L30_BAS_Boundary_Check_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.docx)
+- JP PDF: [Open](./JP_L30_BAS_Boundary_Check_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.pdf) ｜ JP DOCX: [Open](./JP_L30_BAS_Boundary_Check_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.docx)
 
 ### Civilizational Safety Checklist ｜ 文明安全チェックリスト
 
-- `EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf`
-- `EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx`
-- `JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf`
-- `JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx`
+- EN PDF: [Open](./EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) ｜ EN DOCX: [Open](./EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx)
+- JP PDF: [Open](./JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) ｜ JP DOCX: [Open](./JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx)
 
 ### AI Incident Review Template ｜ AIインシデントレビュー票
 
-- `EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf`
-- `EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx`
-- `JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf`
-- `JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx`
+- EN PDF: [Open](./EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) ｜ EN DOCX: [Open](./EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
+- JP PDF: [Open](./JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) ｜ JP DOCX: [Open](./JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
 
 ---
 

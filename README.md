@@ -752,17 +752,23 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 Practical PDF and editable DOCX sheets for applying L30-BAS without treating it as certification, compliance, or approval authority.  
 L30-BASを認証・適合・承認制度として扱わず、実務上の境界確認に用いるためのPDF版および編集用DOCX版。
 
+PDF files are recommended for viewing on mobile devices.  
+DOCX files are provided for download and editing. If Word preview causes garbled text on Android, use the PDF for viewing and download the DOCX for editing on PC.
+
+スマートフォンではPDF版での確認を推奨する。  
+DOCX版はダウンロード・編集用であり、Android上のWordプレビューで文字化けする場合は、閲覧にはPDFを使い、DOCXはPC編集用としてダウンロードする。
+
 - **Boundary Check ｜ 境界チェック**
-  - [EN PDF](./tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.pdf) / [EN DOCX](./tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.docx)
-  - [JP PDF](./tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.pdf) / [JP DOCX](./tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.docx)
+  - EN PDF: [Open](./tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.pdf) ｜ EN DOCX: [Open](./tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.docx)
+  - JP PDF: [Open](./tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.pdf) ｜ JP DOCX: [Open](./tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.docx)
 
 - **Civilizational Safety Checklist ｜ 文明安全チェックリスト**
-  - [EN PDF](./tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) / [EN DOCX](./tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx)
-  - [JP PDF](./tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) / [JP DOCX](./tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx)
+  - EN PDF: [Open](./tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) ｜ EN DOCX: [Open](./tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx)
+  - JP PDF: [Open](./tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) ｜ JP DOCX: [Open](./tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx)
 
 - **AI Incident Review Template ｜ AIインシデントレビュー票**
-  - [EN PDF](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [EN DOCX](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
-  - [JP PDF](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [JP DOCX](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
+  - EN PDF: [Open](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) ｜ EN DOCX: [Open](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
+  - JP PDF: [Open](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) ｜ JP DOCX: [Open](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
 
 Canonical address reference: [L30-BAS](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
 Practical sheet manifest: [tools/l30-bas/README.md](./tools/l30-bas/README.md)
