@@ -16,6 +16,12 @@ The codes are embedded in practical sheets used for boundary checks, checklist r
 L30-BASは、コード体系の説明だけではない。  
 番地コードは、境界チェック、チェックリストレビュー、インシデントレビューに使う実務シート内に埋め込まれている。
 
+These L30-BAS v1.0 sheets are the current practical sheet set.  
+Standalone PDF files located directly under `tools/` are retained as continuity references and should not be treated as the current L30-BAS sheet family.
+
+これらの L30-BAS v1.0 シートは、現行の実務シート群である。  
+`tools/` 直下に配置されている単独PDFファイルは継続参照用に保持されており、現行のL30-BASシート群として扱わない。
+
 Embedded codes are reference aids. They do not make code entry mandatory.  
 A reviewer may use the sheets by answering the boundary questions without writing the codes.
 
@@ -115,5 +121,3 @@ Canonical address-system document:
 Canonical practical-sheet entry:
 
 [Overview README — L30-BAS Practical Sheets](../../README.md#l30-bas-practical-sheets)
-
-

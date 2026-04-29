@@ -744,6 +744,12 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 <br>
 [EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
 
+Note: This is the standalone checklist reference kept for continuity.  
+For the current L30-BAS v1.0 practical sheet set, including editable DOCX files and embedded L30-BAS codes, use [L30-BAS Practical Sheets](#l30-bas-practical-sheets).
+
+注記：これは継続参照用に保持している単独チェックリストです。  
+編集可能なDOCXファイルおよびL30-BAS番地を含む現行のL30-BAS v1.0実務シート群は、[L30-BAS Practical Sheets](#l30-bas-practical-sheets) を使用してください。
+
 
 <!-- ● L30:BAS_PRACTICAL_SHEETS -->
 <a id="l30-bas-practical-sheets"></a>
@@ -866,6 +872,12 @@ Practical review checklist for evaluating AI systems and governance decisions be
 不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するための実務レビュー・チェックリスト。  
 <br>
 [Civilizational Safety Checklist (EN)](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [文明安全チェックリスト (JP)](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
+
+Note: This link points to the standalone checklist reference.  
+For the current practical sheet family, use [L30-BAS Practical Sheets](#l30-bas-practical-sheets).
+
+注記：このリンクは単独チェックリスト参照です。  
+現行の実務シート群は [L30-BAS Practical Sheets](#l30-bas-practical-sheets) を使用してください。
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
@@ -1450,5 +1462,3 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
-
-
