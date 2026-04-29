@@ -971,6 +971,12 @@ Note: This paper is an existence-condition supporting research artifact. It does
 The following repositories extend LUMINA-30 from conceptual structure into incident review, public record integrity, accountability language, institutional friction analysis, and stop-authority definition.  
 以下のリポジトリ群は、LUMINA-30を概念構造から、事故レビュー、公開記録真正性、説明責任言語、制度摩擦分析、拒否権定義へ拡張する。
 
+This is not a recommended first-reading order.  
+For first-time readers, start with Overview, Incident Review, or Public Reference first, then use this network only as needed.
+
+これは初見読者向けの推奨読書順ではありません。  
+初見読者は、まず Overview、Incident Review、Public Reference のいずれかから入り、必要に応じてこのrepoネットワークを参照してください。
+
 - **Incident Review Hub ｜ 事故レビュー主ハブ**  
   [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review)  
   Main operational review repository for refusal effectiveness, Required Questions, review templates, and stakeholder-facing one-page briefs.  
@@ -1455,6 +1461,25 @@ or positioning is welcome.
 
 Use this section to choose the next destination by purpose, not to browse the whole site.  
 このセクションは、全体を回遊するためではなく、目的に合う到達先を選ぶための導線です。
+
+### First choose one of three entry doors ｜ まず3つの入口から選ぶ
+
+Do not start by opening every repository.  
+Choose the shortest route by purpose.
+
+| Purpose | Entry |
+|---|---|
+| Understand the framework | [Core Overview](#core) |
+| Review an AI incident | [AI Incident Review Template](#ai-incident-review-template) |
+| Use or cite the framework externally | [Reference](#reference) |
+
+全repoを順番に開かず、目的別に最短導線を選んでください。
+
+| 目的 | 入口 |
+|---|---|
+| フレームワークを理解する | [Core Overview](#core) |
+| AI事故をレビューする | [AI Incident Review Template](#ai-incident-review-template) |
+| 外部利用・引用する | [Reference](#reference) |
 
 - [Understand the core boundary ｜ 中核境界を理解する](#core)  
   For first-time readers who need the basic structure, boundary condition, and judgment logic.  
