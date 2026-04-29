@@ -33,10 +33,16 @@ For current practical use, this note should be read together with the L30-BAS an
   事故レビュー、境界判定、実務テンプレートのための専用実務repo。
 
 This note does not create adoption requirements, compliance obligations, or approval procedures.  
-It only shows how LUMINA-30 may be referenced as a non-binding boundary reference inside existing processes.
+It shows how LUMINA-30 may be referenced as a non-binding boundary reference inside existing processes.
+
+Non-binding means that LUMINA-30 creates no legal, regulatory, certification, compliance, or institutional obligation.  
+It does not mean the boundary question is irrelevant where a review must show whether effective human refusal existed before irreversibility.
 
 本ノートは、採用要件、適合義務、承認手続きを作るものではない。  
-既存プロセス内でLUMINA-30を非拘束の境界参照として参照する方法を示すだけである。
+既存プロセス内でLUMINA-30を非拘束の境界参照として参照する方法を示す。
+
+非拘束とは、LUMINA-30が法的義務、規制義務、認証義務、適合義務、制度的義務を作らないことを意味する。  
+不可逆化前に実効的な人間拒否が存在したかを示す必要があるレビューにおいて、この境界問いが無関係であることを意味しない。
 
 ---
 
@@ -57,8 +63,8 @@ or regulatory obligations.
 
 LUMINA-30 may be cited as:
 
-"An optional structural review lens
-for assessing recursive self-modifying AI systems."
+"A supplementary boundary review lens
+for assessing whether effective human refusal remained verifiable before irreversible AI-related impact."
 
 No adoption of new policies is required.
 No regulatory reinterpretation is implied.

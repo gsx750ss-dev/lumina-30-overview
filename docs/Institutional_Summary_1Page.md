@@ -80,11 +80,17 @@ LUMINA-30は思想ではなく、境界問いとして読む。
 
 ---
 
-## Optional Review Lens
+## Supplementary Boundary Review Lens ｜ 補助的な境界レビュー視点
 
-This framework may be used as an optional structural review lens
-for assessing recursive self-modifying systems,
-without altering existing governance or compliance models.
+This framework does not alter existing governance or compliance models.  
+However, when irreversible AI-related impact and human refusal authority are at issue, omitting this boundary question leaves a review gap: the review may fail to show whether humans could still refuse, stop, or override the pathway before irreversibility.
+
+LUMINA-30 is therefore non-binding in authority, but not disposable in review contexts where effective human refusal before irreversibility must be demonstrated.
+
+本フレームワークは、既存のガバナンスまたはコンプライアンスモデルを変更しない。  
+しかし、不可逆的なAI関連影響と人間の拒否権が問題となるレビューにおいて、この境界問いを省略すると、レビュー上の欠落が残る。すなわち、人間が不可逆化前にその経路を拒否・停止・上書きできたかを示せない可能性がある。
+
+したがって、LUMINA-30は権限としては非拘束であるが、不可逆化前の実効的な人間拒否を示す必要があるレビュー文脈では、単なる任意資料として扱うべきではない。
 
 ---
 
