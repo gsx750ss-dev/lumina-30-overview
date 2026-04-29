@@ -10,6 +10,20 @@ It addresses structural responsibility conditions in recursive self-modifying AI
 
 ---
 
+## Terminology Calibration / 用語補正
+
+In operational use, “civilizational” does not refer to a cultural, ideological, historical, or totalizing claim.  
+It refers narrowly to the boundary at which human refusal authority may cease to be effective before irreversible AI-related impact.
+
+For institutional readers, LUMINA-30 may be read as a pre-irreversibility boundary review framework.
+
+運用上、“civilizational（文明的）” は、文化的・思想的・歴史的・包括的な主張を意味しない。  
+不可逆的なAI関連影響の前に、人間の拒否権が実効性を失う可能性のある境界を狭く指す。
+
+制度側の読者は、LUMINA-30を「不可逆化前の境界レビュー・フレームワーク」として読んでよい。
+
+---
+
 ## Current Use as a One-Page Entry ｜ 1ページ入口としての現行利用
 
 This document serves as a one-page institutional entry point to LUMINA-30.  
@@ -27,10 +41,12 @@ The central question is:
 **不可逆的影響の前に、人間の拒否権は実効的に残っていたか。**
 
 LUMINA-30 is not a certification system, compliance framework, approval regime, or policy mandate.  
-It is a non-binding civilizational boundary reference for review, audit, governance discussion, and post-incident analysis.
+It is a non-binding pre-irreversibility boundary reference for review, audit, governance discussion, and post-incident analysis.  
+Its canonical term is “civilizational boundary,” but the operational focus is narrower: whether effective human refusal existed before irreversible AI-related impact.
 
 LUMINA-30は、認証制度、適合フレームワーク、承認制度、政策命令ではない。  
-レビュー、監査、ガバナンス上の検討、事故後分析のための非拘束の文明境界参照である。
+レビュー、監査、ガバナンス上の検討、事故後分析のための、非拘束の不可逆化前境界参照である。  
+正典上の用語は「文明境界」だが、運用上の焦点はより狭く、不可逆的なAI関連影響の前に実効的な人間拒否が存在したかである。
 
 ---
 

@@ -14,6 +14,20 @@ as part of existing risk or compliance assessments.
 
 ---
 
+## Terminology Note / 用語注記
+
+For integration purposes, LUMINA-30 should be introduced first as a pre-irreversibility boundary review framework.  
+The phrase “civilizational boundary” is the canonical term, but it should not be presented as a broad cultural or ideological claim.
+
+In this context, “civilizational” means only that the review concerns conditions under which human refusal authority could be lost before irreversible AI-related impact.
+
+統合説明では、LUMINA-30をまず「不可逆化前の境界レビュー・フレームワーク」として紹介する。  
+“civilizational boundary（文明境界）” は正典上の用語であるが、広い文化論・思想論として提示しない。
+
+この文脈での「文明的」とは、不可逆的なAI関連影響の前に人間の拒否権が失われ得る条件を扱う、という意味に限られる。
+
+---
+
 ## Current Practical Reference ｜ 現行実務参照
 
 For current practical use, this note should be read together with the L30-BAS and incident-review materials.
