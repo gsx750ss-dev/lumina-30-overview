@@ -747,8 +747,12 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 Note: This is the standalone checklist reference kept for continuity.  
 For the current L30-BAS v1.0 practical sheet set, including editable DOCX files and embedded L30-BAS codes, use [L30-BAS Practical Sheets](#l30-bas-practical-sheets).
 
+Terminology note: In this checklist name, “civilizational” is a continuity label for the LUMINA-30 boundary vocabulary. Operationally, the checklist should be read as a pre-irreversibility human-refusal review aid, not as a broad cultural, ideological, or historical claim.
+
 注記：これは継続参照用に保持している単独チェックリストです。  
 編集可能なDOCXファイルおよびL30-BAS番地を含む現行のL30-BAS v1.0実務シート群は、[L30-BAS Practical Sheets](#l30-bas-practical-sheets) を使用してください。
+
+用語注記：このチェックリスト名における “civilizational（文明的）” は、LUMINA-30の境界語彙を継続するための名称である。運用上は、広い文化論・思想論・歴史論ではなく、不可逆化前の人間拒否レビュー補助として読む。
 
 
 <!-- ● L30:BAS_PRACTICAL_SHEETS -->
@@ -757,6 +761,13 @@ For the current L30-BAS v1.0 practical sheet set, including editable DOCX files 
 
 Practical PDF and editable DOCX sheets for applying L30-BAS without treating it as certification, compliance, or approval authority.  
 L30-BASを認証・適合・承認制度として扱わず、実務上の境界確認に用いるためのPDF版および編集用DOCX版。
+
+Reading calibration: These sheets are non-binding boundary-review aids. Non-binding means they create no certification, compliance, approval, legal, or institutional obligation. It does not mean the pre-irreversibility refusal question can be omitted where a review must show whether effective human refusal was preserved.
+
+読み方の補正：これらのシートは非拘束の境界レビュー補助である。非拘束とは、認証、適合、承認、法的義務、制度的義務を作らないことを意味する。レビューが実効的な人間拒否の保全を示す必要がある場合に、不可逆化前の拒否問いを省略してよいという意味ではない。
+
+Terminology note: In these sheet names, “civilizational” refers narrowly to the pre-irreversibility human-refusal boundary, not to a broad cultural, ideological, or historical claim.  
+注記：これらのシート名における “civilizational（文明的）” は、広い文化論・思想論・歴史論ではなく、不可逆化前の人間拒否境界を狭く指す。
 
 The sheets may be used by reading the boundary questions only. Writing L30-BAS codes is optional.  
 シートは境界問いを読むだけでも使用できます。L30-BAS番地の記入は任意です。
@@ -1483,5 +1494,3 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
-
-

@@ -34,6 +34,14 @@ They do not create certification, compliance status, approval status, legal safe
 各シートは記述的・非拘束である。  
 認証、適合状態、承認状態、法的免責、政策命令を作るものではない。
 
+Reading calibration: non-binding limits institutional claims; it does not weaken the boundary question. If a review concerns irreversible AI-related impact, the review should still be able to explain how effective human refusal before irreversibility was verified.
+
+読み方の補正：非拘束とは、制度的主張を制限するための位置づけであり、境界問いを弱めるものではない。不可逆的なAI関連影響を扱うレビューでは、不可逆化前の実効的人間拒否をどのように検証したかを説明できる必要がある。
+
+Terminology calibration: “Civilizational Safety Checklist” is retained as the canonical / continuity name of one sheet family. Operationally, it should be read as a pre-irreversibility human-refusal checklist, not as a broad cultural, ideological, or historical claim.
+
+用語補正：“Civilizational Safety Checklist（文明安全チェックリスト）” は、1つのシート系列の正典上・継続上の名称として保持する。運用上は、広い文化論・思想論・歴史論ではなく、不可逆化前の人間拒否チェックリストとして読む。
+
 ---
 
 ## Public Sheet Set ｜ 公開シート構成
