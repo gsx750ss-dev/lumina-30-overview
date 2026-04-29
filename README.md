@@ -899,6 +899,16 @@ Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control
 LUMINA-30は、その前提となる文明的境界構造を提供します。
 DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
+Supporting Research / Existence-condition paper:
+On the Structural Instability of Objective Persistence in Self-Contained Systems explains why objective persistence in self-contained systems cannot be non-circularly guaranteed without an external, non-optional anchor.
+Version DOI: [10.5281/zenodo.19887870](https://doi.org/10.5281/zenodo.19887870)
+Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
+
+補助研究 / 存在条件論文：
+On the Structural Instability of Objective Persistence in Self-Contained Systems は、自己完結型システムにおける目的の持続性が、外部の非任意アンカーなしには非循環的に保証できないことを説明する。
+Version DOI: [10.5281/zenodo.19887870](https://doi.org/10.5281/zenodo.19887870)
+Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
+
 This repository provides the conceptual and visual framework that supports the paper, including:
 - Civilizational boundary model (LUMINA-30)
 - Irreversibility structure
@@ -931,6 +941,17 @@ Infrastructure control framework for preventing irreversible external impact ris
 高度AIにおける不可逆的外界影響リスクを防ぐためのインフラ制御フレームワーク。  
 <br>
 [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
+
+Supporting research paper on the structural limit of objective persistence in self-contained systems.  
+自己完結型システムにおける目的持続性の構造的限界を扱う補助研究論文。  
+<br>
+[On the Structural Instability of Objective Persistence in Self-Contained Systems](https://doi.org/10.5281/zenodo.19887870)
+
+Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
+
+Note: This paper is an existence-condition supporting research artifact. It does not modify the canonical LUMINA-30 boundary definition, and it does not define an operational checklist, compliance rule, certification status, or institutional mandate.
+
+注記：本論文は、存在条件を扱う補助研究成果物である。LUMINA-30の正典的境界定義を変更せず、実務チェックリスト、適合規則、認証状態、制度命令を定義しない。
 
 
 <a id="operational-review-governance-network"></a>
@@ -1462,3 +1483,5 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
+
