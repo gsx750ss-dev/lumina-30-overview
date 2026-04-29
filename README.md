@@ -953,6 +953,10 @@ Infrastructure control framework for preventing irreversible external impact ris
 <br>
 [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
 
+- [PCR-C Calibration and H-Measurement Note](https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/PCRC_Calibration_and_H_Measurement_Note.md)  
+  Clarifies that PCR-C thresholds are calibratable operational reference levels, and that H should be estimated through stop-drills, latency measurements, propagation delay checks, and reviewable intervention-capacity evidence.  
+  PCR-Cの閾値を固定的な実証定数ではなく、校正可能な運用参照値として扱い、Hを停止訓練・応答遅延・伝播遅延・検証可能な介入能力証拠によって推定するための補助文書。
+
 Supporting research paper on the structural limit of objective persistence in self-contained systems.  
 自己完結型システムにおける目的持続性の構造的限界を扱う補助研究論文。  
 <br>
