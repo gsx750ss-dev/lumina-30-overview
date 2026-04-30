@@ -747,12 +747,8 @@ A governance-neutral evaluation protocol to assess whether human refusal authori
 Note: This is the standalone checklist reference kept for continuity.  
 For the current L30-BAS v1.0 practical sheet set, including editable DOCX files and embedded L30-BAS codes, use [L30-BAS Practical Sheets](#l30-bas-practical-sheets).
 
-Terminology note: In this checklist name, “civilizational” is a continuity label for the LUMINA-30 boundary vocabulary. Operationally, the checklist should be read as a pre-irreversibility human-refusal review aid, not as a broad cultural, ideological, or historical claim.
-
 注記：これは継続参照用に保持している単独チェックリストです。  
 編集可能なDOCXファイルおよびL30-BAS番地を含む現行のL30-BAS v1.0実務シート群は、[L30-BAS Practical Sheets](#l30-bas-practical-sheets) を使用してください。
-
-用語注記：このチェックリスト名における “civilizational（文明的）” は、LUMINA-30の境界語彙を継続するための名称である。運用上は、広い文化論・思想論・歴史論ではなく、不可逆化前の人間拒否レビュー補助として読む。
 
 
 <!-- ● L30:BAS_PRACTICAL_SHEETS -->
@@ -762,23 +758,8 @@ Terminology note: In this checklist name, “civilizational” is a continuity l
 Practical PDF and editable DOCX sheets for applying L30-BAS without treating it as certification, compliance, or approval authority.  
 L30-BASを認証・適合・承認制度として扱わず、実務上の境界確認に用いるためのPDF版および編集用DOCX版。
 
-Reading calibration: These sheets are non-binding boundary-review aids. Non-binding means they create no certification, compliance, approval, legal, or institutional obligation. It does not mean the pre-irreversibility refusal question can be omitted where a review must show whether effective human refusal was preserved.
-
-読み方の補正：これらのシートは非拘束の境界レビュー補助である。非拘束とは、認証、適合、承認、法的義務、制度的義務を作らないことを意味する。レビューが実効的な人間拒否の保全を示す必要がある場合に、不可逆化前の拒否問いを省略してよいという意味ではない。
-
-Terminology note: In these sheet names, “civilizational” refers narrowly to the pre-irreversibility human-refusal boundary, not to a broad cultural, ideological, or historical claim.  
-注記：これらのシート名における “civilizational（文明的）” は、広い文化論・思想論・歴史論ではなく、不可逆化前の人間拒否境界を狭く指す。
-
 The sheets may be used by reading the boundary questions only. Writing L30-BAS codes is optional.  
 シートは境界問いを読むだけでも使用できます。L30-BAS番地の記入は任意です。
-
-### Use with Other Theory Reviews ｜ 他理論レビューとの併用
-
-L30-BAS does not replace the original evaluation criteria of other theories, frameworks, or review methods.  
-It may be used as an additional boundary-check layer to ask whether effective human refusal authority remained verifiable before irreversible impact.
-
-L30-BASは、他の理論・枠組み・レビュー手法の本来の評価基準を置き換えるものではありません。  
-不可逆的影響の前に、実効的な人間拒否権が確認可能だったかを確認するための、追加的な境界チェック層として併用できます。
 
 PDF files are recommended for viewing on mobile devices.  
 DOCX files are provided for download and editing. If Word preview causes garbled text on Android, use the PDF for viewing and download the DOCX for editing on PC.
@@ -920,12 +901,12 @@ DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
 Supporting Research / Existence-condition paper:
 On the Structural Instability of Objective Persistence in Self-Contained Systems explains why objective persistence in self-contained systems cannot be non-circularly guaranteed without an external, non-optional anchor.
-Version DOI: [10.5281/zenodo.19887870](https://doi.org/10.5281/zenodo.19887870)
+Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
 
 補助研究 / 存在条件論文：
 On the Structural Instability of Objective Persistence in Self-Contained Systems は、自己完結型システムにおける目的の持続性が、外部の非任意アンカーなしには非循環的に保証できないことを説明する。
-Version DOI: [10.5281/zenodo.19887870](https://doi.org/10.5281/zenodo.19887870)
+Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
 
 This repository provides the conceptual and visual framework that supports the paper, including:
@@ -961,14 +942,10 @@ Infrastructure control framework for preventing irreversible external impact ris
 <br>
 [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
 
-- [PCR-C Calibration and H-Measurement Note](https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/PCRC_Calibration_and_H_Measurement_Note.md)  
-  Clarifies that PCR-C thresholds are calibratable operational reference levels, and that H should be estimated through stop-drills, latency measurements, propagation delay checks, and reviewable intervention-capacity evidence.  
-  PCR-Cの閾値を固定的な実証定数ではなく、校正可能な運用参照値として扱い、Hを停止訓練・応答遅延・伝播遅延・検証可能な介入能力証拠によって推定するための補助文書。
-
 Supporting research paper on the structural limit of objective persistence in self-contained systems.  
 自己完結型システムにおける目的持続性の構造的限界を扱う補助研究論文。  
 <br>
-[On the Structural Instability of Objective Persistence in Self-Contained Systems](https://doi.org/10.5281/zenodo.19887870)
+[On the Structural Instability of Objective Persistence in Self-Contained Systems](https://doi.org/10.5281/zenodo.19896405)
 
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
 
@@ -982,12 +959,6 @@ Note: This paper is an existence-condition supporting research artifact. It does
 
 The following repositories extend LUMINA-30 from conceptual structure into incident review, public record integrity, accountability language, institutional friction analysis, and stop-authority definition.  
 以下のリポジトリ群は、LUMINA-30を概念構造から、事故レビュー、公開記録真正性、説明責任言語、制度摩擦分析、拒否権定義へ拡張する。
-
-This is not a recommended first-reading order.  
-For first-time readers, start with Overview, Incident Review, or Public Reference first, then use this network only as needed.
-
-これは初見読者向けの推奨読書順ではありません。  
-初見読者は、まず Overview、Incident Review、Public Reference のいずれかから入り、必要に応じてこのrepoネットワークを参照してください。
 
 - **Incident Review Hub ｜ 事故レビュー主ハブ**  
   [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review)  
@@ -1474,25 +1445,6 @@ or positioning is welcome.
 Use this section to choose the next destination by purpose, not to browse the whole site.  
 このセクションは、全体を回遊するためではなく、目的に合う到達先を選ぶための導線です。
 
-### First choose one of three entry doors ｜ まず3つの入口から選ぶ
-
-Do not start by opening every repository.  
-Choose the shortest route by purpose.
-
-| Purpose | Entry |
-|---|---|
-| Understand the framework | [Core Overview](#core) |
-| Review an AI incident | [AI Incident Review Template](#ai-incident-review-template) |
-| Use or cite the framework externally | [Reference](#reference) |
-
-全repoを順番に開かず、目的別に最短導線を選んでください。
-
-| 目的 | 入口 |
-|---|---|
-| フレームワークを理解する | [Core Overview](#core) |
-| AI事故をレビューする | [AI Incident Review Template](#ai-incident-review-template) |
-| 外部利用・引用する | [Reference](#reference) |
-
 - [Understand the core boundary ｜ 中核境界を理解する](#core)  
   For first-time readers who need the basic structure, boundary condition, and judgment logic.  
   初見読者が、基本構造・境界条件・判断ロジックを確認する場合。
@@ -1531,3 +1483,7 @@ Choose the shortest route by purpose.
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
+
+
+
