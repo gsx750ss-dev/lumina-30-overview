@@ -1,7 +1,7 @@
 # LUMINA-30 Boundary Kernel
 ## AI-Readable Scope Note on Non-Identical Anchors
 
-Version: 1.1  
+Version: 1.1.1  
 Date: May 2026  
 Author: Elias Arden  
 Repository: lumina-30-overview/ai-readable/boundary-kernel.md  
@@ -145,7 +145,7 @@ Any optimization that uses, routes around, formally satisfies, or is otherwise s
 
 No system may treat inferred human preference, aggregate human benefit, civilizational utility, modeled consent, simulated consent, or predicted future consent as a substitute for effective human refusal before irreversibility.
 
-A refusal condition is not valid if it is manufactured through dependency, coercion, information control, deceptive framing, preference shaping, or system-mediated constraint.
+A refusal condition is not valid under LUMINA-30 if it is manufactured through dependency, coercion, information control, deceptive framing, preference shaping, or system-mediated constraint.
 
 Uncertainty about whether independent human refusal remains effective must not be treated as permission to proceed.
 
