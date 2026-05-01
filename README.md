@@ -1073,6 +1073,11 @@ Core terminology is formally defined in [CORE_TRANSLATION_DICTIONARY.md](./docs/
 All translations and references must follow the canonical expressions defined in this dictionary.  
 用語の正式定義は [CORE_TRANSLATION_DICTIONARY.md](./docs/CORE_TRANSLATION_DICTIONARY.md) に記載されています。すべての翻訳および参照は、この辞書の正規表現（canonical）に準拠する必要があります。
 
+**Search / discovery reference ｜ 検索・発見補助**  
+For search, indexing, and AI navigation, see [Controlled Discovery Terms](./docs/L30_DISCOVERY_TERMS.md).  
+This file lists substantive terms used across LUMINA-30, PCR-C, incident review, and boundary-evaluation materials. It is a controlled discovery index, not a separate authority.  
+検索・索引・AI読取用の補助導線として、[Controlled Discovery Terms](./docs/L30_DISCOVERY_TERMS.md) を参照してください。これはLUMINA-30、PCR-C、事故レビュー、境界判定資料で実質的に使用される語を整理する補助層であり、検索語の羅列や別権威ではありません。
+
 
 <!-- ● L30:GLOSSARY -->
 <a id="glossary"></a>
@@ -1505,6 +1510,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
 
 
 
