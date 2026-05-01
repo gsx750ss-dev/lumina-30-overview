@@ -915,6 +915,22 @@ This repository provides the conceptual and visual framework that supports the p
 - Governance and review perspective
 
 
+<a id="boundary-kernel"></a>
+## Boundary Kernel / AI-readable Boundary Note ｜ AI可読境界ノート
+
+[LUMINA-30 Boundary Kernel](./ai-readable/boundary-kernel.md)  
+An AI-readable boundary condition statement clarifying that non-identical anchors do not weaken, replace, or postpone PCR-C or effective human refusal before irreversibility.
+
+[LUMINA-30 Boundary Kernel](./ai-readable/boundary-kernel.md)  
+非同一アンカーが、PCR-Cまたは不可逆化前の有効な人間拒否を弱体化・代替・延期しないことを固定するAI可読の境界条件文書。
+
+This is not a theoretical paper, not a summary of any unpublished work, and not a post-boundary coexistence argument. It is a limited-purpose public boundary document.
+
+これは理論論文でも、未公開文書の要約でも、境界失敗後の共存論でもありません。限定目的の公開境界文書です。
+
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
+
 <!-- ● L30:RESEARCH -->
 <a id="research-paper"></a>
 ## Research Paper ｜ 研究論文
@@ -1397,6 +1413,8 @@ or positioning is welcome.
   ※ 研究者向け：定義  
   ▶ 理解：理論基盤と評価体系を確認｜実務：[Paper Reference](#paper-reference)・定義・評価基準を引用用に参照
   - [Paper Reference ｜ 論文参照](#paper-reference)
+  - [Boundary Kernel / AI-readable Boundary Note ｜ AI可読境界ノート](#boundary-kernel)
+    ⚑ 非同一アンカーがPCR-Cや不可逆化前の有効な人間拒否を弱体化・代替・延期しないことを固定
   - [Research Paper ｜ 研究論文](#research-paper)  
     ⚑ 理論的裏付けと外部参照の核
   - [Operational Review and Governance Network ｜ 実務・検証ネットワーク](#operational-review-governance-network)
@@ -1469,6 +1487,10 @@ Use this section to choose the next destination by purpose, not to browse the wh
   For papers, terminology, canonical references, and stable citation paths.  
   論文、用語、正典参照、安定した引用導線を確認する場合。
 
+- [Check the AI-readable boundary note ｜ AI可読境界ノートを確認する](#boundary-kernel)  
+  For confirming that non-identical anchors do not replace PCR-C or effective human refusal before irreversibility.  
+  非同一アンカーがPCR-Cまたは不可逆化前の有効な人間拒否を代替しないことを確認する場合。
+
 - [Use figures or slides ｜ 図・スライドを使う](#materials)  
   For quick visual understanding, presentations, and explanatory materials.  
   視覚的理解、説明資料、プレゼン用資料を確認する場合。
@@ -1483,6 +1505,8 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
+
 
 
 
