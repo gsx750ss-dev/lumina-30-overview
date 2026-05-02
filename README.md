@@ -164,7 +164,7 @@ This diagram provides a conceptual overview.
 The formal definition is provided below.
 
 See detailed definition:  
-→ [English G06 Core](#g06-core-en) | [日本語G06コア](#g06-core-jp)
+→ [English G06 Core](#g06-core-en) ｜ [日本語G06コア](#g06-core-jp)
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
@@ -735,7 +735,7 @@ as a procedural validity check.
 A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact.  
 不可逆的影響の発生前に人間の拒否権が維持されているかを評価するための非依存型評価プロトコル。  
 <br>
-[EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
+[EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) ｜ [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
 
 Note: This is the standalone checklist reference kept for continuity.  
 For the current L30-BAS v1.0 practical sheet set, including editable DOCX files and embedded L30-BAS codes, use [L30-BAS Practical Sheets](#l30-bas-practical-sheets).
@@ -872,7 +872,7 @@ LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ
 Practical review checklist for evaluating AI systems and governance decisions before irreversible external impact occurs.  
 不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するための実務レビュー・チェックリスト。  
 <br>
-[Civilizational Safety Checklist (EN)](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) / [文明安全チェックリスト (JP)](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
+[Civilizational Safety Checklist (EN)](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) ｜ [文明安全チェックリスト (JP)](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
 
 Note: This link points to the standalone checklist reference.  
 For the current practical sheet family, use [L30-BAS Practical Sheets](#l30-bas-practical-sheets).
@@ -1075,7 +1075,7 @@ Key terms such as Intervention Authority, Refusal Authority, and Stop Authority 
 LUMINA-30 provides a minimal Pre-Irreversibility framework for evaluating whether systems remain interruptible before Irreversible Impact.<br>
 LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る前に介入可能であるかを評価するための最小限のPre-Irreversibilityフレームワークを提供する。<br>
 
-[LUMINA-30 Core Terminology (Minimal Standard)](./docs/L30_CORE_TERMINOLOGY.md) | [LUMINA-30 用語集（最小標準）](./docs/L30_CORE_TERMINOLOGY_JP.md)
+[LUMINA-30 Core Terminology (Minimal Standard)](./docs/L30_CORE_TERMINOLOGY.md) ｜ [LUMINA-30 用語集（最小標準）](./docs/L30_CORE_TERMINOLOGY_JP.md)
 
 **Core Terminology ｜ 用語定義**  
 Core terminology is formally defined in [LUMINA-30 Core Translation Dictionary v1.3](./docs/CORE_TRANSLATION_DICTIONARY.md).  
@@ -1156,7 +1156,7 @@ They are supporting aids for understanding the boundary condition, gate mechanis
 ## Slide Entry ｜ スライド入口
 
 Recommended reading order:
-S01 → S02 → S03 → S04
+S01 → S02 → S03 → S04 → S05
 
 S01: Boundary definition
 S02: Gate mechanism
@@ -1164,7 +1164,7 @@ S03: Conceptual necessity
 S04: Operational flow
 S05: Structural positioning (what this is / is not)
 
-The S-series provides a minimal structural explanation of the LUMINA-30 framework from boundary definition to operational application.
+The S-series provides a minimal structural explanation of the LUMINA-30 framework from boundary definition to structural positioning and operational application.
 
 
 <!-- ● L30:SLIDES_EN -->
@@ -1173,7 +1173,9 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 - S01: [Overview](./slides/EN_S01_Boundary.pdf)  
 - S02: [Civilizational Gate](./slides/EN_S02_Civilizational_Gate.pdf)  
 - S03: [Conceptual Necessity](./slides/EN_S03_Conceptual_Necessity.pdf)  
-- S04: [Operational Flow](./slides/EN_S04_Pre-Irreversibility_Flow.pdf)
+- S04: [Operational Flow](./slides/EN_S04_Pre-Irreversibility_Flow.pdf)  
+- S05: [Positioning (Reference)](./slides/EN_S05_Positioning_Boundary.pdf)  
+  Clarifies what LUMINA-30 is not and what it structurally represents.
 
 
 <!-- ● L30:SLIDES_JP -->
@@ -1182,11 +1184,8 @@ The S-series provides a minimal structural explanation of the LUMINA-30 framewor
 - S01: [概要](./slides/JP_S01_Boundary.pdf)  
 - S02: [文明境界](./slides/JP_S02_Civilizational_Gate.pdf)  
 - S03: [概念的必然性](./slides/JP_S03_Conceptual_Necessity.pdf)  
-- S04: [実務フロー](./slides/JP_S04_Pre-Irreversibility_Flow.pdf)
-
-
-- S05: [Positioning (Reference)](./slides/EN_S05_Positioning_Boundary.pdf) ｜ [S05 位置づけ](./slides/JP_S05_Positioning_Boundary.pdf)  
-  Clarifies what LUMINA-30 is not and what it structurally represents.  
+- S04: [実務フロー](./slides/JP_S04_Pre-Irreversibility_Flow.pdf)  
+- S05: [位置づけ（参照）](./slides/JP_S05_Positioning_Boundary.pdf)  
   LUMINA-30の位置づけを「非該当」と「構造定義」によって明確化する。
 
 
