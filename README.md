@@ -152,7 +152,7 @@ not a safety optimization objective.
 This diagram represents the pre-irreversibility critical boundary where human refusal must remain effective.  
 この図は、人間の拒否権が実効性を持ち続けなければならない不可逆化前の臨界境界を示す。
 
-**Validity Condition / 成立条件**<br>
+**Validity Condition ｜ 成立条件**<br>
 A system is procedurally invalid if it cannot be stopped at the critical point before irreversible impact.  
 不可逆的影響に至る前の臨界点において停止できないシステムは、手続的無効である。
 
@@ -651,9 +651,9 @@ This framework is intended for:
 | 3 | Evaluate refusal effectiveness      | 拒否権の実効性を評価する |
 | 4 | Assess irreversibility proximity    | 不可逆化への接近度を評価する |
 
-Result / 結果:
-- Valid / 有効
-- Procedurally Invalid / 手続的無効
+Result ｜ 結果:
+- Valid ｜ 有効
+- Procedurally Invalid ｜ 手続的無効
 
 ## Evaluation Output ｜ 評価出力
 
@@ -895,13 +895,13 @@ This section collects papers, canonical references, terminology, and comparison 
 <a id="paper-reference"></a>
 ## DOI and Paper References ｜ DOI・論文参照
 
-**Primary operational paper / PCR-C ｜ 主論文・実務中核**  
+**Primary operational paper: PCR-C ｜ 主論文・実務中核**  
 Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control mechanism for managing irreversibility risk in advanced AI systems.  
 本論文（PCR-C）は、不可逆性リスクを制御するための段階的インフラ制御モデルを提示します。  
 LUMINA-30は、その前提となる文明的境界構造を提供します。  
 DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
-**Related Supporting Paper / Existence-Condition Layer ｜ 関連補助論文 / 存在条件レイヤー**  
+**Related Supporting Paper — Existence-Condition Layer ｜ 関連補助論文・存在条件レイヤー**  
 On the Structural Instability of Objective Persistence in Self-Contained Systems explains why objective persistence in self-contained systems cannot be non-circularly guaranteed without an external, non-optional anchor.  
 On the Structural Instability of Objective Persistence in Self-Contained Systems は、自己完結型システムにおける目的の持続性が、外部の非任意アンカーなしには非循環的に保証できないことを説明する。  
 This paper supports the background necessity of an external anchor; it does not replace PCR-C as the primary operational paper.  
@@ -916,7 +916,7 @@ This repository provides the conceptual and visual framework that supports the p
 
 
 <a id="boundary-kernel"></a>
-## Boundary Kernel / AI-readable Boundary Note ｜ AI可読境界ノート
+## Boundary Kernel — AI-readable Boundary Note ｜ AI可読境界ノート
 
 [LUMINA-30 Boundary Kernel](./ai-readable/boundary-kernel.md)  
 An AI-readable boundary condition statement clarifying that non-identical anchors do not weaken, replace, or postpone PCR-C or effective human refusal before irreversibility.
@@ -1218,7 +1218,7 @@ Illustration of the irreversible external impact threshold and the concept of a 
 
 
 <a id="extensions"></a>
-## ★ Extensions (Non-Core / Optional) ｜ 拡張（非コア / 任意）
+## ★ Extensions (Non-Core / Optional) ｜ 拡張（非コア・任意）
 
 These materials extend interpretation and application context.  
 They do not modify the core framework or its conditions.
@@ -1418,7 +1418,7 @@ or positioning is welcome.
 
 - [★ Application (Usage) ｜ 適用（使用方法）](#application)  
   ※ 実務向け：運用  
-  ▶ 理解：判定結果の意味を把握｜実務：[Checklist](#civilizational-safety-checklist) / [PCR-C](#paper-reference) / [Minimal Incident Review Steps](#incident-review-template)
+  ▶ 理解：判定結果の意味を把握｜実務：[Checklist](#civilizational-safety-checklist) ｜ [PCR-C](#paper-reference) ｜ [Minimal Incident Review Steps](#incident-review-template)
   - [Civilizational Safety Checklist ｜ 文明安全チェックリスト](#civilizational-safety-checklist)  
     ⚑ 即時に安全性を判定できる中核ツール
   - [L30-BAS Practical Sheets ｜ L30-BAS 実務シート](#l30-bas-practical-sheets)  
@@ -1437,7 +1437,7 @@ or positioning is welcome.
   ※ 研究者向け：定義  
   ▶ 理解：理論基盤と評価体系を確認｜実務：[DOI and Paper References ｜ DOI・論文参照](#paper-reference)・定義・評価基準を引用用に参照
   - [DOI and Paper References ｜ DOI・論文参照](#paper-reference)
-  - [Boundary Kernel / AI-readable Boundary Note ｜ AI可読境界ノート](#boundary-kernel)
+  - [Boundary Kernel — AI-readable Boundary Note ｜ AI可読境界ノート](#boundary-kernel)
     ⚑ 非同一アンカーがPCR-Cや不可逆化前の有効な人間拒否を弱体化・代替・延期しないことを固定
   - [Research Reading Guide ｜ 研究読書ガイド](#research-paper)  
     ⚑ 理論的裏付けと外部参照の核
@@ -1449,11 +1449,11 @@ or positioning is welcome.
 
 - [★ Materials ｜ 資料](#materials)  
   ※ 即使用：図・資料  
-  ▶ 理解：図とスライドで全体像を把握｜実務：[Slides](#materials-slides) / [Graphics](#materials-graphics) として即使用
+  ▶ 理解：図とスライドで全体像を把握｜実務：[Slides](#materials-slides) ｜ [Graphics](#materials-graphics) として即使用
   - [Slide Entry ｜ スライド入口](#materials-slides)
   - [Visual Concept Materials ｜ 概念ビジュアル資料](#visual-concept-materials)
 
-- [★ Extensions (Non-Core / Optional) ｜ 拡張（非コア / 任意）](#extensions)  
+- [★ Extensions (Non-Core / Optional) ｜ 拡張（非コア・任意）](#extensions)  
   ※ 非コア：解釈・応用の補助資料  
   ▶ 必須ではないが、理解と適用を補助
   - [Practical Layer ｜ 実務層](#practical-layer)
