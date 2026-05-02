@@ -761,6 +761,14 @@ L30-BASを認証・適合・承認制度として扱わず、実務上の境界�
 The sheets may be used by reading the boundary questions only. Writing L30-BAS codes is optional.  
 シートは境界問いを読むだけでも使用できます。L30-BAS番地の記入は任意です。
 
+### Use with Other Theory Reviews ｜ 他理論レビューとの併用
+
+L30-BAS does not replace the original evaluation criteria of other theories, frameworks, or review methods.  
+It may be used as an additional boundary-check layer to ask whether effective human refusal authority remained verifiable before irreversible impact.
+
+L30-BASは、他の理論・枠組み・レビュー手法の本来の評価基準を置き換えるものではありません。  
+不可逆的影響の前に、実効的な人間拒否権が確認可能だったかを確認するための、追加的な境界チェック層として併用できます。
+
 PDF files are recommended for viewing on mobile devices.  
 DOCX files are provided for download and editing. If Word preview causes garbled text on Android, use the PDF for viewing and download the DOCX for editing on PC.
 
@@ -1028,14 +1036,6 @@ The following repositories extend LUMINA-30 from conceptual structure into incid
 | **Incident / governance frameworks** | What happened, why, and how can recurrence be reduced? | Event analysis, accountability, mitigation | Process failure, control failure, compliance failure | Post-incident review, audit, reporting |
 | **AI principles / policy documents** | What values or principles should guide AI? | Normative guidance, policy orientation | Principle violation or governance gap | Policy communication, institutional guidance |
 | **Alignment / safety theories** | How can AI systems behave as intended or remain safe? | Behavior, robustness, optimization, control | Misalignment, unsafe behavior, loss of control | Research, technical safety analysis |
-
-LUMINA-30 does not replace AI ethics, alignment research, preparedness frameworks, or incident reporting systems.  
-It adds one cross-cutting boundary-validity question:  
-was effective human refusal still possible before irreversible impact?
-
-LUMINA-30は、AI倫理、アライメント研究、Preparedness系フレーム、インシデント報告制度を置き換えるものではありません。  
-それらを横断して、ひとつの境界有効性の問いを追加します。  
-不可逆的影響の前に、人間の有効な拒否はなお可能だったのか。
 
 **Key distinction ｜ 重要な違い**  
 LUMINA-30 does not first ask what AI should do. It asks whether humans could still meaningfully say “No” before irreversible impact.  
@@ -1518,6 +1518,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+
 
 
 
