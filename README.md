@@ -895,21 +895,18 @@ This section collects papers, canonical references, terminology, and comparison 
 <a id="paper-reference"></a>
 ## DOI and Paper References ｜ DOI・論文参照
 
-Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control mechanism for managing irreversibility risk in advanced AI systems.<br>
-本論文（PCR-C）は、不可逆性リスクを制御するための段階的インフラ制御モデルを提示します。
-LUMINA-30は、その前提となる文明的境界構造を提供します。
+**Primary operational paper / PCR-C ｜ 主論文・実務中核**  
+Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control mechanism for managing irreversibility risk in advanced AI systems.  
+本論文（PCR-C）は、不可逆性リスクを制御するための段階的インフラ制御モデルを提示します。  
+LUMINA-30は、その前提となる文明的境界構造を提供します。  
 DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
-Related Supporting Paper / Existence-Condition Layer:
-On the Structural Instability of Objective Persistence in Self-Contained Systems explains why objective persistence in self-contained systems cannot be non-circularly guaranteed without an external, non-optional anchor.
-This paper supports the background necessity of an external anchor; it does not replace PCR-C as the primary operational paper.
-Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)
-Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
-
-関連補助論文 / 存在条件レイヤー：
-On the Structural Instability of Objective Persistence in Self-Contained Systems は、自己完結型システムにおける目的の持続性が、外部の非任意アンカーなしには非循環的に保証できないことを説明する。
-この論文は外部アンカーの必要性を背景から支える補助論文であり、主要な実務論文であるPCR-Cを置き換えるものではありません。
-Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)
+**Related Supporting Paper / Existence-Condition Layer ｜ 関連補助論文 / 存在条件レイヤー**  
+On the Structural Instability of Objective Persistence in Self-Contained Systems explains why objective persistence in self-contained systems cannot be non-circularly guaranteed without an external, non-optional anchor.  
+On the Structural Instability of Objective Persistence in Self-Contained Systems は、自己完結型システムにおける目的の持続性が、外部の非任意アンカーなしには非循環的に保証できないことを説明する。  
+This paper supports the background necessity of an external anchor; it does not replace PCR-C as the primary operational paper.  
+この論文は外部アンカーの必要性を背景から支える補助論文であり、主要な実務論文であるPCR-Cを置き換えるものではありません。  
+Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)  
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
 
 This repository provides the conceptual and visual framework that supports the paper, including:
@@ -1532,4 +1529,6 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
+
 
