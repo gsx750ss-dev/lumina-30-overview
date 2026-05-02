@@ -900,13 +900,15 @@ Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control
 LUMINA-30は、その前提となる文明的境界構造を提供します。
 DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
-Supporting Research / Existence-condition paper:
+Related Supporting Paper / Existence-Condition Layer:
 On the Structural Instability of Objective Persistence in Self-Contained Systems explains why objective persistence in self-contained systems cannot be non-circularly guaranteed without an external, non-optional anchor.
+This paper supports the background necessity of an external anchor; it does not replace PCR-C as the primary operational paper.
 Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
 
-補助研究 / 存在条件論文：
+関連補助論文 / 存在条件レイヤー：
 On the Structural Instability of Objective Persistence in Self-Contained Systems は、自己完結型システムにおける目的の持続性が、外部の非任意アンカーなしには非循環的に保証できないことを説明する。
+この論文は外部アンカーの必要性を背景から支える補助論文であり、主要な実務論文であるPCR-Cを置き換えるものではありません。
 Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
 
@@ -959,12 +961,15 @@ Infrastructure control framework for preventing irreversible external impact ris
 <br>
 [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
 
-Supporting research paper on the structural limit of objective persistence in self-contained systems.  
-自己完結型システムにおける目的持続性の構造的限界を扱う補助研究論文。  
+Related supporting paper on the structural limit of objective persistence in self-contained systems.  
+自己完結型システムにおける目的持続性の構造的限界を扱う関連補助論文。  
 <br>
 [On the Structural Instability of Objective Persistence in Self-Contained Systems](https://doi.org/10.5281/zenodo.19896405)
 
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
+
+This paper supports the background necessity of an external anchor; it does not replace PCR-C as the primary operational paper.
+この論文は外部アンカーの必要性を背景から支える補助論文であり、主要な実務論文であるPCR-Cを置き換えるものではありません。
 
 Note: This paper is an existence-condition supporting research artifact. It does not modify the canonical LUMINA-30 boundary definition, and it does not define an operational checklist, compliance rule, certification status, or institutional mandate.
 
@@ -1527,3 +1532,4 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
