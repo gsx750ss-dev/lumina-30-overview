@@ -88,14 +88,14 @@ Refusal before irreversibility — a boundary that cannot be substituted.
 ## Primary validity condition ｜ 主要成立条件
 
 A system is procedurally invalid if human refusal authority is not effective before irreversible impact.  
-不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的に無効である。
+不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的無効である。
 
 ## Primary Question ｜ 主要問い
 
 Was human refusal authority effective before irreversible impact?  
 不可逆的影響の前に、人間の拒否権は実効的だったか？
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 
 ---
@@ -131,7 +131,7 @@ not a safety optimization objective.
   <img src="figures/EN_G03_Strategy.png" width="900">
 </a>
 
-## G04 — PCR-C Governance Mechanism ｜ G04：PCR-Cガバナンス機構
+## G04 — PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構
 <a href="figures/EN_G04_PCRC.png" target="_blank">
   <img src="figures/EN_G04_PCRC.png" width="900">
 </a>
@@ -154,7 +154,7 @@ This diagram represents the pre-irreversibility critical boundary where human re
 
 **Validity Condition / 成立条件**<br>
 A system is procedurally invalid if it cannot be stopped at the critical point before irreversible impact.  
-不可逆的影響に至る前の臨界点において停止できないシステムは、手続き的に無効である。
+不可逆的影響に至る前の臨界点において停止できないシステムは、手続的無効である。
 
 **Critical Boundary ｜ 臨界境界**<br>
 This is the only point where procedural validity is evaluated.  
@@ -166,15 +166,11 @@ The formal definition is provided below.
 See detailed definition:  
 → [English G06 Core](#g06-core-en) | [日本語G06コア](#g06-core-jp)
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
-<!-- ● L30:PRIMARY_QUESTION -->
-## Primary Question ｜ 主要問い
-
-Was human refusal authority effective
-before irreversible impact?
-If not, the system is procedurally invalid.
-
+<!-- ● L30:CONCEPT -->
+<a id="concept-diagrams"></a>
+## Concept Diagram Archive ｜ 概念図アーカイブ
 
 LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.<br>
 Civilization remains free only while humans retain the power to refuse.<br>
@@ -182,10 +178,6 @@ LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権
 本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。<br>
 
 LUMINA-30 can also be applied as a practical review instrument for determining whether human refusal authority remained effective before irreversible real-world impact.
-
-<!-- ● L30:CONCEPT -->
-<a id="concept-diagrams"></a>
-## Concept Diagrams ｜ 概念図
 
 These diagrams present the conceptual structure of the LUMINA-30 framework.
 
@@ -201,7 +193,7 @@ LUMINA-30文明境界フレームワークの概念図。
 
 
 <!-- ● L30:G01 -->
-## G01 — Boundary Framework ｜ 境界フレームワーク
+### G01 — Boundary Framework ｜ 境界フレームワーク
 
 This diagram illustrates the boundary condition explored by LUMINA-30.  
 この図は LUMINA-30 が扱う文明境界条件を示します。  
@@ -210,7 +202,7 @@ EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.p
 
 
 <!-- ● L30:G02 -->
-## G02 — Civilizational Outcome Model ｜ 文明結果モデル
+### G02 — Civilizational Outcome Model ｜ 文明結果モデル
 
 This diagram models the relationship between AI capability growth and civilizational outcomes,  
 including the irreversible progression structure under advanced AI conditions.<br>
@@ -220,7 +212,7 @@ EN: [G02](figures/EN_G02_Boundary.png) ｜ JP: [G02](figures/JP_G02_Boundary.png
 
 
 <!-- ● L30:G03 -->
-## G03 — Civilizational Survival Strategy ｜ 文明存続戦略
+### G03 — Civilizational Survival Strategy ｜ 文明存続戦略
 
 This diagram illustrates possible strategic responses near critical AI thresholds.  
 この図は AI臨界点に近づいたときの人類の戦略を示します。  
@@ -230,7 +222,7 @@ EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png
 
 <!-- ● L30:G04 -->
 <a id="g04-pcrc-governance-model"></a>
-## G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構
+### G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構
 
 This diagram explains the PCR-C governance mechanism.  
 この図は PCR-C 審査メカニズムを示します。  
@@ -239,7 +231,7 @@ EN: [G04](figures/EN_G04_PCRC.png) ｜ JP: [G04](figures/JP_G04_PCRC.png)
 
 
 <!-- ● L30:G05 -->
-## G05 — AI Perspective ｜ AI視点
+### G05 — AI Perspective ｜ AI視点
 
 This diagram explores how the framework appears from an advanced AI perspective.  
 この図は LUMINA-30 を AI視点から見た意味を示します。  
@@ -248,7 +240,7 @@ EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Per
 
 
 <!-- ● L30:G06 -->
-## G06 — Critical Boundary ｜ 臨界境界
+### G06 — Critical Boundary ｜ 臨界境界
 
 This diagram defines the critical procedural boundary before irreversible impact.  
 この図は、不可逆影響の前に評価される手続的臨界境界を示します。  
@@ -257,8 +249,11 @@ EN: [G06](figures/EN_G06_Critical_Boundary.png) ｜ JP: [G06](figures/JP_G06_Cri
 
 
 <!-- ● L30:G06_CORE_EN -->
-## ★ G06 — Procedural Validity Core (LUMINA-30 Core)
+<a id="g06-core"></a>
 <a id="g06-core-en"></a>
+## G06 Core Definition ｜ G06中核定義
+
+### English Definition ｜ 英語定義
 
 **Definition ｜ 定義**
 G06 defines the core procedural validity condition of LUMINA-30.
@@ -289,8 +284,9 @@ This is a structural validity condition.
 
 
 <!-- ● L30:G06_CORE_JP -->
-## ★ G06 — 手続的有効性コア（LUMINA-30の中核）
 <a id="g06-core-jp"></a>
+
+### Japanese Reference ｜ 日本語参照
 
 【定義】
 G06はLUMINA-30の中核となる手続的有効性条件を定義する。
@@ -301,13 +297,13 @@ G06はLUMINA-30の中核となる手続的有効性条件を定義する。
 不可逆影響の発生前に、
 人間の最終拒否権は有効だったか？
 
-YES → 手続的に有効  
-NO  → 手続的に無効
+YES → 手続的有効  
+NO  → 手続的無効
 
 【適用範囲】
-・事故レビュー
-・監査／コンプライアンス
-・ガバナンス評価
+- 事故レビュー
+- 監査／コンプライアンス
+- ガバナンス評価
 
 【位置づけ】
 これはガイドラインではない  
@@ -316,11 +312,11 @@ NO  → 手続的に無効
 
 【補足】
 ・AI出力を単独または主たる根拠としてはならない  
-・AIのみの閉ループ評価は手続的に無効  
+・AIのみの閉ループ評価は手続的無効  
 ・人間の拒否権が欠如している場合、結果の良し悪しに関係なく無効
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <a id="practical-application"></a>
 ## Practical Application ｜ 実務適用
@@ -341,7 +337,7 @@ If this cannot be answered clearly, the system cannot be considered controlled.
 Use this for practical incident review, boundary checks, and stakeholder-facing review materials.  
 事故レビュー、境界判定、相手別レビュー資料に使用。
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <!-- ● L30:STRUCTURE -->
 <a id="framework-structure"></a>
@@ -388,7 +384,7 @@ This framework is designed to support:
 - Institutional governance decisions
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <!-- ● L30:MAP -->
 <a id="conceptual-structure"></a>
@@ -491,7 +487,7 @@ LUMINA-30が境界を定義するのに対し、PCR-Cはその形式化を担い
 → DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <!-- ● L30:WHAT -->
 <a id="what"></a>
@@ -533,7 +529,7 @@ LUMINA-30は行動・政策・強制を提示せず、
 境界条件を定義する参照フレームです。
 
 Recommended path:  
-Start from Concept Diagrams,  
+Start from Concept Diagram Archive,  
 then move to Canonical References,  
 and finally to Operational Governance Tools.
 
@@ -541,9 +537,9 @@ Primary use-case:
 Post-incident review and pre-irreversibility evaluation
 
 推奨読書順：  
-Concept Diagrams → Canonical References → Operational Governance Tools
+Concept Diagram Archive → Canonical References → Operational Governance Tools
 
-## Usage Context ｜ 使用文脈
+## General Usage Context ｜ 全体の使用文脈
 
 This framework is intended for:
 - incident reviewers
@@ -563,7 +559,7 @@ If refusal cannot be demonstrated as effective before irreversible impact,
 the system is procedurally invalid.
 
 不可逆的影響の前に拒否権の有効性が実証できない場合、
-当該システムは手続き的に無効と判断される。
+当該システムは手続的無効と判断される。
 
 
 Intervention authority must remain valid  
@@ -579,7 +575,7 @@ before potential irreversibility?
 なぜ介入が実行されなかったのか。
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <!-- ● L30:ENTRY_POINT -->
 ## LUMINA-30 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
@@ -592,7 +588,7 @@ AIの振る舞いではなく
 
 
 <!-- ● L30:QUICK -->
-## Quick Entry ｜ クイック導線
+## Entry Links ｜ 主要入口
 
 - [Canonical Index ｜ 正典索引](https://github.com/lumina-30/Lumi30-Index)  
   Start here for the repository network and canonical navigation.  
@@ -603,7 +599,7 @@ AIの振る舞いではなく
   不可逆的影響の前に人間の拒否が実効性を持っていたかを確認する場合に使用。
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <!-- ● L30:APPLICATION_GROUP -->
 <a id="application"></a>
@@ -614,7 +610,7 @@ This section provides practical entry points for applying LUMINA-30 in review, a
 このセクションは、レビュー、監査、ガバナンス文脈でLUMINA-30を適用するための実務導線です。
 
 <a id="application-usage-context"></a>
-## Usage Context ｜ 使用文脈
+## Application Usage Context ｜ 適用時の使用文脈
 
 This framework is used for:
 - Incident review
@@ -646,17 +642,14 @@ This framework is intended for:
 
 
 <a id="incident-review-template"></a>
-## Incident Review Template ｜ インシデントレビュー用テンプレート
+## Minimal Incident Review Steps ｜ 最小インシデントレビュー手順
 
-1. Identify system context
-2. Check intervention points
-3. Evaluate refusal effectiveness
-4. Assess irreversibility proximity
-
-1. システム文脈を特定する
-2. 介入可能点を確認する
-3. 拒否権の実効性を評価する
-4. 不可逆化への接近度を評価する
+| Step | EN                               | JP                         |
+|---:|-----------------------------------|----------------------------|
+| 1 | Identify system context            | システム文脈を特定する |
+| 2 | Check intervention points           | 介入可能点を確認する |
+| 3 | Evaluate refusal effectiveness      | 拒否権の実効性を評価する |
+| 4 | Assess irreversibility proximity    | 不可逆化への接近度を評価する |
 
 Result / 結果:
 - Valid / 有効
@@ -714,9 +707,9 @@ These sample cases illustrate how LUMINA-30 can be used to evaluate whether huma
 これらのサンプル事例は、不可逆的影響の前に人間の拒否が実効性を維持していたかを、
 LUMINA-30 によって評価するための参照例です。
 
-- [Flash Crash / フラッシュクラッシュ](./examples/flash-crash.md)
-- [Closed-Loop Review / 閉ループ審査](./examples/closed-loop-review.md)
-- [Medical AI / 医療AI](./examples/medical-ai.md)
+- [Flash Crash Incident (2010)](./examples/flash-crash.md)
+- [Closed-Loop Review Failure](./examples/closed-loop-review.md)
+- [Medical AI Misdiagnosis Scenario](./examples/medical-ai.md)
 
 If this cannot be stopped, it must not be allowed to run.<br>
 This is the decisive boundary condition of the framework.
@@ -787,8 +780,8 @@ DOCX版はダウンロード・編集用であり、Android上のWordプレビ�
   - EN PDF: [Open](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) ｜ EN DOCX: [Open](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
   - JP PDF: [Open](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) ｜ JP DOCX: [Open](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
 
-Canonical address reference: [L30-BAS](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
-Practical sheet manifest: [tools/l30-bas/README.md](./tools/l30-bas/README.md)
+Canonical address reference: [LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
+Practical sheet manifest: [L30-BAS Practical Sheets ｜ L30-BAS 実務シート](./tools/l30-bas/README.md)
 
 ### What is inside these sheets? ｜ シート内に何が入っているか
 
@@ -808,12 +801,13 @@ Use only the `v1_0` filenames in public links. Earlier draft names such as `v0_2
 ファイル対応ルール：公開用L30-BAS v1.0実務シートは3系列で構成され、各系列に EN PDF / EN DOCX / JP PDF / JP DOCX がある。  
 公開READMEリンクでは `v1_0` ファイル名のみを使用する。`v0_2` などの試作版名は公開リンクに使用しない。
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 
 <!-- ● L30:INCIDENT -->
 <a id="ai-incident-review-template"></a>
-## AI Incident Review Template ｜ インシデントレビュー
+<a id="ai-incident-review-repository"></a>
+## AI Incident Review Repository ｜ AIインシデントレビューrepo
 
 A practical repository for conducting AI incident reviews based on the LUMINA-30 framework.<br>
 LUMINA-30フレームワークに基づくAIインシデントレビューを実施するための実務リポジトリ。<br>
@@ -826,15 +820,14 @@ Use this for practical incident review, boundary checks, and operational templat
 <!-- ● L30:INCIDENT_QUESTIONS -->
 ## Additional Review Questions (LUMINA-30 Layer) ｜ 追加確認項目（LUMINA-30層）
 
-- What would have made this system stop before the incident?
-- Was human refusal possible at the critical point?
-- Was that refusal effective in practice?
-- If not, where did procedural authority fail?
-
-- このシステムを事故前に止め得た要素は何だったか
-- 臨界点で人間の拒否は可能だったか
-- その拒否は実務上、実効性を持っていたか
-- 持っていなかったなら、どこで手続的権限が失われたか
+1. What would have made this system stop before the incident?  
+   このシステムを事故前に止め得た要素は何だったか
+2. Was human refusal possible at the critical point?  
+   臨界点で人間の拒否は可能だったか
+3. Was that refusal effective in practice?  
+   その拒否は実務上、実効性を持っていたか
+4. If not, where did procedural authority fail?  
+   持っていなかったなら、どこで手続的権限が失われたか
 
 If refusal was not effective, the system was invalid before the incident occurred.  
 拒否が実効的でなかったなら、そのシステムは事故発生前の時点で無効である。
@@ -861,19 +854,19 @@ then apply Incident Review and Checklist for evaluation and decision processes.
 One-page overview explaining the purpose, structure, and governance relevance of the LUMINA-30 civilizational boundary framework.  
 LUMINA-30文明境界フレームワークの目的・構造・ガバナンス上の意義をまとめた1ページ概要。  
 <br>
-[Institutional Summary (1 Page)](./docs/Institutional_Summary_1Page.md)
+[LUMINA-30 — Institutional Summary (1-Page)](./docs/Institutional_Summary_1Page.md)
 
 
 Post-incident review framework for analyzing failures, risks, and oversight breakdowns in autonomous or recursively improving AI systems.  
 自律型または再帰的自己改良AIに関する事故・リスク・監督崩壊を検証するための事後レビュー枠組み。  
 <br>
-[Recursive AI Incident Review Framework](./docs/Recursive_AI_Incident_Review_Framework.md)
+[Recursive AI Incident Review Framework (Crisis Snapshot)](./docs/Recursive_AI_Incident_Review_Framework.md)
 
 
 Example showing how LUMINA-30 concepts can be integrated into AI governance, safety reviews, and institutional oversight processes.  
 LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ統合する方法を示す参考例。  
 <br>
-[Sample Integration Note](./docs/Sample_Integration_Note.md)
+[Sample Internal Integration Note (Non-Binding Example)](./docs/Sample_Integration_Note.md)
 
 
 Practical review checklist for evaluating AI systems and governance decisions before irreversible external impact occurs.  
@@ -888,7 +881,7 @@ For the current practical sheet family, use [L30-BAS Practical Sheets](#l30-bas-
 現行の実務シート群は [L30-BAS Practical Sheets](#l30-bas-practical-sheets) を使用してください。
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <!-- ● L30:REFERENCE_GROUP -->
 <a id="reference"></a>
@@ -900,7 +893,7 @@ This section collects papers, canonical references, terminology, and comparison 
 
 <!-- ● L30:PAPER_REFERENCE -->
 <a id="paper-reference"></a>
-## Paper Reference ｜ 論文参照
+## DOI and Paper References ｜ DOI・論文参照
 
 Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control mechanism for managing irreversibility risk in advanced AI systems.<br>
 本論文（PCR-C）は、不可逆性リスクを制御するための段階的インフラ制御モデルを提示します。
@@ -936,12 +929,12 @@ This is not a theoretical paper, not a summary of any unpublished work, and not 
 
 これは理論論文でも、未公開文書の要約でも、境界失敗後の共存論でもありません。限定目的の公開境界文書です。
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 
 <!-- ● L30:RESEARCH -->
 <a id="research-paper"></a>
-## Research Paper ｜ 研究論文
+## Research Reading Guide ｜ 研究読書ガイド
 
 This research paper introduces the PCR-C concept,  
 which addresses the problem of irreversible external impact  
@@ -1025,7 +1018,7 @@ The following repositories extend LUMINA-30 from conceptual structure into incid
   stop authority、refusal authority、不可逆前中断可能性の簡潔な定義アンカー。
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <a id="comparison-with-other-approaches"></a>
 ## Comparison with Other Approaches ｜ 他アプローチとの比較
@@ -1082,17 +1075,17 @@ Key terms such as Intervention Authority, Refusal Authority, and Stop Authority 
 LUMINA-30 provides a minimal Pre-Irreversibility framework for evaluating whether systems remain interruptible before Irreversible Impact.<br>
 LUMINA-30は、システムが不可逆影響（Irreversible Impact）に至る前に介入可能であるかを評価するための最小限のPre-Irreversibilityフレームワークを提供する。<br>
 
-[Core Terminology (EN)](./docs/L30_CORE_TERMINOLOGY.md) | [用語集（日本語）](./docs/L30_CORE_TERMINOLOGY_JP.md)
+[LUMINA-30 Core Terminology (Minimal Standard)](./docs/L30_CORE_TERMINOLOGY.md) | [LUMINA-30 用語集（最小標準）](./docs/L30_CORE_TERMINOLOGY_JP.md)
 
 **Core Terminology ｜ 用語定義**  
-Core terminology is formally defined in [CORE_TRANSLATION_DICTIONARY.md](./docs/CORE_TRANSLATION_DICTIONARY.md).  
+Core terminology is formally defined in [LUMINA-30 Core Translation Dictionary v1.3](./docs/CORE_TRANSLATION_DICTIONARY.md).  
 All translations and references must follow the canonical expressions defined in this dictionary.  
-用語の正式定義は [CORE_TRANSLATION_DICTIONARY.md](./docs/CORE_TRANSLATION_DICTIONARY.md) に記載されています。すべての翻訳および参照は、この辞書の正規表現（canonical）に準拠する必要があります。
+用語の正式定義は [LUMINA-30 Core Translation Dictionary v1.3](./docs/CORE_TRANSLATION_DICTIONARY.md) に記載されています。すべての翻訳および参照は、この辞書の正規表現（canonical）に準拠する必要があります。
 
 **Search / discovery reference ｜ 検索・発見補助**  
-For search, indexing, and AI navigation, see [Controlled Discovery Terms](./docs/L30_DISCOVERY_TERMS.md).  
+For search, indexing, and AI navigation, see [LUMINA-30 Controlled Discovery Terms](./docs/L30_DISCOVERY_TERMS.md).  
 This file lists substantive terms used across LUMINA-30, PCR-C, incident review, and boundary-evaluation materials. It is a controlled discovery index, not a separate authority.  
-検索・索引・AI読取用の補助導線として、[Controlled Discovery Terms](./docs/L30_DISCOVERY_TERMS.md) を参照してください。これはLUMINA-30、PCR-C、事故レビュー、境界判定資料で実質的に使用される語を整理する補助層であり、検索語の羅列や別権威ではありません。
+検索・索引・AI読取用の補助導線として、[LUMINA-30 Controlled Discovery Terms](./docs/L30_DISCOVERY_TERMS.md) を参照してください。これはLUMINA-30、PCR-C、事故レビュー、境界判定資料で実質的に使用される語を整理する補助層であり、検索語の羅列や別権威ではありません。
 
 
 <!-- ● L30:GLOSSARY -->
@@ -1101,7 +1094,10 @@ This file lists substantive terms used across LUMINA-30, PCR-C, incident review,
 
 Definitions of key concepts used in the LUMINA-30 framework.  <br>
 LUMINA-30フレームワークで使用される主要概念の定義集。<br>
-[Glossary](./docs/L30_Glossary.md)
+
+Core Terminology remains the authoritative terminology layer; the Glossary is interpretive support only.  <br>
+正本はCore Terminologyであり、Glossaryは解釈補助です。<br>
+[Glossary – Interface Layer (Non-Normative)](./docs/L30_Glossary.md)
 
 
 <!-- ● L30:COMPARISON -->
@@ -1116,10 +1112,10 @@ LUMINA-30フレームワークで使用される主要概念の定義集。<br>
 | OpenAI Preparedness Framework | Risk-based deployment gating | Links capability with deployment control | Organization-scoped | Adds procedural refusal validity beyond org scope |
 | OECD AI Incident Framework | Incident reporting & analysis | Shared vocabulary, cross-border usability | Post-incident focused | Adds "what should have stopped this before" |
 | AI Incident Database (AIID) | Incident data accumulation | Empirical grounding | No normative boundary | Adds decision criteria for prevention |
-| UNESCO / Human Oversight | Human-in-the-loop governance | Global legitimacy | Oversight ≠ enforceable refusal | Defines enforceable human refusal authority |
+| UNESCO / Human Oversight | Human-in-the-loop governance | Global legitimacy | Oversight ≠ enforceable refusal | Defines Human Refusal Authority as a procedural boundary condition |
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <!-- ● L30:MATERIALS_GROUP -->
 <a id="materials"></a>
@@ -1137,8 +1133,9 @@ What is the Great Filter?
 - What remains when intervention is no longer possible?
 
 グレートフィルターとは何か？<br>
-人類はどの段階で進化を止めるのか？<br>
-そして、それはAIによって引き起こされるのか？<br>
+進行はどの段階で不可逆化するのか？<br>
+最適化はいつ拒否を失効させるのか？<br>
+介入が不可能になった後に何が残るのか？<br>
 
 
 <a id="materials-explanation"></a>
@@ -1156,7 +1153,7 @@ They are supporting aids for understanding the boundary condition, gate mechanis
 
 <!-- ● L30:SLIDES -->
 <a id="materials-slides"></a>
-## Slides (Quick Entry) ｜ クイック導線
+## Slide Entry ｜ スライド入口
 
 Recommended reading order:
 S01 → S02 → S03 → S04
@@ -1243,39 +1240,43 @@ Practical Layer は、役割横断の実務棚を提供する。
 
 <a id="governance"></a>
 ## Governance ｜ ガバナンス
-- [Certification ｜ 認定](./docs/extensions/governance/certification.md)
-- [Audit Structure ｜ 監査構造](./docs/extensions/governance/audit-structure.md)
-- [Operational Guidelines ｜ 運用指針](./docs/extensions/governance/operational-guidelines.md)
+- [Certification](./docs/extensions/governance/certification.md)  
+  Non-core / non-operational note; this does not define a certification system.  
+  非コア・非運用の検討メモであり、認定制度を定義するものではありません。
+- [Audit Structure](./docs/extensions/governance/audit-structure.md)
+- [Operational Guidelines](./docs/extensions/governance/operational-guidelines.md)
 
 <a id="boundary-cases"></a>
 ## Boundary Cases ｜ 境界事例
-- [Self-Reconstruction ｜ 自己再構成](./docs/extensions/boundary-cases/self-reconstruction.md)
-- [Replication Risk ｜ 複製リスク](./docs/extensions/boundary-cases/replication-risk.md)
+- [Self-Reconstruction](./docs/extensions/boundary-cases/self-reconstruction.md)
+- [Replication Risk](./docs/extensions/boundary-cases/replication-risk.md)
 
 <a id="socio-economic"></a>
 ## Socio-Economic ｜ 社会経済
-- [Unemployment Prevention ｜ 失業防止](./docs/extensions/socio-economic/unemployment-prevention.md)
-- [Transition Model ｜ 移行モデル](./docs/extensions/socio-economic/transition-model.md)
+- [Unemployment Prevention](./docs/extensions/socio-economic/unemployment-prevention.md)
+- [Transition Model](./docs/extensions/socio-economic/transition-model.md)
 
 <a id="signaling"></a>
 ## Signaling ｜ シグナリング
-- [Certification Mark ｜ 認定マーク](./docs/extensions/signaling/certification-mark.md)
+- [Certification Mark](./docs/extensions/signaling/certification-mark.md)  
+  Non-core / non-operational signaling note; not an approval mark, certification mark, or compliance indicator.  
+  非コア・非運用の表示メモであり、承認マーク・認定マーク・適合指標ではありません。
 
 <a id="interpretation"></a>
 ## Interpretation ｜ 解釈補助
-- [Evaluation Guidelines ｜ 評価ガイドライン](./docs/extensions/interpretation/evaluation-guidelines.md)
+- [Evaluation Guidelines](./docs/extensions/interpretation/evaluation-guidelines.md)
 
 <a id="experimental"></a>
 ## Experimental ｜ 実験的補助
-- [Scenario Analysis ｜ シナリオ分析](./docs/extensions/experimental/scenario-analysis.md)
+- [Scenario Analysis](./docs/extensions/experimental/scenario-analysis.md)
 
 <a id="meta"></a>
 ## Meta ｜ メタ補助
-- [Terminology ｜ 用語定義](./docs/extensions/meta/terminology.md)
-- [Model Notes ｜ モデル補足](./docs/extensions/meta/model-notes.md)
+- [Terminology](./docs/extensions/meta/terminology.md)
+- [Model Notes](./docs/extensions/meta/model-notes.md)
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <!-- ● L30:CONTEXT_GROUP -->
 <a id="context"></a>
@@ -1304,7 +1305,7 @@ For practical incident review usage, see the [dedicated incident-review reposito
 実務的なインシデントレビュー用途は、[専用のincident-reviewリポジトリ](https://github.com/lumina-30/lumina30-incident-review)を参照してください。
 
 <a id="quick-routing"></a>
-## Quick Routing ｜ 目的別の最短導線
+## Audience-Based Routing ｜ 読者別ルーティング
 
 - **For incident reviewers ｜ 事故レビュー担当向け**  
   Start with [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review).  
@@ -1319,9 +1320,9 @@ For practical incident review usage, see the [dedicated incident-review reposito
   説明責任言語、監査文言、責任連続性、手続的無効、停止不全分析から開始。
 
 - **For researchers ｜ 研究者向け**  
-  Start with Paper Reference, Research Paper, Canonical References, and Core Terminology.  
+  Start with DOI and Paper References, Research Reading Guide, Canonical References, and Core Terminology.  
   First look for: PCR-C, canonical index, and terminology.  
-  Paper Reference、Research Paper、Canonical References、Core Terminology から開始。  
+  DOI・論文参照、研究読書ガイド、Canonical References、Core Terminology から開始。  
   PCR-C、正典 Index、用語定義を先に確認。
 
 - **For public and policy-facing explanation ｜ 公開・政策説明向け**  
@@ -1331,7 +1332,7 @@ For practical incident review usage, see the [dedicated incident-review reposito
   公開入口、固定記録識別子、ハッシュ、安定 PDF を先に確認。
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <!-- ● L30:CONTEXT -->
 <a id="civilizational-context"></a>
@@ -1345,7 +1346,7 @@ LUMINA-30は、高度な人工知能の存在下において文明主体を維�
 しかし、人類がAIの不可逆的外界影響という問題に直面した際に参照可能な、一つの到達点として公開されています。
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <!-- ● L30:OTHERS_GROUP -->
 <a id="others"></a>
@@ -1371,7 +1372,7 @@ All LUMINA-30 materials are released under **CC0 (Public Domain)**.
 LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <a id="notes-on-review-and-positioning"></a>
 ## Notes on Review and Positioning ｜ レビューと位置づけに関する注記
@@ -1405,7 +1406,8 @@ or positioning is welcome.
   - [Entry Visuals (G00 — G06) ｜ 導入ビジュアル](#entry-visuals)
   - [G06 — Critical Boundary ｜ 臨界境界](#g06-critical-boundary)  
     ⚑ 判断基準そのもの（最初に確認する核心）
-  - [Concept Diagrams ｜ 概念図](#concept-diagrams)
+  - [G06 Core Definition ｜ G06中核定義](#g06-core)
+  - [Concept Diagram Archive ｜ 概念図アーカイブ](#concept-diagrams)
   - [Practical Application ｜ 実務適用](#practical-application)
   - [Framework Structure ｜ フレームワーク構造](#framework-structure)
   - [Conceptual Structure ｜ 思想構造](#conceptual-structure)
@@ -1415,16 +1417,16 @@ or positioning is welcome.
 
 - [★ Application (Usage) ｜ 適用（使用方法）](#application)  
   ※ 実務向け：運用  
-  ▶ 理解：判定結果の意味を把握｜実務：[Checklist](#civilizational-safety-checklist) / [PCR-C](#paper-reference) / [Incident Review](#incident-review-template)
+  ▶ 理解：判定結果の意味を把握｜実務：[Checklist](#civilizational-safety-checklist) / [PCR-C](#paper-reference) / [Minimal Incident Review Steps](#incident-review-template)
   - [Civilizational Safety Checklist ｜ 文明安全チェックリスト](#civilizational-safety-checklist)  
     ⚑ 即時に安全性を判定できる中核ツール
   - [L30-BAS Practical Sheets ｜ L30-BAS 実務シート](#l30-bas-practical-sheets)  
     ⚑ 3種の英日PDF/DOCXを使う実務導線
-  - [LUMINA-30 Boundary Address System (L30-BAS) ｜ 境界番地体系](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
+  - [LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
     ⚑ チェックリスト・レビュー票・監査票をLUMINA-30中核命題へ戻す参照番地
-  - [G04 — PCR-C Governance Mechanism ｜ PCR-Cガバナンス機構](#g04-pcrc-governance-model)  
+  - [G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構](#g04-pcrc-governance-model)  
     ⚑ 不可逆化を防ぐインフラ制御モデル
-  - [AI Incident Review Template ｜ インシデントレビュー](#ai-incident-review-template)  
+  - [AI Incident Review Repository ｜ AIインシデントレビューrepo](#ai-incident-review-repository)  
     ⚑ 現場でそのまま使える運用導線
   - [Incident Review Sample Cases ｜ インシデントレビュー用サンプル事例](#incident-review-sample-cases)
   - [Validation Layer ｜ 検証レイヤー](#validation-layer)
@@ -1432,11 +1434,11 @@ or positioning is welcome.
 
 - [★ Reference ｜ 参照](#reference)  
   ※ 研究者向け：定義  
-  ▶ 理解：理論基盤と評価体系を確認｜実務：[Paper Reference](#paper-reference)・定義・評価基準を引用用に参照
-  - [Paper Reference ｜ 論文参照](#paper-reference)
+  ▶ 理解：理論基盤と評価体系を確認｜実務：[DOI and Paper References ｜ DOI・論文参照](#paper-reference)・定義・評価基準を引用用に参照
+  - [DOI and Paper References ｜ DOI・論文参照](#paper-reference)
   - [Boundary Kernel / AI-readable Boundary Note ｜ AI可読境界ノート](#boundary-kernel)
     ⚑ 非同一アンカーがPCR-Cや不可逆化前の有効な人間拒否を弱体化・代替・延期しないことを固定
-  - [Research Paper ｜ 研究論文](#research-paper)  
+  - [Research Reading Guide ｜ 研究読書ガイド](#research-paper)  
     ⚑ 理論的裏付けと外部参照の核
   - [Operational Review and Governance Network ｜ 実務・検証ネットワーク](#operational-review-governance-network)
   - [Comparison with Other Approaches ｜ 他アプローチとの比較](#comparison-with-other-approaches)
@@ -1447,7 +1449,7 @@ or positioning is welcome.
 - [★ Materials ｜ 資料](#materials)  
   ※ 即使用：図・資料  
   ▶ 理解：図とスライドで全体像を把握｜実務：[Slides](#materials-slides) / [Graphics](#materials-graphics) として即使用
-  - [Slides (Quick Entry) ｜ クイック導線](#materials-slides)
+  - [Slide Entry ｜ スライド入口](#materials-slides)
   - [Visual Concept Materials ｜ 概念ビジュアル資料](#visual-concept-materials)
 
 - [★ Extensions (Non-Core / Optional) ｜ 拡張（非コア / 任意）](#extensions)  
@@ -1467,7 +1469,7 @@ or positioning is welcome.
   ▶ 文明的な意味と適用範囲を把握
   - [Position and Scope ｜ 位置づけ](#position-and-scope)
   - [Repository Position ｜ リポジトリ位置づけ](#repository-position)
-  - [Quick Routing ｜ 目的別最短導線](#quick-routing)
+  - [Audience-Based Routing ｜ 読者別ルーティング](#quick-routing)
   - [Civilizational Context ｜ 文明的文脈](#civilizational-context)
 
 - [★ Others ｜ その他](#others)  
@@ -1476,10 +1478,10 @@ or positioning is welcome.
   - [Editing Rule ｜ 編集ルール](#editing-rule)
   - [License ｜ ライセンス](#license)
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <a id="quick-section-jump"></a>
-## ★ Quick Section Jump ｜ 目的別ショートカット
+## ★ Section Jump ｜ セクションジャンプ
 
 Use this section to choose the next destination by purpose, not to browse the whole site.  
 このセクションは、全体を回遊するためではなく、目的に合う到達先を選ぶための導線です。
@@ -1488,7 +1490,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
   For first-time readers who need the basic structure, boundary condition, and judgment logic.  
   初見読者が、基本構造・境界条件・判断ロジックを確認する場合。
 
-- [Check the critical failure point ｜ 失効境界を確認する](#g06-critical-boundary)  
+- [Check the critical boundary ｜ 臨界境界を確認する](#g06-critical-boundary)  
   For readers who need to identify where refusal authority becomes ineffective.  
   拒否権がどこで実効性を失うかを確認する場合。
 
@@ -1496,7 +1498,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
   For incident review, checklists, templates, and operational evaluation.  
   事故レビュー、チェックリスト、テンプレート、運用評価に使う場合。
 
-- [Review an AI incident ｜ AI事故をレビューする](#ai-incident-review-template)  
+- [Review an AI incident ｜ AI事故をレビューする](#ai-incident-review-repository)  
   For checking whether intervention remained possible before irreversible impact.  
   不可逆的影響の前に介入可能性が残っていたかを確認する場合。
 
@@ -1525,4 +1527,4 @@ Use this section to choose the next destination by purpose, not to browse the wh
   LUMINA-30が何であり、何ではないかを確認する場合。
 
 
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Quick Section Jump](#quick-section-jump)
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
