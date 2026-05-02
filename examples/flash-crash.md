@@ -42,4 +42,4 @@ The system was procedurally invalid before the incident.
 
 ### 結論
 
-このシステムは事故発生前から手続き的に無効であった。
+このシステムは事故発生前から手続的無効であった。

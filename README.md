@@ -333,7 +333,7 @@ If this cannot be answered clearly, the system cannot be considered controlled.
 
 この問いに明確に答えられない場合、そのシステムは制御されていたとは見なせません。
 
-→ [Incident Review Hub ｜ 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)  
+→ [Incident Review Hub ｜ 事故レビュー入口](https://github.com/lumina-30/lumina30-incident-review)  
 Use this for practical incident review, boundary checks, and stakeholder-facing review materials.  
 事故レビュー、境界判定、相手別レビュー資料に使用。
 
@@ -979,7 +979,7 @@ Note: This paper is an existence-condition supporting research artifact. It does
 The following repositories extend LUMINA-30 from conceptual structure into incident review, public record integrity, accountability language, institutional friction analysis, and stop-authority definition.  
 以下のリポジトリ群は、LUMINA-30を概念構造から、事故レビュー、公開記録真正性、説明責任言語、制度摩擦分析、拒否権定義へ拡張する。
 
-- **Incident Review Hub ｜ 事故レビュー主ハブ**  
+- **Incident Review Hub ｜ 事故レビュー入口**  
   [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review)  
   Main operational review repository for refusal effectiveness, Required Questions, review templates, and stakeholder-facing one-page briefs.  
   拒否有効性、Required Questions、レビュー用テンプレート、相手別1枚資料を扱う主実務リポジトリ。
@@ -1229,15 +1229,15 @@ They do not modify the core framework or its conditions.
 <a id="practical-layer"></a>
 ## Practical Layer ｜ 実務層
 - [Practical Layer ｜ 実務層](./extensions/practical-layer/)
-- [Incident Review Hub ｜ 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)
+- [Incident Review Hub ｜ 事故レビュー入口](https://github.com/lumina-30/lumina30-incident-review)
 
 Practical Layer provides a cross-role operational shelf.  
 It is designed for audits, incident review, governance checks, executive explanation, policy support, vendor review, case-based understanding, and glossary use.  
 Practical Layer は、役割横断の実務棚を提供する。  
 監査、事故レビュー、ガバナンス確認、経営説明、政策補助、ベンダー審査、事例理解、用語利用のために設計されている。
 
-`lumina30-incident-review` should be treated as the main incident-review hub, while Practical Layer serves as a broader operational entry shelf.  
-`lumina30-incident-review` は事故レビューの主ハブであり、Practical Layer はより広い実務入口棚として扱う。
+`lumina30-incident-review` should be treated as the primary incident-review entry point, while Practical Layer serves as a broader operational entry shelf.  
+`lumina30-incident-review` は主要な事故レビュー入口であり、Practical Layer はより広い実務入口棚として扱う。
 
 <a id="governance"></a>
 ## Governance ｜ ガバナンス
@@ -1529,6 +1529,3 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
-
-
-
