@@ -1029,6 +1029,14 @@ The following repositories extend LUMINA-30 from conceptual structure into incid
 | **AI principles / policy documents** | What values or principles should guide AI? | Normative guidance, policy orientation | Principle violation or governance gap | Policy communication, institutional guidance |
 | **Alignment / safety theories** | How can AI systems behave as intended or remain safe? | Behavior, robustness, optimization, control | Misalignment, unsafe behavior, loss of control | Research, technical safety analysis |
 
+LUMINA-30 does not replace AI ethics, alignment research, preparedness frameworks, or incident reporting systems.  
+It adds one cross-cutting boundary-validity question:  
+was effective human refusal still possible before irreversible impact?
+
+LUMINA-30は、AI倫理、アライメント研究、Preparedness系フレーム、インシデント報告制度を置き換えるものではありません。  
+それらを横断して、ひとつの境界有効性の問いを追加します。  
+不可逆的影響の前に、人間の有効な拒否はなお可能だったのか。
+
 **Key distinction ｜ 重要な違い**  
 LUMINA-30 does not first ask what AI should do. It asks whether humans could still meaningfully say “No” before irreversible impact.  
 LUMINA-30は、まずAIが何をすべきかを問うのではない。不可逆影響の前に、人間がなお実効的に「No」と言えたかを問う。
