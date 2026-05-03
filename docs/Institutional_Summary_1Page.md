@@ -60,7 +60,7 @@ For practical use, start with the following materials:
   Stable reference codes for connecting practical checks to the LUMINA-30 core question.  
   実務チェックをLUMINA-30の中核問いへ接続するための安定した参照番地。
 
-- [L30_FRM Practical Forms](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md)  
+- [L30_FRM Practical Forms](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md)  
   PDF and editable DOCX forms for L30_FRM_B01, L30_FRM_I01, and L30_FRM_A01.  
   L30_FRM_B01、L30_FRM_I01、L30_FRM_A01のPDF版・編集用DOCX版。
 
@@ -124,5 +124,3 @@ In the event of a high-impact incident:
 
 This framework does not advocate acceleration or restriction of AI development.
 It addresses structural responsibility only.
-
-

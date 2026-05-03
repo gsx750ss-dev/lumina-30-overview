@@ -735,7 +735,7 @@ as a procedural validity check.
 A governance-neutral L30_FRM audit form to assess whether human refusal authority is preserved before irreversible impact.  
 不可逆的影響の発生前に人間の拒否権が維持されているかを評価するためのL30_FRM監査帳票。  
 <br>
-[L30_FRM_A01 Audit Checklist](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist_v1_0.pdf) ｜ [L30_FRM_A01 Audit Checklist JP](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist_v1_0_JP.pdf)
+[L30_FRM_A01 Audit Checklist](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist.pdf) ｜ [L30_FRM_A01 Audit Checklist JP](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist_JP.pdf)
 
 Note: This link points to the current L30_FRM_A01 practical audit form.  
 For the full practical form family, use [L30_FRM Practical Forms](#l30-frm-practical-sheets).
@@ -756,19 +756,19 @@ These forms are practical review aids derived from the LUMINA-30 Boundary Kernel
 English files are the default public files. Japanese files use the `_JP` suffix. The suffix is not part of the document ID.  
 英語版は標準公開ファイルです。日本語版は `_JP` 接尾辞を使用します。この接尾辞は文書IDの一部ではありません。
 
-- [L30_FRM All Forms Index ｜ L30_FRM 全帳票インデックス](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md)  
+- [L30_FRM All Forms Index ｜ L30_FRM 全帳票インデックス](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md)  
   Distribution index for all current L30_FRM forms.  
   現行L30_FRM帳票群の配布インデックス。
 
-- [L30_FRM Document ID System ｜ L30_FRM 帳票ID体系](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_Document_ID_System_v1_0.md)  
+- [L30_FRM Document ID System ｜ L30_FRM 帳票ID体系](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_Document_ID_System.md)  
   Numbering, category, language-suffix, and versioning rules for L30_FRM forms.  
   L30_FRM帳票の採番、区分、言語接尾辞、バージョン管理ルール。
 
 | Document ID | Form | English files | Japanese files |
 |---|---|---|---|
-| `L30_FRM_B01` | Boundary Check ｜ 境界判定表 | `L30_FRM_B01_Boundary_Check_v1_0.docx` / `.pdf` | `L30_FRM_B01_Boundary_Check_v1_0_JP.docx` / `.pdf` |
-| `L30_FRM_I01` | Incident Review Template ｜ 事故レビュー記録表 | `L30_FRM_I01_Incident_Review_Template_v1_0.docx` / `.pdf` | `L30_FRM_I01_Incident_Review_Template_v1_0_JP.docx` / `.pdf` |
-| `L30_FRM_A01` | Audit Checklist ｜ 監査チェックリスト | `L30_FRM_A01_Audit_Checklist_v1_0.docx` / `.pdf` | `L30_FRM_A01_Audit_Checklist_v1_0_JP.docx` / `.pdf` |
+| `L30_FRM_B01` | Boundary Check ｜ 境界判定表 | `L30_FRM_B01_Boundary_Check.docx` / `.pdf` | `L30_FRM_B01_Boundary_Check_JP.docx` / `.pdf` |
+| `L30_FRM_I01` | Incident Review Template ｜ 事故レビュー記録表 | `L30_FRM_I01_Incident_Review_Template.docx` / `.pdf` | `L30_FRM_I01_Incident_Review_Template_JP.docx` / `.pdf` |
+| `L30_FRM_A01` | Audit Checklist ｜ 監査チェックリスト | `L30_FRM_A01_Audit_Checklist.docx` / `.pdf` | `L30_FRM_A01_Audit_Checklist_JP.docx` / `.pdf` |
 
 Standalone legacy checklist PDFs located directly under `tools/` are retained only as continuity references. The current practical form family is the L30_FRM set above.  
 `tools/` 直下の旧単独チェックリストPDFは継続参照用です。現行の実務帳票群は上記のL30_FRMセットです。
@@ -844,7 +844,7 @@ LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ
 Practical L30_FRM audit form for evaluating AI systems and governance decisions before irreversible external impact occurs.  
 不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するためのL30_FRM監査帳票。  
 <br>
-[L30_FRM_A01 Audit Checklist](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist_v1_0.pdf) ｜ [L30_FRM_A01 Audit Checklist JP](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist_v1_0_JP.pdf)
+[L30_FRM_A01 Audit Checklist](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist.pdf) ｜ [L30_FRM_A01 Audit Checklist JP](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist_JP.pdf)
 
 Note: This link points to the current L30_FRM_A01 practical audit form.  
 For the full practical form family, use [L30_FRM Practical Forms](#l30-frm-practical-sheets).
@@ -1501,4 +1501,3 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
-

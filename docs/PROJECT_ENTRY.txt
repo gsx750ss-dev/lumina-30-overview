@@ -19,7 +19,7 @@ Boundary address reference
 https://github.com/lumina-30/lumina-30-overview/blob/main/docs/L30_BOUNDARY_ADDRESS_SYSTEM.md
 
 L30_FRM Practical Forms
-https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md
+https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md
 
 Practical incident review hub
 https://github.com/lumina-30/lumina30-incident-review
@@ -54,5 +54,3 @@ https://doi.org/10.5281/zenodo.18824181
 
 Purpose
 LUMINA-30 provides a non-binding civilizational reference framework intended to support AI safety research, incident review, and governance discussions regarding advanced AI systems and irreversible external impacts.
-
-

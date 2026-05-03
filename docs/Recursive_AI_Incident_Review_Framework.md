@@ -27,7 +27,7 @@ Use the following current entry points first:
   Reference address system for connecting incident review questions to the LUMINA-30 core boundary question.  
   事故レビュー上の問いをLUMINA-30の中核境界問いへ接続するための参照番地体系。
 
-- [L30_FRM Practical Forms](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md)  
+- [L30_FRM Practical Forms](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md)  
   Practical forms for L30_FRM_B01, L30_FRM_I01, and L30_FRM_A01.  
   L30_FRM_B01、L30_FRM_I01、L30_FRM_A01のための実務帳票。
 
@@ -51,5 +51,3 @@ It clarifies responsibility boundaries.
 
 It does not advocate acceleration or restriction of AI development.
 It addresses structural responsibility only.
-
-

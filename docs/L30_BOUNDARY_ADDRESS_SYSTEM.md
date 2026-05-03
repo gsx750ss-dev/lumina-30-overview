@@ -50,8 +50,8 @@ L30-BAS address codes remain reference aids. L30_FRM forms are the downloadable 
 
 L30-BAS番地は参照補助として維持します。L30_FRM帳票は、人間によるレビュー、事故分析、監査文脈で使用するDOCX/PDF配布ツールです。
 
-Reference route: [L30_FRM Practical Forms](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md)  
-Practical form index: [L30_FRM All Forms Index](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md)
+Reference route: [L30_FRM Practical Forms](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md)  
+Practical form index: [L30_FRM All Forms Index](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md)
 
 The index makes the practical form family visible in text form, so that L30_FRM use is not hidden inside PDF/DOCX files only.
 
@@ -308,7 +308,3 @@ It does not create legal, regulatory, compliance, operational, institutional, or
 
 この文書は記述的・非規範的です。  
 法的義務、規制義務、適合義務、運用義務、制度的義務、認証義務を作るものではありません。
-
-
-
-
