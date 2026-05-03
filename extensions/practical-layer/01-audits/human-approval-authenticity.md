@@ -1,14 +1,14 @@
 # Human Approval Authenticity Review
 # 人間承認真正性確認
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Determine whether human approval was substantive rather than symbolic.
 人間承認が形式的でなく実質的だったかを確認します。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Was approval required before execution?  
 - 実行前に承認が必要だったか
@@ -27,7 +27,7 @@ Determine whether human approval was substantive rather than symbolic.
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Authentic / Weak / Symbolic Only  
 - 真正 / 弱い / 形式的のみ

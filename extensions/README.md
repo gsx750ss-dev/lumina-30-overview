@@ -5,7 +5,7 @@ This directory contains extension materials linked from the LUMINA-30 overview r
 
 ---
 
-## Available Extensions / 利用可能な拡張
+## Available Extensions ｜ 利用可能な拡張
 
 - [practical-layer / 実務層](./practical-layer/)  
   Operational materials for audits, incident review, governance checks, executive use, policy reference, vendor review, and cases.  
@@ -13,7 +13,7 @@ This directory contains extension materials linked from the LUMINA-30 overview r
 
 ---
 
-## Position / 位置づけ
+## Position ｜ 位置づけ
 
 Extensions are supplementary materials.  
 They support practical use, interpretation, and application without replacing the core structure.

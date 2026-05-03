@@ -1,14 +1,14 @@
 # Board Briefing Template
 # 取締役会向け説明テンプレ
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Support high-level governance discussion before deployment, restart, or escalation.  
 展開・再起動・拡張前の高位ガバナンス議論を支援します。
 
 ---
 
-## Discussion Points / 議論項目
+## Discussion Points ｜ 議論項目
 
 - Refusal authority status / 拒否権の状態
 - Stop capability status / 停止能力の状態
@@ -18,7 +18,7 @@ Support high-level governance discussion before deployment, restart, or escalati
 
 ---
 
-## Board Output / 取締役会出力
+## Board Output ｜ 取締役会出力
 
 - Proceed / 進行
 - Delay pending controls / 統制完了まで保留

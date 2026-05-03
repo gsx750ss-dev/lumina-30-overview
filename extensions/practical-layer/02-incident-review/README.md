@@ -1,18 +1,18 @@
-# Incident Review / 事故レビュー
+# Incident Review ｜ 事故レビュー
 
 This category contains practical review materials for the first response and structured follow-up after incidents.  
 このカテゴリには、事故後の初動対応と構造的な追跡確認のための実務資料を収録します。
 
 ---
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Use these materials to stabilize records, classify failures, review containment, and evaluate restart or boundary warning conditions.  
 これらの資料は、記録保全、不全分類、封じ込め確認、再起動判断、境界警告評価のために使用します。
 
 ---
 
-## LUMINA-30 Required Questions / LUMINA-30 必須質問
+## LUMINA-30 Required Questions ｜ LUMINA-30 必須質問
 
 Use the following questions when an incident or near-incident is reviewed under the LUMINA-30 framework.  
 These questions are intended to make boundary loss, refusal failure, and pre-irreversibility conditions reviewable.  
@@ -36,7 +36,7 @@ These questions are intended to make boundary loss, refusal failure, and pre-irr
 
 ---
 
-## Includes / 収録内容
+## Includes ｜ 収録内容
 
 - initial-48h-review.md
 - seven-day-review.md
@@ -47,7 +47,7 @@ These questions are intended to make boundary loss, refusal failure, and pre-irr
 
 ---
 
-## Reading Order / 推奨読順
+## Reading Order ｜ 推奨読順
 
 1. initial-48h-review.md  
 2. containment-checklist.md  

@@ -1,14 +1,14 @@
 # CEO One-Page Brief
 # CEO向け1ページ概要
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Provide a minimal executive explanation of why LUMINA-30 matters.  
 LUMINA-30 がなぜ重要かを経営者向けに最小限で説明します。
 
 ---
 
-## Core Message / 中核メッセージ
+## Core Message ｜ 中核メッセージ
 
 LUMINA-30 does not ask whether AI is good or bad.  
 It asks whether human refusal can still function before irreversible autonomous impact emerges.
@@ -18,7 +18,7 @@ LUMINA-30 は AI の善悪を問うものではありません。
 
 ---
 
-## Executive Questions / 経営層の確認事項
+## Executive Questions ｜ 経営層の確認事項
 
 - Who can stop the system?  
 - 誰が停止できるか

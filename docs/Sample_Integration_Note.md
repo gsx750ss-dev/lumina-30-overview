@@ -14,7 +14,7 @@ as part of existing risk or compliance assessments.
 
 ---
 
-## Terminology Note / 用語注記
+## Terminology Note ｜ 用語注記
 
 For integration purposes, LUMINA-30 should be introduced first as a pre-irreversibility boundary review framework.  
 The phrase “civilizational boundary” is the canonical term, but it should not be presented as a broad cultural or ideological claim.

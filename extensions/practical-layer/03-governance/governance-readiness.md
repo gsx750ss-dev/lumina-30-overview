@@ -1,14 +1,14 @@
 # Governance Readiness Check
 # ガバナンス準備確認票
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Determine whether an organization is prepared to operate high-risk autonomous systems.
 高リスク自律システムを運用する準備があるか確認します。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Is stop authority documented?  
 - 停止権限は文書化されているか
@@ -27,7 +27,7 @@ Determine whether an organization is prepared to operate high-risk autonomous sy
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Ready / Partially Ready / Not Ready  
 - 準備済 / 一部準備 / 未準備

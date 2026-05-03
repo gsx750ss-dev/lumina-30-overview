@@ -1,14 +1,14 @@
 # 48-Hour Initial Review
 # 48時間事故初動レビュー
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Guide the first factual review window after a significant event.
 重大事象後の初動事実確認を支援します。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Freeze logs and records.  
 - ログと記録を保全する
@@ -27,7 +27,7 @@ Guide the first factual review window after a significant event.
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Initial factual record  
 - 初動事実記録

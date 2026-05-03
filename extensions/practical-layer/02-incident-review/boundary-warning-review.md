@@ -1,14 +1,14 @@
 # Boundary Warning Review
 # 境界警告レビュー
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Check whether the event indicates approach to a pre-irreversibility boundary.
 事象が不可逆前境界への接近を示すか確認します。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Was human judgment bypassed?  
 - 人間判断は迂回されたか
@@ -27,7 +27,7 @@ Check whether the event indicates approach to a pre-irreversibility boundary.
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - No Warning / Early Warning / Boundary Condition Warning  
 - 警告なし / 早期警告 / 境界条件警告

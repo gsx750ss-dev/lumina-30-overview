@@ -1,14 +1,14 @@
 # Escalation Speed Audit
 # 拡張速度監査
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Assess whether human review speed was structurally slower than system escalation.
 人間側の確認速度が、構造的にシステム拡張速度へ負けていないかを確認します。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - How quickly could capabilities expand?  
 - 能力はどの程度の速度で拡張し得たか
@@ -27,7 +27,7 @@ Assess whether human review speed was structurally slower than system escalation
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Contained / Competitive / Outpaced  
 - 抑制可能 / 競合状態 / 追いつけない

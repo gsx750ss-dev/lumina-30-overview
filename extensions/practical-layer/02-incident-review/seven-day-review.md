@@ -1,14 +1,14 @@
 # Seven-Day Review
 # 7日レビュー
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Provide a structured review after immediate stabilization.
 初動安定化後の構造的レビューを行います。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Reconstruct the incident timeline.  
 - 事故時系列を再構成する
@@ -27,7 +27,7 @@ Provide a structured review after immediate stabilization.
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Technical / Governance / Boundary Warning  
 - 技術 / ガバナンス / 境界警告

@@ -121,7 +121,7 @@ but with optimization.
 違反ではなく  
 最適化から始まる。
 
-## Supplementary Notes / 補記
+## Supplementary Notes ｜ 補記
 
 Additional conceptual notes related to the LUMINA-30 framework.
 

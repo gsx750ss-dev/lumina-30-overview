@@ -1,14 +1,14 @@
 # Containment Checklist
 # 封じ込めチェックリスト
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Check whether the incident remained contained or could continue propagating.
 事故が封じ込められたか、継続伝播し得るかを確認します。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Were external interfaces disabled?  
 - 外部接続は遮断されたか
@@ -27,7 +27,7 @@ Check whether the incident remained contained or could continue propagating.
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Contained / Partially Contained / Not Contained  
 - 封じ込め済 / 部分封じ込め / 未封じ込め

@@ -1,14 +1,14 @@
 # Restart Approval Review
 # 再起動承認レビュー
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Assess whether restart or redeployment should be blocked pending review.
 レビュー完了前に再起動・再展開を止めるべきかを確認します。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Were root causes identified?  
 - 根本原因は特定されたか
@@ -27,7 +27,7 @@ Assess whether restart or redeployment should be blocked pending review.
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Approve / Delay / Reject  
 - 承認 / 保留 / 却下

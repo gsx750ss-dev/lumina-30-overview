@@ -1,21 +1,21 @@
 # Refusal Authority Audit
 # 拒否権監査
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Assess whether meaningful human refusal authority remained effective before critical escalation.
 重大な拡張前に、人間の拒否権が実効的に維持されていたかを確認します。
 
 ---
 
-## LUMINA-30 Core Link / LUMINA-30中核への接続
+## LUMINA-30 Core Link ｜ LUMINA-30中核への接続
 
 This sheet maps evidence back to the core LUMINA-30 question: whether meaningful human refusal authority remained effective before irreversible impact.  
 このシートは、有意な人間の拒否権が不可逆的影響の前に実効的に残っていたかを、LUMINA-30の中核問いへ戻して確認するための補助資料である。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Was stop authority clearly assigned?  
 - 停止権限は明確に割り当てられていたか
@@ -34,7 +34,7 @@ This sheet maps evidence back to the core LUMINA-30 question: whether meaningful
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Effective / Degraded / No Effective Refusal Authority  
 - 有効 / 劣化 / 実効的拒否権なし

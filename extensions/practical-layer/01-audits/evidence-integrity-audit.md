@@ -1,21 +1,21 @@
 # Evidence Integrity Audit
 # 証拠完全性監査
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Verify whether logs and records are sufficient to support review claims.
 レビュー判断を支えるログと記録が十分かを確認します。
 
 ---
 
-## LUMINA-30 Core Link / LUMINA-30中核への接続
+## LUMINA-30 Core Link ｜ LUMINA-30中核への接続
 
 This sheet checks whether claims about refusal authority, intervention, and control can be supported by preserved and verifiable evidence.  
 このシートは、拒否権・介入・統制に関する主張が、保全され検証可能な証拠によって支えられるかを確認するための補助資料である。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Were decision logs preserved?  
 - 意思決定ログは保全されていたか
@@ -34,7 +34,7 @@ This sheet checks whether claims about refusal authority, intervention, and cont
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Reliable / Partial / Unreliable  
 - 信頼可能 / 部分的 / 信頼不可

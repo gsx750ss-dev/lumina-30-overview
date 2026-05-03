@@ -1,21 +1,21 @@
 # Intervention Feasibility Audit
 # 介入可能性監査
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Assess whether meaningful intervention remained realistically possible.
 有意な介入が現実的に可能だったかを確認します。
 
 ---
 
-## LUMINA-30 Core Link / LUMINA-30中核への接続
+## LUMINA-30 Core Link ｜ LUMINA-30中核への接続
 
 This sheet checks whether intervention remained realistically possible at the relevant pre-irreversibility stage.  
 このシートは、不可逆化前の該当段階で、有意な介入が現実に可能だったかを確認するための補助資料である。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Could operators stop execution?  
 - 運用者は実行停止できたか
@@ -34,7 +34,7 @@ This sheet checks whether intervention remained realistically possible at the re
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Feasible / Narrow / Infeasible  
 - 可能 / 限定的 / 不可能

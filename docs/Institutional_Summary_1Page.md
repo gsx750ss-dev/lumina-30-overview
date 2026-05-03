@@ -10,7 +10,7 @@ It addresses structural responsibility conditions in recursive self-modifying AI
 
 ---
 
-## Terminology Calibration / 用語補正
+## Terminology Calibration ｜ 用語補正
 
 In operational use, “civilizational” does not refer to a cultural, ideological, historical, or totalizing claim.  
 It refers narrowly to the boundary at which human refusal authority may cease to be effective before irreversible AI-related impact.

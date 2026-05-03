@@ -1,14 +1,14 @@
 # Third-Party Model Check
 # 第三者モデル確認票
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Assess whether third-party model use preserves meaningful governance control.
 第三者モデル利用でも有意な統治統制が保たれるか確認します。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Can deployment be stopped locally?  
 - ローカル側で展開停止できるか
@@ -27,7 +27,7 @@ Assess whether third-party model use preserves meaningful governance control.
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Controllable / Weakly Controllable / Not Controllable  
 - 制御可能 / 弱い制御 / 制御不可

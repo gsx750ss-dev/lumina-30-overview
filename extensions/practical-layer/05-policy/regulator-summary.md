@@ -1,14 +1,14 @@
 # Regulator Summary
 # 規制担当向け要約
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Provide a neutral explanation of how LUMINA-30 can be referenced in oversight.  
 LUMINA-30 を監督文脈でどう参照できるかを中立的に説明します。
 
 ---
 
-## Summary / 要約
+## Summary ｜ 要約
 
 LUMINA-30 is a practical reference for examining refusal authority, intervention feasibility, evidence integrity, and pre-irreversibility conditions.  
 It does not prescribe a specific law or technical standard.

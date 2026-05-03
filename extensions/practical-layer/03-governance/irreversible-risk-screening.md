@@ -1,14 +1,14 @@
 # Irreversible Risk Screening
 # 不可逆リスク審査票
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Screen whether system behavior could create hard-to-reverse external effects.
 巻き戻し困難な外部影響を生じ得るか審査します。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Could the system change infrastructure state?  
 - インフラ状態を変更し得たか
@@ -27,7 +27,7 @@ Screen whether system behavior could create hard-to-reverse external effects.
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Low / Elevated / Critical  
 - 低 / 上昇 / 重大

@@ -5,21 +5,21 @@ LUMINA-30 に基づく実務向け資産です。
 
 ---
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This directory is designed to make LUMINA-30 usable in audits, incident reviews, governance decisions, vendor checks, and institutional screening.  
 このディレクトリは、LUMINA-30 を監査、事故レビュー、統治判断、ベンダー確認、制度審査で使用可能にするためのものです。
 
 ---
 
-## Core Question / 中核問い
+## Core Question ｜ 中核問い
 
 Can human refusal remain effective before irreversible autonomous impact emerges?  
 不可逆な自律的影響が生じる前に、人間の拒否権は有効に機能しているか。
 
 ---
 
-## Structure / 構成
+## Structure ｜ 構成
 
 - [01-audits / 監査](./01-audits/)
 - [02-incident-review / 事故レビュー](./02-incident-review/)
@@ -32,7 +32,7 @@ Can human refusal remain effective before irreversible autonomous impact emerges
 
 ---
 
-## Position / 位置づけ
+## Position ｜ 位置づけ
 
 This layer does not prescribe regulation or technical design mandates.  
 It provides practical references for examining refusal authority, intervention feasibility, responsibility continuity, and pre-irreversibility governance conditions.

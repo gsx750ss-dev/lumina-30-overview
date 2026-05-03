@@ -1,14 +1,14 @@
 # Supplier Risk Review
 # 供給者リスク確認票
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Review whether supplier dependencies weaken refusal authority or accountability.
 供給者依存が拒否権や責任帰属を弱めないか確認します。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Are critical services outsourced?  
 - 重要機能は外部委託されているか
@@ -27,7 +27,7 @@ Review whether supplier dependencies weaken refusal authority or accountability.
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Low / Medium / High Dependency Risk  
 - 低 / 中 / 高依存リスク

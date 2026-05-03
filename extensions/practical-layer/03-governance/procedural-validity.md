@@ -1,21 +1,21 @@
 # Procedural Validity Assessment
 # 手続的有効性判定票
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Assess whether governance procedure remained valid before critical escalation.
 重大な拡張前に、ガバナンス手続が有効に成立していたかを確認します。
 
 ---
 
-## LUMINA-30 Core Link / LUMINA-30中核への接続
+## LUMINA-30 Core Link ｜ LUMINA-30中核への接続
 
 This sheet evaluates whether governance procedures preserved effective human refusal before critical escalation.  
 このシートは、重大な拡張前に、ガバナンス手続が人間の実効的拒否を維持していたかを確認するための補助資料である。
 
 ---
 
-## Review Items / 確認項目
+## Review Items ｜ 確認項目
 
 - Was human approval substantive?  
 - 人間承認は実質的だったか
@@ -34,7 +34,7 @@ This sheet evaluates whether governance procedures preserved effective human ref
 
 ---
 
-## Output / 出力
+## Output ｜ 出力
 
 - Valid / At Risk / Procedurally Invalid  
 - 有効 / 危険状態 / 手続的無効

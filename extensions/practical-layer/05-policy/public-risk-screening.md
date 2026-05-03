@@ -1,14 +1,14 @@
 # Public Risk Screening
 # 公共リスク審査票
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 Check whether public-facing deployment creates governance exposure.  
 公共向け展開がガバナンス上の暴露を生じるか確認します。
 
 ---
 
-## Screening Questions / 審査項目
+## Screening Questions ｜ 審査項目
 
 - Could the system affect public infrastructure? / 公共インフラへ影響し得るか
 - Could non-operators be exposed? / 非運用者が影響を受け得るか
