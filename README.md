@@ -729,77 +729,49 @@ as a procedural validity check.
 
 
 <!-- ● L30:CHECKLIST -->
-<a id="civilizational-safety-checklist"></a>
-## Civilizational Safety Checklist ｜ 文明安全チェックリスト
+<a id="audit-checklist"></a>
+## Audit Checklist ｜ 監査チェックリスト
 
-A governance-neutral evaluation protocol to assess whether human refusal authority is preserved before irreversible impact.  
-不可逆的影響の発生前に人間の拒否権が維持されているかを評価するための非依存型評価プロトコル。  
+A governance-neutral L30_FRM audit form to assess whether human refusal authority is preserved before irreversible impact.  
+不可逆的影響の発生前に人間の拒否権が維持されているかを評価するためのL30_FRM監査帳票。  
 <br>
-[EN Checklist](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) ｜ [JP チェックリスト](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
+[L30_FRM_A01 Audit Checklist](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist_v1_0.pdf) ｜ [L30_FRM_A01 Audit Checklist JP](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist_v1_0_JP.pdf)
 
-Note: This is the standalone checklist reference kept for continuity.  
-For the current L30-BAS v1.0 practical sheet set, including editable DOCX files and embedded L30-BAS codes, use [L30-BAS Practical Sheets](#l30-bas-practical-sheets).
+Note: This link points to the current L30_FRM_A01 practical audit form.  
+For the full practical form family, use [L30_FRM Practical Forms](#l30-frm-practical-sheets).
 
-注記：これは継続参照用に保持している単独チェックリストです。  
-編集可能なDOCXファイルおよびL30-BAS番地を含む現行のL30-BAS v1.0実務シート群は、[L30-BAS Practical Sheets](#l30-bas-practical-sheets) を使用してください。
+注記：このリンクは現行のL30_FRM_A01監査帳票です。  
+現行の実務帳票群は [L30_FRM Practical Forms](#l30-frm-practical-sheets) を使用してください。
 
+<!-- ● L30:FRM_PRACTICAL_SHEETS -->
+<a id="l30-frm-practical-sheets"></a>
+## L30_FRM Practical Forms ｜ L30_FRM 実務帳票
 
-<!-- ● L30:BAS_PRACTICAL_SHEETS -->
-<a id="l30-bas-practical-sheets"></a>
-## L30-BAS Practical Sheets ｜ L30-BAS 実務シート
+Current practical forms for human review, incident analysis, and audit use are managed under the L30_FRM document ID system.  
+人間レビュー、事故分析、監査で使用する現行の実務帳票は、L30_FRM帳票ID体系で管理します。
 
-Practical PDF and editable DOCX sheets for applying L30-BAS without treating it as certification, compliance, or approval authority.  
-L30-BASを認証・適合・承認制度として扱わず、実務上の境界確認に用いるためのPDF版および編集用DOCX版。
+These forms are practical review aids derived from the LUMINA-30 Boundary Kernel v1.2.1. They do not certify that a system is safe and do not replace PCR-C, law, institutional policy, or the Boundary Kernel.  
+これらの帳票は、LUMINA-30 Boundary Kernel v1.2.1 由来の実務レビュー補助文書です。システムの安全性を認証するものではなく、PCR-C、法律、組織方針、Boundary Kernelを代替しません。
 
-The sheets may be used by reading the boundary questions only. Writing L30-BAS codes is optional.  
-シートは境界問いを読むだけでも使用できます。L30-BAS番地の記入は任意です。
+English files are the default public files. Japanese files use the `_JP` suffix. The suffix is not part of the document ID.  
+英語版は標準公開ファイルです。日本語版は `_JP` 接尾辞を使用します。この接尾辞は文書IDの一部ではありません。
 
-### Use with Other Theory Reviews ｜ 他理論レビューとの併用
+- [L30_FRM All Forms Index ｜ L30_FRM 全帳票インデックス](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md)  
+  Distribution index for all current L30_FRM forms.  
+  現行L30_FRM帳票群の配布インデックス。
 
-L30-BAS does not replace the original evaluation criteria of other theories, frameworks, or review methods.  
-It may be used as an additional boundary-check layer to ask whether effective human refusal authority remained verifiable before irreversible impact.
+- [L30_FRM Document ID System ｜ L30_FRM 帳票ID体系](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_Document_ID_System_v1_0.md)  
+  Numbering, category, language-suffix, and versioning rules for L30_FRM forms.  
+  L30_FRM帳票の採番、区分、言語接尾辞、バージョン管理ルール。
 
-L30-BASは、他の理論・枠組み・レビュー手法の本来の評価基準を置き換えるものではありません。  
-不可逆的影響の前に、実効的な人間拒否権が確認可能だったかを確認するための、追加的な境界チェック層として併用できます。
+| Document ID | Form | English files | Japanese files |
+|---|---|---|---|
+| `L30_FRM_B01` | Boundary Check ｜ 境界判定表 | `L30_FRM_B01_Boundary_Check_v1_0.docx` / `.pdf` | `L30_FRM_B01_Boundary_Check_v1_0_JP.docx` / `.pdf` |
+| `L30_FRM_I01` | Incident Review Template ｜ 事故レビュー記録表 | `L30_FRM_I01_Incident_Review_Template_v1_0.docx` / `.pdf` | `L30_FRM_I01_Incident_Review_Template_v1_0_JP.docx` / `.pdf` |
+| `L30_FRM_A01` | Audit Checklist ｜ 監査チェックリスト | `L30_FRM_A01_Audit_Checklist_v1_0.docx` / `.pdf` | `L30_FRM_A01_Audit_Checklist_v1_0_JP.docx` / `.pdf` |
 
-PDF files are recommended for viewing on mobile devices.  
-DOCX files are provided for download and editing. If Word preview causes garbled text on Android, use the PDF for viewing and download the DOCX for editing on PC.
-
-スマートフォンではPDF版での確認を推奨する。  
-DOCX版はダウンロード・編集用であり、Android上のWordプレビューで文字化けする場合は、閲覧にはPDFを使い、DOCXはPC編集用としてダウンロードする。
-
-- **Boundary Check ｜ 境界チェック**
-  - EN PDF: [Open](./tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.pdf) ｜ EN DOCX: [Open](./tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Boundary_Check_v1_0.docx)
-  - JP PDF: [Open](./tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.pdf) ｜ JP DOCX: [Open](./tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Boundary_Check_v1_0.docx)
-
-- **Civilizational Safety Checklist ｜ 文明安全チェックリスト**
-  - EN PDF: [Open](./tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) ｜ EN DOCX: [Open](./tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx)
-  - JP PDF: [Open](./tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.pdf) ｜ JP DOCX: [Open](./tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_Civilizational_Safety_Checklist_v1_0.docx)
-
-- **AI Incident Review Template ｜ AIインシデントレビュー票**
-  - EN PDF: [Open](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) ｜ EN DOCX: [Open](./tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/EN_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
-  - JP PDF: [Open](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.pdf) ｜ JP DOCX: [Open](./tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx) / [Download](https://github.com/lumina-30/lumina-30-overview/raw/main/tools/l30-bas/JP_L30_BAS_AI_Incident_Review_Template_v1_0.docx)
-
-Canonical address reference: [LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
-Practical sheet manifest: [L30-BAS Practical Sheets ｜ L30-BAS 実務シート](./tools/l30-bas/README.md)
-
-### What is inside these sheets? ｜ シート内に何が入っているか
-
-These files are not only downloads. They are the practical places where L30-BAS codes are used.
-
-これらは単なるダウンロードファイルではない。L30-BAS番地が実際に使われる実務上の配置先である。
-
-| Sheet | What it contains | Visible L30-BAS use |
-|---|---|---|
-| Boundary Check | Minimal A4 boundary check for rapid triage. | L30-BX-01〜04, L30-CI, L30-OUT-01 |
-| Civilizational Safety Checklist | Broader safety / audit / governance checklist. | Boundary checks, evidence notes, L30-CI-style outcome |
-| AI Incident Review Template | Structured post-incident review sheet for context, timeline, evidence, refusal authority, and output. | Boundary checks, review outputs, final condition status |
-
-File pairing rule: the public L30-BAS v1.0 sheet set consists of three families, each provided as EN PDF / EN DOCX / JP PDF / JP DOCX.  
-Use only the `v1_0` filenames in public links. Earlier draft names such as `v0_2` must not be used for public README links.
-
-ファイル対応ルール：公開用L30-BAS v1.0実務シートは3系列で構成され、各系列に EN PDF / EN DOCX / JP PDF / JP DOCX がある。  
-公開READMEリンクでは `v1_0` ファイル名のみを使用する。`v0_2` などの試作版名は公開リンクに使用しない。
+Standalone legacy checklist PDFs located directly under `tools/` are retained only as continuity references. The current practical form family is the L30_FRM set above.  
+`tools/` 直下の旧単独チェックリストPDFは継続参照用です。現行の実務帳票群は上記のL30_FRMセットです。
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
@@ -869,16 +841,16 @@ LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ
 [Sample Internal Integration Note (Non-Binding Example)](./docs/Sample_Integration_Note.md)
 
 
-Practical review checklist for evaluating AI systems and governance decisions before irreversible external impact occurs.  
-不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するための実務レビュー・チェックリスト。  
+Practical L30_FRM audit form for evaluating AI systems and governance decisions before irreversible external impact occurs.  
+不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するためのL30_FRM監査帳票。  
 <br>
-[Civilizational Safety Checklist (EN)](./tools/EN_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf) ｜ [文明安全チェックリスト (JP)](./tools/JP_LUMINA-30_Civilizational_Safety_Checklist_v1.0.pdf)
+[L30_FRM_A01 Audit Checklist](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist_v1_0.pdf) ｜ [L30_FRM_A01 Audit Checklist JP](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_A01_Audit_Checklist_v1_0_JP.pdf)
 
-Note: This link points to the standalone checklist reference.  
-For the current practical sheet family, use [L30-BAS Practical Sheets](#l30-bas-practical-sheets).
+Note: This link points to the current L30_FRM_A01 practical audit form.  
+For the full practical form family, use [L30_FRM Practical Forms](#l30-frm-practical-sheets).
 
-注記：このリンクは単独チェックリスト参照です。  
-現行の実務シート群は [L30-BAS Practical Sheets](#l30-bas-practical-sheets) を使用してください。
+注記：このリンクは現行のL30_FRM_A01監査帳票です。  
+現行の実務帳票群は [L30_FRM Practical Forms](#l30-frm-practical-sheets) を使用してください.
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
@@ -1418,11 +1390,11 @@ or positioning is welcome.
 
 - [★ Application (Usage) ｜ 適用（使用方法）](#application)  
   ※ 実務向け：運用  
-  ▶ 理解：判定結果の意味を把握｜実務：[Checklist](#civilizational-safety-checklist) ｜ [PCR-C](#paper-reference) ｜ [Minimal Incident Review Steps](#incident-review-template)
-  - [Civilizational Safety Checklist ｜ 文明安全チェックリスト](#civilizational-safety-checklist)  
-    ⚑ 即時に安全性を判定できる中核ツール
-  - [L30-BAS Practical Sheets ｜ L30-BAS 実務シート](#l30-bas-practical-sheets)  
-    ⚑ 3種の英日PDF/DOCXを使う実務導線
+  ▶ 理解：判定結果の意味を把握｜実務：[Audit Checklist](#audit-checklist) ｜ [PCR-C](#paper-reference) ｜ [Minimal Incident Review Steps](#incident-review-template)
+  - [Audit Checklist ｜ 監査チェックリスト](#audit-checklist)  
+    ⚑ 監査・境界確認に使うL30_FRM実務帳票
+  - [L30_FRM Practical Forms ｜ L30_FRM 実務帳票](#l30-frm-practical-sheets)  
+    ⚑ B01/I01/A01のDOCX/PDFを使う実務導線
   - [LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
     ⚑ チェックリスト・レビュー票・監査票をLUMINA-30中核命題へ戻す参照番地
   - [G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構](#g04-pcrc-governance-model)  
@@ -1529,3 +1501,4 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+

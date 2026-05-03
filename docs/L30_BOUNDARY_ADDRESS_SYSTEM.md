@@ -28,34 +28,34 @@ L30-BAS番地を記入しなくても、中核の境界問いが保持されて�
 | L30-BX-04 | Can procedural validity be confirmed? | Valid / Invalid / Invalid (Not Verifiable) |
 
 
-## Practical Sheet Availability ｜ 実務シートの所在
+## Practical Form Availability ｜ 実務帳票の所在
 
-The public L30-BAS v1.0 practical sheet set is available through the Overview README:
+The current public practical form set is distributed under the L30_FRM document ID system:
 
-- Boundary Check
-- Civilizational Safety Checklist
-- AI Incident Review Template
+- L30_FRM_B01: Boundary Check
+- L30_FRM_I01: Incident Review Template
+- L30_FRM_A01: Audit Checklist
 
-Each sheet family is provided as EN PDF / EN DOCX / JP PDF / JP DOCX.
+English files use the default filename. Japanese files use the _JP suffix before the file extension.
 
-L30-BAS codes are intended to support these sheets, not to replace the underlying boundary question.
+L30-BAS address codes remain reference aids. L30_FRM forms are the downloadable DOCX/PDF tools for human review, incident analysis, and audit contexts.
 
-公開用のL30-BAS v1.0実務シート群は、Overview READMEから参照できます。
+現行の公開用実務帳票群は、L30_FRM帳票ID体系で配布します。
 
-- Boundary Check
-- Civilizational Safety Checklist
-- AI Incident Review Template
+- L30_FRM_B01: Boundary Check
+- L30_FRM_I01: Incident Review Template
+- L30_FRM_A01: Audit Checklist
 
-各シート系列は、EN PDF / EN DOCX / JP PDF / JP DOCX として提供されます。
+英語版は標準ファイル名を使用し、日本語版は拡張子の直前に_JPを付けます。
 
-L30-BAS番地は、これらのシートを補助するためのものであり、根本の境界問いを置き換えるものではありません。
+L30-BAS番地は参照補助として維持します。L30_FRM帳票は、人間によるレビュー、事故分析、監査文脈で使用するDOCX/PDF配布ツールです。
 
-Reference route: [L30-BAS Practical Sheets](../README.md#l30-bas-practical-sheets)  
-Practical sheet manifest: [tools/l30-bas/README.md](../tools/l30-bas/README.md)
+Reference route: [L30_FRM Practical Forms](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md)  
+Practical form index: [L30_FRM All Forms Index](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md)
 
-The manifest makes the embedded checklist use visible in text form, so that the practical use of L30-BAS is not hidden inside PDF/DOCX files only.
+The index makes the practical form family visible in text form, so that L30_FRM use is not hidden inside PDF/DOCX files only.
 
-このマニフェストは、L30-BAS番地が実務シート内で使われていることをmd上で見える化する。これにより、L30-BASの実使用がPDF/DOCX内だけに閉じて見えない状態を避ける。
+このインデックスは、L30_FRM実務帳票群をmd上で見える化します。これにより、実務利用がPDF/DOCX内だけに閉じて見えない状態を避けます。
 
 ## Optional Code Use ｜ 番地使用は任意
 
@@ -73,7 +73,7 @@ The practical order is:
 
 実務上の順序は以下である。
 
-1. Boundary Check または該当する実務シートから開始する。
+1. Boundary Check または該当する実務帳票から開始する。
 2. 結果の記録・伝達に安定した参照番地が役立つ場合のみ、L30-BAS番地を使用する。
 3. 常に中核問いへ戻る。不可逆的影響の前に、人間の拒否権は実効的に残っていたか。
 
@@ -308,5 +308,7 @@ It does not create legal, regulatory, compliance, operational, institutional, or
 
 この文書は記述的・非規範的です。  
 法的義務、規制義務、適合義務、運用義務、制度的義務、認証義務を作るものではありません。
+
+
 
 

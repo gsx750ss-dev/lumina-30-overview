@@ -38,9 +38,9 @@ For current practical use, this note should be read together with the L30-BAS an
   Stable reference codes for connecting internal review prompts to the LUMINA-30 core question.  
   内部レビュー上の確認事項をLUMINA-30の中核問いへ接続するための安定した参照番地。
 
-- [L30-BAS Practical Sheets](../README.md#l30-bas-practical-sheets)  
+- [L30_FRM Practical Forms](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md)  
   Practical PDF and DOCX sheets for boundary checks, civilizational safety review, and AI incident review.  
-  境界チェック、文明安全レビュー、AIインシデントレビューのためのPDF版・DOCX版の実務シート。
+  境界判定、事故レビュー、監査レビューのためのPDF版・DOCX版の実務帳票。
 
 - [Practical Incident Review Repository](https://github.com/lumina-30/lumina30-incident-review)  
   Dedicated practical repository for incident review, boundary checks, and operational templates.  
@@ -82,3 +82,5 @@ for assessing whether effective human refusal remained verifiable before irrever
 
 No adoption of new policies is required.
 No regulatory reinterpretation is implied.
+
+

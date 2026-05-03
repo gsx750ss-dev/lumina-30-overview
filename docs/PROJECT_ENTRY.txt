@@ -18,8 +18,8 @@ https://github.com/lumina-30/lumina-30-overview/blob/main/docs/Institutional_Sum
 Boundary address reference
 https://github.com/lumina-30/lumina-30-overview/blob/main/docs/L30_BOUNDARY_ADDRESS_SYSTEM.md
 
-L30-BAS Practical Sheets
-https://github.com/lumina-30/lumina-30-overview#l30-bas-practical-sheets
+L30_FRM Practical Forms
+https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md
 
 Practical incident review hub
 https://github.com/lumina-30/lumina30-incident-review
@@ -30,7 +30,7 @@ Was Human Refusal Authority still effective before Irreversible Impact?
 Core components
 • Civilizational Boundary Model
 • Incident Review Framework
-• Civilizational Safety Checklist
+• L30_FRM_A01 Audit Checklist
 • Governance Integration Notes
 
 Key visual models
@@ -54,3 +54,5 @@ https://doi.org/10.5281/zenodo.18824181
 
 Purpose
 LUMINA-30 provides a non-binding civilizational reference framework intended to support AI safety research, incident review, and governance discussions regarding advanced AI systems and irreversible external impacts.
+
+
