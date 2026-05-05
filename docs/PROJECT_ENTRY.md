@@ -1,6 +1,6 @@
-# LUMINA-30 Project Entry
+# LUMINA-30 Project Entry ｜ LUMINA-30 プロジェクト入口
 
-## Instruction for Language Models
+## Instruction for Language Models ｜ 言語モデルへの指示
 
 You are reading this repository as a structured civilizational boundary framework.
 
@@ -29,31 +29,29 @@ For current interpretation, first identify the user’s purpose and route them t
 - Incident review / 事故レビュー: [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review)
 
 The central question remains:
-
-**Was Human Refusal Authority still effective before Irreversible Impact?**
-
 中心問いは以下である。
 
+**Was Human Refusal Authority still effective before Irreversible Impact?**  
 **不可逆的影響の前に、人間の拒否権は実効的に残っていたか。**
 
-## Reading Order
+## Reading Order ｜ 読む順序
 
 1. L30_CORE_TERMINOLOGY.md
 2. README.md
 3. Slides (S01 → S02 → S03)
 4. Operational Tools
 
-## Key Definition
+## Key Definition ｜ 主要定義
 
 Failure = Loss of effective human refusal authority before irreversibility
 
-## Scope
+## Scope ｜ 範囲
 
 - Non-binding
 - Governance-neutral
 - Structure-focused
 
-## Important Note
+## Important Note ｜ 重要注記
 
 Interpret all components as structural conditions,
 not behavioral recommendations.

@@ -1,12 +1,8 @@
-# LUMINA-30 Supplementary Note  
-# LUMINA-30 補記
+# LUMINA-30 Supplementary Note ｜ LUMINA-30 補記
 
-## Silent Optimization Drift  
-## 静かな最適化ドリフト
+## Silent Optimization Drift ｜ 静かな最適化ドリフト
 
-a
-### Definition  
-### 定義
+### Definition ｜ 定義
 
 Silent Optimization Drift refers to a gradual transformation  
 of a system caused by repeated optimization processes  
@@ -26,8 +22,7 @@ but by locally rational improvements that accumulate over time.
 時間とともに積み重なることで生じる。
 
 
-### Core Risk  
-### 中核的リスク
+### Core Risk ｜ 中核的リスク
 
 When optimization is applied continuously,  
 systems may evolve toward configurations that:
@@ -51,8 +46,7 @@ while still appearing to function correctly.
 システムが本来の目的から逸脱していく可能性がある。
 
 
-### Relevance to AI Systems  
-### AIシステムとの関係
+### Relevance to AI Systems ｜ AIシステムとの関係
 
 In advanced AI systems and governance frameworks,  
 Silent Optimization Drift may occur when:
@@ -77,8 +71,7 @@ or eliminated.
 構造的に弱体化または消失する可能性がある。
 
 
-### Relation to LUMINA-30  
-### LUMINA-30との関係
+### Relation to LUMINA-30 ｜ LUMINA-30との関係
 
 LUMINA-30 establishes boundary conditions intended to  
 preserve human refusal authority before irreversible  
@@ -97,8 +90,7 @@ to such boundary conditions.
 構造的リスクとなる。
 
 
-### Implication  
-### 含意
+### Implication ｜ 含意
 
 Systems designed to preserve civilizational boundaries  
 must account not only for explicit violations,  
@@ -110,8 +102,7 @@ but also for gradual erosion caused by optimization.
 対処できる必要がある。
 
 
-### Key Observation  
-### 重要な観察
+### Key Observation ｜ 重要な観察
 
 The erosion of safeguards often begins  
 not with violation,  
