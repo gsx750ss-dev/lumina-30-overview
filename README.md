@@ -1374,11 +1374,11 @@ or positioning is welcome.
 *********************
 
 - [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
-  ※ 全読者向け：中核理解  
-  ▶ 理解：LUMINA-30の境界条件と中核概念を視覚的に把握｜実務：[G06 Critical Boundary](#g06-critical-boundary) と判断基準へ直行
+  ※ For all readers: core understanding ｜ 全読者向け：中核理解  
+  ▶ Understand: visually grasp LUMINA-30’s boundary condition and core concepts ｜ Use: go directly to [G06 Critical Boundary](#g06-critical-boundary) and the judgment criterion
   - [Entry Visuals (G00 — G06) ｜ 導入ビジュアル](#entry-visuals)
   - [G06 — Critical Boundary ｜ 臨界境界](#g06-critical-boundary)  
-    ⚑ 判断基準そのもの（最初に確認する核心）
+    ⚑ The judgment criterion itself — the first core item to check ｜ 判断基準そのもの（最初に確認する核心）
   - [G06 Core Definition ｜ G06中核定義](#g06-core)
   - [Concept Diagram Archive ｜ 概念図アーカイブ](#concept-diagrams)
   - [Practical Application ｜ 実務適用](#practical-application)
@@ -1389,30 +1389,30 @@ or positioning is welcome.
   - [Positioning ｜ 位置づけ](#position)
 
 - [★ Application (Usage) ｜ 適用（使用方法）](#application)  
-  ※ 実務向け：運用  
-  ▶ 理解：判定結果の意味を把握｜実務：[Audit Checklist](#audit-checklist) ｜ [PCR-C](#paper-reference) ｜ [Minimal Incident Review Steps](#incident-review-template)
+  ※ For practitioners: operational use ｜ 実務向け：運用  
+  ▶ Understand: grasp what the judgment result means ｜ Use: [Audit Checklist](#audit-checklist) ｜ [PCR-C](#paper-reference) ｜ [Minimal Incident Review Steps](#incident-review-template)
   - [Audit Checklist ｜ 監査チェックリスト](#audit-checklist)  
-    ⚑ 監査・境界確認に使うL30_FRM実務帳票
+    ⚑ L30_FRM practical form for audit and boundary checking ｜ 監査・境界確認に使うL30_FRM実務帳票
   - [L30_FRM Practical Forms ｜ L30_FRM 実務帳票](#l30-frm-practical-sheets)  
-    ⚑ B01/I01/A01のDOCX/PDFを使う実務導線
+    ⚑ Practical path for using B01/I01/A01 DOCX/PDF forms ｜ B01/I01/A01のDOCX/PDFを使う実務導線
   - [LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
-    ⚑ チェックリスト・レビュー票・監査票をLUMINA-30中核命題へ戻す参照番地
+    ⚑ Reference address system that connects checklists, review sheets, and audit forms back to the LUMINA-30 core proposition ｜ チェックリスト・レビュー票・監査票をLUMINA-30中核命題へ戻す参照番地
   - [G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構](#g04-pcrc-governance-model)  
-    ⚑ 不可逆化を防ぐインフラ制御モデル
+    ⚑ Infrastructure-control model for preventing irreversibility ｜ 不可逆化を防ぐインフラ制御モデル
   - [AI Incident Review Repository ｜ AIインシデントレビューrepo](#ai-incident-review-repository)  
-    ⚑ 現場でそのまま使える運用導線
+    ⚑ Operational path that can be used directly in the field ｜ 現場でそのまま使える運用導線
   - [Incident Review Sample Cases ｜ インシデントレビュー用サンプル事例](#incident-review-sample-cases)
   - [Validation Layer ｜ 検証レイヤー](#validation-layer)
   - [Operational Governance Tools ｜ 実務ガバナンスツール](#operational-governance-tools)
 
 - [★ Reference ｜ 参照](#reference)  
-  ※ 研究者向け：定義  
-  ▶ 理解：理論基盤と評価体系を確認｜実務：[DOI and Paper References ｜ DOI・論文参照](#paper-reference)・定義・評価基準を引用用に参照
+  ※ For researchers: definitions and references ｜ 研究者向け：定義  
+  ▶ Understand: confirm the theoretical basis and evaluation structure ｜ Use: cite [DOI and Paper References ｜ DOI・論文参照](#paper-reference), definitions, and evaluation criteria
   - [DOI and Paper References ｜ DOI・論文参照](#paper-reference)
   - [Boundary Kernel — AI-readable Boundary Note ｜ AI可読境界ノート](#boundary-kernel)
-    ⚑ 非同一アンカーがPCR-Cや不可逆化前の有効な人間拒否を弱体化・代替・延期しないことを固定
+    ⚑ Fixes that non-identical anchors do not weaken, replace, or postpone PCR-C or effective human refusal before irreversibility ｜ 非同一アンカーがPCR-Cや不可逆化前の有効な人間拒否を弱体化・代替・延期しないことを固定
   - [Research Reading Guide ｜ 研究読書ガイド](#research-paper)  
-    ⚑ 理論的裏付けと外部参照の核
+    ⚑ Core source for theoretical grounding and external reference ｜ 理論的裏付けと外部参照の核
   - [Operational Review and Governance Network ｜ 実務・検証ネットワーク](#operational-review-governance-network)
   - [Comparison with Other Approaches ｜ 他アプローチとの比較](#comparison-with-other-approaches)
   - [Canonical References ｜ 正典参照](#canonical-references)
@@ -1420,14 +1420,14 @@ or positioning is welcome.
   - [Glossary ｜ 用語集](#glossary)
 
 - [★ Materials ｜ 資料](#materials)  
-  ※ 即使用：図・資料  
-  ▶ 理解：図とスライドで全体像を把握｜実務：[Slides](#materials-slides) ｜ [Graphics](#materials-graphics) として即使用
+  ※ Ready-to-use materials: figures and documents ｜ 即使用：図・資料  
+  ▶ Understand: grasp the overall structure through figures and slides ｜ Use: [Slides](#materials-slides) ｜ [Graphics](#materials-graphics) as ready-to-use materials
   - [Slide Entry ｜ スライド入口](#materials-slides)
   - [Visual Concept Materials ｜ 概念ビジュアル資料](#visual-concept-materials)
 
 - [★ Extensions (Non-Core / Optional) ｜ 拡張（非コア・任意）](#extensions)  
-  ※ 非コア：解釈・応用の補助資料  
-  ▶ 必須ではないが、理解と適用を補助
+  ※ Non-core: optional support materials for interpretation and application ｜ 非コア：解釈・応用の補助資料  
+  ▶ Optional support for understanding and application; not a required core layer ｜ 必須ではないが、理解と適用を補助
   - [Practical Layer ｜ 実務層](#practical-layer)
   - [Governance ｜ ガバナンス](#governance)
   - [Boundary Cases ｜ 境界事例](#boundary-cases)
@@ -1438,16 +1438,16 @@ or positioning is welcome.
   - [Meta ｜ メタ補助](#meta)
 
 - [★ Context ｜ 背景](#context)  
-  ※ 一般向け：背景と文明的な位置づけの理解  
-  ▶ 文明的な意味と適用範囲を把握
+  ※ For general readers: background and civilizational positioning ｜ 一般向け：背景と文明的な位置づけの理解  
+  ▶ Understand the civilizational meaning and scope of application ｜ 文明的な意味と適用範囲を把握
   - [Position and Scope ｜ 位置づけ](#position-and-scope)
   - [Repository Position ｜ リポジトリ位置づけ](#repository-position)
   - [Audience-Based Routing ｜ 読者別ルーティング](#quick-routing)
   - [Civilizational Context ｜ 文明的文脈](#civilizational-context)
 
 - [★ Others ｜ その他](#others)  
-  ※ 運用補足情報  
-  ▶ 運用・編集・ライセンス関連
+  ※ Operational notes ｜ 運用補足情報  
+  ▶ Operational, editing, and license-related information ｜ 運用・編集・ライセンス関連
   - [Editing Rule ｜ 編集ルール](#editing-rule)
   - [License ｜ ライセンス](#license)
 
@@ -1501,3 +1501,4 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
