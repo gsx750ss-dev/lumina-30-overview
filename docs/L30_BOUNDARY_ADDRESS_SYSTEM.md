@@ -85,6 +85,133 @@ Do not delay, invalidate, or reject a boundary review only because L30-BAS codes
 初回利用では、`L30-BX-01` から `L30-BX-04` のみを使用してください。  
 L30-BAS番地が記入されていないことだけを理由に、境界レビューを遅らせたり、無効化したり、却下したりしてはなりません。
 
+## Operational Stability Principles ｜ 運用安定性原則
+
+These principles explain how L30-BAS can remain usable across organizations, sectors, systems, and time without requiring a central managing authority.
+
+They do not make L30-BAS codes mandatory.  
+They do not turn L30-BAS into a registry, certification scheme, compliance system, approval process, or reporting authority.
+
+L30-BAS is a stable reference-key system for preserving human boundary judgments in a form that can later be searched, compared, audited, and re-examined.
+
+以下の原則は、L30-BASが中央管理主体を必要とせず、組織・業界・システム・時間を越えて使用され続けるための運用安定性を説明する。
+
+これらの原則は、L30-BAS番地の使用を必須化するものではない。  
+L30-BASを、登録簿、認証制度、適合制度、承認手続、報告機関へ変えるものでもない。
+
+L30-BASは、人間による境界判定を、後から検索・比較・監査・再検証できる形で保持するための、安定参照キー体系である。
+
+### Stable Reference-Key Principle ｜ 安定参照キー原則
+
+L30-BAS codes are stable reference keys, not certification marks.
+
+Once a core L30-BAS code is published, its meaning should not be silently changed, reused for another purpose, or deleted from later documentation.  
+If clarification is needed, explanatory notes may be added.  
+If a new condition is needed, a new code should be added.  
+If a code becomes obsolete, it should remain readable as deprecated rather than being removed.
+
+L30-BASコードは、認証マークではなく、安定参照キーである。
+
+一度公開された中核L30-BASコードの意味は、黙って変更したり、別用途に再利用したり、後続文書から削除したりしてはならない。  
+補足が必要な場合は説明を追加する。  
+新しい条件が必要な場合は新しいコードを追加する。  
+不要になったコードも削除せず、非推奨として読める状態を保つ。
+
+### Distributed Operation Principle ｜ 分散運用原則
+
+L30-BAS does not require a central managing authority.
+
+Storage location, retention period, access control, reviewer authority, sector-specific forms, and internal procedures are determined by the responsible organization under applicable law, sector rules, contracts, and security requirements.
+
+The minimum L30-BAS condition is not centralized submission.  
+The minimum condition is traceability: each boundary judgment should remain attributable, versioned, evidence-referenced, and retrievable for later review.
+
+L30-BASは、中央管理主体を必要としない。
+
+保存場所、保存期間、アクセス制御、レビュー権限、業界別フォーム、内部手順は、適用法令、業界規則、契約、セキュリティ要件に従い、責任組織が決定する。
+
+L30-BASが求める最小条件は、中央提出ではない。  
+最小条件は追跡可能性である。すなわち、各境界判定が、誰の判断か、どの版に基づくか、どの証拠を参照したか、後日取得可能かを保持することである。
+
+### Minimum Review Record Principle ｜ 最小レビュー記録原則
+
+L30-BAS does not require permanent retention of all raw evidence, logs, personal data, confidential records, or system outputs.
+
+However, a boundary review should preserve a minimum review record sufficient to reconstruct the judgment later.
+
+The minimum review record should include the following paired fields.
+
+最小レビュー記録には、以下の対応項目を含めることが望ましい。
+
+| Field ｜ 項目 | Description ｜ 説明 |
+|---|---|
+| Review ID ｜ レビューID | Identifier assigned to the boundary review ｜ 境界レビューに付与される識別子 |
+| Review date and time ｜ レビュー日時 | Date and time of the review ｜ レビューを行った日時 |
+| Issuer or responsible organization ｜ 作成者または責任組織 | Organization responsible for the review record ｜ レビュー記録に責任を持つ組織 |
+| Reviewed system or event ｜ 対象システムまたは対象事象 | System, deployment, incident, near-incident, or review target ｜ 対象となるシステム、導入、事故、準事故、またはレビュー対象 |
+| Reviewer role, named reviewer, or governing body ｜ レビュアーの役割、名前付きレビュアー、または統治主体 | Human or institutional subject to whom the final judgment is attributable ｜ 最終判定が帰属する人間または制度上の主体 |
+| L30-BAS version or source used ｜ 使用したL30-BAS版または参照元 | Version or source document used for the review ｜ レビューで使用した版または参照文書 |
+| Referenced L30-BAS codes ｜ 参照したL30-BASコード | Core codes used in the judgment ｜ 判定で使用した中核コード |
+| Result for each referenced code ｜ 各参照コードの判定結果 | Result such as satisfied, not satisfied, or not verifiable ｜ satisfied、not satisfied、not verifiable などの結果 |
+| Final L30-CI outcome ｜ 最終L30-CI結果 | Final boundary condition indicator ｜ 最終的な境界条件表示 |
+| Evidence references or evidence-location notes ｜ 証拠参照または証拠所在メモ | References, locations, hashes, summaries, or absence reasons where appropriate ｜ 必要に応じた証拠参照、所在、ハッシュ、要約、または欠落理由 |
+| Non-certification notice ｜ 非認証注記 | Statement that the record does not imply certification, compliance, approval, or absence of risk ｜ 認証、適合、承認、リスク不存在を意味しないことの注記 |
+
+If evidence cannot be retained directly, the record should preserve its location, hash, summary, retention rule, or reason for absence where appropriate.
+
+証拠本体を直接保持できない場合は、適切な範囲で、その所在、ハッシュ、要約、保存規則、または欠落理由を残すべきである。
+
+### Human Judgment and Computer Preservation Principle ｜ 人間判定・機械保管原則
+
+L30-BAS boundary judgments may be stored, searched, summarized, compared, or processed by computer systems.
+
+However, final boundary judgment should remain attributable to a human reviewer, human role, responsible organization, or governing body.  
+AI systems may assist with retrieval, summarization, comparison, contradiction detection, and evidence organization, but should not become the final authority for determining whether Human Refusal Authority was effective.
+
+L30-BASの境界判定は、コンピュータシステムによって保存、検索、要約、比較、処理されてもよい。
+
+ただし、最終的な境界判定は、人間レビュアー、人間の役割、責任組織、または統治主体に帰属していなければならない。  
+AIシステムは、検索、要約、比較、矛盾検出、証拠整理を補助してよいが、人間拒否権が実効的だったかを判断する最終主体になってはならない。
+
+### User-Created Form Principle ｜ 利用者作成フォーム原則
+
+Users, organizations, auditors, researchers, and sector-specific bodies may create their own L30-BAS-based forms.
+
+User-created forms do not require globally coordinated serial numbers.  
+They should clearly identify their issuer, domain, purpose, version, date, and the L30-BAS core codes they rely on.
+
+User-created forms must not imply certification, compliance, approval, safe harbor, official endorsement, or absence of risk.
+
+利用者、組織、監査主体、研究者、業界団体は、L30-BASに基づく独自フォームを作成できる。
+
+利用者作成フォームは、世界共通の通し番号を持つ必要はない。  
+ただし、作成者、対象領域、目的、版、日付、および参照したL30-BAS中核コードを明記すべきである。
+
+利用者作成フォームは、認証、適合、承認、免責、公式推奨、リスク不存在を意味してはならない。
+
+### Distributed Feedback Loop Principle ｜ 分散型フィードバックループ原則
+
+L30-BAS does not require a central feedback authority.
+
+Feedback loops are operated by responsible organizations, auditors, incident investigators, regulators, or other competent review bodies within their existing authority.
+
+The purpose of feedback is not to certify systems or rewrite prior judgments.  
+The purpose is to preserve traceable human boundary judgments, identify loss of refusal authority, record evidence gaps, and improve future review conditions.
+
+Historical records should remain append-only.  
+Later feedback may add findings, corrections, follow-up notes, or successor references, but must not silently modify the original boundary judgment.
+
+L30-BASは、中央のフィードバック管理主体を必要としない。
+
+フィードバックループは、責任組織、監査主体、事故調査主体、規制主体、またはその他の適格なレビュー主体が、それぞれの既存権限の範囲内で運用する。
+
+フィードバックの目的は、システムを認証したり、過去判定を書き換えたりすることではない。  
+目的は、人間による境界判定を追跡可能に保持し、人間拒否権が失われた箇所、証拠欠落、将来レビュー条件の改善点を明確化することである。
+
+過去記録はappend-onlyとして保持されるべきである。  
+後続フィードバックは、所見、訂正、追記、後継参照を追加できるが、元の境界判定を黙って変更してはならない。
+
+
 ## Code Families ｜ 番地系列
 
 | Family | Meaning | Use |
