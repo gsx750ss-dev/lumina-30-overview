@@ -36,7 +36,7 @@ The current public practical form set is distributed under the L30_FRM document 
 - L30_FRM_I01: Incident Review Template
 - L30_FRM_A01: Audit Checklist
 
-English files use the default filename. Japanese files use the _JP suffix before the file extension.
+English files use the default filename. Japanese files use the _JA language suffix before the file extension.
 
 L30-BAS address codes remain reference aids. L30_FRM forms are the downloadable DOCX/PDF tools for human review, incident analysis, and audit contexts.
 
@@ -46,7 +46,7 @@ L30-BAS address codes remain reference aids. L30_FRM forms are the downloadable 
 - L30_FRM_I01: Incident Review Template
 - L30_FRM_A01: Audit Checklist
 
-英語版は標準ファイル名を使用し、日本語版は拡張子の直前に_JPを付けます。
+英語版は標準ファイル名を使用し、日本語版は拡張子の直前に_JA言語接尾辞を付けます。
 
 L30-BAS番地は参照補助として維持します。L30_FRM帳票は、人間によるレビュー、事故分析、監査文脈で使用するDOCX/PDF配布ツールです。
 
@@ -435,3 +435,4 @@ It does not create legal, regulatory, compliance, operational, institutional, or
 
 この文書は記述的・非規範的です。  
 法的義務、規制義務、適合義務、運用義務、制度的義務、認証義務を作るものではありません。
+
