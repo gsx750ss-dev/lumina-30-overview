@@ -1229,6 +1229,33 @@ Practical Layer は、役割横断の実務棚を提供する。
 - [Unemployment Prevention](./docs/extensions/socio-economic/unemployment-prevention.md)
 - [Transition Model](./docs/extensions/socio-economic/transition-model.md)
 
+<a id="possible-extension-domains"></a>
+## Possible Extension Domains ｜ 拡張可能な適用領域
+
+The boundary structure used in LUMINA-30 may be extensible to additional domains involving irreversible human exclusion or loss of effective refusal authority.
+
+Potential examples include:
+
+- Employment displacement
+- Administrative automation
+- Financial exclusion systems
+- Medical decision automation
+- Autonomous escalation systems
+
+These are not currently treated as fully implemented operational layers.
+
+LUMINA-30で用いられる境界構造は、不可逆な人間排除、または実効的拒否権の喪失を伴う他領域にも拡張可能である。
+
+想定される例：
+
+- 雇用排除
+- 行政自動化
+- 金融排除システム
+- 医療判断の自動化
+- 自律的エスカレーション
+
+ただし、これらは現時点ではすべてが実装済みの運用レイヤーではない。
+
 <a id="signaling"></a>
 ## Signaling ｜ シグナリング
 - [Certification Mark](./docs/extensions/signaling/certification-mark.md)  
@@ -1432,6 +1459,7 @@ or positioning is welcome.
   - [Governance ｜ ガバナンス](#governance)
   - [Boundary Cases ｜ 境界事例](#boundary-cases)
   - [Socio-Economic ｜ 社会経済](#socio-economic)
+  - [Possible Extension Domains ｜ 拡張可能な適用領域](#possible-extension-domains)
   - [Signaling ｜ シグナリング](#signaling)
   - [Interpretation ｜ 解釈補助](#interpretation)
   - [Experimental ｜ 実験的補助](#experimental)
@@ -1491,6 +1519,10 @@ Use this section to choose the next destination by purpose, not to browse the wh
   For quick visual understanding, presentations, and explanatory materials.  
   視覚的理解、説明資料、プレゼン用資料を確認する場合。
 
+- [Check possible extension domains ｜ 拡張可能な適用領域を確認する](#possible-extension-domains)  
+  For confirming domains where the same boundary structure may be extended without treating them as fully implemented operational layers.  
+  同じ境界構造が拡張可能な領域を、実装済み運用レイヤーとは区別して確認する場合。
+
 - [Check optional support materials ｜ 補助資料を確認する](#extensions)  
   For supplementary paths that support, but do not replace, the core framework.  
   中核を置き換えずに補助する追加資料を確認する場合。
@@ -1501,5 +1533,3 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
-
-
