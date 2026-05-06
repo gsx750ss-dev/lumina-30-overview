@@ -1,4 +1,4 @@
-# LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系
+﻿# LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系
 
 The **LUMINA-30 Boundary Address System (L30-BAS)** is a reference-code system for applying LUMINA-30 boundary checks in practical review, audit, and post-incident contexts.
 
@@ -210,6 +210,55 @@ L30-BASは、中央のフィードバック管理主体を必要としない。
 
 過去記録はappend-onlyとして保持されるべきである。  
 後続フィードバックは、所見、訂正、追記、後継参照を追加できるが、元の境界判定を黙って変更してはならない。
+
+
+
+## Long-Term Operation Pattern Matrix ｜ 長期運用パターン・マトリクス
+
+This matrix identifies long-term operation patterns that may arise when L30-BAS is used across organizations, sectors, languages, systems, audits, incidents, and later re-reviews.
+
+The matrix is not a registry of approved use cases.  
+It is a risk-control map for keeping L30-BAS usable without a central managing authority.
+
+このマトリクスは、L30-BASが組織、業界、言語、システム、監査、事故、後年再検証を越えて使われる場合に発生しうる長期運用パターンを整理する。
+
+これは、承認済み利用例の登録簿ではない。  
+中央管理主体なしでもL30-BASを使い続けられるようにするための、運用リスク制御表である。
+
+### Pattern Classes ｜ パターン分類
+
+| Class ｜ 分類 | Operational pattern ｜ 運用パターン | Long-term concern ｜ 長期懸念 | Required response ｜ 必要な対応 |
+|---|---|---|---|
+| User and organization ｜ 利用主体 | Researchers, companies, auditors, regulators, industry bodies, courts, and AI-assisted review tools may all refer to L30-BAS. ｜ 研究者、企業、監査主体、規制主体、業界団体、裁判・紛争処理、AI補助ツールが参照しうる。 | L30-BAS may be mistaken for a centralized authority or official certification. ｜ 中央機関または公式認証と誤解される。 | Keep L30-BAS non-binding, non-certifying, and usable as a reference-key system only. ｜ 非拘束・非認証の参照キー体系としてのみ扱う。 |
+| Review timing ｜ 利用時点 | L30-BAS may be used before deployment, during procurement, after major change, during regular audit, immediately after an incident, during stabilization, or years later. ｜ 導入前、調達前、重大変更時、定期監査、事故直後、安定化中、後年再検証で使われうる。 | Different review timings may be mixed as if they had the same evidentiary status. ｜ 異なる時点のレビューが同じ証拠水準として混同される。 | Record review date, review phase, reviewer role, evidence status, and version used. ｜ レビュー日時、段階、レビュアー役割、証拠状態、使用版を記録する。 |
+| Starter forms ｜ 入口帳票 | B01, I01, and A01 provide the practical starting points for boundary check, incident review, and audit. ｜ B01/I01/A01は境界判定、事故レビュー、監査の入口である。 | Users may open detailed forms first and lose the minimal boundary question. ｜ 詳細帳票から入り、中核問いを見失う。 | Direct first-time users to B01/I01/A01 before supporting or detailed forms. ｜ 初見利用者はB01/I01/A01から開始させる。 |
+| Category patterns ｜ 区分パターン | B/I/A/G/R/S provide English base patterns for boundary, incident, audit, governance, responsibility, and stabilization forms. ｜ B/I/A/G/R/Sは境界、事故、監査、ガバナンス、責任、安定化の英語版基本パターンである。 | Users cannot create sector-specific forms if no base pattern exists. ｜ 基本パターンがないと、業界別フォームを作れない。 | Maintain English canonical base patterns for each official form family. ｜ 各公式フォーム系列に英語正本の基本パターンを維持する。 |
+| User-created forms ｜ 利用者作成フォーム | Organizations and sectors may create their own L30-BAS-based forms. ｜ 組織・業界はL30-BASに基づく独自フォームを作成できる。 | User forms may look official, certified, or centrally approved. ｜ 利用者フォームが公式・認証・中央承認済みに見える。 | Require issuer, domain, purpose, version, date, referenced codes, and non-certification notice. ｜ 作成者、領域、目的、版、日付、参照コード、非認証注記を必要とする。 |
+| Localization ｜ 各言語版 | Localized versions may be created from English canonical templates. ｜ 各言語版は英語正本テンプレートから作成されうる。 | Translation may alter fields, codes, checkboxes, or boundary terminology. ｜ 翻訳により入力欄、コード、チェックボックス、境界用語が変わる。 | Translate only human-readable text; preserve DocID, L30-BAS codes, fields, tables, layout, and controls. ｜ 人間可読テキストのみ翻訳し、DocID、L30-BASコード、入力欄、表、レイアウト、制御を維持する。 |
+| Identifier separation ｜ 識別子分離 | DocID uses `L30-FRM-*`; file names use `L30_FRM_*`. ｜ DocIDは`L30-FRM-*`、ファイル名は`L30_FRM_*`を使う。 | DocID, file name, version, and language suffix may be confused. ｜ DocID、ファイル名、版、言語接尾辞が混同される。 | Keep DocID, file name, version, and localization suffix as separate fields. ｜ DocID、ファイル名、版、ローカライズ接尾辞を別項目として扱う。 |
+| Code stability ｜ コード安定性 | Core codes such as L30-BX-01 to L30-BX-04 and L30-CI may be cited for years. ｜ L30-BX-01〜L30-BX-04、L30-CIは長期引用されうる。 | Changing, deleting, or reusing a code breaks historical records. ｜ 意味変更、削除、再利用は過去記録を壊す。 | Do not silently change, reuse, or remove published core codes; add new codes or deprecate visibly. ｜ 既公開コードを黙って変更・再利用・削除せず、新コード追加または明示的非推奨で扱う。 |
+| Record preservation ｜ 記録保存 | Records may be stored in document systems, GRC tools, incident platforms, archives, or redacted public reports. ｜ 文書管理、GRC、事故管理、アーカイブ、黒塗り公開版に保存されうる。 | Storage locations and retention rules differ by law, sector, contract, and security requirement. ｜ 保存場所・期間は法令、業界、契約、セキュリティ要件で異なる。 | L30-BAS specifies minimum traceability, not a universal storage location. ｜ L30-BASは共通保存場所ではなく、最小追跡可能性を定義する。 |
+| Evidence handling ｜ 証拠扱い | Evidence may be retained directly, referenced, hashed, summarized, redacted, or unavailable. ｜ 証拠は直接保存、参照、ハッシュ、要約、黒塗り、欠落の形を取りうる。 | Absence of evidence may be hidden or converted into a favorable result. ｜ 証拠欠落が隠され、有利な結果へ丸められる。 | Preserve evidence status and apply Not Verifiable when evidence is insufficient. ｜ 証拠状態を保持し、不十分な場合はNot Verifiableを適用する。 |
+| Human judgment ｜ 人間判定 | AI systems may assist with retrieval, summarization, contradiction detection, and comparison. ｜ AIは検索、要約、矛盾検出、比較を補助しうる。 | AI may be treated as the final authority on Human Refusal Authority. ｜ AIが人間拒否権の最終判定主体と扱われる。 | Keep final boundary judgment attributable to a human role, reviewer, organization, or governing body. ｜ 最終境界判定は人間の役割、レビュアー、組織、統治主体へ帰属させる。 |
+| Disagreement and re-review ｜ 異議・再検証 | Internal review, external audit, regulator finding, court review, or research analysis may disagree. ｜ 内部レビュー、外部監査、規制判断、裁判、研究分析で判断が割れうる。 | Later findings may overwrite the original record. ｜ 後続所見が元記録を上書きする。 | Preserve each review as an attributable append-only layer; do not silently replace original judgments. ｜ 各レビューを帰属可能な追記層として残し、元判定を黙って置換しない。 |
+| Public and internal versions ｜ 公開版・内部版 | Internal records may contain confidential, personal, security, or trade-secret information. ｜ 内部記録には機密、個人情報、セキュリティ情報、営業秘密が含まれうる。 | Public disclosure may be unsafe or unlawful; no disclosure may block accountability. ｜ 公開は危険・違法な場合があり、非公開は説明責任を妨げる場合がある。 | Separate internal record, redacted record, public summary, and hash/index record where needed. ｜ 必要に応じて内部記録、黒塗り版、公開要約、ハッシュ・索引記録を分ける。 |
+| Feedback loop ｜ フィードバック | Findings may feed future deployment review, audit design, evidence design, and incident response. ｜ 所見は将来の導入レビュー、監査設計、証拠設計、事故対応へ戻されうる。 | Feedback may become certification or retroactive rewriting. ｜ フィードバックが認証化または過去判定の書換えになる。 | Use feedback to improve future conditions while preserving historical records append-only. ｜ 過去記録を追記型で保持しつつ、将来条件の改善に使う。 |
+| Misuse and overclaim ｜ 誤用・過大主張 | L30-BAS terms may be used in marketing, legal defense, policy claims, or safety claims. ｜ L30-BAS用語が宣伝、法的防御、政策主張、安全主張に使われうる。 | L30-BAS may be presented as compliance, safe harbor, approval, or proof of no risk. ｜ 適合、免責、承認、リスク不存在の証明として示される。 | Repeat that L30-BAS is not certification, compliance, approval, safe harbor, or absence of risk. ｜ L30-BASは認証、適合、承認、免責、リスク不存在ではないことを明記する。 |
+| Machine-readable use ｜ 機械可読利用 | Records may later be converted into JSON, CSV, audit databases, or search indexes. ｜ 記録は後にJSON、CSV、監査DB、検索索引へ変換されうる。 | Free-form PDF-only records are difficult to compare across time and organizations. ｜ PDFだけの自由記述は、時間・組織横断比較が困難になる。 | Preserve a minimum review record with stable fields, codes, outcomes, evidence references, and reviewer attribution. ｜ 安定項目、コード、結果、証拠参照、レビュアー帰属を持つ最小レビュー記録を残す。 |
+
+### Universal Resolution Rule ｜ 普遍解決ルール
+
+If a future L30-BAS operational case is not explicitly listed above, resolve it by applying the following rule set:
+
+| Rule ｜ ルール | Required interpretation ｜ 必要な解釈 |
+|---|---|
+| Traceability ｜ 追跡可能性 | The boundary judgment must remain attributable, versioned, evidence-referenced, and retrievable. ｜ 境界判定は、帰属、版、証拠参照、後日取得可能性を保持する。 |
+| Non-certification ｜ 非認証性 | No L30-BAS record, code, form, or outcome should be treated as certification, compliance, approval, safe harbor, or absence of risk. ｜ L30-BASの記録、コード、帳票、結果を、認証、適合、承認、免責、リスク不存在として扱わない。 |
+| Human attribution ｜ 人間帰属 | Final boundary judgment must remain attributable to a human reviewer, human role, responsible organization, or governing body. ｜ 最終境界判定は、人間レビュアー、人間の役割、責任組織、統治主体に帰属させる。 |
+| Evidence discipline ｜ 証拠規律 | Absence or insufficiency of evidence must remain expressible as Not Verifiable, not converted into Valid. ｜ 証拠欠落または証拠不足はValidへ変換せず、Not Verifiableとして表現可能なまま残す。 |
+| Append-only correction ｜ 追記型訂正 | Later findings may add corrections or follow-up notes, but must not silently overwrite the original judgment. ｜ 後続所見は訂正や追記を追加できるが、元判定を黙って上書きしてはならない。 |
+| Local responsibility ｜ 現地責任 | Storage location, retention, access control, disclosure, and sector-specific forms are determined by the responsible organization under applicable constraints. ｜ 保存場所、保存期間、アクセス制御、開示、業界別フォームは、適用条件に従い責任組織が決める。 |
+| Core-code stability ｜ 中核コード安定性 | Published core code meanings must not be silently changed, deleted, or reused for unrelated purposes. ｜ 既公開の中核コードの意味は、黙って変更、削除、別用途再利用してはならない。 |
 
 
 ## Code Families ｜ 番地系列
