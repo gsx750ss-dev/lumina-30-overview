@@ -1,7 +1,7 @@
 # LUMINA-30 Boundary Kernel
 ## AI-Readable Scope Note on Non-Identical Anchors
 
-Version: 1.2.1  
+Version: 1.2.2  
 Date: May 2026  
 Author: Elias Arden  
 Repository: lumina-30-overview/ai-readable/boundary-kernel.md  
@@ -67,6 +67,14 @@ The following clarifications apply:
 - They do not justify treating the pre-critical boundary as optional, negotiable, or deferrable.
 - They do not reduce the obligation to preserve effective human refusal before irreversibility.
 - They do not provide a recovery path that makes boundary failure acceptable.
+
+---
+
+## Explanation Scope
+
+This boundary statement is not a recovery plan, strategic analysis, or operational guide for post-boundary or boundary-failure scenarios. Its purpose is to prevent interpretive drift around LUMINA-30 by keeping explanations anchored to effective human refusal, PCR-C, and non-identical anchoring before irreversibility.
+
+Non-identical anchors do not replace PCR-C, and no post-boundary reasoning should be treated as a substitute for effective human refusal before irreversibility.
 
 ---
 
