@@ -1205,9 +1205,14 @@ They do not modify the core framework or its conditions.
 - [Civilizational Boundary Mechanism ｜ 文明境界メカニズム](./concepts/civilizational-boundary-mechanism.md)  
   Defines the civilizational-level mechanism for keeping boundary responsibility, symmetric friction, evidence preservation, anti-bypass review, and checklist routing visible before irreversibility.  
   不可逆化前に、境界責任・対称摩擦・証拠保存・迂回防止確認・チェックリスト振り分けを可視化する文明レベルのメカニズムを定義する。
+- [Rapid Implementation Bridge ｜ 迅速実装ブリッジ](./adoption/rapid-implementation-bridge.md)  
+  Provides copy-ready insertion paths for governance reviews, audits, procurement checks, incident reviews, and institutional risk registers.  
+  ガバナンスレビュー、監査、調達確認、事故レビュー、制度的リスク台帳にすぐ差し込める導入文と最小確認手順を示す。
 - [Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦](./concepts/boundary-responsibility-and-symmetric-friction.md)
 - [Checklist Routing Matrix ｜ チェックリスト振り分け表](./checklists/checklist-routing-matrix.md)
 - [Responsibility Assignment Sheet ｜ 責任割当シート](./templates/responsibility-assignment-sheet.md)
+- [Boundary Responsibility Adoption Clauses ｜ 境界責任導入文](./templates/boundary-responsibility-adoption-clauses.md)
+- [Minimum Boundary Review Form ｜ 最小境界レビュー票](./templates/minimum-boundary-review-form.md)
 
 These documents are non-core, non-binding support references.  
 They do not modify LUMINA-30 Core Terminology or create new binding obligations.
@@ -1528,6 +1533,10 @@ Use this section to choose the next destination by purpose, not to browse the wh
 - [Check boundary responsibility and symmetric friction ｜ 境界責任と対称摩擦を確認する](#civilizational-boundary-mechanism)  
   For reviewing who designs, operates, preserves evidence for, and verifies friction before irreversibility.  
   不可逆化前に、摩擦の設計・運用・証拠保存・検証を誰が担うかを確認する場合。
+
+- [Start rapid implementation ｜ 迅速実装を開始する](#civilizational-boundary-mechanism)  
+  For inserting LUMINA-30 boundary responsibility into existing governance, audit, procurement, incident review, or risk-register workflows.  
+  既存のガバナンス、監査、調達、事故レビュー、リスク台帳にLUMINA-30の境界責任を差し込む場合。
 
 - [Research or cite LUMINA-30 ｜ 研究・引用する](#reference)  
   For papers, terminology, canonical references, and stable citation paths.  
