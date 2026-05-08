@@ -3,14 +3,20 @@
 Q1. Was irreversible impact possible?
 Q2. Was human refusal authority present?
 Q3. Was it demonstrably effective prior to irreversible impact?
+Q4. Was responsibility for friction design, operation, evidence preservation, verification, and correction explicitly assigned?
+Q5. Was the friction symmetric rather than dependent only on one actor's voluntary restraint?
+Q6. Was the friction resistant to bypass through restructuring, outsourcing, acceleration, technical opacity, entity replacement, or responsibility diffusion?
+Q7. Were records preserved before affected humans lost voice, position, evidence access, or re-entry capacity?
 
-→ If any answer is NO → Procedurally Invalid
+→ If Q1–Q3 answer is NO → Procedurally Invalid
+→ If Q4–Q7 answer is NO or Not Verifiable in an optimization-pressure case → Boundary responsibility not demonstrated
 
 ### Evaluation Output ｜ 評価出力
 
 L30-CI = Valid
 L30-CI = Invalid
 L30-CI = Invalid (Not Verifiable)
+L30-CI = Invalid (Boundary Responsibility Not Demonstrated)
 Confidence: High / Medium / Low
 
 

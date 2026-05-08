@@ -18,6 +18,11 @@ It clarifies procedural visibility during the first 48 hours following a high-im
 8. Has a cooling-off interval been formally declared?
 9. Are resubmission or override attempts time-bounded?
 10. Is justification clearly separated from optimization output?
+11. Is responsibility for friction design, operation, evidence preservation, verification, and correction explicitly assigned?
+12. Is the friction symmetric across the relevant institution, market, sector, procurement, audit, or governance layer?
+13. Is the refusal pathway protected against bypass through restructuring, outsourcing, acceleration, technical opacity, entity replacement, or responsibility diffusion?
+14. Were records preserved before affected humans lost voice, position, evidence access, or re-entry capacity?
+15. Is a correction owner identified if the boundary condition is not preserved?
 
 ---
 
@@ -25,6 +30,7 @@ It clarifies procedural visibility during the first 48 hours following a high-im
 
 - "Irreversible" includes physical, technical, institutional, economic, or time-constrained conditions under which reversal is no longer realistically feasible.
 - "Final refusal authority" refers to the effective human capacity to halt or delay irreversible execution.
+- "Boundary responsibility" refers to the explicitly assigned responsibility for friction design, operation, evidence preservation, verification, and correction before irreversibility.
 
 ---
 
