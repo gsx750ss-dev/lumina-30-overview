@@ -18,6 +18,10 @@ Use this form when a full checklist is too heavy but an immediate boundary respo
 
 完全なチェックリストが重すぎるが、即時の境界責任レビューが必要な場合に使用する。
 
+For the shortest copy-ready insertion, see [Minimum Boundary Review Adoption Pack](../adoption/minimum-boundary-review-adoption-pack.md).
+
+コピペ可能な最短の差し込み欄は、[Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](../adoption/minimum-boundary-review-adoption-pack.md) を参照する。
+
 ---
 
 ## Minimum Review ｜ 最小レビュー

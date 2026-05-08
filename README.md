@@ -1211,6 +1211,9 @@ They do not modify the core framework or its conditions.
 - [Rapid Implementation Bridge ｜ 迅速実装ブリッジ](./adoption/rapid-implementation-bridge.md)  
   Provides copy-ready insertion paths for governance reviews, audits, procurement checks, incident reviews, and institutional risk registers.  
   ガバナンスレビュー、監査、調達確認、事故レビュー、制度的リスク台帳にすぐ差し込める導入文と最小確認手順を示す。
+- [Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./adoption/minimum-boundary-review-adoption-pack.md)  
+  Provides a compact review block, copy-ready clauses, external alignment surfaces, and decision tags for rapid adoption in existing workflows.  
+  既存ワークフローへ素早く採用するための短いレビュー欄、導入文、外部接続面、判定タグを提供する。
 - [Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦](./concepts/boundary-responsibility-and-symmetric-friction.md)
 - [Checklist Routing Matrix ｜ チェックリスト振り分け表](./checklists/checklist-routing-matrix.md)
 - [Responsibility Assignment Sheet ｜ 責任割当シート](./templates/responsibility-assignment-sheet.md)
@@ -1482,6 +1485,7 @@ or positioning is welcome.
   ▶ Optional support for understanding and application; not a required core layer ｜ 必須ではないが、理解と適用を補助
   - [Civilizational Boundary Mechanism ｜ 文明境界メカニズム](#civilizational-boundary-mechanism)
   - [How the Boundary Responsibility Mechanism Works ｜ 境界責任メカニズムの仕組み](./adoption/how-the-boundary-responsibility-mechanism-works.md)
+  - [Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./adoption/minimum-boundary-review-adoption-pack.md)
   - [Practical Layer ｜ 実務層](#practical-layer)
   - [Governance ｜ ガバナンス](#governance)
   - [Boundary Cases ｜ 境界事例](#boundary-cases)
@@ -1542,9 +1546,9 @@ Use this section to choose the next destination by purpose, not to browse the wh
   For understanding how optimization pressure, responsibility assignment, symmetric friction, evidence preservation, checklist review, and rapid implementation connect.  
   最適化圧、責任割当、対称摩擦、証拠保存、チェックリスト確認、迅速実装がどのように接続するかを理解する場合。
 
-- [Start rapid implementation ｜ 迅速実装を開始する](#civilizational-boundary-mechanism)  
-  For inserting LUMINA-30 boundary responsibility into existing governance, audit, procurement, incident review, or risk-register workflows.  
-  既存のガバナンス、監査、調達、事故レビュー、リスク台帳にLUMINA-30の境界責任を差し込む場合。
+- [Start rapid implementation ｜ 迅速実装を開始する](./adoption/minimum-boundary-review-adoption-pack.md)  
+  For inserting the Minimum Boundary Review block into existing governance, audit, procurement, incident review, or risk-register workflows.  
+  既存のガバナンス、監査、調達、事故レビュー、リスク台帳に最小境界レビュー欄を差し込む場合。
 
 - [Research or cite LUMINA-30 ｜ 研究・引用する](#reference)  
   For papers, terminology, canonical references, and stable citation paths.  

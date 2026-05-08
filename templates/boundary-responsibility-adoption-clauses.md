@@ -20,6 +20,14 @@ LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成し�
 
 ---
 
+## Minimum Boundary Review Block ｜ 最小境界レビュー欄
+
+> This workflow includes a Minimum Boundary Review: identify the possible irreversible consequence, the practical refusal or correction path before that consequence, the assigned boundary responsibility, the anti-bypass evidence, and the reviewable evidence supporting the finding.
+
+> 本ワークフローは、最小境界レビューを含む。すなわち、起こりうる不可逆的結果、その前の実効的な拒否または修正経路、割り当てられた境界責任、迂回防止の証拠、判定を支える検証可能な証拠を確認する。
+
+---
+
 ## AI Governance Review Clause ｜ AIガバナンスレビュー用
 
 > This review includes a LUMINA-30 boundary responsibility check: whether optimization pressure could eliminate practical human refusal, correction, transition, recovery, or rollback before irreversibility, and whether responsibility for preserving those conditions has been assigned.

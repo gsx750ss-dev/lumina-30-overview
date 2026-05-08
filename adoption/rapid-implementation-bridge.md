@@ -32,6 +32,12 @@ LUMINA-30を現実に素早く実装する最短経路は、新しい法制度�
 
 > 最適化主導の導入が進む前に、不可逆化前の有効な人間拒否・修正・移行・回復・再参入を保存する責任は割り当てられているか。
 
+For the smallest external adoption unit, use [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.md).
+It provides a compact review block, copy-ready clauses, alignment surfaces, and decision tags.
+
+外部採用向けの最小単位としては、[Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./minimum-boundary-review-adoption-pack.md) を使用する。
+短いレビュー欄、導入文、接続先の参照面、判定タグを提供する。
+
 ---
 
 ## Rapid Adoption Rule ｜ 迅速導入ルール
@@ -126,7 +132,7 @@ External reference surfaces ｜ 外部参照面:
 - [ISO/IEC 42001 AI management system](https://www.iso.org/standard/42001)  
   AI management system reference surface.  
   AIマネジメントシステムの参照面。
-- [OECD AI Incidents and Hazards Monitor](https://oecd.ai/en/incidents)  
+- [OECD AI risks and incidents](https://www.oecd.org/en/topics/ai-risks-and-incidents)  
   AI incident and hazard monitoring reference surface.  
   AIインシデント・ハザード監視の参照面。
 - [EU AI Act Article 27 fundamental rights impact assessment](https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=en)  
@@ -190,4 +196,3 @@ The immediate goal is that reviewers, auditors, policy staff, procurement office
 
 直近の目標は、LUMINA-30文書群全体の世界的採用ではない。
 直近の目標は、レビュー担当者、監査者、政策担当者、調達担当者、AIガバナンスチーム、研究者、事故調査者が、既存ワークフローに境界責任質問を1つ追加できる状態にすることである。
-
