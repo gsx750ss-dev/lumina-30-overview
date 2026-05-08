@@ -1,7 +1,6 @@
 <!-- Formal filename: lumina-30-overview/checklists/checklist-routing-matrix.md -->
 
-# Checklist Routing Matrix
-# チェックリスト振り分け表
+# Checklist Routing Matrix ｜ チェックリスト振り分け表
 
 ## Status ｜ 位置づけ
 

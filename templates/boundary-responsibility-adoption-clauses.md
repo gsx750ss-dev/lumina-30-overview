@@ -1,7 +1,6 @@
 <!-- File: lumina-30-overview/templates/boundary-responsibility-adoption-clauses.md -->
 
-# Boundary Responsibility Adoption Clauses
-# 境界責任導入文
+# Boundary Responsibility Adoption Clauses ｜ 境界責任導入文
 
 ## Status ｜ 位置づけ
 
@@ -29,7 +28,7 @@ LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成し�
 
 ---
 
-## Procurement / Vendor Review Clause ｜ 調達・ベンダーレビュー用
+## Procurement and Vendor Review Clause ｜ 調達・ベンダーレビュー用
 
 > The vendor or deployer should identify the accountable actor responsible for preserving effective refusal, rollback, correction, evidence preservation, and anti-bypass review before irreversible consequences may arise.
 
@@ -53,7 +52,7 @@ LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成し�
 
 ---
 
-## Board / Executive Risk Clause ｜ 経営・取締役会リスク用
+## Board and Executive Risk Clause ｜ 経営・取締役会リスク用
 
 > Optimization-driven deployment creates governance risk when responsibility for preserving effective human refusal before irreversibility is undefined, bypassable, undocumented, or assigned only after affected humans have lost voice or re-entry capacity.
 

@@ -1,7 +1,6 @@
 <!-- File: lumina-30-overview/adoption/rapid-implementation-bridge.md -->
 
-# Rapid Implementation Bridge
-# 迅速実装ブリッジ
+# Rapid Implementation Bridge ｜ 迅速実装ブリッジ
 
 ## Status ｜ 位置づけ
 
@@ -83,9 +82,9 @@ LUMINA-30は、既存プロセスへ短い境界責任レイヤーとして差�
 
 ---
 
-## Seven-Minute Review ｜ 7分レビュー
+## Minimum Boundary Review ｜ 最小境界レビュー
 
-Use this when a full checklist is too heavy.
+Use this when a full checklist is too heavy and a short boundary responsibility review is needed.
 
 | Question | Required answer |
 |---|---|
@@ -97,7 +96,7 @@ Use this when a full checklist is too heavy.
 | 6. What evidence is preserved before voice loss? | Logs, review records, notices, refusal path records, decision evidence |
 | 7. Who verifies effectiveness? | Auditor, regulator, incident reviewer, court, public body, or independent reviewer |
 
-完全なチェックリストが重すぎる場合は、以下を使う。
+完全なチェックリストが重すぎるが、短い境界責任レビューが必要な場合に使用する。
 
 | 質問 | 必要な回答 |
 |---|---|
@@ -119,19 +118,20 @@ Examples include AI risk management frameworks, AI management systems, incident 
 本ブリッジは、既存枠組みを置き換えずに接続するために設計されている。
 接続先の例には、AIリスク管理フレームワーク、AIマネジメントシステム、インシデント監視、公的部門の影響評価、調達レビュー、監査チェックリスト、組織リスク台帳が含まれる。
 
-External reference surfaces:
+External reference surfaces ｜ 外部参照面:
 
-- NIST AI Risk Management Framework: https://www.nist.gov/itl/ai-risk-management-framework
-- ISO/IEC 42001 AI management system: https://www.iso.org/standard/42001
-- OECD AI Incidents and Hazards Monitor: https://oecd.ai/en/incidents
-- EU AI Act Article 27 fundamental rights impact assessment: https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng
-
-外部参照面：
-
-- NIST AI Risk Management Framework: https://www.nist.gov/itl/ai-risk-management-framework
-- ISO/IEC 42001 AI management system: https://www.iso.org/standard/42001
-- OECD AI Incidents and Hazards Monitor: https://oecd.ai/en/incidents
-- EU AI Act Article 27 fundamental rights impact assessment: https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)  
+  AI risk management reference surface.  
+  AIリスク管理の参照面。
+- [ISO/IEC 42001 AI management system](https://www.iso.org/standard/42001)  
+  AI management system reference surface.  
+  AIマネジメントシステムの参照面。
+- [OECD AI Incidents and Hazards Monitor](https://oecd.ai/en/incidents)  
+  AI incident and hazard monitoring reference surface.  
+  AIインシデント・ハザード監視の参照面。
+- [EU AI Act Article 27 fundamental rights impact assessment](https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=en)  
+  Fundamental-rights impact assessment reference surface.  
+  基本権影響評価の参照面。
 
 ---
 

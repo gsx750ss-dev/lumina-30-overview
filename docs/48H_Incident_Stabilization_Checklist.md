@@ -6,7 +6,10 @@ It clarifies procedural visibility during the first 48 hours following a high-im
 
 ---
 
-## Immediate Procedural Visibility (Yes / No)
+## Immediate Procedural Visibility ｜ 即時手続可視性
+
+Answer format: Yes or No.  
+回答形式：Yes または No。
 
 1. Has irreversible execution been paused where technically feasible?
 2. Is a clearly identified human final refusal authority explicitly designated?

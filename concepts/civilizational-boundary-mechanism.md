@@ -1,7 +1,6 @@
 <!-- Formal filename: lumina-30-overview/concepts/civilizational-boundary-mechanism.md -->
 
-# Civilizational Boundary Mechanism
-# 文明境界メカニズム
+# Civilizational Boundary Mechanism ｜ 文明境界メカニズム
 
 ## Status ｜ 位置づけ
 
@@ -87,7 +86,7 @@ The later absence of complaint must not be treated as evidence of consent, recov
 
 Affected humans may lose voice, status, records, organization, or re-entry capacity after displacement. Therefore, reviewable evidence must be preserved before such loss occurs.
 
-後日の申立が存在しないことを、同意・回復・手続き的妥当性の証拠として扱ってはならない。
+後日の申立が存在しないことを、同意・回復・手続的妥当性の証拠として扱ってはならない。
 
 影響を受ける人間は、排除後に、声・地位・記録・組織化能力・再参入能力を失いうる。したがって、その喪失が起こる前に、検証可能な証拠が保存されなければならない。
 

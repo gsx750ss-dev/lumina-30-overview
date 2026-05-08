@@ -1,7 +1,6 @@
 <!-- File: lumina-30-overview/templates/minimum-boundary-review-form.md -->
 
-# Minimum Boundary Review Form
-# 最小境界レビュー票
+# Minimum Boundary Review Form ｜ 最小境界レビュー票
 
 ## Status ｜ 位置づけ
 
@@ -25,23 +24,23 @@ Use this form when a full checklist is too heavy but an immediate boundary respo
 
 | Item | Answer |
 |---|---|
-| System / deployment / decision under review |  |
-| Reviewing organization / person |  |
+| System, deployment, or decision under review |  |
+| Reviewing organization or person |  |
 | Date |  |
 | Domain |  |
 | Optimization pressure involved |  |
 | Possible irreversible consequence |  |
-| Affected humans / groups / institutions |  |
+| Affected humans, groups, or institutions |  |
 | Practical refusal path before irreversibility |  |
-| Practical correction / transition / recovery / rollback path |  |
+| Practical correction, transition, recovery, or rollback path |  |
 | Friction design owner |  |
 | Friction operator |  |
 | Evidence preservation owner |  |
 | Verification owner |  |
-| Correction / escalation owner |  |
+| Correction or escalation owner |  |
 | Anti-bypass concern |  |
 | Relevant LUMINA-30 checklist type |  |
-| Initial result | Effective / Not effective / Insufficient evidence / Not applicable |
+| Initial result | Effective, Not effective, Insufficient evidence, or Not applicable |
 
 | 項目 | 回答 |
 |---|---|
@@ -61,7 +60,7 @@ Use this form when a full checklist is too heavy but an immediate boundary respo
 | 是正・エスカレーション責任者 |  |
 | 迂回防止上の懸念 |  |
 | 関連するLUMINA-30チェックリスト種別 |  |
-| 初期結果 | Effective / Not effective / Insufficient evidence / Not applicable |
+| 初期結果 | Effective, Not effective, Insufficient evidence, or Not applicable |
 
 ---
 

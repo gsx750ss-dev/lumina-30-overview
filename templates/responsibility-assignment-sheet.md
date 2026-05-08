@@ -1,7 +1,6 @@
 <!-- Formal filename: lumina-30-overview/templates/responsibility-assignment-sheet.md -->
 
-# Responsibility Assignment Sheet
-# 責任割当シート
+# Responsibility Assignment Sheet ｜ 責任割当シート
 
 ## Status ｜ 位置づけ
 
@@ -191,7 +190,7 @@ If any required responsibility remains unassigned, the boundary condition is not
 
 ## 8. Evidence Before Voice Loss ｜ 声を失う前の証拠
 
-| Evidence type | Preserved? | Location / custodian |
+| Evidence type | Preserved? | Location or custodian |
 |---|---|---|
 | Notice before irreversible effect |  |  |
 | Record of affected humans or institutions |  |  |

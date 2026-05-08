@@ -1,7 +1,6 @@
 <!-- Formal filename: lumina-30-overview/concepts/boundary-responsibility-and-symmetric-friction.md -->
 
-# Boundary Responsibility and Symmetric Friction
-# 境界責任と対称摩擦
+# Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦
 
 ## Status ｜ 位置づけ
 

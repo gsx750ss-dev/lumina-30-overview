@@ -1205,6 +1205,9 @@ They do not modify the core framework or its conditions.
 - [Civilizational Boundary Mechanism ｜ 文明境界メカニズム](./concepts/civilizational-boundary-mechanism.md)  
   Defines the civilizational-level mechanism for keeping boundary responsibility, symmetric friction, evidence preservation, anti-bypass review, and checklist routing visible before irreversibility.  
   不可逆化前に、境界責任・対称摩擦・証拠保存・迂回防止確認・チェックリスト振り分けを可視化する文明レベルのメカニズムを定義する。
+- [How the Boundary Responsibility Mechanism Works ｜ 境界責任メカニズムの仕組み](./adoption/how-the-boundary-responsibility-mechanism-works.md)  
+  Explains the full flow from optimization pressure to responsibility assignment, symmetric friction, evidence preservation, checklist review, and rapid implementation.  
+  最適化圧から、責任割当、対称摩擦、証拠保存、チェックリスト確認、迅速実装までの全体の流れを説明する。
 - [Rapid Implementation Bridge ｜ 迅速実装ブリッジ](./adoption/rapid-implementation-bridge.md)  
   Provides copy-ready insertion paths for governance reviews, audits, procurement checks, incident reviews, and institutional risk registers.  
   ガバナンスレビュー、監査、調達確認、事故レビュー、制度的リスク台帳にすぐ差し込める導入文と最小確認手順を示す。
@@ -1478,6 +1481,7 @@ or positioning is welcome.
   ※ Non-core: optional support materials for interpretation and application ｜ 非コア：解釈・応用の補助資料  
   ▶ Optional support for understanding and application; not a required core layer ｜ 必須ではないが、理解と適用を補助
   - [Civilizational Boundary Mechanism ｜ 文明境界メカニズム](#civilizational-boundary-mechanism)
+  - [How the Boundary Responsibility Mechanism Works ｜ 境界責任メカニズムの仕組み](./adoption/how-the-boundary-responsibility-mechanism-works.md)
   - [Practical Layer ｜ 実務層](#practical-layer)
   - [Governance ｜ ガバナンス](#governance)
   - [Boundary Cases ｜ 境界事例](#boundary-cases)
@@ -1533,6 +1537,10 @@ Use this section to choose the next destination by purpose, not to browse the wh
 - [Check boundary responsibility and symmetric friction ｜ 境界責任と対称摩擦を確認する](#civilizational-boundary-mechanism)  
   For reviewing who designs, operates, preserves evidence for, and verifies friction before irreversibility.  
   不可逆化前に、摩擦の設計・運用・証拠保存・検証を誰が担うかを確認する場合。
+
+- [Understand how the mechanism works ｜ 仕組み全体を理解する](./adoption/how-the-boundary-responsibility-mechanism-works.md)  
+  For understanding how optimization pressure, responsibility assignment, symmetric friction, evidence preservation, checklist review, and rapid implementation connect.  
+  最適化圧、責任割当、対称摩擦、証拠保存、チェックリスト確認、迅速実装がどのように接続するかを理解する場合。
 
 - [Start rapid implementation ｜ 迅速実装を開始する](#civilizational-boundary-mechanism)  
   For inserting LUMINA-30 boundary responsibility into existing governance, audit, procurement, incident review, or risk-register workflows.  
