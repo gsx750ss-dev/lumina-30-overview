@@ -17,6 +17,10 @@ It is a non-binding LUMINA-30 reference for assigning responsibility before boun
 
 本資料は、境界失敗が起こる前に責任を割り当てるための、LUMINA-30の非拘束参照資料である。
 
+This document does not modify LUMINA-30 Core Terminology or create new binding obligations.
+
+本資料は、LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。
+
 ---
 
 ## Core Principle ｜ 中核原則

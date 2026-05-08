@@ -1198,6 +1198,23 @@ They do not modify the core framework or its conditions.
 これらの資料は解釈および適用文脈を補助するものです。  
 コアフレームワークおよびその条件を変更するものではありません。
 
+
+<a id="civilizational-boundary-mechanism"></a>
+## Civilizational Boundary Mechanism ｜ 文明境界メカニズム
+
+- [Civilizational Boundary Mechanism ｜ 文明境界メカニズム](./concepts/civilizational-boundary-mechanism.md)  
+  Defines the civilizational-level mechanism for keeping boundary responsibility, symmetric friction, evidence preservation, anti-bypass review, and checklist routing visible before irreversibility.  
+  不可逆化前に、境界責任・対称摩擦・証拠保存・迂回防止確認・チェックリスト振り分けを可視化する文明レベルのメカニズムを定義する。
+- [Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦](./concepts/boundary-responsibility-and-symmetric-friction.md)
+- [Checklist Routing Matrix ｜ チェックリスト振り分け表](./checklists/checklist-routing-matrix.md)
+- [Responsibility Assignment Sheet ｜ 責任割当シート](./templates/responsibility-assignment-sheet.md)
+
+These documents are non-core, non-binding support references.  
+They do not modify LUMINA-30 Core Terminology or create new binding obligations.
+
+これらの資料は、非コア・非拘束の補助参照資料である。  
+LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。
+
 <a id="practical-layer"></a>
 ## Practical Layer ｜ 実務層
 - [Practical Layer ｜ 実務層](./extensions/practical-layer/)
@@ -1455,6 +1472,7 @@ or positioning is welcome.
 - [★ Extensions (Non-Core / Optional) ｜ 拡張（非コア・任意）](#extensions)  
   ※ Non-core: optional support materials for interpretation and application ｜ 非コア：解釈・応用の補助資料  
   ▶ Optional support for understanding and application; not a required core layer ｜ 必須ではないが、理解と適用を補助
+  - [Civilizational Boundary Mechanism ｜ 文明境界メカニズム](#civilizational-boundary-mechanism)
   - [Practical Layer ｜ 実務層](#practical-layer)
   - [Governance ｜ ガバナンス](#governance)
   - [Boundary Cases ｜ 境界事例](#boundary-cases)
@@ -1506,6 +1524,10 @@ Use this section to choose the next destination by purpose, not to browse the wh
 - [Check governance and responsibility ｜ ガバナンスと責任構造を確認する](#operational-governance-tools)  
   For policy, audit, institutional responsibility, and procedural review contexts.  
   政策、監査、制度責任、手続きレビューの文脈で確認する場合。
+
+- [Check boundary responsibility and symmetric friction ｜ 境界責任と対称摩擦を確認する](#civilizational-boundary-mechanism)  
+  For reviewing who designs, operates, preserves evidence for, and verifies friction before irreversibility.  
+  不可逆化前に、摩擦の設計・運用・証拠保存・検証を誰が担うかを確認する場合。
 
 - [Research or cite LUMINA-30 ｜ 研究・引用する](#reference)  
   For papers, terminology, canonical references, and stable citation paths.  

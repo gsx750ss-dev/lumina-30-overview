@@ -17,6 +17,10 @@ It helps determine what kind of boundary evidence must be checked before irrever
 
 本表は、不可逆化前にどの種類の境界証拠を確認すべきかを判断する補助となる。
 
+This document does not modify LUMINA-30 Core Terminology or create new binding obligations.
+
+本資料は、LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。
+
 ---
 
 ## Routing Logic ｜ 振り分けの考え方

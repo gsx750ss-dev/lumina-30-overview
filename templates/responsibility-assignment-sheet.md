@@ -17,6 +17,10 @@ It is intended to prevent responsibility for friction design, operation, evidenc
 
 本シートは、摩擦の設計・運用・証拠保存・検証・是正に関する責任が未定義のまま放置されることを防ぐために用いる。
 
+This document does not modify LUMINA-30 Core Terminology or create new binding obligations.
+
+本資料は、LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。
+
 ---
 
 ## 1. Case Identification ｜ 事例識別

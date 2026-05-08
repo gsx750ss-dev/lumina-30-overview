@@ -17,6 +17,10 @@ Its purpose is to define a civilizational-level boundary mechanism for cases in 
 
 本資料の目的は、最適化圧によって、不可逆的結果が生じる前に、人間の拒否・修正・移行・回復・再参入の実効条件が失われる可能性がある場合に用いる、文明レベルの境界メカニズムを定義することである。
 
+This document does not modify LUMINA-30 Core Terminology or create new binding obligations.
+
+本資料は、LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。
+
 ---
 
 ## Core Definition ｜ 中核定義
