@@ -83,8 +83,12 @@ Use the following block when only one short insertion is possible.
 This pack does not replace existing frameworks.
 It adds a boundary-responsibility question to them.
 
+For a fuller mapping table, see [Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.md).
+
 本パックは既存枠組みを置き換えない。
 既存枠組みに境界責任の問いを追加する。
+
+より詳細な対応表は、[Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.md) を参照する。
 
 | External surface | Where LUMINA-30 can be inserted |
 |---|---|
@@ -153,6 +157,14 @@ Use it as a minimal boundary review layer inside those systems.
 3. 推定ではなく、検証可能な証拠を求める。
 4. 高リスク事例は、関連するLUMINA-30チェックリスト種別へ接続する。
 5. 境界責任が示されたかを記録する。
+
+---
+
+## Related Mapping ｜ 関連する対応表
+
+Use [Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.md) when the reader needs to map this adoption pack to existing AI risk management, AI management system, incident reporting, impact assessment, procurement, audit, or risk-register surfaces.
+
+本導入パックを、既存のAIリスク管理、AIマネジメントシステム、インシデント報告、影響評価、調達、監査、リスク台帳のレビュー面に対応づける必要がある場合は、[Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.md) を使用する。
 
 ---
 

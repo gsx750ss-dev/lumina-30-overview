@@ -1214,6 +1214,9 @@ They do not modify the core framework or its conditions.
 - [Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./adoption/minimum-boundary-review-adoption-pack.md)  
   Provides a compact review block, copy-ready clauses, external alignment surfaces, and decision tags for rapid adoption in existing workflows.  
   既存ワークフローへ素早く採用するための短いレビュー欄、導入文、外部接続面、判定タグを提供する。
+- [Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表](./adoption/minimum-boundary-review-external-crosswalk.md)  
+  Maps the Minimum Boundary Review to existing AI risk management, AI management system, incident reporting, impact assessment, procurement, audit, and risk-register surfaces.  
+  最小境界レビューを、既存のAIリスク管理、AIマネジメントシステム、インシデント報告、影響評価、調達、監査、リスク台帳のレビュー面へ対応づける。
 - [Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦](./concepts/boundary-responsibility-and-symmetric-friction.md)
 - [Checklist Routing Matrix ｜ チェックリスト振り分け表](./checklists/checklist-routing-matrix.md)
 - [Responsibility Assignment Sheet ｜ 責任割当シート](./templates/responsibility-assignment-sheet.md)
@@ -1486,6 +1489,7 @@ or positioning is welcome.
   - [Civilizational Boundary Mechanism ｜ 文明境界メカニズム](#civilizational-boundary-mechanism)
   - [How the Boundary Responsibility Mechanism Works ｜ 境界責任メカニズムの仕組み](./adoption/how-the-boundary-responsibility-mechanism-works.md)
   - [Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./adoption/minimum-boundary-review-adoption-pack.md)
+  - [Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表](./adoption/minimum-boundary-review-external-crosswalk.md)
   - [Practical Layer ｜ 実務層](#practical-layer)
   - [Governance ｜ ガバナンス](#governance)
   - [Boundary Cases ｜ 境界事例](#boundary-cases)
@@ -1549,6 +1553,10 @@ Use this section to choose the next destination by purpose, not to browse the wh
 - [Start rapid implementation ｜ 迅速実装を開始する](./adoption/minimum-boundary-review-adoption-pack.md)  
   For inserting the Minimum Boundary Review block into existing governance, audit, procurement, incident review, or risk-register workflows.  
   既存のガバナンス、監査、調達、事故レビュー、リスク台帳に最小境界レビュー欄を差し込む場合。
+
+- [Map to existing frameworks ｜ 既存枠組みへ対応づける](./adoption/minimum-boundary-review-external-crosswalk.md)  
+  For identifying where the Minimum Boundary Review can be inserted into existing AI risk management, audit, procurement, incident reporting, impact assessment, or risk-register surfaces.  
+  最小境界レビューを既存のAIリスク管理、監査、調達、インシデント報告、影響評価、リスク台帳のどこへ差し込むかを確認する場合。
 
 - [Research or cite LUMINA-30 ｜ 研究・引用する](#reference)  
   For papers, terminology, canonical references, and stable citation paths.  

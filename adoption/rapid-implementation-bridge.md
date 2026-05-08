@@ -32,11 +32,15 @@ LUMINA-30を現実に素早く実装する最短経路は、新しい法制度�
 
 > 最適化主導の導入が進む前に、不可逆化前の有効な人間拒否・修正・移行・回復・再参入を保存する責任は割り当てられているか。
 
-For the smallest external adoption unit, use [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.md).
+For the smallest external adoption unit, use [Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./minimum-boundary-review-adoption-pack.md).
 It provides a compact review block, copy-ready clauses, alignment surfaces, and decision tags.
+
+Use [Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.md) when the reader needs to map the review block to existing AI risk management, AI management system, incident reporting, impact assessment, procurement, audit, or risk-register surfaces.
 
 外部採用向けの最小単位としては、[Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./minimum-boundary-review-adoption-pack.md) を使用する。
 短いレビュー欄、導入文、接続先の参照面、判定タグを提供する。
+
+既存のAIリスク管理、AIマネジメントシステム、インシデント報告、影響評価、調達、監査、リスク台帳のどこにレビュー欄を対応づけるかを確認する場合は、[Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.md) を使用する。
 
 ---
 
@@ -123,6 +127,10 @@ Examples include AI risk management frameworks, AI management systems, incident 
 
 本ブリッジは、既存枠組みを置き換えずに接続するために設計されている。
 接続先の例には、AIリスク管理フレームワーク、AIマネジメントシステム、インシデント監視、公的部門の影響評価、調達レビュー、監査チェックリスト、組織リスク台帳が含まれる。
+
+For a compact mapping table, see [Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.md).
+
+外部参照面への簡潔な対応表は、[Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.md) を参照する。
 
 External reference surfaces ｜ 外部参照面:
 
