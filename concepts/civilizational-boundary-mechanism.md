@@ -6,13 +6,13 @@
 
 This document is a non-binding conceptual and operational reference within LUMINA-30.
 
-It does not prescribe a specific law, policy, employment rule, technical control, institutional design, sanction, or compensation scheme.
+It does not prescribe specific legal, policy, technical, institutional, sanctioning, or remedial mechanisms.
 
 Its purpose is to define a civilizational-level boundary mechanism for cases in which optimization pressure may eliminate the practical conditions for human refusal, correction, transition, recovery, or re-entry before irreversible consequences occur.
 
 本資料は、LUMINA-30における非拘束の概念的・運用的参照資料である。
 
-本資料は、特定の法律・政策・雇用規則・技術制御・制度設計・制裁・補償制度を命令しない。
+本資料は、特定の法律・政策・技術・制度・制裁・救済メカニズムを命令しない。
 
 本資料の目的は、最適化圧によって、不可逆的結果が生じる前に、人間の拒否・修正・移行・回復・再参入の実効条件が失われる可能性がある場合に用いる、文明レベルの境界メカニズムを定義することである。
 
@@ -64,11 +64,11 @@ A missing responsibility assignment is itself a boundary risk.
 
 Friction that disadvantages only responsible actors cannot survive long-term competitive pressure.
 
-Where optimization pressure operates through market, institutional, or geopolitical competition, friction must be designed at the appropriate shared layer: market access, procurement, insurance, audit, certification, standards, regulation, or international coordination.
+Where optimization pressure operates through market, institutional, or geopolitical competition, friction should be placed at the appropriate shared layer: market access, procurement, insurance, audit, certification, standards, regulation, or international coordination.
 
 責任ある主体だけを不利にする摩擦は、長期的な競争圧に耐えられない。
 
-最適化圧が市場・制度・地政学的競争を通じて働く場合、摩擦は、市場参加条件・調達条件・保険条件・監査条件・認証条件・標準化条件・規制・国際調整など、適切な共有層に設計されなければならない。
+最適化圧が市場・制度・地政学的競争を通じて働く場合、摩擦は、市場参加条件・調達条件・保険条件・監査条件・認証条件・標準化条件・規制・国際調整など、適切な共有層に配置されるべきである。
 
 ### 4. Bypass Does Not Reset Responsibility ｜ 迂回しても責任は消えない
 
@@ -169,3 +169,4 @@ It preserves the civilizational condition under which humans can still refuse, c
 文明境界メカニズムは、最適化圧が不可逆化前に有効な人間拒否を消滅させうる場面で、摩擦に関する責任が未定義のまま放置されることを防ぐ。
 
 本メカニズムは、最適化主導の固定化が起こる前に、人間がなお拒否・修正・移行・回復・再参入できる文明的条件を保存する。
+

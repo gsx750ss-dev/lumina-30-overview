@@ -143,9 +143,9 @@ It should remain a boundary reference that tells institutions what must not rema
 Do not ask LUMINA-30 to decide:
 
 - the exact law;
-- the compensation amount;
+- the detailed allocation of remedies or transition costs;
 - the sector-specific technical control;
-- the employment rule;
+- the domain-specific operational rule;
 - the detailed procurement standard;
 - the exact enforcement body.
 
@@ -157,7 +157,7 @@ Ask LUMINA-30 to identify:
 - whether evidence is preserved;
 - whether friction is symmetric;
 - whether bypass routes defeat the mechanism;
-- whether a competent institution must design the domain-specific friction.
+- whether responsibility for domain-specific friction design belongs to a competent institution.
 
 LUMINA-30は詳細な政策パッケージになってはならない。
 制度側に何を未定義のまま残してはならないかを示す境界参照であり続けるべきである。
@@ -165,9 +165,9 @@ LUMINA-30は詳細な政策パッケージになってはならない。
 LUMINA-30に決めさせてはならないもの：
 
 - 正確な法律；
-- 補償額；
+- 救済または移行コストの詳細な割当；
 - 分野別の技術制御；
-- 雇用規則；
+- 分野別の運用規則；
 - 詳細な調達基準；
 - 正確な執行主体。
 
@@ -190,3 +190,4 @@ The immediate goal is that reviewers, auditors, policy staff, procurement office
 
 直近の目標は、LUMINA-30文書群全体の世界的採用ではない。
 直近の目標は、レビュー担当者、監査者、政策担当者、調達担当者、AIガバナンスチーム、研究者、事故調査者が、既存ワークフローに境界責任質問を1つ追加できる状態にすることである。
+

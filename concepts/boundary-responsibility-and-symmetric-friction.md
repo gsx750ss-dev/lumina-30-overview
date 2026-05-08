@@ -6,13 +6,13 @@
 
 This document defines the responsibility structure required when optimization pressure may eliminate the practical conditions for human refusal before irreversibility.
 
-It is not a policy package. It is not a legal mandate. It is not an employment rule. It is not a technical specification.
+It is not a policy package, legal mandate, domain-specific operational rule, or technical specification.
 
 It is a non-binding LUMINA-30 reference for assigning responsibility before boundary failure.
 
 本資料は、最適化圧によって不可逆化前に人間拒否の実効条件が失われうる場合に必要となる責任構造を定義する。
 
-本資料は、政策パッケージではない。法律命令ではない。雇用規則ではない。技術仕様ではない。
+本資料は、政策パッケージ、法的命令、分野別運用規則、技術仕様ではない。
 
 本資料は、境界失敗が起こる前に責任を割り当てるための、LUMINA-30の非拘束参照資料である。
 
@@ -38,13 +38,13 @@ Symmetric friction preserves the interval in which refusal remains effective.
 
 Boundary responsibility means that responsibility for preserving effective refusal before irreversibility must be explicitly assigned.
 
-The assignment must cover mechanism design, operation, evidence preservation, verification, and correction.
+The assignment should cover mechanism design, operation, evidence preservation, verification, and correction.
 
 If any of these remain undefined, the boundary condition is unstable.
 
 境界責任とは、不可逆化前に有効な拒否を保存する責任が明示的に割り当てられていなければならない、という意味である。
 
-責任割当は、メカニズム設計、運用、証拠保存、検証、是正を含まなければならない。
+責任割当は、メカニズム設計、運用、証拠保存、検証、是正を含む必要がある。
 
 これらのいずれかが未定義のままであれば、境界条件は不安定である。
 
@@ -59,8 +59,8 @@ If any of these remain undefined, the boundary condition is unstable.
 | Mechanism design | Define domain-specific friction | Regulators, standards bodies, domain institutions, sector bodies, affected representatives |
 | Operation | Implement and operate friction | Firms, platforms, infrastructure operators, public agencies |
 | Evidence preservation | Preserve reviewable evidence | Auditors, independent review bodies, operators, public registries |
-| Verification | Determine whether friction was effective before irreversibility | Incident reviewers, courts, regulators, auditors, policy evaluators |
-| Correction | Revise, suspend, or redesign failed mechanisms | Legislatures, regulators, courts, public institutions, international bodies |
+| Verification | Determine whether friction was effective before irreversibility | Incident reviewers, regulators, auditors, policy evaluators, and legal bodies where applicable |
+| Correction | Revise, suspend, or redesign failed mechanisms | Regulators, public institutions, international bodies, and legal authorities where applicable |
 
 | 層 | 責任 | 典型的な責任主体 |
 |---|---|---|
@@ -69,8 +69,8 @@ If any of these remain undefined, the boundary condition is unstable.
 | メカニズム設計 | 分野別摩擦を定義する | 規制当局、標準化団体、専門機関、業界団体、影響を受ける当事者代表 |
 | 運用 | 摩擦を実装・運用する | 企業、プラットフォーム、インフラ運用者、行政機関 |
 | 証拠保存 | 検証可能な証拠を保存する | 監査機関、第三者審査機関、運用主体、公的記録機関 |
-| 検証 | 不可逆化前に摩擦が実効的だったかを判断する | 事故調査機関、裁判所、規制当局、監査者、政策評価機関 |
-| 是正 | 失敗した仕組みを修正・停止・再設計する | 立法機関、規制当局、司法、公的機関、国際機関 |
+| 検証 | 不可逆化前に摩擦が実効的だったかを判断する | 事故調査機関、規制当局、監査者、政策評価機関、必要に応じた法的機関 |
+| 是正 | 失敗した仕組みを修正・停止・再設計する | 規制当局、公的機関、国際機関、必要に応じた法的権限主体 |
 
 ---
 
@@ -104,11 +104,11 @@ The specific design is not prescribed by LUMINA-30. It must be assigned to compe
 
 ## Anti-Bypass Requirement ｜ 迂回防止要件
 
-A friction mechanism is not effective if it can be bypassed through formal restructuring, outsourcing, entity replacement, delayed deployment, jurisdictional relocation, technical opacity, procedural formalism, market pressure, or transfer of responsibility without evidence preservation.
+A friction mechanism is not effective if it can be bypassed through formal restructuring, outsourcing, entity replacement, delayed deployment, jurisdictional relocation, technical opacity, procedural formalism, competitive pressure, or transfer of responsibility without evidence preservation.
 
 The relevant question is whether effective refusal, correction, transition, recovery, or re-entry remained practically available before irreversible consequences occurred.
 
-形式的な組織再編、外注化、法人変更、時間差導入、管轄移転、技術的不透明性、形式的手続き化、市場圧、証拠保存を伴わない責任移転によって迂回できる摩擦メカニズムは有効ではない。
+形式的な組織再編、外注化、法人変更、時間差導入、管轄移転、技術的不透明性、形式的手続化、競争圧、証拠保存を伴わない責任移転によって迂回できる摩擦メカニズムは有効ではない。
 
 問うべきなのは、不可逆的結果が生じる前に、有効な拒否・修正・移行・回復・再参入が実効的に利用可能だったかである。
 
@@ -169,3 +169,4 @@ Together, they allow LUMINA-30 to address optimization pressure without becoming
 対称摩擦は、その条件を除去する主体によって、責任ある主体が打ち負かされることを防ぐ。
 
 両者を組み合わせることで、LUMINA-30は詳細な政策制度になることなく、最適化圧に対応できる。
+

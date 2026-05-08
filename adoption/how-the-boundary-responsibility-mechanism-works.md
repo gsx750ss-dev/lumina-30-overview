@@ -74,15 +74,15 @@ It also identifies whether responsibility was assigned for preserving that bound
 
 ## What LUMINA-30 Does Not Do ｜ LUMINA-30が行わないこと
 
-LUMINA-30 does not prescribe a specific law, employment rule, compensation system, procurement standard, technical control, or enforcement body.
+LUMINA-30 does not prescribe specific legal, policy, technical, procurement, or enforcement mechanisms.
 
-LUMINA-30は、特定の法律、雇用規則、補償制度、調達基準、技術制御、執行主体を命令しない。
+LUMINA-30は、特定の法律・政策・技術・調達・執行メカニズムを命令しない。
 
-Those mechanisms must be designed by competent institutions in each domain.
-LUMINA-30 requires that this responsibility not remain undefined where irreversibility risk exists.
+The design of those mechanisms belongs to competent institutions in each domain.
+LUMINA-30 treats undefined responsibility as a boundary risk where irreversibility risk exists.
 
-それらの仕組みは、各分野の適格な制度主体によって設計されなければならない。
-LUMINA-30は、不可逆化リスクが存在する場面で、その責任が未定義のまま放置されないことを求める。
+それらの仕組みの設計は、各分野の適格な制度主体に属する。
+LUMINA-30は、不可逆化リスクが存在する場面で責任が未定義のまま残る状態を、境界リスクとして扱う。
 
 ---
 
@@ -94,8 +94,8 @@ LUMINA-30は、不可逆化リスクが存在する場面で、その責任が�
 | Mechanism design | Define the domain-specific friction | Regulators, sector bodies, standards bodies, domain institutions, affected representatives |
 | Operation | Implement and operate the friction | Firms, platforms, infrastructure operators, public agencies |
 | Evidence preservation | Preserve reviewable records before voice loss | Auditors, operators, independent review bodies, public registries |
-| Verification | Determine whether the boundary was preserved | Incident reviewers, regulators, courts, auditors, policy evaluators |
-| Correction | Revise, suspend, or redesign failed mechanisms | Legislatures, regulators, courts, public institutions, international bodies |
+| Verification | Determine whether the boundary was preserved | Incident reviewers, regulators, auditors, policy evaluators, and legal bodies where applicable |
+| Correction | Revise, suspend, or redesign failed mechanisms | Regulators, public institutions, international bodies, and legal authorities where applicable |
 
 | 層 | 責任 | 典型的な主体 |
 |---|---|---|
@@ -103,8 +103,8 @@ LUMINA-30は、不可逆化リスクが存在する場面で、その責任が�
 | メカニズム設計 | 分野別摩擦を定義する | 規制当局、業界団体、標準化団体、専門機関、影響を受ける当事者代表 |
 | 運用 | 摩擦を実装・運用する | 企業、プラットフォーム、インフラ運用者、行政機関 |
 | 証拠保存 | 声を失う前に検証可能な記録を保存する | 監査機関、運用主体、第三者審査機関、公的記録機関 |
-| 検証 | 境界が保存されていたかを判断する | 事故調査機関、規制当局、裁判所、監査者、政策評価機関 |
-| 是正 | 失敗した仕組みを修正・停止・再設計する | 立法機関、規制当局、司法、公的機関、国際機関 |
+| 検証 | 境界が保存されていたかを判断する | 事故調査機関、規制当局、監査者、政策評価機関、必要に応じた法的機関 |
+| 是正 | 失敗した仕組みを修正・停止・再設計する | 規制当局、公的機関、国際機関、必要に応じた法的権限主体 |
 
 ---
 
@@ -170,3 +170,4 @@ It is a way to prevent responsibility for preserving human refusal from remainin
 
 境界責任メカニズムは、新しい規制制度ではない。
 最適化圧が不可逆化を引き起こしうる場面で、人間拒否を保存する責任が未定義のまま放置されることを防ぐ方法である。
+
