@@ -94,11 +94,11 @@ Therefore, in competitive environments, friction must be located at the appropri
 
 Symmetric friction may be assigned through market access conditions, procurement requirements, insurance conditions, audit requirements, certification schemes, standards, sector rules, regulatory requirements, public accountability mechanisms, or international coordination.
 
-The specific design is not prescribed by LUMINA-30. It must be assigned to competent domain authorities.
+The specific design is not prescribed by LUMINA-30. It belongs to competent domain authorities in each domain.
 
 対称摩擦は、市場参加条件、調達要件、保険条件、監査要件、認証制度、標準、業界規則、規制要件、公的説明責任の仕組み、国際調整を通じて割り当てられうる。
 
-具体設計はLUMINA-30が命令しない。適格な分野別主体に割り当てられなければならない。
+具体設計はLUMINA-30が命令しない。各分野の適格な主体が担う領域である。
 
 ---
 
@@ -169,4 +169,5 @@ Together, they allow LUMINA-30 to address optimization pressure without becoming
 対称摩擦は、その条件を除去する主体によって、責任ある主体が打ち負かされることを防ぐ。
 
 両者を組み合わせることで、LUMINA-30は詳細な政策制度になることなく、最適化圧に対応できる。
+
 

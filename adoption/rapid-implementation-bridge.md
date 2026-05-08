@@ -104,7 +104,7 @@ Use this when a full checklist is too heavy and a short boundary responsibility 
 | 4. Who owns friction design? | Named institution, body, role, or accountable process |
 | 5. Who operates the friction? | Operator, deployer, platform, agency, or infrastructure owner |
 | 6. What evidence is preserved before voice loss? | Logs, review records, notices, refusal path records, decision evidence |
-| 7. Who verifies effectiveness? | Auditor, regulator, incident reviewer, court, public body, or independent reviewer |
+| 7. Who verifies effectiveness? | Auditor, regulator, incident reviewer, legal review body where applicable, public body, or independent reviewer |
 
 完全なチェックリストが重すぎるが、短い境界責任レビューが必要な場合に使用する。
 
@@ -116,7 +116,7 @@ Use this when a full checklist is too heavy and a short boundary responsibility 
 | 4. 誰が摩擦設計責任を持つか | 明示された機関、主体、役割、説明責任プロセス |
 | 5. 誰が摩擦を運用するか | 運用者、導入者、プラットフォーム、行政機関、インフラ所有者 |
 | 6. 声を失う前に何の証拠を保存するか | ログ、レビュー記録、通知、拒否経路記録、意思決定証拠 |
-| 7. 誰が実効性を検証するか | 監査者、規制当局、事故調査者、裁判所、公的機関、独立レビュー主体 |
+| 7. 誰が実効性を検証するか | 監査者、規制当局、事故調査者、該当する場合の法的レビュー主体、公的機関、独立レビュー主体 |
 
 ---
 
@@ -204,3 +204,4 @@ The immediate goal is that reviewers, auditors, policy staff, procurement office
 
 直近の目標は、LUMINA-30文書群全体の世界的採用ではない。
 直近の目標は、レビュー担当者、監査者、政策担当者、調達担当者、AIガバナンスチーム、研究者、事故調査者が、既存ワークフローに境界責任質問を1つ追加できる状態にすることである。
+
