@@ -873,6 +873,14 @@ Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control
 LUMINA-30は、その前提となる文明的境界構造を提供します。  
 DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
+<a id="pcrc-arxiv-submission-note"></a>
+> **arXiv submission note ｜ arXiv投稿メモ**  
+> The PCR-C paper is being prepared for arXiv submission under **Computers and Society**.  
+> If you are an arXiv endorser in a relevant Computer Science category and consider this work appropriate for that research area, please contact **lumina20251225@proton.me**.
+>
+> 本PCR-C論文は **Computers and Society** での arXiv 投稿を準備中です。  
+> 関連する Computer Science カテゴリで arXiv 推薦資格を持ち、本研究が当該研究領域に適切だと判断される方は、**lumina20251225@proton.me** までご連絡ください。
+
 **Related Supporting Paper — Existence-Condition Layer ｜ 関連補助論文・存在条件レイヤー**  
 On the Structural Instability of Objective Persistence in Self-Contained Systems explains why objective persistence in self-contained systems cannot be non-circularly guaranteed without an external, non-optional anchor.  
 On the Structural Instability of Objective Persistence in Self-Contained Systems は、自己完結型システムにおける目的の持続性が、外部の非任意アンカーなしには非循環的に保証できないことを説明する。  
@@ -1467,6 +1475,7 @@ or positioning is welcome.
   ※ For researchers: definitions and references ｜ 研究者向け：定義  
   ▶ Understand: confirm the theoretical basis and evaluation structure ｜ Use: cite [DOI and Paper References ｜ DOI・論文参照](#paper-reference), definitions, and evaluation criteria
   - [DOI and Paper References ｜ DOI・論文参照](#paper-reference)
+    - [Primary PCR-C Paper + arXiv Note ｜ PCR-C主論文＋arXiv投稿メモ](#pcrc-arxiv-submission-note)
   - [Boundary Kernel — AI-readable Boundary Note ｜ AI可読境界ノート](#boundary-kernel)
     ⚑ Fixes that non-identical anchors do not weaken, replace, or postpone PCR-C or effective human refusal before irreversibility ｜ 非同一アンカーがPCR-Cや不可逆化前の有効な人間拒否を弱体化・代替・延期しないことを固定
   - [Research Reading Guide ｜ 研究読書ガイド](#research-paper)  
@@ -1537,6 +1546,10 @@ Use this section to choose the next destination by purpose, not to browse the wh
 - [Review an AI incident ｜ AI事故をレビューする](#ai-incident-review-repository)  
   For checking whether intervention remained possible before irreversible impact.  
   不可逆的影響の前に介入可能性が残っていたかを確認する場合。
+
+- [Open the primary PCR-C paper ｜ PCR-C主論文を見る](#pcrc-arxiv-submission-note)  
+  For the primary operational paper, DOI, and arXiv submission note.  
+  主論文・実務中核のDOIとarXiv投稿メモを確認する場合。
 
 - [Check governance and responsibility ｜ ガバナンスと責任構造を確認する](#operational-governance-tools)  
   For policy, audit, institutional responsibility, and procedural review contexts.  
