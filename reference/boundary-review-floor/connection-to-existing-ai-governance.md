@@ -47,6 +47,27 @@ This page does not determine legal compliance. It provides a boundary-reference 
 
 このページは法的適合性を判定しません。既存プロセスを置き換えずに追加できる境界参照質問を提供します。
 
+<a id="external-use-notes"></a>
+
+## External-use notes ｜ 外部制度・団体接続メモ
+
+For readers connecting the LUMINA-30 boundary question to external AI governance, incident-response, standards, or human-oversight contexts, use the following non-binding reference notes.
+
+These notes are not endorsements, adoptions, certifications, compliance determinations, affiliations, or official interpretations by any external organization. They are only reference routes for asking whether effective human refusal remained possible before irreversible consequences occurred.
+
+LUMINA-30の境界質問を、外部のAIガバナンス、事故対応、標準化、人間監督文脈へ接続する場合は、以下の非拘束参照メモを使用してください。
+
+これらのメモは、外部団体による承認、採用、認証、適合性判定、提携、または公式解釈を示すものではありません。不可逆的結果が発生する前に、実効的な人間拒否がなお可能だったかを問うための参照導線にすぎません。
+
+| External-use note ｜ 外部接続メモ | Intended use ｜ 用途 |
+|---|---|
+| [External Governance Use Routes](https://github.com/lumina-30/lumina30-incident-review/blob/main/external-use/External_Governance_Use_Routes.md) | General routing for external governance, standards, incident-response, and human-oversight contexts. ｜ 外部ガバナンス、標準化、事故対応、人間監督文脈の総合入口。 |
+| [Boundary Check for AI Incident Response](https://github.com/lumina-30/lumina30-incident-review/blob/main/external-use/Boundary_Check_for_AI_Incident_Response.md) | Incident-response and post-incident review contexts. ｜ 事故対応・事故後レビュー文脈。 |
+| [Japan AISI / AI-IRS Boundary Check Note](https://github.com/lumina-30/lumina30-incident-review/blob/main/external-use/Japan_AISI_AI_IRS_Boundary_Check_Note.md) | Japan AISI / AI-IRS-adjacent incident and safety-review contexts. ｜ Japan AISI / AI-IRS 周辺の事故・安全レビュー文脈。 |
+| [OECD AIM Incident Taxonomy Boundary Note](https://github.com/lumina-30/lumina30-incident-review/blob/main/external-use/OECD_AIM_Incident_Taxonomy_Boundary_Note.md) | OECD AI incident taxonomy and incident-evidence contexts. ｜ OECD AIM / インシデント分類・証拠整理文脈。 |
+| [ISO / IEC / ITU Standards Terminology Boundary Note](https://github.com/lumina-30/lumina30-incident-review/blob/main/external-use/ISO_IEC_ITU_Standards_Terminology_Boundary_Note.md) | Standards and terminology-adjacent contexts. ｜ 標準化・用語整理周辺文脈。 |
+| [UNESCO Human Oversight and Effective Refusal Note](https://github.com/lumina-30/lumina30-incident-review/blob/main/external-use/UNESCO_Human_Oversight_Effective_Refusal_Note.md) | Human-rights, human-oversight, and institutional-policy contexts. ｜ 人権、人間監督、制度政策文脈。 |
+
 ## Public source links ｜ 公開参照リンク
 
 - [EU AI Act Article 14: Human oversight](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14)

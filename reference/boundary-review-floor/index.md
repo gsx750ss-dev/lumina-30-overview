@@ -82,7 +82,7 @@ You should be able to:
 | A. Boundary Understanding Room ｜ A. 境界理解室 | Understand the core distinction between formal oversight and effective refusal. ｜ 形式的監督と実効的拒否の違いを理解する | [Enter A Room](./formal-oversight-effective-refusal.md) ｜ [Aルームへ](./formal-oversight-effective-refusal.md) |
 | B. Clarification & Objection Room ｜ B. 整理と反論の部屋 | Check objections, misunderstandings, and limiting statements. ｜ 批判、誤解、防止文を確認する | [Enter B Room](./formal-oversight-effective-refusal-faq.md) ｜ [Bルームへ](./formal-oversight-effective-refusal-faq.md) |
 | C. Share Room ｜ C. 持ち帰りの部屋 | Copy a short message or shareable boundary question. ｜ 一文要約や共有用文面を持ち帰る | [Enter C Room](./shareable-boundary-question.md) ｜ [Cルームへ](./shareable-boundary-question.md) |
-| D. Governance Connection Room ｜ D. 接続の部屋 | Map the question to existing AI governance, audit, and ethics frameworks. ｜ 既存AIガバナンス、監査、倫理規程へ接続する | [Enter D Room](./connection-to-existing-ai-governance.md) ｜ [Dルームへ](./connection-to-existing-ai-governance.md) |
+| D. Governance Connection Room ｜ D. 接続の部屋 | Map the question to existing AI governance, audit, ethics frameworks, and external-use reference routes. ｜ 既存AIガバナンス、監査、倫理規程、外部制度・団体接続メモへ接続する | [Enter D Room](./connection-to-existing-ai-governance.md) ｜ [Dルームへ](./connection-to-existing-ai-governance.md) |
 | E. Practice Room ｜ E. 実務の部屋 | Use a minimal review check for incidents, audits, or governance review. ｜ 事故後レビュー、監査、ガバナンス確認で使う | [Enter E Room](./minimal-review-check.md) ｜ [Eルームへ](./minimal-review-check.md) |
 | F. Review Lens Check ｜ F. レビュー視点チェック | Choose Level 1, 2, or 3 and check whether you can use the review lens without treating it as certification. ｜ Level 1〜3を選び、認証ではなくレビュー視点を使えるか自己確認する | [Enter F Room](./review-lens-check.md) ｜ [Fルームへ](./review-lens-check.md) |
 | G. Walkthrough Room ｜ G. 読み替え例の部屋 | See a short fictional example of re-reading formal oversight through the boundary question. ｜ 架空の短い例で、形式的監督を境界質問で読み替える | [Enter G Room](./walkthrough-room.md) ｜ [Gルームへ](./walkthrough-room.md) |
@@ -104,6 +104,14 @@ You should be able to:
 5. 他の人に共有したい場合は、Cルームを使ってください。  
 6. 既存ガバナンス、監査、リスク、倫理、政策枠組みに関わる場合は、Dルームを使ってください。  
 7. 最小レビュー確認が必要な場合は、Eルームを使ってください。
+
+## External-use references ｜ 外部制度・団体接続参照
+
+External governance, standards, incident-response, and human-oversight contexts are handled through D Room. The floor gives only a short overview; detailed institution-specific notes are kept in the `external-use` notes of the incident-review repository.
+
+外部ガバナンス、標準化、事故対応、人間監督文脈は、Dルームで扱います。このフロアでは概要に留め、制度・団体別の詳細は incident-review repository の `external-use` メモ群に置きます。
+
+- [D Room: External-use notes](./connection-to-existing-ai-governance.md#external-use-notes) ｜ [Dルーム：外部制度・団体接続メモ](./connection-to-existing-ai-governance.md#external-use-notes)
 
 ## Scope ｜ 範囲
 

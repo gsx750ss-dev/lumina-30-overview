@@ -239,6 +239,19 @@ Do not treat the optional papers as required for Level 1 use.
 
 任意論文は、Level 1利用の必須条件ではありません。
 
+### Optional external-use references ｜ 任意の外部制度・団体接続参照
+
+For Level 3 use, consult external-use notes only when you need to connect the review lens to external governance, standards, incident-response, or human-oversight contexts.
+
+Level 3では、レビュー視点を外部ガバナンス、標準化、事故対応、人間監督文脈へ接続する必要がある場合のみ、外部制度・団体接続メモを参照してください。
+
+- [D Room: External-use notes](./connection-to-existing-ai-governance.md#external-use-notes) ｜ [Dルーム：外部制度・団体接続メモ](./connection-to-existing-ai-governance.md#external-use-notes)
+- [External Governance Use Routes](https://github.com/lumina-30/lumina30-incident-review/blob/main/external-use/External_Governance_Use_Routes.md)
+
+These notes are optional Level 3 references. They are not required for Level 1 use and do not imply endorsement, adoption, certification, compliance, affiliation, or official interpretation by any external organization.
+
+これらのメモは、Level 3向けの任意参照です。Level 1利用の必須条件ではなく、外部団体による承認、採用、認証、適合性判定、提携、または公式解釈を意味しません。
+
 ### Level 3 items ｜ 実務・上級確認項目
 
 1. Can you answer common objections without turning the boundary question into a legal claim or certification?  

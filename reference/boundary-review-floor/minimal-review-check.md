@@ -55,6 +55,15 @@ Useful evidence may include:
 - Documentation showing that override was connected to the actual execution path.  
   override が実際の実行経路に接続されていたことを示す文書。
 
+## External-use context ｜ 外部制度・団体文脈で使う場合
+
+This room keeps the operational check minimal. For external incident-response, standards, governance, or human-oversight contexts, use the external-use notes from D Room as supporting references rather than expanding this checklist.
+
+この部屋では、実務確認を最小限に保ちます。外部の事故対応、標準化、ガバナンス、人間監督文脈で使う場合は、このチェックリスト自体を拡張するのではなく、Dルームの外部制度・団体接続メモを補助参照として使用してください。
+
+- [D Room: External-use notes](./connection-to-existing-ai-governance.md#external-use-notes) ｜ [Dルーム：外部制度・団体接続メモ](./connection-to-existing-ai-governance.md#external-use-notes)
+- [Boundary Check for AI Incident Response](https://github.com/lumina-30/lumina30-incident-review/blob/main/external-use/Boundary_Check_for_AI_Incident_Response.md)
+
 ## Escalation path ｜ 次の導線
 
 - For conceptual reasoning, see [A Room: Boundary Understanding](./formal-oversight-effective-refusal.md).  

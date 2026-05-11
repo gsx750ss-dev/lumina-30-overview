@@ -78,6 +78,14 @@ The Boundary Review Floor helps readers notice that difference before treating o
 
 境界レビューフロアは、監督を制御の証拠として扱う前に、その違いに気づくための場所です。
 
+## External-use note ｜ 外部制度・団体文脈での補足
+
+This walkthrough is intentionally fictional and simplified. For external governance, standards, incident-response, or human-oversight contexts, do not treat this example as a policy interpretation. Use D Room and the external-use notes for non-binding reference routes.
+
+この読み替え例は、意図的に架空かつ簡略化されています。外部ガバナンス、標準化、事故対応、人間監督文脈では、この例を制度解釈として扱わないでください。非拘束の参照導線として、Dルームおよび外部制度・団体接続メモを使用してください。
+
+- [D Room: External-use notes](./connection-to-existing-ai-governance.md#external-use-notes) ｜ [Dルーム：外部制度・団体接続メモ](./connection-to-existing-ai-governance.md#external-use-notes)
+
 ## Next step ｜ 次に進む
 
 - To check whether you can use this lens yourself, go to [F Room: Review Lens Check](./review-lens-check.md).  
