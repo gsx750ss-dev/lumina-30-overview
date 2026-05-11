@@ -609,8 +609,29 @@ This section provides practical entry points for applying LUMINA-30 in review, a
 
 このセクションは、レビュー、監査、ガバナンス文脈でLUMINA-30を適用するための実務導線です。
 
-For reviewers and governance readers who need a role-based path from the boundary question to objections, sharing, governance connection, and minimal review use, see [Boundary Review Floor](./reference/boundary-review-floor/index.md).  
-境界質問から、反論整理、共有、既存ガバナンス接続、最小レビュー確認へ進みたいレビュー・ガバナンス読者は、[境界レビューフロア](./reference/boundary-review-floor/index.md) を参照してください。
+### ★ Boundary Review Floor ｜ 境界レビューフロア
+
+Enter the Boundary Review Floor if you need to determine whether formal AI oversight was only nominal, or whether human refusal remained effective before irreversibility.
+
+This floor helps readers move from checking whether humans were involved to checking whether humans could still refuse in time. It helps reviewers avoid mistaking documentation, approvals, audit logs, or nominal human involvement for sufficient evidence of effective human refusal.
+
+Use it to:
+- distinguish formal oversight from effective human refusal;
+- review whether refusal could still stop, delay, or reject a system before irreversible consequences;
+- share a one-sentence boundary question with others;
+- connect the question to governance, audit, and incident review contexts.
+
+形式的なAI監督が名目上のものに留まっていたのか、それとも不可逆化前の実効的人間拒否として機能していたのかを確認したい場合は、境界レビューフロアに進んでください。
+
+このフロアは、「人間が関与していたか」から、「人間が間に合う段階でなお拒否できたか」へレビュー視点を移すための場所です。文書化、承認、監査ログ、名目上の人間関与を、実効的人間拒否の十分な証拠として取り違えることを避ける助けになります。
+
+ここでは、次を行えます。
+- 形式的監督と実効的人間拒否を区別する。
+- 不可逆的結果の前に、人間がなお停止・遅延・拒否できたかを確認する。
+- 他人に共有できる一文の境界質問を受け取る。
+- ガバナンス、監査、事故後レビューの文脈に接続する。
+
+[Enter the Boundary Review Floor ｜ 境界レビューフロアへ進む](./reference/boundary-review-floor/index.md)
 
 <a id="application-usage-context"></a>
 ## Application Usage Context ｜ 適用時の使用文脈
@@ -1464,8 +1485,8 @@ or positioning is welcome.
     ⚑ L30_FRM practical form for audit and boundary checking ｜ 監査・境界確認に使うL30_FRM実務帳票
   - [L30_FRM Practical Forms ｜ L30_FRM 実務帳票](#l30-frm-practical-sheets)  
     ⚑ Practical path for using B01/I01/A01 DOCX/PDF forms ｜ B01/I01/A01のDOCX/PDFを使う実務導線
-  - [Boundary Review Floor ｜ 境界レビューフロア](./reference/boundary-review-floor/index.md)  
-    ⚑ Role-based floor for understanding, objections, sharing, governance connection, and minimal review use ｜ 理解、反論整理、共有、既存ガバナンス接続、最小レビュー確認のための読者別フロア
+  - [★ Boundary Review Floor ｜ 境界レビューフロア](./reference/boundary-review-floor/index.md)  
+    ⚑ Entry for checking whether formal oversight remained effective human refusal before irreversibility; includes understanding, objections, sharing, governance connection, and minimal review use ｜ 形式的監督が不可逆化前の実効的人間拒否として機能していたかを確認する入口。理解、反論整理、共有、既存ガバナンス接続、最小レビュー確認を含む
   - [LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
     ⚑ Reference address system that connects checklists, review sheets, and audit forms back to the LUMINA-30 core proposition ｜ チェックリスト・レビュー票・監査票をLUMINA-30中核命題へ戻す参照番地
   - [G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構](#g04-pcrc-governance-model)  
@@ -1548,9 +1569,9 @@ Use this section to choose the next destination by purpose, not to browse the wh
   For incident review, checklists, templates, and operational evaluation.  
   事故レビュー、チェックリスト、テンプレート、運用評価に使う場合。
 
-- [Open the Boundary Review Floor ｜ 境界レビューフロアを開く](./reference/boundary-review-floor/index.md)  
-  For role-based understanding, objections, sharing, governance connection, and minimal review use.  
-  理解、反論整理、共有、既存ガバナンス接続、最小レビュー確認を立場別に進める場合。
+- [★ Boundary Review Floor ｜ 境界レビューフロア](./reference/boundary-review-floor/index.md)  
+  For checking whether formal oversight remained effective human refusal before irreversibility.  
+  形式的監督が、不可逆化前の実効的人間拒否として機能していたかを確認する入口。
 
 - [Review an AI incident ｜ AI事故をレビューする](#ai-incident-review-repository)  
   For checking whether intervention remained possible before irreversible impact.  

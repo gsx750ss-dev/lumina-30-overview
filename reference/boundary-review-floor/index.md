@@ -12,6 +12,30 @@ You do not need to read every room. Choose the room that matches your role or pu
 
 すべての部屋を読む必要はありません。自分の立場や目的に合う部屋から読んでください。
 
+## What changes after this floor ｜ このフロアで何が変わるか
+
+After visiting this floor, you should be able to move from asking whether humans were involved to asking whether humans could still refuse in time.
+
+This distinction helps reviewers avoid mistaking nominal oversight for effective human refusal, and gives them a boundary question that can be used in audits, governance discussions, and incident reviews.
+
+このフロアを読むことで、「人間が関与していたか」ではなく、「人間が間に合う段階でなお拒否できたか」を問えるようになります。
+
+この区別により、名目上の監督を実効的人間拒否と取り違えることを避け、監査、ガバナンス議論、事故後レビューで使える境界質問を得られます。
+
+You should be able to:
+- distinguish formal oversight from effective human refusal;
+- ask whether refusal remained possible before irreversibility;
+- explain the boundary question to others;
+- connect it to governance, audit, and incident review contexts;
+- apply a minimal review check without treating it as legal advice or certification.
+
+このフロアでは、次のことができるようになります。
+- 形式的監督と実効的人間拒否を区別する。
+- 不可逆化前に拒否がなお可能だったかを問う。
+- 境界質問を他人に説明する。
+- ガバナンス、監査、事故後レビューの文脈に接続する。
+- 法的助言や認証としてではなく、最小レビュー確認として使う。
+
 ## Choose a room ｜ 部屋を選ぶ
 
 | Room | Purpose | Link |
@@ -54,3 +78,4 @@ This page is non-binding and does not provide legal advice, certification, or co
 
 [Back to Boundary Review Floor](./index.md) ｜ [境界レビューフロアへ戻る](./index.md)  
 [Back to Main Floor](../../README.md) ｜ [メインフロアへ戻る](../../README.md)
+
