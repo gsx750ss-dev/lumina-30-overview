@@ -14,19 +14,27 @@ You do not need to read every room. Choose the room that matches your role or pu
 
 ## One-minute entry card ｜ 1分入口カード
 
-If you have only one minute, use this floor in the following order:
+If you have only one minute, use the beginner route. The purpose is to leave with the core boundary question, not to claim full understanding of LUMINA-30.
 
 1. **A Room** — understand the core distinction.  
 2. **G Room** — see how a formal-oversight statement is re-read through the boundary question.  
-3. **F Room** — check whether you can use the review lens yourself.  
-4. **C Room** — take a shareable sentence if the lens is useful.
+3. **C Room** — take a shareable sentence if the lens is useful.  
+4. **F Room / Level 1** — check whether you can carry the core question carefully.
 
-1分しかない場合は、次の順で使ってください。
+1分しかない場合は、初級ルートを使ってください。目的は、LUMINA-30全体を完全理解したと主張することではなく、中核の境界質問を持ち帰ることです。
 
 1. **Aルーム** — 中核となる区別を理解する。  
 2. **Gルーム** — 形式的監督の説明を、境界質問でどう読み替えるかを見る。  
-3. **Fルーム** — 自分でレビュー視点を使えるか確認する。  
-4. **Cルーム** — 有用だと感じた場合、共有できる一文を持ち帰る。
+3. **Cルーム** — 有用だと感じた場合、共有できる一文を持ち帰る。  
+4. **Fルーム / Level 1** — 中核質問を注意して持ち帰れるか確認する。
+
+## Choose your depth ｜ 深さを選ぶ
+
+| Level | Reading path | Goal |
+|---|---|---|
+| Level 1 — Quick Check ｜ 初級チェック | A → G → C → F Level 1 | Carry and share the core boundary question without claiming full understanding. ｜ 完全理解を主張せず、中核の境界質問を持ち帰り共有する |
+| Level 2 — Core Reading Check ｜ 中核読了チェック | Main Floor core path → A → G → E → F Level 2 | Use the boundary question as a basic review lens. ｜ 境界質問を基本的なレビュー視点として使う |
+| Level 3 — Applied / Advanced Check ｜ 実務・上級チェック | B → D → E → Incident Review / L30-FRM → optional public papers → F Level 3 | Connect the lens to audit, governance, incident review, or research-facing discussion. ｜ 監査、ガバナンス、事故後レビュー、研究寄りの議論へ接続する |
 
 ## Why enter this floor? ｜ なぜこのフロアに入るのか
 
@@ -76,22 +84,22 @@ You should be able to:
 | C. Share Room ｜ C. 持ち帰りの部屋 | Copy a short message or shareable boundary question. ｜ 一文要約や共有用文面を持ち帰る | [Enter C Room](./shareable-boundary-question.md) ｜ [Cルームへ](./shareable-boundary-question.md) |
 | D. Governance Connection Room ｜ D. 接続の部屋 | Map the question to existing AI governance, audit, and ethics frameworks. ｜ 既存AIガバナンス、監査、倫理規程へ接続する | [Enter D Room](./connection-to-existing-ai-governance.md) ｜ [Dルームへ](./connection-to-existing-ai-governance.md) |
 | E. Practice Room ｜ E. 実務の部屋 | Use a minimal review check for incidents, audits, or governance review. ｜ 事故後レビュー、監査、ガバナンス確認で使う | [Enter E Room](./minimal-review-check.md) ｜ [Eルームへ](./minimal-review-check.md) |
-| F. Review Lens Check ｜ F. レビュー視点チェック | Check whether you can use the review lens without treating it as certification. ｜ 認証ではなく、レビュー視点を使えるか自己確認する | [Enter F Room](./review-lens-check.md) ｜ [Fルームへ](./review-lens-check.md) |
+| F. Review Lens Check ｜ F. レビュー視点チェック | Choose Level 1, 2, or 3 and check whether you can use the review lens without treating it as certification. ｜ Level 1〜3を選び、認証ではなくレビュー視点を使えるか自己確認する | [Enter F Room](./review-lens-check.md) ｜ [Fルームへ](./review-lens-check.md) |
 | G. Walkthrough Room ｜ G. 読み替え例の部屋 | See a short fictional example of re-reading formal oversight through the boundary question. ｜ 架空の短い例で、形式的監督を境界質問で読み替える | [Enter G Room](./walkthrough-room.md) ｜ [Gルームへ](./walkthrough-room.md) |
 
 ## How the floor is intended to work ｜ このフロアの使い方
 
-1. Start with A Room if the core question is new to you.  
-2. Use G Room if you want to see how the lens changes a concrete reading.  
-3. Use F Room if you want to check whether you can use the lens yourself.  
+1. Use **Level 1** if you want to leave quickly with the core boundary question.  
+2. Use **Level 2** if you want to use the boundary question as a basic review lens.  
+3. Use **Level 3** if you need audit, governance, incident-review, or research-facing use.  
 4. Use B Room if you are skeptical or need careful limiting language.  
 5. Use C Room if you want to share the question with someone else.  
 6. Use D Room if you work with existing governance, audit, risk, ethics, or policy frameworks.  
 7. Use E Room if you need a minimal review check.
 
-1. 中核質問が初めてなら、Aルームから始めてください。  
-2. 具体的な読み替え方を見たい場合は、Gルームを使ってください。  
-3. 自分でレビュー視点を使えるか確認したい場合は、Fルームを使ってください。  
+1. 中核の境界質問を早く持ち帰りたい場合は、**Level 1** を使ってください。  
+2. 境界質問を基本的なレビュー視点として使いたい場合は、**Level 2** を使ってください。  
+3. 監査、ガバナンス、事故後レビュー、研究寄りの利用が必要な場合は、**Level 3** を使ってください。  
 4. 懐疑点や限定表現を確認したい場合は、Bルームを使ってください。  
 5. 他の人に共有したい場合は、Cルームを使ってください。  
 6. 既存ガバナンス、監査、リスク、倫理、政策枠組みに関わる場合は、Dルームを使ってください。  
@@ -114,4 +122,3 @@ This page is non-binding and does not provide legal advice, certification, or co
 
 [Back to Boundary Review Floor](./index.md) ｜ [境界レビューフロアへ戻る](./index.md)  
 [Back to Main Floor](../../README.md) ｜ [メインフロアへ戻る](../../README.md)
-
