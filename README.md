@@ -1480,22 +1480,35 @@ or positioning is welcome.
 
 - [★ Application (Usage) ｜ 適用（使用方法）](#application)  
   ※ For practitioners: operational use ｜ 実務向け：運用  
-  ▶ Understand: grasp what the judgment result means ｜ Use: [Audit Checklist](#audit-checklist) ｜ [PCR-C](#paper-reference) ｜ [Minimal Incident Review Steps](#incident-review-template)
+  ▶ Understand: grasp what the judgment result means ｜ Use: [★ Boundary Review Floor](./reference/boundary-review-floor/index.md) ｜ [Minimal Incident Review Steps](#incident-review-template) ｜ [Audit Checklist](#audit-checklist) ｜ [PCR-C](#paper-reference)
+  - [★ Boundary Review Floor ｜ 境界レビューフロア](./reference/boundary-review-floor/index.md)  
+    ⚑ Entry for checking whether formal oversight remained effective human refusal before irreversibility; includes understanding, objections, sharing, governance connection, and minimal review use ｜ 形式的監督が不可逆化前の実効的人間拒否として機能していたかを確認する入口。理解、反論整理、共有、既存ガバナンス接続、最小レビュー確認を含む
+  - [Application Usage Context ｜ 適用時の使用文脈](#application-usage-context)  
+    ⚑ Defines when and by whom the framework is used ｜ このフレームワークをいつ・誰が使うかを示す
+  - [Minimal Incident Review Steps ｜ 最小インシデントレビュー手順](#incident-review-template)  
+    ⚑ Four-step path for incident review and refusal-effectiveness evaluation ｜ インシデントレビューと拒否実効性評価の4段階手順
+  - [Evaluation Output ｜ 評価出力](#evaluation-output)  
+    ⚑ Shows how valid, invalid, and conditionally valid outcomes are expressed ｜ 有効・無効・条件付き有効の評価出力を示す
+  - [Validation Layer ｜ 検証レイヤー](#validation-layer)  
+    ⚑ Distinguishes objective, refusal, and irreversibility checks ｜ 目的・拒否・不可逆性の確認を分ける
+  - [Procedural Usage ｜ 手続的使用](#procedural-usage)  
+    ⚑ Positions LUMINA-30 as a review and governance-evaluation tool, not a controller ｜ LUMINA-30を制御装置ではなくレビュー・ガバナンス評価の道具として位置づける
+  - [Incident Review Sample Cases ｜ インシデントレビュー用サンプル事例](#incident-review-sample-cases)  
+    ⚑ Examples for applying the boundary question to concrete review situations ｜ 境界質問を具体的なレビュー状況に適用する例
   - [Audit Checklist ｜ 監査チェックリスト](#audit-checklist)  
     ⚑ L30_FRM practical form for audit and boundary checking ｜ 監査・境界確認に使うL30_FRM実務帳票
   - [L30_FRM Practical Forms ｜ L30_FRM 実務帳票](#l30-frm-practical-sheets)  
     ⚑ Practical path for using B01/I01/A01 DOCX/PDF forms ｜ B01/I01/A01のDOCX/PDFを使う実務導線
-  - [★ Boundary Review Floor ｜ 境界レビューフロア](./reference/boundary-review-floor/index.md)  
-    ⚑ Entry for checking whether formal oversight remained effective human refusal before irreversibility; includes understanding, objections, sharing, governance connection, and minimal review use ｜ 形式的監督が不可逆化前の実効的人間拒否として機能していたかを確認する入口。理解、反論整理、共有、既存ガバナンス接続、最小レビュー確認を含む
+  - [AI Incident Review Repository ｜ AIインシデントレビューrepo](#ai-incident-review-repository)  
+    ⚑ Operational path that can be used directly in the field ｜ 現場でそのまま使える運用導線
+  - [Additional Review Questions (LUMINA-30 Layer) ｜ 追加確認項目（LUMINA-30層）](#additional-review-questions-lumina-30-layer)  
+    ⚑ Additional questions for boundary, consent, reversibility, and responsibility review ｜ 境界・同意・可逆性・責任を確認する追加質問
+  - [Operational Governance Tools ｜ 実務ガバナンスツール](#operational-governance-tools)  
+    ⚑ Operational materials for governance, response, triage, and external review ｜ ガバナンス、対応、トリアージ、外部レビューのための実務資料
   - [LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
     ⚑ Reference address system that connects checklists, review sheets, and audit forms back to the LUMINA-30 core proposition ｜ チェックリスト・レビュー票・監査票をLUMINA-30中核命題へ戻す参照番地
   - [G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構](#g04-pcrc-governance-model)  
     ⚑ Infrastructure-control model for preventing irreversibility ｜ 不可逆化を防ぐインフラ制御モデル
-  - [AI Incident Review Repository ｜ AIインシデントレビューrepo](#ai-incident-review-repository)  
-    ⚑ Operational path that can be used directly in the field ｜ 現場でそのまま使える運用導線
-  - [Incident Review Sample Cases ｜ インシデントレビュー用サンプル事例](#incident-review-sample-cases)
-  - [Validation Layer ｜ 検証レイヤー](#validation-layer)
-  - [Operational Governance Tools ｜ 実務ガバナンスツール](#operational-governance-tools)
 
 - [★ Reference ｜ 参照](#reference)  
   ※ For researchers: definitions and references ｜ 研究者向け：定義  
@@ -1565,13 +1578,13 @@ Use this section to choose the next destination by purpose, not to browse the wh
   For readers who need to identify where refusal authority becomes ineffective.  
   拒否権がどこで実効性を失うかを確認する場合。
 
-- [Use practical review tools ｜ 実務レビューに使う](#application)  
-  For incident review, checklists, templates, and operational evaluation.  
-  事故レビュー、チェックリスト、テンプレート、運用評価に使う場合。
-
 - [★ Boundary Review Floor ｜ 境界レビューフロア](./reference/boundary-review-floor/index.md)  
   For checking whether formal oversight remained effective human refusal before irreversibility.  
   形式的監督が、不可逆化前の実効的人間拒否として機能していたかを確認する入口。
+
+- [Use practical review tools ｜ 実務レビューに使う](#application)  
+  For incident review, checklists, templates, and operational evaluation.  
+  事故レビュー、チェックリスト、テンプレート、運用評価に使う場合。
 
 - [Review an AI incident ｜ AI事故をレビューする](#ai-incident-review-repository)  
   For checking whether intervention remained possible before irreversible impact.  
@@ -1627,3 +1640,4 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
