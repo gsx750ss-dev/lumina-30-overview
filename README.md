@@ -615,6 +615,8 @@ Enter the Boundary Review Floor if you need to determine whether formal AI overs
 
 This floor helps readers move from checking whether humans were involved to checking whether humans could still refuse in time. It helps reviewers avoid mistaking documentation, approvals, audit logs, or nominal human involvement for sufficient evidence of effective human refusal.
 
+It is designed to help readers acquire a practical review lens: the ability to evaluate oversight claims more precisely, and to ask whether humans still had a meaningful opportunity to stop, delay, or refuse before irreversible consequences occurred.
+
 Use it to:
 - distinguish formal oversight from effective human refusal;
 - review whether refusal could still stop, delay, or reject a system before irreversible consequences;
@@ -624,6 +626,8 @@ Use it to:
 形式的なAI監督が名目上のものに留まっていたのか、それとも不可逆化前の実効的人間拒否として機能していたのかを確認したい場合は、境界レビューフロアに進んでください。
 
 このフロアは、「人間が関与していたか」から、「人間が間に合う段階でなお拒否できたか」へレビュー視点を移すための場所です。文書化、承認、監査ログ、名目上の人間関与を、実効的人間拒否の十分な証拠として取り違えることを避ける助けになります。
+
+このフロアは、読者が実践的なレビュー視点を獲得できるように設計されています。すなわち、監督に関する主張をより正確に評価し、不可逆的結果が発生する前に、人間がなお停止・遅延・拒否する実質的な機会を持っていたかを問えるようにするための入口です。
 
 ここでは、次を行えます。
 - 形式的監督と実効的人間拒否を区別する。

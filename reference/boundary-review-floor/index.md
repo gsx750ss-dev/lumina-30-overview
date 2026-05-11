@@ -12,6 +12,20 @@ You do not need to read every room. Choose the room that matches your role or pu
 
 すべての部屋を読む必要はありません。自分の立場や目的に合う部屋から読んでください。
 
+## Why enter this floor? ｜ なぜこのフロアに入るのか
+
+This floor is for readers who do not want to stop at checking whether humans were formally involved.
+
+It helps you acquire a practical review lens: the ability to evaluate oversight claims more precisely, and to ask whether human refusal remained operationally effective before irreversible consequences occurred.
+
+With this lens, you can better review AI incidents, audit claims, governance processes, and shareable boundary questions without needing to endorse the entire LUMINA-30 framework first.
+
+このフロアは、「人間が形式的に関与していたか」という確認だけで止まりたくない読者のための場所です。
+
+監督に関する主張をより正確に評価し、不可逆的結果が発生する前に、人間の拒否が運用上なお実効的だったかを問うための実践的なレビュー視点を獲得できるようにします。
+
+この視点により、LUMINA-30全体に最初から賛同しなくても、AIインシデント、監査上の主張、ガバナンス過程、共有可能な境界質問を、より正確にレビューできるようになります。
+
 ## What changes after this floor ｜ このフロアで何が変わるか
 
 After visiting this floor, you should be able to move from asking whether humans were involved to asking whether humans could still refuse in time.
