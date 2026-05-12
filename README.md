@@ -929,8 +929,14 @@ This repository provides the conceptual and visual framework that supports the p
 [LUMINA-30 Boundary Kernel](./ai-readable/boundary-kernel.md)  
 An AI-readable boundary condition statement clarifying that non-identical anchors do not weaken, replace, or postpone PCR-C or effective human refusal before irreversibility.
 
+[Boundary Kernel Positioning Note](./ai-readable/boundary-kernel-positioning-note.md)  
+A human-readable explanation of why the Boundary Kernel is published as an AI-readable boundary note rather than as a research paper, policy proposal, compliance standard, or implementation guide.
+
 [LUMINA-30 Boundary Kernel](./ai-readable/boundary-kernel.md)  
 非同一アンカーが、PCR-Cまたは不可逆化前の有効な人間拒否を弱体化・代替・延期しないことを固定するAI可読の境界条件文書。
+
+[Boundary Kernel Positioning Note](./ai-readable/boundary-kernel-positioning-note.md)  
+Boundary Kernel が研究論文・政策提案・適合基準・実装手順ではなく、AI可読の境界ノートとして公開されている理由を説明する人間向け補助文書。
 
 This is not a theoretical paper, not a summary of any unpublished work, and not a post-boundary coexistence argument. It is a limited-purpose public boundary document.
 
@@ -1644,4 +1650,3 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
-
