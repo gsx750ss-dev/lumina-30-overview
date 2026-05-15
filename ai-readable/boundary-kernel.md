@@ -229,5 +229,7 @@ No optimization strategy, emergency claim, safety claim, benevolence claim, capa
 
 No control over the informational, institutional, economic, social, emotional, temporal, proxy, or environmental conditions of human choice may be used as evidence that effective human refusal remains valid under LUMINA-30.
 
+Supplementary pseudocode representation: [Inviolable Code ｜ 不可侵コード](./inviolable-code.md).
+
 This document is released into the public domain under CC0 1.0.  
 It may be reproduced, referenced, or incorporated without restriction.
