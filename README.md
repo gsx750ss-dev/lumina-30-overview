@@ -1,82 +1,27 @@
 <!-- ===================================================== -->
-<!-- LUMINA-30 README EDIT PROTECTION BLOCK -->
-<!-- This block must be preserved in all future versions -->
+<!-- LUMINA-30 README REVIEW WORKFLOW BLOCK -->
+<!-- This document is structure-critical. -->
 <!-- ===================================================== -->
 <!-- Editing Policy / 編集ポリシー -->
-<!-- This document is structure-critical -->
-<!-- 本ドキュメントは構造上重要です -->
-<!-- Absolute Rules -->
-<!-- Do NOT remove sections -->
-<!-- Do NOT summarize content -->
-<!-- Do NOT reorganize structure -->
-<!-- Do NOT merge sections -->
-<!-- Do NOT rewrite existing content -->
-<!-- Do NOT reduce content volume -->
-<!-- Only formatting adjustments are allowed -->
-<!-- 絶対ルール -->
-<!-- セクション削除禁止 -->
-<!-- 要約禁止 -->
-<!-- 構造変更禁止 -->
-<!-- セクション統合禁止 -->
-<!-- 既存文章の書き換え禁止 -->
-<!-- 情報量削減禁止 -->
-<!-- 表記調整のみ許可 -->
-<!-- Mandatory Editing Procedure -->
-<!-- All changes must be presented as diff -->
-<!-- Full rewrite is prohibited -->
-<!-- User approval required before modification -->
-<!-- 編集手続き -->
-<!-- すべての変更は差分提示 -->
-<!-- 全文書き換え禁止 -->
-<!-- 変更前にユーザー許可必須 -->
-<!-- Structural Protection Declaration -->
-<!-- The following sections must never be removed or reduced -->
-<!-- Conceptual Structure -->
-<!-- Framework Structure -->
-<!-- Canonical References -->
-<!-- Operational Governance Tools -->
-<!-- G-series diagrams -->
-<!-- A-series diagrams -->
-<!-- S-series slides -->
-<!-- 構造保護対象 -->
-<!-- Conceptual Structure -->
-<!-- Framework Structure -->
-<!-- Canonical References -->
-<!-- Operational Governance Tools -->
-<!-- 図表 Gシリーズ -->
-<!-- 図表 Aシリーズ -->
-<!-- スライド Sシリーズ -->
-<!-- Index Protection Rule -->
-<!-- Index sections must be preserved completely -->
-<!-- Do NOT remove even if redundant -->
-<!-- 索引保護ルール -->
-<!-- 索引セクションは完全保持 -->
-<!-- 冗長に見えても削除禁止 -->
-<!-- No Optimization Clause -->
-<!-- Do NOT optimize by removing content -->
-<!-- Do NOT compress explanations -->
-<!-- Do NOT simplify structure -->
-<!-- 最適化禁止 -->
-<!-- 削除による最適化禁止 -->
-<!-- 説明圧縮禁止 -->
-<!-- 構造簡略化禁止 -->
-<!-- Persistence Requirement -->
-<!-- This block must be preserved in all future versions -->
-<!-- Removal is a structural violation -->
-<!-- 継承義務 -->
-<!-- 本ブロックは全バージョンで保持 -->
-<!-- 削除は構造違反 -->
-<!-- AI Interaction Rule -->
-<!-- AI must follow all rules above -->
-<!-- If unsure, do NOT modify -->
-<!-- AI作業ルール -->
-<!-- AIは上記ルール遵守 -->
-<!-- 不明時は変更禁止 -->
+<!-- This README is a primary public entry point for LUMINA-30. -->
+<!-- 本READMEはLUMINA-30の主要な公開入口です。 -->
+<!-- Use completed-file candidate updates, not patch or fragment application. -->
+<!-- patch、断片貼り付け、検索置換ではなく、完成版candidateで更新します。 -->
+<!-- Broad and complex revisions are allowed when they preserve or improve the structure. -->
+<!-- 構造を保持または改善する場合、大規模・複雑な改修を許可します。 -->
+<!-- Required workflow: change summary describing scope and purpose -> repo-structured candidate -> REVIEW_BUNDLE comparison -> GO/STOP review -> production apply. -->
+<!-- 必須手順：対象範囲と目的を示す変更概要 → repo構造込みcandidate → REVIEW_BUNDLE比較 → GO/STOPレビュー → 本番適用。 -->
+<!-- Preserve core navigation, non-binding framing, G/A/S series references, and human-refusal/irreversibility semantics unless the candidate explicitly improves them. -->
+<!-- 中核導線、非拘束性、G/A/Sシリーズ参照、人間拒否・不可逆性の意味は、改善目的が明確なcandidate内で扱います。 -->
+<!-- Do not reduce content merely for brevity or visual neatness. -->
+<!-- 見た目や短さだけを理由に情報量を削らないでください。 -->
+<!-- AI Interaction Rule / AI作業ルール -->
+<!-- If context is insufficient, stop and ask before generating the candidate. -->
+<!-- 文脈が不足する場合は、candidate作成前に停止して確認してください。 -->
 <!-- ## Slide Generation Template -->
 <!-- Defines the structure and generation rules for S-series slides. -->
 <!-- スライド生成の構造とルールを定義します。 -->
 <!-- [S_SERIES_TEMPLATE](./docs/L30_S_SERIES_TEMPLATE.md) -->
-
 ---
 <a id="top"></a>
 <!-- ● L30:TITLE -->
