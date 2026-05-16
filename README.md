@@ -86,6 +86,9 @@ not a safety optimization objective.
 <a id="concept-diagrams"></a>
 ## Concept Diagram Archive ｜ 概念図アーカイブ
 
+The image links below open dedicated explanation pages. Each page includes the full-size figure and a detailed conceptual explanation tied to that figure.  
+以下の画像リンクは専用の説明ページへ移動します。各ページには原寸画像と、その図に紐づいた詳しい概念説明があります。
+
 LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.<br>
 Civilization remains free only while humans retain the power to refuse.<br>
 LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権を維持するための文明的境界フレームワークです。<br>
