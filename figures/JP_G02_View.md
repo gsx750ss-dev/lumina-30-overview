@@ -1,0 +1,31 @@
+# G02 — 文明結果モデル
+
+[← G02へ戻る](../README.md#g02-concept-diagram) ｜ [English](./EN_G02_View.md)
+
+<a href="./JP_G02_Boundary.png">
+  <img src="./JP_G02_Boundary.png" width="900">
+</a>
+
+[画像を原寸で開く](./JP_G02_Boundary.png)
+
+---
+
+## この図が示すもの
+
+G02は、AI能力の成長と文明の結果の関係を示します。
+
+---
+
+## LUMINA-30との関係
+
+この図が示す核心は、能力成長そのものではなく、不可逆的な進行が止められなくなる前に、人間の拒否権が実効的に残っているかです。
+
+---
+
+## 中核メッセージ
+
+文明の結果は、不可逆境界を越える前に拒否権が生き残っているかによって分岐します。
+
+---
+
+[← G02へ戻る](../README.md#g02-concept-diagram) ｜ [English](./EN_G02_View.md)

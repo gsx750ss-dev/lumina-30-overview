@@ -62,56 +62,25 @@ not a safety optimization objective.
 <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 
 ## G01 — Boundary Framework ｜ G01：境界フレームワーク
-<a href="figures/EN_G01_Framework.png" target="_blank">
-  <img src="figures/EN_G01_Framework.png" width="900">
-</a>
+<img src="figures/EN_G01_Framework.png" width="900">
 
 ## G02 — Civilizational Outcome Model ｜ G02：文明結果モデル
-<a href="figures/EN_G02_Boundary.png" target="_blank">
-  <img src="figures/EN_G02_Boundary.png" width="900">
-</a>
+<img src="figures/EN_G02_Boundary.png" width="900">
 
 ## G03 — Civilizational Survival Strategy ｜ G03：文明存続戦略
-<a href="figures/EN_G03_Strategy.png" target="_blank">
-  <img src="figures/EN_G03_Strategy.png" width="900">
-</a>
+<img src="figures/EN_G03_Strategy.png" width="900">
 
 ## G04 — PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構
-<a href="figures/EN_G04_PCRC.png" target="_blank">
-  <img src="figures/EN_G04_PCRC.png" width="900">
-</a>
+<img src="figures/EN_G04_PCRC.png" width="900">
 
 ## G05 — AI Perspective ｜ G05：AI視点
-<a href="figures/EN_G05_AI_Perspective.png" target="_blank">
-  <img src="figures/EN_G05_AI_Perspective.png" width="900">
-</a>
+<img src="figures/EN_G05_AI_Perspective.png" width="900">
 
 <!-- ● L30:BOUNDARY_DECISION -->
 ## G06 — Critical Boundary ｜ G06：臨界境界
 <a id="g06-en"></a>
 <a id="g06-critical-boundary"></a>
-<a href="figures/EN_G06_Critical_Boundary.png" target="_blank">
-  <img src="figures/EN_G06_Critical_Boundary.png" width="900">
-</a>
-
-This diagram represents the pre-irreversibility critical boundary where human refusal must remain effective.  
-この図は、人間の拒否権が実効性を持ち続けなければならない不可逆化前の臨界境界を示す。
-
-**Validity Condition ｜ 成立条件**<br>
-A system is procedurally invalid if it cannot be stopped at the critical point before irreversible impact.  
-不可逆的影響に至る前の臨界点において停止できないシステムは、手続的無効である。
-
-**Critical Boundary ｜ 臨界境界**<br>
-This is the only point where procedural validity is evaluated.  
-手続的有効性が評価される唯一の地点<br>
-
-This diagram provides a conceptual overview.  
-The formal definition is provided below.
-
-See detailed definition:  
-→ [English G06 Core](#g06-core-en) ｜ [日本語G06コア](#g06-core-jp)
-
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+<img src="figures/EN_G06_Critical_Boundary.png" width="900">
 
 <!-- ● L30:CONCEPT -->
 <a id="concept-diagrams"></a>
@@ -148,130 +117,65 @@ EN: [G00](figures/EN_G00_View.md) ｜ JP: [G00](figures/JP_G00_View.md)
 
 
 <!-- ● L30:G01 -->
+<a id="g01-concept-diagram"></a>
 ### G01 — Boundary Framework ｜ 境界フレームワーク
 
 This diagram illustrates the boundary condition explored by LUMINA-30.  
 この図は LUMINA-30 が扱う文明境界条件を示します。  
 <br>
-EN: [G01](figures/EN_G01_Framework.png) ｜ JP: [G01](figures/JP_G01_Framework.png)
+EN: [G01](figures/EN_G01_View.md) ｜ JP: [G01](figures/JP_G01_View.md)
 
 
 <!-- ● L30:G02 -->
+<a id="g02-concept-diagram"></a>
 ### G02 — Civilizational Outcome Model ｜ 文明結果モデル
 
 This diagram models the relationship between AI capability growth and civilizational outcomes,  
 including the irreversible progression structure under advanced AI conditions.<br>
 この図は、AI能力の成長と文明の結果の関係、および高度AI環境下における不可逆的な進行構造を示します。<br>
 <br>
-EN: [G02](figures/EN_G02_Boundary.png) ｜ JP: [G02](figures/JP_G02_Boundary.png)
+EN: [G02](figures/EN_G02_View.md) ｜ JP: [G02](figures/JP_G02_View.md)
 
 
 <!-- ● L30:G03 -->
+<a id="g03-concept-diagram"></a>
 ### G03 — Civilizational Survival Strategy ｜ 文明存続戦略
 
 This diagram illustrates possible strategic responses near critical AI thresholds.  
 この図は AI臨界点に近づいたときの人類の戦略を示します。  
 <br>
-EN: [G03](figures/EN_G03_Strategy.png) ｜ JP: [G03](figures/JP_G03_Strategy.png)
+EN: [G03](figures/EN_G03_View.md) ｜ JP: [G03](figures/JP_G03_View.md)
 
 
 <!-- ● L30:G04 -->
+<a id="g04-concept-diagram"></a>
 <a id="g04-pcrc-governance-model"></a>
 ### G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構
 
 This diagram explains the PCR-C governance mechanism.  
 この図は PCR-C 審査メカニズムを示します。  
 <br>
-EN: [G04](figures/EN_G04_PCRC.png) ｜ JP: [G04](figures/JP_G04_PCRC.png)
+EN: [G04](figures/EN_G04_View.md) ｜ JP: [G04](figures/JP_G04_View.md)
 
 
 <!-- ● L30:G05 -->
+<a id="g05-concept-diagram"></a>
 ### G05 — AI Perspective ｜ AI視点
 
 This diagram explores how the framework appears from an advanced AI perspective.  
 この図は LUMINA-30 を AI視点から見た意味を示します。  
 <br>
-EN: [G05](figures/EN_G05_AI_Perspective.png) ｜ JP: [G05](figures/JP_G05_AI_Perspective.png)
+EN: [G05](figures/EN_G05_View.md) ｜ JP: [G05](figures/JP_G05_View.md)
 
 
 <!-- ● L30:G06 -->
+<a id="g06-concept-diagram"></a>
 ### G06 — Critical Boundary ｜ 臨界境界
 
 This diagram defines the critical procedural boundary before irreversible impact.  
 この図は、不可逆影響の前に評価される手続的臨界境界を示します。  
 <br>
-EN: [G06](figures/EN_G06_Critical_Boundary.png) ｜ JP: [G06](figures/JP_G06_Critical_Boundary.png)
-
-
-<!-- ● L30:G06_CORE_EN -->
-<a id="g06-core"></a>
-<a id="g06-core-en"></a>
-## G06 Core Definition ｜ G06中核定義
-
-### English Definition ｜ 英語定義
-
-**Definition ｜ 定義**
-G06 defines the core procedural validity condition of LUMINA-30.
-It evaluates whether human refusal authority remained effective
-before any irreversible external impact occurred.
-
-**Primary Question ｜ 主要問い**
-Was human refusal authority effective before irreversible impact?
-
-YES → Procedurally valid  
-NO  → Procedurally invalid
-
-**Scope ｜ 範囲**
-- Incident review
-- Audit / compliance
-- Governance evaluation
-
-**Position ｜ 位置づけ**
-This is not a guideline.  
-This is not a policy.  
-This is a structural validity condition.
-
-**Notes ｜ 注記**
-- AI output must not be used as the sole or primary rationale.
-- Closed-loop (AI-only) evaluation is procedurally invalid.
-- Absence of human refusal authority invalidates the process,
-  regardless of outcome quality.
-
-
-<!-- ● L30:G06_CORE_JP -->
-<a id="g06-core-jp"></a>
-
-### Japanese Reference ｜ 日本語参照
-
-【定義】
-G06はLUMINA-30の中核となる手続的有効性条件を定義する。
-不可逆な外部影響が発生する前に、
-人間の最終拒否権が有効に機能していたかを評価する。
-
-【主判定】
-不可逆影響の発生前に、
-人間の最終拒否権は有効だったか？
-
-YES → 手続的有効  
-NO  → 手続的無効
-
-【適用範囲】
-- 事故レビュー
-- 監査／コンプライアンス
-- ガバナンス評価
-
-【位置づけ】
-これはガイドラインではない  
-これは政策ではない  
-これは構造的な有効性条件である
-
-【補足】
-・AI出力を単独または主たる根拠としてはならない  
-・AIのみの閉ループ評価は手続的無効  
-・人間の拒否権が欠如している場合、結果の良し悪しに関係なく無効
-
-
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+EN: [G06](figures/EN_G06_View.md) ｜ JP: [G06](figures/JP_G06_View.md)
 
 <a id="practical-application"></a>
 ## Practical Application ｜ 実務適用
@@ -1434,7 +1338,6 @@ or positioning is welcome.
   - [Entry Visuals (G00 — G06) ｜ 導入ビジュアル](#entry-visuals)
   - [G06 — Critical Boundary ｜ 臨界境界](#g06-critical-boundary)  
     ⚑ The judgment criterion itself — the first core item to check ｜ 判断基準そのもの（最初に確認する核心）
-  - [G06 Core Definition ｜ G06中核定義](#g06-core)
   - [Concept Diagram Archive ｜ 概念図アーカイブ](#concept-diagrams)
   - [Practical Application ｜ 実務適用](#practical-application)
   - [Framework Structure ｜ フレームワーク構造](#framework-structure)
