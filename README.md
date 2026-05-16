@@ -117,9 +117,9 @@ not a safety optimization objective.
 G00 shows the future if humanity does nothing and effective human refusal is lost before irreversibility.  
 G00は、人類が無策のまま不可逆化前の実効的人間拒否を失った場合の未来図を示します。
 
-[English explanation](figures/G00_EN_View.md) ｜ [日本語説明](figures/G00_JP_View.md)
+[English explanation](figures/EN_G00_View.md) ｜ [日本語説明](figures/JP_G00_View.md)
 
-<a href="figures/G00_EN_View.md">
+<a href="figures/EN_G00_View.md">
   <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 </a>
 
@@ -205,7 +205,7 @@ LUMINA-30文明境界フレームワークの概念図。
 This figure shows the future if humanity does nothing and effective human refusal is lost before irreversibility.  
 この図は、人類が無策のまま不可逆化前の実効的人間拒否を失った場合の未来図を示します。  
 <br>
-EN: [G00](figures/G00_EN_View.md) ｜ JP: [G00](figures/G00_JP_View.md)
+EN: [G00](figures/EN_G00_View.md) ｜ JP: [G00](figures/JP_G00_View.md)
 
 
 <!-- ● L30:G01 -->
