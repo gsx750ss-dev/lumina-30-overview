@@ -1,9 +1,6 @@
 # G00 — 文明境界
 
-[← Overview の G00 位置へ戻る](../README.md#g00-civilizational-boundary) ｜ [English](./EN_G00_View.md)
-
-このページは、G00を読むための安定した説明ページです。
-スマホ・タブレットで画像を開いたあと、読者が元の位置へ戻れなくなる問題を減らすための戻り導線も兼ねています。
+[← G00へ戻る](../README.md#g00-concept-diagram) ｜ [English](./EN_G00_View.md)
 
 <a href="./JP_G00_Approaching_Boundary.png">
   <img src="./JP_G00_Approaching_Boundary.png" width="900">
@@ -52,4 +49,4 @@ G00は、その状態に到達してしまうことの代償を可視化して�
 
 ---
 
-[← Overview の G00 位置へ戻る](../README.md#g00-civilizational-boundary) ｜ [English](./EN_G00_View.md)
+[← G00へ戻る](../README.md#g00-concept-diagram) ｜ [English](./EN_G00_View.md)

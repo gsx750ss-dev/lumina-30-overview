@@ -59,14 +59,7 @@ not a safety optimization objective.
 <a id="g00-civilizational-boundary"></a>
 ## G00 — Civilizational Boundary ｜ G00：文明境界
 
-G00 shows the future if humanity does nothing and effective human refusal is lost before irreversibility.  
-G00は、人類が無策のまま不可逆化前の実効的人間拒否を失った場合の未来図を示します。
-
-[English explanation](figures/EN_G00_View.md) ｜ [日本語説明](figures/JP_G00_View.md)
-
-<a href="figures/EN_G00_View.md">
-  <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
-</a>
+<img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 
 ## G01 — Boundary Framework ｜ G01：境界フレームワーク
 <a href="figures/EN_G01_Framework.png" target="_blank">
@@ -145,6 +138,7 @@ LUMINA-30文明境界フレームワークの概念図。
 
 
 <!-- ● L30:G00 -->
+<a id="g00-concept-diagram"></a>
 ### G00 — Civilizational Boundary ｜ 文明境界
 
 This figure shows the future if humanity does nothing and effective human refusal is lost before irreversibility.  

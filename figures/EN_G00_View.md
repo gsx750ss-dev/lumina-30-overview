@@ -1,9 +1,6 @@
 # G00 — Civilizational Boundary
 
-[← Return to G00 in Overview](../README.md#g00-civilizational-boundary) ｜ [日本語](./JP_G00_View.md)
-
-This page is a stable reading and return point for G00.
-It also reduces mobile and tablet navigation loss when readers open the full-size figure.
+[← Return to G00](../README.md#g00-concept-diagram) ｜ [日本語](./JP_G00_View.md)
 
 <a href="./EN_G00_Approaching_Boundary.png">
   <img src="./EN_G00_Approaching_Boundary.png" width="900">
@@ -52,4 +49,4 @@ G00 visualizes the cost of reaching that state too late.
 
 ---
 
-[← Return to G00 in Overview](../README.md#g00-civilizational-boundary) ｜ [日本語](./JP_G00_View.md)
+[← Return to G00](../README.md#g00-concept-diagram) ｜ [日本語](./JP_G00_View.md)
