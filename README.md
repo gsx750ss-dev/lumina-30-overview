@@ -111,8 +111,15 @@ not a safety optimization objective.
 
 これは安全性最適化の目標ではなく、手続的有効性を判定するための条件です。
 
+<a id="g00-civilizational-boundary"></a>
 ## G00 — Civilizational Boundary ｜ G00：文明境界
-<a href="figures/EN_G00_Approaching_Boundary.png" target="_blank">
+
+G00 shows the future if humanity does nothing and effective human refusal is lost before irreversibility.  
+G00は、人類が無策のまま不可逆化前の実効的人間拒否を失った場合の未来図を示します。
+
+[English explanation](figures/G00_EN_View.md) ｜ [日本語説明](figures/G00_JP_View.md)
+
+<a href="figures/G00_EN_View.md">
   <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 </a>
 
@@ -190,6 +197,15 @@ how human refusal authority can be preserved before advanced AI systems
 reach the point of irreversible external impact.
 
 LUMINA-30文明境界フレームワークの概念図。
+
+
+<!-- ● L30:G00 -->
+### G00 — Civilizational Boundary ｜ 文明境界
+
+This figure shows the future if humanity does nothing and effective human refusal is lost before irreversibility.  
+この図は、人類が無策のまま不可逆化前の実効的人間拒否を失った場合の未来図を示します。  
+<br>
+EN: [G00](figures/G00_EN_View.md) ｜ JP: [G00](figures/G00_JP_View.md)
 
 
 <!-- ● L30:G01 -->
