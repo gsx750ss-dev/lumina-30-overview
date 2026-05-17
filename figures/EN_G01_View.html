@@ -7,31 +7,33 @@
 <style>
 :root {
   color-scheme: light dark;
-  --bg:#0f1115; --panel:#171b22; --text:#f3f5f7; --muted:#b6c0cc; --line:#313844; --accent:#9dc2ff; --button:#263244; --button-hover:#31445f;
+  --bg:#0b0d12; --panel:#141820; --text:#f4f6f8; --muted:#bac4d1; --line:#303846; --accent:#9dc2ff; --pill:#223047; --pill-hover:#2d4162; --quote:#d8e6ff;
 }
 @media (prefers-color-scheme: light) {
-  :root { --bg:#ffffff; --panel:#f6f8fa; --text:#1f2328; --muted:#59636e; --line:#d0d7de; --accent:#0969da; --button:#eef4ff; --button-hover:#dbeafe; }
+  :root { --bg:#ffffff; --panel:#f6f8fa; --text:#1f2328; --muted:#59636e; --line:#d0d7de; --accent:#0969da; --pill:#eef4ff; --pill-hover:#dbeafe; --quote:#1f4e8c; }
 }
 * { box-sizing: border-box; }
-body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans","Noto Sans JP",Helvetica,Arial,sans-serif; line-height:1.65; }
-.wrap { width:min(980px,100%); margin:0 auto; padding:18px 14px 48px; }
-header { position:sticky; top:0; z-index:10; background:var(--bg); border-bottom:1px solid var(--line); margin:0 -14px 22px; padding:10px 14px; }
-.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; }
-.actions { display:flex; flex-wrap:wrap; gap:8px; }
-button,.button { appearance:none; border:1px solid var(--line); border-radius:999px; background:var(--button); color:var(--text); padding:10px 14px; font-weight:700; text-decoration:none; cursor:pointer; font-size:15px; }
-button:hover,.button:hover { background:var(--button-hover); }
-.note { color:var(--muted); margin:8px 0 0; font-size:14px; }
-main { background:var(--panel); border:1px solid var(--line); border-radius:18px; padding:18px; }
-h1 { line-height:1.25; margin:0 0 12px; font-size:clamp(1.6rem,5vw,2.4rem); }
-h2,h3 { line-height:1.35; margin-top:2rem; }
-.figure { margin:18px 0 22px; }
-.figure img { display:block; width:100%; max-width:900px; height:auto; margin:0 auto; border-radius:14px; border:1px solid var(--line); pointer-events:none; user-select:none; }
+html { scroll-behavior:smooth; }
+body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans","Noto Sans JP",Helvetica,Arial,sans-serif; line-height:1.72; }
+.wrap { width:min(1040px,100%); margin:0 auto; padding:18px 14px 54px; }
+header { position:sticky; top:0; z-index:10; background:color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter:blur(10px); border-bottom:1px solid var(--line); margin:0 -14px 24px; padding:10px 14px; }
+.toolbar { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; }
+.kicker { color:var(--muted); font-size:14px; letter-spacing:.04em; text-transform:uppercase; }
+.link-pill { border:1px solid var(--line); border-radius:999px; background:var(--pill); color:var(--text); padding:10px 14px; font-weight:700; text-decoration:none; display:inline-block; }
+.link-pill:hover { background:var(--pill-hover); text-decoration:none; }
+main { background:var(--panel); border:1px solid var(--line); border-radius:20px; padding:clamp(18px,3vw,30px); box-shadow:0 18px 48px rgba(0,0,0,.22); }
+h1 { line-height:1.18; margin:0 0 10px; font-size:clamp(1.75rem,5vw,2.75rem); }
+.subtitle { color:var(--muted); margin:0 0 18px; font-size:clamp(1rem,2.6vw,1.2rem); }
+.figure { margin:22px 0 28px; }
+.figure img { display:block; width:100%; max-width:900px; height:auto; margin:0 auto; border-radius:16px; border:1px solid var(--line); pointer-events:none; user-select:none; -webkit-user-drag:none; }
 .body { overflow-wrap:anywhere; }
+.body h2 { line-height:1.35; margin:2rem 0 .65rem; font-size:1.35rem; border-top:1px solid var(--line); padding-top:1.25rem; }
+.body p { margin:.78rem 0; }
+.body ul { padding-left:1.35rem; }
+.body li { margin:.45rem 0; }
+.canon { margin:1.2rem 0 1.6rem; padding:1rem 1.1rem; border-left:4px solid var(--accent); background:rgba(127,127,127,.12); color:var(--quote); font-weight:650; }
 a { color:var(--accent); }
-code { background:rgba(127,127,127,.18); border-radius:6px; padding:.12em .35em; }
-blockquote { margin:1rem 0; padding:.2rem 1rem; border-left:4px solid var(--accent); color:var(--muted); }
-.footer-nav { margin-top:24px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
-.footer-nav a { font-weight:700; }
+.footer-nav { margin-top:26px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); }
 </style>
 </head>
 <body>
@@ -39,31 +41,39 @@ blockquote { margin:1rem 0; padding:.2rem 1rem; border-left:4px solid var(--acce
 <header>
   <div class="toolbar">
     <div>
-      <strong>LUMINA-30 Figure Explanation</strong>
-      <p class="note">This page contains the figure and the conceptual explanation tied to it.</p>
+      <div class="kicker">LUMINA-30 Canonical Commentary</div>
+      <strong>G01：Boundary Framework</strong>
     </div>
-    <div class="actions">
-      <a class="button" href="https://github.com/lumina-30/lumina-30-overview#g01">Back to README</a>
+    <div>
+      <a class="link-pill" href="https://github.com/lumina-30/lumina-30-overview#g01">Back to Overview README</a>
     </div>
   </div>
 </header>
 <main>
   <h1>G01：Boundary Framework</h1>
+  <p class="subtitle">Canonical Commentary — The structural question at the center</p>
   <div class="figure" aria-label="G01：Boundary Framework">
     <img src="./EN_G01_Framework.png" alt="G01：Boundary Framework" draggable="false">
   </div>
   <section class="body">
-<hr>
-<h2>What this figure shows</h2>
-<p>G01 presents LUMINA-30 as a boundary framework rather than an ordinary policy, guideline, or ethical appeal.</p>
-<hr>
-<h2>Relation to LUMINA-30</h2>
-<p>It introduces the central structural question: whether effective human refusal can still be exercised before irreversible consequences occur.</p>
-<hr>
-<h2>Core message</h2>
-<p>LUMINA-30 begins at the boundary where human refusal must remain real, timely, and effective.</p>
-<hr>
+<div class="canon">G01 is the canonical frame of LUMINA-30: the question of whether effective human refusal can still be exercised before irreversible consequences occur.</div>
+<h2>Canonical status of this plate</h2>
+<p>G01 gives LUMINA-30 its structural form. It is not a policy diagram in the narrow sense, nor a checklist of desirable AI behavior. It is the frame within which every later operational judgment must be read. At the center is not trust, alignment rhetoric, or institutional reassurance, but the decisive procedural question: can humans still refuse in time?</p>
+<p>This plate therefore separates LUMINA-30 from ordinary ethical appeals. The framework does not depend on assuming restraint, benevolence, or good faith from any actor. It asks whether the architecture of action still preserves an effective human boundary before consequences become irreversible.</p>
+<h2>The central question</h2>
+<p>The core of G01 is the relation between refusal and irreversibility. A refusal that arrives after the decisive threshold is not the same thing as a refusal that can still stop the process. A human approval process that exists only as a formality is not the same thing as authority. A safety claim that cannot demonstrate stoppability before irreversible impact is not enough.</p>
+<p>For that reason, the plate should be read as a boundary instrument. It does not ask whether the system appears useful or whether the operators intend harm. It asks whether the human world remains structurally able to say no before it is carried past the point of return.</p>
+<h2>How to read the figure</h2>
+<p>The surrounding elements in G01 are not independent slogans. They are aspects of one boundary condition. Human refusal, pre-irreversibility, procedural validity, and civilizational survival are connected because a failure in one can hollow out the others. If refusal is delayed, validity is lost. If validity is lost, governance becomes retrospective theater. If governance becomes retrospective theater, survival depends on accident rather than structure.</p>
+<p>The figure thus marks the difference between supervision that can still intervene and supervision that merely watches. LUMINA-30 is concerned with the former. It refuses to treat the latter as sufficient.</p>
+<h2>Place within LUMINA-30</h2>
+<p>G01 is the constitutional plate of the framework. G00 shows the future that must be avoided. G01 names the principle by which that future is refused. The later figures unfold the consequences of this principle into outcome models, strategy, staged governance, AI-readable interpretation, and post-incident validation.</p>
+<h2>Closing statement</h2>
+<p>G01 should be read as the charter line of LUMINA-30: civilization remains procedurally valid only while effective human refusal can still operate before irreversible consequences. Everything else in the framework is an elaboration of that boundary.</p>
   </section>
+  <div class="footer-nav">
+    <a href="https://github.com/lumina-30/lumina-30-overview#g01">Back to Overview README</a>
+  </div>
 </main>
 </div>
 </body>
