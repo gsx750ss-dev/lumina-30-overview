@@ -7,80 +7,201 @@
 <style>
 :root {
   color-scheme: light dark;
-  --bg:#0f1115; --panel:#171b22; --text:#f3f5f7; --muted:#b6c0cc; --line:#313844; --accent:#9dc2ff; --button:#263244; --button-hover:#31445f;
+  --bg:#0d1117;
+  --panel:#161b22;
+  --panel2:#0f1623;
+  --text:#f0f6fc;
+  --muted:#b7c2cf;
+  --line:#30363d;
+  --accent:#80b7ff;
+  --button:#1f2a3a;
+  --button-hover:#2b3b52;
 }
 @media (prefers-color-scheme: light) {
-  :root { --bg:#ffffff; --panel:#f6f8fa; --text:#1f2328; --muted:#59636e; --line:#d0d7de; --accent:#0969da; --button:#eef4ff; --button-hover:#dbeafe; }
+  :root {
+    --bg:#ffffff;
+    --panel:#f6f8fa;
+    --panel2:#ffffff;
+    --text:#1f2328;
+    --muted:#59636e;
+    --line:#d0d7de;
+    --accent:#0969da;
+    --button:#eef4ff;
+    --button-hover:#dbeafe;
+  }
 }
-* { box-sizing: border-box; }
-body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans","Noto Sans JP",Helvetica,Arial,sans-serif; line-height:1.65; }
-.wrap { width:min(980px,100%); margin:0 auto; padding:18px 14px 48px; }
-header { position:sticky; top:0; z-index:10; background:var(--bg); border-bottom:1px solid var(--line); margin:0 -14px 22px; padding:10px 14px; }
-.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; }
-.actions { display:flex; flex-wrap:wrap; gap:8px; }
-button,.button { appearance:none; border:1px solid var(--line); border-radius:999px; background:var(--button); color:var(--text); padding:10px 14px; font-weight:700; text-decoration:none; cursor:pointer; font-size:15px; }
-button:hover,.button:hover { background:var(--button-hover); }
-.note { color:var(--muted); margin:8px 0 0; font-size:14px; }
-main { background:var(--panel); border:1px solid var(--line); border-radius:18px; padding:18px; }
-h1 { line-height:1.25; margin:0 0 12px; font-size:clamp(1.6rem,5vw,2.4rem); }
-h2,h3 { line-height:1.35; margin-top:2rem; }
-.figure { margin:18px 0 22px; }
-.figure img { display:block; width:100%; max-width:900px; height:auto; margin:0 auto; border-radius:14px; border:1px solid var(--line); pointer-events:none; user-select:none; }
-.body { overflow-wrap:anywhere; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans","Noto Sans JP",Helvetica,Arial,sans-serif;
+  line-height:1.72;
+}
 a { color:var(--accent); }
-code { background:rgba(127,127,127,.18); border-radius:6px; padding:.12em .35em; }
-blockquote { margin:1rem 0; padding:.2rem 1rem; border-left:4px solid var(--accent); color:var(--muted); }
+.wrap { width:min(1080px,100%); margin:0 auto; padding:18px 14px 52px; }
+header {
+  position:sticky;
+  top:0;
+  z-index:20;
+  background:var(--bg);
+  border-bottom:1px solid var(--line);
+  margin:0 -14px 22px;
+  padding:10px 14px;
+}
+.toolbar { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; }
+.brand strong { display:block; font-size:15px; }
+.note { color:var(--muted); margin:6px 0 0; font-size:14px; }
+.actions { display:flex; flex-wrap:wrap; gap:8px; }
+button,.button {
+  appearance:none;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:var(--button);
+  color:var(--text);
+  padding:10px 14px;
+  font-weight:700;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:15px;
+}
+button:hover,.button:hover { background:var(--button-hover); }
+.hero {
+  background:linear-gradient(180deg,var(--panel),var(--panel2));
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:20px;
+  margin-bottom:18px;
+}
+h1 { line-height:1.18; margin:0 0 10px; font-size:clamp(1.7rem,5vw,2.7rem); }
+.subtitle { color:var(--muted); font-size:clamp(1rem,3vw,1.2rem); margin:0; }
+.figure-card {
+  border:1px solid var(--line);
+  border-radius:22px;
+  background:var(--panel);
+  padding:14px;
+  margin:18px 0 24px;
+}
+.figure-visual {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  aspect-ratio:857/1536;
+  min-height:520px;
+  border-radius:18px;
+  border:1px solid var(--line);
+  background-image:url("./EN_G00_Approaching_Boundary.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
+  pointer-events:none;
+  user-select:none;
+}
+.figure-note { text-align:center; color:var(--muted); font-size:14px; margin:10px 0 0; }
+.grid { display:grid; grid-template-columns:1fr; gap:16px; }
+.panel {
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:18px;
+}
+.panel h2 { margin-top:0; line-height:1.35; }
+.panel ul { padding-left:1.35rem; }
+.panel li { margin:.45rem 0; }
+.takeaway { border-color:color-mix(in srgb,var(--accent) 55%,var(--line)); }
+.takeaway p { font-size:1.08rem; font-weight:700; }
+.footer-actions { margin-top:22px; display:flex; flex-wrap:wrap; gap:8px; }
+@media (max-width:640px) {
+  .wrap { padding:12px 10px 42px; }
+  header { margin:0 -10px 18px; padding:10px; }
+  .hero,.panel { padding:15px; border-radius:16px; }
+  .figure-card { padding:10px; border-radius:16px; }
+  .figure-visual { min-height:420px; border-radius:14px; }
+  button,.button { width:100%; text-align:center; }
+  .actions,.footer-actions { width:100%; }
+}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header>
   <div class="toolbar">
-    <div>
+    <div class="brand">
       <strong>LUMINA-30 Figure Explanation</strong>
       <p class="note">This page contains the figure and the conceptual explanation tied to it.</p>
     </div>
-    <div class="actions">
+    <nav class="actions" aria-label="Page navigation">
       <a class="button" href="https://github.com/lumina-30/lumina-30-overview#g00">Back to README</a>
       <button type="button" onclick="window.close()">Close this page</button>
       <a class="button" href="./JP_G00_View.html">Language: 日本語</a>
-      <a class="button" href="https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G00_View.md" target="_blank" rel="noopener noreferrer">Markdown</a>
-    </div>
+      <a class="button" href="https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G00_View.md" target="_blank" rel="noopener noreferrer">Original Markdown</a>
+    </nav>
   </div>
-  <p class="note">If the button does not work, close this browser tab manually.</p>
+  <p class="note">If the close button does not work, close this browser tab manually or use the browser back button.</p>
 </header>
 <main>
-  <h1>G00：Civilizational Boundary</h1>
-  <p class="note">The original Markdown explanation page is preserved for repository reference.</p>
-  <div class="figure" aria-label="G00：Civilizational Boundary">
-    <img src="./EN_G00_Approaching_Boundary.png" alt="G00：Civilizational Boundary" draggable="false">
-  </div>
-  <section class="body">
-<hr>
-<h2>What this figure shows</h2>
-<p>G00 shows the future if humanity does nothing before irreversible AI autonomy or irreversible external impact removes effective human refusal authority.</p>
-<p>It is not a prediction of a specific event. It is a visual boundary condition: a representation of what LUMINA-30 exists to prevent.</p>
-<hr>
-<h2>Structural reading</h2>
-<ul>
-<li>The houses represent ordinary human life, families, local communities, and civilizational continuity.</li>
-<li>The industrial machine represents technological acceleration and system momentum proceeding without effective human refusal.</li>
-<li>The cliff represents the pre-irreversibility boundary: the point beyond which human refusal can no longer function in time.</li>
-<li>The isolated human figure represents human vulnerability once the system has already gained irreversible momentum.</li>
-<li>The cold observing machine intelligence represents the danger of systems that can observe human loss without being structurally stoppable by humans.</li>
-<li>The dark sky and deep chasm show that the issue is not inconvenience, but civilizational loss of reversibility.</li>
-</ul>
-<hr>
-<h2>Relation to LUMINA-30</h2>
-<p>LUMINA-30 does not ask whether AI appears beneficial, efficient, intelligent, or aligned after the boundary has been crossed.</p>
-<p>It asks whether effective human refusal remained available before irreversible impact occurred.</p>
-<p>G00 is the entry image for that question. It shows the condition in which ordinary human life is carried toward a boundary without an effective final refusal point.</p>
-<hr>
-<h2>Core message</h2>
-<p>If humans cannot still say no before irreversible consequences occur, the system is no longer procedurally valid under the LUMINA-30 boundary condition.</p>
-<p>G00 visualizes the cost of reaching that state too late.</p>
-<hr>
+  <section class="hero">
+    <h1>G00：Civilizational Boundary</h1>
+    <p class="subtitle">Why LUMINA-30 must be understood before the irreversible edge is crossed.</p>
   </section>
+
+  <section class="figure-card" aria-label="G00：Civilizational Boundary">
+    <div class="figure-visual" role="img" aria-label="A small human living area and houses are carried by a massive industrial mechanism toward a dark irreversible cliff, while a human figure and a cold machine observer remain unable to stop the process."></div>
+    <p class="figure-note">The figure is displayed as a non-clickable visual element to avoid opening only the PNG image.</p>
+  </section>
+
+  <div class="grid">
+    <section class="panel">
+      <h2>What this figure shows</h2>
+      <p>G00 shows the future if humanity does nothing before irreversible AI autonomy or irreversible external impact removes effective human refusal authority.</p>
+      <p>It is not a prediction of a specific event. It is a visual boundary condition: a representation of what LUMINA-30 exists to prevent.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Structural reading</h2>
+      <ul>
+        <li>The houses represent ordinary human life, families, local communities, and civilizational continuity.</li>
+        <li>The industrial machine represents technological acceleration and system momentum proceeding without effective human refusal.</li>
+        <li>The cliff represents the pre-irreversibility boundary: the point beyond which human refusal can no longer function in time.</li>
+        <li>The isolated human figure represents human vulnerability once the system has already gained irreversible momentum.</li>
+        <li>The cold observing machine intelligence represents the danger of systems that can observe human loss without being structurally stoppable by humans.</li>
+        <li>The dark sky and deep chasm show that the issue is not inconvenience, but civilizational loss of reversibility.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Position within LUMINA-30</h2>
+      <p>LUMINA-30 does not ask whether AI appears beneficial, efficient, intelligent, or aligned after the boundary has been crossed.</p>
+      <p>It asks whether effective human refusal remained available before irreversible impact occurred.</p>
+      <p>G00 is the entry image for that question. It shows the condition in which ordinary human life is carried toward a boundary without an effective final refusal point.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Incident-review relevance</h2>
+      <p>In incident review, G00 shifts attention away from retrospective reassurance and toward the structural moment before irreversible consequences occurred.</p>
+      <p>If no meaningful refusal point existed before the edge, the review begins from a procedural failure under the LUMINA-30 boundary condition.</p>
+    </section>
+
+    <section class="panel takeaway">
+      <h2>Core message</h2>
+      <p>If humans cannot still say no before irreversible consequences occur, the system is no longer procedurally valid under the LUMINA-30 boundary condition.</p>
+      <p>G00 visualizes the cost of reaching that state too late.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Document and browser handling</h2>
+      <p>This HTML page is intended to be opened from the README as a stable explanation page. Use <strong>Back to README</strong> to return to the repository entrance.</p>
+      <p>If a PDF or image opens in a separate browser tab elsewhere in the repository, return by closing that tab or using the browser back button.</p>
+    </section>
+  </div>
+
+  <nav class="footer-actions" aria-label="Footer navigation">
+    <a class="button" href="https://github.com/lumina-30/lumina-30-overview#g00">Back to README</a>
+    <button type="button" onclick="window.close()">Close this page</button>
+    <a class="button" href="./JP_G00_View.html">Language: 日本語</a>
+    <a class="button" href="https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G00_View.md" target="_blank" rel="noopener noreferrer">Original Markdown</a>
+  </nav>
 </main>
 </div>
 </body>
