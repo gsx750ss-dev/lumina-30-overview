@@ -56,50 +56,55 @@ not a safety optimization objective.
 
 これは安全性最適化の目標ではなく、手続的有効性を判定するための条件です。
 
-<a id="g00-civilizational-boundary"></a>
-## G00：Civilizational Boundary ｜ G00：文明境界
+<a name="g00-civilizational-boundary"></a>
+<h2 id="g00-civilizational-boundary">G00：Civilizational Boundary ｜ G00：文明境界</h2>
 
 Explanation ｜ 解説: [EN](figures/EN_G00_View.md) ｜ [JP](figures/JP_G00_View.md)<br>
 <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 
-<a id="g01-en"></a>
-## G01：Boundary Framework ｜ G01：境界フレームワーク
+<a name="g01-en"></a>
+<h2 id="g01-en">G01：Boundary Framework ｜ G01：境界フレームワーク</h2>
 
 Explanation ｜ 解説: [EN](figures/EN_G01_View.md) ｜ [JP](figures/JP_G01_View.md)<br>
 <img src="figures/EN_G01_Framework.png" width="900">
 
-<a id="g02-en"></a>
-## G02：Civilizational Outcome Model ｜ G02：文明結果モデル
+<a name="g02-en"></a>
+<h2 id="g02-en">G02：Civilizational Outcome Model ｜ G02：文明結果モデル</h2>
 
 Explanation ｜ 解説: [EN](figures/EN_G02_View.md) ｜ [JP](figures/JP_G02_View.md)<br>
 <img src="figures/EN_G02_Boundary.png" width="900">
 
-<a id="g03-en"></a>
-## G03：Civilizational Survival Strategy ｜ G03：文明存続戦略
+<a name="g03-en"></a>
+<h2 id="g03-en">G03：Civilizational Survival Strategy ｜ G03：文明存続戦略</h2>
 
 Explanation ｜ 解説: [EN](figures/EN_G03_View.md) ｜ [JP](figures/JP_G03_View.md)<br>
 <img src="figures/EN_G03_Strategy.png" width="900">
 
+<a name="g04-pcrc-governance-model"></a>
 <a id="g04-pcrc-governance-model"></a>
-<a id="g04-en"></a>
-## G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構
+<a name="g04-en"></a>
+<h2 id="g04-en">G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構</h2>
 
 Explanation ｜ 解説: [EN](figures/EN_G04_View.md) ｜ [JP](figures/JP_G04_View.md)<br>
 <img src="figures/EN_G04_PCRC.png" width="900">
 
-<a id="g05-en"></a>
-## G05：AI Perspective ｜ G05：AI視点
+<a name="g05-en"></a>
+<h2 id="g05-en">G05：AI Perspective ｜ G05：AI視点</h2>
 
 Explanation ｜ 解説: [EN](figures/EN_G05_View.md) ｜ [JP](figures/JP_G05_View.md)<br>
 <img src="figures/EN_G05_AI_Perspective.png" width="900">
 
 <!-- ● L30:BOUNDARY_DECISION -->
+<a name="g06-core"></a>
 <a id="g06-core"></a>
+<a name="g06-core-en"></a>
 <a id="g06-core-en"></a>
+<a name="g06-core-jp"></a>
 <a id="g06-core-jp"></a>
+<a name="g06-en"></a>
 <a id="g06-en"></a>
-<a id="g06-critical-boundary"></a>
-## G06：Critical Boundary ｜ G06：臨界境界
+<a name="g06-critical-boundary"></a>
+<h2 id="g06-critical-boundary">G06：Critical Boundary ｜ G06：臨界境界</h2>
 
 Explanation ｜ 解説: [EN](figures/EN_G06_View.md) ｜ [JP](figures/JP_G06_View.md)<br>
 <img src="figures/EN_G06_Critical_Boundary.png" width="900">
