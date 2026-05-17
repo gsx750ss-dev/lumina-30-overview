@@ -1,6 +1,6 @@
 # G01：Boundary Framework
 
-[← Return to G01](../README.md#g01-en) ｜ [日本語](./JP_G01_View.md)
+[← Return to G01](../README.md#g01) ｜ [日本語](./JP_G01_View.md)
 
 This page contains the full-size figure and the conceptual explanation tied to it.
 
@@ -30,4 +30,4 @@ LUMINA-30 begins at the boundary where human refusal must remain real, timely, a
 
 ---
 
-[← Return to G01](../README.md#g01-en) ｜ [日本語](./JP_G01_View.md)
+[← Return to G01](../README.md#g01) ｜ [日本語](./JP_G01_View.md)

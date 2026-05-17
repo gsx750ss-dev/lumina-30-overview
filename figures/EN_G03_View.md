@@ -1,6 +1,6 @@
 # G03：Civilizational Survival Strategy
 
-[← Return to G03](../README.md#g03-en) ｜ [日本語](./JP_G03_View.md)
+[← Return to G03](../README.md#g03) ｜ [日本語](./JP_G03_View.md)
 
 This page contains the full-size figure and the conceptual explanation tied to it.
 
@@ -30,4 +30,4 @@ Survival strategy requires preserving the ability to stop, refuse, or redirect b
 
 ---
 
-[← Return to G03](../README.md#g03-en) ｜ [日本語](./JP_G03_View.md)
+[← Return to G03](../README.md#g03) ｜ [日本語](./JP_G03_View.md)

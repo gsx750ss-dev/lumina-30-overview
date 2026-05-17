@@ -1,6 +1,6 @@
 # G02：Civilizational Outcome Model
 
-[← Return to G02](../README.md#g02-en) ｜ [日本語](./JP_G02_View.md)
+[← Return to G02](../README.md#g02) ｜ [日本語](./JP_G02_View.md)
 
 This page contains the full-size figure and the conceptual explanation tied to it.
 
@@ -30,4 +30,4 @@ Civilizational outcomes depend on whether refusal authority survives before the 
 
 ---
 
-[← Return to G02](../README.md#g02-en) ｜ [日本語](./JP_G02_View.md)
+[← Return to G02](../README.md#g02) ｜ [日本語](./JP_G02_View.md)

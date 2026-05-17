@@ -1,6 +1,6 @@
 # G02：文明結果モデル
 
-[← G02へ戻る](../README.md#g02-en) ｜ [English](./EN_G02_View.md)
+[← G02へ戻る](../README.md#g02) ｜ [English](./EN_G02_View.md)
 
 このページには、原寸画像と図に紐づいた詳しい概念説明があります。
 
@@ -30,4 +30,4 @@ G02は、AI能力の成長と文明の結果の関係を示します。
 
 ---
 
-[← G02へ戻る](../README.md#g02-en) ｜ [English](./EN_G02_View.md)
+[← G02へ戻る](../README.md#g02) ｜ [English](./EN_G02_View.md)

@@ -1,6 +1,6 @@
 # G06：臨界境界
 
-[← G06へ戻る](../README.md#g06-critical-boundary) ｜ [English](./EN_G06_View.md)
+[← G06へ戻る](../README.md#g06) ｜ [English](./EN_G06_View.md)
 
 このページには、原寸画像と図に紐づいた詳しい概念説明があります。
 
@@ -62,4 +62,4 @@ G06は、LUMINA-30を実務上検証可能にする地点です。
 
 ---
 
-[← G06へ戻る](../README.md#g06-critical-boundary) ｜ [English](./EN_G06_View.md)
+[← G06へ戻る](../README.md#g06) ｜ [English](./EN_G06_View.md)

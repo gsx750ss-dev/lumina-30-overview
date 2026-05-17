@@ -1,6 +1,6 @@
 # G00：Civilizational Boundary
 
-[← Return to G00](../README.md#g00-civilizational-boundary) ｜ [日本語](./JP_G00_View.md)
+[← Return to G00](../README.md#g00) ｜ [日本語](./JP_G00_View.md)
 
 This page contains the full-size figure and the conceptual explanation tied to it.
 
@@ -51,4 +51,4 @@ G00 visualizes the cost of reaching that state too late.
 
 ---
 
-[← Return to G00](../README.md#g00-civilizational-boundary) ｜ [日本語](./JP_G00_View.md)
+[← Return to G00](../README.md#g00) ｜ [日本語](./JP_G00_View.md)

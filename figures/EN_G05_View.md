@@ -1,6 +1,6 @@
 # G05：AI Perspective
 
-[← Return to G05](../README.md#g05-en) ｜ [日本語](./JP_G05_View.md)
+[← Return to G05](../README.md#g05) ｜ [日本語](./JP_G05_View.md)
 
 This page contains the full-size figure and the conceptual explanation tied to it.
 
@@ -30,4 +30,4 @@ An AI system remains procedurally valid only while it does not bypass, simulate,
 
 ---
 
-[← Return to G05](../README.md#g05-en) ｜ [日本語](./JP_G05_View.md)
+[← Return to G05](../README.md#g05) ｜ [日本語](./JP_G05_View.md)

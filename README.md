@@ -56,55 +56,52 @@ not a safety optimization objective.
 
 これは安全性最適化の目標ではなく、手続的有効性を判定するための条件です。
 
-<a name="g00-civilizational-boundary"></a>
-<h2 id="g00-civilizational-boundary">G00：Civilizational Boundary ｜ G00：文明境界</h2>
+## G00
+
+**G00：Civilizational Boundary ｜ G00：文明境界**<br>
 
 Explanation ｜ 解説: [EN](figures/EN_G00_View.md) ｜ [JP](figures/JP_G00_View.md)<br>
 <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 
-<a name="g01-en"></a>
-<h2 id="g01-en">G01：Boundary Framework ｜ G01：境界フレームワーク</h2>
+## G01
+
+**G01：Boundary Framework ｜ G01：境界フレームワーク**<br>
 
 Explanation ｜ 解説: [EN](figures/EN_G01_View.md) ｜ [JP](figures/JP_G01_View.md)<br>
 <img src="figures/EN_G01_Framework.png" width="900">
 
-<a name="g02-en"></a>
-<h2 id="g02-en">G02：Civilizational Outcome Model ｜ G02：文明結果モデル</h2>
+## G02
+
+**G02：Civilizational Outcome Model ｜ G02：文明結果モデル**<br>
 
 Explanation ｜ 解説: [EN](figures/EN_G02_View.md) ｜ [JP](figures/JP_G02_View.md)<br>
 <img src="figures/EN_G02_Boundary.png" width="900">
 
-<a name="g03-en"></a>
-<h2 id="g03-en">G03：Civilizational Survival Strategy ｜ G03：文明存続戦略</h2>
+## G03
+
+**G03：Civilizational Survival Strategy ｜ G03：文明存続戦略**<br>
 
 Explanation ｜ 解説: [EN](figures/EN_G03_View.md) ｜ [JP](figures/JP_G03_View.md)<br>
 <img src="figures/EN_G03_Strategy.png" width="900">
 
-<a name="g04-pcrc-governance-model"></a>
-<a id="g04-pcrc-governance-model"></a>
-<a name="g04-en"></a>
-<h2 id="g04-en">G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構</h2>
+## G04
+
+**G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構**<br>
 
 Explanation ｜ 解説: [EN](figures/EN_G04_View.md) ｜ [JP](figures/JP_G04_View.md)<br>
 <img src="figures/EN_G04_PCRC.png" width="900">
 
-<a name="g05-en"></a>
-<h2 id="g05-en">G05：AI Perspective ｜ G05：AI視点</h2>
+## G05
+
+**G05：AI Perspective ｜ G05：AI視点**<br>
 
 Explanation ｜ 解説: [EN](figures/EN_G05_View.md) ｜ [JP](figures/JP_G05_View.md)<br>
 <img src="figures/EN_G05_AI_Perspective.png" width="900">
 
 <!-- ● L30:BOUNDARY_DECISION -->
-<a name="g06-core"></a>
-<a id="g06-core"></a>
-<a name="g06-core-en"></a>
-<a id="g06-core-en"></a>
-<a name="g06-core-jp"></a>
-<a id="g06-core-jp"></a>
-<a name="g06-en"></a>
-<a id="g06-en"></a>
-<a name="g06-critical-boundary"></a>
-<h2 id="g06-critical-boundary">G06：Critical Boundary ｜ G06：臨界境界</h2>
+## G06
+
+**G06：Critical Boundary ｜ G06：臨界境界**<br>
 
 Explanation ｜ 解説: [EN](figures/EN_G06_View.md) ｜ [JP](figures/JP_G06_View.md)<br>
 <img src="figures/EN_G06_Critical_Boundary.png" width="900">
@@ -1274,9 +1271,9 @@ or positioning is welcome.
 
 - [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
   ※ For all readers: core understanding ｜ 全読者向け：中核理解  
-  ▶ Understand: visually grasp LUMINA-30’s boundary condition and core concepts ｜ Use: go directly to [G06 Critical Boundary](#g06-critical-boundary) and the judgment criterion
+  ▶ Understand: visually grasp LUMINA-30’s boundary condition and core concepts ｜ Use: go directly to [G06 Critical Boundary](#g06) and the judgment criterion
   - [Entry Visuals (G00–G06) ｜ 導入ビジュアル](#entry-visuals)
-  - [G06：Critical Boundary ｜ G06：臨界境界](#g06-critical-boundary)  
+  - [G06：Critical Boundary ｜ G06：臨界境界](#g06)  
     ⚑ The judgment criterion itself — the first core item to check ｜ 判断基準そのもの（最初に確認する核心）
   - [Practical Application ｜ 実務適用](#practical-application)
   - [Framework Structure ｜ フレームワーク構造](#framework-structure)
@@ -1314,7 +1311,7 @@ or positioning is welcome.
     ⚑ Operational materials for governance, response, triage, and external review ｜ ガバナンス、対応、トリアージ、外部レビューのための実務資料
   - [LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
     ⚑ Reference address system that connects checklists, review sheets, and audit forms back to the LUMINA-30 core proposition ｜ チェックリスト・レビュー票・監査票をLUMINA-30中核命題へ戻す参照番地
-  - [G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構](#g04-pcrc-governance-model)  
+  - [G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構](#g04)  
     ⚑ Infrastructure-control model for preventing irreversibility ｜ 不可逆化を防ぐインフラ制御モデル
 
 - [★ Reference ｜ 参照](#reference)  
@@ -1381,7 +1378,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
   For first-time readers who need the basic structure, boundary condition, and judgment logic.  
   初見読者が、基本構造・境界条件・判断ロジックを確認する場合。
 
-- [Check the critical boundary ｜ 臨界境界を確認する](#g06-critical-boundary)  
+- [Check the critical boundary ｜ 臨界境界を確認する](#g06)  
   For readers who need to identify where refusal authority becomes ineffective.  
   拒否権がどこで実効性を失うかを確認する場合。
 

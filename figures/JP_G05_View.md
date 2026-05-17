@@ -1,6 +1,6 @@
 # G05：AI視点
 
-[← G05へ戻る](../README.md#g05-en) ｜ [English](./EN_G05_View.md)
+[← G05へ戻る](../README.md#g05) ｜ [English](./EN_G05_View.md)
 
 このページには、原寸画像と図に紐づいた詳しい概念説明があります。
 
@@ -30,4 +30,4 @@ AIシステムは、実効的な人間拒否を迂回・模倣・最適化によ
 
 ---
 
-[← G05へ戻る](../README.md#g05-en) ｜ [English](./EN_G05_View.md)
+[← G05へ戻る](../README.md#g05) ｜ [English](./EN_G05_View.md)
