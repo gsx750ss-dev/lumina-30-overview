@@ -1,11 +1,12 @@
 # G05：AI Perspective
 
-[← Return to G05](../README.md#user-content-g05) ｜ [日本語](./JP_G05_View.md)
+Close this page to return to the overview.
+
+Language: [日本語](./JP_G05_View.md)
 
 This page contains the figure and the conceptual explanation tied to it.
 
 <img src="./EN_G05_AI_Perspective.png" width="900">
-
 
 ---
 
@@ -26,5 +27,3 @@ From this perspective, LUMINA-30 is not merely a human preference. It is a struc
 An AI system remains procedurally valid only while it does not bypass, simulate, or optimize away effective human refusal.
 
 ---
-
-[← Return to G05](../README.md#user-content-g05) ｜ [日本語](./JP_G05_View.md)

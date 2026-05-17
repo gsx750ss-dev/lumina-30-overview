@@ -1,11 +1,12 @@
 # G00：文明境界
 
-[← G00へ戻る](../README.md#user-content-g00) ｜ [English](./EN_G00_View.md)
+Overviewへ戻るには、このページを閉じてください。
+
+言語: [English](./EN_G00_View.md)
 
 このページには、図と図に紐づいた詳しい概念説明があります。
 
 <img src="./JP_G00_Approaching_Boundary.png" width="900">
-
 
 ---
 
@@ -47,5 +48,3 @@ G00は、その問いへの入口となる図です。
 G00は、その状態に到達してしまうことの代償を可視化しています。
 
 ---
-
-[← G00へ戻る](../README.md#user-content-g00) ｜ [English](./EN_G00_View.md)

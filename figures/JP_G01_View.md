@@ -1,11 +1,12 @@
 # G01：境界フレームワーク
 
-[← G01へ戻る](../README.md#user-content-g01) ｜ [English](./EN_G01_View.md)
+Overviewへ戻るには、このページを閉じてください。
+
+言語: [English](./EN_G01_View.md)
 
 このページには、図と図に紐づいた詳しい概念説明があります。
 
 <img src="./JP_G01_Framework.png" width="900">
-
 
 ---
 
@@ -26,5 +27,3 @@ G01は、LUMINA-30を通常の政策、ガイドライン、倫理的呼びか�
 LUMINA-30は、人間の拒否が現実的・時間的・実効的に残っていなければならない境界から始まります。
 
 ---
-
-[← G01へ戻る](../README.md#user-content-g01) ｜ [English](./EN_G01_View.md)

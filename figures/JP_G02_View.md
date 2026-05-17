@@ -1,11 +1,12 @@
 # G02：文明結果モデル
 
-[← G02へ戻る](../README.md#user-content-g02) ｜ [English](./EN_G02_View.md)
+Overviewへ戻るには、このページを閉じてください。
+
+言語: [English](./EN_G02_View.md)
 
 このページには、図と図に紐づいた詳しい概念説明があります。
 
 <img src="./JP_G02_Boundary.png" width="900">
-
 
 ---
 
@@ -26,5 +27,3 @@ G02は、AI能力の成長と文明の結果の関係を示します。
 文明の結果は、不可逆境界を越える前に拒否権が生き残っているかによって分岐します。
 
 ---
-
-[← G02へ戻る](../README.md#user-content-g02) ｜ [English](./EN_G02_View.md)

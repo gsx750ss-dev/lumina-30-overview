@@ -1,11 +1,12 @@
 # G04：PCR-C Governance Mechanism
 
-[← Return to G04](../README.md#user-content-g04) ｜ [日本語](./JP_G04_View.md)
+Close this page to return to the overview.
+
+Language: [日本語](./JP_G04_View.md)
 
 This page contains the figure and the conceptual explanation tied to it.
 
 <img src="./EN_G04_PCRC.png" width="900">
-
 
 ---
 
@@ -26,5 +27,3 @@ It situates PCR-C as the operational layer that can evaluate whether a system is
 PCR-C operationalizes the LUMINA-30 boundary by identifying control stages before irreversible risk becomes procedurally invalid.
 
 ---
-
-[← Return to G04](../README.md#user-content-g04) ｜ [日本語](./JP_G04_View.md)

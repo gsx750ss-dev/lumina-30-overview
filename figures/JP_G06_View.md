@@ -1,11 +1,12 @@
 # G06：臨界境界
 
-[← G06へ戻る](../README.md#user-content-g06) ｜ [English](./EN_G06_View.md)
+Overviewへ戻るには、このページを閉じてください。
+
+言語: [English](./EN_G06_View.md)
 
 このページには、図と図に紐づいた詳しい概念説明があります。
 
 <img src="./JP_G06_Critical_Boundary.png" width="900">
-
 
 ---
 
@@ -58,5 +59,3 @@ G06は、LUMINA-30を実務上検証可能にする地点です。
 不可逆的影響の前に、実効的な人間拒否によってシステムを止められないなら、そのシステムはLUMINA-30の境界条件において手続的に無効です。
 
 ---
-
-[← G06へ戻る](../README.md#user-content-g06) ｜ [English](./EN_G06_View.md)

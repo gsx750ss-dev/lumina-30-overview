@@ -1,11 +1,12 @@
 # G04：PCR-C ガバナンス機構
 
-[← G04へ戻る](../README.md#user-content-g04) ｜ [English](./EN_G04_View.md)
+Overviewへ戻るには、このページを閉じてください。
+
+言語: [English](./EN_G04_View.md)
 
 このページには、図と図に紐づいた詳しい概念説明があります。
 
 <img src="./JP_G04_PCRC.png" width="900">
-
 
 ---
 
@@ -26,5 +27,3 @@ PCR-Cは、実効的な人間拒否が間に合わなくなる条件にシステ
 PCR-Cは、不可逆リスクが手続的に無効な状態へ到達する前に制御段階を特定することで、LUMINA-30の境界を実務化します。
 
 ---
-
-[← G04へ戻る](../README.md#user-content-g04) ｜ [English](./EN_G04_View.md)

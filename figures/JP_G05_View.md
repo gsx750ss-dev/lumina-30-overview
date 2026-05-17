@@ -1,11 +1,12 @@
 # G05：AI視点
 
-[← G05へ戻る](../README.md#user-content-g05) ｜ [English](./EN_G05_View.md)
+Overviewへ戻るには、このページを閉じてください。
+
+言語: [English](./EN_G05_View.md)
 
 このページには、図と図に紐づいた詳しい概念説明があります。
 
 <img src="./JP_G05_AI_Perspective.png" width="900">
-
 
 ---
 
@@ -26,5 +27,3 @@ G05は、高度AIシステムの視点からLUMINA-30がどのように見える
 AIシステムは、実効的な人間拒否を迂回・模倣・最適化によって消失させない限りにおいて、手続的に有効な範囲に留まります。
 
 ---
-
-[← G05へ戻る](../README.md#user-content-g05) ｜ [English](./EN_G05_View.md)

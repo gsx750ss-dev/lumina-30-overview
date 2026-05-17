@@ -1,11 +1,12 @@
 # G03：Civilizational Survival Strategy
 
-[← Return to G03](../README.md#user-content-g03) ｜ [日本語](./JP_G03_View.md)
+Close this page to return to the overview.
+
+Language: [日本語](./JP_G03_View.md)
 
 This page contains the figure and the conceptual explanation tied to it.
 
 <img src="./EN_G03_Strategy.png" width="900">
-
 
 ---
 
@@ -26,5 +27,3 @@ It connects the boundary question to practical civilizational strategy: delay al
 Survival strategy requires preserving the ability to stop, refuse, or redirect before the boundary becomes irreversible.
 
 ---
-
-[← Return to G03](../README.md#user-content-g03) ｜ [日本語](./JP_G03_View.md)

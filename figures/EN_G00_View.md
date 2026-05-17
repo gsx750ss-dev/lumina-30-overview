@@ -1,11 +1,12 @@
 # G00：Civilizational Boundary
 
-[← Return to G00](../README.md#user-content-g00) ｜ [日本語](./JP_G00_View.md)
+Close this page to return to the overview.
+
+Language: [日本語](./JP_G00_View.md)
 
 This page contains the figure and the conceptual explanation tied to it.
 
 <img src="./EN_G00_Approaching_Boundary.png" width="900">
-
 
 ---
 
@@ -47,5 +48,3 @@ If humans cannot still say no before irreversible consequences occur, the system
 G00 visualizes the cost of reaching that state too late.
 
 ---
-
-[← Return to G00](../README.md#user-content-g00) ｜ [日本語](./JP_G00_View.md)

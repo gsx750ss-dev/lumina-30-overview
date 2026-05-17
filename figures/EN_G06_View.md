@@ -1,11 +1,12 @@
 # G06：Critical Boundary
 
-[← Return to G06](../README.md#user-content-g06) ｜ [日本語](./JP_G06_View.md)
+Close this page to return to the overview.
+
+Language: [日本語](./JP_G06_View.md)
 
 This page contains the figure and the conceptual explanation tied to it.
 
 <img src="./EN_G06_Critical_Boundary.png" width="900">
-
 
 ---
 
@@ -58,5 +59,3 @@ It converts the boundary question into a procedural validity judgment.
 If a system cannot be stopped by effective human refusal before irreversible impact, it is procedurally invalid under the LUMINA-30 boundary condition.
 
 ---
-
-[← Return to G06](../README.md#user-content-g06) ｜ [日本語](./JP_G06_View.md)

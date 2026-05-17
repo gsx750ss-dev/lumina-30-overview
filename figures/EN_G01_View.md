@@ -1,11 +1,12 @@
 # G01：Boundary Framework
 
-[← Return to G01](../README.md#user-content-g01) ｜ [日本語](./JP_G01_View.md)
+Close this page to return to the overview.
+
+Language: [日本語](./JP_G01_View.md)
 
 This page contains the figure and the conceptual explanation tied to it.
 
 <img src="./EN_G01_Framework.png" width="900">
-
 
 ---
 
@@ -26,5 +27,3 @@ It introduces the central structural question: whether effective human refusal c
 LUMINA-30 begins at the boundary where human refusal must remain real, timely, and effective.
 
 ---
-
-[← Return to G01](../README.md#user-content-g01) ｜ [日本語](./JP_G01_View.md)

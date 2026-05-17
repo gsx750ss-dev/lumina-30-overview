@@ -1,11 +1,12 @@
 # G03：文明存続戦略
 
-[← G03へ戻る](../README.md#user-content-g03) ｜ [English](./EN_G03_View.md)
+Overviewへ戻るには、このページを閉じてください。
+
+言語: [English](./EN_G03_View.md)
 
 このページには、図と図に紐づいた詳しい概念説明があります。
 
 <img src="./JP_G03_Strategy.png" width="900">
-
 
 ---
 
@@ -26,5 +27,3 @@ G03は、AI臨界点に近づいたときの文明的な対応戦略を示しま
 文明存続戦略とは、不可逆化の前に停止・拒否・方向転換できる力を残すことです。
 
 ---
-
-[← G03へ戻る](../README.md#user-content-g03) ｜ [English](./EN_G03_View.md)

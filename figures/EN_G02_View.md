@@ -1,11 +1,12 @@
 # G02：Civilizational Outcome Model
 
-[← Return to G02](../README.md#user-content-g02) ｜ [日本語](./JP_G02_View.md)
+Close this page to return to the overview.
+
+Language: [日本語](./JP_G02_View.md)
 
 This page contains the figure and the conceptual explanation tied to it.
 
 <img src="./EN_G02_Boundary.png" width="900">
-
 
 ---
 
@@ -26,5 +27,3 @@ The figure shows why capability growth alone is not the decisive issue. The deci
 Civilizational outcomes depend on whether refusal authority survives before the irreversible boundary is crossed.
 
 ---
-
-[← Return to G02](../README.md#user-content-g02) ｜ [日本語](./JP_G02_View.md)
