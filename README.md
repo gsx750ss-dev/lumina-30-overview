@@ -60,42 +60,42 @@ not a safety optimization objective.
 
 **G00：Civilizational Boundary ｜ G00：文明境界**<br>
 
-Explanation ｜ 解説: <a href="figures/EN_G00_View.md" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="figures/JP_G00_View.md" target="_blank" rel="noopener noreferrer">JP</a><br>
+Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G00_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G00_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
 <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 
 ## G01
 
 **G01：Boundary Framework ｜ G01：境界フレームワーク**<br>
 
-Explanation ｜ 解説: <a href="figures/EN_G01_View.md" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="figures/JP_G01_View.md" target="_blank" rel="noopener noreferrer">JP</a><br>
+Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G01_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G01_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
 <img src="figures/EN_G01_Framework.png" width="900">
 
 ## G02
 
 **G02：Civilizational Outcome Model ｜ G02：文明結果モデル**<br>
 
-Explanation ｜ 解説: <a href="figures/EN_G02_View.md" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="figures/JP_G02_View.md" target="_blank" rel="noopener noreferrer">JP</a><br>
+Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G02_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G02_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
 <img src="figures/EN_G02_Boundary.png" width="900">
 
 ## G03
 
 **G03：Civilizational Survival Strategy ｜ G03：文明存続戦略**<br>
 
-Explanation ｜ 解説: <a href="figures/EN_G03_View.md" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="figures/JP_G03_View.md" target="_blank" rel="noopener noreferrer">JP</a><br>
+Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G03_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G03_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
 <img src="figures/EN_G03_Strategy.png" width="900">
 
 ## G04
 
 **G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構**<br>
 
-Explanation ｜ 解説: <a href="figures/EN_G04_View.md" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="figures/JP_G04_View.md" target="_blank" rel="noopener noreferrer">JP</a><br>
+Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G04_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G04_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
 <img src="figures/EN_G04_PCRC.png" width="900">
 
 ## G05
 
 **G05：AI Perspective ｜ G05：AI視点**<br>
 
-Explanation ｜ 解説: <a href="figures/EN_G05_View.md" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="figures/JP_G05_View.md" target="_blank" rel="noopener noreferrer">JP</a><br>
+Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G05_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G05_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
 <img src="figures/EN_G05_AI_Perspective.png" width="900">
 
 <!-- ● L30:BOUNDARY_DECISION -->
@@ -103,7 +103,7 @@ Explanation ｜ 解説: <a href="figures/EN_G05_View.md" target="_blank" rel="no
 
 **G06：Critical Boundary ｜ G06：臨界境界**<br>
 
-Explanation ｜ 解説: <a href="figures/EN_G06_View.md" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="figures/JP_G06_View.md" target="_blank" rel="noopener noreferrer">JP</a><br>
+Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G06_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G06_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
 <img src="figures/EN_G06_Critical_Boundary.png" width="900">
 
 <a id="practical-application"></a>

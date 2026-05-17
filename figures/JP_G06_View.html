@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>G06：臨界境界 | LUMINA-30</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg:#0f1115; --panel:#171b22; --text:#f3f5f7; --muted:#b6c0cc; --line:#313844; --accent:#9dc2ff; --button:#263244; --button-hover:#31445f;
+}
+@media (prefers-color-scheme: light) {
+  :root { --bg:#ffffff; --panel:#f6f8fa; --text:#1f2328; --muted:#59636e; --line:#d0d7de; --accent:#0969da; --button:#eef4ff; --button-hover:#dbeafe; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans","Noto Sans JP",Helvetica,Arial,sans-serif; line-height:1.65; }
+.wrap { width:min(980px,100%); margin:0 auto; padding:18px 14px 48px; }
+header { position:sticky; top:0; z-index:10; background:var(--bg); border-bottom:1px solid var(--line); margin:0 -14px 22px; padding:10px 14px; }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; }
+.actions { display:flex; flex-wrap:wrap; gap:8px; }
+button,.button { appearance:none; border:1px solid var(--line); border-radius:999px; background:var(--button); color:var(--text); padding:10px 14px; font-weight:700; text-decoration:none; cursor:pointer; font-size:15px; }
+button:hover,.button:hover { background:var(--button-hover); }
+.note { color:var(--muted); margin:8px 0 0; font-size:14px; }
+main { background:var(--panel); border:1px solid var(--line); border-radius:18px; padding:18px; }
+h1 { line-height:1.25; margin:0 0 12px; font-size:clamp(1.6rem,5vw,2.4rem); }
+h2,h3 { line-height:1.35; margin-top:2rem; }
+.figure { margin:18px 0 22px; }
+.figure img { display:block; width:100%; max-width:900px; height:auto; margin:0 auto; border-radius:14px; border:1px solid var(--line); pointer-events:none; user-select:none; }
+.body { overflow-wrap:anywhere; }
+a { color:var(--accent); }
+code { background:rgba(127,127,127,.18); border-radius:6px; padding:.12em .35em; }
+blockquote { margin:1rem 0; padding:.2rem 1rem; border-left:4px solid var(--accent); color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="toolbar">
+    <div>
+      <strong>LUMINA-30 Figure Explanation</strong>
+      <p class="note">このページには、図と図に紐づいた詳しい概念説明があります。</p>
+    </div>
+    <div class="actions">
+      <a class="button" href="https://github.com/lumina-30/lumina-30-overview#g06">READMEへ戻る</a>
+      <button type="button" onclick="window.close()">このページを閉じる</button>
+      <a class="button" href="./EN_G06_View.html">言語: English</a>
+      <a class="button" href="https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G06_View.md" target="_blank" rel="noopener noreferrer">Markdown</a>
+    </div>
+  </div>
+  <p class="note">ボタンが効かない場合は、ブラウザのタブを手動で閉じてください。</p>
+</header>
+<main>
+  <h1>G06：臨界境界</h1>
+  <p class="note">リポジトリ参照用の元Markdown説明ページは維持されています。</p>
+  <div class="figure" aria-label="G06：臨界境界">
+    <img src="./JP_G06_Critical_Boundary.png" alt="G06：臨界境界" draggable="false">
+  </div>
+  <section class="body">
+<hr>
+<h2>この図が示すもの</h2>
+<p>G06は、不可逆的影響の前に評価される手続的臨界境界を示します。</p>
+<p>問うのは、不可逆的結果が発生する前に、人間の拒否権が実効的に機能していたかです。</p>
+<hr>
+<h2>G06中核定義</h2>
+<p>【定義】 G06はLUMINA-30の中核となる手続的有効性条件を定義します。 不可逆な外部影響が発生する前に、人間の最終拒否権が有効に機能していたかを評価します。</p>
+<p>【主判定】 不可逆影響の発生前に、人間の最終拒否権は有効だったか？</p>
+<p>YES → 手続的有効 NO → 手続的無効</p>
+<p>【適用範囲】</p>
+<ul>
+<li>事故レビュー</li>
+<li>監査／コンプライアンス</li>
+<li>ガバナンス評価</li>
+</ul>
+<p>【位置づけ】 これはガイドラインではありません。 これは政策ではありません。 これは構造的な有効性条件です。</p>
+<p>【補足】</p>
+<ul>
+<li>AI出力を単独または主たる根拠としてはならない。</li>
+<li>AIのみの閉ループ評価は手続的無効。</li>
+<li>人間の拒否権が欠如している場合、結果の良し悪しに関係なく無効。</li>
+</ul>
+<hr>
+<h2>LUMINA-30との関係</h2>
+<p>G06は、LUMINA-30を実務上検証可能にする地点です。 境界の問いを、手続的有効性の判定へ変換します。</p>
+<hr>
+<h2>中核メッセージ</h2>
+<p>不可逆的影響の前に、実効的な人間拒否によってシステムを止められないなら、そのシステムはLUMINA-30の境界条件において手続的に無効です。</p>
+<hr>
+  </section>
+</main>
+</div>
+</body>
+</html>
