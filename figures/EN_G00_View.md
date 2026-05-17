@@ -1,14 +1,11 @@
 # G00：Civilizational Boundary
 
-[← Return to G00](../README.md#g00) ｜ [日本語](./JP_G00_View.md)
+[← Return to G00](../README.md#user-content-g00) ｜ [日本語](./JP_G00_View.md)
 
-This page contains the full-size figure and the conceptual explanation tied to it.
+This page contains the figure and the conceptual explanation tied to it.
 
-<a href="./EN_G00_Approaching_Boundary.png">
-  <img src="./EN_G00_Approaching_Boundary.png" width="900">
-</a>
+<img src="./EN_G00_Approaching_Boundary.png" width="900">
 
-[Open full-size image](./EN_G00_Approaching_Boundary.png)
 
 ---
 
@@ -51,4 +48,4 @@ G00 visualizes the cost of reaching that state too late.
 
 ---
 
-[← Return to G00](../README.md#g00) ｜ [日本語](./JP_G00_View.md)
+[← Return to G00](../README.md#user-content-g00) ｜ [日本語](./JP_G00_View.md)

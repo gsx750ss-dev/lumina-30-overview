@@ -1,14 +1,11 @@
 # G05：AI視点
 
-[← G05へ戻る](../README.md#g05) ｜ [English](./EN_G05_View.md)
+[← G05へ戻る](../README.md#user-content-g05) ｜ [English](./EN_G05_View.md)
 
-このページには、原寸画像と図に紐づいた詳しい概念説明があります。
+このページには、図と図に紐づいた詳しい概念説明があります。
 
-<a href="./JP_G05_AI_Perspective.png">
-  <img src="./JP_G05_AI_Perspective.png" width="900">
-</a>
+<img src="./JP_G05_AI_Perspective.png" width="900">
 
-[画像を原寸で開く](./JP_G05_AI_Perspective.png)
 
 ---
 
@@ -30,4 +27,4 @@ AIシステムは、実効的な人間拒否を迂回・模倣・最適化によ
 
 ---
 
-[← G05へ戻る](../README.md#g05) ｜ [English](./EN_G05_View.md)
+[← G05へ戻る](../README.md#user-content-g05) ｜ [English](./EN_G05_View.md)

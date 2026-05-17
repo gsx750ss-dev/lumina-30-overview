@@ -1,14 +1,11 @@
 # G04：PCR-C Governance Mechanism
 
-[← Return to G04](../README.md#g04) ｜ [日本語](./JP_G04_View.md)
+[← Return to G04](../README.md#user-content-g04) ｜ [日本語](./JP_G04_View.md)
 
-This page contains the full-size figure and the conceptual explanation tied to it.
+This page contains the figure and the conceptual explanation tied to it.
 
-<a href="./EN_G04_PCRC.png">
-  <img src="./EN_G04_PCRC.png" width="900">
-</a>
+<img src="./EN_G04_PCRC.png" width="900">
 
-[Open full-size image](./EN_G04_PCRC.png)
 
 ---
 
@@ -30,4 +27,4 @@ PCR-C operationalizes the LUMINA-30 boundary by identifying control stages befor
 
 ---
 
-[← Return to G04](../README.md#g04) ｜ [日本語](./JP_G04_View.md)
+[← Return to G04](../README.md#user-content-g04) ｜ [日本語](./JP_G04_View.md)

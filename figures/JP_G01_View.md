@@ -1,14 +1,11 @@
 # G01：境界フレームワーク
 
-[← G01へ戻る](../README.md#g01) ｜ [English](./EN_G01_View.md)
+[← G01へ戻る](../README.md#user-content-g01) ｜ [English](./EN_G01_View.md)
 
-このページには、原寸画像と図に紐づいた詳しい概念説明があります。
+このページには、図と図に紐づいた詳しい概念説明があります。
 
-<a href="./JP_G01_Framework.png">
-  <img src="./JP_G01_Framework.png" width="900">
-</a>
+<img src="./JP_G01_Framework.png" width="900">
 
-[画像を原寸で開く](./JP_G01_Framework.png)
 
 ---
 
@@ -30,4 +27,4 @@ LUMINA-30は、人間の拒否が現実的・時間的・実効的に残って�
 
 ---
 
-[← G01へ戻る](../README.md#g01) ｜ [English](./EN_G01_View.md)
+[← G01へ戻る](../README.md#user-content-g01) ｜ [English](./EN_G01_View.md)
