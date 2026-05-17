@@ -1,6 +1,8 @@
-# G04 — PCR-C ガバナンス機構
+# G04：PCR-C ガバナンス機構
 
-[← G04へ戻る](../README.md#g04-concept-diagram) ｜ [English](./EN_G04_View.md)
+[← G04へ戻る](../README.md#g04-en) ｜ [English](./EN_G04_View.md)
+
+このページには、原寸画像と図に紐づいた詳しい概念説明があります。
 
 <a href="./JP_G04_PCRC.png">
   <img src="./JP_G04_PCRC.png" width="900">
@@ -28,4 +30,4 @@ PCR-Cは、不可逆リスクが手続的に無効な状態へ到達する前に
 
 ---
 
-[← G04へ戻る](../README.md#g04-concept-diagram) ｜ [English](./EN_G04_View.md)
+[← G04へ戻る](../README.md#g04-en) ｜ [English](./EN_G04_View.md)

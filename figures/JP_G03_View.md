@@ -1,6 +1,8 @@
-# G03 — 文明存続戦略
+# G03：文明存続戦略
 
-[← G03へ戻る](../README.md#g03-concept-diagram) ｜ [English](./EN_G03_View.md)
+[← G03へ戻る](../README.md#g03-en) ｜ [English](./EN_G03_View.md)
+
+このページには、原寸画像と図に紐づいた詳しい概念説明があります。
 
 <a href="./JP_G03_Strategy.png">
   <img src="./JP_G03_Strategy.png" width="900">
@@ -28,4 +30,4 @@ G03は、AI臨界点に近づいたときの文明的な対応戦略を示しま
 
 ---
 
-[← G03へ戻る](../README.md#g03-concept-diagram) ｜ [English](./EN_G03_View.md)
+[← G03へ戻る](../README.md#g03-en) ｜ [English](./EN_G03_View.md)

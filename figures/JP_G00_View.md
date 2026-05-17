@@ -1,6 +1,8 @@
-# G00 — 文明境界
+# G00：文明境界
 
-[← G00へ戻る](../README.md#g00-concept-diagram) ｜ [English](./EN_G00_View.md)
+[← G00へ戻る](../README.md#g00-civilizational-boundary) ｜ [English](./EN_G00_View.md)
+
+このページには、原寸画像と図に紐づいた詳しい概念説明があります。
 
 <a href="./JP_G00_Approaching_Boundary.png">
   <img src="./JP_G00_Approaching_Boundary.png" width="900">
@@ -49,4 +51,4 @@ G00は、その状態に到達してしまうことの代償を可視化して�
 
 ---
 
-[← G00へ戻る](../README.md#g00-concept-diagram) ｜ [English](./EN_G00_View.md)
+[← G00へ戻る](../README.md#g00-civilizational-boundary) ｜ [English](./EN_G00_View.md)

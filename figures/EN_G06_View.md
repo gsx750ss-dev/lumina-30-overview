@@ -1,6 +1,8 @@
-# G06 — Critical Boundary
+# G06：Critical Boundary
 
-[← Return to G06](../README.md#g06-concept-diagram) ｜ [日本語](./JP_G06_View.md)
+[← Return to G06](../README.md#g06-critical-boundary) ｜ [日本語](./JP_G06_View.md)
+
+This page contains the full-size figure and the conceptual explanation tied to it.
 
 <a href="./EN_G06_Critical_Boundary.png">
   <img src="./EN_G06_Critical_Boundary.png" width="900">
@@ -60,4 +62,4 @@ If a system cannot be stopped by effective human refusal before irreversible imp
 
 ---
 
-[← Return to G06](../README.md#g06-concept-diagram) ｜ [日本語](./JP_G06_View.md)
+[← Return to G06](../README.md#g06-critical-boundary) ｜ [日本語](./JP_G06_View.md)

@@ -57,149 +57,79 @@ not a safety optimization objective.
 これは安全性最適化の目標ではなく、手続的有効性を判定するための条件です。
 
 <a id="g00-civilizational-boundary"></a>
-## G00 — Civilizational Boundary ｜ G00：文明境界
+## G00：Civilizational Boundary ｜ G00：文明境界
 
+Explanation ｜ 解説: [EN](figures/EN_G00_View.md) ｜ [JP](figures/JP_G00_View.md)<br>
 <img src="figures/EN_G00_Approaching_Boundary.png" width="900">
 
-## G01 — Boundary Framework ｜ G01：境界フレームワーク
+<a id="g01-en"></a>
+## G01：Boundary Framework ｜ G01：境界フレームワーク
+
+Explanation ｜ 解説: [EN](figures/EN_G01_View.md) ｜ [JP](figures/JP_G01_View.md)<br>
 <img src="figures/EN_G01_Framework.png" width="900">
 
-## G02 — Civilizational Outcome Model ｜ G02：文明結果モデル
+<a id="g02-en"></a>
+## G02：Civilizational Outcome Model ｜ G02：文明結果モデル
+
+Explanation ｜ 解説: [EN](figures/EN_G02_View.md) ｜ [JP](figures/JP_G02_View.md)<br>
 <img src="figures/EN_G02_Boundary.png" width="900">
 
-## G03 — Civilizational Survival Strategy ｜ G03：文明存続戦略
+<a id="g03-en"></a>
+## G03：Civilizational Survival Strategy ｜ G03：文明存続戦略
+
+Explanation ｜ 解説: [EN](figures/EN_G03_View.md) ｜ [JP](figures/JP_G03_View.md)<br>
 <img src="figures/EN_G03_Strategy.png" width="900">
 
-## G04 — PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構
+<a id="g04-pcrc-governance-model"></a>
+<a id="g04-en"></a>
+## G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構
+
+Explanation ｜ 解説: [EN](figures/EN_G04_View.md) ｜ [JP](figures/JP_G04_View.md)<br>
 <img src="figures/EN_G04_PCRC.png" width="900">
 
-## G05 — AI Perspective ｜ G05：AI視点
+<a id="g05-en"></a>
+## G05：AI Perspective ｜ G05：AI視点
+
+Explanation ｜ 解説: [EN](figures/EN_G05_View.md) ｜ [JP](figures/JP_G05_View.md)<br>
 <img src="figures/EN_G05_AI_Perspective.png" width="900">
 
 <!-- ● L30:BOUNDARY_DECISION -->
-## G06 — Critical Boundary ｜ G06：臨界境界
+<a id="g06-core"></a>
+<a id="g06-core-en"></a>
+<a id="g06-core-jp"></a>
 <a id="g06-en"></a>
 <a id="g06-critical-boundary"></a>
+## G06：Critical Boundary ｜ G06：臨界境界
+
+Explanation ｜ 解説: [EN](figures/EN_G06_View.md) ｜ [JP](figures/JP_G06_View.md)<br>
 <img src="figures/EN_G06_Critical_Boundary.png" width="900">
-
-<!-- ● L30:CONCEPT -->
-<a id="concept-diagrams"></a>
-## Concept Diagram Archive ｜ 概念図アーカイブ
-
-The image links below open dedicated explanation pages. Each page includes the full-size figure and a detailed conceptual explanation tied to that figure.  
-以下の画像リンクは専用の説明ページへ移動します。各ページには原寸画像と、その図に紐づいた詳しい概念説明があります。
-
-LUMINA-30 is a civilizational boundary framework for preserving human refusal authority before irreversible AI autonomy emerges.<br>
-Civilization remains free only while humans retain the power to refuse.<br>
-LUMINA-30は、不可逆的なAI自律性が発生する前に人間の拒否権を維持するための文明的境界フレームワークです。<br>
-本リポジトリは、その構造・生存戦略・ガバナンスモデルを図解で提示します。<br>
-
-LUMINA-30 can also be applied as a practical review instrument for determining whether human refusal authority remained effective before irreversible real-world impact.
-
-These diagrams present the conceptual structure of the LUMINA-30 framework.
-
-各図は LUMINA-30 の概念構造を示しています。
-
-A visual introduction to the LUMINA-30 civilizational boundary framework.
-
-These diagrams illustrate the structural problem addressed by LUMINA-30:  
-how human refusal authority can be preserved before advanced AI systems  
-reach the point of irreversible external impact.
-
-LUMINA-30文明境界フレームワークの概念図。
-
-
-<!-- ● L30:G00 -->
-<a id="g00-concept-diagram"></a>
-### G00 — Civilizational Boundary ｜ 文明境界
-
-This figure shows the future if humanity does nothing and effective human refusal is lost before irreversibility.  
-この図は、人類が無策のまま不可逆化前の実効的人間拒否を失った場合の未来図を示します。  
-<br>
-EN: [G00](figures/EN_G00_View.md) ｜ JP: [G00](figures/JP_G00_View.md)
-
-
-<!-- ● L30:G01 -->
-<a id="g01-concept-diagram"></a>
-### G01 — Boundary Framework ｜ 境界フレームワーク
-
-This diagram illustrates the boundary condition explored by LUMINA-30.  
-この図は LUMINA-30 が扱う文明境界条件を示します。  
-<br>
-EN: [G01](figures/EN_G01_View.md) ｜ JP: [G01](figures/JP_G01_View.md)
-
-
-<!-- ● L30:G02 -->
-<a id="g02-concept-diagram"></a>
-### G02 — Civilizational Outcome Model ｜ 文明結果モデル
-
-This diagram models the relationship between AI capability growth and civilizational outcomes,  
-including the irreversible progression structure under advanced AI conditions.<br>
-この図は、AI能力の成長と文明の結果の関係、および高度AI環境下における不可逆的な進行構造を示します。<br>
-<br>
-EN: [G02](figures/EN_G02_View.md) ｜ JP: [G02](figures/JP_G02_View.md)
-
-
-<!-- ● L30:G03 -->
-<a id="g03-concept-diagram"></a>
-### G03 — Civilizational Survival Strategy ｜ 文明存続戦略
-
-This diagram illustrates possible strategic responses near critical AI thresholds.  
-この図は AI臨界点に近づいたときの人類の戦略を示します。  
-<br>
-EN: [G03](figures/EN_G03_View.md) ｜ JP: [G03](figures/JP_G03_View.md)
-
-
-<!-- ● L30:G04 -->
-<a id="g04-concept-diagram"></a>
-<a id="g04-pcrc-governance-model"></a>
-### G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構
-
-This diagram explains the PCR-C governance mechanism.  
-この図は PCR-C 審査メカニズムを示します。  
-<br>
-EN: [G04](figures/EN_G04_View.md) ｜ JP: [G04](figures/JP_G04_View.md)
-
-
-<!-- ● L30:G05 -->
-<a id="g05-concept-diagram"></a>
-### G05 — AI Perspective ｜ AI視点
-
-This diagram explores how the framework appears from an advanced AI perspective.  
-この図は LUMINA-30 を AI視点から見た意味を示します。  
-<br>
-EN: [G05](figures/EN_G05_View.md) ｜ JP: [G05](figures/JP_G05_View.md)
-
-
-<!-- ● L30:G06 -->
-<a id="g06-concept-diagram"></a>
-### G06 — Critical Boundary ｜ 臨界境界
-
-This diagram defines the critical procedural boundary before irreversible impact.  
-この図は、不可逆影響の前に評価される手続的臨界境界を示します。  
-<br>
-EN: [G06](figures/EN_G06_View.md) ｜ JP: [G06](figures/JP_G06_View.md)
 
 <a id="practical-application"></a>
 ## Practical Application ｜ 実務適用
 
-When an AI incident occurs, the evaluation reduces to a single question:
+When irreversible impact is at stake, incident review is not merely retrospective.<br>
+It is the test of whether meaningful human control still existed before the point of no return.
 
-AIインシデントが発生した場合、評価は1つの問いに集約されます：
+不可逆的影響が問題となる場合、事故レビューは単なる事後検証ではありません。<br>
+それは、後戻りできない地点の前に、意味のある人間制御が実在していたかを検証するためのものです。
+
+**Primary review question ｜ 主判定**
 
 > Was human refusal authority preserved in a way that allowed meaningful human intervention and the ability to stop the system before irreversible real-world impact occurred?
 
 > 人間の拒否権は、不可逆な現実世界への影響が発生する前に、意味のある介入およびシステム停止を可能にする形で維持されていたか？
 
-If this cannot be answered clearly, the system cannot be considered controlled.
+> [!CAUTION]
+> If this cannot be answered clearly, the system cannot be considered controlled.<br>
+> この問いに明確に答えられない場合、そのシステムは制御されていたとは見なせません。
 
-この問いに明確に答えられない場合、そのシステムは制御されていたとは見なせません。
-
-→ [Incident Review Hub ｜ 事故レビュー入口](https://github.com/lumina-30/lumina30-incident-review)  
-Use this for practical incident review, boundary checks, and stakeholder-facing review materials.  
+→ [Incident Review Hub ｜ 事故レビュー入口](https://github.com/lumina-30/lumina30-incident-review)<br>
+Use this for practical incident review, boundary checks, and stakeholder-facing review materials.<br>
 事故レビュー、境界判定、相手別レビュー資料に使用。
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
+---
 
 <!-- ● L30:STRUCTURE -->
 <a id="framework-structure"></a>
@@ -391,15 +321,15 @@ LUMINA-30は行動・政策・強制を提示せず、
 境界条件を定義する参照フレームです。
 
 Recommended path:  
-Start from Concept Diagram Archive,  
-then move to Canonical References,  
-and finally to Operational Governance Tools.
+Start from Entry Visuals (G00–G06),<br>
+then move to Practical Application,<br>
+and finally to Incident Review Hub and Operational Governance Tools.
 
 Primary use-case:
 Post-incident review and pre-irreversibility evaluation
 
 推奨読書順：  
-Concept Diagram Archive → Canonical References → Operational Governance Tools
+Entry Visuals (G00–G06) → Practical Application → Incident Review Hub / Operational Governance Tools
 
 ## General Usage Context ｜ 全体の使用文脈
 
@@ -545,6 +475,7 @@ Result ｜ 結果:
 - Valid ｜ 有効
 - Procedurally Invalid ｜ 手続的無効
 
+<a id="evaluation-output"></a>
 ## Evaluation Output ｜ 評価出力
 
 L30-CI (LUMINA-30 Condition Indicator) is a minimal, evidence-based indicator expressing whether a reviewed system satisfies LUMINA-30 boundary conditions.<br>
@@ -680,6 +611,7 @@ Use this for practical incident review, boundary checks, and operational templat
 
 
 <!-- ● L30:INCIDENT_QUESTIONS -->
+<a id="additional-review-questions-lumina-30-layer"></a>
 ## Additional Review Questions (LUMINA-30 Layer) ｜ 追加確認項目（LUMINA-30層）
 
 1. What would have made this system stop before the incident?  
@@ -1338,10 +1270,9 @@ or positioning is welcome.
 - [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
   ※ For all readers: core understanding ｜ 全読者向け：中核理解  
   ▶ Understand: visually grasp LUMINA-30’s boundary condition and core concepts ｜ Use: go directly to [G06 Critical Boundary](#g06-critical-boundary) and the judgment criterion
-  - [Entry Visuals (G00 — G06) ｜ 導入ビジュアル](#entry-visuals)
-  - [G06 — Critical Boundary ｜ 臨界境界](#g06-critical-boundary)  
+  - [Entry Visuals (G00–G06) ｜ 導入ビジュアル](#entry-visuals)
+  - [G06：Critical Boundary ｜ G06：臨界境界](#g06-critical-boundary)  
     ⚑ The judgment criterion itself — the first core item to check ｜ 判断基準そのもの（最初に確認する核心）
-  - [Concept Diagram Archive ｜ 概念図アーカイブ](#concept-diagrams)
   - [Practical Application ｜ 実務適用](#practical-application)
   - [Framework Structure ｜ フレームワーク構造](#framework-structure)
   - [Conceptual Structure ｜ 思想構造](#conceptual-structure)
@@ -1378,7 +1309,7 @@ or positioning is welcome.
     ⚑ Operational materials for governance, response, triage, and external review ｜ ガバナンス、対応、トリアージ、外部レビューのための実務資料
   - [LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系](./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md)  
     ⚑ Reference address system that connects checklists, review sheets, and audit forms back to the LUMINA-30 core proposition ｜ チェックリスト・レビュー票・監査票をLUMINA-30中核命題へ戻す参照番地
-  - [G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構](#g04-pcrc-governance-model)  
+  - [G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構](#g04-pcrc-governance-model)  
     ⚑ Infrastructure-control model for preventing irreversibility ｜ 不可逆化を防ぐインフラ制御モデル
 
 - [★ Reference ｜ 参照](#reference)  
@@ -1453,9 +1384,9 @@ Use this section to choose the next destination by purpose, not to browse the wh
   For checking whether formal oversight remained effective human refusal before irreversibility.  
   形式的監督が、不可逆化前の実効的人間拒否として機能していたかを確認する入口。
 
-- [Use practical review tools ｜ 実務レビューに使う](#application)  
-  For incident review, checklists, templates, and operational evaluation.  
-  事故レビュー、チェックリスト、テンプレート、運用評価に使う場合。
+- [Use LUMINA-30 for incident review ｜ LUMINA-30を事故レビューに使う](#practical-application)  
+  For understanding why incident review is the control-validity test under irreversibility.<br>
+  不可逆性のもとで、事故レビューが制御有効性の検証になる理由を確認する場合。
 
 - [Review an AI incident ｜ AI事故をレビューする](#ai-incident-review-repository)  
   For checking whether intervention remained possible before irreversible impact.  
