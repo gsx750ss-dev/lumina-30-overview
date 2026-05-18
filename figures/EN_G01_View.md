@@ -2,8 +2,6 @@
 
 [HTML English](https://lumina-30.github.io/lumina-30-overview/figures/EN_G01_View.html) ｜ [HTML 日本語](https://lumina-30.github.io/lumina-30-overview/figures/JP_G01_View.html) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G01_View.md)
 
-[← Back to this figure in the Overview](https://lumina-30.github.io/lumina-30-overview/index.html#g01) ｜ [日本語版](JP_G01_View.md)
-
 LUMINA-30 as a boundary framework rather than an ordinary policy, guideline, or ethical appeal.
 
 ![G01: Boundary Framework](EN_G01_Framework.png)

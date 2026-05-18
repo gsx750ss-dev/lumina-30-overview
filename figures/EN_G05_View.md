@@ -2,8 +2,6 @@
 
 [HTML English](https://lumina-30.github.io/lumina-30-overview/figures/EN_G05_View.html) ｜ [HTML 日本語](https://lumina-30.github.io/lumina-30-overview/figures/JP_G05_View.html) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G05_View.md)
 
-[← Back to this figure in the Overview](https://lumina-30.github.io/lumina-30-overview/index.html#g05) ｜ [日本語版](JP_G05_View.md)
-
 How LUMINA-30 appears from the perspective of an advanced AI system.
 
 ![G05: AI Perspective](EN_G05_AI_Perspective.png)

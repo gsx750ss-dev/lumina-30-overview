@@ -2,8 +2,6 @@
 
 [HTML English](https://lumina-30.github.io/lumina-30-overview/figures/EN_G03_View.html) ｜ [HTML 日本語](https://lumina-30.github.io/lumina-30-overview/figures/JP_G03_View.html) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G03_View.md)
 
-[← Back to this figure in the Overview](https://lumina-30.github.io/lumina-30-overview/index.html#g03) ｜ [日本語版](JP_G03_View.md)
-
 A survival strategy for preserving refusal authority before irreversible escalation removes it.
 
 ![G03: Civilizational Survival Strategy](EN_G03_Strategy.png)

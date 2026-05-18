@@ -2,8 +2,6 @@
 
 [HTML English](https://lumina-30.github.io/lumina-30-overview/figures/EN_G03_View.html) ｜ [HTML 日本語](https://lumina-30.github.io/lumina-30-overview/figures/JP_G03_View.html) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G03_View.md)
 
-[← Overview の該当図へ戻る](https://lumina-30.github.io/lumina-30-overview/index-ja.html#g03) ｜ [English version](EN_G03_View.md)
-
 不可逆的エスカレーションによって拒否権が失われる前に、それを保持するための存続戦略を示します。
 
 ![G03: 文明存続戦略](JP_G03_Strategy.png)

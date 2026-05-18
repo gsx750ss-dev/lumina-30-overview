@@ -2,8 +2,6 @@
 
 [HTML English](https://lumina-30.github.io/lumina-30-overview/figures/EN_G02_View.html) ｜ [HTML 日本語](https://lumina-30.github.io/lumina-30-overview/figures/JP_G02_View.html) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G02_View.md)
 
-[← Back to this figure in the Overview](https://lumina-30.github.io/lumina-30-overview/index.html#g02) ｜ [日本語版](JP_G02_View.md)
-
 A model of the relationship between AI capability growth and civilizational outcomes.
 
 ![G02: Civilizational Outcome Model](EN_G02_Boundary.png)
