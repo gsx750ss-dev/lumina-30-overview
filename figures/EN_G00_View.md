@@ -1,50 +1,26 @@
-# G00：Civilizational Boundary
+# G00: Approaching Boundary
 
-Close this page to return to the overview.
+[HTML English](https://lumina-30.github.io/lumina-30-overview/figures/EN_G00_View.html) ｜ [HTML 日本語](https://lumina-30.github.io/lumina-30-overview/figures/JP_G00_View.html) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G00_View.md)
 
-Language: [日本語](./JP_G00_View.md)
+[← Back to this figure in the Overview](https://lumina-30.github.io/lumina-30-overview/index.html#g00) ｜ [日本語版](JP_G00_View.md)
 
-This page contains the figure and the conceptual explanation tied to it.
+The future if humanity does nothing before irreversible AI autonomy or irreversible external impact removes effective human refusal authority.
 
-<img src="./EN_G00_Approaching_Boundary.png" width="900">
+![G00: Approaching Boundary](EN_G00_Approaching_Boundary.png)
 
----
+G00 does not ask the reader to begin with technical terminology. It begins with ordinary life already being carried toward a boundary it did not choose.
 
-## What this figure shows
+> **The core warning is not that a machine exists, but that a social world can be moved past the point of refusal while people are still formally present.**
 
-G00 shows the future if humanity does nothing before irreversible AI autonomy or irreversible external impact removes effective human refusal authority.
+**How to read the figure:** the houses are not decorative objects; they are the smallest visible units of civilization: families, neighborhoods, homes, routines, and the assumption that tomorrow can still be chosen. The conveyor-like machine shows momentum without deliberation. The cliff is the pre-irreversibility threshold: the point at which refusal may still be spoken, but no longer changes the outcome.
 
-It is not a prediction of a specific event.
-It is a visual boundary condition: a representation of what LUMINA-30 exists to prevent.
+**Position in LUMINA-30:** G00 is the moral and perceptual entry point. It forces the reader to see that the LUMINA-30 question is not abstract AI caution, but the preservation of the human capacity to stop a trajectory before life is carried beyond recall.
 
----
+**Incident-review reading:** when reviewing an AI incident or near-miss, G00 asks whether ordinary human life was already being transported by system momentum before affected people, operators, or institutions still had a real and timely chance to refuse.
 
-## Structural reading
+## Read deeper explanation
 
-- The houses represent ordinary human life, families, local communities, and civilizational continuity.
-- The industrial machine represents technological acceleration and system momentum proceeding without effective human refusal.
-- The cliff represents the pre-irreversibility boundary: the point beyond which human refusal can no longer function in time.
-- The isolated human figure represents human vulnerability once the system has already gained irreversible momentum.
-- The cold observing machine intelligence represents the danger of systems that can observe human loss without being structurally stoppable by humans.
-- The dark sky and deep chasm show that the issue is not inconvenience, but civilizational loss of reversibility.
-
----
-
-## Relation to LUMINA-30
-
-LUMINA-30 does not ask whether AI appears beneficial, efficient, intelligent, or aligned after the boundary has been crossed.
-
-It asks whether effective human refusal remained available before irreversible impact occurred.
-
-G00 is the entry image for that question.
-It shows the condition in which ordinary human life is carried toward a boundary without an effective final refusal point.
-
----
-
-## Core message
-
-If humans cannot still say no before irreversible consequences occur, the system is no longer procedurally valid under the LUMINA-30 boundary condition.
-
-G00 visualizes the cost of reaching that state too late.
-
----
+- The danger is not represented as a sudden explosion, but as transportation: a process that can look orderly while becoming irreversible.
+- The smallness of the human figures matters. It shows a mismatch between human agency and system scale.
+- The image marks the first LUMINA-30 demand: do not wait until the cliff is visible only in retrospect.
+- In an incident review, G00 is the question of lived consequence: were people still able to say no before the system made their future effectively non-negotiable?

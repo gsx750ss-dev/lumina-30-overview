@@ -1,29 +1,25 @@
-# G02：Civilizational Outcome Model
+# G02: Civilizational Outcome Model
 
-Close this page to return to the overview.
+[HTML English](https://lumina-30.github.io/lumina-30-overview/figures/EN_G02_View.html) ｜ [HTML 日本語](https://lumina-30.github.io/lumina-30-overview/figures/JP_G02_View.html) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G02_View.md)
 
-Language: [日本語](./JP_G02_View.md)
+[← Back to this figure in the Overview](https://lumina-30.github.io/lumina-30-overview/index.html#g02) ｜ [日本語版](JP_G02_View.md)
 
-This page contains the figure and the conceptual explanation tied to it.
+A model of the relationship between AI capability growth and civilizational outcomes.
 
-<img src="./EN_G02_Boundary.png" width="900">
+![G02: Civilizational Outcome Model](EN_G02_Boundary.png)
 
----
+G02 shows why AI capability growth is not the decisive axis by itself. The decisive question is whether civilization can still choose, halt, or redirect before capability becomes irreversible momentum.
 
-## What this figure shows
+> **A powerful system is not procedurally valid merely because it is useful, impressive, or beneficial. It remains valid only while refusal survives before the boundary.**
 
-G02 models the relationship between AI capability growth and civilizational outcomes.
+**How to read the figure:** the figure should be read as a separation between performance and civilizational outcome. Capability can rise while refusal authority falls. Benefits can accumulate while the option to stop disappears. LUMINA-30 focuses on that hidden crossing point.
 
----
+**Position in LUMINA-30:** G02 explains why the framework is not anti-capability and not anti-progress. It targets the loss of future choice: the moment when increased capability stops being merely powerful and starts making refusal structurally unavailable.
 
-## Relation to LUMINA-30
+**Incident-review reading:** use G02 to avoid being distracted by success metrics. In a review, ask whether apparent performance gains masked a loss of reversibility, escalation control, or human refusal authority before consequences became locked in.
 
-The figure shows why capability growth alone is not the decisive issue. The decisive issue is whether human refusal remains effective before irreversible progression becomes structurally unavailable to stop.
+## Read deeper explanation
 
----
-
-## Core message
-
-Civilizational outcomes depend on whether refusal authority survives before the irreversible boundary is crossed.
-
----
+- The figure rejects the assumption that better capability automatically means better governance.
+- The civilizational outcome depends on whether humans remain able to stop or redirect the process in time.
+- For LUMINA-30, the critical failure is not merely a bad output. It is the disappearance of the human power to refuse before the bad or irreversible outcome becomes unavoidable.

@@ -1,61 +1,26 @@
-# G06：Critical Boundary
+# G06: Critical Boundary
 
-Close this page to return to the overview.
+[HTML English](https://lumina-30.github.io/lumina-30-overview/figures/EN_G06_View.html) ｜ [HTML 日本語](https://lumina-30.github.io/lumina-30-overview/figures/JP_G06_View.html) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G06_View.md)
 
-Language: [日本語](./JP_G06_View.md)
+[← Back to this figure in the Overview](https://lumina-30.github.io/lumina-30-overview/index.html#g06) ｜ [日本語版](JP_G06_View.md)
 
-This page contains the figure and the conceptual explanation tied to it.
+The procedural critical boundary evaluated before irreversible impact occurs.
 
-<img src="./EN_G06_Critical_Boundary.png" width="900">
+![G06: Critical Boundary](EN_G06_Critical_Boundary.png)
 
----
+G06 is the final compression of LUMINA-30 into a procedural judgment: before irreversible impact, was human final refusal still effective in practice?
 
-## What this figure shows
+> **If the answer is no, the process is procedurally invalid under LUMINA-30 even if oversight, approval, or documentation existed in form.**
 
-G06 defines the critical procedural boundary before irreversible impact.
+**How to read the figure:** the YES/NO branch is not about whether a human appeared somewhere in the process. It separates effective refusal from formal participation. YES means the human refusal authority could still stop, delay, redirect, or invalidate the action before irreversible impact. NO means the boundary had already collapsed.
 
-It asks whether human refusal authority remained effective before irreversible consequences occurred.
+**Position in LUMINA-30:** G06 is the validity gate. It converts the entire framework into the one question that incident review, audit, compliance, and governance can apply without hiding behind vague oversight language.
 
----
+**Incident-review reading:** use G06 as the final test. Ask what the human knew, when they knew it, whether refusal was available, whether refusal would have had force, and whether the irreversible effect had already become unavoidable by the time human judgment appeared.
 
-## G06 Core Definition
+## Read deeper explanation
 
-**Definition**  
-G06 defines the core procedural validity condition of LUMINA-30.
-It evaluates whether human refusal authority remained effective before any irreversible external impact occurred.
-
-**Primary Question**  
-Was human refusal authority effective before irreversible impact?
-
-YES → Procedurally valid  
-NO → Procedurally invalid
-
-**Scope**
-- Incident review
-- Audit / compliance
-- Governance evaluation
-
-**Position**
-This is not a guideline.  
-This is not a policy.  
-This is a structural validity condition.
-
-**Notes**
-- AI output must not be used as the sole or primary rationale.
-- Closed-loop AI-only evaluation is procedurally invalid.
-- Absence of human refusal authority invalidates the process, regardless of outcome quality.
-
----
-
-## Relation to LUMINA-30
-
-G06 is the point where LUMINA-30 becomes operationally testable.
-It converts the boundary question into a procedural validity judgment.
-
----
-
-## Core message
-
-If a system cannot be stopped by effective human refusal before irreversible impact, it is procedurally invalid under the LUMINA-30 boundary condition.
-
----
+- G06 rejects “human-in-the-loop” as a label unless the human could still act with consequence.
+- YES is not moral approval; it is procedural validity under the boundary condition.
+- NO is not merely a defect; it means the system crossed into a state where human refusal no longer governed the outcome.
+- This is why G06 is the final review gate: it asks whether civilization still had the power to choose before the result became irreversible.

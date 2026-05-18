@@ -3,78 +3,50 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>G04：PCR-C ガバナンス機構 | LUMINA-30</title>
-<style>
-:root {
-  color-scheme: light dark;
-  --bg:#0b0d12; --panel:#141820; --text:#f4f6f8; --muted:#bac4d1; --line:#303846; --accent:#9dc2ff; --pill:#223047; --pill-hover:#2d4162; --quote:#d8e6ff;
-}
-@media (prefers-color-scheme: light) {
-  :root { --bg:#ffffff; --panel:#f6f8fa; --text:#1f2328; --muted:#59636e; --line:#d0d7de; --accent:#0969da; --pill:#eef4ff; --pill-hover:#dbeafe; --quote:#1f4e8c; }
-}
-* { box-sizing: border-box; }
-html { scroll-behavior:smooth; }
-body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans","Noto Sans JP",Helvetica,Arial,sans-serif; line-height:1.72; }
-.wrap { width:min(1040px,100%); margin:0 auto; padding:18px 14px 54px; }
-header { position:sticky; top:0; z-index:10; background:color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter:blur(10px); border-bottom:1px solid var(--line); margin:0 -14px 24px; padding:10px 14px; }
-.toolbar { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; }
-.kicker { color:var(--muted); font-size:14px; letter-spacing:.04em; text-transform:uppercase; }
-.link-pill { border:1px solid var(--line); border-radius:999px; background:var(--pill); color:var(--text); padding:10px 14px; font-weight:700; text-decoration:none; display:inline-block; }
-.link-pill:hover { background:var(--pill-hover); text-decoration:none; }
-main { background:var(--panel); border:1px solid var(--line); border-radius:20px; padding:clamp(18px,3vw,30px); box-shadow:0 18px 48px rgba(0,0,0,.22); }
-h1 { line-height:1.18; margin:0 0 10px; font-size:clamp(1.75rem,5vw,2.75rem); }
-.subtitle { color:var(--muted); margin:0 0 18px; font-size:clamp(1rem,2.6vw,1.2rem); }
-.figure { margin:22px 0 28px; }
-.figure img { display:block; width:100%; max-width:900px; height:auto; margin:0 auto; border-radius:16px; border:1px solid var(--line); pointer-events:none; user-select:none; -webkit-user-drag:none; }
-.body { overflow-wrap:anywhere; }
-.body h2 { line-height:1.35; margin:2rem 0 .65rem; font-size:1.35rem; border-top:1px solid var(--line); padding-top:1.25rem; }
-.body p { margin:.78rem 0; }
-.body ul { padding-left:1.35rem; }
-.body li { margin:.45rem 0; }
-.canon { margin:1.2rem 0 1.6rem; padding:1rem 1.1rem; border-left:4px solid var(--accent); background:rgba(127,127,127,.12); color:var(--quote); font-weight:650; }
-a { color:var(--accent); }
-.footer-nav { margin-top:26px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); }
-</style>
+<title>G04: PCR-C ガバナンス機構 | LUMINA-30</title>
+<meta name="description" content="PCR-Cを、不可逆性リスクに対する段階的制御構造として示します。">
+<style>:root{--bg:#0b1020;--panel:#111a2f;--panel2:#16213d;--text:#eef3ff;--muted:#aebbd4;--line:#263654;--accent:#8fb7ff;--accent2:#c7d8ff;--core:#0f2440;--shadow:0 18px 50px rgba(0,0,0,.28);}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top,#162448 0,#0b1020 42%,#070b15 100%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;line-height:1.72}a{color:var(--accent)}a:hover{color:var(--accent2)}.wrap{width:min(1040px,92vw);margin:0 auto;padding:24px 0 56px}.mode-strip{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;justify-content:space-between;border:1px solid var(--line);background:rgba(17,26,47,.82);border-radius:18px;padding:12px 16px;margin:10px 0 24px;box-shadow:var(--shadow)}.mode-strip a{font-weight:700;text-decoration:none}.back{display:flex;gap:.75rem;flex-wrap:wrap}.hero{padding:26px 0 8px}.eyebrow{color:var(--accent2);letter-spacing:.08em;text-transform:uppercase;font-size:.78rem;font-weight:700;margin:0 0 8px}h1{font-size:clamp(2rem,5vw,4rem);line-height:1.05;margin:.1em 0 .25em}h2{font-size:clamp(1.5rem,3vw,2.2rem);line-height:1.2;margin:0 0 .35em}h3{font-size:clamp(1.25rem,2.5vw,1.8rem);line-height:1.25;margin:0 0 .3em}.lead{font-size:1.08rem;color:var(--muted);max-width:850px}.figure-card{margin:22px 0 36px;background:var(--panel);border:1px solid var(--line);border-radius:28px;overflow:hidden;box-shadow:var(--shadow)}.figure-head{padding:26px 28px 18px;background:linear-gradient(135deg,var(--panel2),rgba(17,26,47,.72))}.figure-lead{color:var(--muted);font-size:1.02rem}.figure-img{background:#05070d;border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center}.figure-img img{max-width:100%;height:auto;display:block;margin:0 auto}.figure-body{padding:24px 28px 30px}.core{margin:18px 0;padding:18px 20px;border-left:4px solid var(--accent);background:var(--core);border-radius:16px;font-weight:700}.figure-extra p{margin:14px 0}details{margin-top:18px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.035);overflow:hidden}summary{cursor:pointer;padding:14px 16px;font-weight:700;color:var(--accent2)}.detail-inner{padding:0 18px 18px;color:var(--muted)}.detail-inner li{margin:.45em 0}.footer{margin-top:30px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:.94rem}@media(max-width:720px){.wrap{width:min(94vw,1040px);padding-top:14px}.figure-head,.figure-body{padding-left:18px;padding-right:18px}.mode-strip{align-items:flex-start}}</style>
 </head>
-<body>
+<body id="top">
 <div class="wrap">
-<header>
-  <div class="toolbar">
-    <div>
-      <div class="kicker">LUMINA-30 正典解説</div>
-      <strong>G04：PCR-C ガバナンス機構</strong>
-    </div>
-    <div>
-      <a class="link-pill" href="https://github.com/lumina-30/lumina-30-overview#g04">READMEへ戻る</a>
-    </div>
+  <div class="mode-strip" aria-label="現在の表示モード">
+    <div><strong>表示モード：</strong> 日本語Gシリーズ解説</div>
+    <div class="back"><a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html#g04">← Overview の該当図へ戻る</a><a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G04_View.html">English version</a><a href="https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G04_View.md">Markdown</a><a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G04_View.html">↻ 再読み込み</a></div>
   </div>
-</header>
-<main>
-  <h1>G04：PCR-C ガバナンス機構</h1>
-  <p class="subtitle">正典解説 — 不可逆化に対する段階的制御</p>
-  <div class="figure" aria-label="G04：PCR-C ガバナンス機構">
-    <img src="./JP_G04_PCRC.png" alt="G04：PCR-C ガバナンス機構" draggable="false">
-  </div>
-  <section class="body">
-<div class="canon">G04は、ガバナンス機構の正典図である。境界は、再帰的なエスカレーションが不可逆になる前に、段階的制御によって守られなければならない。</div>
-<h2>この図版の正典的位置づけ</h2>
-<p>G04は、PCR-CをLUMINA-30の視覚正典の中に位置づける。LUMINA-30は原理の宣言だけではない。臨界境界を越える前にエスカレーションを中断できる機構を必要とする。</p>
-<p>PCR-Cは、その段階的論理を名づけるものである。インフラ制御、エスカレーション閾値、人間の拒否が力を失う前に一時停止または遮断すべき条件に関わる。この意味でG04は、文明哲学と運用ガバナンスを結ぶ橋である。</p>
-<h2>ガバナンス原理</h2>
-<p>ガバナンスは、手続きが存在するだけでは有効ではない。その手続きが、不可逆的影響の前にシステムへ作用できるときにのみ有効である。したがってPCR-Cは、段階的介入に重みを置く。介入点が遅くなるほど、人間の拒否は実効性ではなく象徴になりやすい。</p>
-<p>G04は、「事後ガバナンス」の危険に対して読まれるべきである。報告、監査、説明、説明責任は重要である。しかし、それらはいずれも、間に合う拒否機構の代替にはならない。</p>
-<h2>図の読み方</h2>
-<p>この図は、段階的制御を文明的必要条件として示す。各段階で問われるのは、システムが不可逆的エスカレーションの前に、中断可能であり、監査可能であり、統治可能であるかである。それを示せない場合、人類側に信頼義務があるのではない。システムと運用者側に、拒否がなお有効であることを示す責任がある。</p>
-<p>これが境界の運用上の意味である。人間の監督を宣言するだけでは足りない。監督は、関連する過程をなお止められる制御点に結びついていなければならない。</p>
-<h2>LUMINA-30における位置づけ</h2>
-<p>G04は、先行する図版に実務的な力を与える。G00は警告し、G01は枠を定め、G02は帰結を分け、G03は存続戦略を示す。G04は、その境界を運用として保護するための段階的機構を名指す。</p>
-<h2>結語</h2>
-<p>G04は、間に合う停止可能性を欠いたガバナンスは十分ではないと宣言する。LUMINA-30が求めるのは、見える手続き以上のものである。人間の拒否が、不可逆的結果へ向かう経路をなお中断できる構造である。</p>
-  </section>
-  <div class="footer-nav">
-    <a href="https://github.com/lumina-30/lumina-30-overview#g04">READMEへ戻る</a>
-  </div>
-</main>
+  <header class="hero">
+    <p class="eyebrow">LUMINA-30 G-series</p>
+    <h1>G04: PCR-C ガバナンス機構</h1>
+    <p class="lead">PCR-Cを、不可逆性リスクに対する段階的制御構造として示します。</p>
+  </header>
+  <article class="figure-card" id="g04">
+<div class="figure-head">
+<h3>G04: PCR-C ガバナンス機構</h3>
+<p class="figure-lead">PCR-Cを、不可逆性リスクに対する段階的制御構造として示します。</p>
+</div>
+<div class="figure-img">
+<img alt="G04: PCR-C ガバナンス機構" decoding="async" loading="lazy" src="JP_G04_PCRC.png"/>
+</div>
+<div class="figure-body">
+<p>G04は、PCR-Cによって境界を実務の統治へ持ち込みます。不可逆性リスクは、拒否が失敗した後に発見するものではなく、段階的に検出し、制約すべきものです。</p>
+<div class="core">PCR-Cは、LUMINA-30の境界を警告に留めず、レビュー可能な制御構造へ変える機構です。</div>
+<div class="figure-extra">
+<p><strong>図の読み解き：</strong>段階構造そのものが重要です。最後の非常停止があったかだけを問う図ではありません。システムが人間拒否の機能しない状態へ近づく前に、早期閾値、インフラ制御、エスカレーション制限、カットオフ条件が存在していたかを問います。</p>
+<p><strong>LUMINA-30内での位置づけ：</strong>G04は、境界を統治可能にする図です。「不可逆化の前に」という言葉を曖昧な警告にせず、監査できる段階的制御問題として扱えるようにします。</p>
+<p><strong>インシデントレビューでの読み方：</strong>G04は、事故の前に見落とされた閾値を探すために使います。制限、人間レビュー、封じ込め、減速、ロールバック、カットオフを発動すべき兆候がなかったかを検証します。</p>
+</div>
+<details>
+<summary>詳しい説明を開く</summary>
+<div class="detail-inner"><ul>
+<li>PCR-Cは、レビューを「避けられなかった事故」の事後説明で終わらせません。どの段階で制御が働くべきだったかを問います。</li>
+<li>重要なのは、制御という言葉があったかではなく、拒否を保てるだけ早い位置に制御が置かれていたかです。</li>
+<li>G04は、閾値、トリガー、責任者、実効的なカットオフ能力という監査可能な記録へ、LUMINA-30の境界を変換します。</li>
+</ul></div>
+</details>
+</div>
+</article>
+  <footer class="footer">
+    <p><a href="#top">↑ ページ先頭</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html#g04">Overview のGシリーズへ戻る</a></p>
+  </footer>
 </div>
 </body>
 </html>
