@@ -29,6 +29,13 @@ a { color:var(--accent); text-decoration-thickness:.08em; text-underline-offset:
 .actions { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
 .button { display:inline-flex; align-items:center; justify-content:center; gap:.35rem; min-height:38px; padding:8px 12px; border:1px solid var(--line); border-radius:999px; background:var(--button); color:var(--text); font-weight:700; text-decoration:none; }
 .button:hover { background:var(--button-hover); }
+
+.mode-strip { margin:18px 0 0; padding:12px 16px; border:1px solid var(--line); border-radius:999px; background:color-mix(in srgb, var(--panel2) 72%, transparent); display:flex; gap:10px; align-items:center; flex-wrap:wrap; width:max-content; max-width:100%; box-shadow:var(--shadow); }
+.mode-strip strong { color:var(--accent2); }
+.mode-strip a { font-weight:800; text-decoration:none; }
+.civilization-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px 22px; margin:18px 0; padding-left:1.2rem; }
+.civilization-list li { margin:.22rem 0; }
+.civilization-definition { margin-top:18px; padding:16px; border:1px solid var(--line); border-radius:18px; background:color-mix(in srgb, var(--panel) 78%, var(--panel2)); }
 .hero { padding:58px 0 34px; }
 .eyebrow { color:var(--accent2); font-weight:800; letter-spacing:.08em; text-transform:uppercase; font-size:.86rem; }
 h1 { font-size:clamp(2.1rem,8vw,4.8rem); line-height:1.02; margin:.35rem 0 1rem; letter-spacing:-.045em; }
@@ -57,7 +64,7 @@ summary { cursor:pointer; padding:13px 16px; font-weight:800; }
 details .detail-inner { padding:0 18px 16px; color:var(--muted); }
 ul { padding-left:1.35rem; }
 .footer { margin-top:48px; padding-top:24px; border-top:1px solid var(--line); color:var(--muted); }
-@media (max-width:820px) { .card,.card.wide { grid-column:1 / -1; } .navgrid { grid-template-columns:repeat(4,1fr); } .hero { padding-top:36px; } .topbar-inner { align-items:flex-start; } }
+@media (max-width:820px) { .card,.card.wide { grid-column:1 / -1; } .navgrid { grid-template-columns:repeat(4,1fr); } .civilization-list { grid-template-columns:1fr; } .hero { padding-top:36px; } .topbar-inner { align-items:flex-start; } }
 @media (max-width:480px) { .navgrid { grid-template-columns:repeat(2,1fr); } .wrap,.topbar-inner { padding-left:12px; padding-right:12px; } .figure-head,.figure-body { padding-left:16px; padding-right:16px; } }
 </style>
 </head>
@@ -77,6 +84,11 @@ ul { padding-left:1.35rem; }
 </header>
 <div class="wrap">
 <main id="main">
+<div class="mode-strip" aria-label="Current viewing mode">
+  <strong>Viewing mode:</strong> English Overview
+  <span aria-hidden="true">｜</span>
+  <a href="index-ja.html">日本語版へ</a>
+</div>
 <section class="hero" id="top">
   <div class="eyebrow">Reader-facing overview</div>
   <h1>LUMINA-30 Overview</h1>
@@ -92,10 +104,29 @@ ul { padding-left:1.35rem; }
     <article class="card"><h2>Procedural validity</h2><p>If effective human refusal cannot be shown before irreversible impact, the system is not procedurally valid under the LUMINA-30 boundary condition.</p></article>
   </div>
   <div class="question" id="civilization">
-    <span class="eyebrow">Civilizational boundary</span>
-    <strong>What LUMINA-30 calls “civilization” is the living condition in which humanity can still choose its future.</strong>
-    <p class="muted">LUMINA-30 does not claim equivalence with past civilizational transformations. It places the question at that level: before AI-driven irreversibility, can humans still refuse, correct, and choose again?</p>
-    <p class="muted">The framework exists to preserve that condition before irreversible escalation turns refusal into a formality.</p>
+    <span class="eyebrow">Civilizational-Level Questions</span>
+    <strong>Examples of Civilizational-Level Questions</strong>
+    <p class="muted">Civilizational-level questions are not defined by dramatic language. They are defined by whether they concern the structural conditions under which human societies can continue, govern themselves, and choose their future.</p>
+    <ul class="civilization-list">
+      <li><strong>Fire</strong> — transformed survival, food, shelter, protection, and collective life.</li>
+      <li><strong>Agriculture</strong> — enabled settlement, cities, states, ownership, law, and large-scale societies.</li>
+      <li><strong>Writing</strong> — made durable memory, law, administration, history, and science possible.</li>
+      <li><strong>Printing</strong> — changed the distribution of knowledge and enabled large-scale intellectual transformation.</li>
+      <li><strong>Scientific method</strong> — changed how societies determine what is true and reliable.</li>
+      <li><strong>Democracy, human rights, and rule of law</strong> — changed how power is limited and legitimacy is justified.</li>
+      <li><strong>Nuclear governance</strong> — addresses technologies capable of ending or destabilizing civilization.</li>
+      <li><strong>Climate governance</strong> — addresses whether civilization can remain stable within planetary limits.</li>
+      <li><strong>Pandemic governance</strong> — addresses systemic biological risks that cross borders and institutions.</li>
+      <li><strong>The internet</strong> — transformed information flow, social coordination, politics, and economic life.</li>
+      <li><strong>Artificial intelligence</strong> — may transform knowledge, labor, governance, security, autonomy, and decision-making itself.</li>
+      <li><strong>LUMINA-30</strong> — asks whether human civilization can still exercise effective refusal before AI-mediated processes produce irreversible consequences.</li>
+    </ul>
+    <div class="civilization-definition">
+      <p><strong>LUMINA-30 does not claim to have the historical impact of these transformations.</strong> Its civilizational scope lies in the level of question it addresses:</p>
+      <p><strong>Can effective human refusal still be exercised before irreversible consequences occur?</strong></p>
+      <p class="muted">In LUMINA-30, civilization does not mean an abstract structure of institutions or artifacts. It means the living conditions under which humanity can continue to choose its future. If the answer becomes no, law, ethics, oversight, audit, and democratic legitimacy may remain formally present while losing practical force.</p>
+      <p class="muted">That is why LUMINA-30 is framed as a boundary framework concerned with civilizational conditions, rather than merely as an AI ethics proposal.</p>
+    </div>
   </div>
 </section>
 <section id="figures" aria-labelledby="figures-title">
