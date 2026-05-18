@@ -84,6 +84,16 @@ ul { padding-left:1.35rem; }
 
 @media (max-width:820px) { .card,.card.wide { grid-column:1 / -1; } .navgrid { grid-template-columns:repeat(4,1fr); } .civilization-list { grid-template-columns:1fr; } .hero { padding-top:36px; } .topbar-inner { align-items:flex-start; } }
 @media (max-width:480px) { .navgrid { grid-template-columns:repeat(2,1fr); } .wrap,.topbar-inner { padding-left:12px; padding-right:12px; } .figure-head,.figure-body { padding-left:16px; padding-right:16px; } }
+
+.reader-note {
+  border: 1px solid rgba(148, 163, 184, .35);
+  background: rgba(15, 23, 42, .55);
+  border-radius: 18px;
+  padding: 16px 18px;
+  margin: 22px 0;
+  color: var(--muted);
+}
+.reader-note strong { color: var(--text); }
 </style>
 </head>
 <body>
@@ -398,36 +408,11 @@ ul { padding-left:1.35rem; }
 This defines a procedural validity condition,
 not a safety optimization objective.</p>
 <p>これは安全性最適化の目標ではなく、手続的有効性を判定するための条件です。</p>
-<h2 id="readme-g00">G00</h2>
-<p><strong>G00：Civilizational Boundary ｜ G00：文明境界</strong><br></p>
-<p>Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G00_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G00_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
-<img loading="lazy" decoding="async" src="figures/EN_G00_Approaching_Boundary.png" width="900"></p>
-<h2 id="readme-g01">G01</h2>
-<p><strong>G01：Boundary Framework ｜ G01：境界フレームワーク</strong><br></p>
-<p>Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G01_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G01_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
-<img loading="lazy" decoding="async" src="figures/EN_G01_Framework.png" width="900"></p>
-<h2 id="readme-g02">G02</h2>
-<p><strong>G02：Civilizational Outcome Model ｜ G02：文明結果モデル</strong><br></p>
-<p>Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G02_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G02_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
-<img loading="lazy" decoding="async" src="figures/EN_G02_Boundary.png" width="900"></p>
-<h2 id="readme-g03">G03</h2>
-<p><strong>G03：Civilizational Survival Strategy ｜ G03：文明存続戦略</strong><br></p>
-<p>Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G03_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G03_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
-<img loading="lazy" decoding="async" src="figures/EN_G03_Strategy.png" width="900"></p>
-<h2 id="readme-g04">G04</h2>
-<p><strong>G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構</strong><br></p>
-<p>Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G04_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G04_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
-<img loading="lazy" decoding="async" src="figures/EN_G04_PCRC.png" width="900"></p>
-<h2 id="readme-g05">G05</h2>
-<p><strong>G05：AI Perspective ｜ G05：AI視点</strong><br></p>
-<p>Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G05_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G05_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
-<img loading="lazy" decoding="async" src="figures/EN_G05_AI_Perspective.png" width="900"></p>
-<!-- ● L30:BOUNDARY_DECISION -->
-
-<h2 id="readme-g06">G06</h2>
-<p><strong>G06：Critical Boundary ｜ G06：臨界境界</strong><br></p>
-<p>Explanation ｜ 解説: <a href="https://lumina-30.github.io/lumina-30-overview/figures/EN_G06_View.html" target="_blank" rel="noopener noreferrer">EN</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/figures/JP_G06_View.html" target="_blank" rel="noopener noreferrer">JP</a><br>
-<img loading="lazy" decoding="async" src="figures/EN_G06_Critical_Boundary.png" width="900"></p>
+<div class="reader-note">
+<p><strong>G00〜G06は、このREADME正本参照セクションでは重複表示しません。</strong><br>
+Gシリーズは上部の統合図版セクションに、各図の説明と画像を一本化して掲載しています。以下は実務適用へ続きます。</p>
+<p><a href="#figures">↥ 統合Gシリーズ概要へ戻る</a></p>
+</div>
 <p><a id="readme-practical-application"></a></p>
 <h2>Practical Application ｜ 実務適用</h2>
 <p>When irreversible impact is at stake, incident review is not merely retrospective.<br>
@@ -1538,10 +1523,10 @@ or positioning is welcome.</p>
 <ul>
 <li><p><a href="#readme-core">★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）</a><br />
 ※ For all readers: core understanding ｜ 全読者向け：中核理解<br />
-▶ Understand: visually grasp LUMINA-30’s boundary condition and core concepts ｜ Use: go directly to <a href="#readme-g06">G06 Critical Boundary</a> and the judgment criterion</p>
+▶ Understand: visually grasp LUMINA-30’s boundary condition and core concepts ｜ Use: go directly to <a href="#g06">G06 Critical Boundary</a> and the judgment criterion</p>
 <ul>
 <li><a href="#readme-entry-visuals">Entry Visuals (G00–G06) ｜ 導入ビジュアル</a></li>
-<li><a href="#readme-g06">G06：Critical Boundary ｜ G06：臨界境界</a><br />
+<li><a href="#g06">G06：Critical Boundary ｜ G06：臨界境界</a><br />
 ⚑ The judgment criterion itself — the first core item to check ｜ 判断基準そのもの（最初に確認する核心）</li>
 <li><a href="#readme-practical-application">Practical Application ｜ 実務適用</a></li>
 <li><a href="#readme-framework-structure">Framework Structure ｜ フレームワーク構造</a></li>
@@ -1581,7 +1566,7 @@ or positioning is welcome.</p>
 ⚑ Operational materials for governance, response, triage, and external review ｜ ガバナンス、対応、トリアージ、外部レビューのための実務資料</li>
 <li><a href="./docs/L30_BOUNDARY_ADDRESS_SYSTEM.md">LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系</a><br />
 ⚑ Reference address system that connects checklists, review sheets, and audit forms back to the LUMINA-30 core proposition ｜ チェックリスト・レビュー票・監査票をLUMINA-30中核命題へ戻す参照番地</li>
-<li><a href="#readme-g04">G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構</a><br />
+<li><a href="#g04">G04：PCR-C Governance Mechanism ｜ G04：PCR-C ガバナンス機構</a><br />
 ⚑ Infrastructure-control model for preventing irreversibility ｜ 不可逆化を防ぐインフラ制御モデル</li>
 </ul>
 </li>
@@ -1660,7 +1645,7 @@ or positioning is welcome.</p>
 For first-time readers who need the basic structure, boundary condition, and judgment logic.<br />
 初見読者が、基本構造・境界条件・判断ロジックを確認する場合。</p>
 </li>
-<li><p><a href="#readme-g06">Check the critical boundary ｜ 臨界境界を確認する</a><br />
+<li><p><a href="#g06">Check the critical boundary ｜ 臨界境界を確認する</a><br />
 For readers who need to identify where refusal authority becomes ineffective.<br />
 拒否権がどこで実効性を失うかを確認する場合。</p>
 </li>
