@@ -32,8 +32,8 @@ Refusal before irreversibility — a boundary that cannot be substituted.
 
 ## Primary validity condition ｜ 主要成立条件
 
-A system is procedurally invalid if human refusal authority is not effective before irreversible impact.  
-不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的無効である。
+Under the LUMINA-30 evaluative lens, a system should not be treated as procedurally valid if human refusal authority is not effective before irreversible impact.  
+LUMINA-30の評価視点では、不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的に有効とは扱えない。
 
 ## Primary Question ｜ 主要問い
 
@@ -41,6 +41,19 @@ Was human refusal authority effective before irreversible impact?
 不可逆的影響の前に、人間の拒否権は実効的だったか？
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
+<a id="status-and-scope"></a>
+## Status and Scope ｜ 状態と射程
+
+LUMINA-30 is a non-binding public reference framework and review lens.  
+It does not claim legal authority, regulatory force, certification status, official adoption, institutional endorsement, established consensus, or binding standard status.
+
+LUMINA-30は、非拘束の公開参照フレームワークおよびレビュー視点です。  
+法的権限、規制上の効力、認証状態、公式採用、制度的支持、確立済み合意、拘束的標準としての地位を主張しません。
+
+Its claim is narrower: it asks whether effective human refusal authority remained available before irreversible AI-related consequences occurred.  
+主張の範囲はより限定的です。AIに関する不可逆的結果が発生する前に、人間の実効的拒否権がなお利用可能だったかを問うものです。
+
 
 
 ---
@@ -122,8 +135,8 @@ It is the test of whether meaningful human control still existed before the poin
 > 人間の拒否権は、不可逆な現実世界への影響が発生する前に、意味のある介入およびシステム停止を可能にする形で維持されていたか？
 
 > [!CAUTION]
-> If this cannot be answered clearly, the system cannot be considered controlled.<br>
-> この問いに明確に答えられない場合、そのシステムは制御されていたとは見なせません。
+> If this cannot be answered clearly, the system should not be treated as clearly controlled under the LUMINA-30 review lens.<br>
+> この問いに明確に答えられない場合、そのシステムはLUMINA-30のレビュー視点では明確に制御されていたとは扱えません。
 
 → [Incident Review Hub ｜ 事故レビュー入口](https://github.com/lumina-30/lumina30-incident-review)<br>
 Use this for practical incident review, boundary checks, and stakeholder-facing review materials.<br>
@@ -191,16 +204,16 @@ LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を�
 
 
 <!-- ● L30:ENTRY -->
-LUMINA-30 defines a civilizational boundary for AI systems.
-It introduces a single invariant missing from existing frameworks:
-Human refusal must remain effective before irreversible impact.
-This is not a replacement framework, but a boundary condition across all AI governance layers.
+LUMINA-30 defines a civilizational boundary question for AI systems.
+It highlights an under-emphasized condition across existing frameworks:
+Human refusal should remain effective before irreversible impact.
+This is not a replacement framework, but a non-binding boundary reference across AI governance layers.
 
- LUMINA-30 defines a validity condition:
- systems are invalid if human refusal is not effective before irreversible impact.
+ LUMINA-30 defines an evaluative condition:
+ systems should not be treated as procedurally valid under this framework if human refusal is not effective before irreversible impact.
 
  LUMINA-30は、不可逆的影響の前に人間の拒否が実効性を持たない場合、
- そのシステムは無効であるとする成立条件を定義する。
+ このフレームワーク上はそのシステムを手続的に有効とは扱えない、という評価条件を定義する。
  
 
 <!-- ● L30:OVERVIEW -->
@@ -246,20 +259,20 @@ Refusal is the last safeguard of sovereignty.
 <a id="position"></a>
 ## Positioning ｜ 位置づけ
 
-LUMINA-30 is not another AI ethics framework.
+LUMINA-30 is not primarily an AI ethics framework.
 
-It defines a missing boundary condition across existing systems:
+It clarifies an under-emphasized boundary condition across existing systems:
 
 - NIST / ISO → manage risk
 - RSP / Preparedness → gate capability
 - OECD / AIID → learn from incidents
 - UNESCO / EU → require human oversight
 
-But none guarantee:
+These frameworks are important, but they do not by themselves verify:
 
 > Human refusal remains effective before irreversible impact.
 
-LUMINA-30 introduces this as a **non-negotiable validity condition**.
+LUMINA-30 introduces this as a **non-binding evaluative boundary condition**.
 
 
 ## ■ Theoretical Foundation｜理論的基盤
@@ -345,22 +358,22 @@ This framework is intended for:
 - 監査担当者
 - ガバナンス機関
 
-It is used in post-incident review and governance evaluation.
+It is intended for use in post-incident review and governance evaluation.
 
-本フレームワークは、インシデント後レビューおよびガバナンス評価において使用される。
+本フレームワークは、インシデント後レビューおよびガバナンス評価での使用を想定している。
 
 If refusal cannot be demonstrated as effective before irreversible impact,
-the system is procedurally invalid.
+LUMINA-30 treats the case as procedurally invalid for review purposes.
 
 不可逆的影響の前に拒否権の有効性が実証できない場合、
-当該システムは手続的無効と判断される。
+LUMINA-30はレビュー上、その事例を手続的無効として扱う。
 
 
-Intervention authority must remain valid  
-regardless of perceived system agency.
+Intervention authority should remain demonstrably available  
+for a system to be treated as procedurally valid under this framework.
 
-システムがどのような主体性を持つように見えても、  
-介入権は常に有効でなければならない。
+このフレームワーク上でシステムを手続的に有効と扱うには、  
+介入権が実証可能な形で残っている必要がある。
 
 Why was intervention not executed  
 before potential irreversibility?
@@ -534,11 +547,11 @@ LUMINA-30 によって評価するための参照例です。
 - [Closed-Loop Review Failure](./examples/closed-loop-review.md)
 - [Medical AI Misdiagnosis Scenario](./examples/medical-ai.md)
 
-If this cannot be stopped, it must not be allowed to run.<br>
-This is the decisive boundary condition of the framework.
+If a system cannot be stopped before irreversible impact, it should not be treated as procedurally valid under the LUMINA-30 review lens until effective stopping authority can be demonstrated.<br>
+This is the review boundary used by the framework.
 
-これを止められないなら、そのシステムは稼働させてはならない。<br>
-ここが、このフレームワークの成立／不成立を分ける決定境界である。
+不可逆的影響の前に停止できないシステムは、有効な停止権限が実証されるまで、LUMINA-30のレビュー視点では手続的に有効とは扱えない。<br>
+ここが、このフレームワークにおけるレビュー上の境界である。
 
 Operational interpretation ｜ 実務解釈：
 
@@ -625,8 +638,8 @@ Use this for practical incident review, boundary checks, and operational templat
 4. If not, where did procedural authority fail?  
    持っていなかったなら、どこで手続的権限が失われたか
 
-If refusal was not effective, the system was invalid before the incident occurred.  
-拒否が実効的でなかったなら、そのシステムは事故発生前の時点で無効である。
+Under the LUMINA-30 review lens, if refusal was not effective before the incident, the case should be treated as procedurally invalid for review purposes.  
+LUMINA-30のレビュー視点では、事故前に拒否が実効的でなかった場合、その事例はレビュー上、手続的無効として扱われる。
 
 
 <!-- ● L30:OPERATIONAL -->
@@ -1050,8 +1063,8 @@ They do not modify the core framework or its conditions.
   Provides copy-ready insertion paths for governance reviews, audits, procurement checks, incident reviews, and institutional risk registers.  
   ガバナンスレビュー、監査、調達確認、事故レビュー、制度的リスク台帳にすぐ差し込める導入文と最小確認手順を示す。
 - [Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./adoption/minimum-boundary-review-adoption-pack.md)  
-  Provides a compact review block, copy-ready clauses, external alignment surfaces, and decision tags for rapid adoption in existing workflows.  
-  既存ワークフローへ素早く採用するための短いレビュー欄、導入文、外部接続面、判定タグを提供する。
+  Provides a compact review block, copy-ready clauses, external alignment surfaces, and decision tags for possible insertion into existing workflows.  
+  既存ワークフローへ差し込む候補として使える短いレビュー欄、導入文、外部接続面、判定タグを提供する。
 - [Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表](./adoption/minimum-boundary-review-external-crosswalk.md)  
   Maps the Minimum Boundary Review to existing AI risk management, AI management system, incident reporting, impact assessment, procurement, audit, and risk-register surfaces.  
   最小境界レビューを、既存のAIリスク管理、AIマネジメントシステム、インシデント報告、影響評価、調達、監査、リスク台帳のレビュー面へ対応づける。
@@ -1209,10 +1222,10 @@ For practical incident review usage, see the [dedicated incident-review reposito
 
 LUMINA-30 records a boundary concept for preserving civilizational agency in the presence of advanced artificial intelligence.  
 It does not claim to be a final solution.  
-However, it is published as a reference point that may represent one possible milestone in humanity's attempt to address irreversible external effects of AI systems.  
+However, it is published as one possible reference point for discussing irreversible external effects of AI systems.  
 LUMINA-30は、高度な人工知能の存在下において文明主体を維持するための境界概念を記録した参照フレームです。  
 本フレームワークは最終的な解決策を主張するものではありません。  
-しかし、人類がAIの不可逆的外界影響という問題に直面した際に参照可能な、一つの到達点として公開されています。
+しかし、人類がAIの不可逆的外界影響という問題に直面した際に参照可能な、一つの参照点として公開されています。
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
@@ -1272,6 +1285,8 @@ or positioning is welcome.
 - [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
   ※ For all readers: core understanding ｜ 全読者向け：中核理解  
   ▶ Understand: visually grasp LUMINA-30’s boundary condition and core concepts ｜ Use: go directly to [G06 Critical Boundary](#g06) and the judgment criterion
+  - [Status and Scope ｜ 状態と射程](#status-and-scope)  
+    ⚑ Confirms the non-binding scope and the absence of adoption, certification, legal-authority, or binding-standard claims ｜ 非拘束性と、採用・認証・法的権限・拘束的標準を主張しないことの確認
   - [Entry Visuals (G00–G06) ｜ 導入ビジュアル](#entry-visuals)
   - [G06：Critical Boundary ｜ G06：臨界境界](#g06)  
     ⚑ The judgment criterion itself — the first core item to check ｜ 判断基準そのもの（最初に確認する核心）
@@ -1373,6 +1388,10 @@ or positioning is welcome.
 
 Use this section to choose the next destination by purpose, not to browse the whole site.  
 このセクションは、全体を回遊するためではなく、目的に合う到達先を選ぶための導線です。
+
+- [Confirm status and scope ｜ 状態と射程を確認する](#status-and-scope)  
+  For confirming non-binding status, no adoption or certification claim, and the limited review scope.  
+  非拘束性、採用・認証主張なし、限定されたレビュー射程を確認する場合。
 
 - [Understand the core boundary ｜ 中核境界を理解する](#core)  
   For first-time readers who need the basic structure, boundary condition, and judgment logic.  
