@@ -4,14 +4,18 @@
 
 ## Status ｜ 位置づけ
 
-This document is a non-core, non-binding adoption reference for mapping the LUMINA-30 Minimum Boundary Review to existing governance, audit, procurement, incident review, and risk-management workflows.
-It does not modify LUMINA-30 Core Terminology and does not create new binding obligations.
+This document is a non-core, non-binding mapping reference for relating the LUMINA-30 Minimum Boundary Review to existing governance, audit, procurement, incident review, and risk-management workflows.
+It does not modify LUMINA-30 Core Terminology and does not create new binding obligations, legal authority, regulatory force, certification status, official adoption, institutional endorsement, or binding standard status.
+
+In this document, "adoption" means optional reuse or mapping surface only. It does not mean institutional adoption, endorsement, certification, or approval of LUMINA-30.
 
 This document does not replace NIST, ISO, OECD, EU AI Act, procurement, audit, or organizational risk-management processes.
 It identifies where a short LUMINA-30 boundary-responsibility question can be inserted into those existing processes.
 
-本資料は、LUMINA-30の最小境界レビューを、既存のガバナンス、監査、調達、事故レビュー、リスク管理ワークフローへ対応づけるための、非コア・非拘束の導入参照である。
-LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。
+本資料は、LUMINA-30最小境界レビューを既存のガバナンス、監査、調達、事故レビュー、リスク管理ワークフローへ対応づけるための、非コア・非拘束の接続参照である。
+LUMINA-30のコア用語を変更せず、新たな拘束的義務、法的権限、規制上の効力、認証状態、公式採用、制度的支持、拘束的標準としての地位を作成しない。
+
+本資料における「採用」は、任意の再利用または接続面を意味するにとどまる。LUMINA-30の制度採用、支持、認証、承認を意味しない。
 
 本資料は、NIST、ISO、OECD、EU AI Act、調達、監査、組織的リスク管理の各プロセスを置き換えない。
 それら既存プロセスのどこに、短いLUMINA-30境界責任質問を差し込めるかを示す。
@@ -20,11 +24,11 @@ LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成し�
 
 ## Purpose ｜ 目的
 
-The fastest external adoption path is not to ask institutions to adopt the whole LUMINA-30 framework.
-The fastest path is to add a minimum boundary review question to review surfaces they already use.
+The least disruptive external reuse path is not to ask institutions to adopt the whole LUMINA-30 framework.
+The fastest path is to map one minimum boundary review question to review surfaces they already use.
 
-外部採用の最短経路は、組織にLUMINA-30全体の採用を求めることではない。
-最短経路は、すでに使われているレビュー面に、最小境界レビュー質問を追加することである。
+外部再利用の最短経路は、組織によるLUMINA-30全体の全面導入を前提にしないことである。
+最短経路は、すでに使われているレビュー面に、最小境界レビュー質問を対応づけることである。
 
 Minimum insertion question:
 
@@ -74,8 +78,8 @@ A Japanese mirror table is provided immediately after it so that reviewers can u
 
 ## Reference Surface Notes ｜ 参照面メモ
 
-These references are used as adoption surfaces, not as authorities that LUMINA-30 replaces.
-The crosswalk should be updated only when an official source changes materially or when a better stable official URL is confirmed.
+These references are used as mapping surfaces, not as authorities that LUMINA-30 replaces.
+Update this crosswalk only when an official source changes materially or when a better stable official URL is confirmed.
 
 これらの参照先は、LUMINA-30が置き換える対象ではなく、差し込み先として使用する。
 本接続表は、公式情報源に実質的変更があった場合、またはより安定した公式URLが確認された場合にのみ更新する。
@@ -136,13 +140,13 @@ LUMINA-30 最小境界レビュー：
 
 ## Relationship to Other LUMINA-30 Materials ｜ 他のLUMINA-30資料との関係
 
-- [Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./minimum-boundary-review-adoption-pack.md) provides the compact adoption block and decision tags.
-- [Rapid Implementation Bridge ｜ 迅速実装ブリッジ](./rapid-implementation-bridge.md) explains the fast implementation route.
+- [Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./minimum-boundary-review-adoption-pack.md) provides the compact reusable review block and decision tags.
+- [Rapid Reuse Bridge ｜ 迅速再利用ブリッジ](./rapid-implementation-bridge.md) explains the low-friction reuse route.
 - [Minimum Boundary Review Form ｜ 最小境界レビュー票](../templates/minimum-boundary-review-form.md) provides a short form for practical use.
 - [How the Boundary Responsibility Mechanism Works ｜ 境界責任メカニズムの仕組み](./how-the-boundary-responsibility-mechanism-works.md) explains the mechanism behind the review.
 
-- [Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./minimum-boundary-review-adoption-pack.md) は、短い導入欄と判定タグを提供する。
-- [Rapid Implementation Bridge ｜ 迅速実装ブリッジ](./rapid-implementation-bridge.md) は、迅速実装の経路を説明する。
+- [Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック](./minimum-boundary-review-adoption-pack.md) は、短い再利用可能なレビュー欄と判定タグを提供する。
+- [Rapid Reuse Bridge ｜ 迅速再利用ブリッジ](./rapid-implementation-bridge.md) は、低摩擦な再利用経路を説明する。
 - [Minimum Boundary Review Form ｜ 最小境界レビュー票](../templates/minimum-boundary-review-form.md) は、実務用の短い帳票を提供する。
 - [How the Boundary Responsibility Mechanism Works ｜ 境界責任メカニズムの仕組み](./how-the-boundary-responsibility-mechanism-works.md) は、レビュー背後の仕組みを説明する。
 

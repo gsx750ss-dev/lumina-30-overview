@@ -3,7 +3,7 @@
 ## Position
 
 LUMINA-30 is a non-binding structural review framework.
-It does not advocate acceleration, restriction, or regulatory change.
+It does not advocate acceleration, restriction, regulatory change, certification, official adoption, institutional endorsement, or binding standard status.
 It does not replace or modify existing governance systems.
 
 It addresses structural responsibility conditions in recursive self-modifying AI systems.
@@ -72,27 +72,27 @@ For practical use, start with the following materials:
 
 ## Minimal Interpretation ｜ 最小解釈
 
-LUMINA-30 should be read as a boundary question, not as an ideology:
+LUMINA-30 can be read as a boundary question, not as an ideology:
 
-LUMINA-30は思想ではなく、境界問いとして読む。
+LUMINA-30は思想ではなく、境界問いとして読める。
 
 - Before irreversible impact, was human refusal still possible?
 - Was that refusal effective in practice?
 - Can the claim be verified by evidence?
-- If not, the system should not be treated as procedurally valid under LUMINA-30 boundary conditions.
+- If not, the LUMINA-30 review lens supports a procedural-invalidity finding for review purposes.
 
 - 不可逆的影響の前に、人間の拒否はまだ可能だったか。
 - その拒否は実務上、実効性を持っていたか。
 - その主張は証拠によって確認できるか。
-- 確認できない場合、LUMINA-30境界条件上、そのシステムを手続的に有効とは扱わない。
+- 確認できない場合、LUMINA-30のレビュー視点では、その事例を手続的に有効とは扱わない。
 
 ---
 
-## Core Structural Safeguards (Implementation Phase)
+## Review-Oriented Structural Questions
 
-- No irreversible coupling without human refusal.
-- No execution without containment.
-- No deployment without sovereign override.
+- Was irreversible coupling reviewed in relation to effective human refusal?
+- Was execution reviewed in relation to containment and reversibility?
+- Was deployment reviewed in relation to practical human override or stop authority?
 
 ---
 
@@ -101,12 +101,12 @@ LUMINA-30は思想ではなく、境界問いとして読む。
 This framework does not alter existing governance or compliance models.  
 However, when irreversible AI-related impact and human refusal authority are at issue, omitting this boundary question leaves a review gap: the review may fail to show whether humans could still refuse, stop, or override the pathway before irreversibility.
 
-LUMINA-30 is therefore non-binding in authority, but not disposable in review contexts where effective human refusal before irreversibility must be demonstrated.
+LUMINA-30 is therefore non-binding in authority, while still relevant in review contexts where effective human refusal before irreversibility needs to be demonstrated.
 
 本フレームワークは、既存のガバナンスまたはコンプライアンスモデルを変更しない。  
 しかし、不可逆的なAI関連影響と人間の拒否権が問題となるレビューにおいて、この境界問いを省略すると、レビュー上の欠落が残る。すなわち、人間が不可逆化前にその経路を拒否・停止・上書きできたかを示せない可能性がある。
 
-したがって、LUMINA-30は権限としては非拘束であるが、不可逆化前の実効的な人間拒否を示す必要があるレビュー文脈では、単なる任意資料として扱うべきではない。
+したがって、LUMINA-30は権限としては非拘束であるが、不可逆化前の実効的な人間拒否を検証するレビュー文脈では、参照価値を持ちうる。
 
 ---
 

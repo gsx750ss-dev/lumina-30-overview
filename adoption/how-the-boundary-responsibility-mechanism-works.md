@@ -5,24 +5,28 @@
 ## Status ｜ 位置づけ
 
 This document is a non-core, non-binding explanatory guide for LUMINA-30.
-It does not modify LUMINA-30 Core Terminology and does not create new binding obligations.
+It does not modify LUMINA-30 Core Terminology and does not create new binding obligations, legal authority, regulatory force, certification status, official adoption, institutional endorsement, or binding standard status.
 
-This guide explains how the Boundary Responsibility Mechanism connects optimization pressure, responsibility assignment, symmetric friction, evidence preservation, checklist review, and rapid implementation.
+In this folder, terms such as "adoption" or "implementation" mean optional reuse or insertion into an existing review workflow. They do not imply official institutional adoption of LUMINA-30.
+
+This guide explains how the Boundary Responsibility Mechanism connects optimization pressure, responsibility assignment, symmetric friction, evidence preservation, checklist review, and rapid reuse.
 
 本資料は、LUMINA-30の非コア・非拘束の説明ガイドである。
-LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。
+LUMINA-30のコア用語を変更せず、新たな拘束的義務、法的権限、規制上の効力、認証状態、公式採用、制度的支持、拘束的標準としての地位を作成しない。
 
-本ガイドは、境界責任メカニズムが、最適化圧、責任割当、対称摩擦、証拠保存、チェックリスト確認、迅速実装をどのように接続するかを説明する。
+このフォルダ内の「採用」または「実装」という語は、既存レビュー手順への任意の再利用または差し込みを意味する。LUMINA-30の公式な制度採用を意味しない。
+
+本ガイドは、境界責任メカニズムが、最適化圧、責任割当、対称摩擦、証拠保存、チェックリスト確認、迅速再利用をどのように接続するかを説明する。
 
 ---
 
 ## One-Sentence Summary ｜ 一文要約
 
 Optimization pressure compresses the practical conditions for human refusal.
-The Boundary Responsibility Mechanism prevents responsibility for preserving refusal, correction, transition, recovery, and re-entry from remaining undefined before irreversibility.
+The Boundary Responsibility Mechanism helps reviewers identify whether responsibility for preserving refusal, correction, transition, recovery, and re-entry remained defined before irreversibility.
 
 最適化圧は、人間拒否の実効条件を圧縮する。
-境界責任メカニズムは、不可逆化前に、拒否・修正・移行・回復・再参入を保存する責任が未定義のまま放置されることを防ぐ。
+境界責任メカニズムは、不可逆化前に、拒否・修正・移行・回復・再参入を保存する責任が定義されていたかをレビュー可能にする。
 
 ---
 
@@ -35,10 +39,10 @@ They emerge when optimization pressure gradually reduces time, authority, interp
 最適化圧が、時間、権限、理解可能性、運用上の余白、実効的な代替経路を徐々に削ることで発生する。
 
 When affected humans lose position, voice, evidence, or re-entry capacity, later complaint cannot be treated as the primary protection mechanism.
-The boundary must be preserved before that loss occurs.
+The review question can be asked before that loss occurs.
 
 影響を受ける人間が、地位、声、証拠、再参入能力を失った後では、後日の申立を主要な保護機構として扱うことはできない。
-境界は、その喪失が起こる前に保存されなければならない。
+その喪失が起こる前に、境界問いを確認できる状態にしておくことが望ましい。
 
 ---
 
@@ -49,10 +53,10 @@ The boundary must be preserved before that loss occurs.
 | 1 | Detect optimization pressure. | 最適化圧を検出する。 |
 | 2 | Identify what may become irreversible. | 何が不可逆化しうるかを特定する。 |
 | 3 | Determine whether human refusal, correction, transition, recovery, or re-entry may be lost. | 人間の拒否・修正・移行・回復・再参入が失われうるかを判断する。 |
-| 4 | Assign responsibility for friction design, operation, evidence preservation, verification, and correction. | 摩擦の設計・運用・証拠保存・検証・是正の責任を割り当てる。 |
-| 5 | Require friction to be symmetric, anti-bypass, evidence-preserving, and proportionate. | 摩擦が、対称的・迂回不能・証拠保存可能・リスク比例であることを求める。 |
-| 6 | Use the relevant checklist or minimum boundary review form. | 関連チェックリストまたは最小境界レビュー票を使用する。 |
-| 7 | Correct the mechanism before irreversibility or record that the boundary was not preserved. | 不可逆化前に仕組みを是正するか、境界が保存されなかったことを記録する。 |
+| 4 | Review whether responsibility for friction design, operation, evidence preservation, verification, and correction was assigned. | 摩擦の設計・運用・証拠保存・検証・是正の責任が割り当てられていたかを確認する。 |
+| 5 | Check whether friction is symmetric, anti-bypass, evidence-preserving, and proportionate. | 摩擦が、対称的・迂回困難・証拠保存可能・リスク比例であるかを確認する。 |
+| 6 | Connect to the relevant checklist or minimum boundary review form where applicable. | 該当する場合、関連チェックリストまたは最小境界レビュー票へ接続する。 |
+| 7 | Review whether the mechanism was corrected before irreversibility, or record that the boundary was not preserved. | 不可逆化前に仕組みが是正されていたかを確認するか、境界が保存されなかったことを記録する。 |
 
 ---
 
@@ -90,18 +94,18 @@ LUMINA-30は、不可逆化リスクが存在する場面で責任が未定義�
 
 | Layer | Responsibility | Typical actors |
 |---|---|---|
-| Boundary criterion | Identify what must remain effective before irreversibility | LUMINA-30 |
+| Boundary criterion | Identify what needs to remain effective before irreversibility for review purposes | LUMINA-30 |
 | Mechanism design | Define the domain-specific friction | Regulators, sector bodies, standards bodies, domain institutions, affected representatives |
-| Operation | Implement and operate the friction | Firms, platforms, infrastructure operators, public agencies |
+| Operation | Operate or document friction where applicable | Firms, platforms, infrastructure operators, public agencies |
 | Evidence preservation | Preserve reviewable records before voice loss | Auditors, operators, independent review bodies, public registries |
 | Verification | Determine whether the boundary was preserved | Incident reviewers, regulators, auditors, policy evaluators, and legal bodies where applicable |
 | Correction | Revise, suspend, or redesign failed mechanisms | Regulators, public institutions, international bodies, and legal authorities where applicable |
 
 | 層 | 責任 | 典型的な主体 |
 |---|---|---|
-| 境界基準 | 不可逆化前に何が実効的でなければならないかを特定する | LUMINA-30 |
+| 境界基準 | レビュー上、不可逆化前に何が実効的だったかを特定する | LUMINA-30 |
 | メカニズム設計 | 分野別摩擦を定義する | 規制当局、業界団体、標準化団体、専門機関、影響を受ける当事者代表 |
-| 運用 | 摩擦を実装・運用する | 企業、プラットフォーム、インフラ運用者、行政機関 |
+| 運用 | 該当する場合に摩擦を運用または記録する | 企業、プラットフォーム、インフラ運用者、行政機関 |
 | 証拠保存 | 声を失う前に検証可能な記録を保存する | 監査機関、運用主体、第三者審査機関、公的記録機関 |
 | 検証 | 境界が保存されていたかを判断する | 事故調査機関、規制当局、監査者、政策評価機関、必要に応じた法的機関 |
 | 是正 | 失敗した仕組みを修正・停止・再設計する | 規制当局、公的機関、国際機関、必要に応じた法的権限主体 |
@@ -113,9 +117,9 @@ LUMINA-30は、不可逆化リスクが存在する場面で責任が未定義�
 | Rule | Meaning | Japanese meaning |
 |---|---|---|
 | No Owner, No Validity | If no actor is responsible for friction design, operation, evidence preservation, verification, and correction, the boundary is not adequately preserved. | 責任主体がない場合、境界条件は十分に保存されていない。 |
-| Symmetric Friction | Friction must not make only responsible actors lose against actors that remove friction. | 摩擦は、責任ある主体だけを不利にしてはならない。 |
-| Anti-Bypass | Restructuring, outsourcing, acceleration, technical opacity, or entity replacement must not erase boundary responsibility. | 再編、外注化、高速化、技術的不透明性、法人変更で境界責任を消してはならない。 |
-| Evidence Before Voice Loss | Evidence must be preserved before affected humans lose position, voice, records, or re-entry capacity. | 影響を受ける人間が地位・声・記録・再参入能力を失う前に証拠を保存しなければならない。 |
+| Symmetric Friction | Review whether friction would make only responsible actors lose against actors that remove friction. | 責任ある主体だけが、摩擦を外す主体に対して不利になっていないかを確認する。 |
+| Anti-Bypass | Review whether restructuring, outsourcing, acceleration, technical opacity, or entity replacement erased boundary responsibility. | 再編、外注化、高速化、技術的不透明性、法人変更によって境界責任が消えていないかを確認する。 |
+| Evidence Before Voice Loss | Review whether evidence was preserved before affected humans lost position, voice, records, or re-entry capacity. | 影響を受ける人間が地位・声・記録・再参入能力を失う前に、証拠が保存されていたかを確認する。 |
 
 ---
 
@@ -127,11 +131,11 @@ It can be added to governance reviews, risk registers, procurement reviews, audi
 本メカニズムは、短い境界責任ブロックとして既存制度に入る。
 ガバナンスレビュー、リスク台帳、調達レビュー、監査チェックリスト、事故レビュー、取締役会リスクメモ、公的部門評価、標準化マッピングに追加できる。
 
-The fastest adoption path is not to ask institutions to adopt all LUMINA-30 documents.
-It is to add one minimum boundary responsibility question to existing review workflows.
+The least disruptive reuse path is not to ask institutions to adopt all LUMINA-30 documents.
+It is to offer one minimum boundary responsibility question for optional insertion into existing review workflows.
 
-最速の採用経路は、LUMINA-30文書群全体の採用を求めることではない。
-既存レビューのワークフローに、最小の境界責任質問を1つ追加することである。
+最も摩擦の少ない再利用経路は、LUMINA-30文書群全体の全面導入を前提にしないことである。
+既存レビューのワークフローに、最小の境界責任質問を任意に差し込めるようにすることである。
 
 ---
 
@@ -166,8 +170,7 @@ It is to add one minimum boundary responsibility question to existing review wor
 ## Summary ｜ 要約
 
 The Boundary Responsibility Mechanism is not a new regulatory system.
-It is a way to prevent responsibility for preserving human refusal from remaining undefined where optimization pressure may cause irreversibility.
+It is a review aid for identifying whether responsibility for preserving human refusal remained defined where optimization pressure may cause irreversibility.
 
 境界責任メカニズムは、新しい規制制度ではない。
-最適化圧が不可逆化を引き起こしうる場面で、人間拒否を保存する責任が未定義のまま放置されることを防ぐ方法である。
-
+最適化圧が不可逆化を引き起こしうる場面で、人間拒否を保存する責任が定義されていたかを確認するためのレビュー補助である。

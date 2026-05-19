@@ -4,17 +4,17 @@
 
 ## Status ｜ 位置づけ
 
-This document defines the responsibility structure required when optimization pressure may eliminate the practical conditions for human refusal before irreversibility.
+This document describes a responsibility structure for reviewing cases where optimization pressure may eliminate the practical conditions for human refusal before irreversibility.
 
-It is not a policy package, legal mandate, domain-specific operational rule, or technical specification.
+It is not a policy package, legal mandate, domain-specific operational rule, technical specification, certification system, official adoption claim, or binding standard.
 
-It is a non-binding LUMINA-30 reference for assigning responsibility before boundary failure.
+It is a non-binding LUMINA-30 reference for reviewing whether responsibility was assigned before boundary failure.
 
 本資料は、最適化圧によって不可逆化前に人間拒否の実効条件が失われうる場合に必要となる責任構造を定義する。
 
 本資料は、政策パッケージ、法的命令、分野別運用規則、技術仕様ではない。
 
-本資料は、境界失敗が起こる前に責任を割り当てるための、LUMINA-30の非拘束参照資料である。
+本資料は、境界失敗が起こる前に責任が割り当てられていたかを確認するための、LUMINA-30の非拘束参照資料である。
 
 This document does not modify LUMINA-30 Core Terminology or create new binding obligations.
 
@@ -36,15 +36,15 @@ Symmetric friction preserves the interval in which refusal remains effective.
 
 ## Boundary Responsibility ｜ 境界責任
 
-Boundary responsibility means that responsibility for preserving effective refusal before irreversibility must be explicitly assigned.
+Boundary responsibility means that review asks whether responsibility for preserving effective refusal before irreversibility was explicitly assigned.
 
-The assignment should cover mechanism design, operation, evidence preservation, verification, and correction.
+The review can cover mechanism design, operation, evidence preservation, verification, and correction.
 
 If any of these remain undefined, the boundary condition is unstable.
 
-境界責任とは、不可逆化前に有効な拒否を保存する責任が明示的に割り当てられていなければならない、という意味である。
+境界責任とは、不可逆化前に有効な拒否を保存する責任が明示的に割り当てられていたかをレビューで問う、という意味である。
 
-責任割当は、メカニズム設計、運用、証拠保存、検証、是正を含む必要がある。
+レビューでは、責任割当がメカニズム設計、運用、証拠保存、検証、是正を含んでいたかを確認できる。
 
 これらのいずれかが未定義のままであれば、境界条件は不安定である。
 
@@ -54,20 +54,20 @@ If any of these remain undefined, the boundary condition is unstable.
 
 | Layer | Responsibility | Typical Responsible Actors |
 |---|---|---|
-| Boundary criterion | Identify whether effective human refusal must remain available before irreversibility | LUMINA-30 |
+| Boundary criterion | Identify whether effective human refusal remained available before irreversibility | LUMINA-30 |
 | Irreversibility classification | Determine the type of irreversible or practically irreversible risk | Auditors, researchers, regulators, incident reviewers |
-| Mechanism design | Define domain-specific friction | Regulators, standards bodies, domain institutions, sector bodies, affected representatives |
-| Operation | Implement and operate friction | Firms, platforms, infrastructure operators, public agencies |
+| Mechanism design | Describe domain-specific friction | Regulators, standards bodies, domain institutions, sector bodies, affected representatives |
+| Operation | Operate or document friction where applicable | Firms, platforms, infrastructure operators, public agencies |
 | Evidence preservation | Preserve reviewable evidence | Auditors, independent review bodies, operators, public registries |
 | Verification | Determine whether friction was effective before irreversibility | Incident reviewers, regulators, auditors, policy evaluators, and legal bodies where applicable |
 | Correction | Revise, suspend, or redesign failed mechanisms | Regulators, public institutions, international bodies, and legal authorities where applicable |
 
 | 層 | 責任 | 典型的な責任主体 |
 |---|---|---|
-| 境界基準 | 不可逆化前に有効な人間拒否が残されるべきかを特定する | LUMINA-30 |
+| 境界基準 | 不可逆化前に有効な人間拒否が残っていたかを特定する | LUMINA-30 |
 | 不可逆化分類 | 不可逆的または実質的に不可逆的なリスクの種別を判定する | 監査者、研究者、規制機関、事故調査者 |
 | メカニズム設計 | 分野別摩擦を定義する | 規制当局、標準化団体、専門機関、業界団体、影響を受ける当事者代表 |
-| 運用 | 摩擦を実装・運用する | 企業、プラットフォーム、インフラ運用者、行政機関 |
+| 運用 | 該当する場合に摩擦を運用または記録する | 企業、プラットフォーム、インフラ運用者、行政機関 |
 | 証拠保存 | 検証可能な証拠を保存する | 監査機関、第三者審査機関、運用主体、公的記録機関 |
 | 検証 | 不可逆化前に摩擦が実効的だったかを判断する | 事故調査機関、規制当局、監査者、政策評価機関、必要に応じた法的機関 |
 | 是正 | 失敗した仕組みを修正・停止・再設計する | 規制当局、公的機関、国際機関、必要に応じた法的権限主体 |
@@ -80,29 +80,29 @@ Friction is symmetric when it does not punish only the actors who preserve human
 
 If one firm, institution, or state preserves human roles while competitors remove them without bearing equivalent boundary responsibility, the responsible actor may be driven out by optimization pressure.
 
-Therefore, in competitive environments, friction must be located at the appropriate shared layer.
+Therefore, in competitive environments, the review asks whether friction was located at an appropriate shared layer.
 
 摩擦が対称的であるとは、人間拒否を保存する主体だけを罰する構造になっていないことを意味する。
 
 ある企業・制度・国家が人間の役割を保存する一方で、競争相手が同等の境界責任を負わずにそれを除去できる場合、責任ある主体は最適化圧によって淘汰されうる。
 
-したがって、競争環境では、摩擦は適切な共有層に置かれなければならない。
+したがって、競争環境では、レビューは摩擦が適切な共有層に置かれていたかを問う。
 
 ---
 
 ## Shared Layers for Symmetric Friction ｜ 対称摩擦を置く共有層
 
-Symmetric friction may be assigned through market access conditions, procurement requirements, insurance conditions, audit requirements, certification schemes, standards, sector rules, regulatory requirements, public accountability mechanisms, or international coordination.
+Symmetric friction may be examined through market access conditions, procurement requirements, insurance conditions, audit requirements, certification-adjacent assurance, standards-adjacent mapping, sector rules, regulatory requirements, public accountability mechanisms, or international coordination.
 
 The specific design is not prescribed by LUMINA-30. It belongs to competent domain authorities in each domain.
 
-対称摩擦は、市場参加条件、調達要件、保険条件、監査要件、認証制度、標準、業界規則、規制要件、公的説明責任の仕組み、国際調整を通じて割り当てられうる。
+対称摩擦は、市場参加条件、調達要件、保険条件、監査要件、認証周辺の保証、標準化周辺の接続、業界規則、規制要件、公的説明責任の仕組み、国際調整を通じて確認できる。
 
 具体設計はLUMINA-30が命令しない。各分野の適格な主体が担う領域である。
 
 ---
 
-## Anti-Bypass Requirement ｜ 迂回防止要件
+## Anti-Bypass Review Criterion ｜ 迂回防止レビュー基準
 
 A friction mechanism is not effective if it can be bypassed through formal restructuring, outsourcing, entity replacement, delayed deployment, jurisdictional relocation, technical opacity, procedural formalism, competitive pressure, or transfer of responsibility without evidence preservation.
 
@@ -110,19 +110,19 @@ The relevant question is whether effective refusal, correction, transition, reco
 
 形式的な組織再編、外注化、法人変更、時間差導入、管轄移転、技術的不透明性、形式的手続化、競争圧、証拠保存を伴わない責任移転によって迂回できる摩擦メカニズムは有効ではない。
 
-問うべきなのは、不可逆的結果が生じる前に、有効な拒否・修正・移行・回復・再参入が実効的に利用可能だったかである。
+レビュー対象は、不可逆的結果が生じる前に、有効な拒否・修正・移行・回復・再参入が実効的に利用可能だったかである。
 
 ---
 
-## Evidence Requirement ｜ 証拠要件
+## Evidence Review Criterion ｜ 証拠レビュー基準
 
-Evidence must be preserved before affected humans lose voice, position, records, bargaining capacity, or re-entry capacity.
+Review asks whether evidence was preserved before affected humans lost voice, position, records, bargaining capacity, or re-entry capacity.
 
-The later absence of complaint must not be treated as evidence that refusal was effective.
+The later absence of complaint is not sufficient evidence that refusal was effective.
 
-証拠は、影響を受ける人間が声・地位・記録・交渉力・再参入能力を失う前に保存されなければならない。
+レビューでは、影響を受ける人間が声・地位・記録・交渉力・再参入能力を失う前に、証拠が保存されていたかを確認する。
 
-後日の申立がないことを、拒否が有効だった証拠として扱ってはならない。
+後日の申立がないことは、拒否が有効だったことを示す十分な証拠ではない。
 
 ---
 
@@ -158,16 +158,14 @@ When optimization pressure is present, ask:
 
 ## Summary ｜ 要約
 
-Boundary responsibility assigns who must preserve the conditions for effective refusal.
+Boundary responsibility identifies who preserves the conditions for effective refusal.
 
 Symmetric friction prevents responsible actors from being defeated by actors who remove those conditions.
 
 Together, they allow LUMINA-30 to address optimization pressure without becoming a detailed policy regime.
 
-境界責任は、有効な拒否の条件を誰が保存すべきかを割り当てる。
+境界責任は、有効な拒否の条件を誰が保存する責任を担っていたかを確認するための参照軸である。
 
 対称摩擦は、その条件を除去する主体によって、責任ある主体が打ち負かされることを防ぐ。
 
 両者を組み合わせることで、LUMINA-30は詳細な政策制度になることなく、最適化圧に対応できる。
-
-
