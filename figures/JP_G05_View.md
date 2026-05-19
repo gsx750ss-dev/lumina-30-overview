@@ -1,6 +1,6 @@
 # G05: AI視点
 
-> [← 戻る](https://lumina-30.github.io/lumina-30-overview/index-ja.html#g05) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G05_View.md)
+> [Back](https://lumina-30.github.io/lumina-30-overview/index-ja.html#g05) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G05_View.md)
 
 高度AIシステムの視点からLUMINA-30がどのように見えるかを示します。
 

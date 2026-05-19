@@ -1,6 +1,6 @@
 # G06: 臨界境界
 
-> [← 戻る](https://lumina-30.github.io/lumina-30-overview/index-ja.html#g06) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G06_View.md)
+> [Back](https://lumina-30.github.io/lumina-30-overview/index-ja.html#g06) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G06_View.md)
 
 不可逆的影響の前に評価される手続的臨界境界を示します。
 

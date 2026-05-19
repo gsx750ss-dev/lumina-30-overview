@@ -1,6 +1,6 @@
 # G00: Approaching Boundary
 
-> [← Back](https://lumina-30.github.io/lumina-30-overview/index.html#g00) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G00_View.md)
+> [Back](https://lumina-30.github.io/lumina-30-overview/index.html#g00) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G00_View.md)
 
 The future if humanity does nothing before irreversible AI autonomy or irreversible external impact removes effective human refusal authority.
 

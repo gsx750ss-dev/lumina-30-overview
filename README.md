@@ -24,6 +24,9 @@
 <!-- [S_SERIES_TEMPLATE](./docs/L30_S_SERIES_TEMPLATE.md) -->
 ---
 <a id="top"></a>
+
+> [EN Top](https://lumina-30.github.io/lumina-30-overview/index.html#top) ｜ [JP Top](https://lumina-30.github.io/lumina-30-overview/index-ja.html#top) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md)
+
 <!-- ● L30:TITLE -->
 # LUMINA-30
 

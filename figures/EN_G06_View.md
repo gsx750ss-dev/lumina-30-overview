@@ -1,6 +1,6 @@
 # G06: Critical Boundary
 
-> [← Back](https://lumina-30.github.io/lumina-30-overview/index.html#g06) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G06_View.md)
+> [Back](https://lumina-30.github.io/lumina-30-overview/index.html#g06) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G06_View.md)
 
 The procedural critical boundary evaluated before irreversible impact occurs.
 

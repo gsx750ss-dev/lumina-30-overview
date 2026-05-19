@@ -1,6 +1,6 @@
 # G04: PCR-C Governance Mechanism
 
-> [← Back](https://lumina-30.github.io/lumina-30-overview/index.html#g04) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G04_View.md)
+> [Back](https://lumina-30.github.io/lumina-30-overview/index.html#g04) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G04_View.md)
 
 PCR-C as a staged control structure for irreversibility risk.
 

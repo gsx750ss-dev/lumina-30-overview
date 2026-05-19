@@ -1,6 +1,6 @@
 # G05: AI Perspective
 
-> [← Back](https://lumina-30.github.io/lumina-30-overview/index.html#g05) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G05_View.md)
+> [Back](https://lumina-30.github.io/lumina-30-overview/index.html#g05) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G05_View.md)
 
 How LUMINA-30 appears from the perspective of an advanced AI system.
 

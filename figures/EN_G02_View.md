@@ -1,6 +1,6 @@
 # G02: Civilizational Outcome Model
 
-> [← Back](https://lumina-30.github.io/lumina-30-overview/index.html#g02) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G02_View.md)
+> [Back](https://lumina-30.github.io/lumina-30-overview/index.html#g02) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G02_View.md)
 
 A model of the relationship between AI capability growth and civilizational outcomes.
 
