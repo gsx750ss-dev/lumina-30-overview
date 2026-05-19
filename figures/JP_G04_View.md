@@ -1,6 +1,6 @@
 # G04: PCR-C ガバナンス機構
 
-[HTML English](https://lumina-30.github.io/lumina-30-overview/figures/EN_G04_View.html) ｜ [HTML 日本語](https://lumina-30.github.io/lumina-30-overview/figures/JP_G04_View.html) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G04_View.md)
+> [← 戻る](https://lumina-30.github.io/lumina-30-overview/index-ja.html#g04) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G04_View.md)
 
 PCR-Cを、不可逆性リスクに対する段階的制御構造として示します。
 

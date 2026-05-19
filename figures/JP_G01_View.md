@@ -1,6 +1,6 @@
 # G01: 境界フレームワーク
 
-[HTML English](https://lumina-30.github.io/lumina-30-overview/figures/EN_G01_View.html) ｜ [HTML 日本語](https://lumina-30.github.io/lumina-30-overview/figures/JP_G01_View.html) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G01_View.md)
+> [← 戻る](https://lumina-30.github.io/lumina-30-overview/index-ja.html#g01) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G01_View.md)
 
 LUMINA-30を、通常の政策・ガイドライン・倫理的訴えではなく、境界フレームワークとして示します。
 
