@@ -1,6 +1,6 @@
 # G03: 文明存続戦略
 
-> [Back](https://lumina-30.github.io/lumina-30-overview/index-ja.html#g03) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G03_View.md)
+> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g03) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G03_View.md)
 
 不可逆的エスカレーションによって拒否権が失われる前に、それを保持するための存続戦略を示します。
 
@@ -16,7 +16,7 @@ G03は、境界から導かれる人間側の戦略を示します。存続は�
 
 **インシデントレビューでの読み方：** G03は、組織に実行可能な拒否戦略があったかを検証するために使います。警告は時間内に届いたか、責任ある判断点はあったか、エスカレーション経路、ロールバック能力、停止権限は実在したかを問います。
 
-## 詳しい説明を開く
+## 詳細説明
 
 - これは受動的な信頼の図ではありません。可逆性と拒否を運用状態に保つための能動的な戦略です。
 - この図は、文明存続を具体的な制度設計へ接続します。誰が、何を、いつ、どの証拠で止められるのかが問われます。

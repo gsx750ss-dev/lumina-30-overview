@@ -1,6 +1,6 @@
 # G02: 文明結果モデル
 
-> [Back](https://lumina-30.github.io/lumina-30-overview/index-ja.html#g02) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G02_View.md)
+> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g02) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G02_View.md)
 
 AI能力の成長と文明的結果の関係をモデル化します。
 
@@ -16,7 +16,7 @@ G02は、AI能力の成長だけを見ても決定的な判断にならないこ
 
 **インシデントレビューでの読み方：** G02は、成功指標に目を奪われないために使います。性能向上や効率化の裏で、可逆性、エスカレーション制御、人間の拒否権限が失われていなかったかを検証します。
 
-## 詳しい説明を開く
+## 詳細説明
 
 - 能力が上がれば統治も良くなる、という前提をこの図は退けます。
 - 文明的結果は、人間が時間内に停止・修正・方向転換できるかに依存します。

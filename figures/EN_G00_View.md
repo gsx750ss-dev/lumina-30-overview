@@ -1,6 +1,6 @@
 # G00: Approaching Boundary
 
-> [Back](https://lumina-30.github.io/lumina-30-overview/index.html#g00) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G00_View.md)
+> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g00) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G00_View.md)
 
 The future if humanity does nothing before irreversible AI autonomy or irreversible external impact removes effective human refusal authority.
 
@@ -16,9 +16,9 @@ G00 does not ask the reader to begin with technical terminology. It begins with 
 
 **Incident-review reading:** when reviewing an AI incident or near-miss, G00 asks whether ordinary human life was already being transported by system momentum before affected people, operators, or institutions still had a real and timely chance to refuse.
 
-## Read deeper explanation
+## Detailed explanation
 
 - The danger is not represented as a sudden explosion, but as transportation: a process that can look orderly while becoming irreversible.
 - The smallness of the human figures matters. It shows a mismatch between human agency and system scale.
-- The image marks the first LUMINA-30 demand: do not wait until the cliff is visible only in retrospect.
+- The image marks the first LUMINA-30 review perspective: identify the boundary before it is visible only in retrospect.
 - In an incident review, G00 is the question of lived consequence: were people still able to say no before the system made their future effectively non-negotiable?

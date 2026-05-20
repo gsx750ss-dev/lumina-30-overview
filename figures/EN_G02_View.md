@@ -1,6 +1,6 @@
 # G02: Civilizational Outcome Model
 
-> [Back](https://lumina-30.github.io/lumina-30-overview/index.html#g02) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G02_View.md)
+> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g02) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G02_View.md)
 
 A model of the relationship between AI capability growth and civilizational outcomes.
 
@@ -16,7 +16,7 @@ G02 shows why AI capability growth is not the decisive axis by itself. The decis
 
 **Incident-review reading:** use G02 to avoid being distracted by success metrics. In a review, ask whether apparent performance gains masked a loss of reversibility, escalation control, or human refusal authority before consequences became locked in.
 
-## Read deeper explanation
+## Detailed explanation
 
 - The figure rejects the assumption that better capability automatically means better governance.
 - The civilizational outcome depends on whether humans remain able to stop or redirect the process in time.

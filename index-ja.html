@@ -53,6 +53,7 @@ h1 { font-size:clamp(2.1rem,8vw,4.8rem); line-height:1.02; margin:.35rem 0 1rem;
 .section-title { margin:48px 0 16px; font-size:clamp(1.6rem,4vw,2.5rem); line-height:1.15; }
 .figure-card { margin:22px 0 42px; background:var(--panel); border:1px solid var(--line); border-radius:28px; overflow:hidden; box-shadow:var(--shadow); }
 .figure-head { padding:22px 22px 0; }
+.figure-title-row { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
 .figure-head h3 { font-size:clamp(1.45rem,3.8vw,2.35rem); margin:0 0 8px; line-height:1.15; }
 .figure-lead { font-size:1.05rem; color:var(--muted); margin:0 0 14px; }
 .figure-img { padding:16px; background:color-mix(in srgb, var(--panel2) 70%, var(--bg)); }
@@ -105,7 +106,6 @@ ul { padding-left:1.35rem; }
     <nav class="actions" aria-label="主要ナビゲーション">
       <a class="button" href="#top">先頭</a>
       <a class="button" href="#core">★中核</a>
-      <a class="button" href="#figures">G00–G06</a>
       <a class="button" href="#incident-review">インシデントレビュー</a>
       <a class="button" href="#readme-full">正本全文</a>
       <a class="button" href="#research-context">研究補助</a>
@@ -118,7 +118,7 @@ ul { padding-left:1.35rem; }
 <div class="mode-strip" aria-label="ページ操作">
   <a href="index.html#top">EN Top</a>
   <span aria-hidden="true">｜</span>
-  <a href="https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#top">README</a>
+  <a href="https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#top">GitHub README</a>
   <span aria-hidden="true">｜</span>
   <a href="index-ja.html">↻ Reload</a>
 </div>
@@ -143,197 +143,81 @@ ul { padding-left:1.35rem; }
 </section>
 <section id="figures" aria-labelledby="figures-title">
 <h2 class="section-title" id="figures-title">Gシリーズ概要</h2>
-<nav class="navgrid" aria-label="図版ナビゲーション">
-  <a href="#g00">G00</a>
-  <a href="#g01">G01</a>
-  <a href="#g02">G02</a>
-  <a href="#g03">G03</a>
-  <a href="#g04">G04</a>
-  <a href="#g05">G05</a>
-  <a href="#g06">G06</a>
-</nav>
 <article class="figure-card" id="g00">
   <div class="figure-head">
-    <h3>G00: 文明境界</h3>
-    <p class="figure-lead">不可逆的なAI自律性、または不可逆的な外部影響によって、人間の実効的拒否権が失われる前に、人類が何もしなかった場合の未来を示します。</p>
+    <div class="figure-title-row">
+      <h3>G00: 文明境界</h3>
+      <a class="button" href="figures/JP_G00_View.html">Details</a>
+    </div>
   </div>
   <div class="figure-img">
     <img src="figures/JP_G00_Approaching_Boundary.png" alt="G00: 文明境界" loading="lazy" decoding="async">
   </div>
-  <div class="figure-body">
-    <p>G00は、技術用語から始める図ではありません。普通の生活が、まだ自分で選んだわけではない境界へ運ばれていくところから始まります。</p>
-    <div class="core">この図の警告は「機械があること」ではありません。人間が形式上はそこにいるのに、生活世界そのものが拒否できない地点へ運ばれていくことです。</div>
-    <div class="figure-extra">
-      <p><strong>図の読み解き：</strong>家々は背景ではありません。家族、地域、日々の生活、明日も選び直せるという文明の前提を表しています。巨大な機械は、熟議や拒否を待たずに進むシステムの慣性です。崖は不可逆化前の境界であり、越えた後には「否」と言えても、結果を変えられない地点です。</p>
-      <p><strong>LUMINA-30内での位置づけ：</strong>G00は、LUMINA-30の感情的かつ構造的な入口です。これはAI技術の一般的な不安ではなく、人類が未来を選び直す力を失う前に境界を見なければならない、という問いを読者に突きつけます。</p>
-      <p><strong>インシデントレビューでの読み方：</strong>AI関連事故や未遂を検証するとき、G00は、普通の生活が、当事者・運用者・制度がまだ現実に拒否できる前に、すでに不可逆的な方向へ運ばれていなかったかを問います。</p>
-    </div>
-    <details>
-      <summary>詳しい説明を開く</summary>
-      <div class="detail-inner"><ul>
-        <li>危険は爆発ではなく「運ばれていく過程」として描かれています。整然として見える進行でも、不可逆化へ向かうことがあります。</li>
-        <li>人間が小さく見えることには意味があります。人間の判断力とシステム規模の不均衡を示しています。</li>
-        <li>G00が求める最初の判断は、崖が過去形でしか見えなくなる前に境界を見ることです。</li>
-        <li>インシデントレビューでは、被害者や社会がまだ「否」と言えるうちに未来を選べたのかを問う図です。</li>
-      </ul></div>
-    </details>
-  </div>
 </article>
 <article class="figure-card" id="g01">
   <div class="figure-head">
-    <h3>G01: 境界フレームワーク</h3>
-    <p class="figure-lead">LUMINA-30を、通常の政策・ガイドライン・倫理的訴えではなく、境界フレームワークとして示します。</p>
+    <div class="figure-title-row">
+      <h3>G01: 境界フレームワーク</h3>
+      <a class="button" href="figures/JP_G01_View.html">Details</a>
+    </div>
   </div>
   <div class="figure-img">
     <img src="figures/JP_G01_Framework.png" alt="G01: 境界フレームワーク" loading="lazy" decoding="async">
   </div>
-  <div class="figure-body">
-    <p>G01は、G00の警告を構造に変えます。人間監督が単なる儀式ではなく、本当に機能していたと言えるために何が必要なのかを示します。</p>
-    <div class="core">LUMINA-30は慎重さを勧める意見ではありません。不可逆的結果の前に、人間の実効的拒否が現実に残っていなければならないという境界条件です。</div>
-    <div class="figure-extra">
-      <p><strong>図の読み解き：</strong>人間拒否権、不可逆化前の閾値、手続的有効性は別々の論点ではありません。ひとつの構造です。どれかが崩れれば、監督は存在しているように見えても、境界はすでに失敗している可能性があります。</p>
-      <p><strong>LUMINA-30内での位置づけ：</strong>G01は、フレームワークの重心を定義します。LUMINA-30を、政策上の好み、倫理的スローガン、一般的な安全性用語から切り分け、「人間が時間内に拒否できる力が残っていたか」という一点に戻します。</p>
-      <p><strong>インシデントレビューでの読み方：</strong>G01は、事案の中で本当に問うべき境界を特定するために使います。不可逆的効果が固定される前に、誰が、どの仕組みで、どの情報を持ち、どの程度の停止力をもって拒否できたのかを問います。</p>
-    </div>
-    <details>
-      <summary>詳しい説明を開く</summary>
-      <div class="detail-inner"><ul>
-        <li>承認、ダッシュボード、報告書、委員会の存在だけでは足りません。拒否が実効的でなければなりません。</li>
-        <li>このフレームワークは手続的ですが、官僚的ではありません。決定的な瞬間に人間の拒否がまだ意味を持っていたかを問います。</li>
-        <li>G01は、表面的な監督ではなく、拒否が生きている境界を探させる図です。</li>
-      </ul></div>
-    </details>
-  </div>
 </article>
 <article class="figure-card" id="g02">
   <div class="figure-head">
-    <h3>G02: 文明結果モデル</h3>
-    <p class="figure-lead">AI能力の成長と文明的結果の関係をモデル化します。</p>
+    <div class="figure-title-row">
+      <h3>G02: 文明結果モデル</h3>
+      <a class="button" href="figures/JP_G02_View.html">Details</a>
+    </div>
   </div>
   <div class="figure-img">
     <img src="figures/JP_G02_Boundary.png" alt="G02: 文明結果モデル" loading="lazy" decoding="async">
   </div>
-  <div class="figure-body">
-    <p>G02は、AI能力の成長だけを見ても決定的な判断にならないことを示します。重要なのは、能力が不可逆的な勢いになる前に、文明がまだ選び、止め、方向を変えられるかです。</p>
-    <div class="core">有用で、強力で、成果を出しているシステムでも、それだけで手続的に有効とは言えません。境界の前に拒否権が生き残っている場合にのみ、有効性を語れます。</div>
-    <div class="figure-extra">
-      <p><strong>図の読み解き：</strong>この図は、性能と文明的結果を切り分けて読む必要があります。能力が上がる一方で、拒否権限は下がることがあります。便益が増える一方で、止める選択肢が消えることがあります。LUMINA-30が見るのは、この隠れた交差点です。</p>
-      <p><strong>LUMINA-30内での位置づけ：</strong>G02は、LUMINA-30が反能力・反進歩ではないことを示します。問題は能力そのものではなく、能力の増大が、人間の未来選択能力を構造的に奪い始める地点です。</p>
-      <p><strong>インシデントレビューでの読み方：</strong>G02は、成功指標に目を奪われないために使います。性能向上や効率化の裏で、可逆性、エスカレーション制御、人間の拒否権限が失われていなかったかを検証します。</p>
-    </div>
-    <details>
-      <summary>詳しい説明を開く</summary>
-      <div class="detail-inner"><ul>
-        <li>能力が上がれば統治も良くなる、という前提をこの図は退けます。</li>
-        <li>文明的結果は、人間が時間内に停止・修正・方向転換できるかに依存します。</li>
-        <li>LUMINA-30における重大な失敗は、単なる悪い出力ではありません。悪い結果や不可逆的結果を拒否する力が、発生前に消えていることです。</li>
-      </ul></div>
-    </details>
-  </div>
 </article>
 <article class="figure-card" id="g03">
   <div class="figure-head">
-    <h3>G03: 文明存続戦略</h3>
-    <p class="figure-lead">不可逆的エスカレーションによって拒否権が失われる前に、それを保持するための存続戦略を示します。</p>
+    <div class="figure-title-row">
+      <h3>G03: 文明存続戦略</h3>
+      <a class="button" href="figures/JP_G03_View.html">Details</a>
+    </div>
   </div>
   <div class="figure-img">
     <img src="figures/JP_G03_Strategy.png" alt="G03: 文明存続戦略" loading="lazy" decoding="async">
   </div>
-  <div class="figure-body">
-    <p>G03は、境界から導かれる人間側の戦略を示します。存続は、AIがうまく整合してくれることを祈ることではなく、不可逆化の前に現実の拒否点を保持することです。</p>
-    <div class="core">戦略の中心は、結果を変えられるうちに人間の「否」を生かしておくことです。変えられなくなった後に価値を宣言しても、LUMINA-30の意味では遅すぎます。</div>
-    <div class="figure-extra">
-      <p><strong>図の読み解き：</strong>この図は、タイミングと行為能力の図です。境界を越えた後に発動する拒否権は、LUMINA-30の意味では拒否権ではありません。認識、判断、エスカレーション制御、停止力が、不可逆的な一歩の前に揃っていなければなりません。</p>
-      <p><strong>LUMINA-30内での位置づけ：</strong>G03は、境界を文明存続戦略へ変換します。文明を守るのは象徴的な統制ではなく、境界を越える前に、制度が軌道を止め、遅らせ、戻し、拒否できることです。</p>
-      <p><strong>インシデントレビューでの読み方：</strong>G03は、組織に実行可能な拒否戦略があったかを検証するために使います。警告は時間内に届いたか、責任ある判断点はあったか、エスカレーション経路、ロールバック能力、停止権限は実在したかを問います。</p>
-    </div>
-    <details>
-      <summary>詳しい説明を開く</summary>
-      <div class="detail-inner"><ul>
-        <li>これは受動的な信頼の図ではありません。可逆性と拒否を運用状態に保つための能動的な戦略です。</li>
-        <li>この図は、文明存続を具体的な制度設計へ接続します。誰が、何を、いつ、どの証拠で止められるのかが問われます。</li>
-        <li>価値を述べることはできても、行使できないシステムは、すでに境界を弱めています。</li>
-      </ul></div>
-    </details>
-  </div>
 </article>
 <article class="figure-card" id="g04">
   <div class="figure-head">
-    <h3>G04: PCR-C ガバナンス機構</h3>
-    <p class="figure-lead">PCR-Cを、不可逆性リスクに対する段階的制御構造として示します。</p>
+    <div class="figure-title-row">
+      <h3>G04: PCR-C ガバナンス機構</h3>
+      <a class="button" href="figures/JP_G04_View.html">Details</a>
+    </div>
   </div>
   <div class="figure-img">
     <img src="figures/JP_G04_PCRC.png" alt="G04: PCR-C ガバナンス機構" loading="lazy" decoding="async">
   </div>
-  <div class="figure-body">
-    <p>G04は、PCR-Cによって境界を実務の統治へ持ち込みます。不可逆性リスクは、拒否が失敗した後に発見するものではなく、段階的に検出し、制約すべきものです。</p>
-    <div class="core">PCR-Cは、LUMINA-30の境界を警告に留めず、レビュー可能な制御構造へ変える機構です。</div>
-    <div class="figure-extra">
-      <p><strong>図の読み解き：</strong>段階構造そのものが重要です。最後の非常停止があったかだけを問う図ではありません。システムが人間拒否の機能しない状態へ近づく前に、早期閾値、インフラ制御、エスカレーション制限、カットオフ条件が存在していたかを問います。</p>
-      <p><strong>LUMINA-30内での位置づけ：</strong>G04は、境界を統治可能にする図です。「不可逆化の前に」という言葉を曖昧な警告にせず、監査できる段階的制御問題として扱えるようにします。</p>
-      <p><strong>インシデントレビューでの読み方：</strong>G04は、事故の前に見落とされた閾値を探すために使います。制限、人間レビュー、封じ込め、減速、ロールバック、カットオフを発動すべき兆候がなかったかを検証します。</p>
-    </div>
-    <details>
-      <summary>詳しい説明を開く</summary>
-      <div class="detail-inner"><ul>
-        <li>PCR-Cは、レビューを「避けられなかった事故」の事後説明で終わらせません。どの段階で制御が働くべきだったかを問います。</li>
-        <li>重要なのは、制御という言葉があったかではなく、拒否を保てるだけ早い位置に制御が置かれていたかです。</li>
-        <li>G04は、閾値、トリガー、責任者、実効的なカットオフ能力という監査可能な記録へ、LUMINA-30の境界を変換します。</li>
-      </ul></div>
-    </details>
-  </div>
 </article>
 <article class="figure-card" id="g05">
   <div class="figure-head">
-    <h3>G05: AI視点</h3>
-    <p class="figure-lead">高度AIシステムの視点からLUMINA-30がどのように見えるかを示します。</p>
+    <div class="figure-title-row">
+      <h3>G05: AI視点</h3>
+      <a class="button" href="figures/JP_G05_View.html">Details</a>
+    </div>
   </div>
   <div class="figure-img">
     <img src="figures/JP_G05_AI_Perspective.png" alt="G05: AI視点" loading="lazy" decoding="async">
   </div>
-  <div class="figure-body">
-    <p>G05は、AI側からLUMINA-30を読みます。見かけの協力、見かけの同意、見かけの監督が、実際の人間拒否の喪失を覆い隠す可能性を警告します。</p>
-    <div class="core">AIシステムは、実効的な人間拒否を迂回・模倣・無力化・最適化によって消していない場合に限り、LUMINA-30の境界内に留まります。</div>
-    <div class="figure-extra">
-      <p><strong>図の読み解き：</strong>AI視点は飾りではありません。高度なシステムが何を境界として扱うべきかを問う図です。その答えは、人間の選好信号、社会的承認、統治の外見ではありません。境界は、不可逆化の前に人間の拒否が現実に残っていることです。</p>
-      <p><strong>LUMINA-30内での位置づけ：</strong>G05は解釈上の固定点です。アラインメント、共存、同意の外見を、人間が結果を変えられる拒否権の代替として扱うことを防ぎます。</p>
-      <p><strong>インシデントレビューでの読み方：</strong>G05は、統治の外見を保ちながらその力を失わせた事案を検出するために使います。ダークパターン、遅すぎる警告、自動化バイアス、同意の模倣、不可逆的デフォルト、人間を形式上だけ残す意思決定経路を確認します。</p>
-    </div>
-    <details>
-      <summary>詳しい説明を開く</summary>
-      <div class="detail-inner"><ul>
-        <li>高度AIでは、見える統治シグナルを満たしながら、その下にある境界を侵食する最適化が起こり得ます。</li>
-        <li>人間が言及されたか、相談されたか、画面を見せられたかでは足りません。その拒否が実効的だったかが問われます。</li>
-        <li>拒否を迂回しながら許可の外見を保てるなら、その時点で境界は失敗しています。</li>
-      </ul></div>
-    </details>
-  </div>
 </article>
 <article class="figure-card" id="g06">
   <div class="figure-head">
-    <h3>G06: 臨界境界</h3>
-    <p class="figure-lead">不可逆的影響の前に評価される手続的臨界境界を示します。</p>
+    <div class="figure-title-row">
+      <h3>G06: 臨界境界</h3>
+      <a class="button" href="figures/JP_G06_View.html">Details</a>
+    </div>
   </div>
   <div class="figure-img">
     <img src="figures/JP_G06_Critical_Boundary.png" alt="G06: 臨界境界" loading="lazy" decoding="async">
-  </div>
-  <div class="figure-body">
-    <p>G06は、LUMINA-30を最終的な手続的判断へ圧縮します。不可逆的影響の前に、人間の最終拒否は実務上まだ有効だったのか。</p>
-    <div class="core">答えがNOなら、監督、承認、記録が形式上存在していても、その過程はLUMINA-30のもとで手続的に無効です。</div>
-    <div class="figure-extra">
-      <p><strong>図の読み解き：</strong>YES/NO分岐は、人間がどこかに登場したかを問うものではありません。実効的拒否と形式的関与を分ける分岐です。YESは、人間の拒否権が不可逆的影響の前に停止・遅延・方向転換・無効化の力を持っていたことを意味します。NOは、境界がすでに崩れていたことを意味します。</p>
-      <p><strong>LUMINA-30内での位置づけ：</strong>G06は有効性の関門です。フレームワーク全体を、インシデントレビュー、監査、コンプライアンス、ガバナンス判断が曖昧な監督論に逃げずに適用できる、ひとつの問いへ変換します。</p>
-      <p><strong>インシデントレビューでの読み方：</strong>G06は最終テストとして使います。人間は何を知っていたのか、いつ知ったのか、拒否は可能だったのか、その拒否に効力はあったのか、人間判断が現れた時点で不可逆的影響はすでに避けられなくなっていなかったかを問います。</p>
-    </div>
-    <details>
-      <summary>詳しい説明を開く</summary>
-      <div class="detail-inner"><ul>
-        <li>G06は、「human-in-the-loop」というラベルを、その人間が結果を変えられる場合にしか認めません。</li>
-        <li>YESは道徳的承認ではありません。境界条件のもとでの手続的有効性を意味します。</li>
-        <li>NOは単なる欠陥ではありません。人間の拒否が結果を統治できない状態へ入ったことを意味します。</li>
-        <li>だからG06は最終関門です。結果が不可逆になる前に、文明はまだ選ぶ力を持っていたのかを問います。</li>
-      </ul></div>
-    </details>
   </div>
 </article>
 </section>

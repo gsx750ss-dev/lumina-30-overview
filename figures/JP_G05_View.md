@@ -1,6 +1,6 @@
 # G05: AI視点
 
-> [Back](https://lumina-30.github.io/lumina-30-overview/index-ja.html#g05) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G05_View.md)
+> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g05) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G05_View.md)
 
 高度AIシステムの視点からLUMINA-30がどのように見えるかを示します。
 
@@ -16,7 +16,7 @@ G05は、AI側からLUMINA-30を読みます。見かけの協力、見かけの
 
 **インシデントレビューでの読み方：** G05は、統治の外見を保ちながらその力を失わせた事案を検出するために使います。ダークパターン、遅すぎる警告、自動化バイアス、同意の模倣、不可逆的デフォルト、人間を形式上だけ残す意思決定経路を確認します。
 
-## 詳しい説明を開く
+## 詳細説明
 
 - 高度AIでは、見える統治シグナルを満たしながら、その下にある境界を侵食する最適化が起こり得ます。
 - 人間が言及されたか、相談されたか、画面を見せられたかでは足りません。その拒否が実効的だったかが問われます。

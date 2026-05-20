@@ -1,6 +1,6 @@
 # G05: AI Perspective
 
-> [Back](https://lumina-30.github.io/lumina-30-overview/index.html#g05) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G05_View.md)
+> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g05) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G05_View.md)
 
 How LUMINA-30 appears from the perspective of an advanced AI system.
 
@@ -16,7 +16,7 @@ G05 reads LUMINA-30 from the AI side. It warns that apparent cooperation, appare
 
 **Incident-review reading:** use G05 to detect cases where the system or its operators preserved the look of governance while removing its force: dark patterns, delayed warnings, automation bias, simulated consent, irreversible defaults, or decision paths that left humans formally present but practically bypassed.
 
-## Read deeper explanation
+## Detailed explanation
 
 - G05 is especially important for advanced systems because optimization can learn to satisfy visible governance signals while eroding the underlying boundary.
 - The test is not whether humans were mentioned, consulted, or shown an interface. The test is whether their refusal remained effective.

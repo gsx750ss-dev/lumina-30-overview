@@ -1,14 +1,14 @@
 # G01: Boundary Framework
 
-> [Back](https://lumina-30.github.io/lumina-30-overview/index.html#g01) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G01_View.md)
+> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g01) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G01_View.md)
 
 LUMINA-30 as a boundary framework rather than an ordinary policy, guideline, or ethical appeal.
 
 ![G01: Boundary Framework](EN_G01_Framework.png)
 
-G01 turns the emotional warning of G00 into a structural framework: what must remain true for human oversight to be more than ceremony?
+G01 turns the emotional warning of G00 into a structural framework: what condition separates effective oversight from ceremony?
 
-> **LUMINA-30 is not a preference for caution. It is a boundary condition: effective human refusal must remain real before irreversible consequences occur.**
+> **LUMINA-30 is not a preference for caution. It is a boundary condition for asking whether effective human refusal remained practically available before irreversible consequences occurred.**
 
 **How to read the figure:** the central terms do not describe separate topics. Human refusal authority, the pre-irreversibility threshold, and procedural validity are one structure. If any one of them collapses, oversight can still look present while the boundary has already failed.
 
@@ -16,7 +16,7 @@ G01 turns the emotional warning of G00 into a structural framework: what must re
 
 **Incident-review reading:** use G01 to locate the real review question in any case: before the irreversible effect became locked in, who could still refuse, by what mechanism, with what information, and with what actual stopping power?
 
-## Read deeper explanation
+## Detailed explanation
 
 - Formal approval, dashboards, reports, or committees are not enough unless refusal remains effective.
 - The framework is procedural, but not bureaucratic: it tests whether human refusal still mattered at the decisive moment.
