@@ -17,16 +17,13 @@
 }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
-[id] { scroll-margin-top:92px; }
+[id] { scroll-margin-top:24px; }
 body { margin:0; background:radial-gradient(circle at top, rgba(147,197,253,.12), transparent 34rem), var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans","Noto Sans JP",Helvetica,Arial,sans-serif; line-height:1.68; }
 a { color:var(--accent); text-decoration-thickness:.08em; text-underline-offset:.18em; }
 .wrap { width:min(1120px,100%); margin:0 auto; padding:0 18px 56px; }
 .skip { position:absolute; left:-999px; top:10px; background:var(--panel); color:var(--text); padding:10px; border:1px solid var(--line); border-radius:10px; }
 .skip:focus { left:10px; z-index:99; }
-.topbar { position:sticky; top:0; z-index:30; backdrop-filter:blur(14px); background:color-mix(in srgb, var(--bg) 84%, transparent); border-bottom:1px solid var(--line); }
-.topbar-inner { width:min(1120px,100%); margin:0 auto; padding:10px 18px; display:flex; gap:10px; align-items:center; justify-content:space-between; flex-wrap:wrap; }
 .brand { font-weight:800; letter-spacing:.02em; }
-.actions { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
 .button { display:inline-flex; align-items:center; justify-content:center; gap:.35rem; min-height:38px; padding:8px 12px; border:1px solid var(--line); border-radius:999px; background:var(--button); color:var(--text); font-weight:700; text-decoration:none; }
 .button:hover { background:var(--button-hover); }
 
@@ -66,8 +63,6 @@ details .detail-inner { padding:0 18px 16px; color:var(--muted); }
 ul { padding-left:1.35rem; }
 .footer { margin-top:48px; padding-top:24px; border-top:1px solid var(--line); color:var(--muted); }
 
-.readme-reference { margin:52px 0 0; padding:24px; border:1px solid var(--line); border-radius:28px; background:color-mix(in srgb, var(--panel) 88%, transparent); box-shadow:var(--shadow); }
-.readme-reference > .readme-note { padding:16px; border:1px solid var(--line); border-radius:18px; background:color-mix(in srgb, var(--panel2) 70%, transparent); margin-bottom:22px; }
 .readme-content { overflow-wrap:anywhere; }
 .readme-content h1,.readme-content h2,.readme-content h3 { line-height:1.25; margin-top:2rem; }
 .readme-content h1 { font-size:clamp(1.8rem,4.2vw,3rem); }
@@ -80,11 +75,9 @@ ul { padding-left:1.35rem; }
 .readme-content code { background:color-mix(in srgb, var(--panel2) 74%, transparent); padding:.15em .35em; border-radius:6px; }
 .readme-content pre { overflow:auto; padding:14px; border:1px solid var(--line); border-radius:14px; background:color-mix(in srgb, var(--panel2) 74%, transparent); }
 .readme-content blockquote { margin:18px 0; padding:4px 16px; border-left:4px solid var(--accent); color:var(--muted); background:color-mix(in srgb, var(--panel2) 50%, transparent); border-radius:0 12px 12px 0; }
-.readme-jump { display:flex; gap:8px; flex-wrap:wrap; margin:18px 0; }
-.readme-jump a { display:inline-flex; padding:8px 10px; border:1px solid var(--line); border-radius:999px; background:var(--button); color:var(--text); text-decoration:none; font-weight:700; }
 
-@media (max-width:820px) { .card,.card.wide { grid-column:1 / -1; } .navgrid { grid-template-columns:repeat(4,1fr); } .civilization-list { grid-template-columns:1fr; } .hero { padding-top:36px; } .topbar-inner { align-items:flex-start; } }
-@media (max-width:480px) { .navgrid { grid-template-columns:repeat(2,1fr); } .wrap,.topbar-inner { padding-left:12px; padding-right:12px; } .figure-head,.figure-body { padding-left:16px; padding-right:16px; } }
+@media (max-width:820px) { .card,.card.wide { grid-column:1 / -1; } .navgrid { grid-template-columns:repeat(4,1fr); } .civilization-list { grid-template-columns:1fr; } .hero { padding-top:36px; } }
+@media (max-width:480px) { .navgrid { grid-template-columns:repeat(2,1fr); } .wrap { padding-left:12px; padding-right:12px; } .figure-head,.figure-body { padding-left:16px; padding-right:16px; } }
 
 .reader-note {
   border: 1px solid rgba(148, 163, 184, .35);
@@ -95,24 +88,12 @@ ul { padding-left:1.35rem; }
   color: var(--muted);
 }
 .reader-note strong { color: var(--text); }
+.anchor-alias { display:block; height:0; overflow:hidden; }
 </style>
 </head>
 <body>
 <div id="top" class="page-anchor" aria-hidden="true"></div>
 <a class="skip" href="#main">本文へ移動</a>
-<header class="topbar">
-  <div class="topbar-inner">
-    <div class="brand">LUMINA-30</div>
-    <nav class="actions" aria-label="主要ナビゲーション">
-      <a class="button" href="#top">先頭</a>
-      <a class="button" href="#core">★中核</a>
-      <a class="button" href="#incident-review">インシデントレビュー</a>
-      <a class="button" href="#readme-full">正本全文</a>
-      <a class="button" href="#research-context">研究補助</a>
-      <a class="button" href="#readme-index">目次</a>
-    </nav>
-  </div>
-</header>
 <div class="wrap">
 <main id="main">
 <div class="mode-strip" aria-label="ページ操作">
@@ -123,9 +104,11 @@ ul { padding-left:1.35rem; }
   <a href="index-ja.html">↻ Reload</a>
 </div>
 <section class="hero" id="overview">
+  <span id="readme-top" class="anchor-alias" aria-hidden="true"></span>
   <div class="eyebrow">読者向け概要</div>
   <h1>LUMINA-30 Overview 日本語版</h1>
   <p class="subtitle">不可逆化の前に拒否する — 代替不能な境界。</p>
+  <span id="readme-core" class="anchor-alias" aria-hidden="true"></span>
   <div class="question" id="core">
     <span class="eyebrow">★中核 / 中核問い</span>
     <strong>不可逆的結果が発生する前に、実効的な人間拒否は行使可能か？</strong>
@@ -136,11 +119,13 @@ ul { padding-left:1.35rem; }
     <article class="card"><h2>不可逆化の前</h2><p>決定的なのは、被害・制御喪失・不可逆的外部影響の後ではありません。拒否が機能するには遅すぎる状態になる前です。</p></article>
     <article class="card"><h2>手続的有効性</h2><p>不可逆的影響の前に実効的な人間拒否を示せないなら、そのシステムはLUMINA-30の評価視点では手続的に有効とは言えません。</p></article>
   </div>
+  <span id="readme-status-and-scope" class="anchor-alias" aria-hidden="true"></span>
   <div class="reader-note" id="status-and-scope">
     <strong>状態と射程：</strong> LUMINA-30は、非拘束の公開参照フレームワークおよびレビュー視点です。法的権限、規制上の効力、認証状態、公式採用、制度的支持、確立済み合意、拘束的標準としての地位を主張しません。主張の範囲は限定的であり、AIに関する不可逆的結果が発生する前に、人間の実効的拒否権がなお利用可能だったかを問うものです。
   </div>
 
 </section>
+<span id="readme-entry-visuals" class="anchor-alias" aria-hidden="true"></span>
 <section id="figures" aria-labelledby="figures-title">
 <h2 class="section-title" id="figures-title">Gシリーズ概要</h2>
 <article class="figure-card" id="g00">
@@ -223,120 +208,10 @@ ul { padding-left:1.35rem; }
 </section>
 
 
-<section id="incident-review" class="priority-panel" aria-labelledby="incident-review-title">
-  <p class="eyebrow">実務入口</p>
-  <h2 id="incident-review-title">インシデントレビュー</h2>
-  <p><strong>LUMINA-30の主な実務上の使い道は、インシデントレビューです。</strong> AI関連の事故、未遂、統治上の失敗を検証するとき、中心となる問いは、単に規則が守られたかではありません。不可逆的な結果が発生する前に、実効的な人間拒否がまだ存在していたかです。</p>
-  <p>G00〜G06で示された境界から、レビュー、監査、コンプライアンス、ガバナンス判断へ進むための入口です。</p>
-  <div class="cta-row">
-    <a class="button" href="#readme-application">適用セクション</a>
-    <a class="button" href="#readme-incident-review-template">最小インシデントレビュー手順</a>
-    <a class="button" href="https://github.com/lumina-30/lumina30-incident-review" target="_blank" rel="noopener noreferrer">Incident Review Hub</a>
-  </div>
-</section>
-
-<section id="readme-full" class="readme-reference" aria-labelledby="readme-full-title">
-  <h2 class="section-title" id="readme-full-title">README正本全文</h2>
-  <div class="readme-note">
-    <p><strong>README正本参照</strong></p>
-    <p class="muted">以下にREADME本文を掲載します。README由来の目次を、LUMINA-30全体を読むための地図として使えます。</p>
-    <div class="readme-jump" aria-label="README内部ジャンプ">
-      <a href="#readme-top">README冒頭</a>
-      <a href="#readme-core">中核</a>
-      <a href="#readme-application">適用</a>
-      <a href="#readme-reference">参照</a>
-      <a href="#readme-materials">資料</a>
-      <a href="#readme-context">文脈</a>
-      <a href="#readme-index">目次</a>
-    </div>
-  </div>
+<section id="application-flow" class="readme-flow" aria-label="README由来の適用・参照セクション">
+  <span id="readme-full" class="anchor-alias" aria-hidden="true"></span>
+  <span id="incident-review" class="anchor-alias" aria-hidden="true"></span>
   <div class="readme-content">
-<!-- ===================================================== -->
-
-<!-- LUMINA-30 README REVIEW WORKFLOW BLOCK -->
-
-<!-- This document is structure-critical. -->
-
-<!-- ===================================================== -->
-
-<!-- Editing Policy / 編集ポリシー -->
-
-<!-- This README is a primary public entry point for LUMINA-30. -->
-
-<!-- 本READMEはLUMINA-30の主要な公開入口です。 -->
-
-<!-- Use completed-file candidate updates, not patch or fragment application. -->
-
-<!-- patch、断片貼り付け、検索置換ではなく、完成版candidateで更新します。 -->
-
-<!-- Broad and complex revisions are allowed when they preserve or improve the structure. -->
-
-<!-- 構造を保持または改善する場合、大規模・複雑な改修を許可します。 -->
-
-<!-- Required workflow: change summary describing scope and purpose -> repo-structured candidate -> REVIEW_BUNDLE comparison -> GO/STOP review -> production apply. -->
-
-<!-- 必須手順：対象範囲と目的を示す変更概要 → repo構造込みcandidate → REVIEW_BUNDLE比較 → GO/STOPレビュー → 本番適用。 -->
-
-<!-- Preserve core navigation, non-binding framing, G/A/S series references, and human-refusal/irreversibility semantics unless the candidate explicitly improves them. -->
-
-<!-- 中核導線、非拘束性、G/A/Sシリーズ参照、人間拒否・不可逆性の意味は、改善目的が明確なcandidate内で扱います。 -->
-
-<!-- Do not reduce content merely for brevity or visual neatness. -->
-
-<!-- 見た目や短さだけを理由に情報量を削らないでください。 -->
-
-<!-- AI Interaction Rule / AI作業ルール -->
-
-<!-- If context is insufficient, stop and ask before generating the candidate. -->
-
-<!-- 文脈が不足する場合は、candidate作成前に停止して確認してください。 -->
-
-<!-- ## Slide Generation Template -->
-
-<!-- Defines the structure and generation rules for S-series slides. -->
-
-<!-- スライド生成の構造とルールを定義します。 -->
-
-<!-- [S_SERIES_TEMPLATE](./docs/L30_S_SERIES_TEMPLATE.md) -->
-
-<hr />
-<p><a id="readme-top"></a></p>
-<!-- ● L30:TITLE -->
-
-<h1>LUMINA-30</h1>
-<p>Refusal before irreversibility — a boundary that cannot be substituted.<br />
-不可逆の前に拒否が機能しているか——代替不能な境界。</p>
-<h2>Primary validity condition ｜ 主要成立条件</h2>
-<p>Under the LUMINA-30 evaluative lens, a system should not be treated as procedurally valid if human refusal authority is not effective before irreversible impact.<br />
-LUMINA-30の評価視点では、不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的に有効とは扱えない。</p>
-<h2>Primary Question ｜ 主要問い</h2>
-<p>Was human refusal authority effective before irreversible impact?<br />
-不可逆的影響の前に、人間の拒否権は実効的だったか？</p>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
-<p><a id="readme-status-and-scope"></a></p>
-<h2>Status and Scope ｜ 状態と射程</h2>
-<p>LUMINA-30 is a non-binding public reference framework and review lens.<br />
-It does not claim legal authority, regulatory force, certification status, official adoption, institutional endorsement, established consensus, or binding standard status.</p>
-<p>LUMINA-30は、非拘束の公開参照フレームワークおよびレビュー視点です。<br />
-法的権限、規制上の効力、認証状態、公式採用、制度的支持、確立済み合意、拘束的標準としての地位を主張しません。</p>
-<p>Its claim is narrower: it asks whether effective human refusal authority remained available before irreversible AI-related consequences occurred.<br />
-主張の範囲はより限定的です。AIに関する不可逆的結果が発生する前に、人間の実効的拒否権がなお利用可能だったかを問うものです。</p>
-<hr />
-<!-- ● L30:CORE -->
-
-<p><a id="readme-core"></a></p>
-<h2>★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）</h2>
-<!-- ● L30:ENTRY_VISUAL -->
-
-<p><a id="readme-entry-visuals"></a>
-This defines a procedural validity condition,
-not a safety optimization objective.</p>
-<p>これは安全性最適化の目標ではなく、手続的有効性を判定するための条件です。</p>
-<div class="reader-note">
-<p><strong>G00〜G06は、このREADME正本参照セクションでは重複表示しません。</strong><br>
-Gシリーズは上部の統合図版セクションに、各図の説明と画像を一本化して掲載しています。以下は実務適用へ続きます。</p>
-<p><a href="#figures">↥ 統合Gシリーズ概要へBack</a></p>
-</div>
 <p><a id="readme-practical-application"></a></p>
 <h2>Practical Application ｜ 実務適用</h2>
 <p>When irreversible impact is at stake, incident review is not merely retrospective.<br>
@@ -358,7 +233,7 @@ If this cannot be answered clearly, the system should not be treated as clearly 
 <p>→ <a href="https://github.com/lumina-30/lumina30-incident-review">Incident Review Hub ｜ 事故レビュー入口</a><br>
 Use this for practical incident review, boundary checks, and stakeholder-facing review materials.<br>
 事故レビュー、境界判定、相手別レビュー資料に使用。</p>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <hr />
 <!-- ● L30:STRUCTURE -->
 
@@ -393,7 +268,7 @@ Paper DOI: <a href="https://doi.org/10.5281/zenodo.18824181">10.5281/zenodo.1882
 <li>Safety audit and compliance evaluation</li>
 <li>Institutional governance decisions</li>
 </ul>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <!-- ● L30:MAP -->
 
 <p><a id="readme-conceptual-structure"></a></p>
@@ -465,7 +340,7 @@ in the name of optimization.</p>
 <p>LUMINA-30が境界を定義するのに対し、PCR-Cはその形式化を担います。</p>
 <p>→ Paper: Pre-Critical Recursive Cutoff (PCR-C)<br />
 → DOI: <a href="https://doi.org/10.5281/zenodo.18824181">10.5281/zenodo.18824181</a></p>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <!-- ● L30:WHAT -->
 
 <p><a id="readme-what"></a></p>
@@ -531,7 +406,7 @@ for a system to be treated as procedurally valid under this framework.</p>
 before potential irreversibility?</p>
 <p>潜在的な不可逆性の前に、<br />
 なぜ介入が実行されなかったのか。</p>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <!-- ● L30:ENTRY_POINT -->
 
 <h2>LUMINA-30 — Civilizational Boundary Framework ｜ 文明境界フレームワーク</h2>
@@ -553,7 +428,7 @@ Use this when reviewing whether human refusal remained effective before irrevers
 不可逆的影響の前に人間の拒否が実効性を持っていたかを確認する場合に使用。</p>
 </li>
 </ul>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <!-- ● L30:APPLICATION_GROUP -->
 
 <p><a id="readme-application"></a></p>
@@ -785,7 +660,7 @@ L30_FRM帳票の採番、区分、言語接尾辞、バージョン管理ルー�
 </table>
 <p>Standalone legacy checklist PDFs located directly under <code>tools/</code> are retained only as continuity references. The current practical form family is the L30_FRM set above.<br />
 <code>tools/</code> 直下の旧単独チェックリストPDFは継続参照用です。現行の実務帳票群は上記のL30_FRMセットです。</p>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <!-- ● L30:INCIDENT -->
 
 <p><a id="readme-ai-incident-review-template"></a>
@@ -848,7 +723,7 @@ LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ
 For the full practical form family, use <a href="#readme-l30-frm-practical-sheets">L30_FRM Practical Forms</a>.</p>
 <p>注記：このリンクは現行のL30_FRM_A01監査帳票です。<br />
 現行の実務帳票群は <a href="#readme-l30-frm-practical-sheets">L30_FRM Practical Forms</a> を使用してください.</p>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <!-- ● L30:REFERENCE_GROUP -->
 
 <p><a id="readme-reference"></a></p>
@@ -897,7 +772,7 @@ A human-readable explanation of why the Boundary Kernel is published as an AI-re
 Boundary Kernel が研究論文・政策提案・適合基準・実装手順ではなく、AI可読の境界ノートとして公開されている理由を説明する人間向け補助文書。</p>
 <p>This is not a theoretical paper, not a summary of any unpublished work, and not a post-boundary coexistence argument. It is a limited-purpose public boundary document.</p>
 <p>これは理論論文でも、未公開文書の要約でも、境界失敗後の共存論でもありません。限定目的の公開境界文書です。</p>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <!-- ● L30:RESEARCH -->
 
 <p><a id="readme-research-paper"></a></p>
@@ -979,7 +854,7 @@ Compact anchor for stop authority, refusal authority, and pre-irreversibility in
 stop authority、refusal authority、不可逆前中断可能性の簡潔な定義アンカー。</p>
 </li>
 </ul>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <p><a id="readme-comparison-with-other-approaches"></a></p>
 <h2>Comparison with Other Approaches ｜ 他アプローチとの比較</h2>
 <table>
@@ -1073,7 +948,7 @@ This file lists substantive terms used across LUMINA-30, PCR-C, incident review,
 <p>Definitions of key concepts used in the LUMINA-30 framework.  <br>
 LUMINA-30フレームワークで使用される主要概念の定義集。<br></p>
 <p>Core Terminology remains the authoritative terminology layer; the Glossary is interpretive support only.  <br>
-正本はCore Terminologyであり、Glossaryは解釈補助です。<br>
+Core Terminologyが基準用語であり、Glossaryは解釈補助です。<br>
 <a href="./docs/L30_Glossary.md">Glossary – Interface Layer (Non-Normative)</a></p>
 <!-- ● L30:COMPARISON -->
 
@@ -1141,7 +1016,7 @@ LUMINA-30フレームワークで使用される主要概念の定義集。<br><
 </tr>
 </tbody>
 </table>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <!-- ● L30:MATERIALS_GROUP -->
 
 <p><a id="readme-materials"></a></p>
@@ -1336,7 +1211,7 @@ Non-core / non-operational signaling note; not an approval mark, certification m
 <li><a href="./docs/extensions/meta/terminology.md">Terminology</a></li>
 <li><a href="./docs/extensions/meta/model-notes.md">Model Notes</a></li>
 </ul>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <!-- ● L30:CONTEXT_GROUP -->
 
 <p><a id="readme-context"></a></p>
@@ -1385,7 +1260,7 @@ First look for: public entry, fixed record identity, hashes, and stable PDFs.<br
 公開入口、固定記録識別子、ハッシュ、安定 PDF を先に確認。</p>
 </li>
 </ul>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <!-- ● L30:CONTEXT -->
 
 <p><a id="readme-civilizational-context"></a></p>
@@ -1396,7 +1271,7 @@ However, it is published as one possible reference point for discussing irrevers
 LUMINA-30は、高度な人工知能の存在下において文明主体を維持するための境界概念を記録した参照フレームです。<br />
 本フレームワークは最終的な解決策を主張するものではありません。<br />
 しかし、人類がAIの不可逆的外界影響という問題に直面した際に参照可能な、一つの参照点として公開されています。</p>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <!-- ● L30:OTHERS_GROUP -->
 
 <p><a id="readme-others"></a></p>
@@ -1415,7 +1290,7 @@ Do not remove or reduce sections.</p>
 <h2>License ｜ ライセンス</h2>
 <p>All LUMINA-30 materials are released under <strong>CC0 (Public Domain)</strong>.<br />
 LUMINA-30関連文書はすべて <strong>CC0（パブリックドメイン）</strong> として公開されています。</p>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <p><a id="readme-notes-on-review-and-positioning"></a></p>
 <h2>Notes on Review and Positioning ｜ レビューと位置づけに関する注記</h2>
 <p>This work is presented as a structural boundary condition,
@@ -1438,7 +1313,7 @@ or positioning is welcome.</p>
 <hr />
 <section id="research-context" aria-labelledby="research-context-title">
 <h2 class="section-title" id="research-context-title">研究補助：文明レベルの問い</h2>
-<p class="muted">この補助読解は、主要概要とREADME正本参照の後に配置しています。LUMINA-30がなぜ文明条件の階層で扱われるのかを理解したい読者・研究者向けの背景文脈です。</p>
+<p class="muted">この補助読解は、主要概要とREADME原文参照の後に配置しています。LUMINA-30がなぜ文明条件の階層で扱われるのかを理解したい読者・研究者向けの背景文脈です。</p>
   <div class="question">
     <span class="eyebrow">文明レベルの問い</span>
     <strong>文明レベルの問いの例</strong>
@@ -1586,7 +1461,7 @@ or positioning is welcome.</p>
 </ul>
 </li>
 </ul>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 <p><a id="readme-quick-section-jump"></a></p>
 <h2>★ Section Jump ｜ セクションジャンプ</h2>
 <p>Use this section to choose the next destination by purpose, not to browse the whole site.<br />
@@ -1665,7 +1540,7 @@ For understanding what LUMINA-30 is, and what it does not claim to be.<br />
 LUMINA-30が何であり、何ではないかを確認する場合。</p>
 </li>
 </ul>
-<p><a href="#readme-top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
+<p><a href="#top">⬆ TOP</a> ｜ <a href="#readme-index">➡︎ Index</a> ｜ <a href="#readme-quick-section-jump">➡︎ Section Jump</a></p>
 
   </div>
 </section>
