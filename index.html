@@ -76,6 +76,43 @@ ul { padding-left:1.35rem; }
 .readme-content pre { overflow:auto; padding:14px; border:1px solid var(--line); border-radius:14px; background:color-mix(in srgb, var(--panel2) 74%, transparent); }
 .readme-content blockquote { margin:18px 0; padding:4px 16px; border-left:4px solid var(--accent); color:var(--muted); background:color-mix(in srgb, var(--panel2) 50%, transparent); border-radius:0 12px 12px 0; }
 
+.practice-entry {
+  margin: 20px 0 24px;
+  padding: 20px 22px;
+  border: 2px solid var(--accent2);
+  border-radius: 18px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--panel2) 86%, transparent), color-mix(in srgb, var(--panel) 92%, transparent));
+  box-shadow: var(--shadow);
+}
+.practice-entry .entry-label {
+  margin: 0 0 8px;
+  color: var(--accent2);
+  font-size: .92rem;
+  font-weight: 900;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.practice-entry h3 {
+  margin: 0 0 10px;
+  font-size: clamp(1.35rem, 3.2vw, 2rem);
+  line-height: 1.18;
+}
+.practice-entry p { margin: 10px 0; }
+.entry-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--button);
+  color: var(--text);
+  font-weight: 900;
+  text-decoration: none;
+}
+.entry-button:hover { background: var(--button-hover); }
+
 @media (max-width:820px) { .card,.card.wide { grid-column:1 / -1; } .navgrid { grid-template-columns:repeat(4,1fr); } .civilization-list { grid-template-columns:1fr; } .hero { padding-top:36px; } }
 @media (max-width:480px) { .navgrid { grid-template-columns:repeat(2,1fr); } .wrap { padding-left:12px; padding-right:12px; } .figure-head,.figure-body { padding-left:16px; padding-right:16px; } }
 
@@ -213,7 +250,14 @@ ul { padding-left:1.35rem; }
   <span id="incident-review" class="anchor-alias" aria-hidden="true"></span>
   <div class="readme-content">
 <p><a id="readme-practical-application"></a></p>
-<h2>Practical Application ｜ 実務適用</h2>
+<h2>🚩 Practical Application ｜ 実務適用</h2>
+<div class="practice-entry" id="incident-review-hub">
+<p class="entry-label">Primary practical entry ｜ 実務レビュー入口</p>
+<h3>Incident Review Pathway ｜ インシデントレビュー導線</h3>
+<p>Use LUMINA-30 to review whether effective human refusal remained possible before irreversible consequences occurred.</p>
+<p>LUMINA-30は、不可逆的影響が発生する前に、人間の実効的拒否が可能だったかを確認するための参照枠組みです。</p>
+<p><a class="entry-button" href="https://github.com/lumina-30/lumina30-incident-review">Open the Incident Review Hub ｜ 事故レビュー入口を開く</a></p>
+</div>
 <p>When irreversible impact is at stake, incident review is not merely retrospective.<br>
 It is the test of whether meaningful human control still existed before the point of no return.</p>
 <p>不可逆的影響が問題となる場合、事故レビューは単なる事後検証ではありません。<br>
