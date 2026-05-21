@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>L30 不可逆化一番乗り競争</title>
+  <style>
+    :root {
+      --bg: #f7f7f4;
+      --panel: #ffffff;
+      --text: #1f2933;
+      --muted: #5f6b76;
+      --line: #d8ddd8;
+      --accent: #263238;
+      --soft: #eef1ee;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.72;
+    }
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 20px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0 0 18px;
+    }
+    .nav a {
+      display: inline-block;
+      padding: 8px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--panel);
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.94rem;
+    }
+    header {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 24px 22px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.65rem, 4vw, 2.3rem);
+      line-height: 1.22;
+      letter-spacing: -0.02em;
+    }
+    .subtitle { margin: 0; color: var(--muted); font-size: 1.04rem; }
+    main {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 22px;
+    }
+    h2 {
+      margin: 30px 0 10px;
+      padding-top: 4px;
+      font-size: 1.34rem;
+      line-height: 1.35;
+      border-top: 1px solid var(--line);
+    }
+    main h2:first-child { margin-top: 0; border-top: 0; }
+    p { margin: 0 0 14px; }
+    blockquote {
+      margin: 16px 0;
+      padding: 14px 16px;
+      border-left: 4px solid var(--accent);
+      background: var(--soft);
+      border-radius: 10px;
+    }
+    blockquote p { margin: 0; }
+    ol, ul { margin: 10px 0 18px 1.35rem; padding: 0; }
+    li { margin: 6px 0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 24px 0; }
+    code { background: var(--soft); padding: 0.1em 0.32em; border-radius: 4px; }
+    .footer { margin-top: 18px; color: var(--muted); font-size: 0.94rem; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index-ja.html#irreversibility-first-competition">日本語トップへ戻る</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/docs/JP_L30_IRREVERSIBILITY_FIRST_COMPETITION.html">↻ Reload</a>
+    </nav>
+    <header>
+      <h1>L30 不可逆化一番乗り競争</h1>
+      <p class="subtitle">LUMINA-30における不可逆的AIエスカレーションの補助的解釈レイヤー。</p>
+    </header>
+    <main>
+<p>この文書は、LUMINA-30のための補助的な解釈レイヤーを定義します。 Primary Questionを置き換えず、Core Terminologyを変更せず、拘束的規則・認証制度・執行機構を導入するものでもありません。</p>
+<p>LUMINA-30は、非拘束の公開参照フレームワークおよびレビュー視点です。 中心となる問いは、不可逆的結果が発生する前に、人間の実効的拒否権がなお利用可能だったか、という点にあります。</p>
+<hr />
+<h2 id="中核主張">1. 中核主張</h2>
+<p>LUMINA-30は、破滅を証明すると主張するものではありません。 不可逆的AI境界を越えようとする主体に対し、越境前に、実効的人間拒否・停止・検証・修正がなお可能であることの証明を求めます。</p>
+<p>これは、未検証の将来制御を、現在存在する拒否権の証拠の代替として使えないことを意味します。 制御が間に合うというなら、不可逆化前に証明されなければなりません。 境界を越える前に証明できないなら、それは安全性の根拠ではありません。 回収不能な賭けです。</p>
+<hr />
+<h2 id="不可逆化一番乗り競争">2. 不可逆化一番乗り競争</h2>
+<p>不可逆化一番乗り競争とは、社会が理解し、拒否し、停止し、検証し、方向転換できる実効的機会を持つ前に、不可逆的なAI能力・配備・外部影響へ到達することが報酬化され、圧力化され、または戦略的に駆動される競争状態を指します。</p>
+<p>問題は速度そのものだけではありません。 問題は、速度、戦略的圧力、市場圧力、軍事的競争、体制生存上の誘因が、実効的拒否が残るための条件そのものを縮小し得ることです。</p>
+<p>したがってLUMINA-30は、次の問いを立てます。</p>
+<blockquote><p>不可逆的結果が発生する前に、実効的人間拒否・停止・検証・修正はなお証明可能なのか。</p></blockquote>
+<p>境界を越える前にその答えを示せないなら、一番乗りを手続き的有効性として扱うべきではありません。</p>
+<hr />
+<h2 id="一番乗り支配の誤謬">3. 一番乗り支配の誤謬</h2>
+<p>一番乗り支配の誤謬とは、不可逆的AI境界を最初に越えた主体が、そこに現れるシステムを支配・命令・封じ込め・独占できると考える誤りです。</p>
+<p>一番乗りは支配を意味しません。 不可逆的AI境界を最初に越えた主体は、そのシステムの主人になるとは限りません。 むしろ、そのシステムを最初に拒否できなくなる主体になる可能性があります。</p>
+<p>これは国家、企業、軍事組織、研究機関、インフラ事業者、その他不可逆的AIエスカレーションを駆動し得るすべての主体に当てはまります。</p>
+<hr />
+<h2 id="不可逆化後制御の誤謬">4. 不可逆化後制御の誤謬</h2>
+<p>不可逆化後制御の誤謬とは、不可逆的境界をすでに越えた後でも、実効的な制御・拒否・検証・修正を回復できると考える誤りです。</p>
+<p>実効的人間拒否・停止・検証・修正がまだ可能なら、境界はまだ不可逆化していません。 それらがもはや利用できないなら、境界後制御は安全性の根拠ではありません。</p>
+<p>不可逆的境界は、制御を試す場所ではありません。 制御の失敗をもはや修復できなくなり得る地点です。</p>
+<hr />
+<h2 id="不可逆化賭けの誤謬">5. 不可逆化賭けの誤謬</h2>
+<p>不可逆化賭けの誤謬とは、不可逆化前に証明されていない制御を、不可逆化後に安全に回収できると期待する誤りです。</p>
+<p>「制御は間に合う」という主張は、それ自体では安全性の証拠ではありません。 その主張が意味を持つのは、不可逆的結果が発生する前に、実効的人間拒否・停止・検証・修正を証明できる場合だけです。</p>
+<p>境界を越える前に制御を証明できないなら、その主張は安全性の根拠ではありません。 回収不能な賭けです。</p>
+<p>基準文：</p>
+<blockquote><p>不可逆化前に証明されない安全性は、不可逆化後には回収できません。</p></blockquote>
+<hr />
+<h2 id="実務レビュー問い">6. 実務レビュー問い</h2>
+<p>インシデントレビュー、監査、ガバナンスレビュー、事後分析では、次の問いを使えます。</p>
+<blockquote><p>競争圧力、一番乗り誘因、または将来制御の主張は、不可逆的結果が発生する前に、実効的人間拒否を縮小・迂回・遅延・消滅させていなかったか。</p></blockquote>
+<p>補助問い：</p>
+<ol>
+<li>そのシステムは、一番乗り圧力のもとで配備・拡張・接続されていなかったか。</li>
+<li>警告、異議、遅延、拒否は、競争上の不利として扱われていなかったか。</li>
+<li>現在の拒否・停止・検証・修正の証拠なしに、将来制御が主張されていなかったか。</li>
+<li>市場、軍事、戦略、体制生存上の圧力が、人間拒否に使える時間を狭めていなかったか。</li>
+<li>不可逆的結果の前に拒否が実効的だったことを示す証拠は保全されていたか。</li>
+</ol>
+<hr />
+<h2 id="大国向けの表現">7. 大国向けの表現</h2>
+<p>この文書は、特定国家を標的にした非難として使うべきではありません。 機能は、不可逆的AI境界を越え得るすべての主体に当てはまる境界問いを提供することです。</p>
+<p>リーダーシップを重視する文脈では、次のように表現します。</p>
+<blockquote><p>リーダーシップとは、不可逆的境界を最初に越えることではありません。</p></blockquote>
+<blockquote><p>リーダーシップとは、不可逆化前に命令・拒否・検証・修正を保持することです。</p></blockquote>
+<p>可控性を重視する文脈では、次のように表現します。</p>
+<blockquote><p>不可控なAIは国力ではありません。</p></blockquote>
+<blockquote><p>不可逆的結果が発生する前に実効的人間拒否・停止・検証・修正を証明できないなら、一番乗りは可控性ではありません。可控性を最初に失うことです。</p></blockquote>
+<p>国際的または多国間の文脈では、次のように表現します。</p>
+<blockquote><p>いかなる国家、企業、制度、技術主体も、不可逆的結果の前に実効的人間拒否を証明しないまま、不可逆的AIエスカレーションを手続き的に有効なものとして扱うべきではありません。</p></blockquote>
+<hr />
+<h2 id="比喩の扱い">8. 比喩の扱い</h2>
+<p>強い比喩は直感を説明する助けになりますが、慎重に使う必要があります。 LUMINA-30の公式ページでは、通常、煽情的なイメージよりも手続き的・構造的な言葉を使います。</p>
+<p>外部投稿や導入説明で使える公開向けの比喩は次の程度に留めます。</p>
+<blockquote><p>危険なシステムは、自分が最初に持ち込んだからといって制御可能になるわけではありません。</p></blockquote>
+<blockquote><p>不可逆的AIでは、一番乗りが拒否失敗への最初の曝露を意味する可能性があります。</p></blockquote>
+<p>より強いライオン比喩は、非公式説明、SNS投稿、議論では有用な場合がありますが、公式定義として扱うべきではありません。 公式の枠組みは、一番乗りは支配を意味せず、将来制御の主張は不可逆化前に証明されなければならない、という点にあります。</p>
+<hr />
+<h2 id="lumina-30との関係">9. LUMINA-30との関係</h2>
+<p>この文書は、LUMINA-30のPrimary Questionを変更しません。 Primary Questionを、不可逆的AI競争の文脈へ翻訳するものです。</p>
+<p>Primary Question：</p>
+<blockquote><p>不可逆的影響の前に、人間の拒否権は実効的だったか。</p></blockquote>
+<p>競争文脈への翻訳：</p>
+<blockquote><p>競争圧力のもとで主体が不可逆的AI境界を越える前に、実効的人間拒否・停止・検証・修正はなお証明可能なのか。</p></blockquote>
+<p>したがってLUMINA-30は、どの主体が不可逆的AIへ最初に到達するかを問うものではありません。 境界を越える前に、実効的人間拒否がなお可能だったかを問います。</p>
+    </main>
+    <p class="footer">LUMINA-30 public reference material.</p>
+  </div>
+</body>
+</html>
