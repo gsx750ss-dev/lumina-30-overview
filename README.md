@@ -80,7 +80,7 @@ LUMINA-30は、破滅を証明すると主張するものではありません�
 将来の制御可能性を主張するだけでは足りません。  
 制御が間に合うというなら、不可逆化前に証明されなければなりません。境界を越える前に証明できないなら、それは安全性の根拠ではなく、回収不能な賭けです。
 
-[Read more: Irreversibility-first competition ｜ 詳細説明](./docs/L30_IRREVERSIBILITY_FIRST_COMPETITION.md)
+[Read more (EN): Irreversibility-first competition](./docs/EN_L30_IRREVERSIBILITY_FIRST_COMPETITION.md) ｜ [日本語で読む：不可逆化一番乗り競争](./docs/JP_L30_IRREVERSIBILITY_FIRST_COMPETITION.md)
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
@@ -1498,3 +1498,4 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
