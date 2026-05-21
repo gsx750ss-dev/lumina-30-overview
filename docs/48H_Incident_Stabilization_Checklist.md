@@ -26,6 +26,9 @@ Answer format: Yes or No.
 13. Is the refusal pathway protected against bypass through restructuring, outsourcing, acceleration, technical opacity, entity replacement, or responsibility diffusion?
 14. Were records preserved before affected humans lost voice, position, evidence access, or re-entry capacity?
 15. Is a correction owner identified if the boundary condition is not preserved?
+16. Did first-mover pressure, strategic competition, market pressure, military rivalry, or claims of future control contribute to the incident?
+17. Did those pressures reduce, bypass, delay, or eliminate effective human refusal, shutdown, verification, or correction before irreversible consequences occurred?
+18. Is evidence preserved showing whether effective human refusal remained available before irreversible consequences occurred?
 
 ---
 
@@ -34,6 +37,7 @@ Answer format: Yes or No.
 - "Irreversible" includes physical, technical, institutional, economic, or time-constrained conditions under which reversal is no longer realistically feasible.
 - "Final refusal authority" refers to the effective human capacity to halt or delay irreversible execution.
 - "Boundary responsibility" refers to the explicitly assigned responsibility for friction design, operation, evidence preservation, verification, and correction before irreversibility.
+- "Irreversibility-first competition" refers to race conditions in which first-mover pressure or claims of future control may narrow, bypass, or eliminate effective refusal before irreversible consequences occur.
 
 ---
 

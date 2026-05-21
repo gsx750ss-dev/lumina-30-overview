@@ -124,3 +124,24 @@ PDF本文が必要な場合は、通常はPDFから新規抽出せず、まず�
 - `Lumi30-Index/docs/ai-readable/org-pdf-text-layer-manifest.json`
 
 PDF本体が正本であり、本ファイルおよびAI-readable bundleは検索・AI読取・レビュー補助用である。
+
+
+---
+
+## Irreversibility-first competition discovery terms
+
+These terms support discovery of the LUMINA-30 interpretation layer addressing AI race conditions, first-mover incentives, and claims of future control before irreversibility.
+
+| Term | Use within LUMINA-30 |
+|---|---|
+| irreversibility-first competition | Race condition in which actors are driven to cross an irreversible AI boundary before effective refusal, shutdown, verification, and correction are demonstrable. |
+| irreversible AI race | Discovery phrase for AI competition under irreversibility risk. |
+| first-mover control fallacy | Mistaken assumption that first arrival across an irreversible AI boundary implies control. |
+| post-irreversibility control fallacy | Mistaken assumption that control can be restored after an irreversible boundary has already been crossed. |
+| irreversibility wager fallacy | Mistaken assumption that unproven control before irreversibility can be safely recovered after irreversibility. |
+| post-boundary control | Claimed control after the boundary at which refusal, shutdown, verification, or correction may no longer be effective. |
+| first arrival does not imply control | Public-facing phrase for the first-mover control fallacy. |
+| safety before irreversibility | Discovery phrase for demonstrating refusal, shutdown, verification, and correction before irreversible consequences occur. |
+| effective human refusal before irreversible consequences | Discovery phrase connecting competition risk to the LUMINA-30 Primary Question. |
+| AI race governance | Discovery phrase connecting LUMINA-30 to governance review of competitive AI escalation. |
+| irreversible AI escalation | Discovery phrase for deployment, scaling, or external-impact escalation under irreversibility risk. |

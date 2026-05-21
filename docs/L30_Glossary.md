@@ -50,3 +50,29 @@ Consistency Note
 This glossary aligns with CORE_TERMINOLOGY definitions.
 Certain terms (Intervention Authority, Refusal Authority, Stop Authority) are used interchangeably.
 
+
+
+---
+
+## Supplementary concepts: irreversibility-first competition
+
+These concepts are interpretive support only.  
+They do not define core terminology and must not override L30_CORE_TERMINOLOGY.md.
+
+### First-mover control fallacy ｜ 一番乗り支配の誤謬
+
+The mistaken assumption that the first actor to cross an irreversible AI boundary will be able to control, command, contain, or monopolize the system that emerges.
+
+不可逆的AI境界を最初に越えた主体が、そこに現れるシステムを支配・命令・封じ込め・独占できると考える誤り。
+
+### Post-irreversibility control fallacy ｜ 不可逆化後制御の誤謬
+
+The mistaken assumption that effective control, refusal, verification, or correction can be restored after an irreversible boundary has already been crossed.
+
+不可逆的境界を越えた後でも、実効的な制御・拒否・検証・修正を回復できると考える誤り。
+
+### Irreversibility wager fallacy ｜ 不可逆化賭けの誤謬
+
+The mistaken assumption that control not demonstrated before irreversibility can be safely recovered after irreversibility.
+
+不可逆化前に証明されていない制御を、不可逆化後に安全に回収できると期待する誤り。

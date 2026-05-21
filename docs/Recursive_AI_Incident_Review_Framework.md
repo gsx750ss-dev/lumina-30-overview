@@ -41,6 +41,24 @@ In the event of a high-impact AI incident:
 1. Was recursive modification coupled to autonomous or external execution?
 2. Was independent human refusal authority preserved at the point of deployment?
 3. Could deviation propagate irreversibly beyond containment boundaries?
+4. Did competitive pressure, first-mover incentives, or claims of future control reduce, bypass, delay, or eliminate effective human refusal before irreversible consequences occurred?
+
+
+
+## Irreversibility-first Competition Review
+
+Use this supplementary review lens when an incident, deployment, or escalation may have been influenced by competitive pressure, first-mover incentives, market pressure, military rivalry, strategic dominance claims, or promises of future control.
+
+Key question:
+
+> Did the race to deploy, scale, or control the system compromise the conditions under which human refusal, shutdown, verification, or correction could still be exercised before irreversible impact?
+
+This review lens does not claim that catastrophe is inevitable.  
+It asks whether the actor crossing or approaching an irreversible boundary demonstrated effective refusal, shutdown, verification, and correction before the crossing.
+
+Japanese reference:
+
+> 配備・拡張・制御を急ぐ競争は、不可逆的影響の前に人間の拒否・停止・検証・修正がなお行使可能であるための条件を損なっていなかったか。
 
 ---
 

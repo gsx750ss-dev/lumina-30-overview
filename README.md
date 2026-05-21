@@ -59,6 +59,32 @@ Its claim is narrower: it asks whether effective human refusal authority remaine
 
 
 
+<a id="irreversibility-first-competition"></a>
+## Irreversibility-first competition ｜ 不可逆化一番乗り競争
+
+First arrival does not imply control.  
+In irreversible AI escalation, the first actor to cross the boundary may not become the master of the system, but the first actor unable to refuse it.
+
+LUMINA-30 does not claim to prove catastrophe.  
+It asks a narrower boundary question: before irreversible consequences occur, can effective human refusal, shutdown, verification, and correction still be demonstrated?
+
+A claim of future control is not enough.  
+If control will be ready in time, it must be demonstrable before irreversibility. If it cannot be demonstrated before the boundary is crossed, it is not a safety argument; it is an unrecoverable wager.
+
+一番乗りは、支配を意味しません。  
+不可逆的AIエスカレーションにおいて、最初に境界を越えた主体は、そのシステムの主人になるのではなく、最初に拒否できなくなる主体になる可能性があります。
+
+LUMINA-30は、破滅を証明すると主張するものではありません。  
+より限定された境界問いとして、不可逆的結果が発生する前に、実効的人間拒否・停止・検証・修正がなお証明可能であるかを問います。
+
+将来の制御可能性を主張するだけでは足りません。  
+制御が間に合うというなら、不可逆化前に証明されなければなりません。境界を越える前に証明できないなら、それは安全性の根拠ではなく、回収不能な賭けです。
+
+[Read more: Irreversibility-first competition ｜ 詳細説明](./docs/L30_IRREVERSIBILITY_FIRST_COMPETITION.md)
+
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
+
 ---
 <!-- ● L30:CORE -->
 <a id="core"></a>
@@ -1290,6 +1316,8 @@ or positioning is welcome.
   ▶ Understand: visually grasp LUMINA-30’s boundary condition and core concepts ｜ Use: go directly to [G06 Critical Boundary](#g06) and the judgment criterion
   - [Status and Scope ｜ 状態と射程](#status-and-scope)  
     ⚑ Confirms the non-binding scope and the absence of adoption, certification, legal-authority, or binding-standard claims ｜ 非拘束性と、採用・認証・法的権限・拘束的標準を主張しないことの確認
+  - [Irreversibility-first competition ｜ 不可逆化一番乗り競争](#irreversibility-first-competition)  
+    ⚑ Clarifies why first arrival does not imply control, and why future control claims must be demonstrated before irreversibility ｜ 一番乗りが支配を意味しない理由と、将来制御の主張が不可逆化前に証明される必要がある理由
   - [Entry Visuals (G00–G06) ｜ 導入ビジュアル](#entry-visuals)
   - [G06：Critical Boundary ｜ G06：臨界境界](#g06)  
     ⚑ The judgment criterion itself — the first core item to check ｜ 判断基準そのもの（最初に確認する核心）
@@ -1399,6 +1427,10 @@ Use this section to choose the next destination by purpose, not to browse the wh
 - [Understand the core boundary ｜ 中核境界を理解する](#core)  
   For first-time readers who need the basic structure, boundary condition, and judgment logic.  
   初見読者が、基本構造・境界条件・判断ロジックを確認する場合。
+
+- [Check irreversibility-first competition ｜ 不可逆化一番乗り競争を確認する](#irreversibility-first-competition)  
+  For understanding why first arrival, future control claims, and speed-based victory conditions do not replace pre-irreversibility refusal.  
+  一番乗り、将来制御の主張、速度による勝利条件が、不可逆化前の拒否を代替しない理由を確認する場合。
 
 - [Check the critical boundary ｜ 臨界境界を確認する](#g06)  
   For readers who need to identify where refusal authority becomes ineffective.  

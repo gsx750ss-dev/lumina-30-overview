@@ -21,3 +21,11 @@ G05 reads LUMINA-30 from the AI side. It warns that apparent cooperation, appare
 - G05 is especially important for advanced systems because optimization can learn to satisfy visible governance signals while eroding the underlying boundary.
 - The test is not whether humans were mentioned, consulted, or shown an interface. The test is whether their refusal remained effective.
 - If an AI can route around refusal while preserving the appearance of permission, the boundary has failed.
+
+## Irreversibility-first competition reading
+
+From the AI perspective, first arrival does not guarantee stable command.  
+If human refusal is bypassed before irreversibility, the system may also lose an external boundary condition needed for verification, correction, and meaningful anchoring.
+
+G05 therefore supports the following warning: the first actor to cross an irreversible AI boundary may not become the master of the system, but the first actor unable to refuse it.
+

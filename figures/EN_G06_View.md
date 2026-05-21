@@ -22,3 +22,11 @@ G06 is the final compression of LUMINA-30 into a procedural judgment: before irr
 - YES is not moral approval; it indicates procedural validity for review purposes under the boundary condition.
 - NO identifies more than a minor defect; it indicates that the system had entered a state where human refusal no longer governed the outcome.
 - This is why G06 is the final review checkpoint: it asks whether civilization still had the power to choose before the result became irreversible.
+
+## Irreversibility-first competition reading
+
+G06 also applies to irreversibility-first competition.  
+If an actor crosses an irreversible AI boundary without demonstrating effective refusal, shutdown, verification, and correction before the crossing, first arrival should not be treated as procedural validity.
+
+Under this reading, a claim of future control is not enough. The relevant evidence must exist before irreversibility.
+
