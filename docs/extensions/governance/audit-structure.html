@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="Audit Structure" />
+  <title>Audit Structure</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="../../../index.html">EN Top</a>
+      <a href="../../../index-ja.html">JP Top</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/docs/extensions/governance/audit-structure.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>Audit Structure</h1>
+      <p class="subtitle">LUMINA-30 public HTML reference page. ｜ LUMINA-30 公開HTML参照ページ。</p>
+    </header>
+    <main>
+<h2 id="position--位置づけ">Position ｜ 位置づけ</h2>
+<p>Non-core extension. Governance analysis.
+非コア拡張。ガバナンス分析。</p>
+<hr />
+<h2 id="purpose--目的">Purpose ｜ 目的</h2>
+<p>To describe audit flow and checkpoints.
+監査フローとチェックポイントを記述する。</p>
+<hr />
+<h2 id="scope--範囲">Scope ｜ 範囲</h2>
+<ul>
+<li>Input</li>
+<li>Evaluation</li>
+<li>Result ・入力 ・評価 ・結果</li>
+</ul>
+<hr />
+<h2 id="interpretation--解釈">Interpretation ｜ 解釈</h2>
+<p>Supports structured review without defining new criteria.
+新たな基準を定義せず構造的レビューを補助する。</p>
+<hr />
+<h2 id="constraint--制約">Constraint ｜ 制約</h2>
+<p>No modification to core conditions. コア条件を変更しない。</p>
+
+    </main>
+    <p class="footer">LUMINA-30 public reference material. ｜ LUMINA-30 公開参照資料。</p>
+  </div>
+</body>
+</html>
