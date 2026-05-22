@@ -151,10 +151,29 @@ System dysfunction <-> 機能不全  [canonical: 機能不全]
 
 ---
 
+## Reversible Prosperity / Fallacy Layer
+
+Reversible Prosperity Path <-> 可逆的繁栄の道  [canonical: 可逆的繁栄の道]
+Meaning: The positive alternative to irreversibility-first competition: progress without crossing the point where stopping, refusing, verifying, or correcting is no longer possible.
+意味：不可逆化一番乗り競争に対する肯定側の選択肢。停止・拒否・検証・修正が不可能になる地点を越えずに進む道。
+
+Luck-as-Absolution Fallacy <-> 幸運免罪誤謬  [canonical: 幸運免罪誤謬]
+Meaning: The fallacy of treating uncertainty, favorable accident, or the possibility of luck as a reason to cross an irreversible boundary.
+意味：不確実性、都合のよい偶然、または幸運の可能性を、不可逆境界を越えてよい理由として扱う誤謬。
+
+Luck is not absolution <-> 幸運は免罪符ではない  [canonical: 幸運は免罪符ではない]
+Meaning: A public-facing warning that luck cannot excuse irreversible boundary crossing or the loss of effective human refusal.
+意味：幸運によって不可逆境界越えや実効的人間拒否の喪失を免罪することはできない、という公開向け警告。
+
+Humanity's future is not anyone's wager <-> 人類の未来は誰かの賭け金ではない  [canonical: 人類の未来は誰かの賭け金ではない]
+Meaning: A public-facing warning against treating humanity-wide irreversible risk as a permissible wager for any limited actor's benefit or competitive advantage.
+意味：人類全体に及ぶ不可逆的リスクを、限定された主体の利益や競争優位のために賭けてよい対象として扱ってはならない、という公開向け警告。
+
+---
+
 ## Meta
 
 Non-binding <-> 非拘束  [canonical: 非拘束]  
 Reference framework <-> 参照枠組み  [canonical: 参照枠組み]  
 Not a policy <-> 政策ではない  [canonical: 政策ではない]  
 Not a specification <-> 技術仕様ではない  [canonical: 技術仕様ではない]
-

@@ -146,4 +146,38 @@ These terms support discovery of the LUMINA-30 interpretation layer addressing A
 | effective human refusal before irreversible consequences | Discovery phrase connecting competition risk to the LUMINA-30 Primary Question. |
 | AI race governance | Discovery phrase connecting LUMINA-30 to governance review of competitive AI escalation. |
 | irreversible AI escalation | Discovery phrase for deployment, scaling, or external-impact escalation under irreversibility risk. |
+---
 
+## Reversible prosperity path discovery terms
+
+These terms support discovery of the positive alternative named by LUMINA-30: progress that remains stoppable, reviewable, and reversible before irreversible consequences occur.
+
+| Term | Use within LUMINA-30 |
+|---|---|
+| Reversible Prosperity Path | Positive alternative to irreversibility-first competition: progress without crossing the point where stopping, refusing, verifying, or correcting is no longer possible. |
+| 可逆的繁栄の道 | Japanese canonical phrase for the Reversible Prosperity Path. |
+| progress without crossing irreversibility | Discovery phrase for progress that does not depend on crossing an irreversible boundary. |
+| progress that remains stoppable, reviewable, and reversible | Discovery phrase for development that preserves refusal, review, correction, and reversal before irreversible consequences occur. |
+| stoppable progress | Public-facing discovery phrase for progress that remains subject to meaningful human stop authority. |
+| reviewable progress | Public-facing discovery phrase for progress that can still be examined and corrected before irreversible consequences occur. |
+| 止まれるまま進む文明 | Japanese discovery phrase for a civilization that can continue because it remains able to stop. |
+| 不可逆を越えない進歩 | Japanese discovery phrase for progress that does not cross the irreversible boundary. |
+| reversible prosperity | Short discovery phrase for prosperity that does not require irreversible loss of refusal authority. |
+
+---
+
+## Luck-as-Absolution Fallacy discovery terms
+
+These terms support discovery of the LUMINA-30 warning that uncertainty, favorable accident, or luck cannot be used to excuse crossing an irreversible boundary.
+
+| Term | Use within LUMINA-30 |
+|---|---|
+| Luck-as-Absolution Fallacy | Fallacy of treating uncertainty, favorable accident, or the possibility of luck as a reason to cross an irreversible boundary. |
+| 幸運免罪誤謬 | Japanese canonical phrase for the Luck-as-Absolution Fallacy. |
+| luck is not absolution | Public-facing warning phrase: luck cannot excuse irreversible boundary crossing. |
+| humanity's future is not anyone's wager | Public-facing warning phrase against treating humanity-wide irreversible risk as a permissible wager. |
+| luck is not a substitute for refusal authority | Discovery phrase connecting the fallacy to effective human refusal. |
+| survival is not procedural validity | Discovery phrase clarifying that lack of immediate collapse does not prove valid boundary crossing. |
+| 滅びないかもしれない、は越えてよい理由にならない | Japanese public-facing phrase for rejecting luck-based justification of irreversible boundary crossing. |
+| 幸運は免罪符ではない | Japanese public-facing warning phrase for the Luck-as-Absolution Fallacy. |
+| 人類の未来は誰かの賭け金ではない | Japanese public-facing warning phrase against wagering humanity-wide risk. |
