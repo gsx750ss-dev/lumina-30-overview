@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Responsibility Failure Review
 # 責任不全レビュー
 
@@ -31,3 +32,4 @@ Identify whether the incident exposed a break in responsibility continuity.
 
 - Continuous / Fragmented / Undefined  
 - 連続 / 分断 / 未定義
+

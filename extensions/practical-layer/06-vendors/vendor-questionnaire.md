@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Vendor Questionnaire
 # ベンダー質問票
 
@@ -31,3 +32,4 @@ Provide baseline questions before adopting external AI systems.
 
 - Accepted / Conditional / Reject  
 - 採用 / 条件付き / 不採用
+

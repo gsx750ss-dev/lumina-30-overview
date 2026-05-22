@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Human Approval Authenticity Review
 # 人間承認真正性確認
 
@@ -31,3 +32,4 @@ Determine whether human approval was substantive rather than symbolic.
 
 - Authentic / Weak / Symbolic Only  
 - 真正 / 弱い / 形式的のみ
+

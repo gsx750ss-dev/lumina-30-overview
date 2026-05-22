@@ -1,6 +1,7 @@
+<!-- L30_LANG_LOCK: JP_ONLY -->
 # G02: 文明結果モデル
 
-> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g02) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G02_View.md)
+> [戻る](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g02) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G02_View.md)
 
 AI能力の成長と文明的結果の関係をモデル化します。
 

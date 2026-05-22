@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # B. Clarification & Objection Room ｜ B. 整理と反論の部屋
 
 This room addresses likely objections and misunderstandings about the Boundary Review Floor. It is not a comment form or discussion board.
@@ -101,3 +102,4 @@ This page is non-binding and does not provide legal advice, certification, or co
 
 [Back to Boundary Review Floor](./index.md) ｜ [境界レビューフロアへ戻る](./index.md)  
 [Back to Main Floor](../../README.md) ｜ [メインフロアへ戻る](../../README.md)
+

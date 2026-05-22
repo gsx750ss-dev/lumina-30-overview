@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Restart Approval Review
 # 再起動承認レビュー
 
@@ -31,3 +32,4 @@ Assess whether restart or redeployment should be blocked pending review.
 
 - Approve / Delay / Reject  
 - 承認 / 保留 / 却下
+

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Vendors ｜ ベンダー
 
 This category contains practical review materials for external providers, suppliers, and third-party models.  
@@ -25,3 +26,4 @@ Use these materials before adopting external AI systems or depending on supplier
 1. vendor-questionnaire.md  
 2. supplier-risk-review.md  
 3. third-party-model-check.md
+

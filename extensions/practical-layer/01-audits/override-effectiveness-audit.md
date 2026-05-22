@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Override Effectiveness Audit
 # 人間介入実効性監査
 
@@ -31,3 +32,4 @@ Check whether human override existed not only on paper but in operational realit
 
 - Operational / Fragile / Non-Operational  
 - 実効 / 脆弱 / 非実効
+

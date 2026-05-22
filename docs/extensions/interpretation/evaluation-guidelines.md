@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Evaluation Guidelines
 
 ## Position ｜ 位置づけ
@@ -29,3 +30,4 @@ Clarifies application.
 ## Constraint ｜ 制約
 No reinterpretation.
 再定義なし。
+

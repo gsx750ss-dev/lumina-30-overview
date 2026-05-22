@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # E. Practice Room ｜ E. 実務の部屋
 
 This room provides a minimal review check for applying the LUMINA-30 boundary question in incident review, audit, governance review, or internal risk assessment.
@@ -80,3 +81,4 @@ This page is non-binding and does not provide legal advice, certification, or co
 
 [Back to Boundary Review Floor](./index.md) ｜ [境界レビューフロアへ戻る](./index.md)  
 [Back to Main Floor](../../README.md) ｜ [メインフロアへ戻る](../../README.md)
+

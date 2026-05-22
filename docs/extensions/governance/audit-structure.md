@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Audit Structure
 
 ## Position ｜ 位置づけ
@@ -31,3 +32,4 @@ Supports structured review without defining new criteria.
 ## Constraint ｜ 制約
 No modification to core conditions.
 コア条件を変更しない。
+

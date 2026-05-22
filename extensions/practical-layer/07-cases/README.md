@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Cases ｜ ケース
 
 This category contains example cases showing how LUMINA-30 practical review can be applied to different deployment contexts.  
@@ -25,3 +26,4 @@ Use these materials to accelerate understanding by mapping abstract review logic
 1. case-agent.md  
 2. case-infrastructure.md  
 3. case-robotics.md
+

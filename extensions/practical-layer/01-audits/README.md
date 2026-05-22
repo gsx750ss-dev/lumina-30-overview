@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Audits ｜ 監査
 
 This category contains practical audit materials derived from the LUMINA-30 framework.  
@@ -28,3 +29,4 @@ Use these materials to assess refusal authority, override effectiveness, evidenc
 1. refusal-authority-audit.md  
 2. intervention-feasibility-audit.md  
 3. evidence-integrity-audit.md
+

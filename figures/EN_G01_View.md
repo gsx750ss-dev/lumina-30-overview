@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # G01: Boundary Framework
 
 > [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g01) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G01_View.md)

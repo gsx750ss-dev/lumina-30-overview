@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Policy ｜ 政策
 
 This category contains policy-facing materials for neutral reference, public risk screening, and governance wording.  
@@ -25,3 +26,4 @@ Use these materials when LUMINA-30 language needs to be referenced in oversight,
 1. regulator-summary.md  
 2. public-risk-screening.md  
 3. ai-governance-reference.md
+

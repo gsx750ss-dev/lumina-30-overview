@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Unemployment Prevention
 
 ## Position ｜ 位置づけ
@@ -29,3 +30,4 @@ Contextual only.
 ## Constraint ｜ 制約
 Outside core.
 コア外。
+

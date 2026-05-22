@@ -1,6 +1,7 @@
+<!-- L30_LANG_LOCK: JP_ONLY -->
 # G06: 臨界境界
 
-> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g06) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G06_View.md)
+> [戻る](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g06) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G06_View.md)
 
 不可逆的影響の前に評価される手続的臨界境界を示します。
 
@@ -29,4 +30,5 @@ G06は、不可逆化一番乗り競争にも適用されます。
 越境前に実効的人間拒否・停止・検証・修正を証明できないまま不可逆的AI境界を越えるなら、一番乗りは手続き的有効性として扱うべきではありません。
 
 この読み方では、将来の制御可能性を主張するだけでは足りません。必要な証拠は、不可逆化前に存在していなければなりません。
+
 

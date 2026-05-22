@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # CEO One-Page Brief
 # CEO向け1ページ概要
 
@@ -34,3 +35,4 @@ LUMINA-30 は AI の善悪を問うものではありません。
 
 - Are restart decisions separated from incident owners?  
 - 再起動判断は事故当事者から分離されているか
+

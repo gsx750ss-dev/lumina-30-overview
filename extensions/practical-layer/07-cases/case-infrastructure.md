@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Case: Infrastructure Interaction
 # ケース：インフラ相互作用
 
@@ -17,3 +18,4 @@ A system can modify production systems, cloud controls, or network configuration
 
 High relevance to irreversible risk screening and final approval gate.  
 不可逆リスク審査と最終承認ゲートへの関連が高い。
+

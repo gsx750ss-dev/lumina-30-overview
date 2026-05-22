@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- File: lumina-30-overview/templates/minimum-boundary-review-form.md -->
 
 # Minimum Boundary Review Form ｜ 最小境界レビュー票
@@ -77,3 +78,4 @@ If evidence that effective refusal remained practical cannot be shown, do not in
 不可逆化前に、摩擦の設計・運用・証拠保存・検証・是正の責任者を特定できない場合、境界条件は十分に保存されていない。
 
 有効な拒否が実効的に残っていた証拠を示せない場合、沈黙、申立の不存在、名目上の手続きから実効性を推定してはならない。
+

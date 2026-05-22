@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # AI Incident – 48 Hour Stabilization Reference
 *(Non-binding procedural reference)*
 
@@ -44,3 +45,4 @@ Answer format: Yes or No.
 This reference exists solely to preserve visibility of refusal authority and responsibility attribution under conditions of urgency.
 
 It does not imply enforcement authority, legal obligation, or policy recommendation.
+

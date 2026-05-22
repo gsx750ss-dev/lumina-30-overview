@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Medical AI Misdiagnosis Scenario
 
 ## Overview
@@ -46,3 +47,4 @@ AI診断システムが誤った医療判断を提示し、人間の介入が実
 ### Conclusion ｜ 結論
 
 このシステムは有効な拒否権を欠いていた。
+

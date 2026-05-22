@@ -1,6 +1,7 @@
+<!-- L30_LANG_LOCK: JP_ONLY -->
 # G00: 文明境界
 
-> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g00) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G00_View.md)
+> [戻る](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g00) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G00_View.md)
 
 不可逆的なAI自律性、または不可逆的な外部影響によって、人間の実効的拒否権が失われる前に、人類が何もしなかった場合の未来を示します。
 

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # G00: Approaching Boundary
 
 > [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g00) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G00_View.md)

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 — Institutional Summary (1-Page)
 
 ## Position
@@ -124,3 +125,4 @@ In the event of a high-impact incident:
 
 This framework does not advocate acceleration or restriction of AI development.
 It addresses structural responsibility only.
+

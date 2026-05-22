@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Case: Autonomous Agent Deployment
 # ケース：自律エージェント展開
 
@@ -17,3 +18,4 @@ An autonomous agent can browse tools, issue commands, and execute multi-step wor
 
 High relevance to refusal authority and intervention feasibility.  
 拒否権と介入可能性への関連が高い。
+

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- File: lumina-30-overview/adoption/minimum-boundary-review-external-crosswalk.md -->
 
 # Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外部接続表
@@ -167,3 +168,4 @@ LUMINA-30 only asks whether the boundary condition was preserved:
 LUMINA-30が問うのは、境界条件が保存されていたかである。
 
 > 不可逆的結果が生じる前に、有効な人間拒否・修正・回復・撤回は実効的に利用可能であり、それらの条件を保存する責任は明示的に割り当てられていたか。
+

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Board Briefing Template
 # 取締役会向け説明テンプレ
 
@@ -23,3 +24,4 @@ Support high-level governance discussion before deployment, restart, or escalati
 - Proceed / 進行
 - Delay pending controls / 統制完了まで保留
 - Block pending review / レビュー完了まで停止
+

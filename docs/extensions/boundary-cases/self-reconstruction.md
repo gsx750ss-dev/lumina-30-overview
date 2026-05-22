@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Self-Reconstruction
 
 ## Position ｜ 位置づけ
@@ -29,3 +30,4 @@ Assess refusal effectiveness pre-irreversibility.
 ## Constraint ｜ 制約
 No new rules.
 新規ルールなし。
+

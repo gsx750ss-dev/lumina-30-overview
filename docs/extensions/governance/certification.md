@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Certification
 
 > **Non-operational note:**  
@@ -39,3 +40,4 @@ Certification does not determine validity but may reflect perceived compliance.
 ## Constraint ｜ 制約
 This document does not define procedural validity.
 本資料は手続的有効性を定義しない。
+

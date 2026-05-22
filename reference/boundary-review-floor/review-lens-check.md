@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # F. Review Lens Check ｜ レビュー視点チェック
 
 This room helps you check whether you can use the Boundary Review Floor’s core review lens.
@@ -302,3 +303,4 @@ This page is non-binding and does not provide legal advice, certification, or co
 
 [Back to Boundary Review Floor](./index.md) ｜ [境界レビューフロアへ戻る](./index.md)  
 [Back to Main Floor](../../README.md) ｜ [メインフロアへ戻る](../../README.md)
+

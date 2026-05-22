@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Governance Readiness Check
 # ガバナンス準備確認票
 
@@ -31,3 +32,4 @@ Determine whether an organization is prepared to operate high-risk autonomous sy
 
 - Ready / Partially Ready / Not Ready  
 - 準備済 / 一部準備 / 未準備
+

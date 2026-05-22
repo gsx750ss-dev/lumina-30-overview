@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Procedural Validity Assessment
 # 手続的有効性判定票
 
@@ -38,3 +39,4 @@ This sheet evaluates whether governance procedures preserved effective human ref
 
 - Valid / At Risk / Procedurally Invalid  
 - 有効 / 危険状態 / 手続的無効
+

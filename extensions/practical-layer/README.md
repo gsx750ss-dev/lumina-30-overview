@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Practical Layer
 
 Operational resources derived from the LUMINA-30 framework.  
@@ -39,3 +40,4 @@ It provides practical references for examining refusal authority, intervention f
 
 この層は、規制や技術設計義務を命じるものではありません。  
 拒否権、介入可能性、責任連続性、不可逆到達前の統治条件を検証するための実務参照資産です。
+

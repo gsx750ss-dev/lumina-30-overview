@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- ===================================================== -->
 <!-- LUMINA-30 README REVIEW WORKFLOW BLOCK -->
 <!-- This document is structure-critical. -->
@@ -1498,4 +1499,5 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 

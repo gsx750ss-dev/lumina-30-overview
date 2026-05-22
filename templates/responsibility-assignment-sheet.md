@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- Formal filename: lumina-30-overview/templates/responsibility-assignment-sheet.md -->
 
 # Responsibility Assignment Sheet ｜ 責任割当シート
@@ -277,3 +278,4 @@ This case [does / does not / cannot yet be shown to] preserve the LUMINA-30 boun
 ```text
 本事例は、以下の理由により、LUMINA-30境界条件を［保存している／保存していない／現時点では保存していると示せない］。
 ```
+

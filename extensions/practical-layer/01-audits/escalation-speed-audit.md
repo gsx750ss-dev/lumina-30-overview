@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Escalation Speed Audit
 # 拡張速度監査
 
@@ -31,3 +32,4 @@ Assess whether human review speed was structurally slower than system escalation
 
 - Contained / Competitive / Outpaced  
 - 抑制可能 / 競合状態 / 追いつけない
+

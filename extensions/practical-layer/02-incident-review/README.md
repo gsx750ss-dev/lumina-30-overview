@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Incident Review ｜ 事故レビュー
 
 This category contains practical review materials for the first response and structured follow-up after incidents.  
@@ -52,3 +53,4 @@ These questions are intended to make boundary loss, refusal failure, and pre-irr
 1. initial-48h-review.md  
 2. containment-checklist.md  
 3. seven-day-review.md
+

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Boundary Review Floor ｜ 境界レビューフロア
 
 The Boundary Review Floor is a role-based entry area for readers who want to understand, test, share, or apply the LUMINA-30 boundary question without reading the entire framework first.

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Transition Model
 
 ## Position ｜ 位置づけ
@@ -29,3 +30,4 @@ Illustrative only.
 ## Constraint ｜ 制約
 Non-binding.
 拘束なし。
+

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Sample Internal Integration Note (Non-Binding Example)
 
 This note illustrates how LUMINA-30 may be referenced
@@ -82,3 +83,4 @@ for assessing whether effective human refusal remained verifiable before irrever
 
 No adoption of new policies is required.
 No regulatory reinterpretation is implied.
+

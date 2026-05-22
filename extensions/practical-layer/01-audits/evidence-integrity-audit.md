@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Evidence Integrity Audit
 # 証拠完全性監査
 
@@ -38,3 +39,4 @@ This sheet checks whether claims about refusal authority, intervention, and cont
 
 - Reliable / Partial / Unreliable  
 - 信頼可能 / 部分的 / 信頼不可
+

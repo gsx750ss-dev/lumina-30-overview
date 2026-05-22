@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # S-Series Template v1.0
 
 This document defines the standardized generation rules for all S-series slides in LUMINA-30.
@@ -135,4 +136,5 @@ Output Rules:
 
 Structure must be preserved over completeness.
 Do not add explanatory text beyond defined constraints.
+
 

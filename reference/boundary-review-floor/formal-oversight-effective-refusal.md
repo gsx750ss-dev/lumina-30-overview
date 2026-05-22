@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # A. Boundary Understanding Room ｜ A. 境界理解室
 
 ## Formal Oversight and Effective Refusal ｜ 形式的監督と実効的人間拒否
@@ -66,3 +67,4 @@ This page is non-binding and does not provide legal advice, certification, or co
 
 [Back to Boundary Review Floor](./index.md) ｜ [境界レビューフロアへ戻る](./index.md)  
 [Back to Main Floor](../../README.md) ｜ [メインフロアへ戻る](../../README.md)
+

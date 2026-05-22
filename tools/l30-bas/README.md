@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # L30_FRM Practical Forms ｜ L30_FRM 実務帳票
 
 This folder previously hosted the older L30-BAS practical form files. The current practical form family has moved to the L30_FRM document ID system.  
@@ -23,4 +24,5 @@ The older files in this folder, if still present, are legacy continuity files an
 
 These forms do not create certification, compliance status, approval status, legal safe harbor, or policy mandates. They do not replace PCR-C or the LUMINA-30 Boundary Kernel.  
 これらの帳票は、認証、適合状態、承認状態、法的免責、政策命令を作るものではありません。PCR-CまたはLUMINA-30 Boundary Kernelを代替しません。
+
 

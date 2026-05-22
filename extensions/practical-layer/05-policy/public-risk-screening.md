@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Public Risk Screening
 # 公共リスク審査票
 
@@ -15,3 +16,4 @@ Check whether public-facing deployment creates governance exposure.
 - Is emergency stop externally dependent? / 緊急停止が外部依存ではないか
 - Is accountability assignable? / 責任帰属は可能か
 - Are review records auditable? / 審査記録は監査可能か
+

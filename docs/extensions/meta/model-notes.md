@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Model Notes
 
 ## Position ｜ 位置づけ
@@ -27,3 +28,4 @@ Supplementary.
 ## Constraint ｜ 制約
 Non-core.
 非コア。
+

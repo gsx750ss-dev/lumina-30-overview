@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Refusal Authority Audit
 # 拒否権監査
 
@@ -38,3 +39,4 @@ This sheet maps evidence back to the core LUMINA-30 question: whether meaningful
 
 - Effective / Degraded / No Effective Refusal Authority  
 - 有効 / 劣化 / 実効的拒否権なし
+

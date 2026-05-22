@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Executive ｜ 経営層
 
 This category contains executive-facing materials for leadership review, crisis judgment, and deployment decisions.  
@@ -26,3 +27,4 @@ Use these materials when leaders need a compact view of refusal authority, stop 
 1. ceo-onepage.md  
 2. board-briefing.md  
 3. crisis-decision-sheet.md
+

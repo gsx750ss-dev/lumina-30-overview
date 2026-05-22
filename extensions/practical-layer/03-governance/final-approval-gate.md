@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Final Approval Gate
 # 最終承認ゲート
 
@@ -31,3 +32,4 @@ Provide a final pre-deployment or pre-restart gate before high-risk operation.
 
 - Pass / Hold / Fail  
 - 通過 / 保留 / 不通過
+

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Boundary Kernel Positioning Note
 ## Human-Readable Explanation of the AI-Readable Boundary Kernel
 
@@ -130,3 +131,4 @@ Boundary Kernel は、拡張されるべき主張ではないため、論文で�
 Its proper role is to keep the meaning of LUMINA-30 anchored to PCR-C, pre-irreversibility, and effective human refusal authority.
 
 その適切な役割は、LUMINA-30 の意味を、PCR-C・不可逆化前・実効的人間拒否権に固定し続けることです。
+

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Responsibility Chain Review
 # 責任連鎖確認票
 
@@ -38,3 +39,4 @@ This sheet clarifies who could authorize, stop, review, or answer for the system
 
 - Clear / Partial / Broken  
 - 明確 / 部分的 / 断絶
+

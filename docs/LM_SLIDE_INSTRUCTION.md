@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # LM Slide Generation Instruction (Fixed)
 
 ## Purpose
@@ -92,5 +93,6 @@ Additional constraints:
 ## Execution Instruction
 You must strictly follow all rules above.
 Do not deviate.
+
 
 

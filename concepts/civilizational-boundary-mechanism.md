@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- Formal filename: lumina-30-overview/concepts/civilizational-boundary-mechanism.md -->
 
 # Civilizational Boundary Mechanism ｜ 文明境界メカニズム
@@ -169,3 +170,4 @@ It preserves the civilizational condition under which humans can still refuse, c
 文明境界メカニズムは、最適化圧が不可逆化前に有効な人間拒否を消滅させうる場面で、摩擦に関する責任が未定義のまま放置されることを防ぐ。
 
 本メカニズムは、最適化主導の固定化が起こる前に、人間がなお拒否・修正・移行・回復・再参入できる文明的条件を保存する。
+

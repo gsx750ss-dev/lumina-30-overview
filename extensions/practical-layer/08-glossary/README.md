@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Glossary ｜ 用語集
 
 This category contains core practical terms used across the practical layer.  
@@ -21,3 +22,4 @@ Use this glossary to keep terminology stable across audits, incident review, gov
 ## Reading Order ｜ 推奨読順
 
 1. glossary.md
+

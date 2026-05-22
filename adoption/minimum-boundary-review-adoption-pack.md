@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- File: lumina-30-overview/adoption/minimum-boundary-review-adoption-pack.md -->
 
 # Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック
@@ -183,3 +184,4 @@ It can help institutions ask one missing question before irreversibility:
 不可逆化前に、制度が欠かしやすい1つの問いを追加するために使う。
 
 > 有効な人間拒否・修正・移行・回復・撤回を誰が保存するのか。そして、その責任が実在したことを何の証拠が示すのか。
+

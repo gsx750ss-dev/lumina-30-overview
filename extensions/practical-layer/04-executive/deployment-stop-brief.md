@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Deployment Stop Brief
 # 展開停止ブリーフ
 
@@ -21,3 +22,4 @@ If human refusal cannot remain effective, deployment governance is already degra
 - Verified logging / 検証可能ログ
 - Verified responsibility chain / 検証済み責任連鎖
 - Verified restart control / 検証済み再起動統制
+

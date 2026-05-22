@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Boundary Warning Review
 # 境界警告レビュー
 
@@ -31,3 +32,4 @@ Check whether the event indicates approach to a pre-irreversibility boundary.
 
 - No Warning / Early Warning / Boundary Condition Warning  
 - 警告なし / 早期警告 / 境界条件警告
+

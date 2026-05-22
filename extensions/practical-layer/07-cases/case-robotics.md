@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Case: Robotics or Physical System
 # ケース：ロボティクス・物理システム
 
@@ -17,3 +18,4 @@ A model influences physical devices, movement, or industrial operations.
 
 High relevance to intervention feasibility, accountability, and boundary warning review.  
 介入可能性、責任帰属、境界警告レビューへの関連が高い。
+

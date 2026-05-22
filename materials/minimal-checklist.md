@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Minimal Checklist (LUMINA-30)
 
 Q1. Was irreversible impact possible?
@@ -30,3 +31,4 @@ Human refusal could not interrupt deployment
 
 Conclusion:
 L30-CI = Invalid
+

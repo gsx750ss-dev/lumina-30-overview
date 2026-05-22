@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Scenario Analysis
 
 ## Position ｜ 位置づけ
@@ -29,3 +30,4 @@ Exploratory.
 ## Constraint ｜ 制約
 Not authoritative.
 非公式。
+

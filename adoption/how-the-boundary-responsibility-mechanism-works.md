@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- File: lumina-30-overview/adoption/how-the-boundary-responsibility-mechanism-works.md -->
 
 # How the Boundary Responsibility Mechanism Works ｜ 境界責任メカニズムの仕組み
@@ -174,3 +175,4 @@ It is a review aid for identifying whether responsibility for preserving human r
 
 境界責任メカニズムは、新しい規制制度ではない。
 最適化圧が不可逆化を引き起こしうる場面で、人間拒否を保存する責任が定義されていたかを確認するためのレビュー補助である。
+

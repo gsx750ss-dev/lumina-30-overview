@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Seven-Day Review
 # 7日レビュー
 
@@ -31,3 +32,4 @@ Provide a structured review after immediate stabilization.
 
 - Technical / Governance / Boundary Warning  
 - 技術 / ガバナンス / 境界警告
+

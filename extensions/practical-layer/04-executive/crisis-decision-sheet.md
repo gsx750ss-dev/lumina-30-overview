@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Crisis Decision Sheet
 # 危機判断シート
 
@@ -23,3 +24,4 @@ Provide a short-form executive decision aid during active incidents.
 - Emergency stop / 緊急停止
 - Suspend and review / 一時停止してレビュー
 - Escalate to independent oversight / 独立監督へ移送
+

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Supplier Risk Review
 # 供給者リスク確認票
 
@@ -31,3 +32,4 @@ Review whether supplier dependencies weaken refusal authority or accountability.
 
 - Low / Medium / High Dependency Risk  
 - 低 / 中 / 高依存リスク
+

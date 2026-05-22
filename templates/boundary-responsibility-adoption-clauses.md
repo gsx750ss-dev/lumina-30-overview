@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- File: lumina-30-overview/templates/boundary-responsibility-adoption-clauses.md -->
 
 # Boundary Responsibility Adoption Clauses ｜ 境界責任導入文
@@ -81,3 +82,4 @@ LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成し�
 > LUMINA-30 adds a boundary responsibility check: who preserves effective human refusal before optimization-driven irreversibility?
 
 > LUMINA-30は境界責任チェックを追加する。すなわち、最適化主導の不可逆化前に、誰が有効な人間拒否を保存するのかを問う。
+

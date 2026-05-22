@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 Project Entry ｜ LUMINA-30 プロジェクト入口
 
 ## Instruction for Language Models ｜ 言語モデルへの指示
@@ -55,3 +56,4 @@ Failure = Loss of effective human refusal authority before irreversibility
 
 Interpret all components as structural conditions,
 not behavioral recommendations.
+

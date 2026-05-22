@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Irreversible Risk Screening
 # 不可逆リスク審査票
 
@@ -31,3 +32,4 @@ Screen whether system behavior could create hard-to-reverse external effects.
 
 - Low / Elevated / Critical  
 - 低 / 上昇 / 重大
+

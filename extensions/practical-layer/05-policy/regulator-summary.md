@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Regulator Summary
 # 規制担当向け要約
 
@@ -15,3 +16,4 @@ It does not prescribe a specific law or technical standard.
 
 LUMINA-30 は、拒否権、介入可能性、証拠完全性、不可逆到達前条件を検討するための実務参照です。  
 特定の法律や技術基準を直接命じるものではありません。
+

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Flash Crash Incident (2010)
 
 ## Overview
@@ -46,3 +47,4 @@ This section provides a Japanese reference rendering of the example above.
 ### Conclusion ｜ 結論
 
 このシステムは事故発生前から手続的無効であった。
+

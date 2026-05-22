@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Certification Mark
 
 > **Non-operational note:**  
@@ -39,3 +40,4 @@ Does not define validity.
 ## Constraint ｜ 制約
 Supplement only.
 補助のみ。
+

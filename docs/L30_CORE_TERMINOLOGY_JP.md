@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: JP_ONLY -->
 # LUMINA-30 用語集（最小標準）
 
 本ファイルは、LUMINA-30のコア語彙の日本語参照版です。
@@ -45,3 +46,4 @@
 Refusal Authority と Stop Authority は、 運用上同一概念として扱う。<br>
 不可逆前（Pre-irreversibility）とは、 不可逆的影響が発生する前に、 実効的な介入が可能な状態を指す。<br>
 Civilizational Gate（文明的ゲート）とは、 不可逆的実行前に介入の有効性を評価するための 事前評価レイヤーを指す。<br>
+

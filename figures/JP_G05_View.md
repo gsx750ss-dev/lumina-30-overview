@@ -1,6 +1,7 @@
+<!-- L30_LANG_LOCK: JP_ONLY -->
 # G05: AI視点
 
-> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g05) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G05_View.md)
+> [戻る](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g05) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G05_View.md)
 
 高度AIシステムの視点からLUMINA-30がどのように見えるかを示します。
 
@@ -28,4 +29,5 @@ AI側から見ても、一番乗りは安定した命令権を保証しません
 不可逆化前に人間の拒否が迂回されるなら、そのシステムは、検証・修正・意味ある外部アンカーのための境界条件も失う可能性があります。
 
 したがってG05は、不可逆的AI境界を最初に越えた主体が、そのシステムの主人になるとは限らず、むしろ最初に拒否できなくなる主体になる可能性がある、という警告にも接続されます。
+
 

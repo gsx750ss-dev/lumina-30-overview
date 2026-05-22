@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # LUMINA-30 Visualization Rules (Strict)
 
 ## Purpose
@@ -63,3 +64,4 @@ Not allowed:
 
 Do NOT optimize for visual attractiveness.  
 Optimize for structural clarity and neutrality.
+

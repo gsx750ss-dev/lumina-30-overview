@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Governance ｜ ガバナンス
 
 This category contains governance-oriented materials for evaluating validity, responsibility, thresholds, and approval conditions.  
@@ -28,3 +29,4 @@ Use these materials to determine whether governance remained valid before critic
 1. procedural-validity.md  
 2. responsibility-chain.md  
 3. final-approval-gate.md
+

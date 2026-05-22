@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Containment Checklist
 # 封じ込めチェックリスト
 
@@ -31,3 +32,4 @@ Check whether the incident remained contained or could continue propagating.
 
 - Contained / Partially Contained / Not Contained  
 - 封じ込め済 / 部分封じ込め / 未封じ込め
+

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Third-Party Model Check
 # 第三者モデル確認票
 
@@ -31,3 +32,4 @@ Assess whether third-party model use preserves meaningful governance control.
 
 - Controllable / Weakly Controllable / Not Controllable  
 - 制御可能 / 弱い制御 / 制御不可
+

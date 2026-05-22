@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # G06: Critical Boundary
 
 > [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g06) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G06_View.md)
@@ -29,4 +30,5 @@ G06 also applies to irreversibility-first competition.
 If an actor crosses an irreversible AI boundary without demonstrating effective refusal, shutdown, verification, and correction before the crossing, first arrival should not be treated as procedural validity.
 
 Under this reading, a claim of future control is not enough. The relevant evidence must exist before irreversibility.
+
 

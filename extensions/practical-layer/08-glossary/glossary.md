@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Practical Glossary
 # 実務用語集
 
@@ -20,3 +21,4 @@
 - Pre-Irreversibility Boundary  
   The condition before autonomous impact becomes too difficult to reverse.  
   自律的影響が巻き戻し困難になる前の条件。
+

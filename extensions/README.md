@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Extensions
 
 This directory contains extension materials linked from the LUMINA-30 overview repository.  
@@ -20,3 +21,4 @@ They support practical use, interpretation, and application without replacing th
 
 Extensions は補助資料です。  
 中核構造を置き換えるものではなく、実務利用・解釈・適用を支援します。
+

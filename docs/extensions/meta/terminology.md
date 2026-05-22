@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Terminology
 
 ## Position ｜ 位置づけ
@@ -29,3 +30,4 @@ Reference only.
 ## Constraint ｜ 制約
 No override.
 上書き禁止。
+

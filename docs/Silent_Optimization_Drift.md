@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 Supplementary Note ｜ LUMINA-30 補記
 
 ## Silent Optimization Drift ｜ 静かな最適化ドリフト
@@ -120,3 +121,4 @@ Additional conceptual notes related to the LUMINA-30 framework.
 
 • Silent Optimization Drift（静かな最適化ドリフト）  
   https://github.com/lumina-30/lumina-30-overview/blob/main/docs/Silent_Optimization_Drift.md
+

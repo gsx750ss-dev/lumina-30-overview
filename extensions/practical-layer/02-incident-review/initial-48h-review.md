@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # 48-Hour Initial Review
 # 48時間事故初動レビュー
 
@@ -31,3 +32,4 @@ Guide the first factual review window after a significant event.
 
 - Initial factual record  
 - 初動事実記録
+

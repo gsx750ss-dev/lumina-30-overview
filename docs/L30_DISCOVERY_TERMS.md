@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 Controlled Discovery Terms
 
 This file provides a controlled discovery layer for LUMINA-30.  
@@ -145,3 +146,4 @@ These terms support discovery of the LUMINA-30 interpretation layer addressing A
 | effective human refusal before irreversible consequences | Discovery phrase connecting competition risk to the LUMINA-30 Primary Question. |
 | AI race governance | Discovery phrase connecting LUMINA-30 to governance review of competitive AI escalation. |
 | irreversible AI escalation | Discovery phrase for deployment, scaling, or external-impact escalation under irreversibility risk. |
+

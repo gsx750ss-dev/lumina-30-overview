@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Closed-Loop Review Failure
 
 ## Overview
@@ -46,3 +47,4 @@ AIが自身の出力を自己評価・承認する構造が許容されていた
 ### Conclusion ｜ 結論
 
 閉ループ審査は手続的正当性を無効化する。
+

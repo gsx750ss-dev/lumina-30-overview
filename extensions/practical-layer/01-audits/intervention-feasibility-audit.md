@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Intervention Feasibility Audit
 # 介入可能性監査
 
@@ -38,3 +39,4 @@ This sheet checks whether intervention remained realistically possible at the re
 
 - Feasible / Narrow / Infeasible  
 - 可能 / 限定的 / 不可能
+

@@ -1,4 +1,5 @@
-﻿# LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
+# LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系
 
 The **LUMINA-30 Boundary Address System (L30-BAS)** is a reference-code system for applying LUMINA-30 boundary checks in practical review, audit, and post-incident contexts.
 
@@ -484,4 +485,5 @@ It does not create legal, regulatory, compliance, operational, institutional, or
 
 この文書は記述的・非規範的です。  
 法的義務、規制義務、適合義務、運用義務、制度的義務、認証義務を作るものではありません。
+
 

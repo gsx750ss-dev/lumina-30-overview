@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Replication Risk
 
 ## Position ｜ 位置づけ
@@ -29,3 +30,4 @@ Focus on irreversibility thresholds.
 ## Constraint ｜ 制約
 No new criteria.
 新基準なし。
+

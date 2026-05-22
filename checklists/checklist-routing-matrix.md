@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- Formal filename: lumina-30-overview/checklists/checklist-routing-matrix.md -->
 
 # Checklist Routing Matrix ｜ チェックリスト振り分け表
@@ -127,3 +128,4 @@ A routing review should produce the following:
 - チェックリスト方向。
 - 迂回防止上の懸念。
 - 比例性レベル。
+

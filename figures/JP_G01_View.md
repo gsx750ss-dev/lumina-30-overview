@@ -1,6 +1,7 @@
+<!-- L30_LANG_LOCK: JP_ONLY -->
 # G01: 境界フレームワーク
 
-> [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g01) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G01_View.md)
+> [戻る](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g01) ｜ [↻ 再読み込み](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/JP_G01_View.md)
 
 LUMINA-30を、通常の政策・ガイドライン・倫理的訴えではなく、境界フレームワークとして示します。
 

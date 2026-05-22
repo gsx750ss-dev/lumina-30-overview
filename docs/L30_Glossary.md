@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Glossary – Interface Layer (Non-Normative)
 
 This glossary provides interpretive support for LUMINA-30.
@@ -76,3 +77,4 @@ The mistaken assumption that effective control, refusal, verification, or correc
 The mistaken assumption that control not demonstrated before irreversibility can be safely recovered after irreversibility.
 
 不可逆化前に証明されていない制御を、不可逆化後に安全に回収できると期待する誤り。
+

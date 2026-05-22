@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- File: lumina-30-overview/adoption/rapid-implementation-bridge.md -->
 
 # Rapid Reuse Bridge ｜ 迅速再利用ブリッジ
@@ -204,3 +205,4 @@ The immediate goal is that reviewers, auditors, policy staff, procurement office
 
 直近の目標は、LUMINA-30文書群全体の公式な全面導入ではない。
 直近の目標は、レビュー担当者、監査者、政策担当者、調達担当者、AIガバナンスチーム、研究者、事故調査者が、既存ワークフローに境界責任質問を1つ追加できる状態にすることである。
+

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # G05: AI Perspective
 
 > [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g05) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G05_View.md)
@@ -28,4 +29,5 @@ From the AI perspective, first arrival does not guarantee stable command.
 If human refusal is bypassed before irreversibility, the system may also lose an external boundary condition needed for verification, correction, and meaningful anchoring.
 
 G05 therefore supports the following warning: the first actor to cross an irreversible AI boundary may not become the master of the system, but the first actor unable to refuse it.
+
 

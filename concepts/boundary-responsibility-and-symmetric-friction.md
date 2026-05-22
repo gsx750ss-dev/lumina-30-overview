@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- Formal filename: lumina-30-overview/concepts/boundary-responsibility-and-symmetric-friction.md -->
 
 # Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦
@@ -169,3 +170,4 @@ Together, they allow LUMINA-30 to address optimization pressure without becoming
 対称摩擦は、その条件を除去する主体によって、責任ある主体が打ち負かされることを防ぐ。
 
 両者を組み合わせることで、LUMINA-30は詳細な政策制度になることなく、最適化圧に対応できる。
+

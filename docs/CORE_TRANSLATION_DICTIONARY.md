@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 Core Translation Dictionary v1.3
 
 This document defines the canonical terminology used across the LUMINA-30 framework.
@@ -156,3 +157,4 @@ Non-binding <-> 非拘束  [canonical: 非拘束]
 Reference framework <-> 参照枠組み  [canonical: 参照枠組み]  
 Not a policy <-> 政策ではない  [canonical: 政策ではない]  
 Not a specification <-> 技術仕様ではない  [canonical: 技術仕様ではない]
+

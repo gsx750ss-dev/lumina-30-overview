@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # G04: PCR-C Governance Mechanism
 
 > [Back](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md#g04) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/figures/EN_G04_View.md)

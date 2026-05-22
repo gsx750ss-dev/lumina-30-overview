@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # LUMINA-30 Core Terminology (Minimal Standard)
 
 This file defines the fixed core terminology of LUMINA-30.
@@ -43,3 +44,4 @@ Intervention authority remains valid regardless of perceived agency, autonomy, o
  Refusal Authority and Stop Authority are treated as equivalent operational expressions.<br>
  Pre-irreversibility refers to a condition in which effective intervention remains possible prior to irreversible impact.<br>
  Civilizational Gate refers to a pre-irreversibility evaluation layer where intervention validity is assessed prior to irreversible execution.<br>
+

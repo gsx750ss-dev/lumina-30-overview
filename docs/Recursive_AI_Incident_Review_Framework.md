@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Recursive AI Incident Review Framework (Crisis Snapshot)
 
 This document provides a rapid structural reference
@@ -69,3 +70,4 @@ It clarifies responsibility boundaries.
 
 It does not advocate acceleration or restriction of AI development.
 It addresses structural responsibility only.
+
