@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="Recursive AI Incident Review Framework (Crisis Snapshot)" />
+  <title>Recursive AI Incident Review Framework (Crisis Snapshot)</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="../index.html">EN Top</a>
+      <a href="../index-ja.html">JP Top</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/docs/Recursive_AI_Incident_Review_Framework.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>Recursive AI Incident Review Framework (Crisis Snapshot)</h1>
+      <p class="subtitle">Public HTML reference page for LUMINA-30. / LUMINA-30 公開HTML参照ページ。</p>
+    </header>
+    <main>
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
+
+<p>This document provides a rapid structural reference for incident review involving recursive self-modifying AI systems.</p>
+<p>It is non-binding and does not alter regulatory frameworks.</p>
+<hr />
+<h2 id="current-position--現行位置づけ">Current Position ｜ 現行位置づけ</h2>
+<p>This document is retained as a crisis-snapshot reference for recursive AI incident review.<br />
+For current practical use, it should not be treated as the primary incident-review entry point.</p>
+<p>本書は、recursive AI incident review の危機時スナップショット参照として保持される。<br />
+現行の実務利用では、本書を主たる事故レビュー入口として扱わない。</p>
+<p>Use the following current entry points first:</p>
+<p>現行の入口としては、まず以下を使用する。</p>
+<ul>
+<li><p><a href="https://github.com/lumina-30/lumina30-incident-review">Practical Incident Review Repository</a><br />
+Main practical hub for boundary checks, incident review, and operational templates.<br />
+境界判定、事故レビュー、実務テンプレートのための主実務ハブ。</p></li>
+<li><p><a href="./L30_BOUNDARY_ADDRESS_SYSTEM.html"">L30-BAS ｜ Boundary Address System</a><br />
+Reference address system for connecting incident review questions to the LUMINA-30 core boundary question.<br />
+事故レビュー上の問いをLUMINA-30の中核境界問いへ接続するための参照番地体系。</p></li>
+<li><p><a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md">L30_FRM Practical Forms</a><br />
+Practical forms for L30_FRM_B01, L30_FRM_I01, and L30_FRM_A01.<br />
+L30_FRM_B01、L30_FRM_I01、L30_FRM_A01のための実務帳票。</p></li>
+</ul>
+<hr />
+<h2 id="immediate-structural-questions">Immediate Structural Questions</h2>
+<p>In the event of a high-impact AI incident:</p>
+<ol start="0" type="1">
+<li>Was the system still within a pre-irreversibility state at the time of the incident?</li>
+<li>Was recursive modification coupled to autonomous or external execution?</li>
+<li>Was independent human refusal authority preserved at the point of deployment?</li>
+<li>Could deviation propagate irreversibly beyond containment boundaries?</li>
+<li>Did competitive pressure, first-mover incentives, or claims of future control reduce, bypass, delay, or eliminate effective human refusal before irreversible consequences occurred?</li>
+</ol>
+<h2 id="irreversibility-first-competition-review">Irreversibility-first Competition Review</h2>
+<p>Use this supplementary review lens when an incident, deployment, or escalation may have been influenced by competitive pressure, first-mover incentives, market pressure, military rivalry, strategic dominance claims, or promises of future control.</p>
+<p>Key question:</p>
+<blockquote>
+<p>Did the race to deploy, scale, or control the system compromise the conditions under which human refusal, shutdown, verification, or correction could still be exercised before irreversible impact?</p>
+</blockquote>
+<p>This review lens does not claim that catastrophe is inevitable.<br />
+It asks whether the actor crossing or approaching an irreversible boundary demonstrated effective refusal, shutdown, verification, and correction before the crossing.</p>
+<p>Japanese reference:</p>
+<blockquote>
+<p>配備・拡張・制御を急ぐ競争は、不可逆的影響の前に人間の拒否・停止・検証・修正がなお行使可能であるための条件を損なっていなかったか。</p>
+</blockquote>
+<hr />
+<h2 id="structural-focus">Structural Focus</h2>
+<p>This framework does not assess capability. It clarifies responsibility boundaries.</p>
+<p>It does not advocate acceleration or restriction of AI development. It addresses structural responsibility only.</p>
+
+    </main>
+    <p class="footer">LUMINA-30 public reference material. / LUMINA-30 公開参照資料。</p>
+  </div>
+</body>
+</html>
