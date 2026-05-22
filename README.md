@@ -99,6 +99,8 @@ Luck-as-Absolution Fallacy names the attempt to treat uncertainty, favorable acc
 
 幸運免罪誤謬とは、不確実性、都合のよい偶然、または幸運の可能性を、不可逆境界を越えてよい理由として扱う誤謬である。幸運は免罪符ではありません。人類の未来は、誰かの賭け金ではありません。
 
+Full explanation ｜ 詳細説明: [EN](https://lumina-30.github.io/lumina-30-overview/docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html) ｜ [JP](https://lumina-30.github.io/lumina-30-overview/docs/JP_L30_REVERSIBLE_PROSPERITY_PATH.html)
+
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 
