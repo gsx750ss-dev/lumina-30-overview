@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="Reception ｜ 受付" />
+  <title>Reception ｜ 受付</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="./index.html">Boundary Review Floor</a>
+      <a href="../../index.html">EN Top</a>
+      <a href="../../index-ja.html">JP Top</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/reader-routing.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>Reception ｜ 受付</h1>
+      <p class="subtitle">Boundary Review Floor public HTML reference page. / 境界レビューフロア公開HTML参照ページ。</p>
+    </header>
+    <main>
+<p>This page routes readers to the right room in the Boundary Review
+Floor.</p>
+<p>このページは、境界レビューフロア内で自分に合う部屋を選ぶための受付です。</p>
+<h2 id="start-by-role--立場別の読み始め">Start by role ｜
+立場別の読み始め</h2>
+<table>
+<thead>
+<tr class="header">
+<th>If you are...</th>
+<th>Start here</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>New to LUMINA-30 ｜ 初見読者</td>
+<td><a href="./formal-oversight-effective-refusal.html">A Room: Boundary
+Understanding</a> ｜ <a href="./formal-oversight-effective-refusal.html">Aルーム：境界理解室</a></td>
+<td>To understand the core distinction first. ｜
+まず中核の違いを理解するため</td>
+</tr>
+<tr class="even">
+<td>Skeptical or critical ｜ 懐疑的・批判的な読者</td>
+<td><a href="./formal-oversight-effective-refusal-faq.html">B Room:
+Clarification &amp; Objection</a> ｜ <a href="./formal-oversight-effective-refusal-faq.html">Bルーム：整理と反論の部屋</a></td>
+<td>To check limits, objections, and non-claims. ｜
+限界、反論、主張しないことを確認するため</td>
+</tr>
+<tr class="odd">
+<td>A reviewer, auditor, or incident analyst ｜
+レビュー・監査・事故分析担当</td>
+<td><a href="./minimal-review-check.html">E Room: Practice</a> ｜ <a href="./minimal-review-check.html">Eルーム：実務の部屋</a></td>
+<td>To apply the minimal review check. ｜
+最小レビュー確認を使うため</td>
+</tr>
+<tr class="even">
+<td>A reader who wants an example ｜ 例で確認したい読者</td>
+<td><a href="./walkthrough-room.html">G Room: Walkthrough</a> ｜ <a href="./walkthrough-room.html">Gルーム：読み替え例の部屋</a></td>
+<td>To see how a formal-oversight statement is re-read through the
+boundary question. ｜
+形式的監督の説明を境界質問でどう読み替えるかを見るため</td>
+</tr>
+<tr class="odd">
+<td>A reader who wants to check their understanding ｜
+理解を自己確認したい読者</td>
+<td><a href="./review-lens-check.html">F Room: Review Lens Check</a> ｜
+<a href="./review-lens-check.html">Fルーム：レビュー視点チェック</a></td>
+<td>To choose Level 1, 2, or 3 and check whether the review lens can be
+used without treating it as certification. ｜ Level
+1〜3を選び、認証ではなくレビュー視点を使えるか確認するため</td>
+</tr>
+<tr class="even">
+<td>A governance, ethics, risk, policy, or external-institution reader
+｜ ガバナンス・倫理・リスク・政策・外部制度担当</td>
+<td><a href="./connection-to-existing-ai-governance.html">D Room:
+Governance Connection</a> ｜ <a href="./connection-to-existing-ai-governance.html">Dルーム：接続の部屋</a></td>
+<td>To connect the boundary question to existing frameworks and
+external-use notes without claiming endorsement or affiliation. ｜
+承認・提携を主張せず、境界質問を既存枠組みと外部制度・団体接続メモへ接続するため</td>
+</tr>
+<tr class="odd">
+<td>Someone who wants to share the idea ｜ 他人に共有したい人</td>
+<td><a href="./shareable-boundary-question.html">C Room: Share</a> ｜ <a href="./shareable-boundary-question.html">Cルーム：持ち帰りの部屋</a></td>
+<td>To copy a short message or one-sentence summary. ｜
+短文や要約を持ち帰るため</td>
+</tr>
+<tr class="even">
+<td>A researcher or citation reader ｜ 研究者・引用確認者</td>
+<td><a href="./formal-oversight-effective-refusal.html">A Room</a>, then
+<a href="./formal-oversight-effective-refusal-faq.html">B Room</a> ｜ <a href="./formal-oversight-effective-refusal.html">Aルーム</a> → <a href="./formal-oversight-effective-refusal-faq.html">Bルーム</a></td>
+<td>To understand the claim and its limits. ｜
+主張と限界を確認するため</td>
+</tr>
+</tbody>
+</table>
+<h2 id="minimal-path--最短経路">Minimal path ｜ 最短経路</h2>
+<p>If you only have two minutes, use the beginner route. It is enough to
+carry the core question, but not enough to claim full understanding of
+LUMINA-30.</p>
+<p>2分しかない場合は、初級ルートを使ってください。中核質問を持ち帰るには十分ですが、LUMINA-30全体を完全理解したと主張するためのものではありません。</p>
+<ol type="1">
+<li><a href="./formal-oversight-effective-refusal.html">A Room: Boundary
+Understanding</a> ｜ <a href="./formal-oversight-effective-refusal.html">Aルーム：境界理解室</a></li>
+<li><a href="./walkthrough-room.html">G Room: Walkthrough</a> ｜ <a href="./walkthrough-room.html">Gルーム：読み替え例の部屋</a></li>
+<li><a href="./shareable-boundary-question.html">C Room: Share</a> ｜ <a href="./shareable-boundary-question.html">Cルーム：持ち帰りの部屋</a></li>
+<li><a href="./review-lens-check.html#level-1">F Room: Review Lens Check
+— Level 1</a> ｜ <a href="./review-lens-check.html#level-1">Fルーム：レビュー視点チェック —
+Level 1</a></li>
+</ol>
+<h2 id="deeper-paths--より深いルート">Deeper paths ｜
+より深いルート</h2>
+<ul>
+<li><p><strong>Level 2 — Core Reading Check</strong>: use this when you
+want to apply the boundary question as a basic review lens.<br/>
+<strong>Level 2 —
+中核読了チェック</strong>：境界質問を基本的なレビュー視点として使いたい場合に使ってください。</p></li>
+<li><p><strong>Level 3 — Applied / Advanced Check</strong>: use this
+when you need audit, governance, incident-review, or research-facing
+use.<br/>
+<strong>Level 3 —
+実務・上級チェック</strong>：監査、ガバナンス、事故後レビュー、研究寄りの利用が必要な場合に使ってください。</p></li>
+</ul>
+<h2 id="external-use-path--外部制度団体接続ルート">External-use path ｜
+外部制度・団体接続ルート</h2>
+<p>If you work with an external governance, standards,
+incident-response, or human-oversight context, start with D Room. Use F
+Room Level 3 only after you need to check whether you can apply the
+review lens in that external context.</p>
+<p>外部ガバナンス、標準化、事故対応、人間監督文脈で扱う場合は、Dルームから始めてください。その外部文脈でレビュー視点を使えるか確認する必要がある場合のみ、Fルーム
+Level 3 を使用してください。</p>
+<ul>
+<li><a href="./connection-to-existing-ai-governance.html#external-use-notes">D
+Room: External-use notes</a> ｜ <a href="./connection-to-existing-ai-governance.html#external-use-notes">Dルーム：外部制度・団体接続メモ</a></li>
+<li><a href="./review-lens-check.html#level-3">F Room: Review Lens Check
+— Level 3</a> ｜ <a href="./review-lens-check.html#level-3">Fルーム：レビュー視点チェック —
+Level 3</a></li>
+</ul>
+<h2 id="if-you-are-unsure--迷った場合">If you are unsure ｜
+迷った場合</h2>
+<p>Start with this sentence:</p>
+<p>まず、この一文から始めてください。</p>
+<blockquote>
+<p>LUMINA-30 does not ask whether oversight existed; it asks whether
+refusal remained effective before irreversibility.</p>
+<p>LUMINA-30は、監督が存在したかではなく、不可逆化前に拒否がなお実効的だったかを問います。</p>
+</blockquote>
+<hr/>
+<p>This page is non-binding and does not provide legal advice,
+certification, or compliance determination.<br/>
+このページは非拘束であり、法的助言、認証、または適合性判定を提供するものではありません。</p>
+<p><a href="./index.html">Back to Boundary Review Floor</a> ｜ <a href="./index.html">境界レビューフロアへ戻る</a><br/>
+<a href="../../index.html">Back to Main Floor</a> ｜ <a href="../../index.html">メインフロアへ戻る</a></p>
+    </main>
+    <footer class="footer">
+      LUMINA-30 public reference material. / LUMINA-30 公開参照資料。
+    </footer>
+  </div>
+</body>
+</html>

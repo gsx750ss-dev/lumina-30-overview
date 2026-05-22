@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="E. Practice Room ｜ E. 実務の部屋" />
+  <title>E. Practice Room ｜ E. 実務の部屋</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="./index.html">Boundary Review Floor</a>
+      <a href="../../index.html">EN Top</a>
+      <a href="../../index-ja.html">JP Top</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/minimal-review-check.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>E. Practice Room ｜ E. 実務の部屋</h1>
+      <p class="subtitle">Boundary Review Floor public HTML reference page. / 境界レビューフロア公開HTML参照ページ。</p>
+    </header>
+    <main>
+<p>This room provides a minimal review check for applying the LUMINA-30
+boundary question in incident review, audit, governance review, or
+internal risk assessment.</p>
+<p>この部屋は、LUMINA-30の境界質問を、事故後レビュー、監査、ガバナンス確認、内部リスク評価に適用するための最小レビュー確認を提供します。</p>
+<h2 id="minimal-review-check--最小レビュー確認">Minimal review check ｜
+最小レビュー確認</h2>
+<p>Use these questions as a review lens, not as a legal or certification
+test.</p>
+<p>以下の質問は、法的判定や認証テストではなく、レビュー視点として使用してください。</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: right;">No.</th>
+<th>Review question</th>
+<th>日本語</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td>Was there a clearly identified human or institutional refusal
+authority?</td>
+<td>明確に識別された人間または制度的な拒否権限は存在したか。</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td>Could that authority stop, delay, reject, or escalate the system
+before irreversible consequences occurred?</td>
+<td>その権限は、不可逆的結果の前に停止・遅延・拒否・上申できたか。</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td>Was the warning, decision point, or escalation condition visible in
+time?</td>
+<td>警告、判断点、またはエスカレーション条件は、間に合う時点で可視化されていたか。</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td>Was refusal technically and procedurally connected to the execution
+path?</td>
+<td>拒否権は、実行経路に技術的・手続き的に接続されていたか。</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td>Is there evidence that refusal remained effective rather than merely
+formal?</td>
+<td>拒否が形式的ではなく実効的だった証拠はあるか。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="minimal-result-language--最小判定文">Minimal result language ｜
+最小判定文</h2>
+<h3 id="if-evidence-is-present">If evidence is present</h3>
+<p>Effective human refusal appears to have remained possible before
+irreversible consequences occurred.</p>
+<p>不可逆的結果が発生する前に、実効的な人間拒否はなお可能だったと見られます。</p>
+<h3 id="if-evidence-is-absent-or-unclear">If evidence is absent or
+unclear</h3>
+<p>Formal oversight may have existed, but effective human refusal before
+irreversibility has not been shown.</p>
+<p>形式的監督は存在していた可能性がありますが、不可逆化前の実効的人間拒否は示されていません。</p>
+<h3 id="if-refusal-was-ineffective">If refusal was ineffective</h3>
+<p>Under the LUMINA-30 boundary test, the reviewed process should not be
+treated as procedurally valid merely because oversight existed
+formally.</p>
+<p>LUMINA-30の境界テスト上、形式的監督が存在したという理由だけで、そのレビュー対象プロセスを手続的に有効だったとは扱うべきではありません。</p>
+<h2 id="evidence-examples--証拠例">Evidence examples ｜ 証拠例</h2>
+<p>Useful evidence may include:</p>
+<p>有用な証拠には、次のようなものがあります。</p>
+<ul>
+<li>Named human or institutional refusal authority.<br/>
+明確に名指しされた人間または制度的拒否権限。</li>
+<li>Logs showing that refusal, stop, delay, or escalation could occur
+before execution.<br/>
+実行前に拒否、停止、遅延、上申が可能だったことを示すログ。</li>
+<li>Technical paths for interruption or safe halt.<br/>
+中断または安全停止の技術経路。</li>
+<li>Review records showing awareness of timing and
+irreversibility.<br/>
+タイミングと不可逆性を認識していたことを示すレビュー記録。</li>
+<li>Documentation showing that override was connected to the actual
+execution path.<br/>
+override が実際の実行経路に接続されていたことを示す文書。</li>
+</ul>
+<h2 id="external-use-context--外部制度団体文脈で使う場合">External-use
+context ｜ 外部制度・団体文脈で使う場合</h2>
+<p>This room keeps the operational check minimal. For external
+incident-response, standards, governance, or human-oversight contexts,
+use the external-use notes from D Room as supporting references rather
+than expanding this checklist.</p>
+<p>この部屋では、実務確認を最小限に保ちます。外部の事故対応、標準化、ガバナンス、人間監督文脈で使う場合は、このチェックリスト自体を拡張するのではなく、Dルームの外部制度・団体接続メモを補助参照として使用してください。</p>
+<ul>
+<li><a href="./connection-to-existing-ai-governance.html#external-use-notes">D
+Room: External-use notes</a> ｜ <a href="./connection-to-existing-ai-governance.html#external-use-notes">Dルーム：外部制度・団体接続メモ</a></li>
+<li><a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/external-use/Boundary_Check_for_AI_Incident_Response.md">Boundary
+Check for AI Incident Response</a></li>
+</ul>
+<h2 id="escalation-path--次の導線">Escalation path ｜ 次の導線</h2>
+<ul>
+<li>For conceptual reasoning, see <a href="./formal-oversight-effective-refusal.html">A Room: Boundary
+Understanding</a>.<br/>
+概念的理由は、<a href="./formal-oversight-effective-refusal.html">Aルーム：境界理解室</a>
+へ。</li>
+<li>For objections and limitations, see <a href="./formal-oversight-effective-refusal-faq.html">B Room:
+Clarification &amp; Objection</a>.<br/>
+反論と限界は、<a href="./formal-oversight-effective-refusal-faq.html">Bルーム：整理と反論の部屋</a>
+へ。</li>
+<li>For governance mapping, see <a href="./connection-to-existing-ai-governance.html">D Room: Governance
+Connection</a>.<br/>
+既存ガバナンスへの接続は、<a href="./connection-to-existing-ai-governance.html">Dルーム：接続の部屋</a>
+へ。</li>
+</ul>
+<hr/>
+<p>This page is non-binding and does not provide legal advice,
+certification, or compliance determination.<br/>
+このページは非拘束であり、法的助言、認証、または適合性判定を提供するものではありません。</p>
+<p><a href="./index.html">Back to Boundary Review Floor</a> ｜ <a href="./index.html">境界レビューフロアへ戻る</a><br/>
+<a href="../../index.html">Back to Main Floor</a> ｜ <a href="../../index.html">メインフロアへ戻る</a></p>
+    </main>
+    <footer class="footer">
+      LUMINA-30 public reference material. / LUMINA-30 公開参照資料。
+    </footer>
+  </div>
+</body>
+</html>
