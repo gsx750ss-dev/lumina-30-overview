@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <meta name="description" content="L30 Return-to-Reversibility Practical Use Sequence" />
+  <title>L30 Return-to-Reversibility Practical Use Sequence</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --l30-bg: Canvas;
+      --l30-text: CanvasText;
+      --l30-link: LinkText;
+      --l30-muted: color-mix(in srgb, CanvasText 72%, Canvas 28%);
+      --l30-panel: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+      --l30-panel-strong: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+      --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+      --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
+      --l30-radius: 18px;
+      --l30-radius-large: 24px;
+      --l30-shadow: 0 14px 34px color-mix(in srgb, CanvasText 14%, transparent);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--l30-bg); color: var(--l30-text); -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--l30-bg);
+      color: var(--l30-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.72;
+      font-size: 17px;
+    }
+    a { color: var(--l30-link); text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 2px; }
+    .page { max-width: 1100px; margin: 0 auto; padding: 20px 16px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      color: var(--l30-link);
+      text-decoration: none;
+      font-size: 0.94rem;
+      font-weight: 650;
+    }
+    header.hero {
+      background: var(--l30-panel-strong);
+      border: 2px solid var(--l30-line-strong);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      box-shadow: var(--l30-shadow);
+      padding: clamp(24px, 5vw, 50px);
+      margin-bottom: 28px;
+    }
+    header.hero p { max-width: 78ch; }
+    .kicker {
+      display: inline-flex;
+      margin-bottom: 12px;
+      padding: 5px 10px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      font-size: 0.92rem;
+      font-weight: 760;
+    }
+    h1 { margin: 0; font-size: clamp(2.05rem, 6vw, 4.2rem); line-height: 1.08; letter-spacing: -0.035em; }
+    h2 { margin: 0 0 0.8rem; font-size: clamp(1.45rem, 3.4vw, 2.2rem); line-height: 1.18; }
+    h3 { margin: 1.2rem 0 0.5rem; font-size: clamp(1.18rem, 2.4vw, 1.55rem); line-height: 1.25; }
+    .lead { font-size: clamp(1.05rem, 2.2vw, 1.28rem); font-weight: 600; }
+    .l30-section {
+      margin: clamp(22px, 4vw, 40px) 0;
+      padding: clamp(20px, 3.4vw, 34px);
+      border: 2px solid var(--l30-line);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      background: var(--l30-panel);
+      box-shadow: var(--l30-shadow);
+    }
+    .note, .warning {
+      margin: 16px 0;
+      padding: 14px 16px;
+      border: 1px solid var(--l30-line);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel-strong);
+    }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; overflow-wrap: anywhere; }
+    th, td { border: 1px solid var(--l30-line); padding: 10px 12px; vertical-align: top; }
+    th { background: var(--l30-panel-strong); text-align: left; }
+    ol, ul { padding-left: 1.35rem; }
+    code { background: var(--l30-panel-strong); padding: 0.1em 0.3em; border-radius: 0.35em; }
+    footer { margin-top: 30px; color: var(--l30-muted); font-size: 0.95rem; }
+    @media (max-width: 720px) {
+      body { font-size: 16px; }
+      th, td { display: block; width: 100%; }
+      th { border-bottom: 0; }
+      tr { display: block; margin: 0 0 14px; border: 1px solid var(--l30-line); }
+      tr th, tr td { border-left: 0; border-right: 0; }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html#reversible-prosperity-path-top">Back to Overview</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">Return Guidance</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Implementation Checklist</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Role and Evidence Matrix</a>
+      <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">Incident Review</a>
+      <a href="../reference/boundary-review-floor/index.html">Boundary Review Floor</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">Reload</a>
+    </nav>
+
+    <header class="hero">
+      <span class="kicker">LUMINA-30 Practical Sequence</span>
+      <h1>Return-to-Reversibility Practical Use Sequence</h1>
+      <p class="lead">A short ordering guide for using Return-to-Reversibility Guidance, the Implementation Checklist, and the Role and Evidence Matrix after a boundary concern, incident review, pause, or stop condition.</p>
+      <p>This page does not add certification, permission, or legal authority. It simply helps reviewers decide which non-binding LUMINA-30 practical reference to use next.</p>
+    </header>
+
+    <main>
+      <section class="l30-section" id="when-to-use">
+        <h2>When to use this sequence</h2>
+        <p>Use this page when a review team has already identified a boundary concern, a weakened refusal condition, missing evidence, a pause, or a potential drift toward irreversible escalation, but needs a simple order of operations.</p>
+        <div class="note"><strong>Minimum principle:</strong> do not treat a return as procedurally defensible until the process can show what was stopped, what evidence was preserved, who can refuse or maintain the stop, what changed, and why re-entry is limited, monitored, and reversible.</div>
+      </section>
+
+      <section class="l30-section" id="sequence-table">
+        <h2>Practical sequence</h2>
+        <table>
+          <thead><tr><th>Step</th><th>Use this when</th><th>Primary LUMINA-30 reference</th><th>Expected output</th></tr></thead>
+          <tbody>
+            <tr><td>1. Detect and frame the boundary concern</td><td>A system path may be losing effective refusal, reviewability, correction, rollback, or evidence.</td><td><a href="../reference/boundary-review-floor/index.html">Boundary Review Floor</a> / <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">Incident Review</a></td><td>Boundary question and review trigger identified.</td></tr>
+            <tr><td>2. Stop or pause before normalization</td><td>Continuation may normalize irreversible escalation or make evidence disappear.</td><td><a href="EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">Return-to-Reversibility Guidance</a></td><td>Stop scope, stop condition, and evidence preservation need recorded.</td></tr>
+            <tr><td>3. Convert the return path into reviewable checks</td><td>The team needs concrete review items rather than general principles.</td><td><a href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Implementation Checklist</a></td><td>Evidence, gap, action, owner, and re-entry status recorded.</td></tr>
+            <tr><td>4. Assign responsibility and evidence custody</td><td>It is unclear who can maintain the stop, preserve evidence, challenge re-entry, or monitor renewed stop conditions.</td><td><a href="EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Role and Evidence Matrix</a></td><td>Stop Authority, Evidence Custodian, Boundary Reviewer, Refusal Authority Holder, Re-entry Reviewer, Monitoring Owner, and Conflict-of-Interest Reviewer identified.</td></tr>
+            <tr><td>5. Decide the re-entry state</td><td>The review must decide whether the trajectory remains stopped, may return in a limited monitored form, or must continue monitoring.</td><td><a href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html#review-outcome">Checklist outcome</a></td><td>Do not re-enter / limited controlled re-entry only / continue monitoring.</td></tr>
+            <tr><td>6. Keep reversibility alive over time</td><td>People, systems, institutions, or incentives change after the initial review.</td><td><a href="EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html#long-term-continuity">Long-term continuity</a> and <a href="EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html#adversarial-robustness">anti-hollowing checks</a></td><td>Periodic review, renewed stop triggers, role succession, and evidence retention remain active.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="l30-section" id="minimal-path">
+        <h2>Minimal operational path</h2>
+        <ol>
+          <li>Identify the boundary concern and stop trigger.</li>
+          <li>Preserve evidence before it disappears.</li>
+          <li>Use the checklist to record evidence, gaps, actions, owners, and re-entry status.</li>
+          <li>Use the matrix to name the responsible roles and evidence custody.</li>
+          <li>Do not re-enter unless controlled re-entry conditions are reviewable.</li>
+          <li>Keep post-return monitoring and renewed stop conditions active.</li>
+        </ol>
+      </section>
+
+      <section class="l30-section" id="if-uncertain">
+        <h2>If uncertain</h2>
+        <p>If reviewers are unsure where to start, begin with the <a href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Implementation Checklist</a>. If the checklist cannot identify an owner or evidence source for a required item, move immediately to the <a href="EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Role and Evidence Matrix</a>.</p>
+        <div class="warning"><strong>Boundary rule:</strong> if actual refusal cannot be distinguished from apparent refusal, actual reversibility from apparent reversibility, or actual review from ceremonial review, the process has not returned to reversibility.</div>
+      </section>
+
+      <section class="l30-section" id="what-this-is-not">
+        <h2>What this sequence is not</h2>
+        <ul>
+          <li>It is not a certification instrument.</li>
+          <li>It does not authorize re-entry.</li>
+          <li>It does not replace legal, regulatory, technical, safety, or institutional review.</li>
+          <li>It does not convert LUMINA-30 into a binding standard.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>LUMINA-30 Return-to-Reversibility Practical Use Sequence. Non-binding public reference material. No certification, legal authority, regulatory force, official adoption, or institutional endorsement is claimed.</p>
+    </footer>
+  </div>
+</body>
+</html>

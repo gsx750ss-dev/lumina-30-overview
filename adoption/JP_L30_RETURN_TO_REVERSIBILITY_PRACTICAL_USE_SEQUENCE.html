@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="L30 可逆復帰 実務利用手順" />
+  <title>L30 可逆復帰 実務利用手順</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --l30-bg: Canvas;
+      --l30-text: CanvasText;
+      --l30-link: LinkText;
+      --l30-muted: color-mix(in srgb, CanvasText 72%, Canvas 28%);
+      --l30-panel: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+      --l30-panel-strong: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+      --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+      --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
+      --l30-radius: 18px;
+      --l30-radius-large: 24px;
+      --l30-shadow: 0 14px 34px color-mix(in srgb, CanvasText 14%, transparent);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--l30-bg); color: var(--l30-text); -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--l30-bg);
+      color: var(--l30-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.72;
+      font-size: 17px;
+    }
+    a { color: var(--l30-link); text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 2px; }
+    .page { max-width: 1100px; margin: 0 auto; padding: 20px 16px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      color: var(--l30-link);
+      text-decoration: none;
+      font-size: 0.94rem;
+      font-weight: 650;
+    }
+    header.hero {
+      background: var(--l30-panel-strong);
+      border: 2px solid var(--l30-line-strong);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      box-shadow: var(--l30-shadow);
+      padding: clamp(24px, 5vw, 50px);
+      margin-bottom: 28px;
+    }
+    header.hero p { max-width: 78ch; }
+    .kicker {
+      display: inline-flex;
+      margin-bottom: 12px;
+      padding: 5px 10px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      font-size: 0.92rem;
+      font-weight: 760;
+    }
+    h1 { margin: 0; font-size: clamp(2.05rem, 6vw, 4.2rem); line-height: 1.08; letter-spacing: -0.035em; }
+    h2 { margin: 0 0 0.8rem; font-size: clamp(1.45rem, 3.4vw, 2.2rem); line-height: 1.18; }
+    h3 { margin: 1.2rem 0 0.5rem; font-size: clamp(1.18rem, 2.4vw, 1.55rem); line-height: 1.25; }
+    .lead { font-size: clamp(1.05rem, 2.2vw, 1.28rem); font-weight: 600; }
+    .l30-section {
+      margin: clamp(22px, 4vw, 40px) 0;
+      padding: clamp(20px, 3.4vw, 34px);
+      border: 2px solid var(--l30-line);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      background: var(--l30-panel);
+      box-shadow: var(--l30-shadow);
+    }
+    .note, .warning {
+      margin: 16px 0;
+      padding: 14px 16px;
+      border: 1px solid var(--l30-line);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel-strong);
+    }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; overflow-wrap: anywhere; }
+    th, td { border: 1px solid var(--l30-line); padding: 10px 12px; vertical-align: top; }
+    th { background: var(--l30-panel-strong); text-align: left; }
+    ol, ul { padding-left: 1.35rem; }
+    code { background: var(--l30-panel-strong); padding: 0.1em 0.3em; border-radius: 0.35em; }
+    footer { margin-top: 30px; color: var(--l30-muted); font-size: 0.95rem; }
+    @media (max-width: 720px) {
+      body { font-size: 16px; }
+      th, td { display: block; width: 100%; }
+      th { border-bottom: 0; }
+      tr { display: block; margin: 0 0 14px; border: 1px solid var(--l30-line); }
+      tr th, tr td { border-left: 0; border-right: 0; }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html#reversible-prosperity-path-top">概要へ戻る</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">可逆復帰指針</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">実装チェックリスト</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">役割・証拠マトリクス</a>
+      <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">インシデントレビュー</a>
+      <a href="../reference/boundary-review-floor/index.html">境界レビューフロア</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">再読み込み</a>
+    </nav>
+
+    <header class="hero">
+      <span class="kicker">LUMINA-30 実務手順</span>
+      <h1>可逆復帰 実務利用手順</h1>
+      <p class="lead">境界懸念、インシデントレビュー、一時停止、停止条件の後に、可逆復帰指針・実装チェックリスト・役割証拠マトリクスをどの順番で使うかを整理する短い案内です。</p>
+      <p>このページは、認証、許可、法的効力を与えるものではありません。LUMINA-30の非拘束の公開参照資料を、現場が迷わず使うための順番を示します。</p>
+    </header>
+
+    <main>
+      <section class="l30-section" id="when-to-use">
+        <h2>いつ使うか</h2>
+        <p>境界懸念、拒否の弱体化、証拠欠落、一時停止、または不可逆的エスカレーションへの移行の兆候が見つかった後、レビュー担当者が何から確認すべきかを整理したい場合に使います。</p>
+        <div class="note"><strong>最低原則：</strong>何を止めたか、どの証拠を保全したか、誰が拒否または停止を維持できるか、何を変更したか、再進行がなぜ限定的・監視付き・可逆的なのかを示せない限り、復帰を手続上擁護可能とは扱わない。</div>
+      </section>
+
+      <section class="l30-section" id="sequence-table">
+        <h2>実務利用の順番</h2>
+        <table>
+          <thead><tr><th>段階</th><th>使う場面</th><th>主なLUMINA-30参照資料</th><th>期待される出力</th></tr></thead>
+          <tbody>
+            <tr><td>1. 境界懸念を特定する</td><td>実効的拒否、レビュー可能性、修正、ロールバック、証拠が弱まり始めている可能性がある。</td><td><a href="../reference/boundary-review-floor/index.html">境界レビューフロア</a> / <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">インシデントレビュー</a></td><td>境界問いとレビュー開始条件を特定する。</td></tr>
+            <tr><td>2. 常態化する前に止める・一時停止する</td><td>継続すると不可逆的エスカレーションが常態化したり、証拠が失われたりする可能性がある。</td><td><a href="JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">可逆復帰指針</a></td><td>停止範囲、停止条件、証拠保全の必要性を記録する。</td></tr>
+            <tr><td>3. 復帰経路を確認項目へ落とす</td><td>一般原則ではなく、具体的な確認項目が必要である。</td><td><a href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">実装チェックリスト</a></td><td>証拠、欠落、対応、責任者、再進行状態を記録する。</td></tr>
+            <tr><td>4. 責任所在と証拠保全を割り当てる</td><td>誰が停止を維持し、証拠を保全し、再進行に異議を唱え、再停止条件を監視するのかが不明確である。</td><td><a href="JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">役割・証拠マトリクス</a></td><td>停止権限保持者、証拠保全担当、境界レビュー担当、拒否権保持者、再進行レビュー担当、監視担当、利益相反レビュー担当を特定する。</td></tr>
+            <tr><td>5. 再進行状態を判断する</td><td>停止継続、限定的な制御された再進行、監視継続のどれに該当するかを判断する必要がある。</td><td><a href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html#review-outcome">チェックリストの結果分類</a></td><td>再進行しない / 限定的な制御された再進行のみ / 監視を継続する。</td></tr>
+            <tr><td>6. 可逆性を長期的に維持する</td><td>初回レビュー後に、人員、システム、制度、誘因が変化する。</td><td><a href="JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html#long-term-continuity">長期継続性</a> と <a href="JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html#adversarial-robustness">形骸化防止</a></td><td>定期レビュー、再停止条件、役割継承、証拠保全を維持する。</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="l30-section" id="minimal-path">
+        <h2>最小実務手順</h2>
+        <ol>
+          <li>境界懸念と停止条件を特定する。</li>
+          <li>証拠が失われる前に保全する。</li>
+          <li>実装チェックリストで、証拠、欠落、対応、責任者、再進行状態を記録する。</li>
+          <li>役割・証拠マトリクスで、責任者と証拠保全先を明確にする。</li>
+          <li>制御された再進行条件がレビュー可能でない限り、再進行しない。</li>
+          <li>復帰後監視と再停止条件を維持する。</li>
+        </ol>
+      </section>
+
+      <section class="l30-section" id="if-uncertain">
+        <h2>迷った場合</h2>
+        <p>どこから始めるべきか迷う場合は、まず <a href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">実装チェックリスト</a> を使います。必要項目の責任者や証拠保全先が特定できない場合は、直ちに <a href="JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">役割・証拠マトリクス</a> を使います。</p>
+        <div class="warning"><strong>境界ルール：</strong>実際の拒否と見せかけの拒否、実際の可逆性と見せかけの可逆性、実際のレビューと儀式的レビューを区別できないプロセスは、可逆性へ復帰していない。</div>
+      </section>
+
+      <section class="l30-section" id="what-this-is-not">
+        <h2>この手順ではないもの</h2>
+        <ul>
+          <li>認証手段ではありません。</li>
+          <li>再進行を許可するものではありません。</li>
+          <li>法務、規制、技術、安全、組織上のレビューを代替するものではありません。</li>
+          <li>LUMINA-30を拘束的な標準に変えるものではありません。</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>LUMINA-30 可逆復帰 実務利用手順。非拘束の公開参照資料。認証、法的効力、規制上の効力、公式採用、制度的承認を主張しない。</p>
+    </footer>
+  </div>
+</body>
+</html>

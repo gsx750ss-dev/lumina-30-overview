@@ -26,6 +26,11 @@ Boundary review does not end with identifying a boundary concern. When review in
 
 The [Return-to-Reversibility Guidance](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) ｜ [可逆復帰指針](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) provides a non-binding reference for that next step: stop, preserve evidence, diagnose the boundary failure, restore effective human refusal, allow only controlled re-entry, and monitor after return.
 
+If the review team is unsure which practical reference to use first, use the [Return-to-Reversibility Practical Use Sequence](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html) ｜ [可逆復帰 実務利用手順](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html) to order guidance, checklist, role assignment, controlled re-entry, and monitoring.
+
+実務上どの資料から使うべきか迷う場合は、[Return-to-Reversibility Practical Use Sequence](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html) ｜ [可逆復帰 実務利用手順](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html) を使い、指針、チェックリスト、役割割り当て、制御された再進行、監視の順番を整理する。
+
+
 [Return-to-Reversibility Guidance](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) ｜ [可逆復帰指針](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) は、その次段階のための非拘束の参照指針である。すなわち、停止、証拠保全、境界失敗の診断、実効的人間拒否の回復、制御された再進行、復帰後監視を確認する。
 
 When this floor is used in an actual operational review, use the [Return-to-Reversibility Implementation Checklist](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) ｜ [可逆復帰実装チェックリスト](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) to record stop triggers, evidence, restored refusal, corrective controls, controlled re-entry, anti-hollowing checks, and long-term continuity.

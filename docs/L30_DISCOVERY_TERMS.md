@@ -175,6 +175,8 @@ These terms support discovery of the practical pathway from incident review back
 |---|---|
 | Return-to-Reversibility Guidance | Non-binding guidance for returning a stopped or paused trajectory to a condition where effective human refusal and reversibility are restored. |
 | 可逆復帰指針 | Japanese canonical phrase for Return-to-Reversibility Guidance. |
+| Return-to-Reversibility Practical Use Sequence | Operational sequence for deciding when to use guidance, checklist, and role/evidence matrix after boundary review or incident review. |
+| 可逆復帰 実務利用手順 | Japanese canonical phrase for Return-to-Reversibility Practical Use Sequence. |
 | Return-to-Reversibility Implementation Checklist | Operational checklist for recording stop triggers, evidence, restored refusal, corrective controls, controlled re-entry, anti-hollowing checks, and long-term continuity. |
 | 可逆復帰実装チェックリスト | Japanese canonical phrase for Return-to-Reversibility Implementation Checklist. |
 
