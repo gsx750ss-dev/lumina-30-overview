@@ -174,6 +174,10 @@ Return-to-Reversibility Guidance <-> 可逆復帰指針  [canonical: 可逆復�
 Meaning: Non-binding guidance for returning a stopped or paused trajectory to a condition where effective human refusal and reversibility are restored.
 意味：停止または一時停止された進路を、実効的人間拒否と可逆性が回復された条件へ戻すための非拘束の指針。
 
+Return-to-Reversibility Practical Tools Quick Access <-> 可逆復帰 実務ツール・クイックアクセス  [canonical: 可逆復帰 実務ツール・クイックアクセス]
+Meaning: Static repeat-use entry for directly opening frequently used LUMINA-30 practical tools, including the checklist, role and evidence matrix, practical use sequence, incident review, and boundary review floor.
+意味：実装チェックリスト、役割・証拠マトリクス、実務利用手順、インシデントレビュー、境界レビューフロアなど、よく使うLUMINA-30実務ツールを直接開くための静的な反復利用向け入口。
+
 Return-to-Reversibility Practical Use Sequence <-> 可逆復帰 実務利用手順  [canonical: 可逆復帰 実務利用手順]
 Meaning: Non-binding operational sequence for deciding when to use Return-to-Reversibility Guidance, the Implementation Checklist, and the Role and Evidence Matrix after boundary review or incident review.
 意味：境界レビューまたはインシデントレビューの後に、可逆復帰指針、実装チェックリスト、役割・証拠マトリクスをどの順番で使うかを判断するための非拘束の実務手順。

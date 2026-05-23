@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="L30 実務ツール・クイックアクセス" />
+  <title>L30 実務ツール・クイックアクセス</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --l30-bg: Canvas;
+      --l30-text: CanvasText;
+      --l30-link: LinkText;
+      --l30-muted: color-mix(in srgb, CanvasText 72%, Canvas 28%);
+      --l30-panel: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+      --l30-panel-strong: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+      --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+      --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
+      --l30-radius: 18px;
+      --l30-radius-large: 24px;
+      --l30-shadow: 0 14px 34px color-mix(in srgb, CanvasText 14%, transparent);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--l30-bg); color: var(--l30-text); -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--l30-bg);
+      color: var(--l30-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.72;
+      font-size: 17px;
+    }
+    a { color: var(--l30-link); text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 2px; }
+    .page { max-width: 1100px; margin: 0 auto; padding: 20px 16px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      color: var(--l30-link);
+      text-decoration: none;
+      font-size: 0.94rem;
+      font-weight: 650;
+    }
+    header.hero {
+      background: var(--l30-panel-strong);
+      border: 2px solid var(--l30-line-strong);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      box-shadow: var(--l30-shadow);
+      padding: clamp(24px, 5vw, 50px);
+      margin-bottom: 28px;
+    }
+    header.hero p { max-width: 78ch; }
+    .kicker {
+      display: inline-flex;
+      margin-bottom: 12px;
+      padding: 5px 10px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      font-size: 0.92rem;
+      font-weight: 760;
+    }
+    h1 { margin: 0; font-size: clamp(2.05rem, 6vw, 4.2rem); line-height: 1.08; letter-spacing: -0.035em; }
+    h2 { margin: 0 0 0.8rem; font-size: clamp(1.45rem, 3.4vw, 2.2rem); line-height: 1.18; }
+    h3 { margin: 1.2rem 0 0.5rem; font-size: clamp(1.18rem, 2.4vw, 1.55rem); line-height: 1.25; }
+    .lead { font-size: clamp(1.05rem, 2.2vw, 1.28rem); font-weight: 600; }
+    .l30-section {
+      margin: clamp(22px, 4vw, 40px) 0;
+      padding: clamp(20px, 3.4vw, 34px);
+      border: 2px solid var(--l30-line);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      background: var(--l30-panel);
+      box-shadow: var(--l30-shadow);
+    }
+    .note, .warning {
+      margin: 16px 0;
+      padding: 14px 16px;
+      border: 1px solid var(--l30-line);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel-strong);
+    }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; overflow-wrap: anywhere; }
+    th, td { border: 1px solid var(--l30-line); padding: 10px 12px; vertical-align: top; }
+    th { background: var(--l30-panel-strong); text-align: left; }
+    ol, ul { padding-left: 1.35rem; }
+    code { background: var(--l30-panel-strong); padding: 0.1em 0.3em; border-radius: 0.35em; }
+    footer { margin-top: 30px; color: var(--l30-muted); font-size: 0.95rem; }
+    @media (max-width: 720px) {
+      body { font-size: 16px; }
+      th, td { display: block; width: 100%; }
+      th { border-bottom: 0; }
+      tr { display: block; margin: 0 0 14px; border: 1px solid var(--l30-line); }
+      tr th, tr td { border-left: 0; border-right: 0; }
+    }
+
+    .quick-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px;
+      margin: 18px 0;
+    }
+    .tool-card {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      min-height: 150px;
+      padding: 16px;
+      border: 2px solid var(--l30-line);
+      border-left: 8px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel-strong);
+      text-decoration: none;
+      color: var(--l30-text);
+      box-shadow: 0 8px 20px color-mix(in srgb, CanvasText 10%, transparent);
+    }
+    .tool-card strong { font-size: 1.08rem; color: var(--l30-link); }
+    .tool-card span { color: var(--l30-muted); }
+    .tool-card:hover { border-color: var(--l30-line-strong); }
+    .role-list li { margin-bottom: 0.7rem; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html#reversible-prosperity-path-top">概要へ戻る</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">実務利用手順</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">実装チェックリスト</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">役割・証拠マトリクス</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">可逆復帰指針</a>
+      <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">インシデントレビュー</a>
+      <a href="../reference/boundary-review-floor/index.html">境界レビューフロア</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html">再読み込み</a>
+    </nav>
+
+    <header class="hero">
+      <span class="kicker">LUMINA-30 実務ツール</span>
+      <h1>実務ツール・クイックアクセス</h1>
+      <p class="lead">毎回すべての説明を読まなくても、よく使うLUMINA-30実務ツールをすぐ開くための反復利用向け入口です。</p>
+      <p>インシデントレビュー、実装チェック、責任者・証拠の割り当て、停止後の可逆復帰確認など、担当者が日常的に使うページへ直接進めます。</p>
+    </header>
+
+    <main>
+      <section class="l30-section" id="frequently-used-tools">
+        <h2>よく使う実務ツール</h2>
+        <div class="quick-grid">
+          <a class="tool-card" href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html"><strong>実装チェックリストを開く</strong><span>証拠、欠落、対応、責任者、再進行状態を確認する。</span></a>
+          <a class="tool-card" href="JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html"><strong>役割・証拠マトリクスを開く</strong><span>停止権限、証拠保全、再進行レビューなどの責任所在を割り当てる。</span></a>
+          <a class="tool-card" href="JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html"><strong>実務利用手順を開く</strong><span>どの順番で資料を使うかを確認する。</span></a>
+          <a class="tool-card" href="JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html"><strong>可逆復帰指針を開く</strong><span>停止後に可逆性へ戻るための基本原則を確認する。</span></a>
+          <a class="tool-card" href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html"><strong>インシデントレビューを開く</strong><span>事故・異常・停止後の評価に使う。</span></a>
+          <a class="tool-card" href="../reference/boundary-review-floor/index.html"><strong>境界レビューフロアを開く</strong><span>不可逆化前に実効的拒否が保たれているかを確認する。</span></a>
+        </div>
+        <div class="note"><strong>反復利用向けメモ：</strong>同じツールを繰り返し使う担当者は、このページ、または個別ツールページを直接ブックマークできます。ログイン、スクリプト、外部サービスは不要です。</div>
+      </section>
+
+      <section class="l30-section" id="choose-by-task">
+        <h2>目的別に選ぶ</h2>
+        <table>
+          <thead><tr><th>目的</th><th>開くページ</th><th>理由</th></tr></thead>
+          <tbody>
+            <tr><td>次に何をすればよいか知りたい。</td><td><a href="JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">実務利用手順</a></td><td>レビュー、指針、チェックリスト、役割、再進行、長期継続性の順番を示す。</td></tr>
+            <tr><td>復帰・再進行が手続き上擁護可能か確認したい。</td><td><a href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">実装チェックリスト</a></td><td>証拠、欠落、対応、責任者、結果分類を確認する。</td></tr>
+            <tr><td>責任者や証拠保全先を割り当てたい。</td><td><a href="JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">役割・証拠マトリクス</a></td><td>誰が停止を維持し、誰が証拠を保全し、誰が再進行をレビューするかを整理する。</td></tr>
+            <tr><td>可逆復帰の基本原則を確認したい。</td><td><a href="JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">可逆復帰指針</a></td><td>可逆性へ戻るとは何か、何を許可するものではないかを確認する。</td></tr>
+            <tr><td>インシデントを評価している。</td><td><a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">インシデントレビュー</a></td><td>事故後評価にLUMINA-30の境界問いを適用する。</td></tr>
+            <tr><td>境界失敗や拒否権低下を確認したい。</td><td><a href="../reference/boundary-review-floor/index.html">境界レビューフロア</a></td><td>全体を読まなくても、中核となる境界問いから確認できる。</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="l30-section" id="choose-by-role">
+        <h2>担当別に選ぶ</h2>
+        <ul class="role-list">
+          <li><strong>インシデントレビュー担当：</strong><a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">インシデントレビュー</a>から入り、必要に応じて<a href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">実装チェックリスト</a>を使う。</li>
+          <li><strong>監査・ガバナンス担当：</strong><a href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">実装チェックリスト</a>と<a href="JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">役割・証拠マトリクス</a>を使う。</li>
+          <li><strong>証拠保全担当：</strong><a href="JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">役割・証拠マトリクス</a>で証拠保全先と欠落記録を確認する。</li>
+          <li><strong>再進行レビュー担当：</strong><a href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html#review-outcome">チェックリストの結果分類</a>を使い、再進行が限定的・監視付き・可逆的であるか確認する。</li>
+          <li><strong>政策・外部説明担当：</strong><a href="JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">実務利用手順</a>または<a href="JP_L30_REVERSIBLE_PROSPERITY_ADOPTION_NOTE.html">導入ノート</a>から確認する。</li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="what-this-is-not">
+        <h2>このページではないもの</h2>
+        <ul>
+          <li>ダッシュボード、データベース、ワークフローシステム、認証ツール、許可制度ではありません。</li>
+          <li>ユーザー設定や追跡データを保存しません。</li>
+          <li>法務、技術、安全、組織、規制上のレビューを代替しません。</li>
+          <li>よく使うLUMINA-30実務ツールを素早く開くための静的な公開参照ページです。</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>LUMINA-30 実務ツール・クイックアクセス。非拘束の公開参照資料であり、認証、法的権限、規制上の効力、公式採用、制度的承認を主張するものではありません。</p>
+    </footer>
+  </div>
+</body>
+</html>

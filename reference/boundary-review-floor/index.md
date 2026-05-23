@@ -10,6 +10,13 @@ The Boundary Review Floor is a role-based entry area for readers who want to und
 >
 > LUMINA-30は、監督が存在したかではなく、不可逆化前に拒否がなお実効的だったかを問います。
 
+
+## Practical Tools Quick Access ｜ 実務ツール・クイックアクセス
+
+For repeated operational use, open the practical tools directly: [EN Practical Tools Quick Access](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html) ｜ [JP 実務ツール・クイックアクセス](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html).
+
+反復的な実務利用では、実務ツールを直接開けます：[EN Practical Tools Quick Access](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html) ｜ [JP 実務ツール・クイックアクセス](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html)。
+
 ## Reversible Prosperity Path ｜ 可逆的繁栄の道
 
 Boundary review is not only a method for identifying failure. It is also a way to preserve the conditions under which progress can continue without crossing into irreversibility.

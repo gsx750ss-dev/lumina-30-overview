@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <meta name="description" content="L30 Practical Tools Quick Access" />
+  <title>L30 Practical Tools Quick Access</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --l30-bg: Canvas;
+      --l30-text: CanvasText;
+      --l30-link: LinkText;
+      --l30-muted: color-mix(in srgb, CanvasText 72%, Canvas 28%);
+      --l30-panel: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+      --l30-panel-strong: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+      --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+      --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
+      --l30-radius: 18px;
+      --l30-radius-large: 24px;
+      --l30-shadow: 0 14px 34px color-mix(in srgb, CanvasText 14%, transparent);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--l30-bg); color: var(--l30-text); -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--l30-bg);
+      color: var(--l30-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.72;
+      font-size: 17px;
+    }
+    a { color: var(--l30-link); text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 2px; }
+    .page { max-width: 1100px; margin: 0 auto; padding: 20px 16px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      color: var(--l30-link);
+      text-decoration: none;
+      font-size: 0.94rem;
+      font-weight: 650;
+    }
+    header.hero {
+      background: var(--l30-panel-strong);
+      border: 2px solid var(--l30-line-strong);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      box-shadow: var(--l30-shadow);
+      padding: clamp(24px, 5vw, 50px);
+      margin-bottom: 28px;
+    }
+    header.hero p { max-width: 78ch; }
+    .kicker {
+      display: inline-flex;
+      margin-bottom: 12px;
+      padding: 5px 10px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      font-size: 0.92rem;
+      font-weight: 760;
+    }
+    h1 { margin: 0; font-size: clamp(2.05rem, 6vw, 4.2rem); line-height: 1.08; letter-spacing: -0.035em; }
+    h2 { margin: 0 0 0.8rem; font-size: clamp(1.45rem, 3.4vw, 2.2rem); line-height: 1.18; }
+    h3 { margin: 1.2rem 0 0.5rem; font-size: clamp(1.18rem, 2.4vw, 1.55rem); line-height: 1.25; }
+    .lead { font-size: clamp(1.05rem, 2.2vw, 1.28rem); font-weight: 600; }
+    .l30-section {
+      margin: clamp(22px, 4vw, 40px) 0;
+      padding: clamp(20px, 3.4vw, 34px);
+      border: 2px solid var(--l30-line);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      background: var(--l30-panel);
+      box-shadow: var(--l30-shadow);
+    }
+    .note, .warning {
+      margin: 16px 0;
+      padding: 14px 16px;
+      border: 1px solid var(--l30-line);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel-strong);
+    }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; overflow-wrap: anywhere; }
+    th, td { border: 1px solid var(--l30-line); padding: 10px 12px; vertical-align: top; }
+    th { background: var(--l30-panel-strong); text-align: left; }
+    ol, ul { padding-left: 1.35rem; }
+    code { background: var(--l30-panel-strong); padding: 0.1em 0.3em; border-radius: 0.35em; }
+    footer { margin-top: 30px; color: var(--l30-muted); font-size: 0.95rem; }
+    @media (max-width: 720px) {
+      body { font-size: 16px; }
+      th, td { display: block; width: 100%; }
+      th { border-bottom: 0; }
+      tr { display: block; margin: 0 0 14px; border: 1px solid var(--l30-line); }
+      tr th, tr td { border-left: 0; border-right: 0; }
+    }
+
+    .quick-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px;
+      margin: 18px 0;
+    }
+    .tool-card {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      min-height: 150px;
+      padding: 16px;
+      border: 2px solid var(--l30-line);
+      border-left: 8px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel-strong);
+      text-decoration: none;
+      color: var(--l30-text);
+      box-shadow: 0 8px 20px color-mix(in srgb, CanvasText 10%, transparent);
+    }
+    .tool-card strong { font-size: 1.08rem; color: var(--l30-link); }
+    .tool-card span { color: var(--l30-muted); }
+    .tool-card:hover { border-color: var(--l30-line-strong); }
+    .role-list li { margin-bottom: 0.7rem; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html#reversible-prosperity-path-top">Back to Overview</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">Practical Use Sequence</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Implementation Checklist</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Role and Evidence Matrix</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">Return Guidance</a>
+      <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">Incident Review</a>
+      <a href="../reference/boundary-review-floor/index.html">Boundary Review Floor</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html">Reload</a>
+    </nav>
+
+    <header class="hero">
+      <span class="kicker">LUMINA-30 Practical Tools</span>
+      <h1>Practical Tools Quick Access</h1>
+      <p class="lead">A repeat-use entry point for opening the LUMINA-30 practical tools without reading the full sequence each time.</p>
+      <p>Use this page when you already know your recurring task: review an incident, fill the checklist, assign owners and evidence, or return a stopped trajectory to reversible and controllable progress.</p>
+    </header>
+
+    <main>
+      <section class="l30-section" id="frequently-used-tools">
+        <h2>Frequently used practical tools</h2>
+        <div class="quick-grid">
+          <a class="tool-card" href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html"><strong>Open the implementation checklist</strong><span>Use for evidence, gaps, action, owner, and re-entry status.</span></a>
+          <a class="tool-card" href="EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html"><strong>Open the role and evidence matrix</strong><span>Use when responsibility, evidence custody, or stop authority must be assigned.</span></a>
+          <a class="tool-card" href="EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html"><strong>Open the practical use sequence</strong><span>Use when the team needs the order of operations.</span></a>
+          <a class="tool-card" href="EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html"><strong>Open return guidance</strong><span>Use when the team needs the governing non-binding principle.</span></a>
+          <a class="tool-card" href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html"><strong>Open incident review</strong><span>Use when reviewing an incident or post-incident evidence.</span></a>
+          <a class="tool-card" href="../reference/boundary-review-floor/index.html"><strong>Open boundary review floor</strong><span>Use when checking whether effective refusal remains meaningful before irreversibility.</span></a>
+        </div>
+        <div class="note"><strong>Repeat-use note:</strong> teams that use the same tool repeatedly can bookmark this page or bookmark the specific tool page directly. No login, script, or external service is required.</div>
+      </section>
+
+      <section class="l30-section" id="choose-by-task">
+        <h2>Choose by task</h2>
+        <table>
+          <thead><tr><th>Task</th><th>Open this</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td>I need to know what to do next.</td><td><a href="EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">Practical Use Sequence</a></td><td>Shows the order: review, guidance, checklist, roles, re-entry, continuity.</td></tr>
+            <tr><td>I need to check whether return or re-entry is procedurally defensible.</td><td><a href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Implementation Checklist</a></td><td>Converts the return path into reviewable evidence, gaps, actions, owners, and outcomes.</td></tr>
+            <tr><td>I need to assign responsibility or evidence custody.</td><td><a href="EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Role and Evidence Matrix</a></td><td>Names who maintains the stop, preserves evidence, reviews re-entry, and monitors renewed stop conditions.</td></tr>
+            <tr><td>I need the core return principle.</td><td><a href="EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">Return-to-Reversibility Guidance</a></td><td>Explains what return to reversibility means and what it does not authorize.</td></tr>
+            <tr><td>I am reviewing an incident.</td><td><a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">Incident Review</a></td><td>Applies the boundary question to incident review and post-incident evaluation.</td></tr>
+            <tr><td>I am checking a boundary failure or weakened refusal condition.</td><td><a href="../reference/boundary-review-floor/index.html">Boundary Review Floor</a></td><td>Starts from the boundary question without requiring the reader to read the whole framework first.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="l30-section" id="choose-by-role">
+        <h2>Choose by role</h2>
+        <ul class="role-list">
+          <li><strong>Incident reviewer:</strong> start with <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">Incident Review</a>, then use the <a href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Implementation Checklist</a>.</li>
+          <li><strong>Auditor or governance reviewer:</strong> use the <a href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Implementation Checklist</a> and <a href="EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Role and Evidence Matrix</a>.</li>
+          <li><strong>Evidence custodian:</strong> use the <a href="EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Role and Evidence Matrix</a> to identify evidence custody and missing records.</li>
+          <li><strong>Re-entry reviewer:</strong> use the <a href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html#review-outcome">Checklist outcome</a> and confirm that re-entry is limited, monitored, reversible, and not the same path.</li>
+          <li><strong>Policy or external reader:</strong> start from the <a href="EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">Practical Use Sequence</a> or <a href="EN_L30_REVERSIBLE_PROSPERITY_ADOPTION_NOTE.html">Adoption Note</a>.</li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="what-this-is-not">
+        <h2>What this quick access page is not</h2>
+        <ul>
+          <li>It is not a dashboard, database, workflow system, certification tool, or permission system.</li>
+          <li>It does not store user preferences or tracking data.</li>
+          <li>It does not replace legal, technical, safety, institutional, or regulatory review.</li>
+          <li>It is a static public reference page for quickly opening frequently used LUMINA-30 tools.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>LUMINA-30 Practical Tools Quick Access. Non-binding public reference material. No certification, legal authority, regulatory force, official adoption, or institutional endorsement is claimed.</p>
+    </footer>
+  </div>
+</body>
+</html>
