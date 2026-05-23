@@ -14,16 +14,16 @@
   --l30-text: CanvasText;
   --l30-link: LinkText;
   --l30-surface: Canvas;
-  --l30-surface-soft: Canvas;
-  --l30-surface-raised: Canvas;
-  --l30-line: GrayText;
-  --l30-line-strong: GrayText;
+  --l30-surface-soft: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+  --l30-surface-raised: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+  --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+  --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
   --l30-muted: GrayText;
   --l30-emphasis: CanvasText;
   --l30-danger: CanvasText;
   --l30-radius: 20px;
   --l30-radius-large: 28px;
-  --l30-shadow: none;
+  --l30-shadow: 0 12px 24px color-mix(in srgb, CanvasText 9%, transparent);
 
   --bg: var(--l30-bg);
   --panel: var(--l30-surface-soft);
@@ -41,15 +41,15 @@
 
 @supports (color: color-mix(in srgb, Canvas 90%, CanvasText 10%)) {
   :root {
-    --l30-surface: color-mix(in srgb, Canvas 97%, CanvasText 3%);
-    --l30-surface-soft: color-mix(in srgb, Canvas 94%, CanvasText 6%);
-    --l30-surface-raised: color-mix(in srgb, Canvas 90%, CanvasText 10%);
-    --l30-line: color-mix(in srgb, CanvasText 22%, transparent);
-    --l30-line-strong: color-mix(in srgb, CanvasText 38%, transparent);
+    --l30-surface: color-mix(in srgb, Canvas 94%, CanvasText 6%);
+    --l30-surface-soft: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+    --l30-surface-raised: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+    --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+    --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
     --l30-muted: color-mix(in srgb, CanvasText 68%, Canvas);
     --l30-emphasis: color-mix(in srgb, CanvasText 84%, LinkText 16%);
     --l30-danger: color-mix(in srgb, CanvasText 76%, LinkText 24%);
-    --l30-shadow: 0 18px 42px color-mix(in srgb, CanvasText 12%, transparent);
+    --l30-shadow: 0 18px 42px color-mix(in srgb, CanvasText 16%, transparent);
   }
 }
 
@@ -131,12 +131,13 @@ details,
 
 .hero-callout {
   position: relative;
-  margin: 30px 0 32px;
-  padding: clamp(28px, 6vw, 64px);
-  border: 1px solid var(--line-strong);
-  border-left: 8px solid var(--line-strong);
+  margin: 30px 0 36px;
+  padding: clamp(30px, 6vw, 66px);
+  border: 2px solid var(--line-strong);
+  border-left: 12px solid var(--line-strong);
   border-radius: 32px;
-  background: linear-gradient(135deg, var(--panel), var(--l30-surface));
+  background: linear-gradient(135deg, var(--panel2), var(--panel));
+  box-shadow: var(--shadow);
 }
 .hero-callout .eyebrow { display: inline-flex; margin-bottom: 12px; }
 .hero-callout strong { max-width: 15ch; font-size: clamp(1.85rem, 5.2vw, 4.1rem); letter-spacing: -.045em; }
@@ -209,10 +210,10 @@ ul { padding-left: 1.35rem; }
 
 /* v8.1: real section panels applied to README-derived body content. */
 .l30-section {
-  margin: clamp(26px, 4vw, 46px) 0;
-  padding: clamp(20px, 3.4vw, 34px);
-  border: 1px solid var(--line);
-  border-left: 7px solid var(--line-strong);
+  margin: clamp(28px, 4.2vw, 50px) 0;
+  padding: clamp(22px, 3.5vw, 36px);
+  border: 2px solid var(--line);
+  border-left: 10px solid var(--line-strong);
   border-radius: var(--l30-radius-large);
   background: var(--panel);
   color: var(--text);
