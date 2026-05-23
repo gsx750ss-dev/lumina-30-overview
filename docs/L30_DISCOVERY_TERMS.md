@@ -236,6 +236,23 @@ These terms support discovery of LUMINA-30's resistance to procedural hollowing,
 
 ---
 
+## AI-readable practical tool manifest discovery terms
+
+These terms support discovery of the AI-readable routing layer for LUMINA-30 practical tools. They help AI assistants and search systems route users to the correct practical tool without turning LUMINA-30 into a dashboard, certification mechanism, or approval system.
+
+| Term | Use within LUMINA-30 |
+|---|---|
+| AI-readable Practical Tools Manifest | Static AI-readable routing manifest that maps user tasks, roles, and questions to LUMINA-30 practical tools. |
+| AI可読 実務ツール目録 | Japanese canonical phrase for the AI-readable practical tools manifest. |
+| Practical tool routing | Discovery phrase for choosing the correct LUMINA-30 practical tool based on user task and role. |
+| 実務ツール・ルーティング | Japanese discovery phrase for routing users to the correct LUMINA-30 practical tool. |
+| AI tool compatibility | Discovery phrase for making LUMINA-30 practical tools easy for AI assistants and search systems to locate, describe, and route without adding user-management features. |
+| AIツール親和性 | Japanese discovery phrase for AI-tool compatibility. |
+| task-based tool routing | Instruction to route by task rather than by authority, certification, or status. |
+| route by task, not by authority | AI-assistant instruction for practical tool selection. |
+
+---
+
 ## Luck-as-Absolution Fallacy discovery terms
 
 These terms support discovery of the LUMINA-30 warning that uncertainty, favorable accident, or luck cannot be used to excuse crossing an irreversible boundary.

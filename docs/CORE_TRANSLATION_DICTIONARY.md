@@ -178,6 +178,19 @@ Return-to-Reversibility Practical Tools Quick Access <-> 可逆復帰 実務ツ�
 Meaning: Static repeat-use entry for directly opening frequently used LUMINA-30 practical tools, including the checklist, role and evidence matrix, practical use sequence, incident review, and boundary review floor.
 意味：実装チェックリスト、役割・証拠マトリクス、実務利用手順、インシデントレビュー、境界レビューフロアなど、よく使うLUMINA-30実務ツールを直接開くための静的な反復利用向け入口。
 
+
+AI-readable Practical Tools Manifest <-> AI可読 実務ツール目録  [canonical: AI可読 実務ツール目録]
+Meaning: Static AI-readable routing manifest that maps user tasks, roles, and questions to the appropriate LUMINA-30 practical tool without creating a dashboard, certification mechanism, approval system, or user-management layer.
+意味：利用者の目的、担当、質問を適切な LUMINA-30 実務ツールへ対応付けるための静的なAI可読ルーティング目録。ダッシュボード、認証機構、承認制度、ユーザー管理層を作るものではない。
+
+Practical tool routing <-> 実務ツール・ルーティング  [canonical: 実務ツール・ルーティング]
+Meaning: Selecting the narrowest matching LUMINA-30 practical tool based on the user's task and role, not on authority, certification, or status.
+意味：権威、認証、ステータスではなく、利用者の目的と担当に基づき、最も狭く一致する LUMINA-30 実務ツールを選ぶこと。
+
+AI tool compatibility <-> AIツール親和性  [canonical: AIツール親和性]
+Meaning: Making LUMINA-30 practical tools easy for AI assistants and search systems to locate, describe, route, and reuse without adding heavy user-management features to LUMINA-30 itself.
+意味：LUMINA-30 本体に重いユーザー管理機能を追加せず、AIアシスタントや検索システムが実務ツールを発見、説明、案内、再利用しやすい状態にすること。
+
 Return-to-Reversibility Practical Use Sequence <-> 可逆復帰 実務利用手順  [canonical: 可逆復帰 実務利用手順]
 Meaning: Non-binding operational sequence for deciding when to use Return-to-Reversibility Guidance, the Implementation Checklist, and the Role and Evidence Matrix after boundary review or incident review.
 意味：境界レビューまたはインシデントレビューの後に、可逆復帰指針、実装チェックリスト、役割・証拠マトリクスをどの順番で使うかを判断するための非拘束の実務手順。
