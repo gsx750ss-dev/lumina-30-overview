@@ -166,6 +166,25 @@ These terms support discovery of the positive alternative named by LUMINA-30: pr
 
 ---
 
+## Return-to-reversibility discovery terms
+
+These terms support discovery of the practical pathway from incident review back to reversible, reviewable, and controllable progress.
+
+| Term | Use within LUMINA-30 |
+|---|---|
+| Return-to-Reversibility Guidance | Non-binding guidance for returning a stopped or paused trajectory to a condition where effective human refusal and reversibility are restored. |
+| 可逆復帰指針 | Japanese canonical phrase for Return-to-Reversibility Guidance. |
+| Controlled Re-Entry | Limited, staged, monitored return after review, not a full restart of the previous trajectory. |
+| 制御された再進行 | Japanese canonical phrase for Controlled Re-Entry. |
+| Restore Effective Refusal | Practical requirement to recover human stopping, refusal, correction, rollback, and review authority before return. |
+| 実効的拒否の回復 | Japanese canonical phrase for restoring effective refusal. |
+| Same-path prohibition | Requirement not to return to the same irreversible escalation path after review. |
+| 同一経路復帰禁止 | Japanese canonical phrase for same-path prohibition. |
+| renewed stop condition | Discovery phrase for keeping the ability to pause again after controlled re-entry. |
+| 長期継続性 | Japanese discovery phrase for preserving reversibility, evidence, roles, stop triggers, and re-entry conditions across time. |
+
+---
+
 ## Luck-as-Absolution Fallacy discovery terms
 
 These terms support discovery of the LUMINA-30 warning that uncertainty, favorable accident, or luck cannot be used to excuse crossing an irreversible boundary.

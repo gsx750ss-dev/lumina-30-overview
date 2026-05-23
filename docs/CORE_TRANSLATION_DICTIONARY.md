@@ -169,6 +169,26 @@ Humanity's future is not anyone's wager <-> 人類の未来は誰かの賭け金
 Meaning: A public-facing warning against treating humanity-wide irreversible risk as a permissible wager for any limited actor's benefit or competitive advantage.
 意味：人類全体に及ぶ不可逆的リスクを、限定された主体の利益や競争優位のために賭けてよい対象として扱ってはならない、という公開向け警告。
 
+Return-to-Reversibility Guidance <-> 可逆復帰指針  [canonical: 可逆復帰指針]
+Meaning: Non-binding guidance for returning a stopped or paused trajectory to a condition where effective human refusal and reversibility are restored.
+意味：停止または一時停止された進路を、実効的人間拒否と可逆性が回復された条件へ戻すための非拘束の指針。
+
+Controlled Re-Entry <-> 制御された再進行  [canonical: 制御された再進行]
+Meaning: Limited, staged, monitored re-entry after review; not a full restart of the previous trajectory.
+意味：レビュー後の限定的・段階的・監視付きの再進行。停止前の進路の全面再開ではない。
+
+Restore Effective Refusal <-> 実効的拒否の回復  [canonical: 実効的拒否の回復]
+Meaning: Practical restoration of human stopping, refusal, correction, rollback, and review authority before return.
+意味：復帰前に、人間による停止・拒否・修正・ロールバック・レビュー権限を実務的に回復すること。
+
+Same-path Prohibition <-> 同一経路復帰禁止  [canonical: 同一経路復帰禁止]
+Meaning: Requirement not to return to the same irreversible escalation path after review.
+意味：レビュー後に、同じ不可逆的エスカレーション経路へ戻ってはならないという要件。
+
+Long-term Continuity <-> 長期継続性  [canonical: 長期継続性]
+Meaning: Preservation of effective refusal, evidence retention, review roles, stop triggers, re-entry conditions, and renewed stop authority across time.
+意味：時間の経過を越えて、実効的拒否、証拠保全、レビュー役割、停止条件、再進行条件、再停止権限を維持すること。
+
 ---
 
 ## Meta

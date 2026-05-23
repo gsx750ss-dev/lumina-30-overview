@@ -124,6 +124,7 @@
   <div class="page">
     <nav class="nav" aria-label="Page navigation">
       <a href="../index.html#reversible-prosperity-path-top">Back to Overview</a>
+      <a href="../reference/boundary-review-floor/index.html">Boundary Review Floor</a>
       <a href="../docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html">Reversible Prosperity Path</a>
       <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">Incident Review</a>
       <a href="EN_L30_REVERSIBLE_PROSPERITY_ADOPTION_NOTE.html">Adoption Note</a>
@@ -153,6 +154,27 @@
         <h2>Why this guidance exists</h2>
         <p>Incident review can fail if it stops at responsibility assignment. Under LUMINA-30, review should also help prevent irreversible escalation from becoming the new normal.</p>
         <p>A review therefore needs a return pathway: a way to decide whether the system, deployment path, or governance process has moved back inside a condition where progress remains stoppable, reviewable, and reversible.</p>
+      </section>
+
+      <section class="l30-section" id="stop-triggers-and-roles">
+        <h2>Stop triggers and operational roles</h2>
+        <p>For this guidance to work in practice, review must identify who can trigger a pause, who preserves evidence, who diagnoses the boundary concern, and who can reject or limit re-entry.</p>
+        <h3>Example stop triggers</h3>
+        <ul>
+          <li>human operators no longer have enough time or authority to stop the trajectory;</li>
+          <li>refusal, override, rollback, or suspension no longer changes the outcome;</li>
+          <li>logs, warnings, approvals, or intervention records are missing or non-auditable;</li>
+          <li>automation dependency is expanding faster than review can verify;</li>
+          <li>external impact pathways are becoming irreversible before review is complete.</li>
+        </ul>
+        <h3>Operational roles to identify</h3>
+        <ul>
+          <li><strong>Stop Authority:</strong> who can pause or constrain the trajectory;</li>
+          <li><strong>Evidence Custodian:</strong> who preserves logs, warnings, approvals, and refusal records;</li>
+          <li><strong>Boundary Reviewer:</strong> who determines whether effective refusal remained real;</li>
+          <li><strong>Re-entry Reviewer:</strong> who checks minimum return conditions before controlled re-entry;</li>
+          <li><strong>Refusal Authority Holder:</strong> who can continue rejecting unsafe re-entry.</li>
+        </ul>
       </section>
 
       <section class="l30-section" id="six-stage-return-path">
@@ -193,6 +215,12 @@
           <li>reviewers are asked to rely on luck, uncertainty, or optimistic assumptions;</li>
           <li>the return would normalize irreversible loss as an acceptable operating condition.</li>
         </ul>
+      </section>
+
+      <section class="l30-section" id="long-term-continuity">
+        <h2>Long-term continuity</h2>
+        <p>Return-to-Reversibility Guidance is not only for a single incident. It should help preserve the continuity of reversibility over time: effective refusal, evidence retention, review roles, stop triggers, re-entry conditions, and renewed stop authority must not degrade as personnel, systems, institutions, or technologies change.</p>
+        <p>Without periodic review and role succession, a once-effective return process can become ceremonial. LUMINA-30 therefore treats long-term continuity as part of the practical path: the ability to stop, verify, refuse, correct, and return must remain alive across system updates, organizational changes, and future generations of deployment.</p>
       </section>
 
       <section class="l30-section" id="relation-to-lumina-30">

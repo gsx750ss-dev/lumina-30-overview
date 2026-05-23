@@ -124,6 +124,7 @@
   <div class="page">
     <nav class="nav" aria-label="ページ内ナビゲーション">
       <a href="../index-ja.html#reversible-prosperity-path-top">概要へ戻る</a>
+      <a href="../reference/boundary-review-floor/index.html">境界レビューフロア</a>
       <a href="../docs/JP_L30_REVERSIBLE_PROSPERITY_PATH.html">可逆的繁栄の道</a>
       <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">インシデントレビュー</a>
       <a href="JP_L30_REVERSIBLE_PROSPERITY_ADOPTION_NOTE.html">導入ノート</a>
@@ -155,6 +156,27 @@
         <p>そのため、レビューには復帰経路が必要である。すなわち、システム、導入経路、またはガバナンス過程が、停止可能・検証可能・修正可能・可逆的な条件へ戻ったかを判断する道筋である。</p>
       </section>
 
+      <section class="l30-section" id="stop-triggers-and-roles">
+        <h2>停止条件と実務上の役割</h2>
+        <p>この指針を実務で回すには、誰が停止を発動できるのか、誰が証拠を保全するのか、誰が境界上の懸念を診断するのか、誰が再進行を拒否または制限できるのかを明確にする必要がある。</p>
+        <h3>停止条件の例</h3>
+        <ul>
+          <li>人間の担当者に、進路を止める時間または権限が残っていない。</li>
+          <li>拒否、上書き、ロールバック、一時停止が結果を変えられない。</li>
+          <li>ログ、警告、承認、介入記録が欠落している、または監査不能である。</li>
+          <li>自動化依存が、レビューで確認できる速度を超えて拡大している。</li>
+          <li>レビュー完了前に、外部影響経路が不可逆化し始めている。</li>
+        </ul>
+        <h3>特定すべき実務上の役割</h3>
+        <ul>
+          <li><strong>停止権限者：</strong>進路を一時停止または制約できる者。</li>
+          <li><strong>証拠保全責任者：</strong>ログ、警告、承認、拒否記録を保全する者。</li>
+          <li><strong>境界レビュー担当者：</strong>実効的拒否が本当に残っていたかを判断する者。</li>
+          <li><strong>再進行レビュー担当者：</strong>制御された再進行の前に最低復帰条件を確認する者。</li>
+          <li><strong>拒否権保持者：</strong>危険な再進行を継続して拒否できる者。</li>
+        </ul>
+      </section>
+
       <section class="l30-section" id="six-stage-return-path">
         <h2>6段階の復帰経路</h2>
         <ol>
@@ -183,6 +205,13 @@
         <div class="criterion"><strong>中核テスト：</strong>人間の実効的拒否が回復していないなら、その進路は可逆性へ復帰していない。</div>
       </section>
 
+      <section class="l30-section" id="same-path-prohibition">
+        <h2>同一経路復帰禁止と再停止条件</h2>
+        <p>制御された再進行は、システムを同じ不可逆化経路へ戻してはならない。同じ承認経路、同じ証拠欠落、同じ拒否迂回、同じ自動化依存、同じロールバック不能状態へ戻るなら、可逆性は回復していない。</p>
+        <p>再進行は、限定的・期限付き・監視付き・ロールバック可能な状態に留める必要がある。同じ不可逆化への流れが再び現れた場合に、もう一度止められる再停止条件を残しておくべきである。</p>
+        <div class="criterion"><strong>実務上の区別：</strong>復帰は再起動ではない。復帰とは、停止・拒否・修正・ロールバックが実効的である条件へ、検証可能な形で戻ることである。</div>
+      </section>
+
       <section class="l30-section" id="do-not-return-if">
         <h2>復帰してはならない場合</h2>
         <ul>
@@ -193,6 +222,12 @@
           <li>レビュー担当者に、幸運、不確実性、楽観的期待へ依存する判断を求めている。</li>
           <li>復帰によって、不可逆的喪失が通常運用として正当化される。</li>
         </ul>
+      </section>
+
+      <section class="l30-section" id="long-term-continuity">
+        <h2>長期継続性</h2>
+        <p>可逆復帰指針は、一回のインシデント対応だけのためのものではない。それは、時間の経過によって可逆性が劣化しないようにするための指針でもある。人員、システム、制度、技術が変化しても、実効的拒否、証拠保全、レビュー役割、停止条件、再進行条件、再停止権限が形骸化してはならない。</p>
+        <p>定期レビューと役割継承がなければ、かつて有効だった復帰手順も儀式化しうる。したがってLUMINA-30では、長期継続性も実務上の道の一部である。停止・検証・拒否・修正・復帰の能力は、システム更新、組織変更、将来世代の導入を越えて生きたまま残る必要がある。</p>
       </section>
 
       <section class="l30-section" id="relation-to-lumina-30">

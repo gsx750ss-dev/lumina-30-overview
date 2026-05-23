@@ -17,6 +17,16 @@ Boundary review is not only a method for identifying failure. It is also a way t
 
 See also: [Reversible Prosperity Path](../../docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html) ｜ [可逆的繁栄の道](../../docs/JP_L30_REVERSIBLE_PROSPERITY_PATH.html)
 
+## Return-to-Reversibility Guidance ｜ 可逆復帰指針
+
+Boundary review does not end with identifying a boundary concern. When review indicates that effective refusal, verification, correction, or rollback has weakened, the next question is whether the trajectory can return to a reversible and controllable condition before irreversible escalation becomes normalized.
+
+境界レビューは、境界上の懸念を特定して終わるものではない。レビューによって、実効的な拒否・検証・修正・ロールバックが弱まっていると分かった場合、次に問うべきことは、不可逆的エスカレーションが常態化する前に、その進路を可逆的で制御可能な状態へ戻せるかである。
+
+The [Return-to-Reversibility Guidance](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) ｜ [可逆復帰指針](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) provides a non-binding reference for that next step: stop, preserve evidence, diagnose the boundary failure, restore effective human refusal, allow only controlled re-entry, and monitor after return.
+
+[Return-to-Reversibility Guidance](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) ｜ [可逆復帰指針](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) は、その次段階のための非拘束の参照指針である。すなわち、停止、証拠保全、境界失敗の診断、実効的人間拒否の回復、制御された再進行、復帰後監視を確認する。
+
 You do not need to read every room. Choose the room that matches your role or purpose.
 
 すべての部屋を読む必要はありません。自分の立場や目的に合う部屋から読んでください。
