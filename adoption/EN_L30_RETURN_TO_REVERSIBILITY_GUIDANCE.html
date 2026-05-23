@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <meta name="description" content="L30 Return-to-Reversibility Guidance" />
+  <title>L30 Return-to-Reversibility Guidance</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --l30-bg: Canvas;
+      --l30-text: CanvasText;
+      --l30-link: LinkText;
+      --l30-muted: color-mix(in srgb, CanvasText 72%, Canvas 28%);
+      --l30-panel: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+      --l30-panel-strong: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+      --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+      --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
+      --l30-radius: 18px;
+      --l30-radius-large: 24px;
+      --l30-shadow: 0 14px 34px color-mix(in srgb, CanvasText 14%, transparent);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--l30-bg); color: var(--l30-text); -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--l30-bg);
+      color: var(--l30-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.72;
+      font-size: 17px;
+    }
+    a { color: var(--l30-link); text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 2px; }
+    .page { max-width: 1040px; margin: 0 auto; padding: 20px 16px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      color: var(--l30-link);
+      text-decoration: none;
+      font-size: 0.94rem;
+      font-weight: 650;
+    }
+    header.hero {
+      background: var(--l30-panel-strong);
+      border: 2px solid var(--l30-line-strong);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      box-shadow: var(--l30-shadow);
+      padding: clamp(24px, 5vw, 52px);
+      margin-bottom: 24px;
+    }
+    .kicker {
+      display: inline-flex;
+      margin: 0 0 12px;
+      padding: 5px 10px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      font-size: 0.92rem;
+      font-weight: 760;
+    }
+    h1, h2, h3 { color: var(--l30-text); line-height: 1.18; letter-spacing: -0.02em; }
+    h1 { margin: 0 0 12px; font-size: clamp(2.05rem, 5vw, 3.8rem); }
+    .subtitle { margin: 0; max-width: 74ch; font-size: clamp(1.06rem, 2.1vw, 1.28rem); font-weight: 590; color: var(--l30-text); }
+    .summary-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 22px 0 0; }
+    .summary-card {
+      border: 1px solid var(--l30-line);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel);
+      padding: 14px 16px;
+      min-height: 100%;
+    }
+    .summary-card strong { display: block; margin-bottom: 4px; font-size: 1.02rem; }
+    main { display: block; }
+    .l30-section {
+      margin: clamp(24px, 4vw, 42px) 0;
+      padding: clamp(20px, 3.2vw, 32px);
+      border: 2px solid var(--l30-line);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      background: var(--l30-panel);
+      color: var(--l30-text);
+      box-shadow: var(--l30-shadow);
+    }
+    .l30-section h2 { margin: 0 0 12px; font-size: clamp(1.55rem, 3.4vw, 2.35rem); }
+    .l30-section h3 { margin: 22px 0 8px; font-size: clamp(1.22rem, 2.2vw, 1.6rem); }
+    p { margin: 0 0 14px; max-width: 82ch; }
+    ul, ol { margin: 10px 0 18px 1.35rem; padding: 0; }
+    li { margin: 7px 0; }
+    .note, .criterion, blockquote {
+      margin: 16px 0;
+      padding: 14px 16px;
+      border: 1px solid var(--l30-line);
+      border-left: 6px solid var(--l30-line-strong);
+      border-radius: 14px;
+      background: var(--l30-panel-strong);
+    }
+    blockquote p { margin: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 14px 0 20px; }
+    th, td { border: 1px solid var(--l30-line); padding: 10px 12px; vertical-align: top; }
+    th { background: var(--l30-panel-strong); text-align: left; }
+    footer { margin-top: 22px; color: var(--l30-muted); font-size: 0.93rem; }
+    code { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    @media (max-width: 760px) {
+      body { font-size: 16.5px; }
+      .page { padding: 14px 12px 44px; }
+      .summary-row { grid-template-columns: 1fr; }
+      header.hero, .l30-section { border-left-width: 8px; }
+      table, thead, tbody, tr, th, td { display: block; width: 100%; }
+      th { border-bottom: 0; }
+      td { border-top: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html#reversible-prosperity-path-top">Back to Overview</a>
+      <a href="../docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html">Reversible Prosperity Path</a>
+      <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">Incident Review</a>
+      <a href="EN_L30_REVERSIBLE_PROSPERITY_ADOPTION_NOTE.html">Adoption Note</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">Reload</a>
+    </nav>
+
+    <header class="hero">
+      <span class="kicker">LUMINA-30 practice guidance</span>
+      <h1>Return-to-Reversibility Guidance</h1>
+      <p class="subtitle">Incident review is part of the Reversible Prosperity Path. It is not merely a record of failure; it is a mechanism for stopping, preserving evidence, restoring effective human refusal, and returning to a safer trajectory before irreversible escalation becomes normalized.</p>
+      <div class="summary-row" aria-label="Core summary">
+        <div class="summary-card"><strong>Stop first</strong><span>Freeze additional irreversible deployment, dependency expansion, or automated escalation.</span></div>
+        <div class="summary-card"><strong>Restore refusal</strong><span>Return only after human stopping, refusal, correction, and rollback are again effective.</span></div>
+        <div class="summary-card"><strong>Re-enter gradually</strong><span>Resume only in limited, monitored stages with evidence preserved and reviewable.</span></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="l30-section" id="status-and-scope">
+        <h2>Status and scope</h2>
+        <p>This page is a non-binding guidance note for post-review return decisions under the LUMINA-30 framework. It is not a certification, legal approval, operational authorization, or permission to resume deployment.</p>
+        <p>Its purpose is to clarify the conditions under which a stopped or paused trajectory can be redirected toward reversibility rather than simply restarted.</p>
+        <blockquote><p><strong>Return does not mean resuming the previous trajectory.</strong> Return means restoring the conditions under which effective human refusal, correction, verification, and rollback remain possible.</p></blockquote>
+      </section>
+
+      <section class="l30-section" id="why-this-guidance-exists">
+        <h2>Why this guidance exists</h2>
+        <p>Incident review can fail if it stops at responsibility assignment. Under LUMINA-30, review should also help prevent irreversible escalation from becoming the new normal.</p>
+        <p>A review therefore needs a return pathway: a way to decide whether the system, deployment path, or governance process has moved back inside a condition where progress remains stoppable, reviewable, and reversible.</p>
+      </section>
+
+      <section class="l30-section" id="six-stage-return-path">
+        <h2>Six-stage return path</h2>
+        <ol>
+          <li><strong>Freeze.</strong> Pause additional irreversible expansion, automated escalation, dependency growth, or unreviewed deployment.</li>
+          <li><strong>Preserve evidence.</strong> Preserve logs, warnings, refusal attempts, approval routes, intervention records, and decision timing.</li>
+          <li><strong>Boundary diagnosis.</strong> Identify what was approaching irreversibility and where human refusal became ineffective or merely formal.</li>
+          <li><strong>Restore effective refusal.</strong> Re-establish the practical ability to stop, refuse, correct, rollback, or constrain the trajectory before irreversible impact.</li>
+          <li><strong>Controlled re-entry.</strong> Resume only the parts that meet return conditions, in limited stages, with monitoring and review evidence preserved.</li>
+          <li><strong>Post-return monitoring.</strong> Continue watching for repeated drift toward irreversible escalation, refusal bypass, or evidence loss.</li>
+        </ol>
+      </section>
+
+      <section class="l30-section" id="minimum-return-conditions">
+        <h2>Minimum return conditions</h2>
+        <p>A return pathway should not be treated as acceptable unless the following conditions are met.</p>
+        <ul>
+          <li>Humans can again stop, refuse, verify, correct, and rollback the relevant trajectory in practice.</li>
+          <li>Evidence has been preserved so that the review can be audited or revisited.</li>
+          <li>The cause is explained structurally, not dismissed as bad luck or temporary noise.</li>
+          <li>The same irreversibility pathway is not being resumed unchanged.</li>
+          <li>Rollback, degraded operation, containment, or staged operation remains available.</li>
+          <li>The resumed scope is limited, staged, and monitored.</li>
+          <li>Reviewers can verify the return conditions rather than merely accept assurances.</li>
+          <li>Uncertainty or possible good fortune is not used as the justification for return.</li>
+        </ul>
+        <div class="criterion"><strong>Core test:</strong> if effective human refusal has not been restored, the path has not returned to reversibility.</div>
+      </section>
+
+      <section class="l30-section" id="do-not-return-if">
+        <h2>Do not return if</h2>
+        <ul>
+          <li>the system can no longer be stopped before irreversible impact;</li>
+          <li>refusal exists only as a formal approval step with no practical effect;</li>
+          <li>evidence was not preserved or cannot be reconstructed;</li>
+          <li>the same escalation path is resumed without structural correction;</li>
+          <li>reviewers are asked to rely on luck, uncertainty, or optimistic assumptions;</li>
+          <li>the return would normalize irreversible loss as an acceptable operating condition.</li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="relation-to-lumina-30">
+        <h2>Relation to LUMINA-30</h2>
+        <p>This guidance connects Incident Review to the Reversible Prosperity Path. It gives review a forward-facing role: not merely determining what went wrong, but helping preserve a path where civilization can still stop, verify, correct, and continue.</p>
+        <p>In this sense, review is part of reversible progress. It is a mechanism for returning from unsafe escalation to a condition where human refusal remains effective before irreversibility.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>LUMINA-30 Return-to-Reversibility Guidance. Non-binding public reference material.</p>
+    </footer>
+  </div>
+</body>
+</html>

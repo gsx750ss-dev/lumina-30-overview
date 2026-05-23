@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="L30 可逆復帰指針" />
+  <title>L30 可逆復帰指針</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --l30-bg: Canvas;
+      --l30-text: CanvasText;
+      --l30-link: LinkText;
+      --l30-muted: color-mix(in srgb, CanvasText 72%, Canvas 28%);
+      --l30-panel: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+      --l30-panel-strong: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+      --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+      --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
+      --l30-radius: 18px;
+      --l30-radius-large: 24px;
+      --l30-shadow: 0 14px 34px color-mix(in srgb, CanvasText 14%, transparent);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--l30-bg); color: var(--l30-text); -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--l30-bg);
+      color: var(--l30-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.72;
+      font-size: 17px;
+    }
+    a { color: var(--l30-link); text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 2px; }
+    .page { max-width: 1040px; margin: 0 auto; padding: 20px 16px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      color: var(--l30-link);
+      text-decoration: none;
+      font-size: 0.94rem;
+      font-weight: 650;
+    }
+    header.hero {
+      background: var(--l30-panel-strong);
+      border: 2px solid var(--l30-line-strong);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      box-shadow: var(--l30-shadow);
+      padding: clamp(24px, 5vw, 52px);
+      margin-bottom: 24px;
+    }
+    .kicker {
+      display: inline-flex;
+      margin: 0 0 12px;
+      padding: 5px 10px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      font-size: 0.92rem;
+      font-weight: 760;
+    }
+    h1, h2, h3 { color: var(--l30-text); line-height: 1.18; letter-spacing: -0.02em; }
+    h1 { margin: 0 0 12px; font-size: clamp(2.05rem, 5vw, 3.8rem); }
+    .subtitle { margin: 0; max-width: 74ch; font-size: clamp(1.06rem, 2.1vw, 1.28rem); font-weight: 590; color: var(--l30-text); }
+    .summary-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 22px 0 0; }
+    .summary-card {
+      border: 1px solid var(--l30-line);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel);
+      padding: 14px 16px;
+      min-height: 100%;
+    }
+    .summary-card strong { display: block; margin-bottom: 4px; font-size: 1.02rem; }
+    main { display: block; }
+    .l30-section {
+      margin: clamp(24px, 4vw, 42px) 0;
+      padding: clamp(20px, 3.2vw, 32px);
+      border: 2px solid var(--l30-line);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      background: var(--l30-panel);
+      color: var(--l30-text);
+      box-shadow: var(--l30-shadow);
+    }
+    .l30-section h2 { margin: 0 0 12px; font-size: clamp(1.55rem, 3.4vw, 2.35rem); }
+    .l30-section h3 { margin: 22px 0 8px; font-size: clamp(1.22rem, 2.2vw, 1.6rem); }
+    p { margin: 0 0 14px; max-width: 82ch; }
+    ul, ol { margin: 10px 0 18px 1.35rem; padding: 0; }
+    li { margin: 7px 0; }
+    .note, .criterion, blockquote {
+      margin: 16px 0;
+      padding: 14px 16px;
+      border: 1px solid var(--l30-line);
+      border-left: 6px solid var(--l30-line-strong);
+      border-radius: 14px;
+      background: var(--l30-panel-strong);
+    }
+    blockquote p { margin: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 14px 0 20px; }
+    th, td { border: 1px solid var(--l30-line); padding: 10px 12px; vertical-align: top; }
+    th { background: var(--l30-panel-strong); text-align: left; }
+    footer { margin-top: 22px; color: var(--l30-muted); font-size: 0.93rem; }
+    code { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    @media (max-width: 760px) {
+      body { font-size: 16.5px; }
+      .page { padding: 14px 12px 44px; }
+      .summary-row { grid-template-columns: 1fr; }
+      header.hero, .l30-section { border-left-width: 8px; }
+      table, thead, tbody, tr, th, td { display: block; width: 100%; }
+      th { border-bottom: 0; }
+      td { border-top: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html#reversible-prosperity-path-top">概要へ戻る</a>
+      <a href="../docs/JP_L30_REVERSIBLE_PROSPERITY_PATH.html">可逆的繁栄の道</a>
+      <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">インシデントレビュー</a>
+      <a href="JP_L30_REVERSIBLE_PROSPERITY_ADOPTION_NOTE.html">導入ノート</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">再読み込み</a>
+    </nav>
+
+    <header class="hero">
+      <span class="kicker">LUMINA-30 実務指針</span>
+      <h1>可逆復帰指針</h1>
+      <p class="subtitle">インシデントレビューは、可逆的繁栄の道の一部である。単なる失敗記録ではなく、いったん止まり、証拠を残し、人間の実効的拒否を回復し、不可逆的エスカレーションが常態化する前に、より安全な進路へ戻るための仕組みである。</p>
+      <div class="summary-row" aria-label="中核要約">
+        <div class="summary-card"><strong>まず止める</strong><span>不可逆的な追加展開、依存拡大、自動的エスカレーションを止める。</span></div>
+        <div class="summary-card"><strong>拒否権を回復する</strong><span>人間が実際に停止・拒否・修正・ロールバックできる状態に戻す。</span></div>
+        <div class="summary-card"><strong>段階的に戻る</strong><span>証拠を残し、限定された範囲だけを監視付きで再進行する。</span></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="l30-section" id="status-and-scope">
+        <h2>位置づけと範囲</h2>
+        <p>このページは、LUMINA-30における停止後・レビュー後の復帰判断のための、非拘束の参照指針である。認証、法的承認、運用許可、再開許可制度ではない。</p>
+        <p>目的は、止められた進路を単に再開するのではなく、可逆性の条件へ戻せているかを判断するための観点を明確にすることである。</p>
+        <blockquote><p><strong>復帰とは、停止前の状態へ戻ることではない。</strong> 復帰とは、人間の実効的拒否、修正、検証、ロールバックが再び可能な条件へ戻ることである。</p></blockquote>
+      </section>
+
+      <section class="l30-section" id="why-this-guidance-exists">
+        <h2>この指針が必要な理由</h2>
+        <p>インシデントレビューは、責任追及だけで終わると不十分である。LUMINA-30では、レビューは不可逆的エスカレーションが新しい常態になることを防ぐためにも使われる。</p>
+        <p>そのため、レビューには復帰経路が必要である。すなわち、システム、導入経路、またはガバナンス過程が、停止可能・検証可能・修正可能・可逆的な条件へ戻ったかを判断する道筋である。</p>
+      </section>
+
+      <section class="l30-section" id="six-stage-return-path">
+        <h2>6段階の復帰経路</h2>
+        <ol>
+          <li><strong>停止。</strong> 不可逆的な拡大、自動的エスカレーション、依存拡大、未レビューの展開を止める。</li>
+          <li><strong>証拠保全。</strong> ログ、警告、拒否操作、承認経路、介入記録、判断時刻を保存する。</li>
+          <li><strong>境界診断。</strong> 何が不可逆化に近づいていたのか、どこで人間の拒否が無効化または形式化したのかを特定する。</li>
+          <li><strong>実効的拒否の回復。</strong> 不可逆的影響の前に停止・拒否・修正・ロールバック・制約ができる状態を再構築する。</li>
+          <li><strong>制御された再進行。</strong> 復帰条件を満たす部分だけを、限定的・段階的・監視付きで再開する。</li>
+          <li><strong>復帰後監視。</strong> 不可逆的エスカレーション、拒否の迂回、証拠喪失へ再び流れていないかを一定期間確認する。</li>
+        </ol>
+      </section>
+
+      <section class="l30-section" id="minimum-return-conditions">
+        <h2>最低限の復帰条件</h2>
+        <p>復帰経路は、少なくとも次の条件を満たさない限り、安全な再進行として扱うべきではない。</p>
+        <ul>
+          <li>人間が実際に停止・拒否・検証・修正・ロールバックできる。</li>
+          <li>証拠が保存され、後から監査または再確認できる。</li>
+          <li>原因が「運が悪かった」ではなく、構造的に説明されている。</li>
+          <li>同じ不可逆化経路を無修正で再開していない。</li>
+          <li>ロールバック、縮退運用、封じ込め、段階運用が可能である。</li>
+          <li>再開範囲が限定的・段階的・監視付きである。</li>
+          <li>レビュー担当者が復帰条件を確認でき、単なる説明を信じるだけになっていない。</li>
+          <li>不確実性や幸運の可能性を復帰理由にしていない。</li>
+        </ul>
+        <div class="criterion"><strong>中核テスト：</strong>人間の実効的拒否が回復していないなら、その進路は可逆性へ復帰していない。</div>
+      </section>
+
+      <section class="l30-section" id="do-not-return-if">
+        <h2>復帰してはならない場合</h2>
+        <ul>
+          <li>不可逆的影響の前にシステムを止められない。</li>
+          <li>拒否が、実効性のない形式的承認手続きにとどまっている。</li>
+          <li>証拠が保存されておらず、後から検証できない。</li>
+          <li>同じエスカレーション経路を構造修正なしに再開しようとしている。</li>
+          <li>レビュー担当者に、幸運、不確実性、楽観的期待へ依存する判断を求めている。</li>
+          <li>復帰によって、不可逆的喪失が通常運用として正当化される。</li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="relation-to-lumina-30">
+        <h2>LUMINA-30との関係</h2>
+        <p>この指針は、インシデントレビューと可逆的繁栄の道を接続する。レビューに、単なる事後判定ではなく、文明が止まり、確認し、修正し、前進を続けるための前向きな役割を与える。</p>
+        <p>この意味で、レビューは可逆的進歩の一部である。不可逆化の前に、人間の拒否が実効的である条件へ戻るための仕組みである。</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>LUMINA-30 可逆復帰指針。非拘束の公開参照資料。</p>
+    </footer>
+  </div>
+</body>
+</html>
