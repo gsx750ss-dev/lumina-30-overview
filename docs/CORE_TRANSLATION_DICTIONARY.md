@@ -189,6 +189,26 @@ Long-term Continuity <-> 長期継続性  [canonical: 長期継続性]
 Meaning: Preservation of effective refusal, evidence retention, review roles, stop triggers, re-entry conditions, and renewed stop authority across time.
 意味：時間の経過を越えて、実効的拒否、証拠保全、レビュー役割、停止条件、再進行条件、再停止権限を維持すること。
 
+Adversarial Robustness against Procedural Hollowing <-> 敵対的形骸化耐性  [canonical: 敵対的形骸化耐性]
+Meaning: Resistance to attempts to hollow out LUMINA-30 procedures through conflicted re-entry, evidence minimization, ritualized review, or merely apparent refusal and reversibility.
+意味：利益相反的な再進行、証拠の最小化、儀式化されたレビュー、または見せかけの拒否・可逆性によって、LUMINA-30の手続きを形骸化させる試みに対する耐性。
+
+Conflict-of-Interest Resistance <-> 利益相反耐性  [canonical: 利益相反耐性]
+Meaning: Return or re-entry judgment should not rely solely on actors who benefit from rapid re-entry, evidence minimization, or the normalization of irreversible escalation.
+意味：復帰または再進行の判断を、迅速な再進行、証拠の最小化、または不可逆的エスカレーションの常態化から利益を得る主体だけに依存してはならないという要件。
+
+Evidence Absence Rule <-> 証拠欠落ルール  [canonical: 証拠欠落ルール]
+Meaning: Missing evidence must not be treated as proof that effective refusal, reversibility, or procedural validity existed.
+意味：証拠がないことを、実効的拒否・可逆性・手続的有効性が存在した証明として扱ってはならないというルール。
+
+Anti-Ritualization Check <-> 儀式化防止チェック  [canonical: 儀式化防止チェック]
+Meaning: A check that review, stop authority, refusal, evidence retention, re-entry, and renewed stop conditions remain practically effective rather than merely documented or ceremonial.
+意味：レビュー、停止権限、拒否、証拠保全、再進行、再停止条件が、単なる文書上・儀式上の存在ではなく実務上有効であることを確認するチェック。
+
+Appearance-Prohibition <-> 見せかけ禁止  [canonical: 見せかけ禁止]
+Meaning: Apparent refusal is not effective refusal; apparent reversibility is not reversibility; apparent review is not procedural validity.
+意味：見せかけの拒否は実効的拒否ではない。見せかけの可逆性は可逆性ではない。見せかけのレビューは手続的有効性ではない。
+
 ---
 
 ## Meta

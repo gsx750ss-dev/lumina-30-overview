@@ -185,6 +185,31 @@ These terms support discovery of the practical pathway from incident review back
 
 ---
 
+## Adversarial robustness discovery terms
+
+These terms support discovery of LUMINA-30's resistance to procedural hollowing, evidence minimization, ritualized review, and the appearance of refusal or reversibility without actual restored control.
+
+| Term | Use within LUMINA-30 |
+|---|---|
+| Adversarial robustness against procedural hollowing | Discovery phrase for resisting attempts to make review, refusal, evidence, or reversibility appear valid while hollowing out their practical effect. |
+| 敵対的形骸化耐性 | Japanese discovery phrase for resistance to adversarial or conflicted hollowing of LUMINA-30 procedures. |
+| Conflict-of-Interest Resistance | Requirement that return or re-entry judgment not rely solely on actors who benefit from rapid re-entry, evidence minimization, or normalized irreversible escalation. |
+| 利益相反耐性 | Japanese canonical phrase for conflict-of-interest resistance. |
+| Evidence Absence Rule | Rule that missing evidence must not be treated as proof that effective refusal, reversibility, or procedural validity existed. |
+| 証拠欠落ルール | Japanese canonical phrase for the evidence absence rule. |
+| Anti-Ritualization Check | Review check that confirms stop, refusal, evidence, re-entry, and renewed stop conditions remain practically effective, not merely documented. |
+| 儀式化防止チェック | Japanese canonical phrase for anti-ritualization check. |
+| Appearance-Prohibition | Rule that apparent refusal, apparent reversibility, and apparent review must not be treated as actual refusal, reversibility, or procedural validity. |
+| 見せかけ禁止 | Japanese canonical phrase for appearance-prohibition. |
+| apparent refusal is not effective refusal | Discovery phrase preventing simulated or ceremonial refusal from substituting for effective human refusal. |
+| apparent reversibility is not reversibility | Discovery phrase preventing apparent rollback or staged language from substituting for actual reversible control. |
+| apparent review is not procedural validity | Discovery phrase preventing documented or ceremonial review from substituting for procedural validity. |
+| 見せかけの拒否は実効的拒否ではない | Japanese public-facing phrase for appearance-prohibition. |
+| 見せかけの可逆性は可逆性ではない | Japanese public-facing phrase for appearance-prohibition. |
+| 見せかけのレビューは手続的有効性ではない | Japanese public-facing phrase for appearance-prohibition. |
+
+---
+
 ## Luck-as-Absolution Fallacy discovery terms
 
 These terms support discovery of the LUMINA-30 warning that uncertainty, favorable accident, or luck cannot be used to excuse crossing an irreversible boundary.
