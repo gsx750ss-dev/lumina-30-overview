@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="L30 可逆復帰実装チェックリスト" />
+  <title>L30 可逆復帰実装チェックリスト</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --l30-bg: Canvas;
+      --l30-text: CanvasText;
+      --l30-link: LinkText;
+      --l30-muted: color-mix(in srgb, CanvasText 72%, Canvas 28%);
+      --l30-panel: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+      --l30-panel-strong: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+      --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+      --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
+      --l30-radius: 18px;
+      --l30-radius-large: 24px;
+      --l30-shadow: 0 14px 34px color-mix(in srgb, CanvasText 14%, transparent);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--l30-bg); color: var(--l30-text); -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--l30-bg);
+      color: var(--l30-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.72;
+      font-size: 17px;
+    }
+    a { color: var(--l30-link); text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 2px; }
+    .page { max-width: 1060px; margin: 0 auto; padding: 20px 16px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      color: var(--l30-link);
+      text-decoration: none;
+      font-size: 0.94rem;
+      font-weight: 650;
+    }
+    header.hero {
+      background: var(--l30-panel-strong);
+      border: 2px solid var(--l30-line-strong);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      box-shadow: var(--l30-shadow);
+      padding: clamp(24px, 5vw, 50px);
+      margin-bottom: 28px;
+    }
+    header.hero p { max-width: 76ch; }
+    .kicker {
+      display: inline-flex;
+      margin-bottom: 12px;
+      padding: 5px 10px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      font-size: 0.92rem;
+      font-weight: 760;
+    }
+    h1 { margin: 0; font-size: clamp(2.05rem, 6vw, 4.2rem); line-height: 1.08; letter-spacing: -0.035em; }
+    h2 { margin: 0 0 0.8rem; font-size: clamp(1.45rem, 3.4vw, 2.2rem); line-height: 1.18; }
+    h3 { margin: 1.2rem 0 0.5rem; font-size: clamp(1.18rem, 2.4vw, 1.55rem); line-height: 1.25; }
+    .lead { font-size: clamp(1.05rem, 2.2vw, 1.28rem); font-weight: 600; }
+    .l30-section {
+      margin: clamp(22px, 4vw, 40px) 0;
+      padding: clamp(20px, 3.4vw, 34px);
+      border: 2px solid var(--l30-line);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      background: var(--l30-panel);
+      box-shadow: var(--l30-shadow);
+    }
+    .criterion, .warning, .decision {
+      margin: 16px 0;
+      padding: 14px 16px;
+      border: 1px solid var(--l30-line);
+      border-left: 7px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel-strong);
+    }
+    .checklist { list-style: none; padding: 0; margin: 0; }
+    .checklist li {
+      border-top: 1px solid var(--l30-line);
+    }
+    .checklist li:first-child { border-top: 0; }
+    .check-item {
+      display: grid;
+      grid-template-columns: 1.65rem minmax(0, 1fr);
+      gap: 0.8rem;
+      align-items: start;
+      padding: 0.78rem 0;
+      cursor: pointer;
+    }
+    .check-item input[type="checkbox"] {
+      width: 1.25rem;
+      height: 1.25rem;
+      margin: 0.26rem 0 0;
+      accent-color: LinkText;
+    }
+    .check-item span {
+      min-width: 0;
+    }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border-top: 1px solid var(--l30-line); padding: 0.72rem; vertical-align: top; text-align: left; }
+    th { background: var(--l30-panel-strong); }
+    code { background: var(--l30-panel-strong); padding: 0.12em 0.32em; border-radius: 6px; }
+    footer { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--l30-line); color: var(--l30-muted); font-size: 0.96rem; }
+    @media (max-width: 680px) {
+      body { font-size: 16.5px; }
+      .page { padding: 14px 12px 44px; }
+      header.hero, .l30-section { border-left-width: 8px; }
+      th, td { display: block; width: 100%; }
+      tr { border-top: 1px solid var(--l30-line); }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html#reversible-prosperity-path-top">概要へ戻る</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">可逆復帰指針</a>
+      <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">インシデントレビュー</a>
+      <a href="../reference/boundary-review-floor/index.html">境界レビューフロア</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">再読み込み</a>
+    </nav>
+
+    <header class="hero">
+      <span class="kicker">実装チェックリスト</span>
+      <h1>可逆復帰実装チェックリスト</h1>
+      <p class="lead">インシデントレビューを、証拠に基づく制御された可逆復帰へつなぐための非拘束チェックリスト。</p>
+      <p>このチェックリストは、再進行を許可するものでも、安全認証でも、法令適合性判定でもありません。停止または一時停止された進路について、実効的人間拒否、証拠、是正制御、再停止可能性が回復されているかを確認するための公開参照資料です。</p>
+    </header>
+
+    <main>
+      <section class="l30-section" id="how-to-use">
+        <h2>このチェックリストの使い方</h2>
+        <p>境界上の懸念、インシデントレビュー、一時停止、停止条件が確認された後に使用します。各チェック項目は、単なる主張ではなく証拠に基づいて確認されるべきです。</p>
+        <div class="criterion"><strong>推奨記録：</strong>各セクションについて、<code>証拠</code>、<code>不足</code>、<code>対応</code>、<code>責任者</code>、<code>再進行状態</code>を記録します。</div>
+      </section>
+
+      <section class="l30-section" id="stop-trigger-and-scope">
+        <h2>1. 停止条件と対象範囲</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>停止または一時停止の条件が記録され、継続運用が実効的拒否、証拠、修正、可逆性を弱める理由が説明されている。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>対象となるシステム、導入、業務、判断経路の範囲が明確である。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>レビュー中に追加の不可逆的エスカレーションを許していない。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>停止を維持する権限が特定され、迅速な再進行から利益を得る同じ主体だけで迂回できない。</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="evidence-preservation">
+        <h2>2. 証拠保全</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>判断記録、警告、承認、拒否試行、上書き、ログ、介入可能時間が保全されている。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>証拠欠落は不足事項として記録され、実効的拒否が存在した証明として扱われていない。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>証拠保全の責任は、迅速な再進行の誘因だけに依存しない役割へ割り当てられている。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>保全された記録を、再進行に疑義を出せる人または組織が確認できる。</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="effective-refusal-restoration">
+        <h2>3. 実効的拒否の回復</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>人間の拒否権保持者が特定されている。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>拒否が、不可逆的影響の前に、関連する進路を延期・拒否・上書き・方向修正・停止できる。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>人間判断に、結果へ影響するための時間、情報、権限がある。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>プロセスが、実際の拒否と見せかけの拒否を区別できる。</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="boundary-diagnosis-and-controls">
+        <h2>4. 境界診断と是正制御</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>境界失敗または境界失敗に近い状態が、実務上の言葉で記述されている。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>是正制御が、拒否、証拠、修正、ロールバック、監視を弱めた仕組みに対応している。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>問題を生んだ同じ不可逆的エスカレーション経路へ戻っていない。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>是正内容は、再進行を検討する前に、試験可能・レビュー可能・文書化済みである。</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="controlled-re-entry">
+        <h2>5. 制御された再進行のみ</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>再進行の範囲、期間、依存、影響経路が限定されている。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>再進行開始前に、ロールバック条件または再停止条件が定義されている。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>再進行期間の監視担当が割り当てられ、形式的監視として扱われていない。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>制御された再進行を、認証、承認、法令適合、または停止前進路の全面再開として説明していない。</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="adversarial-hollowing-resistance">
+        <h2>6. 敵対的形骸化への耐性</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>再進行判断が、速度、証拠の最小化、不可逆的エスカレーションから利益を得る主体だけに依存していない。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>証拠欠落は未解決のレビュー条件として扱われ、問題なしの根拠にされていない。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>レビューが儀式化していないか確認され、なお停止・拒否・方向修正が可能である。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>見せかけの拒否、見せかけの可逆性、見せかけのレビューを、実効的拒否、可逆性、手続的有効性として扱っていない。</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="long-term-continuity">
+        <h2>7. 長期継続性</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>停止権限、証拠保全、境界レビュー、再進行レビューの役割が、引き継ぎ可能な形で定義されている。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>証拠保全期間と定期境界レビューが、当該インシデント直後だけでなく継続的に設定されている。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>システム、制度、技術が変化したとき、停止条件と再停止条件が更新される。</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>停止・検証・拒否・修正・復帰の能力が、組織変更を越えて生きたまま維持される。</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="review-outcome">
+        <h2>レビュー結果</h2>
+        <table>
+          <thead><tr><th>結果</th><th>使用する条件</th></tr></thead>
+          <tbody>
+            <tr><td>再進行しない</td><td>実効的拒否、証拠、是正制御、再停止条件が欠けている、または検証不能である。</td></tr>
+            <tr><td>限定的な制御された再進行のみ</td><td>最低条件はレビュー可能だが、監視、範囲限定、ロールバック条件がなお必要である。</td></tr>
+            <tr><td>監視を継続する</td><td>再進行は始まっているが、長期可逆性、証拠保全、形骸化防止チェックを維持する必要がある。</td></tr>
+          </tbody>
+        </table>
+        <div class="warning"><strong>境界ルール：</strong>実際の拒否と見せかけの拒否を区別できない場合、そのプロセスは可逆性へ復帰していない。</div>
+      </section>
+    </main>
+
+    <footer>
+      <p>LUMINA-30 可逆復帰実装チェックリスト。非拘束の公開参照資料。認証、法的権限、規制上の効力、公式採用、制度的支持を主張するものではありません。</p>
+    </footer>
+  </div>
+</body>
+</html>

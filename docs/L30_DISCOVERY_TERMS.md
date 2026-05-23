@@ -1,3 +1,4 @@
+
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 Controlled Discovery Terms
 
@@ -174,6 +175,8 @@ These terms support discovery of the practical pathway from incident review back
 |---|---|
 | Return-to-Reversibility Guidance | Non-binding guidance for returning a stopped or paused trajectory to a condition where effective human refusal and reversibility are restored. |
 | 可逆復帰指針 | Japanese canonical phrase for Return-to-Reversibility Guidance. |
+| Return-to-Reversibility Implementation Checklist | Operational checklist for recording stop triggers, evidence, restored refusal, corrective controls, controlled re-entry, anti-hollowing checks, and long-term continuity. |
+| 可逆復帰実装チェックリスト | Japanese canonical phrase for Return-to-Reversibility Implementation Checklist. |
 | Controlled Re-Entry | Limited, staged, monitored return after review, not a full restart of the previous trajectory. |
 | 制御された再進行 | Japanese canonical phrase for Controlled Re-Entry. |
 | Restore Effective Refusal | Practical requirement to recover human stopping, refusal, correction, rollback, and review authority before return. |
@@ -225,3 +228,4 @@ These terms support discovery of the LUMINA-30 warning that uncertainty, favorab
 | 滅びないかもしれない、は越えてよい理由にならない | Japanese public-facing phrase for rejecting luck-based justification of irreversible boundary crossing. |
 | 幸運は免罪符ではない | Japanese public-facing warning phrase for the Luck-as-Absolution Fallacy. |
 | 人類の未来は誰かの賭け金ではない | Japanese public-facing warning phrase against wagering humanity-wide risk. |
+

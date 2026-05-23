@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <meta name="description" content="L30 Return-to-Reversibility Implementation Checklist" />
+  <title>L30 Return-to-Reversibility Implementation Checklist</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --l30-bg: Canvas;
+      --l30-text: CanvasText;
+      --l30-link: LinkText;
+      --l30-muted: color-mix(in srgb, CanvasText 72%, Canvas 28%);
+      --l30-panel: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+      --l30-panel-strong: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+      --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+      --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
+      --l30-radius: 18px;
+      --l30-radius-large: 24px;
+      --l30-shadow: 0 14px 34px color-mix(in srgb, CanvasText 14%, transparent);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--l30-bg); color: var(--l30-text); -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--l30-bg);
+      color: var(--l30-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.72;
+      font-size: 17px;
+    }
+    a { color: var(--l30-link); text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 2px; }
+    .page { max-width: 1060px; margin: 0 auto; padding: 20px 16px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      color: var(--l30-link);
+      text-decoration: none;
+      font-size: 0.94rem;
+      font-weight: 650;
+    }
+    header.hero {
+      background: var(--l30-panel-strong);
+      border: 2px solid var(--l30-line-strong);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      box-shadow: var(--l30-shadow);
+      padding: clamp(24px, 5vw, 50px);
+      margin-bottom: 28px;
+    }
+    header.hero p { max-width: 76ch; }
+    .kicker {
+      display: inline-flex;
+      margin-bottom: 12px;
+      padding: 5px 10px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      font-size: 0.92rem;
+      font-weight: 760;
+    }
+    h1 { margin: 0; font-size: clamp(2.05rem, 6vw, 4.2rem); line-height: 1.08; letter-spacing: -0.035em; }
+    h2 { margin: 0 0 0.8rem; font-size: clamp(1.45rem, 3.4vw, 2.2rem); line-height: 1.18; }
+    h3 { margin: 1.2rem 0 0.5rem; font-size: clamp(1.18rem, 2.4vw, 1.55rem); line-height: 1.25; }
+    .lead { font-size: clamp(1.05rem, 2.2vw, 1.28rem); font-weight: 600; }
+    .l30-section {
+      margin: clamp(22px, 4vw, 40px) 0;
+      padding: clamp(20px, 3.4vw, 34px);
+      border: 2px solid var(--l30-line);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      background: var(--l30-panel);
+      box-shadow: var(--l30-shadow);
+    }
+    .criterion, .warning, .decision {
+      margin: 16px 0;
+      padding: 14px 16px;
+      border: 1px solid var(--l30-line);
+      border-left: 7px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel-strong);
+    }
+    .checklist { list-style: none; padding: 0; margin: 0; }
+    .checklist li {
+      border-top: 1px solid var(--l30-line);
+    }
+    .checklist li:first-child { border-top: 0; }
+    .check-item {
+      display: grid;
+      grid-template-columns: 1.65rem minmax(0, 1fr);
+      gap: 0.8rem;
+      align-items: start;
+      padding: 0.78rem 0;
+      cursor: pointer;
+    }
+    .check-item input[type="checkbox"] {
+      width: 1.25rem;
+      height: 1.25rem;
+      margin: 0.26rem 0 0;
+      accent-color: LinkText;
+    }
+    .check-item span {
+      min-width: 0;
+    }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border-top: 1px solid var(--l30-line); padding: 0.72rem; vertical-align: top; text-align: left; }
+    th { background: var(--l30-panel-strong); }
+    code { background: var(--l30-panel-strong); padding: 0.12em 0.32em; border-radius: 6px; }
+    footer { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--l30-line); color: var(--l30-muted); font-size: 0.96rem; }
+    @media (max-width: 680px) {
+      body { font-size: 16.5px; }
+      .page { padding: 14px 12px 44px; }
+      header.hero, .l30-section { border-left-width: 8px; }
+      th, td { display: block; width: 100%; }
+      tr { border-top: 1px solid var(--l30-line); }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html#reversible-prosperity-path-top">Back to Overview</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">Return-to-Reversibility Guidance</a>
+      <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">Incident Review</a>
+      <a href="../reference/boundary-review-floor/index.html">Boundary Review Floor</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Reload</a>
+    </nav>
+
+    <header class="hero">
+      <span class="kicker">Implementation checklist</span>
+      <h1>Return-to-Reversibility Implementation Checklist</h1>
+      <p class="lead">A non-binding checklist for turning incident review into controlled, evidence-based return to reversibility.</p>
+      <p>This checklist does not authorize re-entry, certify safety, or determine legal compliance. It helps reviewers ask whether a stopped or paused trajectory has restored effective human refusal, evidence, corrective controls, and the ability to stop again before any controlled re-entry is treated as procedurally defensible.</p>
+    </header>
+
+    <main>
+      <section class="l30-section" id="how-to-use">
+        <h2>How to use this checklist</h2>
+        <p>Use this page after a boundary concern, incident review, pause, or stop condition has been identified. Each checked item should be backed by evidence, not merely assertion.</p>
+        <div class="criterion"><strong>Recommended review record:</strong> for each section, record <code>Evidence</code>, <code>Gap</code>, <code>Action</code>, <code>Owner</code>, and <code>Re-entry status</code>.</div>
+      </section>
+
+      <section class="l30-section" id="stop-trigger-and-scope">
+        <h2>1. Stop trigger and scope</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>The stop or pause trigger is recorded, including why continued operation could weaken effective refusal, evidence, correction, or reversibility.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>The affected system, deployment, workflow, or decision pathway is clearly scoped.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>No additional irreversible escalation is allowed while review is pending.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>The authority to maintain the stop is identified and cannot be bypassed by the same actors seeking rapid re-entry.</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="evidence-preservation">
+        <h2>2. Evidence preservation</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>Decision records, warnings, approvals, refusal attempts, overrides, logs, and intervention windows are preserved.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Missing evidence is recorded as a gap, not treated as proof that effective refusal existed.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Evidence custody is assigned to a role that is not solely dependent on rapid re-entry incentives.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>The preserved record can be reviewed by a person or body capable of questioning re-entry.</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="effective-refusal-restoration">
+        <h2>3. Restore effective refusal</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>The holder of human refusal authority is identified.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Refusal can practically delay, reject, override, redirect, or stop the relevant trajectory before irreversible impact.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Human judgment has enough time, information, and authority to affect the outcome.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>The process can distinguish actual refusal from merely apparent refusal.</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="boundary-diagnosis-and-controls">
+        <h2>4. Boundary diagnosis and corrective controls</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>The boundary failure or near-failure is stated in operational terms.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Corrective controls address the mechanism that weakened refusal, evidence, correction, rollback, or monitoring.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>The process is not returning to the same escalation path that produced the concern.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>The correction is testable, reviewable, and documented before re-entry is considered.</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="controlled-re-entry">
+        <h2>5. Controlled re-entry only</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>Re-entry is limited in scope, time, dependency, and impact pathway.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Rollback or renewed stop conditions are defined before re-entry begins.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Monitoring is assigned for the re-entry window and cannot be treated as symbolic.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Controlled re-entry is not described as certification, approval, legal compliance, or full restart of the previous trajectory.</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="adversarial-hollowing-resistance">
+        <h2>6. Adversarial hollowing resistance</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>Re-entry judgment does not rely solely on actors who benefit from speed, evidence minimization, or irreversible escalation.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Evidence absence is treated as an unresolved review condition, not as clearance.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>The review is checked against ritualization: it must still be capable of stopping, refusing, or redirecting the trajectory.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Apparent refusal, apparent reversibility, or apparent review is not treated as effective refusal, reversibility, or procedural validity.</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="long-term-continuity">
+        <h2>7. Long-term continuity</h2>
+        <ul class="checklist">
+          <li><label class="check-item"><input type="checkbox" /><span>Roles for stop authority, evidence custody, boundary review, and re-entry review are defined for succession.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Evidence retention and periodic boundary review are scheduled beyond the immediate incident.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>Stop triggers and renewed stop conditions are updated when systems, institutions, or technologies change.</span></label></li>
+          <li><label class="check-item"><input type="checkbox" /><span>The ability to stop, verify, refuse, correct, and return remains alive across organizational change.</span></label></li>
+        </ul>
+      </section>
+
+      <section class="l30-section" id="review-outcome">
+        <h2>Review outcome</h2>
+        <table>
+          <thead><tr><th>Outcome</th><th>Use this when</th></tr></thead>
+          <tbody>
+            <tr><td>Do not re-enter</td><td>Effective refusal, evidence, corrective controls, or renewed stop conditions remain missing or unverifiable.</td></tr>
+            <tr><td>Limited controlled re-entry only</td><td>Minimum conditions are reviewable, but monitoring, scope limits, and rollback conditions remain necessary.</td></tr>
+            <tr><td>Continue monitoring</td><td>Re-entry has begun, but long-term reversibility, evidence retention, and anti-hollowing checks must remain active.</td></tr>
+          </tbody>
+        </table>
+        <div class="warning"><strong>Boundary rule:</strong> if actual refusal cannot be distinguished from apparent refusal, the process has not returned to reversibility.</div>
+      </section>
+    </main>
+
+    <footer>
+      <p>LUMINA-30 Return-to-Reversibility Implementation Checklist. Non-binding public reference material. No certification, legal authority, regulatory force, official adoption, or institutional endorsement is claimed.</p>
+    </footer>
+  </div>
+</body>
+</html>

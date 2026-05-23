@@ -1,3 +1,4 @@
+
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 Core Translation Dictionary v1.3
 
@@ -173,6 +174,10 @@ Return-to-Reversibility Guidance <-> 可逆復帰指針  [canonical: 可逆復�
 Meaning: Non-binding guidance for returning a stopped or paused trajectory to a condition where effective human refusal and reversibility are restored.
 意味：停止または一時停止された進路を、実効的人間拒否と可逆性が回復された条件へ戻すための非拘束の指針。
 
+Return-to-Reversibility Implementation Checklist <-> 可逆復帰実装チェックリスト  [canonical: 可逆復帰実装チェックリスト]
+Meaning: Non-binding implementation checklist for converting Return-to-Reversibility Guidance into concrete review items covering stop triggers, evidence, restored refusal, corrective controls, controlled re-entry, anti-hollowing checks, and long-term continuity.
+意味：可逆復帰指針を、停止条件、証拠、回復された拒否、是正制御、制御された再進行、形骸化防止、長期継続性に関する具体的な確認項目へ変換するための非拘束の実装チェックリスト。
+
 Controlled Re-Entry <-> 制御された再進行  [canonical: 制御された再進行]
 Meaning: Limited, staged, monitored re-entry after review; not a full restart of the previous trajectory.
 意味：レビュー後の限定的・段階的・監視付きの再進行。停止前の進路の全面再開ではない。
@@ -217,3 +222,4 @@ Non-binding <-> 非拘束  [canonical: 非拘束]
 Reference framework <-> 参照枠組み  [canonical: 参照枠組み]  
 Not a policy <-> 政策ではない  [canonical: 政策ではない]  
 Not a specification <-> 技術仕様ではない  [canonical: 技術仕様ではない]
+

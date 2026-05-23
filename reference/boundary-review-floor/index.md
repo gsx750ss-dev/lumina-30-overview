@@ -1,3 +1,4 @@
+
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Boundary Review Floor ｜ 境界レビューフロア
 
@@ -26,6 +27,10 @@ Boundary review does not end with identifying a boundary concern. When review in
 The [Return-to-Reversibility Guidance](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) ｜ [可逆復帰指針](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) provides a non-binding reference for that next step: stop, preserve evidence, diagnose the boundary failure, restore effective human refusal, allow only controlled re-entry, and monitor after return.
 
 [Return-to-Reversibility Guidance](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) ｜ [可逆復帰指針](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) は、その次段階のための非拘束の参照指針である。すなわち、停止、証拠保全、境界失敗の診断、実効的人間拒否の回復、制御された再進行、復帰後監視を確認する。
+
+When this floor is used in an actual operational review, use the [Return-to-Reversibility Implementation Checklist](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) ｜ [可逆復帰実装チェックリスト](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) to record stop triggers, evidence, restored refusal, corrective controls, controlled re-entry, anti-hollowing checks, and long-term continuity.
+
+このフロアを実務レビューで使う場合は、[Return-to-Reversibility Implementation Checklist](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) ｜ [可逆復帰実装チェックリスト](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) を使い、停止条件、証拠、回復された拒否、是正制御、制御された再進行、形骸化防止、長期継続性を記録する。
 
 You do not need to read every room. Choose the room that matches your role or purpose.
 
@@ -149,3 +154,4 @@ This page is non-binding and does not provide legal advice, certification, or co
 
 [Back to Boundary Review Floor](./index.md) ｜ [境界レビューフロアへ戻る](./index.md)  
 [Back to Main Floor](../../README.md) ｜ [メインフロアへ戻る](../../README.md)
+
