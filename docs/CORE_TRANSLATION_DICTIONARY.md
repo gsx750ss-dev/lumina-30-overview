@@ -178,6 +178,38 @@ Return-to-Reversibility Implementation Checklist <-> 可逆復帰実装チェッ
 Meaning: Non-binding implementation checklist for converting Return-to-Reversibility Guidance into concrete review items covering stop triggers, evidence, restored refusal, corrective controls, controlled re-entry, anti-hollowing checks, and long-term continuity.
 意味：可逆復帰指針を、停止条件、証拠、回復された拒否、是正制御、制御された再進行、形骸化防止、長期継続性に関する具体的な確認項目へ変換するための非拘束の実装チェックリスト。
 
+Return-to-Reversibility Role and Evidence Matrix <-> 可逆復帰 役割・証拠マトリクス  [canonical: 可逆復帰 役割・証拠マトリクス]
+Meaning: Non-binding matrix for assigning stop authority, evidence custody, boundary review, refusal authority, re-entry review, monitoring, and conflict-of-interest review in return-to-reversibility practice.
+意味：可逆復帰の実務において、停止権限、証拠保全、境界レビュー、拒否権、再進行レビュー、監視、利益相反レビューの責任所在を整理するための非拘束のマトリクス。
+
+Stop Authority <-> 停止権限保持者  [canonical: 停止権限保持者]
+Meaning: Role responsible for maintaining the pause or stop condition until minimum return conditions are reviewable.
+意味：最低復帰条件がレビュー可能になるまで、一時停止または停止条件を維持する役割。
+
+Evidence Custodian <-> 証拠保全担当  [canonical: 証拠保全担当]
+Meaning: Role responsible for preserving logs, warnings, approvals, refusal attempts, overrides, intervention windows, and review records.
+意味：ログ、警告、承認、拒否試行、上書き、介入可能時間、レビュー記録を保全する役割。
+
+Boundary Reviewer <-> 境界レビュー担当  [canonical: 境界レビュー担当]
+Meaning: Role responsible for diagnosing what weakened refusal, correction, rollback, evidence, or reversibility.
+意味：拒否、修正、ロールバック、証拠、可逆性を弱めた要因を診断する役割。
+
+Refusal Authority Holder <-> 拒否権保持者  [canonical: 拒否権保持者]
+Meaning: Role with practical ability to delay, reject, override, redirect, or stop before irreversible impact.
+意味：不可逆的影響の前に、延期・拒否・上書き・方向修正・停止を実際に行える役割。
+
+Re-entry Reviewer <-> 再進行レビュー担当  [canonical: 再進行レビュー担当]
+Meaning: Role responsible for reviewing whether controlled re-entry is limited, monitored, reversible, and procedurally defensible.
+意味：制御された再進行が、限定的・監視付き・可逆的・手続上擁護可能かを確認する役割。
+
+Monitoring Owner <-> 監視担当  [canonical: 監視担当]
+Meaning: Role responsible for tracking renewed stop triggers and post-return reversibility after re-entry begins.
+意味：再進行後の再停止条件と可逆性を追跡する役割。
+
+Conflict-of-Interest Reviewer <-> 利益相反レビュー担当  [canonical: 利益相反レビュー担当]
+Meaning: Role responsible for checking whether re-entry judgment depends only on actors who benefit from rapid return or evidence minimization.
+意味：再進行判断が、迅速な復帰や証拠最小化から利益を得る主体だけに依存していないかを確認する役割。
+
 Controlled Re-Entry <-> 制御された再進行  [canonical: 制御された再進行]
 Meaning: Limited, staged, monitored re-entry after review; not a full restart of the previous trajectory.
 意味：レビュー後の限定的・段階的・監視付きの再進行。停止前の進路の全面再開ではない。

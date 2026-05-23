@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="L30 可逆復帰 役割・証拠マトリクス" />
+  <title>L30 可逆復帰 役割・証拠マトリクス</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --l30-bg: Canvas;
+      --l30-text: CanvasText;
+      --l30-link: LinkText;
+      --l30-muted: color-mix(in srgb, CanvasText 72%, Canvas 28%);
+      --l30-panel: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+      --l30-panel-strong: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+      --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+      --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
+      --l30-radius: 18px;
+      --l30-radius-large: 24px;
+      --l30-shadow: 0 14px 34px color-mix(in srgb, CanvasText 14%, transparent);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--l30-bg); color: var(--l30-text); -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--l30-bg);
+      color: var(--l30-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.72;
+      font-size: 17px;
+    }
+    a { color: var(--l30-link); text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 2px; }
+    .page { max-width: 1100px; margin: 0 auto; padding: 20px 16px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      color: var(--l30-link);
+      text-decoration: none;
+      font-size: 0.94rem;
+      font-weight: 650;
+    }
+    header.hero {
+      background: var(--l30-panel-strong);
+      border: 2px solid var(--l30-line-strong);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      box-shadow: var(--l30-shadow);
+      padding: clamp(24px, 5vw, 50px);
+      margin-bottom: 28px;
+    }
+    header.hero p { max-width: 78ch; }
+    .kicker {
+      display: inline-flex;
+      margin-bottom: 12px;
+      padding: 5px 10px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      font-size: 0.92rem;
+      font-weight: 760;
+    }
+    h1 { margin: 0; font-size: clamp(2.05rem, 6vw, 4.2rem); line-height: 1.08; letter-spacing: -0.035em; }
+    h2 { margin: 0 0 0.8rem; font-size: clamp(1.45rem, 3.4vw, 2.2rem); line-height: 1.18; }
+    h3 { margin: 1.2rem 0 0.5rem; font-size: clamp(1.18rem, 2.4vw, 1.55rem); line-height: 1.25; }
+    .lead { font-size: clamp(1.05rem, 2.2vw, 1.28rem); font-weight: 600; }
+    .l30-section {
+      margin: clamp(22px, 4vw, 40px) 0;
+      padding: clamp(20px, 3.4vw, 34px);
+      border: 2px solid var(--l30-line);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      background: var(--l30-panel);
+      box-shadow: var(--l30-shadow);
+    }
+    .criterion, .warning, .decision {
+      margin: 16px 0;
+      padding: 14px 16px;
+      border: 1px solid var(--l30-line);
+      border-left: 7px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel-strong);
+    }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border-top: 1px solid var(--l30-line); padding: 0.76rem; vertical-align: top; text-align: left; }
+    th { background: var(--l30-panel-strong); }
+    code { background: var(--l30-panel-strong); padding: 0.12em 0.32em; border-radius: 6px; }
+    footer { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--l30-line); color: var(--l30-muted); font-size: 0.96rem; }
+    @media (max-width: 720px) {
+      body { font-size: 16.5px; }
+      .page { padding: 14px 12px 44px; }
+      header.hero, .l30-section { border-left-width: 8px; }
+      th, td { display: block; width: 100%; }
+      tr { border-top: 1px solid var(--l30-line); }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html#reversible-prosperity-path-top">概要へ戻る</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">可逆復帰指針</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">実装チェックリスト</a>
+      <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">Incident Review</a>
+      <a href="../reference/boundary-review-floor/index.html">Boundary Review Floor</a>
+      <a href="JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">再読み込み</a>
+    </nav>
+
+    <header class="hero">
+      <span class="kicker">LUMINA-30 実務補助資料</span>
+      <h1>可逆復帰 役割・証拠マトリクス</h1>
+      <p class="lead">可逆復帰プロセスが、誰が止めるのか、誰が証拠を保全するのか、誰が再進行をレビューするのか、誰が不可逆化前の実効的拒否を維持するのかで止まらないようにするための、非拘束の割当表です。</p>
+      <p>このページは、再進行の許可、安全認証、法的責任の割当ではありません。制御された復帰に必要な役割と証拠が、実際に存在しレビュー可能かを確認するための参照資料です。</p>
+    </header>
+
+    <main>
+      <section class="l30-section" id="purpose">
+        <h2>目的</h2>
+        <p>実装チェックリストは、停止条件、証拠、回復された拒否、是正制御、制御された再進行、敵対的形骸化への耐性、長期継続性が存在するかを問います。このマトリクスは、さらに狭い実務上の問いを扱います。すなわち、<strong>各条件について誰が責任を持ち、その責任が名目ではなく実効的であることを示す証拠は何か</strong>です。</p>
+        <div class="criterion"><strong>境界ルール：</strong>証拠を保全し、停止を維持し、再進行に疑義を出し、実効的拒否を回復できる責任ある役割が存在しない場合、そのプロセスは可逆性へ復帰していない。</div>
+      </section>
+
+      <section class="l30-section" id="role-matrix">
+        <h2>役割マトリクス</h2>
+        <table>
+          <thead><tr><th>役割</th><th>最低限の責任</th><th>保全すべき証拠</th><th>防ぐべき失敗</th></tr></thead>
+          <tbody>
+            <tr><td>停止権限保持者</td><td>最低復帰条件がレビュー可能になるまで、一時停止または停止条件を維持する。</td><td>停止判断、対象範囲、時刻、再停止条件、停止を解除または維持できる主体。</td><td>不可逆的エスカレーションが続いたままレビューが始まる。</td></tr>
+            <tr><td>証拠保全担当</td><td>ログ、警告、承認、拒否試行、上書き、介入可能時間、レビュー記録を保全する。</td><td>証拠一覧、保管場所、アクセス制御、欠落証拠の記録。</td><td>拒否の実効性を検証する前に証拠が失われる。</td></tr>
+            <tr><td>境界レビュー担当</td><td>拒否、修正、ロールバック、証拠、可逆性を弱めた要因を診断する。</td><td>境界診断、同一経路リスク分析、是正制御の記録。</td><td>同じ不可逆的エスカレーション経路へ戻る。</td></tr>
+            <tr><td>拒否権保持者</td><td>不可逆的影響の前に、延期・拒否・上書き・方向修正・停止を実際に行える。</td><td>拒否メカニズム、時間窓、権限範囲、実際に結果へ影響できることの確認。</td><td>拒否が形式的承認または象徴的監督にとどまる。</td></tr>
+            <tr><td>再進行レビュー担当</td><td>制御された再進行が、限定的・監視付き・可逆的・手続上擁護可能かを確認する。</td><td>再進行範囲、監視計画、ロールバック条件、未解決の不足、判断記録。</td><td>限定的再進行が、偽装された全面再開になる。</td></tr>
+            <tr><td>監視担当</td><td>再進行後の再停止条件と可逆性を追跡する。</td><td>監視期間、エスカレーション閾値、再停止報告、復帰後レビュー記録。</td><td>再進行後に、不可逆的エスカレーションが黙って常態化する。</td></tr>
+            <tr><td>利益相反レビュー担当</td><td>再進行判断が、迅速な復帰や証拠最小化から利益を得る主体だけに依存していないかを確認する。</td><td>利益相反レビュー、独立した異議申し立て記録、反対意見または未解決懸念の記録。</td><td>利害関係者が復帰プロセスを形骸化する。</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="l30-section" id="evidence-matrix">
+        <h2>証拠マトリクス</h2>
+        <table>
+          <thead><tr><th>レビュー条件</th><th>最低限の証拠</th><th>欠けている場合の扱い</th></tr></thead>
+          <tbody>
+            <tr><td>停止条件と対象範囲</td><td>記録された停止条件、対象システムまたは経路、停止境界、継続リスク。</td><td>何を止めたのか、なぜ継続が危険だったのかを示せない。</td></tr>
+            <tr><td>実効的拒否の回復</td><td>拒否権保持者、権限範囲、実務上の介入経路、結果へ影響する能力。</td><td>拒否が実効的ではなく見せかけである可能性が残る。</td></tr>
+            <tr><td>是正制御</td><td>拒否、証拠、修正、ロールバック、レビューを弱めた具体的仕組みに対応する制御。</td><td>新しいラベルで同じ経路へ戻る可能性が残る。</td></tr>
+            <tr><td>制御された再進行</td><td>範囲限定、期限限定、監視担当、ロールバックまたは再停止条件、未解決の不足。</td><td>再進行を全面再開と区別できない。</td></tr>
+            <tr><td>形骸化耐性</td><td>証拠欠落時の扱い、利益相反レビュー、儀式化防止チェック、見せかけ禁止チェック。</td><td>手続きの形骸化が有効性として扱われる恐れがある。</td></tr>
+            <tr><td>長期継続性</td><td>役割継承計画、証拠保全期間、定期レビュー条件、組織・技術変更後の更新記録。</td><td>一度は機能したプロセスが、時間とともに儀式化する可能性がある。</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="l30-section" id="minimum-use-rule">
+        <h2>最低使用ルール</h2>
+        <p>復帰経路を手続き上擁護可能と扱う前に、このマトリクスを使用します。役割が未指定である、証拠が欠けている、または迅速な再進行から利益を得る同じ利害関係者だけが再開を解除できる場合、そのプロセスは未解決として扱うべきです。</p>
+        <div class="warning"><strong>このマトリクスを認証として使わないでください。</strong>これは、制御された再進行を検討する前に、責任と証拠を可視化するための非拘束の公開参照資料です。</div>
+      </section>
+    </main>
+
+    <footer>
+      <p>LUMINA-30 可逆復帰 役割・証拠マトリクス。非拘束の公開参照資料。認証、法的権限、規制上の効力、公式採用、制度的支持を主張するものではありません。</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -32,6 +32,11 @@ When this floor is used in an actual operational review, use the [Return-to-Reve
 
 このフロアを実務レビューで使う場合は、[Return-to-Reversibility Implementation Checklist](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) ｜ [可逆復帰実装チェックリスト](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) を使い、停止条件、証拠、回復された拒否、是正制御、制御された再進行、形骸化防止、長期継続性を記録する。
 
+When responsibility is unclear, use the [Return-to-Reversibility Role and Evidence Matrix](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html) ｜ [可逆復帰 役割・証拠マトリクス](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html) to identify who maintains the stop, preserves evidence, reviews re-entry, and monitors renewed stop conditions.
+
+責任所在が不明確な場合は、[Return-to-Reversibility Role and Evidence Matrix](../../adoption/EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html) ｜ [可逆復帰 役割・証拠マトリクス](../../adoption/JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html) を使い、停止維持、証拠保全、再進行レビュー、再停止条件の監視を誰が担うかを特定する。
+
+
 You do not need to read every room. Choose the room that matches your role or purpose.
 
 すべての部屋を読む必要はありません。自分の立場や目的に合う部屋から読んでください。

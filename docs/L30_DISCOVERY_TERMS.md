@@ -177,6 +177,23 @@ These terms support discovery of the practical pathway from incident review back
 | 可逆復帰指針 | Japanese canonical phrase for Return-to-Reversibility Guidance. |
 | Return-to-Reversibility Implementation Checklist | Operational checklist for recording stop triggers, evidence, restored refusal, corrective controls, controlled re-entry, anti-hollowing checks, and long-term continuity. |
 | 可逆復帰実装チェックリスト | Japanese canonical phrase for Return-to-Reversibility Implementation Checklist. |
+
+| Return-to-Reversibility Role and Evidence Matrix | Operational matrix for assigning stop authority, evidence custody, boundary review, refusal authority, re-entry review, monitoring, and conflict-of-interest review. |
+| 可逆復帰 役割・証拠マトリクス | Japanese canonical phrase for Return-to-Reversibility Role and Evidence Matrix. |
+| Stop Authority | Role responsible for maintaining the pause or stop condition until minimum return conditions are reviewable. |
+| 停止権限保持者 | Japanese canonical phrase for Stop Authority. |
+| Evidence Custodian | Role responsible for preserving logs, warnings, approvals, refusal attempts, overrides, intervention windows, and review records. |
+| 証拠保全担当 | Japanese canonical phrase for Evidence Custodian. |
+| Boundary Reviewer | Role responsible for diagnosing what weakened refusal, correction, rollback, evidence, or reversibility. |
+| 境界レビュー担当 | Japanese canonical phrase for Boundary Reviewer. |
+| Refusal Authority Holder | Role with practical ability to delay, reject, override, redirect, or stop before irreversible impact. |
+| 拒否権保持者 | Japanese canonical phrase for Refusal Authority Holder. |
+| Re-entry Reviewer | Role responsible for reviewing whether controlled re-entry is limited, monitored, reversible, and procedurally defensible. |
+| 再進行レビュー担当 | Japanese canonical phrase for Re-entry Reviewer. |
+| Monitoring Owner | Role responsible for tracking renewed stop triggers and post-return reversibility after re-entry begins. |
+| 監視担当 | Japanese canonical phrase for Monitoring Owner. |
+| Conflict-of-Interest Reviewer | Role responsible for checking whether re-entry judgment depends only on actors who benefit from rapid return or evidence minimization. |
+| 利益相反レビュー担当 | Japanese canonical phrase for Conflict-of-Interest Reviewer. |
 | Controlled Re-Entry | Limited, staged, monitored return after review, not a full restart of the previous trajectory. |
 | 制御された再進行 | Japanese canonical phrase for Controlled Re-Entry. |
 | Restore Effective Refusal | Practical requirement to recover human stopping, refusal, correction, rollback, and review authority before return. |

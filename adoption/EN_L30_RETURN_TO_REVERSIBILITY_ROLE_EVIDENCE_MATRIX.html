@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <meta name="description" content="L30 Return-to-Reversibility Role and Evidence Matrix" />
+  <title>L30 Return-to-Reversibility Role and Evidence Matrix</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --l30-bg: Canvas;
+      --l30-text: CanvasText;
+      --l30-link: LinkText;
+      --l30-muted: color-mix(in srgb, CanvasText 72%, Canvas 28%);
+      --l30-panel: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+      --l30-panel-strong: color-mix(in srgb, Canvas 82%, CanvasText 18%);
+      --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
+      --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
+      --l30-radius: 18px;
+      --l30-radius-large: 24px;
+      --l30-shadow: 0 14px 34px color-mix(in srgb, CanvasText 14%, transparent);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--l30-bg); color: var(--l30-text); -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--l30-bg);
+      color: var(--l30-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
+      line-height: 1.72;
+      font-size: 17px;
+    }
+    a { color: var(--l30-link); text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 2px; }
+    .page { max-width: 1100px; margin: 0 auto; padding: 20px 16px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      color: var(--l30-link);
+      text-decoration: none;
+      font-size: 0.94rem;
+      font-weight: 650;
+    }
+    header.hero {
+      background: var(--l30-panel-strong);
+      border: 2px solid var(--l30-line-strong);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      box-shadow: var(--l30-shadow);
+      padding: clamp(24px, 5vw, 50px);
+      margin-bottom: 28px;
+    }
+    header.hero p { max-width: 78ch; }
+    .kicker {
+      display: inline-flex;
+      margin-bottom: 12px;
+      padding: 5px 10px;
+      border: 1px solid var(--l30-line);
+      border-radius: 999px;
+      background: var(--l30-panel);
+      font-size: 0.92rem;
+      font-weight: 760;
+    }
+    h1 { margin: 0; font-size: clamp(2.05rem, 6vw, 4.2rem); line-height: 1.08; letter-spacing: -0.035em; }
+    h2 { margin: 0 0 0.8rem; font-size: clamp(1.45rem, 3.4vw, 2.2rem); line-height: 1.18; }
+    h3 { margin: 1.2rem 0 0.5rem; font-size: clamp(1.18rem, 2.4vw, 1.55rem); line-height: 1.25; }
+    .lead { font-size: clamp(1.05rem, 2.2vw, 1.28rem); font-weight: 600; }
+    .l30-section {
+      margin: clamp(22px, 4vw, 40px) 0;
+      padding: clamp(20px, 3.4vw, 34px);
+      border: 2px solid var(--l30-line);
+      border-left: 10px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius-large);
+      background: var(--l30-panel);
+      box-shadow: var(--l30-shadow);
+    }
+    .criterion, .warning, .decision {
+      margin: 16px 0;
+      padding: 14px 16px;
+      border: 1px solid var(--l30-line);
+      border-left: 7px solid var(--l30-line-strong);
+      border-radius: var(--l30-radius);
+      background: var(--l30-panel-strong);
+    }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border-top: 1px solid var(--l30-line); padding: 0.76rem; vertical-align: top; text-align: left; }
+    th { background: var(--l30-panel-strong); }
+    code { background: var(--l30-panel-strong); padding: 0.12em 0.32em; border-radius: 6px; }
+    footer { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--l30-line); color: var(--l30-muted); font-size: 0.96rem; }
+    @media (max-width: 720px) {
+      body { font-size: 16.5px; }
+      .page { padding: 14px 12px 44px; }
+      header.hero, .l30-section { border-left-width: 8px; }
+      th, td { display: block; width: 100%; }
+      tr { border-top: 1px solid var(--l30-line); }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html#reversible-prosperity-path-top">Back to Overview</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">Return Guidance</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Implementation Checklist</a>
+      <a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">Incident Review</a>
+      <a href="../reference/boundary-review-floor/index.html">Boundary Review Floor</a>
+      <a href="EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Reload</a>
+    </nav>
+
+    <header class="hero">
+      <span class="kicker">LUMINA-30 implementation aid</span>
+      <h1>Return-to-Reversibility Role and Evidence Matrix</h1>
+      <p class="lead">A non-binding assignment matrix for keeping a return-to-reversibility process from stalling over who can stop, who preserves evidence, who reviews re-entry, and who can keep refusal effective before irreversibility.</p>
+      <p>This page does not authorize re-entry, certify safety, or assign legal responsibility. It helps reviewers identify whether the roles and evidence needed for a controlled return are actually present and reviewable.</p>
+    </header>
+
+    <main>
+      <section class="l30-section" id="purpose">
+        <h2>Purpose</h2>
+        <p>The implementation checklist asks whether stop triggers, evidence, restored refusal, corrective controls, controlled re-entry, adversarial hollowing resistance, and long-term continuity are present. This matrix asks a narrower operational question: <strong>who is responsible for each condition, and what evidence shows that the responsibility is real rather than merely nominal?</strong></p>
+        <div class="criterion"><strong>Boundary rule:</strong> if no accountable role can preserve evidence, maintain the stop, challenge re-entry, or restore effective refusal, the process has not returned to reversibility.</div>
+      </section>
+
+      <section class="l30-section" id="role-matrix">
+        <h2>Role matrix</h2>
+        <table>
+          <thead><tr><th>Role</th><th>Minimum responsibility</th><th>Evidence to retain</th><th>Failure mode this prevents</th></tr></thead>
+          <tbody>
+            <tr><td>Stop Authority</td><td>Maintains the pause or stop condition until minimum return conditions are reviewable.</td><td>Stop decision, scope, timestamp, renewal conditions, who can lift or maintain the stop.</td><td>Review begins while irreversible escalation continues.</td></tr>
+            <tr><td>Evidence Custodian</td><td>Preserves logs, warnings, approvals, refusal attempts, overrides, intervention windows, and review records.</td><td>Evidence inventory, retention location, access controls, missing-evidence record.</td><td>Evidence disappears before refusal effectiveness can be verified.</td></tr>
+            <tr><td>Boundary Reviewer</td><td>Diagnoses what weakened refusal, correction, rollback, evidence, or reversibility.</td><td>Boundary diagnosis, same-path risk analysis, corrective-control record.</td><td>The process returns to the same irreversible escalation path.</td></tr>
+            <tr><td>Refusal Authority Holder</td><td>Has practical ability to delay, reject, override, redirect, or stop before irreversible impact.</td><td>Refusal mechanism, time window, authority scope, test or demonstration of actual effect.</td><td>Refusal exists only as formal approval or symbolic oversight.</td></tr>
+            <tr><td>Re-entry Reviewer</td><td>Reviews whether controlled re-entry is limited, monitored, reversible, and procedurally defensible.</td><td>Re-entry scope, monitoring plan, rollback condition, unresolved gaps, decision record.</td><td>Limited re-entry becomes a disguised full restart.</td></tr>
+            <tr><td>Monitoring Owner</td><td>Tracks renewed stop triggers and post-return reversibility after re-entry begins.</td><td>Monitoring window, escalation thresholds, renewed stop reports, post-return review record.</td><td>Re-entry resumes and then silently normalizes irreversible escalation.</td></tr>
+            <tr><td>Conflict-of-Interest Reviewer</td><td>Checks whether re-entry judgment depends only on actors who benefit from rapid return or evidence minimization.</td><td>Conflict review, independent challenge record, dissent or unresolved concern log.</td><td>Interested actors hollow out the return process.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="l30-section" id="evidence-matrix">
+        <h2>Evidence matrix</h2>
+        <table>
+          <thead><tr><th>Review condition</th><th>Minimum evidence</th><th>Unresolved if missing</th></tr></thead>
+          <tbody>
+            <tr><td>Stop trigger and scope</td><td>Recorded trigger, affected system or pathway, stop boundary, and continuation risk.</td><td>The review cannot show what was stopped or why continuing was unsafe.</td></tr>
+            <tr><td>Effective refusal restoration</td><td>Named refusal holder, authority scope, practical intervention pathway, and result-changing capability.</td><td>Refusal may be apparent rather than effective.</td></tr>
+            <tr><td>Corrective controls</td><td>Controls that address the specific mechanism that weakened refusal, evidence, correction, rollback, or review.</td><td>The process may return to the same path under a new label.</td></tr>
+            <tr><td>Controlled re-entry</td><td>Scope limit, time limit, monitoring owner, rollback or renewed stop condition, unresolved gaps.</td><td>Re-entry cannot be distinguished from full restart.</td></tr>
+            <tr><td>Anti-hollowing resistance</td><td>Evidence absence handling, conflict review, ritualization check, and appearance-prohibition check.</td><td>Procedural hollowing may be treated as validity.</td></tr>
+            <tr><td>Long-term continuity</td><td>Succession plan, retention schedule, periodic review trigger, and updates after organizational or technical change.</td><td>The process may work once and then decay into ceremony.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="l30-section" id="minimum-use-rule">
+        <h2>Minimum use rule</h2>
+        <p>Use this matrix before treating any return path as procedurally defensible. If roles are unnamed, evidence is missing, or re-entry can be lifted by the same interests that benefit from rapid return, the process should remain unresolved.</p>
+        <div class="warning"><strong>Do not use this matrix as certification.</strong> It is a non-binding public reference for making responsibility and evidence visible before controlled re-entry is considered.</div>
+      </section>
+    </main>
+
+    <footer>
+      <p>LUMINA-30 Return-to-Reversibility Role and Evidence Matrix. Non-binding public reference material. No certification, legal authority, regulatory force, official adoption, or institutional endorsement is claimed.</p>
+    </footer>
+  </div>
+</body>
+</html>
