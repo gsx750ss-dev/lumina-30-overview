@@ -34,6 +34,23 @@
 Refusal before irreversibility — a boundary that cannot be substituted.  
 不可逆の前に拒否が機能しているか——代替不能な境界。
 
+
+## Start Here: Reversible Prosperity Path ｜ まずここから：可逆的繁栄の道
+
+LUMINA-30 is not a call to halt progress.  
+It is a non-binding public boundary reference framework for keeping progress stoppable, reviewable, and reversible before irreversibility.
+
+**Progress does not require irreversibility.**  
+A civilization that can stop, review, correct, and continue can go farther than one that rushes past the point of return.
+
+LUMINA-30は、進歩を止めるためのものではありません。  
+不可逆化の前に、進歩を停止可能・検証可能・修正可能・可逆的に保つための、非拘束の公開境界参照フレームワークです。
+
+**進歩に、不可逆化は必要ありません。**  
+止まり、検証し、修正し、継続できる文明は、戻れない地点へ急ぐ文明よりも遠くへ行けます。
+
+[Read the Reversible Prosperity Path](docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html) ｜ [可逆的繁栄の道を読む](docs/JP_L30_REVERSIBLE_PROSPERITY_PATH.html)
+
 ## Primary validity condition ｜ 主要成立条件
 
 Under the LUMINA-30 evaluative lens, a system should not be treated as procedurally valid if human refusal authority is not effective before irreversible impact.  
@@ -1523,5 +1540,3 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
-
-
