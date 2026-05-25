@@ -27,6 +27,11 @@
 <a id="top"></a>
 
 > [EN Top](https://lumina-30.github.io/lumina-30-overview/index.html#top) ｜ [JP Top](https://lumina-30.github.io/lumina-30-overview/index-ja.html#top) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md)
+>
+> **Reader-facing HTML overview ｜ 読者向けHTML概要**  
+> For first-time reading, navigation, return paths, and long-form browsing, use the HTML version above. GitHub Markdown is retained for source text preservation, search discoverability, existing links, and version review, but it is weaker for reader orientation and returning from long linked sections.  
+>
+> 初回閲覧、移動、戻り導線、長文閲覧には、上記のHTML版を使用してください。GitHub Markdownは、本文保管、検索到達性、既存リンク維持、差分確認のために残していますが、読者の現在地維持や長文リンク先からの復帰には弱いためです。
 
 <!-- ● L30:TITLE -->
 # LUMINA-30
@@ -36,6 +41,10 @@ Refusal before irreversibility — a boundary that cannot be substituted.
 
 
 ## Start Here: Reversible Prosperity Path ｜ まずここから：可逆的繁栄の道
+
+> **Terminology note ｜ 用語上の注意**  
+> Reversible Prosperity Path is not a replacement name for LUMINA-30. It is the positive direction made possible when LUMINA-30’s boundary condition is preserved.  
+> 可逆的繁栄の道は、LUMINA-30の代替名ではありません。LUMINA-30の境界条件が守られたときに開かれる、肯定側の文明進路です。
 
 LUMINA-30 is not a call to halt progress.  
 It is a non-binding public boundary reference framework for keeping progress stoppable, reviewable, and reversible before irreversibility.
