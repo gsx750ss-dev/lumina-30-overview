@@ -70,6 +70,23 @@ LUMINA-30の評価視点では、不可逆的影響の前に人間の拒否権�
 Was human refusal authority effective before irreversible impact?  
 不可逆的影響の前に、人間の拒否権は実効的だったか？
 
+## Use LUMINA-30 now ｜ すぐ使う
+
+- [Check effective refusal ｜ 実効的拒否を確認する](https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html)  
+  Use when you need to determine whether human refusal remained effective before irreversibility.  
+  不可逆化の前に、人間の拒否権が実効的に残っていたかを確認する場合に使用します。
+
+- [Review an AI incident ｜ AI事故をレビューする](https://lumina-30.github.io/lumina30-incident-review/) ｜ [日本語入口](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)  
+  Use for an AI-related incident, near miss, oversight failure, or post-incident evidence review.  
+  AI関連事故、ニアミス、監督失敗、事故後証拠レビューに使用します。
+
+- [Map to existing frameworks ｜ 既存枠組みへ対応づける](https://lumina-30.github.io/lumina-30-overview/adoption/minimum-boundary-review-external-crosswalk.html)  
+  Use when adding the boundary question to AI risk management, audit, procurement, incident reporting, or risk-register workflows.  
+  AIリスク管理、監査、調達、インシデント報告、リスク台帳へ境界問いを追加する場合に使用します。
+
+LUMINA-30 is not a certification system, legal authority, safety guarantee, official adoption claim, or compliance label.  
+LUMINA-30は、認証制度、法的権限、安全保証、公式採用表示、コンプライアンスラベルではありません。
+
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 <a id="status-and-scope"></a>
