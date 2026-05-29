@@ -1,3 +1,4 @@
+
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- ===================================================== -->
 <!-- LUMINA-30 README REVIEW WORKFLOW BLOCK -->
@@ -84,9 +85,13 @@ Was human refusal authority effective before irreversible impact?
   Use when adding the boundary question to AI risk management, audit, procurement, incident reporting, or risk-register workflows.  
   AIリスク管理、監査、調達、インシデント報告、リスク台帳へ境界問いを追加する場合に使用します。
 
-- [Evaluate adoption questions ｜ 導入上の疑問を確認する](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_ADOPTION_REQUESTS_AND_RESPONSES.html) ｜ [想定される疑問・批判と回答](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_EXPECTED_QUESTIONS_OBJECTIONS_AND_RESPONSES.html)  
-  Use when evaluating implementation routes, common objections, limits, and evidence requirements.  
-  導入経路、想定される疑問、限界、証拠要件を確認する場合に使用します。
+- [Adoption Requests and Responses](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_ADOPTION_REQUESTS_AND_RESPONSES.html) ｜ [導入要望と回答](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_ADOPTION_REQUESTS_AND_RESPONSES.html)  
+  Use when evaluating implementation routes, adoption questions, limits, and evidence requirements.  
+  導入経路、導入上の疑問、限界、証拠要件を確認する場合に使用します。
+
+- [Expected Questions, Objections, and Responses](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_EXPECTED_QUESTIONS_OBJECTIONS_AND_RESPONSES.html) ｜ [想定される疑問・批判と回答](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_EXPECTED_QUESTIONS_OBJECTIONS_AND_RESPONSES.html)  
+  Use when reviewing common questions, objections, misuse risks, and response framing.  
+  想定される疑問、批判、誤用リスク、回答方針を確認する場合に使用します。
 
 LUMINA-30 is not a certification system, legal authority, safety guarantee, official adoption claim, or compliance label.  
 LUMINA-30は、認証制度、法的権限、安全保証、公式採用表示、コンプライアンスラベルではありません。
@@ -1570,4 +1575,5 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 
