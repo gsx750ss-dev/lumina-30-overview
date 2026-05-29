@@ -94,6 +94,11 @@ Was human refusal authority effective before irreversible impact?
   Use when adding the boundary question to AI risk management, audit, procurement, incident reporting, or risk-register workflows.  
   AIリスク管理、監査、調達、インシデント報告、リスク台帳へ境界問いを追加する場合に使用します。
 
+
+- [Institutional Adoption Path](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_INSTITUTIONAL_ADOPTION_PATH.html) ｜ [制度的採用への道筋](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_INSTITUTIONAL_ADOPTION_PATH.html)  
+  Use when evaluating how LUMINA-30 can connect to audits, incident reviews, procurement, contracts, insurance, and regulatory processes without claiming certification or official adoption.  
+  認証や公式採用を主張せずに、LUMINA-30を監査、事故レビュー、調達、契約、保険、規制プロセスへどう接続できるかを確認する場合に使用します。
+
 - [Adoption Requests and Responses](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_ADOPTION_REQUESTS_AND_RESPONSES.html) ｜ [導入要望と回答](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_ADOPTION_REQUESTS_AND_RESPONSES.html)  
   Use when evaluating implementation routes, adoption questions, limits, and evidence requirements.  
   導入経路、導入上の疑問、限界、証拠要件を確認する場合に使用します。
@@ -1584,7 +1589,3 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
-
-
-
-
