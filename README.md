@@ -90,6 +90,11 @@ Was human refusal authority effective before irreversible impact?
   Use when a review record must show whether effective human refusal existed before irreversible consequences could occur.  
   不可逆な結果の前に人間の実効的拒否が存在していたかを、レビュー記録として示す必要がある場合に使用します。
 
+
+- [Consultation and Routing Map](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_CONSULTATION_ROUTING_MAP.html) ｜ [相談・問いの振り分け地図](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_CONSULTATION_ROUTING_MAP.html)  
+  Use when you are unsure whether a question belongs to legal review, technical safety, incident review, adoption, evidence requirements, or LUMINA-30 boundary review.  
+  法務、技術安全、事故レビュー、導入、証拠要件、LUMINA-30境界レビューのどこへ振り分けるべきか迷う場合に使用します。
+
 - [Review an AI incident ｜ AI事故をレビューする](https://lumina-30.github.io/lumina30-incident-review/) ｜ [日本語入口](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)  
   Use for an AI-related incident, near miss, oversight failure, or post-incident evidence review.  
   AI関連事故、ニアミス、監督失敗、事故後証拠レビューに使用します。
@@ -1593,4 +1598,5 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 

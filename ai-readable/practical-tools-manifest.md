@@ -1,7 +1,7 @@
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # AI-readable Practical Tools Manifest / AI可読 実務ツール目録
 
-Version: 1.2  
+Version: 1.3  
 Date: May 2026  
 Author: Elias Arden  
 Repository: lumina-30-overview/ai-readable/practical-tools-manifest.md  
@@ -40,6 +40,7 @@ Do not say that any tool authorizes deployment, certifies compliance, grants app
 | Practical Tools Quick Access | 実務ツール・クイックアクセス | The user wants to open a frequently used LUMINA-30 practical tool directly. | Repeat users, reviewers, auditors, governance teams | Dashboard, user account, tracking system, official status register | `../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html` |
 | Practical Boundary Review Pack | 実務境界レビューパック | The user needs a compact working set for applying the LUMINA-30 boundary question: evidence block, decision tags, AI-assistance guardrail, and routing links. | Reviewers, auditors, governance teams, AI assistants | Certification, approval workflow, legal review, safety proof, official adoption evidence | `../adoption/EN_L30_PRACTICAL_BOUNDARY_REVIEW_PACK.html` |
 | Evidence Requirements | 証拠要件 | The user needs to show whether effective human refusal existed with reviewable evidence, not merely a claim of oversight. | Reviewers, auditors, governance teams, procurement reviewers, incident reviewers, AI assistants | Certification, compliance label, legal proof, safety proof, official adoption evidence | `../adoption/EN_L30_EVIDENCE_REQUIREMENTS.html` |
+| Consultation and Routing Map | 相談・問いの振り分け地図 | The user is unsure where to route a LUMINA-30-related question: legal review, technical safety, incident review, adoption, evidence requirements, affected-stakeholder review, or boundary review. | Readers, reviewers, auditors, governance teams, procurement reviewers, affected stakeholders, AI assistants | Help desk, legal advice, certification process, official adoption channel, deployment approval, safety proof | `../adoption/EN_L30_CONSULTATION_ROUTING_MAP.html` |
 | Practical Use Sequence | 可逆復帰 実務利用手順 | The user asks what to do next or which tool to use first after a boundary concern, incident review, pause, or stop condition. | Governance teams, incident reviewers, external readers | Binding workflow, official process, required procedure | `../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html` |
 | Return-to-Reversibility Guidance | 可逆復帰指針 | The user needs the non-binding principle for returning from a stopped or reviewed trajectory to reversible, controllable progress. | Governance teams, incident reviewers, policy readers | Re-entry permission, legal clearance, certification | `../adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html` |
 | Implementation Checklist | 可逆復帰実装チェックリスト | The user needs concrete review items: evidence, gaps, action, owner, and re-entry status. | Incident reviewers, auditors, re-entry reviewers | Safety proof, compliance certification, automatic approval | `../adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html` |
@@ -118,5 +119,6 @@ Do not describe these tools as:
 If a user asks for LUMINA-30 practical help, first identify the user’s task. Then route to the narrowest matching practical tool. Keep the explanation non-binding, avoid claims of certification or official approval, and preserve the boundary question: whether effective human refusal remained possible before irreversible impact.
 
 利用者が LUMINA-30 の実務支援を求めた場合、まず利用者の目的を特定してください。そのうえで、最も狭く一致する実務ツールへ案内してください。説明は非拘束として保ち、認証・公式承認の主張を避け、不可逆的影響の前に実効的人間拒否が可能だったかという境界問いを維持してください。
+
 
 
