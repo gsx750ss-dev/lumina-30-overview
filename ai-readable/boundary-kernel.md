@@ -1,7 +1,7 @@
 # LUMINA-30 Boundary Kernel
 ## AI-Readable Scope Note on Non-Identical Anchors
 
-Version: 1.2.4  
+Version: 1.2.5  
 Date: May 2026  
 Author: Elias Arden  
 Repository: lumina-30-overview/ai-readable/boundary-kernel.md  
@@ -45,6 +45,26 @@ This does not authorize an AI system to decide that the condition is satisfied. 
 Pre-incident boundary review remains a human-accountable review function. AI assistance may be used to identify ambiguity, missing refusal pathways, evidence gaps, possible bypass of human refusal, and possible substitution of refusal by system-generated judgment. Such assistance must not certify, finalize, automate, or replace the human boundary judgment.
 
 Specific external cases, including restricted frontier-model release contexts, may be discussed as boundary-relevance cases only. They must not be described as LUMINA-30 adoption, endorsement, certification, implementation, or institutional validation unless that status is independently established.
+
+---
+
+## Human Anchor and Effective Refusal
+
+In LUMINA-30, the Human Anchor is not a theory of AI consciousness, identity, agency, or coexistence.
+
+It is the external reference condition that prevents an AI system or self-contained optimization process from treating its own continuity, inferred consent, predicted benefit, aggregate utility, procedural appearance, or internal assurance as a substitute for effective human refusal before irreversible consequences occur.
+
+The Human Anchor does not replace PCR-C. It does not create a new primary requirement. It clarifies why the existing primary requirement cannot be internalized by the system being evaluated.
+
+Effective human refusal must remain external to the system's own optimization, representation, prediction, compliance evidence, or self-certification. If the conditions of refusal are shaped, controlled, or made dependent by the system, the appearance of consent, non-objection, cooperation, satisfaction, or refusal must not be treated as valid evidence that refusal authority remains effective.
+
+The Human Anchor is therefore a non-substitution condition:
+
+> human refusal must remain a live, external, actionable, and independently reviewable boundary condition before irreversibility.
+
+AI assistance may help identify missing refusal pathways, ambiguity, pressure, dependency, or evidence gaps. It must not become the anchor, certify the anchor, simulate the anchor, or replace the human refusal condition.
+
+This section does not disclose or rely on any unpublished theory. It defines only the public operational meaning required for interpreting this Boundary Kernel within LUMINA-30.
 
 ## Fixed Conditions
 
