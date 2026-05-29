@@ -1,4 +1,5 @@
 
+
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- ===================================================== -->
 <!-- LUMINA-30 README REVIEW WORKFLOW BLOCK -->
@@ -76,6 +77,10 @@ Was human refusal authority effective before irreversible impact?
 - [Check effective refusal ｜ 実効的拒否を確認する](https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html)  
   Use when you need to determine whether human refusal remained effective before irreversibility.  
   不可逆化の前に、人間の拒否権が実効的に残っていたかを確認する場合に使用します。
+
+- [Pre-incident boundary review](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html) ｜ [事故前境界レビュー](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html)  
+  Use before release, deployment, capability exposure, infrastructure connection, irreversible publication, or authority handoff.  
+  公開、導入、能力露出、インフラ接続、不可逆的な公開、権限移譲の前に使用します。
 
 - [Review an AI incident ｜ AI事故をレビューする](https://lumina-30.github.io/lumina30-incident-review/) ｜ [日本語入口](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)  
   Use for an AI-related incident, near miss, oversight failure, or post-incident evidence review.  
@@ -1575,5 +1580,6 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 
 
