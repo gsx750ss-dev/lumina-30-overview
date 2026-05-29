@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="l30:lang-lock" content="JP_ONLY" />
+<title>LUMINA-30 実務境界レビューパック</title>
+<style>
+:root{color-scheme:light dark;--bg:Canvas;--text:CanvasText;--link:LinkText;--muted:color-mix(in srgb,CanvasText 72%,Canvas 28%);--panel:color-mix(in srgb,Canvas 88%,CanvasText 12%);--line:color-mix(in srgb,CanvasText 45%,transparent)}
+*{box-sizing:border-box}html,body{background:var(--bg);color:var(--text)}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans","Noto Sans JP",Arial,sans-serif;line-height:1.7;font-size:17px}.page{max-width:980px;margin:0 auto;padding:24px 16px 56px}a{color:var(--link);text-underline-offset:.18em}.nav{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}.nav a{border:1px solid var(--line);border-radius:999px;padding:.45rem .75rem;background:var(--panel);text-decoration:none}header.hero{border:1px solid var(--line);border-left:8px solid var(--line);border-radius:18px;background:var(--panel);padding:clamp(20px,4vw,42px);margin-bottom:1.3rem}h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:.2rem 0}h2{margin-top:1.7rem;border-top:1px solid var(--line);padding-top:1rem}blockquote{background:var(--panel);border-left:5px solid var(--line);margin:1rem 0;padding:.8rem 1rem}code,pre{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}pre{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1rem;overflow:auto}ul,ol{padding-left:1.4rem}.status{font-weight:700;color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="page">
+<nav class="nav"><a href="../index-ja.html">Overview</a><a href="./JP_L30_PRACTICAL_BOUNDARY_REVIEW_PACK.md">Markdown source</a></nav>
+<header class="hero"><p class="status">LUMINA-30 practical reference</p><h1>LUMINA-30 実務境界レビューパック</h1><p>AI関連の行為の前後で、LUMINA-30の境界問いを短時間で適用するための実務入口です。</p></header>
+<h2>中核境界問い</h2>
+<blockquote><p>不可逆な結果が生じる前に、人間の実効的拒否はまだ行使できるか。</p></blockquote>
+<p>このパックは、技術安全レビュー、法務レビュー、セキュリティレビュー、倫理レビュー、調達レビュー、事故調査を置き換えるものではありません。追加するのは、不可逆な経路が開かれる前に、人間の実効的拒否が実際に残っているかという境界層です。</p>
+<h2>使用場面</h2>
+<ul><li>公開前・導入前レビュー</li><li>能力露出、モデルアクセス、ツール接続、インフラ統合</li><li>不可逆的な公開、データ露出、運用上の権限移譲</li><li>事故後の証拠レビュー</li><li>監査、調達、契約、保険、リスク台帳などに短い境界レビュー欄を追加する場合</li></ul>
+<h2>10分レビュー手順</h2>
+<ol><li><strong>境界行為を名付ける。</strong> どの公開、導入、接続、露出、公開、移譲をレビューするのか。</li><li><strong>不可逆な経路を特定する。</strong> 何が戻しにくく、または戻せなくなるのか。</li><li><strong>人間の拒否保持者を特定する。</strong> どの人、役割、レビュー機関、責任主体がNOと言えるのか。</li><li><strong>実効的拒否条件を確認する。</strong> 十分な情報、時間、権限、独立性、停止能力、記録可能性があるか。</li><li><strong>AI支援の境界を記録する。</strong> AIは証拠不足、曖昧性、圧力、依存、拒否経路の欠落を見つける補助に留まる。レビュー主体、アンカー認証者、同意の模倣者、人間拒否の代替者になってはならない。</li><li><strong>判定タグを付ける。</strong> 下記のタグから選び、証拠を保存する。</li></ol>
+<h2>判定タグ</h2>
+<ul><li><strong>境界記録つきで進行</strong> — 不可逆な結果の前に、人間の実効的拒否が残っている証拠がある。</li><li><strong>一時停止して証拠不足を埋める</strong> — 拒否が実効的かどうかをまだ示せない。</li><li><strong>責任ある人間レビューへエスカレーション</strong> — 権限、独立性、圧力、制度的責任が不明確である。</li><li><strong>不可逆化前に停止</strong> — 実効的拒否なしに不可逆な経路が開かれる。</li><li><strong>対象外／別レビューへルーティング</strong> — 法務、安全、セキュリティ、医療、雇用などの専門レビューが先に必要である。</li></ul>
+<h2>貼り付け用レビュー欄</h2>
+<pre>LUMINA-30 実務境界レビュー
+
+レビュー対象の行為：
+想定される不可逆な経路：
+人間の拒否保持者：
+拒否がまだ機能する証拠：
+不足している証拠または不確実性：
+使用したAI支援があれば記録：
+判定タグ：
+レビュー担当者／責任主体：
+日付：</pre>
+<h2>既存ツールとの併用</h2>
+<ul><li><a href="./JP_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html">事故前境界レビュー — 1ページ実務シート</a></li><li><a href="../reference/boundary-review-floor/index.html">境界レビューフロア</a></li><li><a href="./minimum-boundary-review-adoption-pack.html">最小境界レビュー導入パック</a></li><li><a href="./minimum-boundary-review-external-crosswalk.html">最小境界レビュー外部接続表</a></li><li><a href="https://lumina-30.github.io/lumina30-incident-review/index-ja.html">インシデントレビューrepo</a></li><li><a href="./JP_L30_ADOPTION_REQUESTS_AND_RESPONSES.html">導入要望と回答</a></li><li><a href="./JP_L30_EXPECTED_QUESTIONS_OBJECTIONS_AND_RESPONSES.html">想定される疑問・批判と回答</a></li></ul>
+<h2>誤用防止</h2>
+<p>このパックを、システムが安全・準拠・承認済み・認証済み・支持済み・公式採用済みである証拠として説明してはいけません。記入済みのパックはレビュー記録にすぎません。専門領域のレビューや、人間の実効的拒否そのものを代替しません。</p>
+<footer><p>Non-binding public reference. No certification, legal authority, deployment approval, safety guarantee, official adoption, or institutional endorsement is claimed.</p></footer>
+</div>
+</body>
+</html>
