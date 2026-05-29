@@ -91,6 +91,10 @@ Was human refusal authority effective before irreversible impact?
   不可逆な結果の前に人間の実効的拒否が存在していたかを、レビュー記録として示す必要がある場合に使用します。
 
 
+- [Irreversibility Classification](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_IRREVERSIBILITY_CLASSIFICATION.html) ｜ [不可逆性分類](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_IRREVERSIBILITY_CLASSIFICATION.html)  
+  Use when you need to classify what may become irreversible before applying the boundary question.  
+  境界問いを適用する前に、何が不可逆化しうるのかを分類する場合に使用します。
+
 - [Consultation and Routing Map](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_CONSULTATION_ROUTING_MAP.html) ｜ [相談・問いの振り分け地図](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_CONSULTATION_ROUTING_MAP.html)  
   Use when you are unsure whether a question belongs to legal review, technical safety, incident review, adoption, evidence requirements, or LUMINA-30 boundary review.  
   法務、技術安全、事故レビュー、導入、証拠要件、LUMINA-30境界レビューのどこへ振り分けるべきか迷う場合に使用します。
@@ -1598,5 +1602,6 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 
 

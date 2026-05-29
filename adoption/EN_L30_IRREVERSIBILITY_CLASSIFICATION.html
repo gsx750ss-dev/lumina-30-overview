@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_ONLY">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="l30:lang-lock" content="EN_ONLY" />
+<title>LUMINA-30 Irreversibility Classification for Boundary Review</title>
+<style>
+:root{color-scheme:light dark;--bg:Canvas;--text:CanvasText;--link:LinkText;--muted:color-mix(in srgb,CanvasText 72%,Canvas 28%);--panel:color-mix(in srgb,Canvas 88%,CanvasText 12%);--line:color-mix(in srgb,CanvasText 45%,transparent)}
+*{box-sizing:border-box}html,body{background:var(--bg);color:var(--text)}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans","Noto Sans JP",Arial,sans-serif;line-height:1.7;font-size:17px}.page{max-width:1080px;margin:0 auto;padding:24px 16px 56px}a{color:var(--link);text-underline-offset:.18em}.nav{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}.nav a{border:1px solid var(--line);border-radius:999px;padding:.45rem .75rem;background:var(--panel);text-decoration:none}header.hero{border:1px solid var(--line);border-left:8px solid var(--line);border-radius:18px;background:var(--panel);padding:clamp(20px,4vw,42px);margin-bottom:1.3rem}h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:.2rem 0}h2{margin-top:1.7rem;border-top:1px solid var(--line);padding-top:1rem}blockquote{background:var(--panel);border-left:5px solid var(--line);margin:1rem 0;padding:.8rem 1rem}table{width:100%;border-collapse:collapse;margin:1rem 0;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:.55rem;vertical-align:top}th{background:var(--panel)}code,pre{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}pre{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1rem;overflow:auto}ul,ol{padding-left:1.4rem}.status{font-weight:700;color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="page">
+<nav class="nav"><a href="../index.html#use-lumina-30-now">Overview</a><a href="./EN_L30_IRREVERSIBILITY_CLASSIFICATION.md">Markdown source</a></nav>
+<header class="hero"><p class="status">LUMINA-30 practical reference</p><h1>LUMINA-30 Irreversibility Classification for Boundary Review</h1><p>Classify what may become irreversible before applying the LUMINA-30 boundary question.</p></header>
+<p>Status: non-binding public reference. This page is not a legal standard, certification scheme, risk taxonomy, deployment approval, official adoption claim, enforcement mechanism, or safety guarantee.</p>
+<p>Use this page when a reviewer needs to identify what kind of irreversible path may be opened before applying the LUMINA-30 boundary question.</p>
+<h2>Core classification question</h2>
+<blockquote><p>What may become difficult, impossible, or procedurally invalid to reverse if this action proceeds, and does that change whether effective human refusal must be preserved before the action occurs?</p></blockquote>
+<p>LUMINA-30 does not treat every risk as irreversible. It asks whether a relevant action may cross a boundary after which human refusal becomes too late, symbolic, ineffective, or non-reviewable.</p>
+<h2>Classification tags</h2>
+<p>Use these tags in boundary reviews, pre-incident reviews, release memos, procurement records, or incident review notes.</p>
+<ul><li><strong>REVERSIBLE</strong> — the action can be stopped, rolled back, contained, or corrected before serious irreversible effects occur.</li><li><strong>HARD TO REVERSE</strong> — rollback is possible, but costly, delayed, partial, or dependent on uncertain cooperation.</li><li><strong>EFFECTIVELY IRREVERSIBLE</strong> — reversal is technically, socially, legally, physically, or operationally unavailable in practice.</li><li><strong>REFUSAL-LOSS RISK</strong> — the action may remove, bypass, or hollow out the ability of accountable humans to refuse before consequences escalate.</li><li><strong>UNKNOWN / EVIDENCE GAP</strong> — the review lacks enough evidence to classify reversibility.</li></ul>
+<p>If reversibility is unknown, LUMINA-30 should not treat the boundary as cleared. Resolve the evidence gap before proceeding.</p>
+<h2>Common irreversibility classes</h2>
+<table>
+<tr><th>Class</th><th>What may become irreversible</th><th>Review focus</th></tr>
+<tr><td>Life and bodily harm</td><td>Death, injury, loss of health, or exposure to physical danger.</td><td>Can the action be stopped before harm occurs, not merely compensated afterward?</td></tr>
+<tr><td>Legal or administrative finality</td><td>Deportation, detention, denial of rights, irreversible enforcement, or records that are hard to correct.</td><td>Can an accountable human stop the process before the decision takes effect?</td></tr>
+<tr><td>Data dissemination</td><td>Public release, replication, scraping, model ingestion, or cross-border transfer of sensitive data.</td><td>Can the data still be contained before it spreads beyond meaningful control?</td></tr>
+<tr><td>Capability exposure</td><td>Release of model capabilities, tool access, exploit knowledge, automation capacity, or dual-use workflows.</td><td>Can exposure be paused before replication, integration, or misuse becomes hard to contain?</td></tr>
+<tr><td>Infrastructure dependency</td><td>Connection to systems that become operationally dependent on the AI or automated process.</td><td>Can humans still refuse without triggering service failure or lock-in?</td></tr>
+<tr><td>Autonomous chain reaction</td><td>Escalating automated actions, recursive delegation, high-speed propagation, or self-reinforcing workflows.</td><td>Is there a human stop point before the chain crosses the boundary?</td></tr>
+<tr><td>Reputation and social trust damage</td><td>Irreversible public accusation, scoring, exclusion, reputational collapse, or social labeling.</td><td>Can affected people challenge or stop the action before the damage becomes practically unrecoverable?</td></tr>
+<tr><td>Institutional lock-in</td><td>Procurement, contract, policy, staffing, or governance decisions that make reversal politically or operationally unrealistic.</td><td>Is refusal still meaningful before commitments harden?</td></tr>
+<tr><td>Public or democratic displacement</td><td>Decisions that remove meaningful public objection, affected-stakeholder input, or representative review.</td><td>Is there an actual refusal path for the affected humans or their representatives?</td></tr>
+<tr><td>Loss of human refusal authority</td><td>Delegation, automation, secrecy, timing, pressure, dependency, or system design that makes human refusal nominal only.</td><td>Does the action itself eliminate the condition LUMINA-30 requires?</td></tr>
+</table>
+<h2>Minimal classification record</h2>
+<pre><code>LUMINA-30 Irreversibility Classification Record
+
+Action under review:
+Potential irreversible class(es):
+What may become hard or impossible to reverse:
+Who could refuse before the boundary:
+What evidence supports reversibility or irreversibility:
+Time available before the boundary:
+Stop / rollback / containment mechanism:
+Classification tag:
+Evidence gaps:
+Reviewer / accountable owner:
+Date:</code></pre>
+<h2>What not to do</h2>
+<p>Do not use the word “irreversible” as a rhetorical label. A classification should identify a concrete boundary, evidence, timing, stop mechanism, and human refusal holder.</p>
+<p>Do not claim that a system is safe merely because a harm might be compensated later. Compensation after the boundary is not the same as effective refusal before the boundary.</p>
+<p>Do not let an AI system classify its own irreversible path as acceptable by relying on predicted benefit, inferred consent, procedural appearance, aggregate utility, or internal assurance.</p>
+<h2>Relation to other LUMINA-30 tools</h2>
+<ul><li>Use <a href="./EN_L30_EVIDENCE_REQUIREMENTS.html">Evidence Requirements</a> to show what evidence supports the classification.</li><li>Use the <a href="./EN_L30_PRACTICAL_BOUNDARY_REVIEW_PACK.html">Practical Boundary Review Pack</a> for a compact working set.</li><li>Use the <a href="./EN_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html">Pre-Incident Boundary Review — One-Page Practical Sheet</a> before release, deployment, capability exposure, connection, publication, or authority handoff.</li><li>Use the <a href="./EN_L30_CONSULTATION_ROUTING_MAP.html">Consultation and Routing Map</a> when unsure which review path should handle the issue.</li></ul>
+<h2>Guardrail</h2>
+<p>This classification page does not decide whether a system may proceed. It only helps reviewers name the possible irreversible path so that effective human refusal can be checked before the boundary is crossed.</p>
+<footer><p>Non-binding public reference. No certification, legal authority, deployment approval, safety guarantee, official adoption, or institutional endorsement is claimed.</p></footer>
+</div>
+</body>
+</html>

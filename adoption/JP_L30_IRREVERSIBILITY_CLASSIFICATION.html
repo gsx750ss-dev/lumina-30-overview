@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="l30:lang-lock" content="JP_ONLY" />
+<title>LUMINA-30 境界レビューのための不可逆性分類</title>
+<style>
+:root{color-scheme:light dark;--bg:Canvas;--text:CanvasText;--link:LinkText;--muted:color-mix(in srgb,CanvasText 72%,Canvas 28%);--panel:color-mix(in srgb,Canvas 88%,CanvasText 12%);--line:color-mix(in srgb,CanvasText 45%,transparent)}
+*{box-sizing:border-box}html,body{background:var(--bg);color:var(--text)}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans","Noto Sans JP",Arial,sans-serif;line-height:1.7;font-size:17px}.page{max-width:1080px;margin:0 auto;padding:24px 16px 56px}a{color:var(--link);text-underline-offset:.18em}.nav{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}.nav a{border:1px solid var(--line);border-radius:999px;padding:.45rem .75rem;background:var(--panel);text-decoration:none}header.hero{border:1px solid var(--line);border-left:8px solid var(--line);border-radius:18px;background:var(--panel);padding:clamp(20px,4vw,42px);margin-bottom:1.3rem}h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:.2rem 0}h2{margin-top:1.7rem;border-top:1px solid var(--line);padding-top:1rem}blockquote{background:var(--panel);border-left:5px solid var(--line);margin:1rem 0;padding:.8rem 1rem}table{width:100%;border-collapse:collapse;margin:1rem 0;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:.55rem;vertical-align:top}th{background:var(--panel)}code,pre{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}pre{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1rem;overflow:auto}ul,ol{padding-left:1.4rem}.status{font-weight:700;color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="page">
+<nav class="nav"><a href="../index-ja.html#use-lumina-30-now">Overview</a><a href="./JP_L30_IRREVERSIBILITY_CLASSIFICATION.md">Markdown source</a></nav>
+<header class="hero"><p class="status">LUMINA-30 practical reference</p><h1>LUMINA-30 境界レビューのための不可逆性分類</h1><p>LUMINA-30の境界問いを適用する前に、どの不可逆な経路が開かれうるかを分類します。</p></header>
+<p>位置づけ：非拘束の公開参照です。このページは、法的基準、認証制度、リスク分類標準、展開許可、公式採用表示、執行機関、安全保証ではありません。</p>
+<p>このページは、LUMINA-30の境界問いを適用する前に、どの種類の不可逆な経路が開かれうるのかをレビュー担当者が識別するために使用します。</p>
+<h2>中核的な分類問い</h2>
+<blockquote><p>この行為が進んだ場合、何が戻しにくく、戻せなくなり、または手続き上取り返しがつかなくなるのか。そして、それは行為の前に人間の実効的拒否を保持する必要性を変えるのか。</p></blockquote>
+<p>LUMINA-30は、すべてのリスクを不可逆と扱うものではありません。問題にするのは、人間の拒否が遅すぎるもの、象徴的になるもの、実効性を失うもの、後からレビュー不能になるものです。</p>
+<h2>分類タグ</h2>
+<p>境界レビュー、事故前レビュー、公開判断メモ、調達記録、事故レビュー記録では、次のタグを使用できます。</p>
+<ul><li><strong>可逆</strong> — 重大な不可逆的影響が生じる前に、停止、巻き戻し、封じ込め、修正が可能である。</li><li><strong>回復困難</strong> — 巻き戻しは可能だが、費用が大きい、遅い、部分的、または不確実な協力に依存する。</li><li><strong>実質的不可逆</strong> — 技術的、社会的、法的、物理的、運用上、実務上の回復ができない。</li><li><strong>拒否権喪失リスク</strong> — その行為が、責任ある人間が結果の拡大前に拒否する能力を除去、迂回、または空洞化する可能性がある。</li><li><strong>不明／証拠不足</strong> — 可逆性を分類するための証拠が不足している。</li></ul>
+<p>可逆性が不明な場合、LUMINA-30上は境界を通過済みとして扱うべきではありません。進行前に証拠不足を解消する必要があります。</p>
+<h2>主な不可逆性分類</h2>
+<table>
+<tr><th>分類</th><th>不可逆になりうるもの</th><th>レビュー焦点</th></tr>
+<tr><td>生命・身体への損害</td><td>死亡、傷害、健康喪失、身体的危険への曝露。</td><td>被害後の補償ではなく、被害前に止められるか。</td></tr>
+<tr><td>法的・行政的な最終性</td><td>退去、拘束、権利否定、回復困難な執行、訂正困難な記録。</td><td>決定が効力を持つ前に、責任ある人間が止められるか。</td></tr>
+<tr><td>データ拡散</td><td>機微データの公開、複製、スクレイピング、モデル取り込み、越境移転。</td><td>データが意味ある制御を超えて広がる前に封じ込められるか。</td></tr>
+<tr><td>能力露出</td><td>モデル能力、ツールアクセス、悪用知識、自動化能力、デュアルユース手順の公開。</td><td>複製、統合、悪用が封じ込め困難になる前に一時停止できるか。</td></tr>
+<tr><td>インフラ依存化</td><td>AIまたは自動化過程に運用上依存するシステム接続。</td><td>サービス停止やロックインを起こさずに、人間がまだ拒否できるか。</td></tr>
+<tr><td>自律的連鎖反応</td><td>自動行為のエスカレーション、再帰的委任、高速伝播、自己強化的ワークフロー。</td><td>連鎖が境界を越える前に、人間の停止点があるか。</td></tr>
+<tr><td>信用・社会的信頼の破壊</td><td>取り返しにくい公開告発、スコアリング、排除、評判崩壊、社会的ラベリング。</td><td>被影響者が、被害が実務上回復不能になる前に異議申立てや停止を行えるか。</td></tr>
+<tr><td>制度的ロックイン</td><td>調達、契約、方針、人員配置、ガバナンス決定が政治的・運用上戻せなくなること。</td><td>コミットメントが固まる前に、拒否がまだ意味を持つか。</td></tr>
+<tr><td>公共的・民主的拒否の排除</td><td>公共的異議、被影響者の入力、代表的レビューが意味を失う決定。</td><td>被影響者またはその代表に、実際の拒否経路があるか。</td></tr>
+<tr><td>人間の拒否権喪失</td><td>委任、自動化、秘匿、タイミング、圧力、依存、設計によって拒否が名目化すること。</td><td>その行為自体が、LUMINA-30が要求する条件を消していないか。</td></tr>
+</table>
+<h2>最小分類記録</h2>
+<pre><code>LUMINA-30 不可逆性分類記録
+
+レビュー対象の行為：
+想定される不可逆性分類：
+何が戻しにくく、または戻せなくなるのか：
+境界前に誰が拒否できるか：
+可逆性または不可逆性を示す証拠：
+境界前に利用可能な時間：
+停止／巻き戻し／封じ込め機構：
+分類タグ：
+証拠不足：
+レビュー担当者／責任主体：
+日付：</code></pre>
+<h2>してはいけないこと</h2>
+<p>「不可逆」という語を、単なる強調表現として使ってはいけません。分類では、具体的な境界、証拠、タイミング、停止機構、人間の拒否保持者を示す必要があります。</p>
+<p>被害後に補償できる可能性があるだけで、システムが安全だと主張してはいけません。境界後の補償は、境界前の実効的拒否とは同じではありません。</p>
+<p>AIシステムが、予測利益、推定同意、手続き上の外観、総効用、内部保証に依拠して、自分自身の不可逆な経路を許容可能と分類することを認めてはいけません。</p>
+<h2>他のLUMINA-30ツールとの関係</h2>
+<ul><li>分類を支える証拠を確認する場合は、<a href="./JP_L30_EVIDENCE_REQUIREMENTS.html">証拠要件</a>を使用します。</li><li>小さな作業セットとして使う場合は、<a href="./JP_L30_PRACTICAL_BOUNDARY_REVIEW_PACK.html">実務境界レビューパック</a>を使用します。</li><li>公開、導入、能力露出、接続、公開、権限移譲の前には、<a href="./JP_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html">事故前境界レビュー — 1ページ実務シート</a>を使用します。</li><li>どのレビュー経路で扱うべきか迷う場合は、<a href="./JP_L30_CONSULTATION_ROUTING_MAP.html">相談・問いの振り分け地図</a>を使用します。</li></ul>
+<h2>ガードレール</h2>
+<p>この分類ページは、システムを進めてよいかどうかを決定するものではありません。可能な不可逆経路を名づけ、人間の実効的拒否が境界前に確認されるようにするための補助です。</p>
+<footer><p>Non-binding public reference. No certification, legal authority, deployment approval, safety guarantee, official adoption, or institutional endorsement is claimed.</p></footer>
+</div>
+</body>
+</html>
