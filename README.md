@@ -42,6 +42,19 @@ Refusal before irreversibility — a boundary that cannot be substituted.
 不可逆の前に拒否が機能しているか——代替不能な境界。
 
 
+
+<a id="deep-understanding-tour"></a>
+## ★ LUMINA-30 Deep Understanding Tour ｜ 深層理解ツアー
+
+A guided reading route for AI ethics organizations, auditors, incident-review teams, policy readers, and institutional adoption reviewers who need to understand LUMINA-30 quickly and deeply.  
+LUMINA-30を短時間で深く理解する必要があるAI倫理団体、監査者、事故レビュー担当者、政策読者、制度評価者のための案内ルートです。
+
+- [Open the English tour](adoption/EN_L30_DEEP_UNDERSTANDING_TOUR.html) ｜ [日本語ツアーを開く](adoption/JP_L30_DEEP_UNDERSTANDING_TOUR.html)  
+- This tour is a navigation aid, not a certification route, official adoption claim, safety guarantee, or legal standard.  
+  このツアーは案内導線であり、認証ルート、公式採用表示、安全保証、法的基準ではありません。
+
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 ## Start Here: Reversible Prosperity Path ｜ まずここから：可逆的繁栄の道
 
 > **Terminology note ｜ 用語上の注意**  
@@ -77,6 +90,10 @@ Was human refusal authority effective before irreversible impact?
 - [Check effective refusal ｜ 実効的拒否を確認する](https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html)  
   Use when you need to determine whether human refusal remained effective before irreversibility.  
   不可逆化の前に、人間の拒否権が実効的に残っていたかを確認する場合に使用します。
+
+- [LUMINA-30 Deep Understanding Tour](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_DEEP_UNDERSTANDING_TOUR.html) ｜ [LUMINA-30 深層理解ツアー](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_DEEP_UNDERSTANDING_TOUR.html)  
+  Use when an AI ethics, audit, policy, or institutional review reader needs a guided route through the most important LUMINA-30 documents.  
+  AI倫理、監査、政策、制度評価の読者が、LUMINA-30の重要文書を短時間で順に確認する場合に使用します。
 
 - [Pre-incident boundary review](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html) ｜ [事故前境界レビュー](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html)  
   Use before release, deployment, capability exposure, infrastructure connection, irreversible publication, or authority handoff.  
@@ -1409,6 +1426,10 @@ or positioning is welcome.
 ## ★ Index (Navigation) ｜ 目次
 *********************
 
+- [★ LUMINA-30 Deep Understanding Tour ｜ 深層理解ツアー](#deep-understanding-tour)  
+  ※ Guided route for deep review ｜ 深く確認するための案内ルート  
+  ▶ For AI ethics, audit, policy, and institutional review readers who need to reach the key documents quickly ｜ AI倫理・監査・政策・制度評価の読者が重要文書へ短時間で到達するための導線
+
 - [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
   ※ For all readers: core understanding ｜ 全読者向け：中核理解  
   ▶ Understand: visually grasp LUMINA-30’s boundary condition and core concepts ｜ Use: go directly to [G06 Critical Boundary](#g06) and the judgment criterion
@@ -1527,6 +1548,11 @@ Use this section to choose the next destination by purpose, not to browse the wh
 - [Understand the core boundary ｜ 中核境界を理解する](#core)  
   For first-time readers who need the basic structure, boundary condition, and judgment logic.  
   初見読者が、基本構造・境界条件・判断ロジックを確認する場合。
+
+- [Follow the LUMINA-30 Deep Understanding Tour ｜ 深層理解ツアーを辿る](#deep-understanding-tour)  
+  For AI ethics, audit, policy, and institutional review readers who need a short guided route through the most important documents.  
+  AI倫理・監査・政策・制度評価の読者が、重要文書を短時間で順に確認する場合。
+
 
 - [Check irreversibility-first competition ｜ 不可逆化一番乗り競争を確認する](#irreversibility-first-competition)  
   For understanding why first arrival, future control claims, and speed-based victory conditions do not replace pre-irreversibility refusal.  
