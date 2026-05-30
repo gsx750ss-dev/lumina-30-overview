@@ -78,10 +78,6 @@ Was human refusal authority effective before irreversible impact?
   Use when you need to determine whether human refusal remained effective before irreversibility.  
   不可逆化の前に、人間の拒否権が実効的に残っていたかを確認する場合に使用します。
 
-- [LUMINA-30 Deep Understanding Tour](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_DEEP_UNDERSTANDING_TOUR.html) ｜ [LUMINA-30 深層理解ツアー](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_DEEP_UNDERSTANDING_TOUR.html)  
-  Use when an AI ethics, audit, policy, or institutional review reader needs a guided route through the most important LUMINA-30 documents.  
-  AI倫理、監査、政策、制度評価の読者が、LUMINA-30の重要文書を短時間で順に確認する場合に使用します。
-
 - [Pre-incident boundary review](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html) ｜ [事故前境界レビュー](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html)  
   Use before release, deployment, capability exposure, infrastructure connection, irreversible publication, or authority handoff.  
   公開、導入、能力露出、インフラ接続、不可逆的な公開、権限移譲の前に使用します。
@@ -1628,6 +1624,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 
 
 
