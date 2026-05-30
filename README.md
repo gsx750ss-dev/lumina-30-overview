@@ -989,10 +989,11 @@ The following repositories extend LUMINA-30 from conceptual structure into incid
 
 | Approach | Primary question | Main focus | Failure condition | Typical use |
 |---|---|---|---|---|
-| **LUMINA-30** | Did effective human refusal remain available before irreversible impact? | Boundary validity before irreversibility | Loss of effective human refusal before irreversible impact | Incident review, governance review, boundary assessment |
 | **Incident / governance frameworks** | What happened, why, and how can recurrence be reduced? | Event analysis, accountability, mitigation | Process failure, control failure, compliance failure | Post-incident review, audit, reporting |
 | **AI principles / policy documents** | What values or principles should guide AI? | Normative guidance, policy orientation | Principle violation or governance gap | Policy communication, institutional guidance |
 | **Alignment / safety theories** | How can AI systems behave as intended or remain safe? | Behavior, robustness, optimization, control | Misalignment, unsafe behavior, loss of control | Research, technical safety analysis |
+| **LUMINA-30** | Did effective human refusal remain available before irreversible impact? | Boundary validity before irreversibility | Loss of effective human refusal before irreversible impact | Incident review, governance review, boundary assessment |
+
 
 **Key distinction ｜ 重要な違い**  
 LUMINA-30 does not first ask what AI should do. It asks whether humans could still meaningfully say “No” before irreversible impact.  
