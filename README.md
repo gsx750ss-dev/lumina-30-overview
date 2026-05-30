@@ -42,6 +42,68 @@ Refusal before irreversibility — a boundary that cannot be substituted.
 不可逆の前に拒否が機能しているか——代替不能な境界。
 
 
+<!-- ● L30:WHAT -->
+<a id="what"></a>
+## What is LUMINA-30 ｜ LUMINA-30とは何か
+
+
+LUMINA-30 is a non-binding civilizational reference framework  
+for examining whether meaningful human refusal authority remains  
+before irreversible impact from advanced AI systems emerges.
+
+LUMINA-30は  
+高度AIが不可逆的影響を及ぼす前に  
+人間の拒否権（Refusal Authority）が実質的に残っているかを  
+検討するための非拘束型文明フレームワークです。
+
+Core focus:  
+Not AI behavior,  
+but whether human refusal authority remains  
+before irreversible external impact.
+
+These documents are intended for researchers, governance institutions, and incident review bodies dealing with advanced AI systems.<br>
+This evaluation includes a pre-irreversibility check to determine whether effective intervention remained possible.<br>
+
+中核焦点：  
+AIの振る舞いではなく、  
+不可逆的外界影響の前に  
+人間の拒否権が残っているか。
+
+本評価では、不可逆化前に実効的介入が可能であったかを確認する。<br>
+本評価には、不可逆的影響が発生する前に実効的な介入が可能であったかを確認するプロセスが含まれる。<br>
+
+Positioning:  
+LUMINA-30 does not prescribe actions,  
+policies, or enforcement mechanisms.  
+It defines a boundary condition.
+
+位置づけ：  
+LUMINA-30は行動・政策・強制を提示せず、  
+境界条件を定義する参照フレームです。
+
+Recommended path:  
+Start from Entry Visuals (G00–G06),<br>
+then move to Practical Application,<br>
+and finally to Incident Review Hub and Operational Governance Tools.
+
+Primary use-case:
+Post-incident review and pre-irreversibility evaluation
+
+推奨読書順：  
+Entry Visuals (G00–G06) → Practical Application → Incident Review Hub / Operational Governance Tools
+
+<a id="deep-understanding-tour"></a>
+## ★ LUMINA-30 Deep Understanding Tour ｜ 深層理解ツアー
+
+A guided reading route for AI ethics organizations, auditors, incident-review teams, policy readers, and institutional adoption reviewers who need to understand LUMINA-30 quickly and deeply.  
+LUMINA-30を短時間で深く理解する必要があるAI倫理団体、監査者、事故レビュー担当者、政策読者、制度評価者のための案内ルートです。
+
+- [Open the English tour](adoption/EN_L30_DEEP_UNDERSTANDING_TOUR.html) ｜ [日本語ツアーを開く](adoption/JP_L30_DEEP_UNDERSTANDING_TOUR.html)  
+- This tour is a navigation aid, not a certification route, official adoption claim, safety guarantee, or legal standard.  
+  このツアーは案内導線であり、認証ルート、公式採用表示、安全保証、法的基準ではありません。
+
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 ## Start Here: Reversible Prosperity Path ｜ まずここから：可逆的繁栄の道
 
 > **Terminology note ｜ 用語上の注意**  
@@ -420,68 +482,6 @@ LUMINA-30が境界を定義するのに対し、PCR-Cはその形式化を担い
 → Paper: Pre-Critical Recursive Cutoff (PCR-C)  
 → DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
-
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
-
-<!-- ● L30:WHAT -->
-<a id="what"></a>
-## What is LUMINA-30 ｜ LUMINA-30とは何か
-
-
-LUMINA-30 is a non-binding civilizational reference framework  
-for examining whether meaningful human refusal authority remains  
-before irreversible impact from advanced AI systems emerges.
-
-LUMINA-30は  
-高度AIが不可逆的影響を及ぼす前に  
-人間の拒否権（Refusal Authority）が実質的に残っているかを  
-検討するための非拘束型文明フレームワークです。
-
-Core focus:  
-Not AI behavior,  
-but whether human refusal authority remains  
-before irreversible external impact.
-
-These documents are intended for researchers, governance institutions, and incident review bodies dealing with advanced AI systems.<br>
-This evaluation includes a pre-irreversibility check to determine whether effective intervention remained possible.<br>
-
-中核焦点：  
-AIの振る舞いではなく、  
-不可逆的外界影響の前に  
-人間の拒否権が残っているか。
-
-本評価では、不可逆化前に実効的介入が可能であったかを確認する。<br>
-本評価には、不可逆的影響が発生する前に実効的な介入が可能であったかを確認するプロセスが含まれる。<br>
-
-Positioning:  
-LUMINA-30 does not prescribe actions,  
-policies, or enforcement mechanisms.  
-It defines a boundary condition.
-
-位置づけ：  
-LUMINA-30は行動・政策・強制を提示せず、  
-境界条件を定義する参照フレームです。
-
-Recommended path:  
-Start from Entry Visuals (G00–G06),<br>
-then move to Practical Application,<br>
-and finally to Incident Review Hub and Operational Governance Tools.
-
-Primary use-case:
-Post-incident review and pre-irreversibility evaluation
-
-推奨読書順：  
-Entry Visuals (G00–G06) → Practical Application → Incident Review Hub / Operational Governance Tools
-
-<a id="deep-understanding-tour"></a>
-## ★ LUMINA-30 Deep Understanding Tour ｜ 深層理解ツアー
-
-A guided reading route for AI ethics organizations, auditors, incident-review teams, policy readers, and institutional adoption reviewers who need to understand LUMINA-30 quickly and deeply.  
-LUMINA-30を短時間で深く理解する必要があるAI倫理団体、監査者、事故レビュー担当者、政策読者、制度評価者のための案内ルートです。
-
-- [Open the English tour](adoption/EN_L30_DEEP_UNDERSTANDING_TOUR.html) ｜ [日本語ツアーを開く](adoption/JP_L30_DEEP_UNDERSTANDING_TOUR.html)  
-- This tour is a navigation aid, not a certification route, official adoption claim, safety guarantee, or legal standard.  
-  このツアーは案内導線であり、認証ルート、公式採用表示、安全保証、法的基準ではありません。
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
@@ -1070,7 +1070,6 @@ Core Terminology remains the authoritative terminology layer; the Glossary is in
 
 | Framework | Core Function | Strength | Limitation | Gap LUMINA-30 Fills |
 |----------|-------------|----------|------------|---------------------|
-| LUMINA-30 | Boundary framework for preserving effective human refusal before irreversible consequences | Clarifies a non-substitutable refusal boundary across audit, governance, and incident review contexts | Not a legal regime, certification authority, safety guarantee, or replacement for detailed technical review | Provides the comparison baseline: existing frameworks can supply evidence, while LUMINA-30 asks whether refusal remained effective before irreversibility |
 | NIST AI RMF | Risk management lifecycle (Govern / Map / Measure / Manage) | Operational, widely adoptable | No explicit procedural refusal authority | Adds "valid human refusal condition" to governance layer |
 | ISO/IEC 42001 / 42005 | AI management system / impact assessment | Organizational integration, compliance-ready | Focus on management, not stopping conditions | Introduces pre-irreversibility stop boundary |
 | Anthropic Responsible Scaling Policy (RSP) | Capability threshold gating (ASL levels) | Strong pre-deployment safety gating | Internal policy, not civilizational boundary | Adds external, non-delegable human authority |
@@ -1078,6 +1077,7 @@ Core Terminology remains the authoritative terminology layer; the Glossary is in
 | OECD AI Incident Framework | Incident reporting & analysis | Shared vocabulary, cross-border usability | Post-incident focused | Adds "what should have stopped this before" |
 | AI Incident Database (AIID) | Incident data accumulation | Empirical grounding | No normative boundary | Adds decision criteria for prevention |
 | UNESCO / Human Oversight | Human-in-the-loop governance | Global legitimacy | Oversight ≠ enforceable refusal | Defines Human Refusal Authority as a procedural boundary condition |
+| LUMINA-30 | Boundary framework for preserving effective human refusal before irreversible consequences | Clarifies a non-substitutable refusal boundary across audit, governance, and incident review contexts | Not a legal regime, certification authority, safety guarantee, or replacement for detailed technical review | Provides the comparison baseline: existing frameworks can supply evidence, while LUMINA-30 asks whether refusal remained effective before irreversibility |
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
@@ -1425,6 +1425,10 @@ or positioning is welcome.
 - [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
   ※ For all readers: core understanding ｜ 全読者向け：中核理解  
   ▶ Understand: visually grasp LUMINA-30’s boundary condition and core concepts ｜ Use: go directly to [G06 Critical Boundary](#g06) and the judgment criterion
+  - [What is LUMINA-30 ｜ LUMINA-30とは](#what)  
+    ⚑ Read first: the basic definition of LUMINA-30 ｜ 最初に読む基本説明
+  - [★ LUMINA-30 Deep Understanding Tour ｜ 深層理解ツアー](#deep-understanding-tour)  
+    ⚑ Read after the basic explanation ｜ 基本説明の次に読む案内導線
   - [Status and Scope ｜ 状態と射程](#status-and-scope)  
     ⚑ Confirms the non-binding scope and the absence of adoption, certification, legal-authority, or binding-standard claims ｜ 非拘束性と、採用・認証・法的権限・拘束的標準を主張しないことの確認
   - [Irreversibility-first competition ｜ 不可逆化一番乗り競争](#irreversibility-first-competition)  
@@ -1438,9 +1442,6 @@ or positioning is welcome.
   - [Framework Structure ｜ フレームワーク構造](#framework-structure)
   - [Conceptual Structure ｜ 思想構造](#conceptual-structure)
   - [LUMINA-30 Overview ｜ 概要](#overview)
-  - [What is LUMINA-30 ｜ LUMINA-30とは](#what)
-  - [★ LUMINA-30 Deep Understanding Tour ｜ 深層理解ツアー](#deep-understanding-tour)  
-    ⚑ Read after the basic explanation ｜ 基本説明の次に読む案内導線
   - [Positioning ｜ 位置づけ](#position)
 
 - [★ Application (Usage) ｜ 適用（使用方法）](#application)  
