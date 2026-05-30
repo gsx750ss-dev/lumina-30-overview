@@ -1,5 +1,3 @@
-
-
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <!-- ===================================================== -->
 <!-- LUMINA-30 README REVIEW WORKFLOW BLOCK -->
@@ -30,10 +28,15 @@
 
 > [EN Top](https://lumina-30.github.io/lumina-30-overview/index.html#top) ｜ [JP Top](https://lumina-30.github.io/lumina-30-overview/index-ja.html#top) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md)
 >
-> **Reader-facing HTML overview ｜ 読者向けHTML概要**  
-> For first-time reading, navigation, return paths, and long-form browsing, use the HTML version above. GitHub Markdown is retained for source text preservation, search discoverability, existing links, and version review, but it is weaker for reader orientation and returning from long linked sections.  
+> **Use the HTML website for reading ｜ 閲覧にはHTMLサイトを使用してください**  
+> For first-time reading, navigation, return paths, and long-form browsing, use the HTML overview site rather than staying on this README.md:  
+> [Open the English HTML overview](https://lumina-30.github.io/lumina-30-overview/index.html#top)  
 >
-> 初回閲覧、移動、戻り導線、長文閲覧には、上記のHTML版を使用してください。GitHub Markdownは、本文保管、検索到達性、既存リンク維持、差分確認のために残していますが、読者の現在地維持や長文リンク先からの復帰には弱いためです。
+> 日本語で読む場合も、このREADME.mdに留まらず、日本語HTML版を使用してください：  
+> [日本語HTML概要を開く](https://lumina-30.github.io/lumina-30-overview/index-ja.html#top)  
+>
+> This README.md is retained for canonical text preservation, search discoverability, existing links, source review, and version comparison. It is not the preferred reader-facing route.  
+> 本README.mdは、正本文書の保管、検索到達性、既存リンク維持、ソース確認、差分確認のために残しています。読者向けの閲覧・移動・戻り導線には、HTMLサイトを使用してください。
 
 <!-- ● L30:TITLE -->
 # LUMINA-30
