@@ -1,3 +1,4 @@
+
 # LUMINA-30 Deep Understanding Tour
 
 This tour is a guided route for readers who need to understand LUMINA-30 beyond the first overview: AI ethics organizations, auditors, incident-review teams, policy readers, and institutional adoption reviewers.
@@ -77,6 +78,15 @@ For a deeper review, repeat the fast path and then return to the main overview s
 - Do not treat the Mythos case note as proof that LUMINA-30 has been adopted or validated by any organization.
 - Use this tour to find the right document quickly; use the linked documents for the actual review.
 
+## After this tour
+
+After this tour, a reader should be able to explain:
+
+1. why LUMINA-30 asks whether effective human refusal remained possible before irreversible consequences;
+2. how Boundary Kernel, Human Anchor, Incident Review, Evidence Requirements, and routing documents relate;
+3. why LUMINA-30 is not a certification scheme, safety guarantee, legal standard, or replacement for existing audits.
+
 ## Recommended use
 
 Use this tour when you need to brief a reviewer, auditor, AI ethics group, policy reader, or institutional evaluator quickly, without forcing them to discover the document network by trial and error.
+
