@@ -64,9 +64,9 @@ It can, if misused. That is why LUMINA-30 should not be treated as a label. A cl
 
 No. In this context, Human Anchor refers only to the external reference condition that prevents inferred consent, predicted benefit, procedural appearance, or system-internal assurance from replacing effective human refusal. It is not a theory of AI consciousness, identity, agency, happiness, or coexistence.
 
-## 12. “Is the third paper needed to use this?”
+## 12. “What must not replace effective human refusal?”
 
-No. Public use does not depend on unpublished theory. The operational public definition is sufficient: effective human refusal must not be replaced by system-internal inference, optimization appearance, or simulated consent before irreversible consequences occur.
+System-internal inference, optimization appearance, predicted benefit, simulated consent, or procedural assurance must not replace effective human refusal before irreversible consequences occur. This is the practical role of the Human Anchor in LUMINA-30: human refusal must remain external, available, and non-substitutable.
 
 ## 13. “Is this anti-AI?”
 
@@ -89,3 +89,4 @@ Institutional adoption, legal integration, certification rules, and enforcement 
 - [Adoption Requests and Responses](./EN_L30_ADOPTION_REQUESTS_AND_RESPONSES.html)
 - [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.html)
 - [Boundary Kernel](../ai-readable/boundary-kernel.html)
+

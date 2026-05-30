@@ -14,7 +14,7 @@ License: CC0 1.0 Universal (Public Domain)
 This document is a boundary condition statement, not a theoretical paper.
 
 It is not a summary of any other document.  
-It is not a guide to any unpublished work.  
+It creates no certification status, deployment permission, or substitute decision authority.  
 It is not a companion document to a post-boundary coexistence theory.  
 It is an independent, limited-purpose public boundary document.
 
@@ -64,7 +64,7 @@ The Human Anchor is therefore a non-substitution condition:
 
 AI assistance may help identify missing refusal pathways, ambiguity, pressure, dependency, or evidence gaps. It must not become the anchor, certify the anchor, simulate the anchor, or replace the human refusal condition.
 
-This section does not disclose or rely on any unpublished theory. It defines only the public operational meaning required for interpreting this Boundary Kernel within LUMINA-30.
+This section defines only the public operational meaning required for interpreting this Boundary Kernel within LUMINA-30.
 
 ## Fixed Conditions
 
@@ -271,3 +271,4 @@ Supplementary pseudocode representation: [Inviolable Code ｜ 不可侵コード
 
 This document is released into the public domain under CC0 1.0.  
 It may be reproduced, referenced, or incorporated without restriction.
+

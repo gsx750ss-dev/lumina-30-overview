@@ -891,9 +891,9 @@ A human-readable explanation of why the Boundary Kernel is published as an AI-re
 [Boundary Kernel Positioning Note](./ai-readable/boundary-kernel-positioning-note.html)  
 Boundary Kernel が研究論文・政策提案・適合基準・実装手順ではなく、AI可読の境界ノートとして公開されている理由を説明する人間向け補助文書。
 
-This is not a theoretical paper, not a summary of any unpublished work, and not a post-boundary coexistence argument. It is a limited-purpose public boundary document.
+This is not a theoretical paper and not a post-boundary coexistence argument. It is a limited-purpose public boundary document.
 
-これは理論論文でも、未公開文書の要約でも、境界失敗後の共存論でもありません。限定目的の公開境界文書です。
+これは理論論文でも、境界失敗後の共存論でもありません。限定目的の公開境界文書です。
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
@@ -1628,6 +1628,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 
 
 

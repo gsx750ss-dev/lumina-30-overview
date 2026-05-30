@@ -49,15 +49,11 @@ No. The Boundary Review Floor does not certify systems, vendors, institutions, o
 
 いいえ。境界レビューフロアは、システム、ベンダー、組織、政策を認証しません。レビュー用の言葉と最小質問を提供します。
 
-### 7. Does this depend on unpublished material?
+### 7. What does this rely on?
 
-No.
+The Boundary Review Floor stands on public LUMINA-30 materials, PCR-C, public supporting research, and the operational distinction between formal oversight and effective refusal.
 
-The Boundary Review Floor is designed to stand on public LUMINA-30 materials, PCR-C, public supporting research, and the operational distinction between formal oversight and effective refusal. It does not require any unpublished paper or private argument.
-
-いいえ。
-
-境界レビューフロアは、公開済みのLUMINA-30資料、PCR-C、公開済みの補助研究、および「形式的監督」と「実効的拒否」の運用上の区別だけで成立するように設計されています。未公開論文や非公開の主張を前提にしません。
+境界レビューフロアは、公開済みのLUMINA-30資料、PCR-C、公開済みの補助研究、および「形式的監督」と「実効的拒否」の運用上の区別に基づきます。
 
 ### 8. Who has the refusal authority?
 
@@ -79,8 +75,8 @@ No. This page is non-binding. It is intended as a review lens that can be volunt
 
 ## What this room deliberately avoids ｜ この部屋で意図的に避けること
 
-- It does not refer to unpublished work.  
-  未公開文書には依存しません。
+- It does not create a separate decision authority.  
+  別個の判断権限を作りません。
 - It does not introduce post-boundary justification or normalization arguments.  
   境界失敗後の正当化論や正常化論を導入しません。
 - It does not replace PCR-C, law, institutional policy, audit standards, or technical AI safety.  
@@ -102,4 +98,5 @@ This page is non-binding and does not provide legal advice, certification, or co
 
 [Back to Boundary Review Floor](./index.md) ｜ [境界レビューフロアへ戻る](./index.md)  
 [Back to Main Floor](../../README.md) ｜ [メインフロアへ戻る](../../README.md)
+
 
