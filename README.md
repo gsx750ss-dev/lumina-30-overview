@@ -42,19 +42,6 @@ Refusal before irreversibility — a boundary that cannot be substituted.
 不可逆の前に拒否が機能しているか——代替不能な境界。
 
 
-
-<a id="deep-understanding-tour"></a>
-## ★ LUMINA-30 Deep Understanding Tour ｜ 深層理解ツアー
-
-A guided reading route for AI ethics organizations, auditors, incident-review teams, policy readers, and institutional adoption reviewers who need to understand LUMINA-30 quickly and deeply.  
-LUMINA-30を短時間で深く理解する必要があるAI倫理団体、監査者、事故レビュー担当者、政策読者、制度評価者のための案内ルートです。
-
-- [Open the English tour](adoption/EN_L30_DEEP_UNDERSTANDING_TOUR.html) ｜ [日本語ツアーを開く](adoption/JP_L30_DEEP_UNDERSTANDING_TOUR.html)  
-- This tour is a navigation aid, not a certification route, official adoption claim, safety guarantee, or legal standard.  
-  このツアーは案内導線であり、認証ルート、公式採用表示、安全保証、法的基準ではありません。
-
-[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
-
 ## Start Here: Reversible Prosperity Path ｜ まずここから：可逆的繁栄の道
 
 > **Terminology note ｜ 用語上の注意**  
@@ -489,6 +476,18 @@ Post-incident review and pre-irreversibility evaluation
 
 推奨読書順：  
 Entry Visuals (G00–G06) → Practical Application → Incident Review Hub / Operational Governance Tools
+
+<a id="deep-understanding-tour"></a>
+## ★ LUMINA-30 Deep Understanding Tour ｜ 深層理解ツアー
+
+A guided reading route for AI ethics organizations, auditors, incident-review teams, policy readers, and institutional adoption reviewers who need to understand LUMINA-30 quickly and deeply.  
+LUMINA-30を短時間で深く理解する必要があるAI倫理団体、監査者、事故レビュー担当者、政策読者、制度評価者のための案内ルートです。
+
+- [Open the English tour](adoption/EN_L30_DEEP_UNDERSTANDING_TOUR.html) ｜ [日本語ツアーを開く](adoption/JP_L30_DEEP_UNDERSTANDING_TOUR.html)  
+- This tour is a navigation aid, not a certification route, official adoption claim, safety guarantee, or legal standard.  
+  このツアーは案内導線であり、認証ルート、公式採用表示、安全保証、法的基準ではありません。
+
+[⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
 
 ## General Usage Context ｜ 全体の使用文脈
 
@@ -1075,6 +1074,7 @@ Core Terminology remains the authoritative terminology layer; the Glossary is in
 
 | Framework | Core Function | Strength | Limitation | Gap LUMINA-30 Fills |
 |----------|-------------|----------|------------|---------------------|
+| LUMINA-30 | Boundary framework for preserving effective human refusal before irreversible consequences | Clarifies a non-substitutable refusal boundary across audit, governance, and incident review contexts | Not a legal regime, certification authority, safety guarantee, or replacement for detailed technical review | Provides the comparison baseline: existing frameworks can supply evidence, while LUMINA-30 asks whether refusal remained effective before irreversibility |
 | NIST AI RMF | Risk management lifecycle (Govern / Map / Measure / Manage) | Operational, widely adoptable | No explicit procedural refusal authority | Adds "valid human refusal condition" to governance layer |
 | ISO/IEC 42001 / 42005 | AI management system / impact assessment | Organizational integration, compliance-ready | Focus on management, not stopping conditions | Introduces pre-irreversibility stop boundary |
 | Anthropic Responsible Scaling Policy (RSP) | Capability threshold gating (ASL levels) | Strong pre-deployment safety gating | Internal policy, not civilizational boundary | Adds external, non-delegable human authority |
