@@ -1422,10 +1422,6 @@ or positioning is welcome.
 ## ★ Index (Navigation) ｜ 目次
 *********************
 
-- [★ LUMINA-30 Deep Understanding Tour ｜ 深層理解ツアー](#deep-understanding-tour)  
-  ※ Guided route for deep review ｜ 深く確認するための案内ルート  
-  ▶ For AI ethics, audit, policy, and institutional review readers who need to reach the key documents quickly ｜ AI倫理・監査・政策・制度評価の読者が重要文書へ短時間で到達するための導線
-
 - [★ Core (Concept → Judgment) ｜ 中核構造（概念 → 判断）](#core)  
   ※ For all readers: core understanding ｜ 全読者向け：中核理解  
   ▶ Understand: visually grasp LUMINA-30’s boundary condition and core concepts ｜ Use: go directly to [G06 Critical Boundary](#g06) and the judgment criterion
@@ -1443,6 +1439,8 @@ or positioning is welcome.
   - [Conceptual Structure ｜ 思想構造](#conceptual-structure)
   - [LUMINA-30 Overview ｜ 概要](#overview)
   - [What is LUMINA-30 ｜ LUMINA-30とは](#what)
+  - [★ LUMINA-30 Deep Understanding Tour ｜ 深層理解ツアー](#deep-understanding-tour)  
+    ⚑ Read after the basic explanation ｜ 基本説明の次に読む案内導線
   - [Positioning ｜ 位置づけ](#position)
 
 - [★ Application (Usage) ｜ 適用（使用方法）](#application)  
