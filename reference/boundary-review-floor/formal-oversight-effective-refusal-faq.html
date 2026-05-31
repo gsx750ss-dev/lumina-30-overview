@@ -1,87 +1,58 @@
-<!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<!DOCTYPE html>
+
+<html data-l30-lang-lock="EN_ONLY" lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="B. Clarification &amp; Objection Room ｜ B. 整理と反論の部屋" />
-  <title>B. Clarification &amp; Objection Room ｜ B. 整理と反論の部屋</title>
-  <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
-    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
-    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
-    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
-    a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
-    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
-    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
-    th { background: var(--panel); }
-    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
-
-  </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="EN_ONLY" name="l30:lang-lock"/>
+<meta content="B. Clarification &amp;
+Objection Room" name="description"/>
+<title>B. Clarification &amp;
+Objection Room</title>
+<style>
+:root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+.page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+.nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+.nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+h3 { margin-top: 1.5em; }
+a { color: var(--accent); }
+code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+th { background: var(--panel); }
+blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+.subtitle, .footer { color: var(--muted); }
+[id] { scroll-margin-top: 92px; }
+</style>
 </head>
 <body>
-  <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="./index.html">Boundary Review Floor</a>
-      <a href="../../index.html">EN Top</a>
-      <a href="../../index-ja.html">JP Top</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/formal-oversight-effective-refusal-faq.html">↻ Reload / 再読み込み</a>
-    </nav>
-    <header>
-      <h1>B. Clarification &amp; Objection Room ｜ B. 整理と反論の部屋</h1>
-      <p class="subtitle">Boundary Review Floor public HTML reference page. / 境界レビューフロア公開HTML参照ページ。</p>
-    </header>
-    <main>
+<div class="page">
+<nav aria-label="Page navigation" class="nav"><a href="../../index.html">EN Top</a><a href="../../index-ja.html">JP Top</a><a href="formal-oversight-effective-refusal-faq_ja.html">Japanese</a><a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/formal-oversight-effective-refusal-faq.html">↻ Reload</a></nav>
+<header><h1>B. Clarification &amp;
+Objection Room</h1><p class="subtitle">Boundary Review Floor public HTML reference page.</p></header>
+<main>
+<!-- L30_LANG_LOCK: EN_ONLY -->
 <p>This room addresses likely objections and misunderstandings about the
 Boundary Review Floor. It is not a comment form or discussion board.</p>
-<p>この部屋は、境界レビューフロアに対する想定反論と誤解を整理するための静的文書です。コメント欄や質問投稿フォームではありません。</p>
-<h2 id="summary--要約">Summary ｜ 要約</h2>
+<h2 id="summary">Summary</h2>
 <p>LUMINA-30 does not claim that existing AI governance is useless. It
 asks whether formal oversight still corresponds to effective human
 refusal before irreversibility.</p>
-<p>LUMINA-30は、既存AIガバナンスが無用であるとは主張しません。形式的監督が、不可逆化前の実効的人間拒否とまだ対応しているかを問います。</p>
-<h2 id="objections-and-clarifications--反論と整理">Objections and
-clarifications ｜ 反論と整理</h2>
+<p>LUMINA-30</p>
+<h2 id="objections-and-clarifications">Objections and
+clarifications</h2>
 <h3 id="1-is-this-just-another-ai-ethics-framework">1. Is this just
 another AI ethics framework?</h3>
 <p>No. The Boundary Review Floor does not introduce a new ethical code.
 It isolates one boundary test: whether refusal remained effective before
 irreversibility.</p>
-<p>いいえ。境界レビューフロアは新しい倫理規程を導入するものではありません。不可逆化前に拒否がなお実効的だったか、という一つの境界テストを切り出します。</p>
 <h3 id="2-do-existing-frameworks-already-cover-this">2. Do existing
 frameworks already cover this?</h3>
 <p>They cover important parts of risk management, oversight,
@@ -89,34 +60,29 @@ documentation, accountability, and incident reporting. LUMINA-30 does
 not replace them. It adds a cross-cutting review question: did those
 mechanisms still preserve effective refusal authority before
 irreversible consequences occurred?</p>
-<p>既存枠組みは、リスク管理、監督、文書化、説明責任、インシデント報告の重要な部分を扱います。LUMINA-30はそれらを置き換えません。それらの仕組みが、不可逆的結果の前に実効的拒否権限をなお保持していたか、という横断的なレビュー質問を追加します。</p>
 <h3 id="3-is-this-just-human-in-the-loop">3. Is this just
 human-in-the-loop?</h3>
 <p>No. Human-in-the-loop can be formal, advisory, delayed, or
 disconnected from execution. LUMINA-30 asks whether human refusal could
 actually stop, delay, or reject execution before irreversible
 consequences occurred.</p>
-<p>いいえ。human-in-the-loop
-は、形式的、助言的、遅延的、または実行経路から切り離されたものになり得ます。LUMINA-30は、人間の拒否が不可逆的結果の前に実際に停止・遅延・拒否できたかを問います。</p>
 <h3 id="4-is-this-anti-ai-or-anti-development">4. Is this anti-AI or
 anti-development?</h3>
 <p>No. The point is not to stop development by default. The point is to
 preserve meaningful refusal before consequences become irreversible.</p>
-<p>いいえ。目的は開発を原則停止することではありません。目的は、結果が不可逆化する前に意味のある拒否を保持することです。</p>
 <h3 id="5-is-this-a-legal-judgment">5. Is this a legal judgment?</h3>
 <p>No. Procedural invalidity in this context does not mean legal
 invalidity. It means that, under the LUMINA-30 boundary test, effective
 refusal authority was not shown before irreversibility.</p>
-<p>いいえ。この文脈での手続的無効は、法的無効を意味しません。LUMINA-30の境界テスト上、不可逆化前の実効的拒否権限が示されなかった、という意味です。</p>
 <h3 id="6-is-this-a-certification-system">6. Is this a certification
 system?</h3>
 <p>No. The Boundary Review Floor does not certify systems, vendors,
 institutions, or policies. It provides review language and minimal
 questions.</p>
-<p>いいえ。境界レビューフロアは、システム、ベンダー、組織、政策を認証しません。レビュー用の言葉と最小質問を提供します。</p>
 <h3 id="7-what-does-this-rely-on">7. What does this rely on?</h3>
-<p>The Boundary Review Floor stands on public LUMINA-30 materials, PCR-C, public supporting research, and the operational distinction between formal oversight and effective refusal.</p>
-<p>境界レビューフロアは、公開済みのLUMINA-30資料、PCR-C、公開済みの補助研究、および「形式的監督」と「実効的拒否」の運用上の区別に基づきます。</p>
+<p>The Boundary Review Floor stands on public LUMINA-30 materials,
+PCR-C, public supporting research, and the operational distinction
+between formal oversight and effective refusal.</p>
 <h3 id="8-who-has-the-refusal-authority">8. Who has the refusal
 authority?</h3>
 <p>LUMINA-30 does not define a universal office or single actor. In
@@ -124,55 +90,41 @@ practical review, the relevant question is whether a clearly identified
 human or institutional authority had the actual ability to stop, delay,
 reject, or escalate the decision before irreversible consequences
 occurred.</p>
-<p>LUMINA-30は、普遍的な役職や単一主体を定義しません。実務レビューでは、明確に識別された人間または制度的権限主体が、不可逆的結果の前に停止・遅延・拒否・上申できたかを確認します。</p>
+<p>LUMINA-30</p>
 <h3 id="9-what-if-humans-make-mistakes">9. What if humans make
 mistakes?</h3>
 <p>LUMINA-30 does not claim that human judgment is always correct. The
 point is that irreversible execution must remain externally
 interruptible, reviewable, and rejectable before the point where
 correction no longer matters.</p>
-<p>LUMINA-30は、人間判断が常に正しいとは主張しません。重要なのは、訂正が意味を失う地点より前に、不可逆的実行が外部から中断・再検討・拒否可能であり続けることです。</p>
+<p>LUMINA-30</p>
 <h3 id="10-is-this-meant-to-be-mandatory">10. Is this meant to be
 mandatory?</h3>
 <p>No. This page is non-binding. It is intended as a review lens that
 can be voluntarily added to incident review, audit, governance, policy,
 risk, procurement, or evaluation workflows.</p>
-<p>いいえ。このページは非拘束です。事故後レビュー、監査、ガバナンス、政策、リスク、調達、評価のワークフローに任意で追加できるレビュー視点として設計されています。</p>
-<h2 id="what-this-room-deliberately-avoids--この部屋で意図的に避けること">What
-this room deliberately avoids ｜ この部屋で意図的に避けること</h2>
+<h2 id="what-this-room-deliberately-avoids">What this room deliberately
+avoids</h2>
 <ul>
-<li>It does not create a separate decision authority.<br/>
-別個の判断権限を作りません。</li>
+<li>It does not create a separate decision authority.</li>
 <li>It does not introduce post-boundary justification or normalization
-arguments.<br/>
-境界失敗後の正当化論や正常化論を導入しません。</li>
+arguments.</li>
 <li>It does not replace PCR-C, law, institutional policy, audit
-standards, or technical AI safety.<br/>
-PCR-C、法、組織方針、監査標準、技術的AI安全を置き換えません。</li>
-<li>It does not claim legal invalidity or compliance failure.<br/>
-法的無効や適合性違反を主張しません。</li>
+standards, or technical AI safety. PCR-C</li>
+<li>It does not claim legal invalidity or compliance failure.</li>
 </ul>
-<h2 id="next-room--次の部屋">Next room ｜ 次の部屋</h2>
+<h2 id="next-room">Next room</h2>
 <ul>
-<li>If the distinction is clear and you want to share it, go to <a href="./shareable-boundary-question.html">C Room: Share</a>.<br/>
-区別が理解でき、共有したい場合は、<a href="./shareable-boundary-question.html">Cルーム：持ち帰りの部屋</a>
-へ。</li>
-<li>If you need governance mapping, go to <a href="./connection-to-existing-ai-governance.html">D Room: Governance
-Connection</a>.<br/>
-既存枠組みへの接続が必要な場合は、<a href="./connection-to-existing-ai-governance.html">Dルーム：接続の部屋</a>
-へ。</li>
+<li>If the distinction is clear and you want to share it, go to <a href="shareable-boundary-question.html">C Room: Share</a>.</li>
+<li>If you need governance mapping, go to <a href="connection-to-existing-ai-governance.html">D Room: Governance
+Connection</a>.</li>
 </ul>
 <hr/>
 <p>This page is non-binding and does not provide legal advice,
-certification, or compliance determination.<br/>
-このページは非拘束であり、法的助言、認証、または適合性判定を提供するものではありません。</p>
-<p><a href="./index.html">Back to Boundary Review Floor</a> ｜ <a href="./index.html">境界レビューフロアへ戻る</a><br/>
-<a href="../../index.html">Back to Main Floor</a> ｜ <a href="../../index.html">メインフロアへ戻る</a></p>
-    </main>
-    <footer class="footer">
-      LUMINA-30 public reference material. / LUMINA-30 公開参照資料。
-    </footer>
-  </div>
+certification, or compliance determination.</p>
+<p><a href="index.html">Back to Boundary Review Floor</a> <a href="../../README.md">Back to Main Floor</a></p>
+</main>
+<div class="footer">This page is the English HTML version. For Japanese, use the Japanese link above.</div>
+</div>
 </body>
 </html>
-

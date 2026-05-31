@@ -139,7 +139,7 @@ Was human refusal authority effective before irreversible impact?
 
 ## Use LUMINA-30 now ｜ すぐ使う
 
-- [Check effective refusal ｜ 実効的拒否を確認する](https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html)  
+- [Check effective refusal](https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html) ｜ [実効的拒否を確認する](https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index-ja.html)  
   Use when you need to determine whether human refusal remained effective before irreversibility.  
   不可逆化の前に、人間の拒否権が実効的に残っていたかを確認する場合に使用します。
 

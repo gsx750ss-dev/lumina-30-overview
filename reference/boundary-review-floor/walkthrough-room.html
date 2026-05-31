@@ -1,92 +1,56 @@
-<!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<!DOCTYPE html>
+
+<html data-l30-lang-lock="EN_ONLY" lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="G. Walkthrough Room ｜ 読み替え例の部屋" />
-  <title>G. Walkthrough Room ｜ 読み替え例の部屋</title>
-  <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
-    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
-    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
-    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
-    a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
-    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
-    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
-    th { background: var(--panel); }
-    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
-
-  </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="EN_ONLY" name="l30:lang-lock"/>
+<meta content="G. Walkthrough Room" name="description"/>
+<title>G. Walkthrough Room</title>
+<style>
+:root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+.page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+.nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+.nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+h3 { margin-top: 1.5em; }
+a { color: var(--accent); }
+code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+th { background: var(--panel); }
+blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+.subtitle, .footer { color: var(--muted); }
+[id] { scroll-margin-top: 92px; }
+</style>
 </head>
 <body>
-  <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="./index.html">Boundary Review Floor</a>
-      <a href="../../index.html">EN Top</a>
-      <a href="../../index-ja.html">JP Top</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/walkthrough-room.html">↻ Reload / 再読み込み</a>
-    </nav>
-    <header>
-      <h1>G. Walkthrough Room ｜ 読み替え例の部屋</h1>
-      <p class="subtitle">Boundary Review Floor public HTML reference page. / 境界レビューフロア公開HTML参照ページ。</p>
-    </header>
-    <main>
+<div class="page">
+<nav aria-label="Page navigation" class="nav"><a href="../../index.html">EN Top</a><a href="../../index-ja.html">JP Top</a><a href="walkthrough-room_ja.html">Japanese</a><a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/walkthrough-room.html">↻ Reload</a></nav>
+<header><h1>G. Walkthrough Room</h1><p class="subtitle">Boundary Review Floor public HTML reference page.</p></header>
+<main>
+<!-- L30_LANG_LOCK: EN_ONLY -->
 <p>This room shows how a formal-oversight statement can be re-read
 through the LUMINA-30 boundary question.</p>
 <p>The example below is fictional and simplified. It is not an incident
 finding, legal analysis, certification result, or claim about any real
 organization.</p>
-<p>この部屋では、形式的監督の説明を、LUMINA-30の境界質問でどのように読み替えるかを示します。</p>
-<p>以下の例は架空かつ簡略化されたものです。実在の事故判定、法的分析、認証結果、または特定組織に関する主張ではありません。</p>
-<h2 id="core-question--中核質問">Core question ｜ 中核質問</h2>
+<h2 id="core-question">Core question</h2>
 <blockquote>
 <p>Was effective human refusal still possible before irreversible
 consequences occurred?</p>
-<p>不可逆的結果が発生する前に、実効的な人間拒否はなお可能だったか。</p>
 </blockquote>
-<h2 id="fictional-statement--架空の説明">Fictional statement ｜
-架空の説明</h2>
+<h2 id="fictional-statement">Fictional statement</h2>
 <p>A system was deployed after human approval. The deployment process
 included documentation, an approval record, audit logs, and a named
 human supervisor.</p>
-<p>人間の承認後に、あるシステムが展開された。展開過程には、文書化、承認記録、監査ログ、名前のある人間監督者が含まれていた。</p>
-<h2 id="ordinary-reading--通常の読み方">Ordinary reading ｜
-通常の読み方</h2>
+<h2 id="ordinary-reading">Ordinary reading</h2>
 <p>An ordinary governance review may stop at the following
 observations:</p>
 <ul>
@@ -95,18 +59,9 @@ observations:</p>
 <li>logs were preserved;</li>
 <li>the process appeared documented.</li>
 </ul>
-<p>通常のガバナンスレビューでは、次の確認で止まる場合があります。</p>
-<ul>
-<li>人間の監督者が存在した。</li>
-<li>承認が記録されていた。</li>
-<li>ログが保存されていた。</li>
-<li>手続きは文書化されているように見えた。</li>
-</ul>
-<h2 id="boundary-review-reading--境界レビューとしての読み方">Boundary
-review reading ｜ 境界レビューとしての読み方</h2>
+<h2 id="boundary-review-reading">Boundary review reading</h2>
 <p>A boundary review does not deny those facts. It asks whether they
 were enough to preserve effective refusal before irreversibility.</p>
-<p>境界レビューは、それらの事実を否定しません。ただし、それらが不可逆化前の実効的拒否を保持するのに十分だったかを問います。</p>
 <p>It asks:</p>
 <ol type="1">
 <li>Could the named supervisor still stop, delay, or reject the
@@ -120,61 +75,37 @@ rather than merely documented?</li>
 <li>If refusal was no longer effective, when did oversight become merely
 formal?</li>
 </ol>
-<p>問いは次のように変わります。</p>
-<ol type="1">
-<li>名前のある監督者は、不可逆的結果の前になお実行を停止・遅延・拒否できたか。</li>
-<li>判断点は、拒否が意味を持つだけ早い段階で可視化されていたか。</li>
-<li>拒否経路は、実行経路に技術的・手続き的に接続されていたか。</li>
-<li>拒否が単に文書化されていただけでなく、運用上なお実効的だった証拠はあるか。</li>
-<li>拒否が実効性を失っていたなら、どの時点で監督は形式的なものになったのか。</li>
-</ol>
-<h2 id="what-changes--何が変わるか">What changes ｜ 何が変わるか</h2>
+<h2 id="what-changes">What changes</h2>
 <p>The review no longer treats human involvement as sufficient by
 itself.</p>
 <p>Instead, it checks whether the human role still had time, visibility,
 authority, and connection to the execution path.</p>
-<p>レビューは、人間関与それ自体を十分なものとして扱わなくなります。</p>
-<p>その代わりに、人間の役割に、時間、可視性、権限、実行経路との接続がなお残っていたかを確認します。</p>
-<h2 id="short-takeaway--短い要点">Short takeaway ｜ 短い要点</h2>
+<h2 id="short-takeaway">Short takeaway</h2>
 <p>Formal oversight can remain visible after effective refusal has
 already become impossible.</p>
 <p>The Boundary Review Floor helps readers notice that difference before
 treating oversight as evidence of control.</p>
-<p>実効的拒否がすでに不可能になった後でも、形式的監督は見かけ上残り続ける場合があります。</p>
-<p>境界レビューフロアは、監督を制御の証拠として扱う前に、その違いに気づくための場所です。</p>
-<h2 id="external-use-note--外部制度団体文脈での補足">External-use note
-｜ 外部制度・団体文脈での補足</h2>
+<h2 id="external-use-note">External-use note</h2>
 <p>This walkthrough is intentionally fictional and simplified. For
 external governance, standards, incident-response, or human-oversight
 contexts, do not treat this example as a policy interpretation. Use D
 Room and the external-use notes for non-binding reference routes.</p>
-<p>この読み替え例は、意図的に架空かつ簡略化されています。外部ガバナンス、標準化、事故対応、人間監督文脈では、この例を制度解釈として扱わないでください。非拘束の参照導線として、Dルームおよび外部制度・団体接続メモを使用してください。</p>
 <ul>
-<li><a href="./connection-to-existing-ai-governance.html#external-use-notes">D
-Room: External-use notes</a> ｜ <a href="./connection-to-existing-ai-governance.html#external-use-notes">Dルーム：外部制度・団体接続メモ</a></li>
+<li><a href="connection-to-existing-ai-governance.html#external-use-notes">D
+Room: External-use notes</a></li>
 </ul>
-<h2 id="next-step--次に進む">Next step ｜ 次に進む</h2>
+<h2 id="next-step">Next step</h2>
 <ul>
-<li><p>To check whether you can use this lens yourself, go to <a href="./review-lens-check.html">F Room: Review Lens Check</a>.</p></li>
-<li><p>To apply a minimal review check, go to <a href="./minimal-review-check.html">E Room: Practice</a>.</p></li>
-<li><p>To share the core question with others, go to <a href="./shareable-boundary-question.html">C Room: Share</a>.</p></li>
-<li><p>この視点を自分で使えるか確認するには、<a href="./review-lens-check.html">Fルーム：レビュー視点チェック</a>
-へ進んでください。</p></li>
-<li><p>最小レビュー確認を使うには、<a href="./minimal-review-check.html">Eルーム：実務の部屋</a>
-へ進んでください。</p></li>
-<li><p>中核質問を他人に共有するには、<a href="./shareable-boundary-question.html">Cルーム：持ち帰りの部屋</a>
-へ進んでください。</p></li>
+<li>To check whether you can use this lens yourself, go to <a href="review-lens-check.html">F Room: Review Lens Check</a>.</li>
+<li>To apply a minimal review check, go to <a href="minimal-review-check.html">E Room: Practice</a>.</li>
+<li>To share the core question with others, go to <a href="shareable-boundary-question.html">C Room: Share</a>.</li>
 </ul>
 <hr/>
 <p>This page is non-binding and does not provide legal advice,
-certification, or compliance determination.<br/>
-このページは非拘束であり、法的助言、認証、または適合性判定を提供するものではありません。</p>
-<p><a href="./index.html">Back to Boundary Review Floor</a> ｜ <a href="./index.html">境界レビューフロアへ戻る</a><br/>
-<a href="../../index.html">Back to Main Floor</a> ｜ <a href="../../index.html">メインフロアへ戻る</a></p>
-    </main>
-    <footer class="footer">
-      LUMINA-30 public reference material. / LUMINA-30 公開参照資料。
-    </footer>
-  </div>
+certification, or compliance determination.</p>
+<p><a href="index.html">Back to Boundary Review Floor</a> <a href="../../README.md">Back to Main Floor</a></p>
+</main>
+<div class="footer">This page is the English HTML version. For Japanese, use the Japanese link above.</div>
+</div>
 </body>
 </html>

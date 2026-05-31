@@ -1,298 +1,211 @@
-<!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<!DOCTYPE html>
+
+<html data-l30-lang-lock="EN_ONLY" lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="F. Review Lens Check ｜ レビュー視点チェック" />
-  <title>F. Review Lens Check ｜ レビュー視点チェック</title>
-  <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
-    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
-    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
-    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
-    a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
-    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
-    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
-    th { background: var(--panel); }
-    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
-
-  </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="EN_ONLY" name="l30:lang-lock"/>
+<meta content="F. Review Lens Check" name="description"/>
+<title>F. Review Lens Check</title>
+<style>
+:root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+.page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+.nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+.nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+h3 { margin-top: 1.5em; }
+a { color: var(--accent); }
+code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+th { background: var(--panel); }
+blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+.subtitle, .footer { color: var(--muted); }
+[id] { scroll-margin-top: 92px; }
+</style>
 </head>
 <body>
-  <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="./index.html">Boundary Review Floor</a>
-      <a href="../../index.html">EN Top</a>
-      <a href="../../index-ja.html">JP Top</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/review-lens-check.html">↻ Reload / 再読み込み</a>
-    </nav>
-    <header>
-      <h1>F. Review Lens Check ｜ レビュー視点チェック</h1>
-      <p class="subtitle">Boundary Review Floor public HTML reference page. / 境界レビューフロア公開HTML参照ページ。</p>
-    </header>
-    <main>
+<div class="page">
+<nav aria-label="Page navigation" class="nav"><a href="../../index.html">EN Top</a><a href="../../index-ja.html">JP Top</a><a href="review-lens-check_ja.html">Japanese</a><a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/review-lens-check.html">↻ Reload</a></nav>
+<header><h1>F. Review Lens Check</h1><p class="subtitle">Boundary Review Floor public HTML reference page.</p></header>
+<main>
+<!-- L30_LANG_LOCK: EN_ONLY -->
 <p>This room helps you check whether you can use the Boundary Review
 Floor’s core review lens.</p>
 <p>It is not a test, certification, compliance result, legal judgment,
 or endorsement requirement. It is a staged self-check for whether the
 distinction between formal oversight and effective human refusal can be
 used in review, audit, governance, or incident-analysis contexts.</p>
-<p>この部屋は、境界レビューフロアの中核となるレビュー視点を使えるかを自己確認するための場所です。</p>
-<p>これは試験、認証、適合性判定、法的判断、または賛同要求ではありません。形式的監督と実効的人間拒否の区別を、レビュー、監査、ガバナンス、事故後分析の文脈で使えるかを確認するための段階式自己チェックです。</p>
-<h2 id="choose-your-level--レベルを選ぶ">Choose your level ｜
-レベルを選ぶ</h2>
+<h2 id="choose-your-level">Choose your level</h2>
 <p>You do not need to complete every level before using the boundary
 question.</p>
 <ul>
-<li><strong>Level 1 — Quick Check</strong>: for readers who want to
-leave quickly with the core boundary question.</li>
-<li><strong>Level 2 — Core Reading Check</strong>: for readers who want
-to use the review lens more reliably.</li>
-<li><strong>Level 3 — Applied / Advanced Check</strong>: for readers who
-need audit, governance, incident-review, or research-facing use.</li>
+<li><p><strong>Level 1 — Quick Check</strong>: for readers who want to
+leave quickly with the core boundary question.</p></li>
+<li><p><strong>Level 2 — Core Reading Check</strong>: for readers who
+want to use the review lens more reliably.</p></li>
+<li><p><strong>Level 3 — Applied / Advanced Check</strong>: for readers
+who need audit, governance, incident-review, or research-facing
+use.</p></li>
+<li><p>**Level 1 —</p></li>
+<li><p>**Level 2 —</p></li>
+<li><p>**Level 3 —</p></li>
 </ul>
-<p>すべてのレベルを完了しなくても、境界質問は使えます。</p>
-<ul>
-<li><strong>Level 1 —
-初級チェック</strong>：中核の境界質問を早く持ち帰りたい読者向け。</li>
-<li><strong>Level 2 —
-中核読了チェック</strong>：レビュー視点としてより確実に使いたい読者向け。</li>
-<li><strong>Level 3 —
-実務・上級チェック</strong>：監査、ガバナンス、事故後レビュー、研究寄りの利用が必要な読者向け。</li>
-</ul>
-<h2 id="how-to-score--採点方法">How to score ｜ 採点方法</h2>
+<h2 id="how-to-score">How to score</h2>
 <p>Use the following scale for each item:</p>
 <ul>
-<li><strong>0 = Not yet</strong> — I cannot use this lens yet.</li>
-<li><strong>1 = Partly</strong> — I understand the idea, but may still
-need to review the linked rooms again.</li>
-<li><strong>2 = Ready</strong> — I can use this lens for the stated
-level.</li>
-</ul>
-<p>各項目について、次の基準で自己採点してください。</p>
-<ul>
-<li><strong>0 = まだできない</strong> — まだこの視点を使えない。</li>
-<li><strong>1 = 一部できる</strong> —
-考え方は理解しているが、リンク先の部屋を見直す必要がある。</li>
-<li><strong>2 = 使える</strong> —
-そのレベルの目的に沿ってこの視点を使える。</li>
+<li><p><strong>0 = Not yet</strong> — I cannot use this lens
+yet.</p></li>
+<li><p><strong>1 = Partly</strong> — I understand the idea, but may
+still need to review the linked rooms again.</p></li>
+<li><p><strong>2 = Ready</strong> — I can use this lens for the stated
+level.</p></li>
+<li><p>**0 =</p></li>
+<li><p>**1 =</p></li>
+<li><p>**2 =</p></li>
 </ul>
 <hr/>
 <p><a id="level-1"></a></p>
-<h2 id="level-1--quick-check--level-1--初級チェック">Level 1 — Quick
-Check ｜ Level 1 — 初級チェック</h2>
+<h2 id="level-1--quick-check">Level 1 — Quick Check</h2>
 <p>Use this level if you want to leave quickly with the core boundary
 question.</p>
 <p>Before this check, read:</p>
 <ol type="1">
-<li><a href="./formal-oversight-effective-refusal.html">A. Boundary
+<li><a href="formal-oversight-effective-refusal.html">A. Boundary
 Understanding Room</a></li>
-<li><a href="./walkthrough-room.html">G. Walkthrough Room</a></li>
-<li><a href="./shareable-boundary-question.html">C. Share Room</a></li>
+<li><a href="walkthrough-room.html">G. Walkthrough Room</a></li>
+<li><a href="shareable-boundary-question.html">C. Share Room</a></li>
 </ol>
 <p>This level is enough to carry and share the boundary question. It is
 not enough to claim full understanding of LUMINA-30 or to perform a
 detailed audit.</p>
-<p>中核の境界質問を早く持ち帰りたい場合は、このレベルを使ってください。</p>
-<p>このチェックの前に、次を読んでください。</p>
 <ol type="1">
-<li><a href="./formal-oversight-effective-refusal.html">A.
-境界理解室</a></li>
-<li><a href="./walkthrough-room.html">G. 読み替え例の部屋</a></li>
-<li><a href="./shareable-boundary-question.html">C.
-持ち帰りの部屋</a></li>
+<li><a href="formal-oversight-effective-refusal.html">A.</a></li>
+<li><a href="walkthrough-room.html">G.</a></li>
+<li><a href="shareable-boundary-question.html">C.</a></li>
 </ol>
-<p>このレベルは、境界質問を持ち帰り、共有するには十分です。LUMINA-30全体の完全理解や、詳細な監査を行えることを示すものではありません。</p>
-<h3 id="level-1-items--初級確認項目">Level 1 items ｜ 初級確認項目</h3>
+<h3 id="level-1-items">Level 1 items</h3>
 <ol type="1">
 <li><p>Can you restate the core shift from “Was a human involved?” to
-“Could a human still refuse in time?”<br/>
-「人間は関与していたか」から「人間は間に合う段階でなお拒否できたか」への問いの移動を言い換えられますか。</p></li>
+“Could a human still refuse in time?”</p></li>
 <li><p>Can you re-read a simple oversight claim through the boundary
-question?<br/>
-単純な監督主張を、境界質問で読み替えられますか。</p></li>
+question?</p></li>
 <li><p>Can you share the one-sentence boundary question without
-requiring full endorsement of LUMINA-30?<br/>
-LUMINA-30全体への賛同を求めずに、一文の境界質問を共有できますか。</p></li>
+requiring full endorsement of LUMINA-30? LUMINA-30</p></li>
 </ol>
-<h3 id="level-1-score-meaning--初級点数の意味">Level 1 score meaning ｜
-初級点数の意味</h3>
+<h3 id="level-1-score-meaning">Level 1 score meaning</h3>
 <ul>
-<li><p><strong>0–2: Revisit A and G</strong> ｜
-<strong>A/Gを再確認</strong><br/>
-Read A Room again, then use G Room for a concrete walkthrough.<br/>
-Aルームを読み直し、Gルームで具体的な読み替え例を確認してください。</p></li>
-<li><p><strong>3–4: Carry the question carefully</strong> ｜
-<strong>注意して問いを持ち帰る</strong><br/>
-You can carry the question, but should avoid presenting it as a full
-review method.<br/>
-境界質問は持ち帰れますが、完全なレビュー方法として提示するのは避けてください。</p></li>
-<li><p><strong>5–6: Ready to share the core question</strong> ｜
-<strong>中核質問の共有が可能</strong><br/>
-You can share the core boundary question and point others back to this
-floor.<br/>
-中核の境界質問を共有し、必要に応じて他の読者をこのフロアへ案内できます。</p></li>
+<li><p><strong>0–2: Revisit A and G</strong> Read A Room again, then use
+G Room for a concrete walkthrough. A</p></li>
+<li><p><strong>3–4: Carry the question carefully</strong> You can carry
+the question, but should avoid presenting it as a full review
+method.</p></li>
+<li><p><strong>5–6: Ready to share the core question</strong> You can
+share the core boundary question and point others back to this
+floor.</p></li>
 </ul>
 <hr/>
 <p><a id="level-2"></a></p>
-<h2 id="level-2--core-reading-check--level-2--中核読了チェック">Level 2
-— Core Reading Check ｜ Level 2 — 中核読了チェック</h2>
+<h2 id="level-2--core-reading-check">Level 2 — Core Reading Check</h2>
 <p>Use this level if you want to use the boundary question as a basic
 review lens.</p>
 <p>Before this check, read the public core path:</p>
 <ol type="1">
-<li><a href="../../index.html#top">Main Floor: Primary Question</a></li>
-<li><a href="../../index.html#core">Main Floor: Core positioning</a></li>
-<li><a href="../../index.html#position">Main Floor: Positioning</a></li>
-<li><a href="../../index.html#application">Main Floor: Application
+<li><a href="../../README.md#top">Main Floor: Primary
+Question</a></li>
+<li><a href="../../README.md#core">Main Floor: Core
+positioning</a></li>
+<li><a href="../../README.md#position">Main Floor:
+Positioning</a></li>
+<li><a href="../../README.md#application">Main Floor: Application
 entry</a></li>
-<li><a href="./formal-oversight-effective-refusal.html">A. Boundary
+<li><a href="formal-oversight-effective-refusal.html">A. Boundary
 Understanding Room</a></li>
-<li><a href="./walkthrough-room.html">G. Walkthrough Room</a></li>
-<li><a href="./minimal-review-check.html">E. Practice Room</a></li>
+<li><a href="walkthrough-room.html">G. Walkthrough Room</a></li>
+<li><a href="minimal-review-check.html">E. Practice Room</a></li>
 </ol>
 <p>Then use the items below to check whether you can apply the review
 lens yourself.</p>
-<p>このレベルは、境界質問を基本的なレビュー視点として使いたい場合に使用してください。</p>
-<p>このチェックの前に、公開済みの中核読了ルートを読んでください。</p>
-<ol type="1">
-<li><a href="../../index.html#top">メインフロア：Primary
-Question</a></li>
-<li><a href="../../index.html#core">メインフロア：Core
-positioning</a></li>
-<li><a href="../../index.html#position">メインフロア：Positioning</a></li>
-<li><a href="../../index.html#application">メインフロア：Application入口</a></li>
-<li><a href="./formal-oversight-effective-refusal.html">A.
-境界理解室</a></li>
-<li><a href="./walkthrough-room.html">G. 読み替え例の部屋</a></li>
-<li><a href="./minimal-review-check.html">E. 実務の部屋</a></li>
+<ol start="5" type="1">
+<li><a href="formal-oversight-effective-refusal.html">A.</a></li>
+<li><a href="walkthrough-room.html">G.</a></li>
+<li><a href="minimal-review-check.html">E.</a></li>
 </ol>
-<p>そのうえで、下の項目を使い、自分がレビュー視点を適用できるか確認してください。</p>
-<h3 id="level-2-items--中核確認項目">Level 2 items ｜ 中核確認項目</h3>
-<h4 id="1-formal-oversight-vs-effective-refusal--形式的監督と実効的拒否">1.
-Formal oversight vs. effective refusal ｜ 形式的監督と実効的拒否</h4>
+<h3 id="level-2-items">Level 2 items</h3>
+<h4 id="1-formal-oversight-vs-effective-refusal">1. Formal oversight vs.
+effective refusal</h4>
 <p>Can you distinguish formal oversight from effective human
 refusal?</p>
-<p>形式的監督と実効的人間拒否を区別できますか。</p>
 <p>Score <strong>2</strong> only if you can explain why the existence of
 human involvement, approval, documentation, or logs does not
 automatically prove that refusal remained effective.</p>
-<p>人間関与、承認、文書化、ログが存在するだけでは、拒否が実効的に残っていたことの証拠にはならない理由を説明できる場合のみ、<strong>2点</strong>としてください。</p>
-<h4 id="2-human-involvement-is-not-enough--人間関与だけでは不十分">2.
-Human involvement is not enough ｜ 人間関与だけでは不十分</h4>
+<h4 id="2-human-involvement-is-not-enough">2. Human involvement is not
+enough</h4>
 <p>Can you explain why human involvement alone is not sufficient
 evidence of control?</p>
-<p>人間が関与していたという事実だけでは、制御の十分な証拠にならない理由を説明できますか。</p>
 <p>Score <strong>2</strong> only if you can shift the question from “Was
 a human involved?” to “Could a human still stop, delay, or refuse in
 time?”</p>
-<p>「人間は関与していたか」から「人間は間に合う段階でなお停止・遅延・拒否できたか」へ問いを移せる場合のみ、<strong>2点</strong>としてください。</p>
-<h4 id="3-pre-irreversibility-timing--不可逆化前のタイミング">3.
-Pre-irreversibility timing ｜ 不可逆化前のタイミング</h4>
+<h4 id="3-pre-irreversibility-timing">3. Pre-irreversibility timing</h4>
 <p>Can you ask whether refusal remained possible before irreversible
 consequences occurred?</p>
-<p>不可逆的結果が発生する前に、拒否がなお可能だったかを問えますか。</p>
 <p>Score <strong>2</strong> only if you can identify that refusal after
 irreversible consequences is no longer the same as effective refusal
 before irreversibility.</p>
-<p>不可逆的結果の後の拒否は、不可逆化前の実効的拒否とは同じではないと見分けられる場合のみ、<strong>2点</strong>としてください。</p>
-<h4 id="4-nominal-oversight--名目上の監督">4. Nominal oversight ｜
-名目上の監督</h4>
+<h4 id="4-nominal-oversight">4. Nominal oversight</h4>
 <p>Can you identify when oversight existed only in form?</p>
-<p>監督が形式としては存在していても、実効性を失っていた場合を見分けられますか。</p>
 <p>Score <strong>2</strong> only if you can explain how oversight may
 remain visible in documents, approvals, or logs while losing the
 operational ability to prevent irreversible outcomes.</p>
-<p>監督が文書、承認、ログの上では見えていても、不可逆的結果を防ぐ運用能力を失っている場合があることを説明できる場合のみ、<strong>2点</strong>としてください。</p>
-<h4 id="5-practical-use--実務での使用">5. Practical use ｜
-実務での使用</h4>
+<h4 id="5-practical-use">5. Practical use</h4>
 <p>Can you use the boundary question in an audit, governance discussion,
 or incident review?</p>
-<p>監査、ガバナンス議論、事故後レビューで境界質問を使えますか。</p>
 <p>Score <strong>2</strong> only if you can use the question as a review
 lens without presenting it as legal advice, certification, or compliance
 determination.</p>
-<p>この問いを、法的助言、認証、適合性判定としてではなく、レビュー視点として使える場合のみ、<strong>2点</strong>としてください。</p>
-<h4 id="6-shareability-without-endorsement--賛同要求なしの共有">6.
-Shareability without endorsement ｜ 賛同要求なしの共有</h4>
+<h4 id="6-shareability-without-endorsement">6. Shareability without
+endorsement</h4>
 <p>Can you share the one-sentence boundary question without requiring
 full endorsement of LUMINA-30?</p>
-<p>LUMINA-30全体への賛同を求めずに、一文の境界質問を共有できますか。</p>
+<p>LUMINA-30</p>
 <p>Score <strong>2</strong> only if you can present the question as
 usable even by someone who has not yet accepted the entire LUMINA-30
 framework.</p>
-<p>LUMINA-30全体をまだ受け入れていない人にも使える問いとして提示できる場合のみ、<strong>2点</strong>としてください。</p>
-<h3 id="level-2-score-meaning--中核点数の意味">Level 2 score meaning ｜
-中核点数の意味</h3>
+<p>LUMINA-30</p>
+<h3 id="level-2-score-meaning">Level 2 score meaning</h3>
 <ul>
-<li><p><strong>0–4: Review again</strong> ｜
-<strong>もう一度確認</strong><br/>
-Start again with A Room, then use G Room for a concrete
-walkthrough.<br/>
-Aルームから読み直し、Gルームで具体的な読み替え例を確認してください。</p></li>
-<li><p><strong>5–8: Basic distinction acquired</strong> ｜
-<strong>基本的な区別を獲得</strong><br/>
-You have the basic distinction, but should review E Room before using it
-in practice.<br/>
-基本的な区別はできています。実務で使う前に、Eルームを確認してください。</p></li>
+<li><p><strong>0–4: Review again</strong> Start again with A Room, then
+use G Room for a concrete walkthrough. A</p></li>
+<li><p><strong>5–8: Basic distinction acquired</strong> You have the
+basic distinction, but should review E Room before using it in
+practice.</p></li>
 <li><p><strong>9–12: Ready for basic use after the core reading
-path</strong> ｜ <strong>中核読了ルート後の基本使用が可能</strong><br/>
-After completing the core reading path, you can use the boundary
-question as a basic review lens in review, audit, governance, or
-incident-analysis contexts.<br/>
-中核読了ルートを終えたうえで、レビュー、監査、ガバナンス、事故後分析の文脈における基本的なレビュー視点として境界質問を使える状態です。</p></li>
+path</strong> After completing the core reading path, you can use the
+boundary question as a basic review lens in review, audit, governance,
+or incident-analysis contexts.</p></li>
 </ul>
 <hr/>
 <p><a id="level-3"></a></p>
-<h2 id="level-3--applied--advanced-check--level-3--実務上級チェック">Level 3
-— Applied / Advanced Check ｜ Level 3 — 実務・上級チェック</h2>
+<h2 id="level-3--applied--advanced-check">Level 3 — Applied / Advanced
+Check</h2>
 <p>Use this level if you need to connect the boundary question to
 governance, audit, incident review, or research-facing discussion.</p>
 <p>Before this check, read as needed:</p>
 <ol type="1">
-<li><a href="./formal-oversight-effective-refusal-faq.html">B.
+<li><a href="formal-oversight-effective-refusal-faq.html">B.
 Clarification &amp; Objection Room</a></li>
-<li><a href="./connection-to-existing-ai-governance.html">D. Governance
+<li><a href="connection-to-existing-ai-governance.html">D. Governance
 Connection Room</a></li>
-<li><a href="./minimal-review-check.html">E. Practice Room</a></li>
+<li><a href="minimal-review-check.html">E. Practice Room</a></li>
 <li><a href="https://github.com/lumina-30/lumina30-incident-review">LUMINA-30
 Incident Review Repository</a></li>
-<li><a href="https://lumina-30.github.io/lumina30-incident-review/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.html">L30-FRM
+<li><a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md">L30-FRM
 Practical Forms Index</a></li>
 <li><a href="../../docs/L30_BOUNDARY_ADDRESS_SYSTEM.html">LUMINA-30
 Boundary Address System</a></li>
@@ -306,107 +219,76 @@ Recursive Cutoff (PCR-C)</a></li>
 Persistence — existence-condition layer</a></li>
 </ul>
 <p>Do not treat the optional papers as required for Level 1 use.</p>
-<p>このレベルは、境界質問をガバナンス、監査、事故後レビュー、研究寄りの議論へ接続する必要がある場合に使用してください。</p>
-<p>このチェックの前に、必要に応じて次を読んでください。</p>
 <ol type="1">
-<li><a href="./formal-oversight-effective-refusal-faq.html">B.
-整理と反論の部屋</a></li>
-<li><a href="./connection-to-existing-ai-governance.html">D.
-接続の部屋</a></li>
-<li><a href="./minimal-review-check.html">E. 実務の部屋</a></li>
+<li><a href="formal-oversight-effective-refusal-faq.html">B.</a></li>
+<li><a href="connection-to-existing-ai-governance.html">D.</a></li>
+<li><a href="minimal-review-check.html">E.</a></li>
 <li><a href="https://github.com/lumina-30/lumina30-incident-review">LUMINA-30
 Incident Review Repository</a></li>
-<li><a href="https://lumina-30.github.io/lumina30-incident-review/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.html">L30-FRM
-実務フォーム一覧</a></li>
-<li><a href="../../docs/L30_BOUNDARY_ADDRESS_SYSTEM.html">LUMINA-30
-境界番地体系</a></li>
+<li><a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md">L30-FRM</a></li>
+<li><a href="../../docs/L30_BOUNDARY_ADDRESS_SYSTEM.html">LUMINA-30</a></li>
 </ol>
-<p>研究寄りの利用では、任意で公開済み論文も参照できます。</p>
 <ul>
 <li><a href="https://doi.org/10.5281/zenodo.18824181">Pre-Critical
 Recursive Cutoff (PCR-C)</a></li>
 <li><a href="https://doi.org/10.5281/zenodo.19896405">Objective
 Persistence — existence-condition layer</a></li>
 </ul>
-<p>任意論文は、Level 1利用の必須条件ではありません。</p>
-<h3 id="optional-external-use-references--任意の外部制度団体接続参照">Optional
-external-use references ｜ 任意の外部制度・団体接続参照</h3>
+<h3 id="optional-external-use-references">Optional external-use
+references</h3>
 <p>For Level 3 use, consult external-use notes only when you need to
 connect the review lens to external governance, standards,
 incident-response, or human-oversight contexts.</p>
-<p>Level
-3では、レビュー視点を外部ガバナンス、標準化、事故対応、人間監督文脈へ接続する必要がある場合のみ、外部制度・団体接続メモを参照してください。</p>
+<p>Level 3</p>
 <ul>
-<li><a href="./connection-to-existing-ai-governance.html#external-use-notes">D
-Room: External-use notes</a> ｜ <a href="./connection-to-existing-ai-governance.html#external-use-notes">Dルーム：外部制度・団体接続メモ</a></li>
-<li><a href="https://lumina-30.github.io/lumina30-incident-review/external-use/External_Governance_Use_Routes.html">External
+<li><a href="connection-to-existing-ai-governance.html#external-use-notes">D
+Room: External-use notes</a></li>
+<li><a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/external-use/External_Governance_Use_Routes.md">External
 Governance Use Routes</a></li>
 </ul>
 <p>These notes are optional Level 3 references. They are not required
 for Level 1 use and do not imply endorsement, adoption, certification,
 compliance, affiliation, or official interpretation by any external
 organization.</p>
-<p>これらのメモは、Level 3向けの任意参照です。Level
-1利用の必須条件ではなく、外部団体による承認、採用、認証、適合性判定、提携、または公式解釈を意味しません。</p>
-<h3 id="level-3-items--実務上級確認項目">Level 3 items ｜
-実務・上級確認項目</h3>
+<h3 id="level-3-items">Level 3 items</h3>
 <ol type="1">
 <li><p>Can you answer common objections without turning the boundary
-question into a legal claim or certification?<br/>
-境界質問を法的主張や認証に変えずに、よくある反論へ対応できますか。</p></li>
+question into a legal claim or certification?</p></li>
 <li><p>Can you explain where the boundary question fits inside an
-existing governance, audit, or ethics process?<br/>
-既存のガバナンス、監査、倫理プロセスのどこに境界質問を接続できるか説明できますか。</p></li>
+existing governance, audit, or ethics process?</p></li>
 <li><p>Can you use the minimal review check without treating it as a
-compliance determination?<br/>
-最小レビュー確認を、適合性判定としてではなく使えますか。</p></li>
+compliance determination?</p></li>
 <li><p>Can you identify when a deeper incident-review or L30-FRM form is
-needed?<br/>
-より深い事故後レビューやL30-FRM帳票が必要になる場合を見分けられますか。</p></li>
+needed?</p></li>
 <li><p>Can you distinguish operational use of the boundary question from
-research-level support papers?<br/>
-境界質問の実務利用と、研究レベルの補助論文を区別できますか。</p></li>
+research-level support papers?</p></li>
 </ol>
-<h3 id="level-3-score-meaning--実務上級点数の意味">Level 3 score meaning
-｜ 実務・上級点数の意味</h3>
+<h3 id="level-3-score-meaning">Level 3 score meaning</h3>
 <ul>
-<li><p><strong>0–4: Revisit B, D, and E</strong> ｜
-<strong>B/D/Eを再確認</strong><br/>
-Review the clarification, governance connection, and practice rooms
-before applied use.<br/>
-実務利用の前に、整理と反論、接続、実務の各部屋を確認してください。</p></li>
-<li><p><strong>5–7: Basic applied readiness</strong> ｜
-<strong>基本的な実務接続が可能</strong><br/>
-You can begin connecting the boundary question to practical contexts,
-but should use supporting materials carefully.<br/>
-境界質問を実務文脈へ接続し始められますが、補助資料は慎重に使ってください。</p></li>
-<li><p><strong>8–10: Ready for applied discussion</strong> ｜
-<strong>実務議論への使用が可能</strong><br/>
-You can use the boundary question in audit, governance, or
-incident-review discussion while preserving its non-binding scope.<br/>
-非拘束の範囲を保ったまま、監査、ガバナンス、事故後レビューの議論で境界質問を使える状態です。</p></li>
+<li><p><strong>0–4: Revisit B, D, and E</strong> Review the
+clarification, governance connection, and practice rooms before applied
+use.</p></li>
+<li><p><strong>5–7: Basic applied readiness</strong> You can begin
+connecting the boundary question to practical contexts, but should use
+supporting materials carefully.</p></li>
+<li><p><strong>8–10: Ready for applied discussion</strong> You can use
+the boundary question in audit, governance, or incident-review
+discussion while preserving its non-binding scope.</p></li>
 </ul>
 <hr/>
-<h2 id="important-limitation--重要な限定">Important limitation ｜
-重要な限定</h2>
+<h2 id="important-limitation">Important limitation</h2>
 <p>All scores on this page are self-checks only. They do not certify a
 person, system, organization, audit process, or governance
 framework.</p>
-<p>このページの点数はすべて自己確認にすぎません。個人、システム、組織、監査過程、ガバナンス枠組みを認証するものではありません。</p>
 <p>This page does not certify full understanding of LUMINA-30. It only
 helps readers check whether they can use the Boundary Review Floor’s
 review lens at the selected level.</p>
-<p>このページは、LUMINA-30全体の完全理解を認証するものではありません。選択したレベルにおいて、境界レビューフロアのレビュー視点を使えるかを確認するためのものです。</p>
 <hr/>
 <p>This page is non-binding and does not provide legal advice,
-certification, or compliance determination.<br/>
-このページは非拘束であり、法的助言、認証、または適合性判定を提供するものではありません。</p>
-<p><a href="./index.html">Back to Boundary Review Floor</a> ｜ <a href="./index.html">境界レビューフロアへ戻る</a><br/>
-<a href="../../index.html">Back to Main Floor</a> ｜ <a href="../../index.html">メインフロアへ戻る</a></p>
-    </main>
-    <footer class="footer">
-      LUMINA-30 public reference material. / LUMINA-30 公開参照資料。
-    </footer>
-  </div>
+certification, or compliance determination.</p>
+<p><a href="index.html">Back to Boundary Review Floor</a> <a href="../../README.md">Back to Main Floor</a></p>
+</main>
+<div class="footer">This page is the English HTML version. For Japanese, use the Japanese link above.</div>
+</div>
 </body>
 </html>
