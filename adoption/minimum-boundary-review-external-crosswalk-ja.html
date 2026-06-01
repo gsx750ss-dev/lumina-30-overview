@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html data-l30-lang-lock="JP_ONLY" lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="JP_ONLY" name="l30:lang-lock"/>
+<title>最小境界レビュー外部接続表</title>
+<style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+
+  </style>
+</head>
+<body>
+<div class="page">
+<nav aria-label="ページ内ナビゲーション" class="nav">
+<a href="../index-ja.html">Overview JP</a>
+<a href="minimum-boundary-review-external-crosswalk.html">英語版</a>
+<a href="https://github.com/lumina-30/lumina-30-overview/blob/main/adoption/minimum-boundary-review-external-crosswalk.md">Markdown原文</a>
+<a href="https://lumina-30.github.io/lumina-30-overview/adoption/minimum-boundary-review-external-crosswalk-ja.html">再読み込み</a>
+</nav>
+<header>
+<h1>最小境界レビュー外部接続表</h1>
+<p class="subtitle">LUMINA-30 公開HTML参照ページ。</p>
+</header>
+<main>
+<!-- L30_LANG_LOCK: JP_ONLY -->
+<!-- File: lumina-30-overview/adoption/minimum-boundary-review-external-crosswalk.md -->
+<h2 id="位置づけ">位置づけ</h2>
+<p>本資料は、NIST、ISO、OECD、EU AI法、調達、監査、組織的リスク管理プロセスを置き換えるものではない。</p>
+<p>本資料は、LUMINA-30最小境界レビューを既存のガバナンス、監査、調達、事故レビュー、リスク管理ワークフローへ対応づけるための、非コア・非拘束の接続参照である。
+LUMINA-30のコア用語を変更せず、新たな拘束的義務、法的権限、規制上の効力、認証状態、公式採用、制度的支持、拘束的標準としての地位を作成しない。</p>
+<p>本資料における「採用」は、任意の再利用または接続面を意味するにとどまる。LUMINA-30の制度採用、支持、認証、承認を意味しない。</p>
+<p>本資料は、NIST、ISO、OECD、EU AI法、調達、監査、組織的リスク管理の各プロセスを置き換えない。
+それら既存プロセスのどこに、短いLUMINA-30境界責任質問を差し込めるかを示す。</p>
+<hr/>
+<h2 id="目的">目的</h2>
+<p>外部再利用の最短経路は、組織によるLUMINA-30全体の全面導入を前提にしないことである。
+最短経路は、すでに使われているレビュー面に、最小境界レビュー質問を対応づけることである。</p>
+<p>最小差し込み質問：</p>
+<blockquote>
+<p>不可逆的結果が生じる前に、有効な人間拒否・修正・回復・撤回が実効的に利用可能であり続けるか、またそれらの条件を保存する責任が明示的に割り当てられているかを確認しているか。</p>
+</blockquote>
+<hr/>
+<h2 id="外部接続表">外部接続表</h2>
+<p>以下では、外部参照面と最小境界レビューの接続点を示す。続けて日本語表を置き、レビュー担当者が主要行をそのまま参照できるようにする。</p>
+<table>
+<thead>
+<tr class="header">
+<th>既存の参照面</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://www.nist.gov/itl/ai-risk-management-framework">NIST AIリスク管理フレームワーク</a></td>
+</tr>
+<tr class="even">
+<td><a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence">NIST 生成AIプロファイル</a></td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.iso.org/standard/42001">ISO/IEC 42001 AIマネジメントシステム</a></td>
+</tr>
+<tr class="even">
+<td><a href="https://www.oecd.org/en/topics/sub-issues/ai-risks-and-incidents.html">OECD AIリスク・インシデント</a></td>
+</tr>
+<tr class="odd">
+<td><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27">EU AI法第27条 基本権影響評価</a></td>
+</tr>
+<tr class="even">
+<td>内部AIガバナンスレビュー</td>
+</tr>
+<tr class="odd">
+<td>監査チェックリスト</td>
+</tr>
+<tr class="even">
+<td>調達レビュー</td>
+</tr>
+<tr class="odd">
+<td>インシデント報告</td>
+</tr>
+<tr class="even">
+<td>組織リスク台帳</td>
+</tr>
+</tbody>
+</table>
+<h2 id="日本語ミラー表">日本語ミラー表</h2>
+<table>
+<thead>
+<tr class="header">
+<th>既存のレビュー面</th>
+<th>最小境界レビューを差し込む位置</th>
+<th>LUMINA-30が追加する確認</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://www.nist.gov/itl/ai-risk-management-framework">NIST AIリスク管理フレームワーク</a></td>
+<td>Govern、Map、Measure、Manage
+のレビュー記録、リスク台帳、インシデント学習記録</td>
+<td>不可逆化前に有効な拒否・修正・回復・撤回が実効的に利用可能かを確認する境界責任チェック</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence">NIST 生成AIプロファイル</a></td>
+<td>生成AIリスク対応記録、導入レビュー、誤用・過度依存レビュー</td>
+<td>最適化主導の導入が、不可逆的影響の前に人間の介入条件を除去していないかを確認する簡潔なチェック</td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.iso.org/standard/42001">ISO/IEC 42001 AIマネジメントシステム</a></td>
+<td>責任割当、記録、内部監査、是正処置、継続的改善</td>
+<td>不可逆化前に、誰が境界責任・証拠・検証・是正を保存するかを確認するレビュー可能な問い</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.oecd.org/en/topics/sub-issues/ai-risks-and-incidents.html">OECD AIリスク・インシデント</a></td>
+<td>インシデント・ハザード証拠、報告記録、説明責任レビュー、事故後学習</td>
+<td>不可逆的結果の前に有効な拒否が存在したか、責任未定義が失敗に寄与したかを示す事故後の境界所見</td>
+</tr>
+<tr class="odd">
+<td><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27">EU AI法第27条 基本権影響評価</a></td>
+<td>影響説明、影響を受ける集団、リスク措置、人間監督、緩和策レビュー</td>
+<td>不可逆化前に、影響を受ける人間が実効的な拒否・修正・回復・撤回条件を保持しているかを確認する導入前の問い</td>
+</tr>
+<tr class="even">
+<td>内部AIガバナンスレビュー</td>
+<td>プロジェクト承認記録、モデル導入レビュー、高影響システムレビュー</td>
+<td>既存レビュー構造を置き換えずに追加できる短い境界責任欄</td>
+</tr>
+<tr class="odd">
+<td>監査チェックリスト</td>
+<td>証拠レビュー、責任レビュー、是正処置レビュー</td>
+<td>監査が、不可逆的影響の前に実効的拒否と責任割当を確認しているかを見るチェック</td>
+</tr>
+<tr class="even">
+<td>調達レビュー</td>
+<td>供給者要件、スコープレビュー、更新制御、終了条項</td>
+<td>供給者と導入者が、拒否・撤回・証拠・検証・是正責任を保存しているかを問う条項</td>
+</tr>
+<tr class="odd">
+<td>インシデント報告</td>
+<td>タイムライン、原因、影響、封じ込め、教訓</td>
+<td>技術的失敗、責任拡散、証拠不在、迂回防止失敗、是正遅延を区別する境界所見</td>
+</tr>
+<tr class="even">
+<td>組織リスク台帳</td>
+<td>リスク記述、責任者、制御、証拠、レビュー日</td>
+<td>境界リスク、責任主体、証拠、迂回防止条件、次回レビュー点を記録する最小欄</td>
+</tr>
+</tbody>
+</table>
+<h2 id="参照面メモ">参照面メモ</h2>
+<p>これらの参照先は、LUMINA-30が置き換える対象ではなく、差し込み先として使用する。
+本接続表は、公式情報源に実質的変更があった場合、またはより安定した公式URLが確認された場合にのみ更新する。</p>
+<table>
+<thead>
+<tr class="header">
+<th>参照面</th>
+<th>日本語訳メモ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>NIST AIリスク管理フレームワーク</td>
+<td>AIリスク管理枠組み</td>
+</tr>
+<tr class="even">
+<td>NIST生成AIプロファイル</td>
+<td>生成AIプロファイル</td>
+</tr>
+<tr class="odd">
+<td>ISO/IEC 42001</td>
+<td>AIマネジメントシステム</td>
+</tr>
+<tr class="even">
+<td>OECD AIリスク・インシデント</td>
+<td>AIリスク・インシデント</td>
+</tr>
+<tr class="odd">
+<td>EU AI法第27条</td>
+<td>基本権影響評価</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="追加する最小欄">追加する最小欄</h2>
+<p>既存プロセスがLUMINA-30の完全な帳票を受け入れにくい場合は、以下の最小欄を使用する。</p>
+<pre class="text"><code>LUMINA-30 最小境界レビュー：
+不可逆的結果が生じる前に、有効な人間拒否・修正・回復・撤回は実効的に利用可能か。
+責任主体：
+証拠：
+迂回防止条件：
+是正責任主体：
+判定タグ：維持／未実証／該当なし／要レビュー</code></pre>
+<hr/>
+<h2 id="この接続表の使い方">この接続表の使い方</h2>
+<ol type="1">
+<li>その組織がすでに使用している既存ワークフローを特定する。</li>
+<li>本接続表から最も近い行を選ぶ。</li>
+<li>対応するレビュー面に、最小境界レビュー欄を差し込む。</li>
+<li>LUMINA-30が既存枠組みを置き換えるとは主張しない。</li>
+<li>不可逆化前に、責任、証拠、迂回防止確認、是正責任が明示的に割り当てられているかを記録する。</li>
+</ol>
+<hr/>
+<h2 id="他のlumina-30資料との関係">他のLUMINA-30資料との関係</h2>
+<ul>
+<li>最小境界レビュー導入パック：再利用可能な短いレビュー欄と判定タグを提供する。</li>
+<li>迅速再利用ブリッジ：低摩擦な再利用経路を説明する。</li>
+<li>最小境界レビュー票：実務利用のための短いフォームを提供する。</li>
+<li>境界責任メカニズムの仕組み：レビューの背後にある機構を説明する。</li>
+<li><p><a href="./minimum-boundary-review-adoption-pack-ja.html">最小境界レビュー導入パック</a>
+は、短い再利用可能なレビュー欄と判定タグを提供する。</p></li>
+<li><p><a href="./rapid-implementation-bridge-ja.html">迅速再利用ブリッジ</a>
+は、低摩擦な再利用経路を説明する。</p></li>
+<li><p><a href="../templates/minimum-boundary-review-form-ja.html">最小境界レビュー票</a>
+は、実務用の短い帳票を提供する。</p></li>
+<li>境界責任メカニズムの仕組み：レビュー背後の仕組みを説明する。</li>
+</ul>
+<hr/>
+<h2 id="非処方的境界">非処方的境界</h2>
+<p>本接続表は、正しい法律・政策・技術・調達・執行メカニズムを決定しない。
+それらの判断は、各分野の適格な制度主体に属する。</p>
+<p>LUMINA-30が問うのは、境界条件が保存されていたかである。</p>
+<blockquote>
+<p>不可逆的結果が生じる前に、有効な人間拒否・修正・回復・撤回は実効的に利用可能であり、それらの条件を保存する責任は明示的に割り当てられていたか。</p>
+</blockquote>
+</main>
+<footer class="footer">
+<p>HTMLは読者向け導線、Markdownは本文保管・検索到達性・ソース確認用として残します。</p>
+</footer>
+</div>
+</body>
+</html>

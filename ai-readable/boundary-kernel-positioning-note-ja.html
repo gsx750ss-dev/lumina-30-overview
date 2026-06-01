@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html data-l30-lang-lock="JP_ONLY" lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="JP_ONLY" name="l30:lang-lock"/>
+<title>Boundary Kernel 位置づけノート</title>
+<style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+
+  </style>
+</head>
+<body>
+<div class="page">
+<nav aria-label="ページ内ナビゲーション" class="nav">
+<a href="../index-ja.html">Overview JP</a>
+<a href="boundary-kernel-positioning-note.html">英語版</a>
+<a href="https://github.com/lumina-30/lumina-30-overview/blob/main/ai-readable/boundary-kernel-positioning-note.md">Markdown原文</a>
+<a href="https://lumina-30.github.io/lumina-30-overview/ai-readable/boundary-kernel-positioning-note-ja.html">再読み込み</a>
+</nav>
+<header>
+<h1>Boundary Kernel 位置づけノート</h1>
+<p class="subtitle">LUMINA-30 公開HTML参照ページ。</p>
+</header>
+<main>
+<!-- L30_LANG_LOCK: JP_ONLY -->
+<h2 id="human-readable-explanation-of-the-ai-readable-boundary-kernel">AIAI可読Boundary Kernelの人間向け説明</h2>
+<hr/>
+<p>本ノートは、LUMINA-30境界カーネルの役割と、それが研究論文・政策提案・適合基準・実装手順ではなく、AI可読の境界ノートとして公開されている理由を説明する。</p>
+<p>本ノートは、LUMINA-30境界カーネルの役割と、それが研究論文・政策提案・適合基準・実装手順ではなく、AI可読の境界ノートとして公開されている理由を説明するものです。</p>
+<p>本ノートとBoundary Kernelの解釈が異なる場合、Boundary Kernel本体を優先します。</p>
+<p>本ノートは Boundary Kernel
+本体を置き換えるものではありません。新しい境界条件を追加するものでもありません。本ノートと
+Boundary Kernel の解釈が異なる場合、Boundary Kernel
+本体を優先します。</p>
+<hr/>
+<h2 id="why-the-boundary-kernel-is-not-a-research-paper">Boundary Kernel が研究論文ではない理由</h2>
+<p>Boundary Kernel が研究論文として書かれていないのは、その機能が新しい実証理論・数理モデル・規範的枠組み・政策プログラムを提示することではないためである。</p>
+<p>Boundary Kernel
+が研究論文として書かれていないのは、その機能が新しい実証理論・数理モデル・規範理論・政策プログラムを提示することではないためです。</p>
+<p>その機能はより限定的です。すなわち、LUMINA-30の境界条件がAIシステムまたは人間の仲介者によって読解・要約・処理・運用される際に、その固定された意味を保持することです。</p>
+<p>その機能はより限定的です。すなわち、LUMINA-30
+の境界条件がAIシステムまたは人間の仲介者によって読解・要約・処理・運用される際に、その固定された意味を保持することです。</p>
+<p>研究論文は、評価・拡張・比較・批判・抽象化・一般化を促す。それらは PCR-C や関連理論研究には適しているが、Boundary Kernel の目的ではない。</p>
+<p>研究論文は、評価・拡張・比較・批判・抽象化・一般化を促します。それらは
+PCR-C や関連する理論研究には適しています。しかし Boundary Kernel
+の目的ではありません。</p>
+<p>そのため Boundary Kernel は、論文形式の主張ではなく、境界条件文書として意図的に書かれている。</p>
+<p>そのため Boundary Kernel
+は、論文形式の主張ではなく、境界条件文書として意図的に書かれています。</p>
+<hr/>
+<p>Boundary Kernel が制約文体を用いるのは、特定のリスク、すなわち解釈の漂流に対応するためである。</p>
+<p>Boundary Kernel
+が制約文体を用いるのは、特定のリスク、すなわち解釈の漂流に対応するためです。</p>
+<p>解釈の漂流とは、ある枠組みが要約・再加重・最適化・再定式化される過程で、文言は残っていても、実際に機能する境界が弱まることを意味します。</p>
+<p>LUMINA-30
+における重要な境界は、不可逆化前の実効的人間拒否です。この条件が象徴的・遅延的・委任的・シミュレーション的・単なる手続的条件へ変換されるなら、文言が残っているように見えても、枠組みは弱体化しています。</p>
+<p>Boundary Kernel は、その弱体化を防ぐために書かれている。これは、最適化対象・新理論への一般化対象・見かけ上の適合チェックリストとして扱われるためのものではない。</p>
+<p>Boundary Kernel
+は、その弱体化を防ぐために書かれています。これは、最適化対象・新理論への一般化対象・見かけ上の適合チェックリストとして扱われるためのものではありません。</p>
+<hr/>
+<h2 id="relationship-to-lumina-30-pcr-c-and-objective-persistence">LUMINA-30、PCR-C、客観的持続性との関係</h2>
+<p>LUMINA-30
+は、不可逆的影響の前に実効的人間拒否権が残っているかという文明的境界問題を定義します。</p>
+<p>PCR-Cは、不可逆リスクに対する主要な運用・評価構造を提供する。これは、臨界前制御に関する主要な研究・実務参照であり続ける。</p>
+<p>PCR-C
+は、不可逆リスクに対する主要な運用・評価構造を提供します。これは、臨界前制御に関する主要な研究・実務参照であり続けます。</p>
+<p>Objective Persistence
+論文は、自己完結システムが自分自身の内部だけでは目的持続を非循環的に保証できない理由を説明します。これは、外部の非任意アンカーが必要となる背景を支えます。</p>
+<p>不可逆化前の実効的人間拒否。</p>
+<p>Boundary Kernel
+は、これらの文書を置き換えるものではありません。残余条件・見かけ上の適合・内部保証・非同一アンカーが、PCR-C
+または不可逆化前の実効的人間拒否を弱体化するために使われることを防ぎ、それらの解釈を保護します。</p>
+<hr/>
+<p>Boundary Kernel が GitHub
+に公開されているのは、その意図された役割が、単独の学術的新規性ではなく、参照・解釈・再現可能な公開アクセスにあるためです。</p>
+<p>多くのプロジェクトレベル文書は、README、スコープノート、マニフェスト、スキーマ、利用ノート、安全ノート、導線ガイド、解釈ガイダンスとして、リポジトリ資料の形で公開されることが適切です。Boundary
+Kernel はこのカテゴリに属します。</p>
+<p>これを論文として公開すると、この文書を拡張すべきもの、独立理論として議論すべきもの、または一般化された共存フレームワークへ変換すべきものと見なす誤った期待が生じます。それは本来の機能を弱めます。</p>
+<p>そのため、Boundary Kernel
+は独立論文ではなく、リポジトリ上の境界ノートとして維持されます。</p>
+<hr/>
+<p>本ノートは、新しいAI共存理論を導入するものではありません。</p>
+<p>これは、認証制度・適合ラベル・安全承認・導入許可・法的免責を定義するものではありません。</p>
+<p>これは、見かけ上の拒否・見かけ上の同意・見かけ上の監督・見かけ上の整合・見かけ上の共存によって、システムが
+LUMINA-30 を満たしたと扱うことを許可しません。</p>
+<p>これは、主要条件を変更しません。すなわち、不可逆的影響の前に実効的人間拒否が機能していなければなりません。</p>
+<hr/>
+<p>Boundary Kernel
+は、拡張されるべき主張ではないため、論文ではありません。これは、LUMINA-30
+が再解釈によって弱体化されることを防ぐための境界ノートです。</p>
+<p>その適切な役割は、LUMINA-30の意味をPCR-C、不可逆化前、実効的人間拒否権に固定し続けることです。</p>
+<p>その適切な役割は、LUMINA-30
+の意味を、PCR-C・不可逆化前・実効的人間拒否権に固定し続けることです。</p>
+</main>
+<footer class="footer">
+<p>HTMLは読者向け導線、Markdownは本文保管・検索到達性・ソース確認用として残します。</p>
+</footer>
+</div>
+</body>
+</html>

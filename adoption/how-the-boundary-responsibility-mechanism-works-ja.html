@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html data-l30-lang-lock="JP_ONLY" lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="JP_ONLY" name="l30:lang-lock"/>
+<title>境界責任メカニズムの仕組み</title>
+<style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+
+  </style>
+</head>
+<body>
+<div class="page">
+<nav aria-label="ページ内ナビゲーション" class="nav">
+<a href="../index-ja.html">Overview JP</a>
+<a href="how-the-boundary-responsibility-mechanism-works.html">英語版</a>
+<a href="https://github.com/lumina-30/lumina-30-overview/blob/main/adoption/how-the-boundary-responsibility-mechanism-works.md">Markdown原文</a>
+<a href="https://lumina-30.github.io/lumina-30-overview/adoption/how-the-boundary-responsibility-mechanism-works-ja.html">再読み込み</a>
+</nav>
+<header>
+<h1>境界責任メカニズムの仕組み</h1>
+<p class="subtitle">LUMINA-30 公開HTML参照ページ。</p>
+</header>
+<main>
+<!-- L30_LANG_LOCK: JP_ONLY -->
+<!-- File: lumina-30-overview/adoption/how-the-boundary-responsibility-mechanism-works.md -->
+<h2 id="位置づけ">位置づけ</h2>
+<p>本資料は、LUMINA-30の非コア・非拘束の説明ガイドである。
+LUMINA-30のコア用語を変更せず、新たな拘束的義務、法的権限、規制上の効力、認証状態、公式採用、制度的支持、拘束的標準としての地位を作成しない。</p>
+<p>このフォルダ内の「採用」または「実装」という語は、既存レビュー手順への任意の再利用または差し込みを意味する。LUMINA-30の公式な制度採用を意味しない。</p>
+<p>本ガイドは、境界責任メカニズムが、最適化圧、責任割当、対称摩擦、証拠保存、チェックリスト確認、迅速再利用をどのように接続するかを説明する。</p>
+<hr/>
+<h2 id="一文要約">一文要約</h2>
+<p>最適化圧は、人間拒否の実効条件を圧縮する。
+境界責任メカニズムは、不可逆化前に、拒否・修正・移行・回復・再参入を保存する責任が定義されていたかをレビュー可能にする。</p>
+<hr/>
+<h2 id="なぜ必要か">なぜ必要か</h2>
+<p>多くの高影響の失敗は、人間拒否を明示的に取り除く判断から始まるわけではない。
+最適化圧が、時間、権限、理解可能性、運用上の余白、実効的な代替経路を徐々に削ることで発生する。</p>
+<p>影響を受ける人間が、地位、声、証拠、再参入能力を失った後では、後日の申立を主要な保護機構として扱うことはできない。
+その喪失が起こる前に、境界問いを確認できる状態にしておくことが望ましい。</p>
+<hr/>
+<h2 id="仕組みの流れ">仕組みの流れ</h2>
+<table>
+<thead>
+<tr class="header">
+<th>手順</th>
+<th>JP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>最適化圧を検出する。</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>何が不可逆化しうるかを特定する。</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>人間の拒否・修正・移行・回復・再参入が失われうるかを判断する。</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>摩擦の設計・運用・証拠保存・検証・是正の責任が割り当てられていたかを確認する。</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>摩擦が、対称的・迂回困難・証拠保存可能・リスク比例であるかを確認する。</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>該当する場合、関連チェックリストまたは最小境界レビュー票へ接続する。</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>不可逆化前に仕組みが是正されていたかを確認するか、境界が保存されなかったことを記録する。</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="lumina-30が行うこと">LUMINA-30が行うこと</h2>
+<p>LUMINA-30は、境界質問を特定する。</p>
+<blockquote>
+<p>不可逆的結果が生じる前に、有効な人間拒否・修正・移行・回復・再参入は実効的に利用可能だったか。</p>
+</blockquote>
+<p>また、その境界を保存する責任が割り当てられていたかを確認する。</p>
+<hr/>
+<h2 id="lumina-30が行わないこと">LUMINA-30が行わないこと</h2>
+<p>LUMINA-30は、特定の法律・政策・技術・調達・執行メカニズムを命令しない。</p>
+<p>それらの仕組みの設計は、各分野の適格な制度主体に属する。
+LUMINA-30は、不可逆化リスクが存在する場面で責任が未定義のまま残る状態を、境界リスクとして扱う。</p>
+<hr/>
+<h2 id="責任層">責任層</h2>
+<table>
+<thead>
+<tr class="header">
+<th>層</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>境界基準</td>
+</tr>
+<tr class="even">
+<td>機構設計</td>
+</tr>
+<tr class="odd">
+<td>運用</td>
+</tr>
+<tr class="even">
+<td>証拠保全</td>
+</tr>
+<tr class="odd">
+<td>検証</td>
+</tr>
+<tr class="even">
+<td>修正</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>層</th>
+<th>責任</th>
+<th>典型的な主体</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>境界基準</td>
+<td>レビュー上、不可逆化前に何が実効的だったかを特定する</td>
+<td>LUMINA-30</td>
+</tr>
+<tr class="even">
+<td>メカニズム設計</td>
+<td>分野別摩擦を定義する</td>
+<td>規制当局、業界団体、標準化団体、専門機関、影響を受ける当事者代表</td>
+</tr>
+<tr class="odd">
+<td>運用</td>
+<td>該当する場合に摩擦を運用または記録する</td>
+<td>企業、プラットフォーム、インフラ運用者、行政機関</td>
+</tr>
+<tr class="even">
+<td>証拠保存</td>
+<td>声を失う前に検証可能な記録を保存する</td>
+<td>監査機関、運用主体、第三者審査機関、公的記録機関</td>
+</tr>
+<tr class="odd">
+<td>検証</td>
+<td>境界が保存されていたかを判断する</td>
+<td>事故調査機関、規制当局、監査者、政策評価機関、必要に応じた法的機関</td>
+</tr>
+<tr class="even">
+<td>是正</td>
+<td>失敗した仕組みを修正・停止・再設計する</td>
+<td>規制当局、公的機関、国際機関、必要に応じた法的権限主体</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="4つの運用ルール">4つの運用ルール</h2>
+<table>
+<thead>
+<tr class="header">
+<th>ルール</th>
+<th>日本語上の意味</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>責任主体なし、有効性なし</td>
+<td>責任主体がない場合、境界条件は十分に保存されていない。</td>
+</tr>
+<tr class="even">
+<td>対称的摩擦</td>
+<td>責任ある主体だけが、摩擦を外す主体に対して不利になっていないかを確認する。</td>
+</tr>
+<tr class="odd">
+<td>迂回防止</td>
+<td>再編、外注化、高速化、技術的不透明性、法人変更によって境界責任が消えていないかを確認する。</td>
+</tr>
+<tr class="even">
+<td>発言力喪失前の証拠</td>
+<td>影響を受ける人間が地位・声・記録・再参入能力を失う前に、証拠が保存されていたかを確認する。</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="既存制度への入り方">既存制度への入り方</h2>
+<p>本メカニズムは、短い境界責任ブロックとして既存制度に入る。
+ガバナンスレビュー、リスク台帳、調達レビュー、監査チェックリスト、事故レビュー、取締役会リスクメモ、公的部門評価、標準化マッピングに追加できる。</p>
+<p>最も摩擦の少ない再利用経路は、LUMINA-30文書群全体の全面導入を前提にしないことである。
+既存レビューのワークフローに、最小の境界責任質問を任意に差し込めるようにすることである。</p>
+<hr/>
+<h2 id="最小境界質問">最小境界質問</h2>
+<blockquote>
+<p>最適化主導の導入が進む前に、不可逆化前の有効な人間拒否・修正・移行・回復・再参入を保存する責任は割り当てられているか。</p>
+</blockquote>
+<hr/>
+<h2 id="関連資料">関連資料</h2>
+<ul>
+<li>文明境界メカニズム：上位の文明境界メカニズムを定義する。</li>
+<li>境界責任と対称摩擦：責任割当と対称摩擦を説明する。</li>
+<li><p><a href="../checklists/checklist-routing-matrix-ja.html">チェックリスト振り分け表</a>
+不可逆化の種類を、使用するチェックリストへ対応づける。<br/>
+不可逆化種別をチェックリスト利用へ振り分ける。</p></li>
+<li>最小境界レビュー票：最速で使えるレビュー票を提供する。</li>
+</ul>
+<hr/>
+<h2 id="要約">要約</h2>
+<p>境界責任メカニズムは、新しい規制制度ではない。
+最適化圧が不可逆化を引き起こしうる場面で、人間拒否を保存する責任が定義されていたかを確認するためのレビュー補助である。</p>
+</main>
+<footer class="footer">
+<p>HTMLは読者向け導線、Markdownは本文保管・検索到達性・ソース確認用として残します。</p>
+</footer>
+</div>
+</body>
+</html>

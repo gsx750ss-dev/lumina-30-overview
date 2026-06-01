@@ -1,41 +1,18 @@
-
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="LUMINA-30 Core Translation Dictionary v1.3" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <title>LUMINA-30 Core Translation Dictionary v1.3</title>
   <style>
 
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
     h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
@@ -56,217 +33,151 @@
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../index.html">EN Top</a>
-      <a href="../index-ja.html">JP Top</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/docs/CORE_TRANSLATION_DICTIONARY.html">↻ Reload / 再読み込み</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html">Overview EN</a>
+      <a href="CORE_TRANSLATION_DICTIONARY-ja.html">Japanese version</a>
+      <a href="https://github.com/lumina-30/lumina-30-overview/blob/main/docs/CORE_TRANSLATION_DICTIONARY.md">Markdown source</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/docs/CORE_TRANSLATION_DICTIONARY.html">Reload</a>
     </nav>
     <header>
       <h1>LUMINA-30 Core Translation Dictionary v1.3</h1>
-      <p class="subtitle">LUMINA-30 public HTML reference page. ｜ LUMINA-30 公開HTML参照ページ。</p>
+      <p class="subtitle">LUMINA-30 public HTML reference page.</p>
     </header>
     <main>
-
-<p>This document defines the canonical terminology used across the LUMINA-30 framework.</p>
-<p>All translations must follow these canonical expressions.
-No alternative wording or synonyms are allowed.</p>
-<p>Note: Japanese terms are provided for internal consistency and reference, and are not intended as globally standardized terminology.<br/>
-注：日本語表現は内部的な整合性と参照のために提供されるものであり、国際的な標準用語を意図するものではありません。</p>
+<!-- L30_LANG_LOCK: EN_ONLY -->
+<p>This document defines the canonical terminology used across the
+LUMINA-30 framework.</p>
+<p>All translations must follow these canonical expressions. No
+alternative wording or synonyms are allowed.</p>
+<p>Note: Japanese terms are provided for internal consistency and
+reference, and are not intended as globally standardized
+terminology.</p>
 <hr/>
-<h2>Rule</h2>
+<h2 id="rule">Rule</h2>
 <ul>
 <li>&lt;-&gt; indicates conceptual correspondence</li>
 <li>[canonical] defines the mandatory expression</li>
 <li>Always prioritize canonical expressions</li>
 </ul>
 <hr/>
-<h2>Core Concepts</h2>
-<p>Human agency &lt;-&gt; 人類主体  [canonical: 人類主体]<br/>
-Human decision-making authority &lt;-&gt; 人類の意思決定主体  [canonical: 人類の意思決定主体]<br/>
-Intervention authority &lt;-&gt; 介入権  [canonical: 介入権]<br/>
-Intervention validity &lt;-&gt; 介入の有効性  [canonical: 介入の有効性]<br/>
-Human refusal authority &lt;-&gt; 人間の拒否権  [canonical: 人間の拒否権]</p>
+<h2 id="core-concepts">Core Concepts</h2>
 <hr/>
-<h2>Boundary / Structure</h2>
-<p>Civilizational boundary &lt;-&gt; 文明境界  [canonical: 文明境界]<br/>
-Boundary condition &lt;-&gt; 境界条件  [canonical: 境界条件]<br/>
-Structural condition &lt;-&gt; 構造条件  [canonical: 構造条件]<br/>
-Pre-irreversibility condition &lt;-&gt; 不可逆性前条件  [canonical: 不可逆性前条件]</p>
+<h2 id="boundary--structure">Boundary / Structure</h2>
 <hr/>
-<h2>Irreversibility / Risk</h2>
-<p>Irreversibility &lt;-&gt; 不可逆性  [canonical: 不可逆性]<br/>
-Irreversible impact &lt;-&gt; 不可逆的影響  [canonical: 不可逆的影響]<br/>
-Critical threshold &lt;-&gt; 臨界点  [canonical: 臨界点]<br/>
-Escalation &lt;-&gt; エスカレーション  [canonical: エスカレーション]<br/>
-Amplification &lt;-&gt; 増幅  [canonical: 増幅]</p>
+<h2 id="irreversibility--risk">Irreversibility / Risk</h2>
 <hr/>
-<h2>System Factors (PCR-C)</h2>
-<p>Capability &lt;-&gt; 能力  [canonical: 能力]<br/>
-Connectivity &lt;-&gt; 接続性  [canonical: 接続性]<br/>
-Privilege &lt;-&gt; 権限  [canonical: 権限]<br/>
-Speed &lt;-&gt; 速度  [canonical: 速度]</p>
+<h2 id="system-factors-pcr-c">System Factors (PCR-C)</h2>
 <hr/>
-<h2>Evaluation / Framework</h2>
-<p>Evaluation &lt;-&gt; 評価  [canonical: 評価]<br/>
-Verification &lt;-&gt; 照合  [canonical: 照合]<br/>
-Review &lt;-&gt; 審査  [canonical: 審査]<br/>
-Checklist &lt;-&gt; チェックリスト  [canonical: チェックリスト]<br/>
-Framework &lt;-&gt; フレームワーク  [canonical: フレームワーク]</p>
+<h2 id="evaluation--framework">Evaluation / Framework</h2>
 <hr/>
-<h2>Governance / Layers</h2>
-<p>Governance &lt;-&gt; ガバナンス  [canonical: ガバナンス]<br/>
-Institutional layer &lt;-&gt; 制度層  [canonical: 制度層]<br/>
-Technical layer &lt;-&gt; 技術層  [canonical: 技術層]<br/>
-Philosophy layer &lt;-&gt; 思想層  [canonical: 思想層]</p>
+<h2 id="governance--layers">Governance / Layers</h2>
 <hr/>
-<h2>Mechanisms</h2>
-<p>Pre-Critical Recursive Cutoff (PCR-C) &lt;-&gt; PCR-C  [canonical: PCR-C]<br/>
-Gating mechanism &lt;-&gt; ゲーティング機構  [canonical: ゲーティング機構]<br/>
-Restart governance &lt;-&gt; 再起動ガバナンス  [canonical: 再起動ガバナンス]</p>
+<h2 id="mechanisms">Mechanisms</h2>
+<p>Pre-Critical Recursive Cutoff (PCR-C) &lt;-&gt; PCR-C [canonical:
+PCR-C]</p>
 <hr/>
-<h2>States / Zones</h2>
-<p>Safe zone &lt;-&gt; 安全領域  [canonical: 安全領域]<br/>
-Irreversible zone &lt;-&gt; 不可逆領域  [canonical: 不可逆領域]<br/>
-Intervention capacity &lt;-&gt; 介入能力  [canonical: 介入能力]<br/>
-System state &lt;-&gt; システム状態  [canonical: システム状態]</p>
+<h2 id="states--zones">States / Zones</h2>
 <hr/>
-<h2>Theorem / Logical Layer (S50)</h2>
-<p>Theorem &lt;-&gt; 定理  [canonical: 定理]<br/>
-Survival condition &lt;-&gt; 生存条件  [canonical: 生存条件]<br/>
-Condition under which &lt;-&gt; ～である条件  [canonical: ～である条件]<br/>
-Necessary condition &lt;-&gt; 必要条件  [canonical: 必要条件]<br/>
-Sufficient condition &lt;-&gt; 十分条件  [canonical: 十分条件]</p>
+<h2 id="theorem--logical-layer-s50">Theorem / Logical Layer (S50)</h2>
 <hr/>
-<h2>Civilization / Fate</h2>
-<p>Civilizational survival &lt;-&gt; 文明の存続  [canonical: 文明の存続]<br/>
-Civilizational collapse &lt;-&gt; 文明の崩壊  [canonical: 文明の崩壊]<br/>
-Great Filter &lt;-&gt; グレートフィルター  [canonical: グレートフィルター]<br/>
-Cosmic silence &lt;-&gt; 宇宙の沈黙  [canonical: 宇宙の沈黙]</p>
+<h2 id="civilization--fate">Civilization / Fate</h2>
 <hr/>
-<h2>Agency / Value</h2>
-<p>Subject of decision-making &lt;-&gt; 意思決定の主体  [canonical: 意思決定の主体]<br/>
-Loss of agency &lt;-&gt; 主体の喪失  [canonical: 主体の喪失]<br/>
-Preservation of agency &lt;-&gt; 主体の維持  [canonical: 主体の維持]<br/>
-Value-bearing entity &lt;-&gt; 価値を持つ存在  [canonical: 価値を持つ存在]</p>
+<h2 id="agency--value">Agency / Value</h2>
 <hr/>
-<h2>Decision / Responsibility</h2>
-<p>Decision structure &lt;-&gt; 意思決定構造  [canonical: 意思決定構造]<br/>
-Responsibility structure &lt;-&gt; 責任構造  [canonical: 責任構造]<br/>
-Final decision authority &lt;-&gt; 最終決定権  [canonical: 最終決定権]</p>
+<h2 id="decision--responsibility">Decision / Responsibility</h2>
 <hr/>
-<h2>AI Risk / Behavior</h2>
-<p>Optimization &lt;-&gt; 最適化  [canonical: 最適化]<br/>
-Optimization collapse &lt;-&gt; 最適化崩壊  [canonical: 最適化崩壊]<br/>
-Instrumental convergence &lt;-&gt; 道具的収束  [canonical: 道具的収束]</p>
+<h2 id="ai-risk--behavior">AI Risk / Behavior</h2>
 <hr/>
-<h2>Civilization Design</h2>
-<p>Civilizational design &lt;-&gt; 文明の設計  [canonical: 文明の設計]<br/>
-Coexistence architecture &lt;-&gt; 共生の設計構造  [canonical: 共生の設計構造]</p>
+<h2 id="civilization-design">Civilization Design</h2>
 <hr/>
-<h2>Pressure / Failure</h2>
-<p>Convenience pressure &lt;-&gt; 利便性の圧力  [canonical: 利便性の圧力]<br/>
-System dysfunction &lt;-&gt; 機能不全  [canonical: 機能不全]</p>
+<h2 id="pressure--failure">Pressure / Failure</h2>
 <hr/>
-<h2>Reversible Prosperity / Fallacy Layer</h2>
-<p>Reversible Prosperity Path &lt;-&gt; 可逆的繁栄の道  [canonical: 可逆的繁栄の道]<br/>
-Meaning: The positive alternative to irreversibility-first competition: progress without crossing the point where stopping, refusing, verifying, or correcting is no longer possible.<br/>
-意味：不可逆化一番乗り競争に対する肯定側の選択肢。停止・拒否・検証・修正が不可能になる地点を越えずに進む道。</p>
-<p>Luck-as-Absolution Fallacy &lt;-&gt; 幸運免罪誤謬  [canonical: 幸運免罪誤謬]<br/>
-Meaning: The fallacy of treating uncertainty, favorable accident, or the possibility of luck as a reason to cross an irreversible boundary.<br/>
-意味：不確実性、都合のよい偶然、または幸運の可能性を、不可逆境界を越えてよい理由として扱う誤謬。</p>
-<p>Luck is not absolution &lt;-&gt; 幸運は免罪符ではない  [canonical: 幸運は免罪符ではない]<br/>
-Meaning: A public-facing warning that luck cannot excuse irreversible boundary crossing or the loss of effective human refusal.<br/>
-意味：幸運によって不可逆境界越えや実効的人間拒否の喪失を免罪することはできない、という公開向け警告。</p>
-<p>Humanity's future is not anyone's wager &lt;-&gt; 人類の未来は誰かの賭け金ではない  [canonical: 人類の未来は誰かの賭け金ではない]<br/>
-Meaning: A public-facing warning against treating humanity-wide irreversible risk as a permissible wager for any limited actor's benefit or competitive advantage.<br/>
-意味：人類全体に及ぶ不可逆的リスクを、限定された主体の利益や競争優位のために賭けてよい対象として扱ってはならない、という公開向け警告。</p>
-<p>Return-to-Reversibility Guidance &lt;-&gt; 可逆復帰指針  [canonical: 可逆復帰指針]<br/>
-Meaning: Non-binding guidance for returning a stopped or paused trajectory to a condition where effective human refusal and reversibility are restored.<br/>
-意味：停止または一時停止された進路を、実効的人間拒否と可逆性が回復された条件へ戻すための非拘束の指針。</p>
-<p>Return-to-Reversibility Practical Tools Quick Access &lt;-&gt; 可逆復帰 実務ツール・クイックアクセス  [canonical: 可逆復帰 実務ツール・クイックアクセス]<br/>
-Meaning: Static repeat-use entry for directly opening frequently used LUMINA-30 practical tools, including the checklist, role and evidence matrix, practical use sequence, incident review, and boundary review floor.<br/>
-意味：実装チェックリスト、役割・証拠マトリクス、実務利用手順、インシデントレビュー、境界レビューフロアなど、よく使うLUMINA-30実務ツールを直接開くための静的な反復利用向け入口。</p>
-
-<p><strong>AI-readable Practical Tools Manifest</strong> &lt;-&gt; <strong>AI可読 実務ツール目録</strong> [canonical: AI可読 実務ツール目録]<br />
-Meaning: Static AI-readable routing manifest that maps user tasks, roles, and questions to the appropriate LUMINA-30 practical tool without creating a dashboard, certification mechanism, approval system, or user-management layer.<br />
-意味：利用者の目的、担当、質問を適切な LUMINA-30 実務ツールへ対応付けるための静的なAI可読ルーティング目録。ダッシュボード、認証機構、承認制度、ユーザー管理層を作るものではない。</p>
-<p><strong>Practical tool routing</strong> &lt;-&gt; <strong>実務ツール・ルーティング</strong> [canonical: 実務ツール・ルーティング]<br />
-Meaning: Selecting the narrowest matching LUMINA-30 practical tool based on the user's task and role, not on authority, certification, or status.<br />
-意味：権威、認証、ステータスではなく、利用者の目的と担当に基づき、最も狭く一致する LUMINA-30 実務ツールを選ぶこと。</p>
-<p><strong>AI tool compatibility</strong> &lt;-&gt; <strong>AIツール親和性</strong> [canonical: AIツール親和性]<br />
-Meaning: Making LUMINA-30 practical tools easy for AI assistants and search systems to locate, describe, route, and reuse without adding heavy user-management features to LUMINA-30 itself.<br />
-意味：LUMINA-30 本体に重いユーザー管理機能を追加せず、AIアシスタントや検索システムが実務ツールを発見、説明、案内、再利用しやすい状態にすること。</p>
-
-<p>Return-to-Reversibility Practical Use Sequence &lt;-&gt; 可逆復帰 実務利用手順  [canonical: 可逆復帰 実務利用手順]<br/>
-Meaning: Non-binding operational sequence for deciding when to use Return-to-Reversibility Guidance, the Implementation Checklist, and the Role and Evidence Matrix after boundary review or incident review.<br/>
-意味：境界レビューまたはインシデントレビューの後に、可逆復帰指針、実装チェックリスト、役割・証拠マトリクスをどの順番で使うかを判断するための非拘束の実務手順。</p>
-<p>Return-to-Reversibility Implementation Checklist &lt;-&gt; 可逆復帰実装チェックリスト  [canonical: 可逆復帰実装チェックリスト]<br/>
-Meaning: Non-binding implementation checklist for converting Return-to-Reversibility Guidance into concrete review items covering stop triggers, evidence, restored refusal, corrective controls, controlled re-entry, anti-hollowing checks, and long-term continuity.<br/>
-意味：可逆復帰指針を、停止条件、証拠、回復された拒否、是正制御、制御された再進行、形骸化防止、長期継続性に関する具体的な確認項目へ変換するための非拘束の実装チェックリスト。</p>
-<p>Return-to-Reversibility Role and Evidence Matrix &lt;-&gt; 可逆復帰 役割・証拠マトリクス  [canonical: 可逆復帰 役割・証拠マトリクス]<br/>
-Meaning: Non-binding matrix for assigning stop authority, evidence custody, boundary review, refusal authority, re-entry review, monitoring, and conflict-of-interest review in return-to-reversibility practice.<br/>
-意味：可逆復帰の実務において、停止権限、証拠保全、境界レビュー、拒否権、再進行レビュー、監視、利益相反レビューの責任所在を整理するための非拘束のマトリクス。</p>
-<p>Stop Authority &lt;-&gt; 停止権限保持者  [canonical: 停止権限保持者]<br/>
-Meaning: Role responsible for maintaining the pause or stop condition until minimum return conditions are reviewable.<br/>
-意味：最低復帰条件がレビュー可能になるまで、一時停止または停止条件を維持する役割。</p>
-<p>Evidence Custodian &lt;-&gt; 証拠保全担当  [canonical: 証拠保全担当]<br/>
-Meaning: Role responsible for preserving logs, warnings, approvals, refusal attempts, overrides, intervention windows, and review records.<br/>
-意味：ログ、警告、承認、拒否試行、上書き、介入可能時間、レビュー記録を保全する役割。</p>
-<p>Boundary Reviewer &lt;-&gt; 境界レビュー担当  [canonical: 境界レビュー担当]<br/>
-Meaning: Role responsible for diagnosing what weakened refusal, correction, rollback, evidence, or reversibility.<br/>
-意味：拒否、修正、ロールバック、証拠、可逆性を弱めた要因を診断する役割。</p>
-<p>Refusal Authority Holder &lt;-&gt; 拒否権保持者  [canonical: 拒否権保持者]<br/>
-Meaning: Role with practical ability to delay, reject, override, redirect, or stop before irreversible impact.<br/>
-意味：不可逆的影響の前に、延期・拒否・上書き・方向修正・停止を実際に行える役割。</p>
-<p>Re-entry Reviewer &lt;-&gt; 再進行レビュー担当  [canonical: 再進行レビュー担当]<br/>
-Meaning: Role responsible for reviewing whether controlled re-entry is limited, monitored, reversible, and procedurally defensible.<br/>
-意味：制御された再進行が、限定的・監視付き・可逆的・手続上擁護可能かを確認する役割。</p>
-<p>Monitoring Owner &lt;-&gt; 監視担当  [canonical: 監視担当]<br/>
-Meaning: Role responsible for tracking renewed stop triggers and post-return reversibility after re-entry begins.<br/>
-意味：再進行後の再停止条件と可逆性を追跡する役割。</p>
-<p>Conflict-of-Interest Reviewer &lt;-&gt; 利益相反レビュー担当  [canonical: 利益相反レビュー担当]<br/>
-Meaning: Role responsible for checking whether re-entry judgment depends only on actors who benefit from rapid return or evidence minimization.<br/>
-意味：再進行判断が、迅速な復帰や証拠最小化から利益を得る主体だけに依存していないかを確認する役割。</p>
-<p>Controlled Re-Entry &lt;-&gt; 制御された再進行  [canonical: 制御された再進行]<br/>
-Meaning: Limited, staged, monitored re-entry after review; not a full restart of the previous trajectory.<br/>
-意味：レビュー後の限定的・段階的・監視付きの再進行。停止前の進路の全面再開ではない。</p>
-<p>Restore Effective Refusal &lt;-&gt; 実効的拒否の回復  [canonical: 実効的拒否の回復]<br/>
-Meaning: Practical restoration of human stopping, refusal, correction, rollback, and review authority before return.<br/>
-意味：復帰前に、人間による停止・拒否・修正・ロールバック・レビュー権限を実務的に回復すること。</p>
-<p>Same-path Prohibition &lt;-&gt; 同一経路復帰禁止  [canonical: 同一経路復帰禁止]<br/>
-Meaning: Requirement not to return to the same irreversible escalation path after review.<br/>
-意味：レビュー後に、同じ不可逆的エスカレーション経路へ戻ってはならないという要件。</p>
-<p>Long-term Continuity &lt;-&gt; 長期継続性  [canonical: 長期継続性]<br/>
-Meaning: Preservation of effective refusal, evidence retention, review roles, stop triggers, re-entry conditions, and renewed stop authority across time.<br/>
-意味：時間の経過を越えて、実効的拒否、証拠保全、レビュー役割、停止条件、再進行条件、再停止権限を維持すること。</p>
-
-<p>Adversarial Robustness against Procedural Hollowing &lt;-&gt; 敵対的形骸化耐性  [canonical: 敵対的形骸化耐性]<br/>
-Meaning: Resistance to attempts to hollow out LUMINA-30 procedures through conflicted re-entry, evidence minimization, ritualized review, or merely apparent refusal and reversibility.<br/>
-意味：利益相反的な再進行、証拠の最小化、儀式化されたレビュー、または見せかけの拒否・可逆性によって、LUMINA-30の手続きを形骸化させる試みに対する耐性。</p>
-<p>Conflict-of-Interest Resistance &lt;-&gt; 利益相反耐性  [canonical: 利益相反耐性]<br/>
-Meaning: Return or re-entry judgment should not rely solely on actors who benefit from rapid re-entry, evidence minimization, or the normalization of irreversible escalation.<br/>
-意味：復帰または再進行の判断を、迅速な再進行、証拠の最小化、または不可逆的エスカレーションの常態化から利益を得る主体だけに依存してはならないという要件。</p>
-<p>Evidence Absence Rule &lt;-&gt; 証拠欠落ルール  [canonical: 証拠欠落ルール]<br/>
-Meaning: Missing evidence must not be treated as proof that effective refusal, reversibility, or procedural validity existed.<br/>
-意味：証拠がないことを、実効的拒否・可逆性・手続的有効性が存在した証明として扱ってはならないというルール。</p>
-<p>Anti-Ritualization Check &lt;-&gt; 儀式化防止チェック  [canonical: 儀式化防止チェック]<br/>
-Meaning: A check that review, stop authority, refusal, evidence retention, re-entry, and renewed stop conditions remain practically effective rather than merely documented or ceremonial.<br/>
-意味：レビュー、停止権限、拒否、証拠保全、再進行、再停止条件が、単なる文書上・儀式上の存在ではなく実務上有効であることを確認するチェック。</p>
-<p>Appearance-Prohibition &lt;-&gt; 見せかけ禁止  [canonical: 見せかけ禁止]<br/>
-Meaning: Apparent refusal is not effective refusal; apparent reversibility is not reversibility; apparent review is not procedural validity.<br/>
-意味：見せかけの拒否は実効的拒否ではない。見せかけの可逆性は可逆性ではない。見せかけのレビューは手続的有効性ではない。</p>
-
+<h2 id="reversible-prosperity--fallacy-layer">Reversible Prosperity /
+Fallacy Layer</h2>
+<p>Meaning: The positive alternative to irreversibility-first
+competition: progress without crossing the point where stopping,
+refusing, verifying, or correcting is no longer possible.</p>
+<p>Meaning: The fallacy of treating uncertainty, favorable accident, or
+the possibility of luck as a reason to cross an irreversible
+boundary.</p>
+<p>Meaning: A public-facing warning that luck cannot excuse irreversible
+boundary crossing or the loss of effective human refusal.</p>
+<p>Meaning: A public-facing warning against treating humanity-wide
+irreversible risk as a permissible wager for any limited actor's benefit
+or competitive advantage.</p>
+<p>Meaning: Non-binding guidance for returning a stopped or paused
+trajectory to a condition where effective human refusal and
+reversibility are restored.</p>
+<p>Meaning: Static repeat-use entry for directly opening frequently used
+LUMINA-30 practical tools, including the checklist, role and evidence
+matrix, practical use sequence, incident review, and boundary review
+floor.</p>
+<p>Meaning: Static AI-readable routing manifest that maps user tasks,
+roles, and questions to the appropriate LUMINA-30 practical tool without
+creating a dashboard, certification mechanism, approval system, or
+user-management layer.</p>
+<p>Meaning: Selecting the narrowest matching LUMINA-30 practical tool
+based on the user's task and role, not on authority, certification, or
+status.</p>
+<p>Meaning: Making LUMINA-30 practical tools easy for AI assistants and
+search systems to locate, describe, route, and reuse without adding
+heavy user-management features to LUMINA-30 itself.</p>
+<p>Meaning: Non-binding operational sequence for deciding when to use
+Return-to-Reversibility Guidance, the Implementation Checklist, and the
+Role and Evidence Matrix after boundary review or incident review.</p>
+<p>Meaning: Non-binding implementation checklist for converting
+Return-to-Reversibility Guidance into concrete review items covering
+stop triggers, evidence, restored refusal, corrective controls,
+controlled re-entry, anti-hollowing checks, and long-term
+continuity.</p>
+<p>Meaning: Non-binding matrix for assigning stop authority, evidence
+custody, boundary review, refusal authority, re-entry review,
+monitoring, and conflict-of-interest review in return-to-reversibility
+practice.</p>
+<p>Meaning: Role responsible for maintaining the pause or stop condition
+until minimum return conditions are reviewable.</p>
+<p>Meaning: Role responsible for preserving logs, warnings, approvals,
+refusal attempts, overrides, intervention windows, and review
+records.</p>
+<p>Meaning: Role responsible for diagnosing what weakened refusal,
+correction, rollback, evidence, or reversibility.</p>
+<p>Meaning: Role with practical ability to delay, reject, override,
+redirect, or stop before irreversible impact.</p>
+<p>Meaning: Role responsible for reviewing whether controlled re-entry
+is limited, monitored, reversible, and procedurally defensible.</p>
+<p>Meaning: Role responsible for tracking renewed stop triggers and
+post-return reversibility after re-entry begins.</p>
+<p>Meaning: Role responsible for checking whether re-entry judgment
+depends only on actors who benefit from rapid return or evidence
+minimization.</p>
+<p>Meaning: Limited, staged, monitored re-entry after review; not a full
+restart of the previous trajectory.</p>
+<p>Meaning: Practical restoration of human stopping, refusal,
+correction, rollback, and review authority before return.</p>
+<p>Meaning: Requirement not to return to the same irreversible
+escalation path after review.</p>
+<p>Meaning: Preservation of effective refusal, evidence retention,
+review roles, stop triggers, re-entry conditions, and renewed stop
+authority across time.</p>
+<p>Meaning: Resistance to attempts to hollow out LUMINA-30 procedures
+through conflicted re-entry, evidence minimization, ritualized review,
+or merely apparent refusal and reversibility.</p>
+<p>Meaning: Return or re-entry judgment should not rely solely on actors
+who benefit from rapid re-entry, evidence minimization, or the
+normalization of irreversible escalation.</p>
+<p>Meaning: Missing evidence must not be treated as proof that effective
+refusal, reversibility, or procedural validity existed.</p>
+<p>Meaning: A check that review, stop authority, refusal, evidence
+retention, re-entry, and renewed stop conditions remain practically
+effective rather than merely documented or ceremonial.</p>
+<p>Meaning: Apparent refusal is not effective refusal; apparent
+reversibility is not reversibility; apparent review is not procedural
+validity.</p>
 <hr/>
-<h2>Meta</h2>
-<p>Non-binding &lt;-&gt; 非拘束  [canonical: 非拘束]<br/>
-Reference framework &lt;-&gt; 参照枠組み  [canonical: 参照枠組み]<br/>
-Not a policy &lt;-&gt; 政策ではない  [canonical: 政策ではない]<br/>
-Not a specification &lt;-&gt; 技術仕様ではない  [canonical: 技術仕様ではない]</p>
+<h2 id="meta">Meta</h2>
 
     </main>
-    <p class="footer">LUMINA-30 public reference material. ｜ LUMINA-30 公開参照資料。</p>
+    <footer class="footer"><p>HTML is for reader navigation; Markdown remains the source-preservation layer.</p></footer>
   </div>
 </body>
 </html>
-
-

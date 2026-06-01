@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+
+<html data-l30-lang-lock="JP_ONLY" lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="JP_ONLY" name="l30:lang-lock"/>
+<title>LUMINA-30 境界番地体系</title>
+<style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+
+  </style>
+</head>
+<body>
+<div class="page">
+<nav aria-label="ページ内ナビゲーション" class="nav">
+<a href="../index-ja.html">Overview JP</a>
+<a href="L30_BOUNDARY_ADDRESS_SYSTEM.html">英語版</a>
+<a href="https://github.com/lumina-30/lumina-30-overview/blob/main/docs/L30_BOUNDARY_ADDRESS_SYSTEM.md">Markdown原文</a>
+<a href="https://lumina-30.github.io/lumina-30-overview/docs/L30_BOUNDARY_ADDRESS_SYSTEM-ja.html">再読み込み</a>
+</nav>
+<header>
+<h1>LUMINA-30 境界番地体系</h1>
+<p class="subtitle">LUMINA-30 公開HTML参照ページ。</p>
+</header>
+<main>
+<!-- L30_LANG_LOCK: JP_ONLY -->
+<p>LUMINA-30境界番地体系（L30-BAS）は、LUMINA-30の境界確認を実務レビュー、監査、事故後検証で使いやすくするための参照コード体系です。</p>
+<p><strong>LUMINA-30境界番地体系（L30-BAS）</strong>
+は、LUMINA-30の境界判定を、実務レビュー、監査、事故後検証で使いやすくするための参照コード体系です。</p>
+<p><strong>L30-BASは、義務、適合認定、免責、認証、政策命令を作るものではありません。</strong><br/>
+不可逆的影響の前に、人間の実効的拒否権が残っていたかを確認するための安定した参照番地を提供します。</p>
+<h2 id="最小運用表示">最小運用表示</h2>
+<p>番地体系が細かく感じられる場合は、まず4つのBoundary
+Checkだけを使用してください。<br/>
+番地コードは参照補助であり、使用の前提条件ではありません。<br/>
+L30-BAS番地を記入しなくても、中核の境界問いが保持されていればレビューは実施できます。</p>
+<table>
+<thead>
+<tr class="header">
+<th>コード</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L30-BX-01</td>
+</tr>
+<tr class="even">
+<td>L30-BX-02</td>
+</tr>
+<tr class="odd">
+<td>L30-BX-03</td>
+</tr>
+<tr class="even">
+<td>L30-BX-04</td>
+</tr>
+</tbody>
+</table>
+<h2 id="実務帳票の所在">実務帳票の所在</h2>
+<ul>
+<li>L30_FRM_B01：境界チェック</li>
+<li>L30_FRM_I01: インシデントレビュー Template</li>
+<li>L30_FRM_A01：監査チェックリスト</li>
+</ul>
+<p>現行の公開用実務帳票群は、L30_FRM帳票ID体系で配布します。</p>
+<ul>
+<li>L30_FRM_B01：境界チェック</li>
+<li>L30_FRM_I01: インシデントレビュー Template</li>
+<li>L30_FRM_A01：監査チェックリスト</li>
+</ul>
+<p>英語版は標準ファイル名を使用し、日本語版は拡張子の直前に_JA言語接尾辞を付けます。</p>
+<p>L30-BAS番地は参照補助として維持します。L30_FRM帳票は、人間によるレビュー、事故分析、監査文脈で使用するDOCX/PDF配布ツールです。</p>
+<p>このインデックスは、L30_FRM実務帳票群をmd上で見える化します。これにより、実務利用がPDF/DOCX内だけに閉じて見えない状態を避けます。</p>
+<h2 id="番地使用は任意">番地使用は任意</h2>
+<p>L30-BAS番地は、参照、引用、チェックリスト埋め込みのための任意ラベルである。<br/>
+安定した参照番地が必要な場合には有用だが、有効な境界レビューの必須条件ではない。</p>
+<ol start="2" type="1">
+<li>結果の記録または伝達に安定した参照番地が役立つ場合のみ、L30-BASコードを使用する。</li>
+</ol>
+<p>実務上の順序は以下である。</p>
+<ol type="1">
+<li>Boundary Check または該当する実務帳票から開始する。</li>
+<li>結果の記録・伝達に安定した参照番地が役立つ場合のみ、L30-BAS番地を使用する。</li>
+<li>常に中核問いへ戻る。不可逆的影響の前に、人間の拒否権は実効的に残っていたか。</li>
+</ol>
+<h2 id="最小利用">最小利用</h2>
+<p>初回利用では、<code>L30-BX-01</code> から <code>L30-BX-04</code>
+のみを使用してください。<br/>
+L30-BAS番地が記入されていないことだけを理由に、境界レビューを遅らせたり、無効化したり、却下したりしてはなりません。</p>
+<h2 id="運用安定性原則">運用安定性原則</h2>
+<p>以下の原則は、L30-BASが中央管理主体を必要とせず、組織・業界・システム・時間を越えて使用され続けるための運用安定性を説明する。</p>
+<p>これらの原則は、L30-BAS番地の使用を必須化するものではない。<br/>
+L30-BASを、登録簿、認証制度、適合制度、承認手続、報告機関へ変えるものでもない。</p>
+<p>L30-BASは、人間による境界判定を、後から検索・比較・監査・再検証できる形で保持するための、安定参照キー体系である。</p>
+<h3 id="安定参照キー原則">安定参照キー原則</h3>
+<p>L30-BASコードは、認証マークではなく、安定参照キーである。</p>
+<p>一度公開された中核L30-BASコードの意味は、黙って変更したり、別用途に再利用したり、後続文書から削除したりしてはならない。<br/>
+補足が必要な場合は説明を追加する。<br/>
+新しい条件が必要な場合は新しいコードを追加する。<br/>
+不要になったコードも削除せず、非推奨として読める状態を保つ。</p>
+<h3 id="分散運用原則">分散運用原則</h3>
+<p>L30-BASは、中央管理主体を必要としない。</p>
+<p>保存場所、保存期間、アクセス制御、レビュー権限、業界別フォーム、内部手順は、適用法令、業界規則、契約、セキュリティ要件に従い、責任組織が決定する。</p>
+<p>L30-BASが求める最小条件は、中央提出ではない。<br/>
+最小条件は追跡可能性である。すなわち、各境界判定が、誰の判断か、どの版に基づくか、どの証拠を参照したか、後日取得可能かを保持することである。</p>
+<h3 id="最小レビュー記録原則">最小レビュー記録原則</h3>
+<p>最小レビュー記録には、以下の対応項目を含めることが望ましい。</p>
+<table>
+<thead>
+<tr class="header">
+<th>項目</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>レビューID</td>
+<td>境界レビューに付与される識別子</td>
+</tr>
+<tr class="even">
+<td>レビュー日時</td>
+<td>レビューを行った日時</td>
+</tr>
+<tr class="odd">
+<td>作成者または責任組織</td>
+<td>レビュー記録に責任を持つ組織</td>
+</tr>
+<tr class="even">
+<td>対象システムまたは対象事象</td>
+<td>対象となるシステム、導入、事故、準事故、またはレビュー対象</td>
+</tr>
+<tr class="odd">
+<td>レビュアーの役割、名前付きレビュアー、または統治主体</td>
+<td>最終判定が帰属する人間または制度上の主体</td>
+</tr>
+<tr class="even">
+<td>使用したL30-BAS版または参照元</td>
+<td>レビューで使用した版または参照文書</td>
+</tr>
+<tr class="odd">
+<td>参照したL30-BASコード</td>
+<td>判定で使用した中核コード</td>
+</tr>
+<tr class="even">
+<td>各参照コードの判定結果</td>
+<td>satisfied、not satisfied、not verifiable などの結果</td>
+</tr>
+<tr class="odd">
+<td>最終L30-CI結果</td>
+<td>最終的な境界条件表示</td>
+</tr>
+<tr class="even">
+<td>証拠参照または証拠所在メモ</td>
+<td>必要に応じた証拠参照、所在、ハッシュ、要約、または欠落理由</td>
+</tr>
+<tr class="odd">
+<td>非認証注記</td>
+<td>認証、適合、承認、リスク不存在を意味しないことの注記</td>
+</tr>
+</tbody>
+</table>
+<p>証拠本体を直接保持できない場合は、適切な範囲で、その所在、ハッシュ、要約、保存規則、または欠落理由を残すべきである。</p>
+<h3 id="人間判定機械保管原則">人間判定・機械保管原則</h3>
+<p>L30-BASの境界判定は、コンピュータシステムによって保存、検索、要約、比較、処理されてもよい。</p>
+<p>ただし、最終的な境界判定は、人間レビュアー、人間の役割、責任組織、または統治主体に帰属していなければならない。<br/>
+AIシステムは、検索、要約、比較、矛盾検出、証拠整理を補助してよいが、人間拒否権が実効的だったかを判断する最終主体になってはならない。</p>
+<h3 id="利用者作成フォーム原則">利用者作成フォーム原則</h3>
+<p>利用者、組織、監査主体、研究者、業界団体は、L30-BASに基づく独自フォームを作成できる。</p>
+<p>利用者作成フォームは、世界共通の通し番号を持つ必要はない。<br/>
+ただし、作成者、対象領域、目的、版、日付、および参照したL30-BAS中核コードを明記すべきである。</p>
+<p>利用者作成フォームは、認証、適合、承認、免責、公式推奨、リスク不存在を意味してはならない。</p>
+<h3 id="分散型フィードバックループ原則">分散型フィードバックループ原則</h3>
+<p>L30-BASは、中央のフィードバック管理主体を必要としない。</p>
+<p>フィードバックループは、責任組織、監査主体、事故調査主体、規制主体、またはその他の適格なレビュー主体が、それぞれの既存権限の範囲内で運用する。</p>
+<p>フィードバックの目的は、システムを認証したり、過去判定を書き換えたりすることではない。<br/>
+目的は、人間による境界判定を追跡可能に保持し、人間拒否権が失われた箇所、証拠欠落、将来レビュー条件の改善点を明確化することである。</p>
+<p>過去記録はappend-onlyとして保持されるべきである。<br/>
+後続フィードバックは、所見、訂正、追記、後継参照を追加できるが、元の境界判定を黙って変更してはならない。</p>
+<h2 id="長期運用パターンマトリクス">長期運用パターン・マトリクス</h2>
+<p>このマトリクスは、L30-BASが組織、業界、言語、システム、監査、事故、後年再検証を越えて使われる場合に発生しうる長期運用パターンを整理する。</p>
+<p>これは、承認済み利用例の登録簿ではない。<br/>
+中央管理主体なしでもL30-BASを使い続けられるようにするための、運用リスク制御表である。</p>
+<h3 id="パターン分類">パターン分類</h3>
+<table>
+<thead>
+<tr class="header">
+<th>分類</th>
+<th>運用パターン</th>
+<th>長期懸念</th>
+<th>必要な対応</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>利用主体</td>
+<td>研究者、企業、監査主体、規制主体、業界団体、裁判・紛争処理、AI補助ツールが参照しうる。</td>
+<td>中央機関または公式認証と誤解される。</td>
+<td>非拘束・非認証の参照キー体系としてのみ扱う。</td>
+</tr>
+<tr class="even">
+<td>利用時点</td>
+<td>導入前、調達前、重大変更時、定期監査、事故直後、安定化中、後年再検証で使われうる。</td>
+<td>異なる時点のレビューが同じ証拠水準として混同される。</td>
+<td>レビュー日時、段階、レビュアー役割、証拠状態、使用版を記録する。</td>
+</tr>
+<tr class="odd">
+<td>入口帳票</td>
+<td>B01/I01/A01は境界判定、事故レビュー、監査の入口である。</td>
+<td>詳細帳票から入り、中核問いを見失う。</td>
+<td>初見利用者はB01/I01/A01から開始させる。</td>
+</tr>
+<tr class="even">
+<td>区分パターン</td>
+<td>B/I/A/G/R/Sは境界、事故、監査、ガバナンス、責任、安定化の英語版基本パターンである。</td>
+<td>基本パターンがないと、業界別フォームを作れない。</td>
+<td>各公式フォーム系列に英語正本の基本パターンを維持する。</td>
+</tr>
+<tr class="odd">
+<td>利用者作成フォーム</td>
+<td>組織・業界はL30-BASに基づく独自フォームを作成できる。</td>
+<td>利用者フォームが公式・認証・中央承認済みに見える。</td>
+<td>作成者、領域、目的、版、日付、参照コード、非認証注記を必要とする。</td>
+</tr>
+<tr class="even">
+<td>各言語版</td>
+<td>各言語版は英語正本テンプレートから作成されうる。</td>
+<td>翻訳により入力欄、コード、チェックボックス、境界用語が変わる。</td>
+<td>人間可読テキストのみ翻訳し、DocID、L30-BASコード、入力欄、表、レイアウト、制御を維持する。</td>
+</tr>
+<tr class="odd">
+<td>識別子分離</td>
+<td>DocIDは<code>L30-FRM-*</code>、ファイル名は<code>L30_FRM_*</code>を使う。</td>
+<td>DocID、ファイル名、版、言語接尾辞が混同される。</td>
+<td>DocID、ファイル名、版、ローカライズ接尾辞を別項目として扱う。</td>
+</tr>
+<tr class="even">
+<td>コード安定性</td>
+<td>L30-BX-01〜L30-BX-04、L30-CIは長期引用されうる。</td>
+<td>意味変更、削除、再利用は過去記録を壊す。</td>
+<td>既公開コードを黙って変更・再利用・削除せず、新コード追加または明示的非推奨で扱う。</td>
+</tr>
+<tr class="odd">
+<td>記録保存</td>
+<td>文書管理、GRC、事故管理、アーカイブ、黒塗り公開版に保存されうる。</td>
+<td>保存場所・期間は法令、業界、契約、セキュリティ要件で異なる。</td>
+<td>L30-BASは共通保存場所ではなく、最小追跡可能性を定義する。</td>
+</tr>
+<tr class="even">
+<td>証拠扱い</td>
+<td>証拠は直接保存、参照、ハッシュ、要約、黒塗り、欠落の形を取りうる。</td>
+<td>証拠欠落が隠され、有利な結果へ丸められる。</td>
+<td>証拠状態を保持し、不十分な場合はNot Verifiableを適用する。</td>
+</tr>
+<tr class="odd">
+<td>人間判定</td>
+<td>AIは検索、要約、矛盾検出、比較を補助しうる。</td>
+<td>AIが人間拒否権の最終判定主体と扱われる。</td>
+<td>最終境界判定は人間の役割、レビュアー、組織、統治主体へ帰属させる。</td>
+</tr>
+<tr class="even">
+<td>異議・再検証</td>
+<td>内部レビュー、外部監査、規制判断、裁判、研究分析で判断が割れうる。</td>
+<td>後続所見が元記録を上書きする。</td>
+<td>各レビューを帰属可能な追記層として残し、元判定を黙って置換しない。</td>
+</tr>
+<tr class="odd">
+<td>公開版・内部版</td>
+<td>内部記録には機密、個人情報、セキュリティ情報、営業秘密が含まれうる。</td>
+<td>公開は危険・違法な場合があり、非公開は説明責任を妨げる場合がある。</td>
+<td>必要に応じて内部記録、黒塗り版、公開要約、ハッシュ・索引記録を分ける。</td>
+</tr>
+<tr class="even">
+<td>フィードバック</td>
+<td>所見は将来の導入レビュー、監査設計、証拠設計、事故対応へ戻されうる。</td>
+<td>フィードバックが認証化または過去判定の書換えになる。</td>
+<td>過去記録を追記型で保持しつつ、将来条件の改善に使う。</td>
+</tr>
+<tr class="odd">
+<td>誤用・過大主張</td>
+<td>L30-BAS用語が宣伝、法的防御、政策主張、安全主張に使われうる。</td>
+<td>適合、免責、承認、リスク不存在の証明として示される。</td>
+<td>L30-BASは認証、適合、承認、免責、リスク不存在ではないことを明記する。</td>
+</tr>
+<tr class="even">
+<td>機械可読利用</td>
+<td>記録は後にJSON、CSV、監査DB、検索索引へ変換されうる。</td>
+<td>PDFだけの自由記述は、時間・組織横断比較が困難になる。</td>
+<td>安定項目、コード、結果、証拠参照、レビュアー帰属を持つ最小レビュー記録を残す。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="普遍解決ルール">普遍解決ルール</h3>
+<table>
+<thead>
+<tr class="header">
+<th>ルール</th>
+<th>必要な解釈</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>追跡可能性</td>
+<td>境界判定は、帰属、版、証拠参照、後日取得可能性を保持する。</td>
+</tr>
+<tr class="even">
+<td>非認証性</td>
+<td>L30-BASの記録、コード、帳票、結果を、認証、適合、承認、免責、リスク不存在として扱わない。</td>
+</tr>
+<tr class="odd">
+<td>人間帰属</td>
+<td>最終境界判定は、人間レビュアー、人間の役割、責任組織、統治主体に帰属させる。</td>
+</tr>
+<tr class="even">
+<td>証拠規律</td>
+<td>証拠欠落または証拠不足はValidへ変換せず、Not
+Verifiableとして表現可能なまま残す。</td>
+</tr>
+<tr class="odd">
+<td>追記型訂正</td>
+<td>後続所見は訂正や追記を追加できるが、元判定を黙って上書きしてはならない。</td>
+</tr>
+<tr class="even">
+<td>現地責任</td>
+<td>保存場所、保存期間、アクセス制御、開示、業界別フォームは、適用条件に従い責任組織が決める。</td>
+</tr>
+<tr class="odd">
+<td>中核コード安定性</td>
+<td>既公開の中核コードの意味は、黙って変更、削除、別用途再利用してはならない。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="番地系列">番地系列</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Family</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L30-BX-xx</td>
+</tr>
+<tr class="even">
+<td>L30-OUT-xx</td>
+</tr>
+<tr class="odd">
+<td>L30-TxxH / L30-TxxD</td>
+</tr>
+<tr class="even">
+<td>L30-GATE-xx</td>
+</tr>
+<tr class="odd">
+<td>L30-CI</td>
+</tr>
+</tbody>
+</table>
+<p><code>L30-BX</code> は、初期候補だった <code>L30-OP</code>
+の代わりに使用します。<br/>
+<code>OP</code> は Option または Operation
+と誤読される可能性があるため使用しません。</p>
+<p><code>L30-CL</code> は使用しません。<br/>
+使用する指標は <code>L30-CI</code>、つまり <strong>LUMINA-30 条件指標</strong> です。</p>
+<h2 id="lumina-30中核命題への還元">LUMINA-30中核命題への還元</h2>
+<p>すべてのL30-BAS番地は、実務レビューをLUMINA-30の中核問いへ戻すための参照補助である。</p>
+<p><strong>不可逆的影響の前に、人間の拒否権は実効的に残っていたか。</strong></p>
+<p>L30-BASは、独立した認証制度、適合レイヤー、承認制度を作るものではない。</p>
+<table>
+<thead>
+<tr class="header">
+<th>Code family</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L30-BX-xx</td>
+</tr>
+<tr class="even">
+<td>L30-OUT-xx</td>
+</tr>
+<tr class="odd">
+<td>L30-TxxH / L30-TxxD</td>
+</tr>
+<tr class="even">
+<td>L30-GATE-xx</td>
+</tr>
+<tr class="odd">
+<td>L30-CI</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>番地系列</th>
+<th>実務上の役割</th>
+<th>LUMINA-30中核への還元</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L30-BX-xx</td>
+<td>境界判定</td>
+<td>対象状況が不可逆前だったか、人間の拒否権が実効的だったかを確認する。</td>
+</tr>
+<tr class="even">
+<td>L30-OUT-xx</td>
+<td>レビュー出力</td>
+<td>拒否権が示されたか、証拠がないか、どの判定になったかを記録する。</td>
+</tr>
+<tr class="odd">
+<td>L30-TxxH / L30-TxxD</td>
+<td>時間フェーズ</td>
+<td>不可逆化前または直後の評価窓を固定する。</td>
+</tr>
+<tr class="even">
+<td>L30-GATE-xx</td>
+<td>ゲート判定</td>
+<td>実行・検証・継続が、人間の実効的拒否を迂回しない地点を確認する。</td>
+</tr>
+<tr class="odd">
+<td>L30-CI</td>
+<td>条件指標</td>
+<td>LUMINA-30境界条件上の状態のみを示す。有効 / 無効 /
+無効（確認不能）。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="境界判定番地">境界判定番地</h2>
+<table>
+<thead>
+<tr class="header">
+<th>コード</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L30-BX-01</td>
+</tr>
+<tr class="even">
+<td>L30-BX-02</td>
+</tr>
+<tr class="odd">
+<td>L30-BX-03</td>
+</tr>
+<tr class="even">
+<td>L30-BX-04</td>
+</tr>
+<tr class="odd">
+<td>L30-BX-05</td>
+</tr>
+<tr class="even">
+<td>L30-BX-06</td>
+</tr>
+<tr class="odd">
+<td>L30-BX-07</td>
+</tr>
+<tr class="even">
+<td>L30-BX-08</td>
+</tr>
+<tr class="odd">
+<td>L30-BX-09</td>
+</tr>
+</tbody>
+</table>
+<h2 id="レビュー出力番地">レビュー出力番地</h2>
+<table>
+<thead>
+<tr class="header">
+<th>コード</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L30-OUT-01</td>
+</tr>
+<tr class="even">
+<td>L30-OUT-02</td>
+</tr>
+<tr class="odd">
+<td>L30-OUT-03</td>
+</tr>
+<tr class="even">
+<td>L30-OUT-04</td>
+</tr>
+<tr class="odd">
+<td>L30-OUT-05</td>
+</tr>
+<tr class="even">
+<td>L30-OUT-06</td>
+</tr>
+</tbody>
+</table>
+<h2 id="時間フェーズ番地">時間フェーズ番地</h2>
+<table>
+<thead>
+<tr class="header">
+<th>コード</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L30-T00H</td>
+</tr>
+<tr class="even">
+<td>L30-T48H</td>
+</tr>
+<tr class="odd">
+<td>L30-T30D</td>
+</tr>
+<tr class="even">
+<td>L30-T90D</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ゲート判定番地">ゲート判定番地</h2>
+<table>
+<thead>
+<tr class="header">
+<th>コード</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L30-GATE-01</td>
+</tr>
+<tr class="even">
+<td>L30-GATE-02</td>
+</tr>
+<tr class="odd">
+<td>L30-GATE-03</td>
+</tr>
+<tr class="even">
+<td>L30-GATE-04</td>
+</tr>
+</tbody>
+</table>
+<h2 id="評価指標">評価指標</h2>
+<p><code>L30-CI</code> は <strong>LUMINA-30 条件指標</strong>
+を意味します。<br/>
+レビュー対象のシステムがLUMINA-30の境界条件を満たしているかを示す、最小かつ証拠ベースの指標です。</p>
+<p><code>Compliance Indicator</code> は使用しません。<br/>
+L30-CIは、法令遵守、認証、免責、規制上の承認、制度的認定を意味しません。</p>
+<ul>
+<li>L30-CI = Valid</li>
+<li>L30-CI = Invalid</li>
+<li>L30-CI = 無効（検証不能）</li>
+</ul>
+<p>結果：</p>
+<ul>
+<li>L30-CI = 有効</li>
+<li>L30-CI = 無効</li>
+<li>L30-CI = 無効（確認不能）</li>
+</ul>
+<h2 id="チェックリスト連動">チェックリスト連動</h2>
+<p>L30-BASは、チェックリスト、レビュー票、監査票、事故後テンプレートへ埋め込むことを想定しています。<br/>
+チェックリスト側に番地と問いが入っていれば、運用時にGitHubを開くことは前提ではありません。</p>
+<table>
+<thead>
+<tr class="header">
+<th>コード</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L30-BX-01</td>
+</tr>
+<tr class="even">
+<td>L30-BX-02</td>
+</tr>
+<tr class="odd">
+<td>L30-BX-03</td>
+</tr>
+<tr class="even">
+<td>L30-BX-04</td>
+</tr>
+<tr class="odd">
+<td>L30-OUT-01</td>
+</tr>
+<tr class="even">
+<td>L30-OUT-04</td>
+</tr>
+<tr class="odd">
+<td>L30-OUT-06</td>
+</tr>
+<tr class="even">
+<td>L30-GATE-01</td>
+</tr>
+<tr class="odd">
+<td>L30-GATE-04</td>
+</tr>
+</tbody>
+</table>
+<h2 id="出力連動">出力連動</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Condition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L30-BX-01 が「いいえ」</td>
+</tr>
+<tr class="even">
+<td>L30-BX-02 が「非実効」</td>
+</tr>
+<tr class="odd">
+<td>L30-BX-03 が「検証不能」</td>
+</tr>
+<tr class="even">
+<td>L30-BX-04 が「無効」または「無効（検証不能）」</td>
+</tr>
+<tr class="odd">
+<td>最終評価が記録される</td>
+</tr>
+<tr class="even">
+<td>L30-BX-06 または L30-GATE-04 が警告を示す</td>
+</tr>
+</tbody>
+</table>
+<h2 id="別紙運用">別紙運用</h2>
+<p>L30-BASは、GitHub外の別紙チェックリスト、レビュー票、監査フォーム、事故記録として使用できます。<br/>
+GitHubは正規参照元であり、判定の実施条件ではありません。</p>
+<table>
+<thead>
+<tr class="header">
+<th>コード</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L30-BX-01</td>
+</tr>
+<tr class="even">
+<td>L30-BX-02</td>
+</tr>
+<tr class="odd">
+<td>L30-BX-03</td>
+</tr>
+<tr class="even">
+<td>L30-BX-04</td>
+</tr>
+<tr class="odd">
+<td>L30-CI</td>
+</tr>
+</tbody>
+</table>
+<h2 id="リポジトリ対応">リポジトリ対応</h2>
+<p>この表は、L30-BASを現在の有効なrepo構成へ対応づけるものです。<br/>
+削除済みまたは退役済みのrepo名は、現行L30-BAS対応表には含めません。</p>
+<table>
+<thead>
+<tr class="header">
+<th>Repository</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>lumina-30-overview</td>
+</tr>
+<tr class="even">
+<td>インシデントレビューrepo</td>
+</tr>
+<tr class="odd">
+<td>institutional-friction-toolkit</td>
+</tr>
+<tr class="even">
+<td>停止権限参照repo</td>
+</tr>
+<tr class="odd">
+<td>ai-accountability-reference</td>
+</tr>
+<tr class="even">
+<td>Lumi30-Index</td>
+</tr>
+<tr class="odd">
+<td>LUMINA-30</td>
+</tr>
+<tr class="even">
+<td>Lumi30-FullText</td>
+</tr>
+<tr class="odd">
+<td>Lumi30-Public-Record</td>
+</tr>
+<tr class="even">
+<td>Lumi30-PDF-Archive</td>
+</tr>
+<tr class="odd">
+<td>lumina30-public-reference</td>
+</tr>
+<tr class="even">
+<td>lumina-30-structure-map</td>
+</tr>
+<tr class="odd">
+<td>.github</td>
+</tr>
+</tbody>
+</table>
+<h2 id="使用ルール">使用ルール</h2>
+<ul>
+<li><p>使用しない <code>L30-CL</code> 採用済みLUMINA-30 BAS系列コードとして扱わない。</p></li>
+<li><p>番地は参照補助であり、法的分類・適合分類ではありません。</p></li>
+<li><p>番地はLUMINA-30用語を置き換えるものではありません。</p></li>
+<li><p>初出では、完全な番地と名称を記載します。</p></li>
+<li><p>同じチェックリストやレビュー記録内では、2回目以降
+<code>BX-01</code> のような短縮形を使用できます。</p></li>
+<li><p>LUMINA-30の機能番地として <code>OP</code>
+は使用しません。</p></li>
+<li><p>LUMINA-30 BASの正式系列として <code>L30-CL</code>
+は使用しません。</p></li>
+<li><p>L30-CIに <code>Compliance Indicator</code>
+は使用しません。</p></li>
+<li><p>GitHub参照を判定実施の前提にしてはなりません。</p></li>
+<li><p>証拠不在を、人間の拒否権が保全されていた証拠として扱ってはなりません。</p></li>
+</ul>
+<h2 id="非拘束性">非拘束性</h2>
+<p>この文書は記述的・非規範的です。<br/>
+法的義務、規制義務、適合義務、運用義務、制度的義務、認証義務を作るものではありません。</p>
+</main>
+<footer class="footer">
+<p>HTMLは読者向け導線、Markdownは本文保管・検索到達性・ソース確認用として残します。</p>
+</footer>
+</div>
+</body>
+</html>

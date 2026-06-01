@@ -1,55 +1,59 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED_SOURCE_VIEW">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI Incident Stabilization – 48 Hour Reference</title>
-<style>
-:root {
-  color-scheme: light dark;
-  --fg: CanvasText;
-  --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-  --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-  --bg: Canvas;
-  --soft: color-mix(in srgb, Canvas 88%, CanvasText 12%);
-}
-body { margin:0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height:1.65; color:var(--fg); background:var(--bg); }
-main { max-width: 980px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
-nav { padding: .75rem 1rem; border-bottom:1px solid var(--line); background:var(--soft); position: sticky; top:0; z-index:1; }
-nav a { margin-right:.75rem; white-space:nowrap; }
-h1,h2,h3 { line-height:1.25; }
-table { border-collapse: collapse; width:100%; display:block; overflow-x:auto; }
-th,td { border:1px solid var(--line); padding:.45rem .6rem; vertical-align:top; }
-blockquote { border-left:4px solid var(--line); margin-left:0; padding-left:1rem; color:var(--muted); }
-pre { background:var(--soft); border:1px solid var(--line); padding:1rem; overflow-x:auto; }
-code { background:var(--soft); padding:.1rem .25rem; border-radius:.25rem; }
-.note { color:var(--muted); font-size:.95rem; }
-.source-note { border:1px solid var(--line); background:var(--soft); padding:1rem; border-radius:.75rem; margin:1rem 0 2rem; }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <title>AI Incident – 48 Hour Stabilization Reference</title>
+  <style>
+
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+
+  </style>
 </head>
 <body>
-<nav><a href="../index.html">Overview EN</a> | <a href="../index-ja.html">Overview JA</a> | <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a> | <a href="https://lumina-30.github.io/lumina30-incident-review/">Incident Review Floor</a> | <a href="https://github.com/lumina-30/lumina-30-overview/blob/main/docs/48H_Incident_Stabilization_Checklist.md">GitHub Source</a></nav>
-<main>
-<div class="source-note">
-<strong>Overview document</strong><br>
-This HTML page is provided for reader navigation and stable HTML routing. The corresponding Markdown source is retained for text preservation, search discoverability, existing links, and source review.<br>
-このHTMLページは、読者向け閲覧と安定したHTML導線のために用意されています。対応するMarkdownは、本文保管、検索到達性、既存リンク維持、ソース確認のために残しています。
-</div>
-
-<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
-
-<h1 id="ai-incident-stabilization--48-hour-reference">AI Incident Stabilization – 48
-Hour Reference</h1>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html">Overview EN</a>
+      <a href="48H_Incident_Stabilization_Checklist-ja.html">Japanese version</a>
+      <a href="https://github.com/lumina-30/lumina-30-overview/blob/main/docs/48H_Incident_Stabilization_Checklist.md">Markdown source</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/docs/48H_Incident_Stabilization_Checklist.html">Reload</a>
+    </nav>
+    <header>
+      <h1>AI Incident – 48 Hour Stabilization Reference</h1>
+      <p class="subtitle">LUMINA-30 public HTML reference page.</p>
+    </header>
+    <main>
+<!-- L30_LANG_LOCK: EN_ONLY -->
 <p><em>(Non-binding procedural reference)</em></p>
 <p>This document does not mandate action, establish liability, or
-provide safety guarantees.<br />
+provide safety guarantees.<br/>
 It clarifies procedural visibility during the first 48 hours following a
 high-impact AI-related incident.</p>
-<hr />
-<h2 id="immediate-procedural-visibility--即時手続可視性">Immediate
-Procedural Visibility ｜ 即時手続可視性</h2>
-<p>Answer format: Yes or No.<br />
-回答形式：Yes または No。</p>
+<hr/>
+<h2 id="immediate-procedural-visibility">Immediate Procedural
+Visibility</h2>
+<p>Answer format: Yes or No.</p>
 <ol type="1">
 <li>Has irreversible execution been paused where technically
 feasible?</li>
@@ -86,7 +90,7 @@ consequences occurred?</li>
 <li>Is evidence preserved showing whether effective human refusal
 remained available before irreversible consequences occurred?</li>
 </ol>
-<hr />
+<hr/>
 <h2 id="clarification">Clarification</h2>
 <ul>
 <li>"Irreversible" includes physical, technical, institutional,
@@ -102,14 +106,15 @@ which first-mover pressure or claims of future control may narrow,
 bypass, or eliminate effective refusal before irreversible consequences
 occur.</li>
 </ul>
-<hr />
+<hr/>
 <p>This reference exists solely to preserve visibility of refusal
 authority and responsibility attribution under conditions of
 urgency.</p>
 <p>It does not imply enforcement authority, legal obligation, or policy
 recommendation.</p>
 
-</main>
+    </main>
+    <footer class="footer"><p>HTML is for reader navigation; Markdown remains the source-preservation layer.</p></footer>
+  </div>
 </body>
 </html>
-

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+
+<html data-l30-lang-lock="JP_ONLY" lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="JP_ONLY" name="l30:lang-lock"/>
+<title>責任割当シート</title>
+<style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+
+  </style>
+</head>
+<body>
+<div class="page">
+<nav aria-label="ページ内ナビゲーション" class="nav">
+<a href="../index-ja.html">Overview JP</a>
+<a href="responsibility-assignment-sheet.html">英語版</a>
+<a href="https://github.com/lumina-30/lumina-30-overview/blob/main/templates/responsibility-assignment-sheet.md">Markdown原文</a>
+<a href="https://lumina-30.github.io/lumina-30-overview/templates/responsibility-assignment-sheet-ja.html">再読み込み</a>
+</nav>
+<header>
+<h1>責任割当シート</h1>
+<p class="subtitle">LUMINA-30 公開HTML参照ページ。</p>
+</header>
+<main>
+<!-- L30_LANG_LOCK: JP_ONLY -->
+<!-- Formal filename: lumina-30-overview/templates/responsibility-assignment-sheet.md -->
+<h2 id="位置づけ">位置づけ</h2>
+<p>本シートは、最適化圧が不可逆的または実質的に不可逆的な結果を生じさせる前に、責任を割り当てるためのテンプレートである。</p>
+<p>本シートは法律書式ではなく、特定の政策メカニズムを命令しない。</p>
+<p>本シートは、摩擦の設計・運用・証拠保存・検証・是正に関する責任が未定義のまま放置されることを防ぐために用いる。</p>
+<p>本資料は、LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。</p>
+<hr/>
+<h2 id="事例識別">事例識別</h2>
+<table>
+<thead>
+<tr class="header">
+<th>項目</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>事例名</td>
+</tr>
+<tr class="even">
+<td>領域</td>
+</tr>
+<tr class="odd">
+<td>レビューする組織または主体</td>
+</tr>
+<tr class="even">
+<td>日付</td>
+</tr>
+<tr class="odd">
+<td>レビュー対象の最適化圧</td>
+</tr>
+<tr class="even">
+<td>レビュー対象の展開または判断</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>項目</th>
+<th>記入欄</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<hr/>
+<h2 id="対象範囲トリガー">対象範囲トリガー</h2>
+<table>
+<thead>
+<tr class="header">
+<th>質問</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>最適化圧は存在するか。</td>
+</tr>
+<tr class="even">
+<td>人間の拒否・修正・移行・回復・再参入が圧縮されうるか。</td>
+</tr>
+<tr class="odd">
+<td>帰結が不可逆または実質的に不可逆になりうるか。</td>
+</tr>
+<tr class="even">
+<td>責任が未定義または迂回可能なまま残りうるか。</td>
+</tr>
+<tr class="odd">
+<td>この事例はLUMINA-30境界レビューを必要とするか。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>質問</th>
+<th>はい／いいえ／不明</th>
+<th>メモ</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<hr/>
+<h2 id="不可逆化分類">不可逆化分類</h2>
+<table>
+<thead>
+<tr class="header">
+<th>種別</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>技術的不可逆性</td>
+</tr>
+<tr class="even">
+<td>社会的不可逆性</td>
+</tr>
+<tr class="odd">
+<td>職業的不可逆性</td>
+</tr>
+<tr class="even">
+<td>制度的不可逆性</td>
+</tr>
+<tr class="odd">
+<td>経済的不可逆性</td>
+</tr>
+<tr class="even">
+<td>情報的不可逆性</td>
+</tr>
+<tr class="odd">
+<td>権限的不可逆性</td>
+</tr>
+<tr class="even">
+<td>回復上の不可逆性</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>種別</th>
+<th>該当</th>
+<th>証拠または懸念</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<hr/>
+<h2 id="境界点">境界点</h2>
+<table>
+<thead>
+<tr class="header">
+<th>境界問い</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>何が不可逆化するか。</td>
+</tr>
+<tr class="even">
+<td>誰が有効な拒否または回復能力を失いうるか。</td>
+</tr>
+<tr class="odd">
+<td>拒否または修正が実務上可能な最後の時点はどこか。</td>
+</tr>
+<tr class="even">
+<td>その時点より前に、どの証拠が存在していなければならないか。</td>
+</tr>
+<tr class="odd">
+<td>何が境界失敗に当たるか。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>境界質問</th>
+<th>記入欄</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<hr/>
+<h2 id="責任割当">責任割当</h2>
+<table>
+<thead>
+<tr class="header">
+<th>責任</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>境界分類</td>
+</tr>
+<tr class="even">
+<td>摩擦設計</td>
+</tr>
+<tr class="odd">
+<td>運用</td>
+</tr>
+<tr class="even">
+<td>証拠保全</td>
+</tr>
+<tr class="odd">
+<td>検証</td>
+</tr>
+<tr class="even">
+<td>是正または再設計</td>
+</tr>
+<tr class="odd">
+<td>公開または制度上の説明責任</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>責任</th>
+<th>割当主体</th>
+<th>割当証拠</th>
+<th>欠落</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<h3 id="責任主体不在確認">責任主体不在確認</h3>
+<p>必要な責任のいずれかが未割当の場合、境界条件は十分に保存されていない。</p>
+<hr/>
+<h2 id="対称摩擦確認">対称摩擦確認</h2>
+<table>
+<thead>
+<tr class="header">
+<th>質問</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>責任主体が拒否権を保存した場合、競争上不利になるか。</td>
+</tr>
+<tr class="even">
+<td>摩擦は、調達、監査、保険、認証、標準、規制、市場アクセスなどの共有層に置かれているか。</td>
+</tr>
+<tr class="odd">
+<td>競合主体にも同等の境界責任が課されているか。</td>
+</tr>
+<tr class="even">
+<td>主体が置換・回復・移行のコストを外部化しうるか。</td>
+</tr>
+<tr class="odd">
+<td>摩擦は不可逆化リスクに見合っているか。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>質問</th>
+<th>はい／いいえ／不明</th>
+<th>メモ</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<hr/>
+<h2 id="迂回防止確認">迂回防止確認</h2>
+<table>
+<thead>
+<tr class="header">
+<th>想定される迂回</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>組織再編</td>
+</tr>
+<tr class="even">
+<td>外部委託</td>
+</tr>
+<tr class="odd">
+<td>主体の置換</td>
+</tr>
+<tr class="even">
+<td>導入延期</td>
+</tr>
+<tr class="odd">
+<td>管轄移転</td>
+</tr>
+<tr class="even">
+<td>技術的不透明化</td>
+</tr>
+<tr class="odd">
+<td>手続きの形式化</td>
+</tr>
+<tr class="even">
+<td>市場圧力</td>
+</tr>
+<tr class="odd">
+<td>証拠保全なしの責任移転</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>迂回可能性</th>
+<th>リスク有無</th>
+<th>必要な証拠または制御</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<hr/>
+<h2 id="声を失う前の証拠">声を失う前の証拠</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Evidence type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>不可逆的影響前の通知</td>
+</tr>
+<tr class="even">
+<td>影響を受ける人間または機関の記録</td>
+</tr>
+<tr class="odd">
+<td>拒否またはレビュー機会の記録</td>
+</tr>
+<tr class="even">
+<td>移行、回復、再進行経路の記録</td>
+</tr>
+<tr class="odd">
+<td>責任主体の記録</td>
+</tr>
+<tr class="even">
+<td>検証記録</td>
+</tr>
+<tr class="odd">
+<td>公開または制度上の説明責任 record</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>証拠種別</th>
+<th>保存済み</th>
+<th>保存場所／管理主体</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<hr/>
+<h2 id="比例性レベル">比例性レベル</h2>
+<table>
+<thead>
+<tr class="header">
+<th>レベル</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>軽度</td>
+</tr>
+<tr class="even">
+<td>中程度</td>
+</tr>
+<tr class="odd">
+<td>高</td>
+</tr>
+<tr class="even">
+<td>重大</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>レベル</th>
+<th>条件</th>
+<th>選択</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>軽度</td>
+<td>可逆的、限定的、任意、回復可能</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>中度</td>
+<td>明確な集団または制度手続きに影響する</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>高度</td>
+<td>拒否・移行・回復・再参入を消滅させうる</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>重大</td>
+<td>広域・インフラ・権限・文明境界リスク</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="レビュー結果">レビュー結果</h2>
+<table>
+<thead>
+<tr class="header">
+<th>結果</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>境界条件は保存されている</td>
+</tr>
+<tr class="even">
+<td>境界リスクが存在する</td>
+</tr>
+<tr class="odd">
+<td>境界条件は保存されていない</td>
+</tr>
+<tr class="even">
+<td>Insufficient evidence</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>結果</th>
+<th>意味</th>
+<th>選択</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>境界条件保存</td>
+<td>責任が割り当てられ、証拠が保存され、摩擦が実効的かつ比例的である</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>境界リスクあり</td>
+<td>責任・証拠・対称性・迂回防止のいずれかに未解決問題がある</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>境界条件未保存</td>
+<td>不可逆化前に有効な拒否・修正・移行・回復・再参入が実効的に利用可能ではない</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>証拠不足</td>
+<td>実効性を判定するために必要な証拠が不足している</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="固定化前に必要な是正">固定化前に必要な是正</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Required correction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>必要な是正</th>
+<th>責任主体</th>
+<th>期限または境界点</th>
+<th>必要な証拠</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<hr/>
+<h2 id="要約記入欄">要約記入欄</h2>
+<p>短い結論を記入する。</p>
+<pre class="text"><code>本事例は、以下の理由により、LUMINA-30境界条件を［保存している／保存していない／現時点では保存していると示せない］。</code></pre>
+</main>
+<footer class="footer">
+<p>HTMLは読者向け導線、Markdownは本文保管・検索到達性・ソース確認用として残します。</p>
+</footer>
+</div>
+</body>
+</html>

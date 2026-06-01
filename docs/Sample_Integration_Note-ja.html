@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html data-l30-lang-lock="JP_ONLY" lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="JP_ONLY" name="l30:lang-lock"/>
+<title>統合用サンプルノート</title>
+<style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+
+  </style>
+</head>
+<body>
+<div class="page">
+<nav aria-label="ページ内ナビゲーション" class="nav">
+<a href="../index-ja.html">Overview JP</a>
+<a href="Sample_Integration_Note.html">英語版</a>
+<a href="https://github.com/lumina-30/lumina-30-overview/blob/main/docs/Sample_Integration_Note.md">Markdown原文</a>
+<a href="https://lumina-30.github.io/lumina-30-overview/docs/Sample_Integration_Note-ja.html">再読み込み</a>
+</nav>
+<header>
+<h1>統合用サンプルノート</h1>
+<p class="subtitle">LUMINA-30 公開HTML参照ページ。</p>
+</header>
+<main>
+<!-- L30_LANG_LOCK: JP_ONLY -->
+<hr/>
+<hr/>
+<h2 id="用語注記">用語注記</h2>
+<p>この文脈における “civilizational” は、不可逆的なAI関連影響の前に人間の拒否権が失われうる条件をレビュー対象にする、という意味に限られます。</p>
+<p>統合説明では、LUMINA-30をまず「不可逆化前の境界レビュー・フレームワーク」として紹介する。<br/>
+“文明境界（文明境界）”
+は正典上の用語であるが、広い文化論・思想論として提示しない。</p>
+<p>この文脈での「文明的」とは、不可逆的なAI関連影響の前に人間の拒否権が失われ得る条件を扱う、という意味に限られる。</p>
+<hr/>
+<h2 id="現行実務参照">現行実務参照</h2>
+<p>現行の実務利用では、本ノートはL30-BASおよびインシデントレビュー資料と併せて読むべきである。</p>
+<p>現行の実務利用では、本ノートはL30-BASおよびincident-review資料と併せて読む。</p>
+<ul>
+<li>境界番地体系（L30-BAS）：内部レビュー上の確認事項をLUMINA-30の中核問いへ接続するための安定した参照番地。</li>
+<li><p><a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md">L30_FRM 実務帳票</a><br/>
+境界判定、文明的安全レビュー、AIインシデントレビューのための実務用PDF・DOCX帳票。<br/>
+境界判定、事故レビュー、監査レビューのためのPDF版・DOCX版の実務帳票。</p>
+<p>インシデントレビュー、境界確認、運用テンプレートのための専用実務repo。<br/>
+事故レビュー、境界判定、実務テンプレートのための専用実務repo。</p></li>
+</ul>
+<p>本ノートは、採用要件、適合義務、承認手続きを作るものではない。<br/>
+既存プロセス内でLUMINA-30を非拘束の境界参照として参照する方法を示す。</p>
+<p>非拘束とは、LUMINA-30が法的義務、規制義務、認証義務、適合義務、制度的義務を作らないことを意味する。<br/>
+不可逆化前に実効的な人間拒否が存在したかを示す必要があるレビューにおいて、この境界問いが無関係であることを意味しない。</p>
+<hr/>
+<hr/>
+<p>不可逆的なAI関連影響の前に、実効的人間拒否が検証可能なまま残っていたかを評価するためのものです。</p>
+</main>
+<footer class="footer">
+<p>HTMLは読者向け導線、Markdownは本文保管・検索到達性・ソース確認用として残します。</p>
+</footer>
+</div>
+</body>
+</html>

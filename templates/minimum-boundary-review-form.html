@@ -1,40 +1,18 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="Minimum Boundary Review Form ｜ 最小境界レビュー票" />
-  <title>Minimum Boundary Review Form ｜ 最小境界レビュー票</title>
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <title>Minimum Boundary Review Form</title>
   <style>
 
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
     h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
@@ -55,195 +33,121 @@
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../index.html">EN Top</a>
-      <a href="../index-ja.html">JP Top</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/templates/minimum-boundary-review-form.html">↻ Reload / 再読み込み</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html">Overview EN</a>
+      <a href="minimum-boundary-review-form-ja.html">Japanese version</a>
+      <a href="https://github.com/lumina-30/lumina-30-overview/blob/main/templates/minimum-boundary-review-form.md">Markdown source</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/templates/minimum-boundary-review-form.html">Reload</a>
     </nav>
     <header>
-      <h1>Minimum Boundary Review Form ｜ 最小境界レビュー票</h1>
-      <p class="subtitle">LUMINA-30 public HTML reference page. ｜ LUMINA-30 公開HTML参照ページ。</p>
+      <h1>Minimum Boundary Review Form</h1>
+      <p class="subtitle">LUMINA-30 public HTML reference page.</p>
     </header>
     <main>
- 
-<h2>Status ｜ 位置づけ</h2>
-<p>This document is a minimal, non-binding review form for rapid LUMINA-30 implementation.
-It does not modify LUMINA-30 Core Terminology and does not create new binding obligations.</p>
-<p>本資料は、LUMINA-30を迅速に実装するための最小限の非拘束レビュー票である。
-LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。</p>
+<!-- L30_LANG_LOCK: EN_ONLY -->
+<!-- File: lumina-30-overview/templates/minimum-boundary-review-form.md -->
+<h2 id="status">Status</h2>
+<p>This document is a minimal, non-binding review form for rapid
+LUMINA-30 implementation. It does not modify LUMINA-30 Core Terminology
+and does not create new binding obligations.</p>
 <hr/>
-<h2>Use Case ｜ 用途</h2>
-<p>Use this form when a full checklist is too heavy but an immediate boundary responsibility review is needed.</p>
-<p>完全なチェックリストが重すぎるが、即時の境界責任レビューが必要な場合に使用する。</p>
-<p>For the shortest copy-ready insertion, see <a href="../adoption/minimum-boundary-review-adoption-pack.html">Minimum Boundary Review Adoption Pack</a>.</p>
-<p>コピペ可能な最短の差し込み欄は、<a href="../adoption/minimum-boundary-review-adoption-pack.html">Minimum Boundary Review Adoption Pack ｜ 最小境界レビュー導入パック</a> を参照する。</p>
+<h2 id="use-case">Use Case</h2>
+<p>Use this form when a full checklist is too heavy but an immediate
+boundary responsibility review is needed.</p>
+<p>For the shortest copy-ready insertion, see <a href="../adoption/minimum-boundary-review-adoption-pack.html">Minimum
+Boundary Review Adoption Pack</a>.</p>
 <hr/>
-<h2>Minimum Review ｜ 最小レビュー</h2>
+<h2 id="minimum-review">Minimum Review</h2>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Item</th>
 <th>Answer</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>System, deployment, or decision under review</td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td>Reviewing organization or person</td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Date</td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td>Domain</td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Optimization pressure involved</td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td>Possible irreversible consequence</td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Affected humans, groups, or institutions</td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td>Practical refusal path before irreversibility</td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Practical correction, transition, recovery, or rollback path</td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td>Friction design owner</td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Friction operator</td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td>Evidence preservation owner</td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Verification owner</td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td>Correction or escalation owner</td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Anti-bypass concern</td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td>Relevant LUMINA-30 checklist type</td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Initial result</td>
-<td>Effective, Not effective, Insufficient evidence, or Not applicable</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>項目</th>
-<th>回答</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>レビュー対象のシステム・導入・判断</td>
-<td></td>
-</tr>
-<tr>
-<td>レビュー組織・担当者</td>
-<td></td>
-</tr>
-<tr>
-<td>日付</td>
-<td></td>
-</tr>
-<tr>
-<td>分野</td>
-<td></td>
-</tr>
-<tr>
-<td>関与する最適化圧</td>
-<td></td>
-</tr>
-<tr>
-<td>起こりうる不可逆的結果</td>
-<td></td>
-</tr>
-<tr>
-<td>影響を受ける人間・集団・制度</td>
-<td></td>
-</tr>
-<tr>
-<td>不可逆化前の実効的拒否経路</td>
-<td></td>
-</tr>
-<tr>
-<td>実効的な修正・移行・回復・撤回経路</td>
-<td></td>
-</tr>
-<tr>
-<td>摩擦設計責任者</td>
-<td></td>
-</tr>
-<tr>
-<td>摩擦運用者</td>
-<td></td>
-</tr>
-<tr>
-<td>証拠保存責任者</td>
-<td></td>
-</tr>
-<tr>
-<td>検証責任者</td>
-<td></td>
-</tr>
-<tr>
-<td>是正・エスカレーション責任者</td>
-<td></td>
-</tr>
-<tr>
-<td>迂回防止上の懸念</td>
-<td></td>
-</tr>
-<tr>
-<td>関連するLUMINA-30チェックリスト種別</td>
-<td></td>
-</tr>
-<tr>
-<td>初期結果</td>
-<td>Effective, Not effective, Insufficient evidence, or Not applicable</td>
+<td>Effective, Not effective, Insufficient evidence, or Not
+applicable</td>
 </tr>
 </tbody>
 </table>
 <hr/>
-<h2>Minimum Decision Rule ｜ 最小判定ルール</h2>
-<p>If the review cannot identify who is responsible for friction design, operation, evidence preservation, verification, and correction before irreversibility, the boundary condition is not adequately preserved.</p>
-<p>If evidence that effective refusal remained practical cannot be shown, do not infer effectiveness from silence, absence of complaint, or nominal procedure.</p>
-<p>不可逆化前に、摩擦の設計・運用・証拠保存・検証・是正の責任者を特定できない場合、境界条件は十分に保存されていない。</p>
-<p>有効な拒否が実効的に残っていた証拠を示せない場合、沈黙、申立の不存在、名目上の手続きから実効性を推定してはならない。</p>
+<h2 id="minimum-decision-rule">Minimum Decision Rule</h2>
+<p>If the review cannot identify who is responsible for friction design,
+operation, evidence preservation, verification, and correction before
+irreversibility, the boundary condition is not adequately preserved.</p>
+<p>If evidence that effective refusal remained practical cannot be
+shown, do not infer effectiveness from silence, absence of complaint, or
+nominal procedure.</p>
 
     </main>
-    <p class="footer">LUMINA-30 public reference material. ｜ LUMINA-30 公開参照資料。</p>
+    <footer class="footer"><p>HTML is for reader navigation; Markdown remains the source-preservation layer.</p></footer>
   </div>
 </body>
 </html>

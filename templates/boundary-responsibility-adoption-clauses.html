@@ -1,40 +1,18 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="Boundary Responsibility Adoption Clauses ｜ 境界責任導入文" />
-  <title>Boundary Responsibility Adoption Clauses ｜ 境界責任導入文</title>
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <title>Boundary Responsibility Adoption Clauses</title>
   <style>
 
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
     h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
@@ -55,97 +33,105 @@
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../index.html">EN Top</a>
-      <a href="../index-ja.html">JP Top</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/templates/boundary-responsibility-adoption-clauses.html">↻ Reload / 再読み込み</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html">Overview EN</a>
+      <a href="boundary-responsibility-adoption-clauses-ja.html">Japanese version</a>
+      <a href="https://github.com/lumina-30/lumina-30-overview/blob/main/templates/boundary-responsibility-adoption-clauses.md">Markdown source</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/templates/boundary-responsibility-adoption-clauses.html">Reload</a>
     </nav>
     <header>
-      <h1>Boundary Responsibility Adoption Clauses ｜ 境界責任導入文</h1>
-      <p class="subtitle">LUMINA-30 public HTML reference page. ｜ LUMINA-30 公開HTML参照ページ。</p>
+      <h1>Boundary Responsibility Adoption Clauses</h1>
+      <p class="subtitle">LUMINA-30 public HTML reference page.</p>
     </header>
     <main>
- 
-<h2>Status ｜ 位置づけ</h2>
-<p>This document provides copy-ready, non-binding adoption clauses for using LUMINA-30 boundary responsibility in existing workflows.
-It does not modify LUMINA-30 Core Terminology and does not create new binding obligations.</p>
-<p>本資料は、LUMINA-30の境界責任を既存ワークフローで利用するための、コピペ可能な非拘束の導入文を提供する。
-LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。</p>
+<!-- L30_LANG_LOCK: EN_ONLY -->
+<!-- File: lumina-30-overview/templates/boundary-responsibility-adoption-clauses.md -->
+<h2 id="status">Status</h2>
+<p>This document provides copy-ready, non-binding adoption clauses for
+using LUMINA-30 boundary responsibility in existing workflows. It does
+not modify LUMINA-30 Core Terminology and does not create new binding
+obligations.</p>
 <hr/>
-<h2>Universal Clause ｜ 汎用導入文</h2>
+<h2 id="universal-clause">Universal Clause</h2>
 <blockquote>
-<p>For any high-impact AI or optimization-driven deployment, the reviewing body should confirm that effective human refusal, correction, transition, recovery, or rollback remains practically available before irreversible consequences occur. Responsibility for friction design, operation, evidence preservation, verification, and correction should be explicitly assigned before deployment proceeds.</p>
-</blockquote>
-<blockquote>
-<p>高影響のAIまたは最適化主導の導入について、レビュー主体は、不可逆的結果が生じる前に、有効な人間拒否・修正・移行・回復・撤回が実効的に利用可能であることを確認すべきである。導入が進む前に、摩擦の設計・運用・証拠保存・検証・是正の責任は明示的に割り当てられているべきである。</p>
-</blockquote>
-<hr/>
-<h2>Minimum Boundary Review Block ｜ 最小境界レビュー欄</h2>
-<blockquote>
-<p>This workflow includes a Minimum Boundary Review: identify the possible irreversible consequence, the practical refusal or correction path before that consequence, the assigned boundary responsibility, the anti-bypass evidence, and the reviewable evidence supporting the finding.</p>
-</blockquote>
-<blockquote>
-<p>本ワークフローは、最小境界レビューを含む。すなわち、起こりうる不可逆的結果、その前の実効的な拒否または修正経路、割り当てられた境界責任、迂回防止の証拠、判定を支える検証可能な証拠を確認する。</p>
+<p>For any high-impact AI or optimization-driven deployment, the
+reviewing body should confirm that effective human refusal, correction,
+transition, recovery, or rollback remains practically available before
+irreversible consequences occur. Responsibility for friction design,
+operation, evidence preservation, verification, and correction should be
+explicitly assigned before deployment proceeds.</p>
 </blockquote>
 <hr/>
-<h2>AI Governance Review Clause ｜ AIガバナンスレビュー用</h2>
+<h2 id="minimum-boundary-review-block">Minimum Boundary Review
+Block</h2>
 <blockquote>
-<p>This review includes a LUMINA-30 boundary responsibility check: whether optimization pressure could eliminate practical human refusal, correction, transition, recovery, or rollback before irreversibility, and whether responsibility for preserving those conditions has been assigned.</p>
-</blockquote>
-<blockquote>
-<p>本レビューは、LUMINA-30境界責任チェックを含む。すなわち、最適化圧が不可逆化前に人間の拒否・修正・移行・回復・撤回の実効条件を消滅させうるか、およびそれらの条件を保存する責任が割り当てられているかを確認する。</p>
-</blockquote>
-<hr/>
-<h2>Procurement and Vendor Review Clause ｜ 調達・ベンダーレビュー用</h2>
-<blockquote>
-<p>The vendor or deployer should identify the accountable actor responsible for preserving effective refusal, rollback, correction, evidence preservation, and anti-bypass review before irreversible consequences may arise.</p>
-</blockquote>
-<blockquote>
-<p>ベンダーまたは導入主体は、不可逆的結果が生じうる前に、有効な拒否・撤回・修正・証拠保存・迂回防止確認を保存する責任主体を明示すべきである。</p>
+<p>This workflow includes a Minimum Boundary Review: identify the
+possible irreversible consequence, the practical refusal or correction
+path before that consequence, the assigned boundary responsibility, the
+anti-bypass evidence, and the reviewable evidence supporting the
+finding.</p>
 </blockquote>
 <hr/>
-<h2>Audit Clause ｜ 監査用</h2>
+<h2 id="ai-governance-review-clause">AI Governance Review Clause</h2>
 <blockquote>
-<p>The audit should not treat a nominal process as sufficient. It should verify whether refusal, correction, transition, recovery, or rollback was practically available before irreversibility, and whether evidence of that availability was preserved.</p>
-</blockquote>
-<blockquote>
-<p>監査は、名目上の手続きの存在だけを十分条件として扱ってはならない。不可逆化前に拒否・修正・移行・回復・撤回が実効的に利用可能だったか、およびその利用可能性の証拠が保存されていたかを検証すべきである。</p>
-</blockquote>
-<hr/>
-<h2>Incident Review Clause ｜ 事故レビュー用</h2>
-<blockquote>
-<p>In addition to describing what occurred, the review should identify what boundary responsibility should have stopped, delayed, corrected, escalated, or preserved evidence before irreversible impact.</p>
-</blockquote>
-<blockquote>
-<p>事故レビューは、何が起きたかの記述に加えて、不可逆的影響の前に何の境界責任が停止・遅延・修正・エスカレーション・証拠保存を行うべきだったかを特定すべきである。</p>
+<p>This review includes a LUMINA-30 boundary responsibility check:
+whether optimization pressure could eliminate practical human refusal,
+correction, transition, recovery, or rollback before irreversibility,
+and whether responsibility for preserving those conditions has been
+assigned.</p>
 </blockquote>
 <hr/>
-<h2>Board and Executive Risk Clause ｜ 経営・取締役会リスク用</h2>
+<h2 id="procurement-and-vendor-review-clause">Procurement and Vendor
+Review Clause</h2>
 <blockquote>
-<p>Optimization-driven deployment creates governance risk when responsibility for preserving effective human refusal before irreversibility is undefined, bypassable, undocumented, or assigned only after affected humans have lost voice or re-entry capacity.</p>
-</blockquote>
-<blockquote>
-<p>最適化主導の導入は、不可逆化前の有効な人間拒否を保存する責任が未定義、迂回可能、未記録、または影響を受ける人間が声や再参入能力を失った後にしか割り当てられない場合、ガバナンスリスクを生じさせる。</p>
-</blockquote>
-<hr/>
-<h2>Public-Sector Assessment Clause ｜ 公的部門評価用</h2>
-<blockquote>
-<p>Before deployment, the responsible public body should identify affected groups, practical refusal and complaint paths, human review capacity, evidence preservation, correction paths, and the actor responsible for verifying that those conditions remain effective before irreversibility.</p>
-</blockquote>
-<blockquote>
-<p>導入前に、責任を持つ公的主体は、影響を受ける集団、実効的な拒否・申立経路、人間審査能力、証拠保存、是正経路、および不可逆化前にそれらの条件が実効的であることを検証する責任主体を特定すべきである。</p>
+<p>The vendor or deployer should identify the accountable actor
+responsible for preserving effective refusal, rollback, correction,
+evidence preservation, and anti-bypass review before irreversible
+consequences may arise.</p>
 </blockquote>
 <hr/>
-<h2>Short Citation Sentence ｜ 短い引用文</h2>
+<h2 id="audit-clause">Audit Clause</h2>
 <blockquote>
-<p>LUMINA-30 adds a boundary responsibility check: who preserves effective human refusal before optimization-driven irreversibility?</p>
+<p>The audit should not treat a nominal process as sufficient. It should
+verify whether refusal, correction, transition, recovery, or rollback
+was practically available before irreversibility, and whether evidence
+of that availability was preserved.</p>
 </blockquote>
+<hr/>
+<h2 id="incident-review-clause">Incident Review Clause</h2>
 <blockquote>
-<p>LUMINA-30は境界責任チェックを追加する。すなわち、最適化主導の不可逆化前に、誰が有効な人間拒否を保存するのかを問う。</p>
+<p>In addition to describing what occurred, the review should identify
+what boundary responsibility should have stopped, delayed, corrected,
+escalated, or preserved evidence before irreversible impact.</p>
+</blockquote>
+<hr/>
+<h2 id="board-and-executive-risk-clause">Board and Executive Risk
+Clause</h2>
+<blockquote>
+<p>Optimization-driven deployment creates governance risk when
+responsibility for preserving effective human refusal before
+irreversibility is undefined, bypassable, undocumented, or assigned only
+after affected humans have lost voice or re-entry capacity.</p>
+</blockquote>
+<hr/>
+<h2 id="public-sector-assessment-clause">Public-Sector Assessment
+Clause</h2>
+<blockquote>
+<p>Before deployment, the responsible public body should identify
+affected groups, practical refusal and complaint paths, human review
+capacity, evidence preservation, correction paths, and the actor
+responsible for verifying that those conditions remain effective before
+irreversibility.</p>
+</blockquote>
+<hr/>
+<h2 id="short-citation-sentence">Short Citation Sentence</h2>
+<blockquote>
+<p>LUMINA-30 adds a boundary responsibility check: who preserves
+effective human refusal before optimization-driven irreversibility?</p>
 </blockquote>
 
     </main>
-    <p class="footer">LUMINA-30 public reference material. ｜ LUMINA-30 公開参照資料。</p>
+    <footer class="footer"><p>HTML is for reader navigation; Markdown remains the source-preservation layer.</p></footer>
   </div>
 </body>
 </html>

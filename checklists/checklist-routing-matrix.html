@@ -1,40 +1,18 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="Checklist Routing Matrix ｜ チェックリスト振り分け表" />
-  <title>Checklist Routing Matrix ｜ チェックリスト振り分け表</title>
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <title>Checklist Routing Matrix</title>
   <style>
 
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
     h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
@@ -55,35 +33,37 @@
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../index.html">EN Top</a>
-      <a href="../index-ja.html">JP Top</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/checklists/checklist-routing-matrix.html">↻ Reload / 再読み込み</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html">Overview EN</a>
+      <a href="checklist-routing-matrix-ja.html">Japanese version</a>
+      <a href="https://github.com/lumina-30/lumina-30-overview/blob/main/checklists/checklist-routing-matrix.md">Markdown source</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/checklists/checklist-routing-matrix.html">Reload</a>
     </nav>
     <header>
-      <h1>Checklist Routing Matrix ｜ チェックリスト振り分け表</h1>
-      <p class="subtitle">Public HTML reference page for LUMINA-30. / LUMINA-30 公開HTML参照ページ。</p>
+      <h1>Checklist Routing Matrix</h1>
+      <p class="subtitle">LUMINA-30 public HTML reference page.</p>
     </header>
     <main>
-<!-- Formal filename: lumina-30-overview/checklists/checklist-routing-matrix.html -->
-
-<h2 id="status--位置づけ">Status ｜ 位置づけ</h2>
-<p>This matrix routes optimization-pressure cases to the appropriate LUMINA-30 review focus.</p>
-<p>It does not replace domain-specific law, regulation, audit, or technical review.</p>
-<p>It helps determine what kind of boundary evidence must be checked before irreversibility.</p>
-<p>本表は、最適化圧に関する事例を、適切なLUMINA-30レビュー焦点へ振り分けるためのものである。</p>
-<p>本表は、分野別の法律・規制・監査・技術レビューを置き換えない。</p>
-<p>本表は、不可逆化前にどの種類の境界証拠を確認すべきかを判断する補助となる。</p>
-<p>This document does not modify LUMINA-30 Core Terminology or create new binding obligations.</p>
-<p>本資料は、LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。</p>
-<hr />
-<h2 id="routing-logic--振り分けの考え方">Routing Logic ｜ 振り分けの考え方</h2>
-<p>Use this matrix when optimization pressure may eliminate practical human refusal, correction, transition, recovery, or re-entry before irreversible consequences occur.</p>
-<p>If no irreversibility type applies, the case may fall outside the LUMINA-30 boundary mechanism.</p>
-<p>最適化圧によって、不可逆的結果が生じる前に、人間の拒否・修正・移行・回復・再参入の実効条件が失われる可能性がある場合、本表を用いる。</p>
-<p>該当する不可逆化種別が存在しない場合、その事例はLUMINA-30境界メカニズムの対象外である可能性がある。</p>
-<hr />
-<h2 id="matrix--振り分け表">Matrix ｜ 振り分け表</h2>
+<!-- L30_LANG_LOCK: EN_ONLY -->
+<!-- Formal filename: lumina-30-overview/checklists/checklist-routing-matrix.md -->
+<h2 id="status">Status</h2>
+<p>This matrix routes optimization-pressure cases to the appropriate
+LUMINA-30 review focus.</p>
+<p>It does not replace domain-specific law, regulation, audit, or
+technical review.</p>
+<p>It helps determine what kind of boundary evidence must be checked
+before irreversibility.</p>
+<p>This document does not modify LUMINA-30 Core Terminology or create
+new binding obligations.</p>
+<hr/>
+<h2 id="routing-logic">Routing Logic</h2>
+<p>Use this matrix when optimization pressure may eliminate practical
+human refusal, correction, transition, recovery, or re-entry before
+irreversible consequences occur.</p>
+<p>If no irreversibility type applies, the case may fall outside the
+LUMINA-30 boundary mechanism.</p>
+<hr/>
+<h2 id="matrix">Matrix</h2>
 <table>
 <thead>
 <tr class="header">
@@ -97,157 +77,93 @@
 <tbody>
 <tr class="odd">
 <td>Technical irreversibility</td>
-<td>Faster deployment, privilege expansion, external tool use, CI/CD acceleration</td>
-<td>Stop ability, isolation ability, rollback ability, privilege recovery</td>
+<td>Faster deployment, privilege expansion, external tool use, CI/CD
+acceleration</td>
+<td>Stop ability, isolation ability, rollback ability, privilege
+recovery</td>
 <td>Human intervention before external or irreversible effect</td>
 <td>Boundary / Technical Control Review</td>
 </tr>
 <tr class="even">
 <td>Social irreversibility</td>
-<td>Cost reduction, automation, platformization, institutional delegation</td>
+<td>Cost reduction, automation, platformization, institutional
+delegation</td>
 <td>Voice, livelihood, practical objection, social position</td>
 <td>Refusal, transition, recovery, and evidence before voice loss</td>
 <td>Social Boundary Review</td>
 </tr>
 <tr class="odd">
 <td>Occupational irreversibility</td>
-<td>Labor substitution, task automation, hiring-path removal, training-path removal</td>
+<td>Labor substitution, task automation, hiring-path removal,
+training-path removal</td>
 <td>Skills, career pathways, re-entry, professional identity</td>
 <td>Re-entry and transition capacity before displacement lock-in</td>
 <td>Occupational Boundary Review</td>
 </tr>
 <tr class="even">
 <td>Institutional irreversibility</td>
-<td>Automated administration, procedural delegation, exception normalization</td>
+<td>Automated administration, procedural delegation, exception
+normalization</td>
 <td>Appeal, human review, correction, accountability</td>
-<td>Human review and correction pathway before institutional lock-in</td>
+<td>Human review and correction pathway before institutional
+lock-in</td>
 <td>Institutional Review</td>
 </tr>
 <tr class="odd">
 <td>Economic irreversibility</td>
-<td>Market concentration, financial automation, network effects, winner-take-all scaling</td>
+<td>Market concentration, financial automation, network effects,
+winner-take-all scaling</td>
 <td>Alternatives, market exit options, recovery from loss</td>
-<td>Symmetric friction, anti-concentration, responsibility allocation</td>
+<td>Symmetric friction, anti-concentration, responsibility
+allocation</td>
 <td>Economic Boundary Review</td>
 </tr>
 <tr class="even">
 <td>Informational irreversibility</td>
-<td>Engagement optimization, automated scoring, mass distribution, reputation systems</td>
-<td>Correction, public reasoning, reputational recovery, epistemic integrity</td>
-<td>Transparency, correction, auditability, reversal of harmful classification</td>
+<td>Engagement optimization, automated scoring, mass distribution,
+reputation systems</td>
+<td>Correction, public reasoning, reputational recovery, epistemic
+integrity</td>
+<td>Transparency, correction, auditability, reversal of harmful
+classification</td>
 <td>Information Integrity Review</td>
 </tr>
 <tr class="odd">
 <td>Authority irreversibility</td>
-<td>Autonomous decision authority, delegation to systems, command acceleration</td>
+<td>Autonomous decision authority, delegation to systems, command
+acceleration</td>
 <td>Human approval, political control, command responsibility</td>
 <td>Authority retention, multi-party approval, stop authority</td>
 <td>Authority Boundary Review</td>
 </tr>
 <tr class="even">
 <td>Recovery irreversibility</td>
-<td>Dependency, de-skilling, replacement of manual pathways, removal of alternatives</td>
-<td>Practical recovery even if theoretical recovery remains possible</td>
+<td>Dependency, de-skilling, replacement of manual pathways, removal of
+alternatives</td>
+<td>Practical recovery even if theoretical recovery remains
+possible</td>
 <td>Backup, manual fallback, transition pathway, recovery evidence</td>
 <td>Recovery Pathway Review</td>
 </tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr class="header">
-<th>不可逆化種別</th>
-<th>典型的な最適化圧</th>
-<th>失われうるもの</th>
-<th>必要なレビュー焦点</th>
-<th>チェックリスト方向</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>技術的不可逆化</td>
-<td>高速デプロイ、権限拡張、外部ツール使用、CI/CD高速化</td>
-<td>停止能力、隔離能力、ロールバック能力、権限回収</td>
-<td>外部影響または不可逆的影響前の人間介入</td>
-<td>境界／技術制御レビュー</td>
-</tr>
-<tr class="even">
-<td>社会的不可逆化</td>
-<td>コスト削減、自動化、プラットフォーム化、制度委任</td>
-<td>声、生活基盤、実効的異議申立、社会的地位</td>
-<td>声を失う前の拒否・移行・回復・証拠</td>
-<td>社会境界レビュー</td>
-</tr>
-<tr class="odd">
-<td>職業的不可逆化</td>
-<td>労働置換、タスク自動化、採用経路削除、訓練経路削除</td>
-<td>技能、職業経路、再参入、職業的同一性</td>
-<td>置換固定化前の再参入・移行能力</td>
-<td>職業境界レビュー</td>
-</tr>
-<tr class="even">
-<td>制度的不可逆化</td>
-<td>行政自動化、手続き委任、例外運用の常態化</td>
-<td>不服申立、人間審査、修正、説明責任</td>
-<td>制度固定化前の人間審査・修正経路</td>
-<td>制度レビュー</td>
-</tr>
-<tr class="odd">
-<td>経済的不可逆化</td>
-<td>市場集中、金融自動化、ネットワーク効果、勝者総取り型拡大</td>
-<td>代替手段、市場退出選択肢、損失からの回復</td>
-<td>対称摩擦、過度集中防止、責任割当</td>
-<td>経済境界レビュー</td>
-</tr>
-<tr class="even">
-<td>情報的不可逆化</td>
-<td>エンゲージメント最適化、自動スコアリング、大量配信、信用評価システム</td>
-<td>訂正、公共的判断、信用回復、認識の健全性</td>
-<td>透明性、訂正可能性、監査可能性、有害分類の撤回</td>
-<td>情報健全性レビュー</td>
-</tr>
-<tr class="odd">
-<td>権限的不可逆化</td>
-<td>自律判断権限、システムへの委任、指揮命令の高速化</td>
-<td>人間承認、政治的制御、指揮責任</td>
-<td>権限保持、多者承認、停止権限</td>
-<td>権限境界レビュー</td>
-</tr>
-<tr class="even">
-<td>回復不能化</td>
-<td>依存、技能喪失、手動経路の置換、代替手段の削除</td>
-<td>理論上は可能でも実効的な回復が不可能になること</td>
-<td>バックアップ、手動代替、移行経路、回復証拠</td>
-<td>回復経路レビュー</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="routing-questions--振り分け質問">Routing Questions ｜ 振り分け質問</h2>
+<hr/>
+<h2 id="routing-questions">Routing Questions</h2>
 <ol type="1">
-<li><p>What is being optimized?</p></li>
-<li><p>What human capacity is being compressed?</p></li>
-<li><p>What may become irreversible?</p></li>
-<li><p>Who may lose refusal, correction, transition, recovery, or re-entry?</p></li>
-<li><p>When does the loss become practically irreversible?</p></li>
-<li><p>Who is responsible for friction design?</p></li>
-<li><p>Who operates the friction?</p></li>
-<li><p>Who preserves evidence before voice or position is lost?</p></li>
-<li><p>Who verifies effectiveness?</p></li>
-<li><p>Can the mechanism be bypassed?</p></li>
-<li><p>何が最適化されているか。</p></li>
-<li><p>どの人間能力が圧縮されているか。</p></li>
-<li><p>何が不可逆化しうるか。</p></li>
-<li><p>誰が拒否・修正・移行・回復・再参入を失いうるか。</p></li>
-<li><p>その喪失はいつ実質的に不可逆化するか。</p></li>
-<li><p>誰が摩擦設計責任を持つか。</p></li>
-<li><p>誰が摩擦を運用するか。</p></li>
-<li><p>声または地位が失われる前に、誰が証拠を保存するか。</p></li>
-<li><p>誰が実効性を検証するか。</p></li>
-<li><p>その仕組みは迂回可能か。</p></li>
+<li>What is being optimized?</li>
+<li>What human capacity is being compressed?</li>
+<li>What may become irreversible?</li>
+<li>Who may lose refusal, correction, transition, recovery, or
+re-entry?</li>
+<li>When does the loss become practically irreversible?</li>
+<li>Who is responsible for friction design?</li>
+<li>Who operates the friction?</li>
+<li>Who preserves evidence before voice or position is lost?</li>
+<li>Who verifies effectiveness?</li>
+<li>Can the mechanism be bypassed?</li>
 </ol>
-<hr />
-<h2 id="proportionality-levels--比例性レベル">Proportionality Levels ｜ 比例性レベル</h2>
+<hr/>
+<h2 id="proportionality-levels">Proportionality Levels</h2>
 <table>
 <thead>
 <tr class="header">
@@ -274,44 +190,15 @@
 </tr>
 <tr class="even">
 <td>Critical</td>
-<td>Wide-scale, infrastructure-level, authority-level, or civilizational boundary risk</td>
-<td>Independent review, public accountability, correction before lock-in</td>
+<td>Wide-scale, infrastructure-level, authority-level, or civilizational
+boundary risk</td>
+<td>Independent review, public accountability, correction before
+lock-in</td>
 </tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr class="header">
-<th>レベル</th>
-<th>条件</th>
-<th>レビュー負担</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>軽度</td>
-<td>可逆的、限定的、任意、回復可能</td>
-<td>最小限の記録と自己確認</td>
-</tr>
-<tr class="even">
-<td>中度</td>
-<td>明確な集団または制度手続きに影響する</td>
-<td>責任割当と証拠記録</td>
-</tr>
-<tr class="odd">
-<td>高度</td>
-<td>拒否・移行・回復・再参入を消滅させうる</td>
-<td>第三者レビューと迂回防止確認</td>
-</tr>
-<tr class="even">
-<td>重大</td>
-<td>広域・インフラ・権限・文明境界リスク</td>
-<td>独立レビュー、公的説明責任、固定化前の是正</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="minimum-output--最小出力">Minimum Output ｜ 最小出力</h2>
+<hr/>
+<h2 id="minimum-output">Minimum Output</h2>
 <p>A routing review should produce the following:</p>
 <ul>
 <li>applicable irreversibility type;</li>
@@ -323,20 +210,9 @@
 <li>anti-bypass concerns;</li>
 <li>proportionality level.</li>
 </ul>
-<p>振り分けレビューは、最低限以下を出力する。</p>
-<ul>
-<li>該当する不可逆化種別。</li>
-<li>影響を受ける人間能力。</li>
-<li>不可逆化前の境界点。</li>
-<li>割り当てられた責任主体。</li>
-<li>固定化前に必要な証拠。</li>
-<li>チェックリスト方向。</li>
-<li>迂回防止上の懸念。</li>
-<li>比例性レベル。</li>
-</ul>
 
     </main>
-    <p class="footer">LUMINA-30 public reference material. / LUMINA-30 公開参照資料。</p>
+    <footer class="footer"><p>HTML is for reader navigation; Markdown remains the source-preservation layer.</p></footer>
   </div>
 </body>
 </html>

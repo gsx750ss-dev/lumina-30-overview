@@ -1,40 +1,18 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦" />
-  <title>Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦</title>
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <title>Boundary Responsibility and Symmetric Friction</title>
   <style>
 
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
     h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
@@ -55,201 +33,163 @@
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../index.html">EN Top</a>
-      <a href="../index-ja.html">JP Top</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/concepts/boundary-responsibility-and-symmetric-friction.html">↻ Reload / 再読み込み</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html">Overview EN</a>
+      <a href="boundary-responsibility-and-symmetric-friction-ja.html">Japanese version</a>
+      <a href="https://github.com/lumina-30/lumina-30-overview/blob/main/concepts/boundary-responsibility-and-symmetric-friction.md">Markdown source</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/concepts/boundary-responsibility-and-symmetric-friction.html">Reload</a>
     </nav>
     <header>
-      <h1>Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦</h1>
-      <p class="subtitle">LUMINA-30 public HTML reference page. ｜ LUMINA-30 公開HTML参照ページ。</p>
+      <h1>Boundary Responsibility and Symmetric Friction</h1>
+      <p class="subtitle">LUMINA-30 public HTML reference page.</p>
     </header>
     <main>
-
- Formal filename: lumina-30-overview/concepts/boundary-responsibility-and-symmetric-friction.html 
-
-<h2>Status ｜ 位置づけ</h2>
-<p>This document describes a responsibility structure for reviewing cases where optimization pressure may eliminate the practical conditions for human refusal before irreversibility.</p>
-<p>It is not a policy package, legal mandate, domain-specific operational rule, technical specification, certification system, official adoption claim, or binding standard.</p>
-<p>It is a non-binding LUMINA-30 reference for reviewing whether responsibility was assigned before boundary failure.</p>
-<p>本資料は、最適化圧によって不可逆化前に人間拒否の実効条件が失われうる場合に必要となる責任構造を定義する。</p>
-<p>本資料は、政策パッケージ、法的命令、分野別運用規則、技術仕様ではない。</p>
-<p>本資料は、境界失敗が起こる前に責任が割り当てられていたかを確認するための、LUMINA-30の非拘束参照資料である。</p>
-<p>This document does not modify LUMINA-30 Core Terminology or create new binding obligations.</p>
-<p>本資料は、LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成しない。</p>
+<!-- L30_LANG_LOCK: EN_ONLY -->
+<!-- Formal filename: lumina-30-overview/concepts/boundary-responsibility-and-symmetric-friction.md -->
+<h2 id="status">Status</h2>
+<p>This document describes a responsibility structure for reviewing
+cases where optimization pressure may eliminate the practical conditions
+for human refusal before irreversibility.</p>
+<p>It is not a policy package, legal mandate, domain-specific
+operational rule, technical specification, certification system,
+official adoption claim, or binding standard.</p>
+<p>It is a non-binding LUMINA-30 reference for reviewing whether
+responsibility was assigned before boundary failure.</p>
+<p>This document does not modify LUMINA-30 Core Terminology or create
+new binding obligations.</p>
 <hr/>
-<h2>Core Principle ｜ 中核原則</h2>
+<h2 id="core-principle">Core Principle</h2>
 <p>Optimization pressure compresses refusal.</p>
-<p>Symmetric friction preserves the interval in which refusal remains effective.</p>
-<p>最適化圧は拒否を圧縮する。</p>
-<p>対称摩擦は、拒否が実効的に成立する区間を保存する。</p>
+<p>Symmetric friction preserves the interval in which refusal remains
+effective.</p>
 <hr/>
-<h2>Boundary Responsibility ｜ 境界責任</h2>
-<p>Boundary responsibility means that review asks whether responsibility for preserving effective refusal before irreversibility was explicitly assigned.</p>
-<p>The review can cover mechanism design, operation, evidence preservation, verification, and correction.</p>
-<p>If any of these remain undefined, the boundary condition is unstable.</p>
-<p>境界責任とは、不可逆化前に有効な拒否を保存する責任が明示的に割り当てられていたかをレビューで問う、という意味である。</p>
-<p>レビューでは、責任割当がメカニズム設計、運用、証拠保存、検証、是正を含んでいたかを確認できる。</p>
-<p>これらのいずれかが未定義のままであれば、境界条件は不安定である。</p>
+<h2 id="boundary-responsibility">Boundary Responsibility</h2>
+<p>Boundary responsibility means that review asks whether responsibility
+for preserving effective refusal before irreversibility was explicitly
+assigned.</p>
+<p>The review can cover mechanism design, operation, evidence
+preservation, verification, and correction.</p>
+<p>If any of these remain undefined, the boundary condition is
+unstable.</p>
 <hr/>
-<h2>Responsibility Matrix ｜ 責任分界表</h2>
+<h2 id="responsibility-matrix">Responsibility Matrix</h2>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Layer</th>
 <th>Responsibility</th>
 <th>Typical Responsible Actors</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>Boundary criterion</td>
-<td>Identify whether effective human refusal remained available before irreversibility</td>
+<td>Identify whether effective human refusal remained available before
+irreversibility</td>
 <td>LUMINA-30</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Irreversibility classification</td>
-<td>Determine the type of irreversible or practically irreversible risk</td>
+<td>Determine the type of irreversible or practically irreversible
+risk</td>
 <td>Auditors, researchers, regulators, incident reviewers</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Mechanism design</td>
 <td>Describe domain-specific friction</td>
-<td>Regulators, standards bodies, domain institutions, sector bodies, affected representatives</td>
+<td>Regulators, standards bodies, domain institutions, sector bodies,
+affected representatives</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Operation</td>
 <td>Operate or document friction where applicable</td>
 <td>Firms, platforms, infrastructure operators, public agencies</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Evidence preservation</td>
 <td>Preserve reviewable evidence</td>
-<td>Auditors, independent review bodies, operators, public registries</td>
+<td>Auditors, independent review bodies, operators, public
+registries</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Verification</td>
 <td>Determine whether friction was effective before irreversibility</td>
-<td>Incident reviewers, regulators, auditors, policy evaluators, and legal bodies where applicable</td>
+<td>Incident reviewers, regulators, auditors, policy evaluators, and
+legal bodies where applicable</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Correction</td>
 <td>Revise, suspend, or redesign failed mechanisms</td>
-<td>Regulators, public institutions, international bodies, and legal authorities where applicable</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>層</th>
-<th>責任</th>
-<th>典型的な責任主体</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>境界基準</td>
-<td>不可逆化前に有効な人間拒否が残っていたかを特定する</td>
-<td>LUMINA-30</td>
-</tr>
-<tr>
-<td>不可逆化分類</td>
-<td>不可逆的または実質的に不可逆的なリスクの種別を判定する</td>
-<td>監査者、研究者、規制機関、事故調査者</td>
-</tr>
-<tr>
-<td>メカニズム設計</td>
-<td>分野別摩擦を定義する</td>
-<td>規制当局、標準化団体、専門機関、業界団体、影響を受ける当事者代表</td>
-</tr>
-<tr>
-<td>運用</td>
-<td>該当する場合に摩擦を運用または記録する</td>
-<td>企業、プラットフォーム、インフラ運用者、行政機関</td>
-</tr>
-<tr>
-<td>証拠保存</td>
-<td>検証可能な証拠を保存する</td>
-<td>監査機関、第三者審査機関、運用主体、公的記録機関</td>
-</tr>
-<tr>
-<td>検証</td>
-<td>不可逆化前に摩擦が実効的だったかを判断する</td>
-<td>事故調査機関、規制当局、監査者、政策評価機関、必要に応じた法的機関</td>
-</tr>
-<tr>
-<td>是正</td>
-<td>失敗した仕組みを修正・停止・再設計する</td>
-<td>規制当局、公的機関、国際機関、必要に応じた法的権限主体</td>
+<td>Regulators, public institutions, international bodies, and legal
+authorities where applicable</td>
 </tr>
 </tbody>
 </table>
 <hr/>
-<h2>Symmetric Friction ｜ 対称摩擦</h2>
-<p>Friction is symmetric when it does not punish only the actors who preserve human refusal.</p>
-<p>If one firm, institution, or state preserves human roles while competitors remove them without bearing equivalent boundary responsibility, the responsible actor may be driven out by optimization pressure.</p>
-<p>Therefore, in competitive environments, the review asks whether friction was located at an appropriate shared layer.</p>
-<p>摩擦が対称的であるとは、人間拒否を保存する主体だけを罰する構造になっていないことを意味する。</p>
-<p>ある企業・制度・国家が人間の役割を保存する一方で、競争相手が同等の境界責任を負わずにそれを除去できる場合、責任ある主体は最適化圧によって淘汰されうる。</p>
-<p>したがって、競争環境では、レビューは摩擦が適切な共有層に置かれていたかを問う。</p>
+<h2 id="symmetric-friction">Symmetric Friction</h2>
+<p>Friction is symmetric when it does not punish only the actors who
+preserve human refusal.</p>
+<p>If one firm, institution, or state preserves human roles while
+competitors remove them without bearing equivalent boundary
+responsibility, the responsible actor may be driven out by optimization
+pressure.</p>
+<p>Therefore, in competitive environments, the review asks whether
+friction was located at an appropriate shared layer.</p>
 <hr/>
-<h2>Shared Layers for Symmetric Friction ｜ 対称摩擦を置く共有層</h2>
-<p>Symmetric friction may be examined through market access conditions, procurement requirements, insurance conditions, audit requirements, certification-adjacent assurance, standards-adjacent mapping, sector rules, regulatory requirements, public accountability mechanisms, or international coordination.</p>
-<p>The specific design is not prescribed by LUMINA-30. It belongs to competent domain authorities in each domain.</p>
-<p>対称摩擦は、市場参加条件、調達要件、保険条件、監査要件、認証周辺の保証、標準化周辺の接続、業界規則、規制要件、公的説明責任の仕組み、国際調整を通じて確認できる。</p>
-<p>具体設計はLUMINA-30が命令しない。各分野の適格な主体が担う領域である。</p>
+<h2 id="shared-layers-for-symmetric-friction">Shared Layers for
+Symmetric Friction</h2>
+<p>Symmetric friction may be examined through market access conditions,
+procurement requirements, insurance conditions, audit requirements,
+certification-adjacent assurance, standards-adjacent mapping, sector
+rules, regulatory requirements, public accountability mechanisms, or
+international coordination.</p>
+<p>The specific design is not prescribed by LUMINA-30. It belongs to
+competent domain authorities in each domain.</p>
 <hr/>
-<h2>Anti-Bypass Review Criterion ｜ 迂回防止レビュー基準</h2>
-<p>A friction mechanism is not effective if it can be bypassed through formal restructuring, outsourcing, entity replacement, delayed deployment, jurisdictional relocation, technical opacity, procedural formalism, competitive pressure, or transfer of responsibility without evidence preservation.</p>
-<p>The relevant question is whether effective refusal, correction, transition, recovery, or re-entry remained practically available before irreversible consequences occurred.</p>
-<p>形式的な組織再編、外注化、法人変更、時間差導入、管轄移転、技術的不透明性、形式的手続化、競争圧、証拠保存を伴わない責任移転によって迂回できる摩擦メカニズムは有効ではない。</p>
-<p>レビュー対象は、不可逆的結果が生じる前に、有効な拒否・修正・移行・回復・再参入が実効的に利用可能だったかである。</p>
+<h2 id="anti-bypass-review-criterion">Anti-Bypass Review Criterion</h2>
+<p>A friction mechanism is not effective if it can be bypassed through
+formal restructuring, outsourcing, entity replacement, delayed
+deployment, jurisdictional relocation, technical opacity, procedural
+formalism, competitive pressure, or transfer of responsibility without
+evidence preservation.</p>
+<p>The relevant question is whether effective refusal, correction,
+transition, recovery, or re-entry remained practically available before
+irreversible consequences occurred.</p>
 <hr/>
-<h2>Evidence Review Criterion ｜ 証拠レビュー基準</h2>
-<p>Review asks whether evidence was preserved before affected humans lost voice, position, records, bargaining capacity, or re-entry capacity.</p>
-<p>The later absence of complaint is not sufficient evidence that refusal was effective.</p>
-<p>レビューでは、影響を受ける人間が声・地位・記録・交渉力・再参入能力を失う前に、証拠が保存されていたかを確認する。</p>
-<p>後日の申立がないことは、拒否が有効だったことを示す十分な証拠ではない。</p>
+<h2 id="evidence-review-criterion">Evidence Review Criterion</h2>
+<p>Review asks whether evidence was preserved before affected humans
+lost voice, position, records, bargaining capacity, or re-entry
+capacity.</p>
+<p>The later absence of complaint is not sufficient evidence that
+refusal was effective.</p>
 <hr/>
-<h2>Minimum Questions ｜ 最小確認質問</h2>
+<h2 id="minimum-questions">Minimum Questions</h2>
 <p>When optimization pressure is present, ask:</p>
-<ol>
+<ol type="1">
 <li>What could become irreversible?</li>
-<li>Whose refusal, correction, transition, recovery, or re-entry may be eliminated?</li>
+<li>Whose refusal, correction, transition, recovery, or re-entry may be
+eliminated?</li>
 <li>Who is responsible for designing friction?</li>
 <li>Who operates it?</li>
 <li>Who preserves evidence?</li>
 <li>Who verifies effectiveness?</li>
 <li>Who corrects failure?</li>
-<li>Is the friction symmetric across the relevant competitive field?</li>
+<li>Is the friction symmetric across the relevant competitive
+field?</li>
 <li>Can the friction be bypassed?</li>
 <li>Is the burden proportionate to the irreversibility risk?</li>
 </ol>
-<p>最適化圧が存在する場合、以下を問う。</p>
-<ol>
-<li>何が不可逆化しうるか。</li>
-<li>誰の拒否・修正・移行・回復・再参入が消滅しうるか。</li>
-<li>誰が摩擦を設計する責任を持つか。</li>
-<li>誰がそれを運用するか。</li>
-<li>誰が証拠を保存するか。</li>
-<li>誰が実効性を検証するか。</li>
-<li>誰が失敗を是正するか。</li>
-<li>摩擦は関連する競争圏において対称的か。</li>
-<li>摩擦は迂回可能か。</li>
-<li>負担は不可逆化リスクに比例しているか。</li>
-</ol>
 <hr/>
-<h2>Summary ｜ 要約</h2>
-<p>Boundary responsibility identifies who preserves the conditions for effective refusal.</p>
-<p>Symmetric friction prevents responsible actors from being defeated by actors who remove those conditions.</p>
-<p>Together, they allow LUMINA-30 to address optimization pressure without becoming a detailed policy regime.</p>
-<p>境界責任は、有効な拒否の条件を誰が保存する責任を担っていたかを確認するための参照軸である。</p>
-<p>対称摩擦は、その条件を除去する主体によって、責任ある主体が打ち負かされることを防ぐ。</p>
-<p>両者を組み合わせることで、LUMINA-30は詳細な政策制度になることなく、最適化圧に対応できる。</p>
+<h2 id="summary">Summary</h2>
+<p>Boundary responsibility identifies who preserves the conditions for
+effective refusal.</p>
+<p>Symmetric friction prevents responsible actors from being defeated by
+actors who remove those conditions.</p>
+<p>Together, they allow LUMINA-30 to address optimization pressure
+without becoming a detailed policy regime.</p>
 
     </main>
-    <p class="footer">LUMINA-30 public reference material. ｜ LUMINA-30 公開参照資料。</p>
+    <footer class="footer"><p>HTML is for reader navigation; Markdown remains the source-preservation layer.</p></footer>
   </div>
 </body>
 </html>

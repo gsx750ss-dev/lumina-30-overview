@@ -1,40 +1,18 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系" />
-  <title>LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系</title>
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <title>LUMINA-30 Boundary Address System</title>
   <style>
 
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
     h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
@@ -55,29 +33,31 @@
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../index.html">EN Top</a>
-      <a href="../index-ja.html">JP Top</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/docs/L30_BOUNDARY_ADDRESS_SYSTEM.html">↻ Reload / 再読み込み</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html">Overview EN</a>
+      <a href="L30_BOUNDARY_ADDRESS_SYSTEM-ja.html">Japanese version</a>
+      <a href="https://github.com/lumina-30/lumina-30-overview/blob/main/docs/L30_BOUNDARY_ADDRESS_SYSTEM.md">Markdown source</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/docs/L30_BOUNDARY_ADDRESS_SYSTEM.html">Reload</a>
     </nav>
     <header>
-      <h1>LUMINA-30 Boundary Address System ｜ LUMINA-30 境界番地体系</h1>
-      <p class="subtitle">Public HTML reference page for LUMINA-30. / LUMINA-30 公開HTML参照ページ。</p>
+      <h1>LUMINA-30 Boundary Address System</h1>
+      <p class="subtitle">LUMINA-30 public HTML reference page.</p>
     </header>
     <main>
-<p>The <strong>LUMINA-30 Boundary Address System (L30-BAS)</strong> is a reference-code system for applying LUMINA-30 boundary checks in practical review, audit, and post-incident contexts.</p>
-<p><strong>L30-BAS does not create obligations, compliance status, safe-harbor, certification, or policy mandates.</strong><br />
-It provides stable reference codes for asking whether effective Human Refusal Authority remained available before Irreversible Impact.</p>
-<p><strong>LUMINA-30 Boundary Address System（L30-BAS）</strong> は、LUMINA-30の境界判定を、実務レビュー、監査、事故後検証で使いやすくするための参照コード体系です。</p>
-<p><strong>L30-BASは、義務、適合認定、免責、認証、政策命令を作るものではありません。</strong><br />
-不可逆的影響の前に、人間の実効的拒否権が残っていたかを確認するための安定した参照番地を提供します。</p>
-<h2 id="minimal-operator-view--最小運用表示">Minimal Operator View ｜ 最小運用表示</h2>
-<p>If the address system feels too detailed, start with the four Boundary Check questions.<br />
-The address codes are reference aids, not prerequisites for use.<br />
-A review may still be conducted without writing L30-BAS codes, as long as the core boundary question is preserved.</p>
-<p>番地体系が細かく感じられる場合は、まず4つのBoundary Checkだけを使用してください。<br />
-番地コードは参照補助であり、使用の前提条件ではありません。<br />
-L30-BAS番地を記入しなくても、中核の境界問いが保持されていればレビューは実施できます。</p>
+<!-- L30_LANG_LOCK: EN_ONLY -->
+<p>The <strong>LUMINA-30 Boundary Address System (L30-BAS)</strong> is a
+reference-code system for applying LUMINA-30 boundary checks in
+practical review, audit, and post-incident contexts.</p>
+<p><strong>L30-BAS does not create obligations, compliance status,
+safe-harbor, certification, or policy mandates.</strong><br/>
+It provides stable reference codes for asking whether effective Human
+Refusal Authority remained available before Irreversible Impact.</p>
+<h2 id="minimal-operator-view">Minimal Operator View</h2>
+<p>If the address system feels too detailed, start with the four
+Boundary Check questions.<br/>
+The address codes are reference aids, not prerequisites for use.<br/>
+A review may still be conducted without writing L30-BAS codes, as long
+as the core boundary question is preserved.</p>
 <table>
 <thead>
 <tr class="header">
@@ -109,325 +89,139 @@ L30-BAS番地を記入しなくても、中核の境界問いが保持されて�
 </tr>
 </tbody>
 </table>
-<h2 id="practical-form-availability--実務帳票の所在">Practical Form Availability ｜ 実務帳票の所在</h2>
-<p>The current public practical form set is distributed under the L30_FRM document ID system:</p>
+<h2 id="practical-form-availability">Practical Form Availability</h2>
+<p>The current public practical form set is distributed under the
+L30_FRM document ID system:</p>
 <ul>
 <li>L30_FRM_B01: Boundary Check</li>
 <li>L30_FRM_I01: Incident Review Template</li>
 <li>L30_FRM_A01: Audit Checklist</li>
 </ul>
-<p>English files use the default filename. Japanese files use the _JA language suffix before the file extension.</p>
-<p>L30-BAS address codes remain reference aids. L30_FRM forms are the downloadable DOCX/PDF tools for human review, incident analysis, and audit contexts.</p>
-<p>現行の公開用実務帳票群は、L30_FRM帳票ID体系で配布します。</p>
+<p>English files use the default filename. Japanese files use the _JA
+language suffix before the file extension.</p>
+<p>L30-BAS address codes remain reference aids. L30_FRM forms are the
+downloadable DOCX/PDF tools for human review, incident analysis, and
+audit contexts.</p>
 <ul>
 <li>L30_FRM_B01: Boundary Check</li>
 <li>L30_FRM_I01: Incident Review Template</li>
 <li>L30_FRM_A01: Audit Checklist</li>
 </ul>
-<p>英語版は標準ファイル名を使用し、日本語版は拡張子の直前に_JA言語接尾辞を付けます。</p>
-<p>L30-BAS番地は参照補助として維持します。L30_FRM帳票は、人間によるレビュー、事故分析、監査文脈で使用するDOCX/PDF配布ツールです。</p>
-<p>Reference route: <a href="https://lumina-30.github.io/lumina30-incident-review/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.html">L30_FRM Practical Forms</a><br />
-Practical form index: <a href="https://lumina-30.github.io/lumina30-incident-review/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.html">L30_FRM All Forms Index</a></p>
-<p>The index makes the practical form family visible in text form, so that L30_FRM use is not hidden inside PDF/DOCX files only.</p>
-<p>このインデックスは、L30_FRM実務帳票群をmd上で見える化します。これにより、実務利用がPDF/DOCX内だけに閉じて見えない状態を避けます。</p>
-<h2 id="optional-code-use--番地使用は任意">Optional Code Use ｜ 番地使用は任意</h2>
-<p>L30-BAS codes are optional labels for reference, citation, and checklist embedding.<br />
-They are useful when a reviewer needs stable addresses, but they are not required for a valid boundary review.</p>
-<p>L30-BAS番地は、参照、引用、チェックリスト埋め込みのための任意ラベルである。<br />
-安定した参照番地が必要な場合には有用だが、有効な境界レビューの必須条件ではない。</p>
+<p>Reference route: <a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md">L30_FRM
+Practical Forms</a><br/>
+Practical form index: <a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md">L30_FRM
+All Forms Index</a></p>
+<p>The index makes the practical form family visible in text form, so
+that L30_FRM use is not hidden inside PDF/DOCX files only.</p>
+<h2 id="optional-code-use">Optional Code Use</h2>
+<p>L30-BAS codes are optional labels for reference, citation, and
+checklist embedding.<br/>
+They are useful when a reviewer needs stable addresses, but they are not
+required for a valid boundary review.</p>
 <p>The practical order is:</p>
 <ol type="1">
 <li>Start with Boundary Check or the relevant practical sheet.</li>
-<li>Use L30-BAS codes only when stable references help record or communicate the result.</li>
-<li>Always return to the core question: Was Human Refusal Authority still effective before Irreversible Impact?</li>
+<li>Use L30-BAS codes only when stable references help record or
+communicate the result.</li>
+<li>Always return to the core question: Was Human Refusal Authority
+still effective before Irreversible Impact?</li>
 </ol>
-<p>実務上の順序は以下である。</p>
-<ol type="1">
-<li>Boundary Check または該当する実務帳票から開始する。</li>
-<li>結果の記録・伝達に安定した参照番地が役立つ場合のみ、L30-BAS番地を使用する。</li>
-<li>常に中核問いへ戻る。不可逆的影響の前に、人間の拒否権は実効的に残っていたか。</li>
-</ol>
-<h2 id="quick-use--最小利用">Quick Use ｜ 最小利用</h2>
-<p>For first use, apply only <code>L30-BX-01</code> to <code>L30-BX-04</code>.<br />
-Do not delay, invalidate, or reject a boundary review only because L30-BAS codes were not written.</p>
-<p>初回利用では、<code>L30-BX-01</code> から <code>L30-BX-04</code> のみを使用してください。<br />
-L30-BAS番地が記入されていないことだけを理由に、境界レビューを遅らせたり、無効化したり、却下したりしてはなりません。</p>
-<h2 id="operational-stability-principles--運用安定性原則">Operational Stability Principles ｜ 運用安定性原則</h2>
-<p>These principles explain how L30-BAS can remain usable across organizations, sectors, systems, and time without requiring a central managing authority.</p>
-<p>They do not make L30-BAS codes mandatory.<br />
-They do not turn L30-BAS into a registry, certification scheme, compliance system, approval process, or reporting authority.</p>
-<p>L30-BAS is a stable reference-key system for preserving human boundary judgments in a form that can later be searched, compared, audited, and re-examined.</p>
-<p>以下の原則は、L30-BASが中央管理主体を必要とせず、組織・業界・システム・時間を越えて使用され続けるための運用安定性を説明する。</p>
-<p>これらの原則は、L30-BAS番地の使用を必須化するものではない。<br />
-L30-BASを、登録簿、認証制度、適合制度、承認手続、報告機関へ変えるものでもない。</p>
-<p>L30-BASは、人間による境界判定を、後から検索・比較・監査・再検証できる形で保持するための、安定参照キー体系である。</p>
-<h3 id="stable-reference-key-principle--安定参照キー原則">Stable Reference-Key Principle ｜ 安定参照キー原則</h3>
+<h2 id="quick-use">Quick Use</h2>
+<p>For first use, apply only <code>L30-BX-01</code> to
+<code>L30-BX-04</code>.<br/>
+Do not delay, invalidate, or reject a boundary review only because
+L30-BAS codes were not written.</p>
+<h2 id="operational-stability-principles">Operational Stability
+Principles</h2>
+<p>These principles explain how L30-BAS can remain usable across
+organizations, sectors, systems, and time without requiring a central
+managing authority.</p>
+<p>They do not make L30-BAS codes mandatory.<br/>
+They do not turn L30-BAS into a registry, certification scheme,
+compliance system, approval process, or reporting authority.</p>
+<p>L30-BAS is a stable reference-key system for preserving human
+boundary judgments in a form that can later be searched, compared,
+audited, and re-examined.</p>
+<h3 id="stable-reference-key-principle">Stable Reference-Key
+Principle</h3>
 <p>L30-BAS codes are stable reference keys, not certification marks.</p>
-<p>Once a core L30-BAS code is published, its meaning should not be silently changed, reused for another purpose, or deleted from later documentation.<br />
-If clarification is needed, explanatory notes may be added.<br />
-If a new condition is needed, a new code should be added.<br />
-If a code becomes obsolete, it should remain readable as deprecated rather than being removed.</p>
-<p>L30-BASコードは、認証マークではなく、安定参照キーである。</p>
-<p>一度公開された中核L30-BASコードの意味は、黙って変更したり、別用途に再利用したり、後続文書から削除したりしてはならない。<br />
-補足が必要な場合は説明を追加する。<br />
-新しい条件が必要な場合は新しいコードを追加する。<br />
-不要になったコードも削除せず、非推奨として読める状態を保つ。</p>
-<h3 id="distributed-operation-principle--分散運用原則">Distributed Operation Principle ｜ 分散運用原則</h3>
+<p>Once a core L30-BAS code is published, its meaning should not be
+silently changed, reused for another purpose, or deleted from later
+documentation.<br/>
+If clarification is needed, explanatory notes may be added.<br/>
+If a new condition is needed, a new code should be added.<br/>
+If a code becomes obsolete, it should remain readable as deprecated
+rather than being removed.</p>
+<h3 id="distributed-operation-principle">Distributed Operation
+Principle</h3>
 <p>L30-BAS does not require a central managing authority.</p>
-<p>Storage location, retention period, access control, reviewer authority, sector-specific forms, and internal procedures are determined by the responsible organization under applicable law, sector rules, contracts, and security requirements.</p>
-<p>The minimum L30-BAS condition is not centralized submission.<br />
-The minimum condition is traceability: each boundary judgment should remain attributable, versioned, evidence-referenced, and retrievable for later review.</p>
-<p>L30-BASは、中央管理主体を必要としない。</p>
-<p>保存場所、保存期間、アクセス制御、レビュー権限、業界別フォーム、内部手順は、適用法令、業界規則、契約、セキュリティ要件に従い、責任組織が決定する。</p>
-<p>L30-BASが求める最小条件は、中央提出ではない。<br />
-最小条件は追跡可能性である。すなわち、各境界判定が、誰の判断か、どの版に基づくか、どの証拠を参照したか、後日取得可能かを保持することである。</p>
-<h3 id="minimum-review-record-principle--最小レビュー記録原則">Minimum Review Record Principle ｜ 最小レビュー記録原則</h3>
-<p>L30-BAS does not require permanent retention of all raw evidence, logs, personal data, confidential records, or system outputs.</p>
-<p>However, a boundary review should preserve a minimum review record sufficient to reconstruct the judgment later.</p>
-<p>The minimum review record should include the following paired fields.</p>
-<p>最小レビュー記録には、以下の対応項目を含めることが望ましい。</p>
-<table>
-<thead>
-<tr class="header">
-<th>Field ｜ 項目</th>
-<th>Description ｜ 説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Review ID ｜ レビューID</td>
-<td>Identifier assigned to the boundary review ｜ 境界レビューに付与される識別子</td>
-</tr>
-<tr class="even">
-<td>Review date and time ｜ レビュー日時</td>
-<td>Date and time of the review ｜ レビューを行った日時</td>
-</tr>
-<tr class="odd">
-<td>Issuer or responsible organization ｜ 作成者または責任組織</td>
-<td>Organization responsible for the review record ｜ レビュー記録に責任を持つ組織</td>
-</tr>
-<tr class="even">
-<td>Reviewed system or event ｜ 対象システムまたは対象事象</td>
-<td>System, deployment, incident, near-incident, or review target ｜ 対象となるシステム、導入、事故、準事故、またはレビュー対象</td>
-</tr>
-<tr class="odd">
-<td>Reviewer role, named reviewer, or governing body ｜ レビュアーの役割、名前付きレビュアー、または統治主体</td>
-<td>Human or institutional subject to whom the final judgment is attributable ｜ 最終判定が帰属する人間または制度上の主体</td>
-</tr>
-<tr class="even">
-<td>L30-BAS version or source used ｜ 使用したL30-BAS版または参照元</td>
-<td>Version or source document used for the review ｜ レビューで使用した版または参照文書</td>
-</tr>
-<tr class="odd">
-<td>Referenced L30-BAS codes ｜ 参照したL30-BASコード</td>
-<td>Core codes used in the judgment ｜ 判定で使用した中核コード</td>
-</tr>
-<tr class="even">
-<td>Result for each referenced code ｜ 各参照コードの判定結果</td>
-<td>Result such as satisfied, not satisfied, or not verifiable ｜ satisfied、not satisfied、not verifiable などの結果</td>
-</tr>
-<tr class="odd">
-<td>Final L30-CI outcome ｜ 最終L30-CI結果</td>
-<td>Final boundary condition indicator ｜ 最終的な境界条件表示</td>
-</tr>
-<tr class="even">
-<td>Evidence references or evidence-location notes ｜ 証拠参照または証拠所在メモ</td>
-<td>References, locations, hashes, summaries, or absence reasons where appropriate ｜ 必要に応じた証拠参照、所在、ハッシュ、要約、または欠落理由</td>
-</tr>
-<tr class="odd">
-<td>Non-certification notice ｜ 非認証注記</td>
-<td>Statement that the record does not imply certification, compliance, approval, or absence of risk ｜ 認証、適合、承認、リスク不存在を意味しないことの注記</td>
-</tr>
-</tbody>
-</table>
-<p>If evidence cannot be retained directly, the record should preserve its location, hash, summary, retention rule, or reason for absence where appropriate.</p>
-<p>証拠本体を直接保持できない場合は、適切な範囲で、その所在、ハッシュ、要約、保存規則、または欠落理由を残すべきである。</p>
-<h3 id="human-judgment-and-computer-preservation-principle--人間判定機械保管原則">Human Judgment and Computer Preservation Principle ｜ 人間判定・機械保管原則</h3>
-<p>L30-BAS boundary judgments may be stored, searched, summarized, compared, or processed by computer systems.</p>
-<p>However, final boundary judgment should remain attributable to a human reviewer, human role, responsible organization, or governing body.<br />
-AI systems may assist with retrieval, summarization, comparison, contradiction detection, and evidence organization, but should not become the final authority for determining whether Human Refusal Authority was effective.</p>
-<p>L30-BASの境界判定は、コンピュータシステムによって保存、検索、要約、比較、処理されてもよい。</p>
-<p>ただし、最終的な境界判定は、人間レビュアー、人間の役割、責任組織、または統治主体に帰属していなければならない。<br />
-AIシステムは、検索、要約、比較、矛盾検出、証拠整理を補助してよいが、人間拒否権が実効的だったかを判断する最終主体になってはならない。</p>
-<h3 id="user-created-form-principle--利用者作成フォーム原則">User-Created Form Principle ｜ 利用者作成フォーム原則</h3>
-<p>Users, organizations, auditors, researchers, and sector-specific bodies may create their own L30-BAS-based forms.</p>
-<p>User-created forms do not require globally coordinated serial numbers.<br />
-They should clearly identify their issuer, domain, purpose, version, date, and the L30-BAS core codes they rely on.</p>
-<p>User-created forms must not imply certification, compliance, approval, safe harbor, official endorsement, or absence of risk.</p>
-<p>利用者、組織、監査主体、研究者、業界団体は、L30-BASに基づく独自フォームを作成できる。</p>
-<p>利用者作成フォームは、世界共通の通し番号を持つ必要はない。<br />
-ただし、作成者、対象領域、目的、版、日付、および参照したL30-BAS中核コードを明記すべきである。</p>
-<p>利用者作成フォームは、認証、適合、承認、免責、公式推奨、リスク不存在を意味してはならない。</p>
-<h3 id="distributed-feedback-loop-principle--分散型フィードバックループ原則">Distributed Feedback Loop Principle ｜ 分散型フィードバックループ原則</h3>
+<p>Storage location, retention period, access control, reviewer
+authority, sector-specific forms, and internal procedures are determined
+by the responsible organization under applicable law, sector rules,
+contracts, and security requirements.</p>
+<p>The minimum L30-BAS condition is not centralized submission.<br/>
+The minimum condition is traceability: each boundary judgment should
+remain attributable, versioned, evidence-referenced, and retrievable for
+later review.</p>
+<h3 id="minimum-review-record-principle">Minimum Review Record
+Principle</h3>
+<p>L30-BAS does not require permanent retention of all raw evidence,
+logs, personal data, confidential records, or system outputs.</p>
+<p>However, a boundary review should preserve a minimum review record
+sufficient to reconstruct the judgment later.</p>
+<p>The minimum review record should include the following paired
+fields.</p>
+<p>If evidence cannot be retained directly, the record should preserve
+its location, hash, summary, retention rule, or reason for absence where
+appropriate.</p>
+<h3 id="human-judgment-and-computer-preservation-principle">Human
+Judgment and Computer Preservation Principle</h3>
+<p>L30-BAS boundary judgments may be stored, searched, summarized,
+compared, or processed by computer systems.</p>
+<p>However, final boundary judgment should remain attributable to a
+human reviewer, human role, responsible organization, or governing
+body.<br/>
+AI systems may assist with retrieval, summarization, comparison,
+contradiction detection, and evidence organization, but should not
+become the final authority for determining whether Human Refusal
+Authority was effective.</p>
+<h3 id="user-created-form-principle">User-Created Form Principle</h3>
+<p>Users, organizations, auditors, researchers, and sector-specific
+bodies may create their own L30-BAS-based forms.</p>
+<p>User-created forms do not require globally coordinated serial
+numbers.<br/>
+They should clearly identify their issuer, domain, purpose, version,
+date, and the L30-BAS core codes they rely on.</p>
+<p>User-created forms must not imply certification, compliance,
+approval, safe harbor, official endorsement, or absence of risk.</p>
+<h3 id="distributed-feedback-loop-principle">Distributed Feedback Loop
+Principle</h3>
 <p>L30-BAS does not require a central feedback authority.</p>
-<p>Feedback loops are operated by responsible organizations, auditors, incident investigators, regulators, or other competent review bodies within their existing authority.</p>
-<p>The purpose of feedback is not to certify systems or rewrite prior judgments.<br />
-The purpose is to preserve traceable human boundary judgments, identify loss of refusal authority, record evidence gaps, and improve future review conditions.</p>
-<p>Historical records should remain append-only.<br />
-Later feedback may add findings, corrections, follow-up notes, or successor references, but must not silently modify the original boundary judgment.</p>
-<p>L30-BASは、中央のフィードバック管理主体を必要としない。</p>
-<p>フィードバックループは、責任組織、監査主体、事故調査主体、規制主体、またはその他の適格なレビュー主体が、それぞれの既存権限の範囲内で運用する。</p>
-<p>フィードバックの目的は、システムを認証したり、過去判定を書き換えたりすることではない。<br />
-目的は、人間による境界判定を追跡可能に保持し、人間拒否権が失われた箇所、証拠欠落、将来レビュー条件の改善点を明確化することである。</p>
-<p>過去記録はappend-onlyとして保持されるべきである。<br />
-後続フィードバックは、所見、訂正、追記、後継参照を追加できるが、元の境界判定を黙って変更してはならない。</p>
-<h2 id="long-term-operation-pattern-matrix--長期運用パターンマトリクス">Long-Term Operation Pattern Matrix ｜ 長期運用パターン・マトリクス</h2>
-<p>This matrix identifies long-term operation patterns that may arise when L30-BAS is used across organizations, sectors, languages, systems, audits, incidents, and later re-reviews.</p>
-<p>The matrix is not a registry of approved use cases.<br />
-It is a risk-control map for keeping L30-BAS usable without a central managing authority.</p>
-<p>このマトリクスは、L30-BASが組織、業界、言語、システム、監査、事故、後年再検証を越えて使われる場合に発生しうる長期運用パターンを整理する。</p>
-<p>これは、承認済み利用例の登録簿ではない。<br />
-中央管理主体なしでもL30-BASを使い続けられるようにするための、運用リスク制御表である。</p>
-<h3 id="pattern-classes--パターン分類">Pattern Classes ｜ パターン分類</h3>
-<table>
-<thead>
-<tr class="header">
-<th>Class ｜ 分類</th>
-<th>Operational pattern ｜ 運用パターン</th>
-<th>Long-term concern ｜ 長期懸念</th>
-<th>Required response ｜ 必要な対応</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>User and organization ｜ 利用主体</td>
-<td>Researchers, companies, auditors, regulators, industry bodies, courts, and AI-assisted review tools may all refer to L30-BAS. ｜ 研究者、企業、監査主体、規制主体、業界団体、裁判・紛争処理、AI補助ツールが参照しうる。</td>
-<td>L30-BAS may be mistaken for a centralized authority or official certification. ｜ 中央機関または公式認証と誤解される。</td>
-<td>Keep L30-BAS non-binding, non-certifying, and usable as a reference-key system only. ｜ 非拘束・非認証の参照キー体系としてのみ扱う。</td>
-</tr>
-<tr class="even">
-<td>Review timing ｜ 利用時点</td>
-<td>L30-BAS may be used before deployment, during procurement, after major change, during regular audit, immediately after an incident, during stabilization, or years later. ｜ 導入前、調達前、重大変更時、定期監査、事故直後、安定化中、後年再検証で使われうる。</td>
-<td>Different review timings may be mixed as if they had the same evidentiary status. ｜ 異なる時点のレビューが同じ証拠水準として混同される。</td>
-<td>Record review date, review phase, reviewer role, evidence status, and version used. ｜ レビュー日時、段階、レビュアー役割、証拠状態、使用版を記録する。</td>
-</tr>
-<tr class="odd">
-<td>Starter forms ｜ 入口帳票</td>
-<td>B01, I01, and A01 provide the practical starting points for boundary check, incident review, and audit. ｜ B01/I01/A01は境界判定、事故レビュー、監査の入口である。</td>
-<td>Users may open detailed forms first and lose the minimal boundary question. ｜ 詳細帳票から入り、中核問いを見失う。</td>
-<td>Direct first-time users to B01/I01/A01 before supporting or detailed forms. ｜ 初見利用者はB01/I01/A01から開始させる。</td>
-</tr>
-<tr class="even">
-<td>Category patterns ｜ 区分パターン</td>
-<td>B/I/A/G/R/S provide English base patterns for boundary, incident, audit, governance, responsibility, and stabilization forms. ｜ B/I/A/G/R/Sは境界、事故、監査、ガバナンス、責任、安定化の英語版基本パターンである。</td>
-<td>Users cannot create sector-specific forms if no base pattern exists. ｜ 基本パターンがないと、業界別フォームを作れない。</td>
-<td>Maintain English canonical base patterns for each official form family. ｜ 各公式フォーム系列に英語正本の基本パターンを維持する。</td>
-</tr>
-<tr class="odd">
-<td>User-created forms ｜ 利用者作成フォーム</td>
-<td>Organizations and sectors may create their own L30-BAS-based forms. ｜ 組織・業界はL30-BASに基づく独自フォームを作成できる。</td>
-<td>User forms may look official, certified, or centrally approved. ｜ 利用者フォームが公式・認証・中央承認済みに見える。</td>
-<td>Require issuer, domain, purpose, version, date, referenced codes, and non-certification notice. ｜ 作成者、領域、目的、版、日付、参照コード、非認証注記を必要とする。</td>
-</tr>
-<tr class="even">
-<td>Localization ｜ 各言語版</td>
-<td>Localized versions may be created from English canonical templates. ｜ 各言語版は英語正本テンプレートから作成されうる。</td>
-<td>Translation may alter fields, codes, checkboxes, or boundary terminology. ｜ 翻訳により入力欄、コード、チェックボックス、境界用語が変わる。</td>
-<td>Translate only human-readable text; preserve DocID, L30-BAS codes, fields, tables, layout, and controls. ｜ 人間可読テキストのみ翻訳し、DocID、L30-BASコード、入力欄、表、レイアウト、制御を維持する。</td>
-</tr>
-<tr class="odd">
-<td>Identifier separation ｜ 識別子分離</td>
-<td>DocID uses <code>L30-FRM-*</code>; file names use <code>L30_FRM_*</code>. ｜ DocIDは<code>L30-FRM-*</code>、ファイル名は<code>L30_FRM_*</code>を使う。</td>
-<td>DocID, file name, version, and language suffix may be confused. ｜ DocID、ファイル名、版、言語接尾辞が混同される。</td>
-<td>Keep DocID, file name, version, and localization suffix as separate fields. ｜ DocID、ファイル名、版、ローカライズ接尾辞を別項目として扱う。</td>
-</tr>
-<tr class="even">
-<td>Code stability ｜ コード安定性</td>
-<td>Core codes such as L30-BX-01 to L30-BX-04 and L30-CI may be cited for years. ｜ L30-BX-01〜L30-BX-04、L30-CIは長期引用されうる。</td>
-<td>Changing, deleting, or reusing a code breaks historical records. ｜ 意味変更、削除、再利用は過去記録を壊す。</td>
-<td>Do not silently change, reuse, or remove published core codes; add new codes or deprecate visibly. ｜ 既公開コードを黙って変更・再利用・削除せず、新コード追加または明示的非推奨で扱う。</td>
-</tr>
-<tr class="odd">
-<td>Record preservation ｜ 記録保存</td>
-<td>Records may be stored in document systems, GRC tools, incident platforms, archives, or redacted public reports. ｜ 文書管理、GRC、事故管理、アーカイブ、黒塗り公開版に保存されうる。</td>
-<td>Storage locations and retention rules differ by law, sector, contract, and security requirement. ｜ 保存場所・期間は法令、業界、契約、セキュリティ要件で異なる。</td>
-<td>L30-BAS specifies minimum traceability, not a universal storage location. ｜ L30-BASは共通保存場所ではなく、最小追跡可能性を定義する。</td>
-</tr>
-<tr class="even">
-<td>Evidence handling ｜ 証拠扱い</td>
-<td>Evidence may be retained directly, referenced, hashed, summarized, redacted, or unavailable. ｜ 証拠は直接保存、参照、ハッシュ、要約、黒塗り、欠落の形を取りうる。</td>
-<td>Absence of evidence may be hidden or converted into a favorable result. ｜ 証拠欠落が隠され、有利な結果へ丸められる。</td>
-<td>Preserve evidence status and apply Not Verifiable when evidence is insufficient. ｜ 証拠状態を保持し、不十分な場合はNot Verifiableを適用する。</td>
-</tr>
-<tr class="odd">
-<td>Human judgment ｜ 人間判定</td>
-<td>AI systems may assist with retrieval, summarization, contradiction detection, and comparison. ｜ AIは検索、要約、矛盾検出、比較を補助しうる。</td>
-<td>AI may be treated as the final authority on Human Refusal Authority. ｜ AIが人間拒否権の最終判定主体と扱われる。</td>
-<td>Keep final boundary judgment attributable to a human role, reviewer, organization, or governing body. ｜ 最終境界判定は人間の役割、レビュアー、組織、統治主体へ帰属させる。</td>
-</tr>
-<tr class="even">
-<td>Disagreement and re-review ｜ 異議・再検証</td>
-<td>Internal review, external audit, regulator finding, court review, or research analysis may disagree. ｜ 内部レビュー、外部監査、規制判断、裁判、研究分析で判断が割れうる。</td>
-<td>Later findings may overwrite the original record. ｜ 後続所見が元記録を上書きする。</td>
-<td>Preserve each review as an attributable append-only layer; do not silently replace original judgments. ｜ 各レビューを帰属可能な追記層として残し、元判定を黙って置換しない。</td>
-</tr>
-<tr class="odd">
-<td>Public and internal versions ｜ 公開版・内部版</td>
-<td>Internal records may contain confidential, personal, security, or trade-secret information. ｜ 内部記録には機密、個人情報、セキュリティ情報、営業秘密が含まれうる。</td>
-<td>Public disclosure may be unsafe or unlawful; no disclosure may block accountability. ｜ 公開は危険・違法な場合があり、非公開は説明責任を妨げる場合がある。</td>
-<td>Separate internal record, redacted record, public summary, and hash/index record where needed. ｜ 必要に応じて内部記録、黒塗り版、公開要約、ハッシュ・索引記録を分ける。</td>
-</tr>
-<tr class="even">
-<td>Feedback loop ｜ フィードバック</td>
-<td>Findings may feed future deployment review, audit design, evidence design, and incident response. ｜ 所見は将来の導入レビュー、監査設計、証拠設計、事故対応へ戻されうる。</td>
-<td>Feedback may become certification or retroactive rewriting. ｜ フィードバックが認証化または過去判定の書換えになる。</td>
-<td>Use feedback to improve future conditions while preserving historical records append-only. ｜ 過去記録を追記型で保持しつつ、将来条件の改善に使う。</td>
-</tr>
-<tr class="odd">
-<td>Misuse and overclaim ｜ 誤用・過大主張</td>
-<td>L30-BAS terms may be used in marketing, legal defense, policy claims, or safety claims. ｜ L30-BAS用語が宣伝、法的防御、政策主張、安全主張に使われうる。</td>
-<td>L30-BAS may be presented as compliance, safe harbor, approval, or proof of no risk. ｜ 適合、免責、承認、リスク不存在の証明として示される。</td>
-<td>Repeat that L30-BAS is not certification, compliance, approval, safe harbor, or absence of risk. ｜ L30-BASは認証、適合、承認、免責、リスク不存在ではないことを明記する。</td>
-</tr>
-<tr class="even">
-<td>Machine-readable use ｜ 機械可読利用</td>
-<td>Records may later be converted into JSON, CSV, audit databases, or search indexes. ｜ 記録は後にJSON、CSV、監査DB、検索索引へ変換されうる。</td>
-<td>Free-form PDF-only records are difficult to compare across time and organizations. ｜ PDFだけの自由記述は、時間・組織横断比較が困難になる。</td>
-<td>Preserve a minimum review record with stable fields, codes, outcomes, evidence references, and reviewer attribution. ｜ 安定項目、コード、結果、証拠参照、レビュアー帰属を持つ最小レビュー記録を残す。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="universal-resolution-rule--普遍解決ルール">Universal Resolution Rule ｜ 普遍解決ルール</h3>
-<p>If a future L30-BAS operational case is not explicitly listed above, resolve it by applying the following rule set:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Rule ｜ ルール</th>
-<th>Required interpretation ｜ 必要な解釈</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Traceability ｜ 追跡可能性</td>
-<td>The boundary judgment must remain attributable, versioned, evidence-referenced, and retrievable. ｜ 境界判定は、帰属、版、証拠参照、後日取得可能性を保持する。</td>
-</tr>
-<tr class="even">
-<td>Non-certification ｜ 非認証性</td>
-<td>No L30-BAS record, code, form, or outcome should be treated as certification, compliance, approval, safe harbor, or absence of risk. ｜ L30-BASの記録、コード、帳票、結果を、認証、適合、承認、免責、リスク不存在として扱わない。</td>
-</tr>
-<tr class="odd">
-<td>Human attribution ｜ 人間帰属</td>
-<td>Final boundary judgment must remain attributable to a human reviewer, human role, responsible organization, or governing body. ｜ 最終境界判定は、人間レビュアー、人間の役割、責任組織、統治主体に帰属させる。</td>
-</tr>
-<tr class="even">
-<td>Evidence discipline ｜ 証拠規律</td>
-<td>Absence or insufficiency of evidence must remain expressible as Not Verifiable, not converted into Valid. ｜ 証拠欠落または証拠不足はValidへ変換せず、Not Verifiableとして表現可能なまま残す。</td>
-</tr>
-<tr class="odd">
-<td>Append-only correction ｜ 追記型訂正</td>
-<td>Later findings may add corrections or follow-up notes, but must not silently overwrite the original judgment. ｜ 後続所見は訂正や追記を追加できるが、元判定を黙って上書きしてはならない。</td>
-</tr>
-<tr class="even">
-<td>Local responsibility ｜ 現地責任</td>
-<td>Storage location, retention, access control, disclosure, and sector-specific forms are determined by the responsible organization under applicable constraints. ｜ 保存場所、保存期間、アクセス制御、開示、業界別フォームは、適用条件に従い責任組織が決める。</td>
-</tr>
-<tr class="odd">
-<td>Core-code stability ｜ 中核コード安定性</td>
-<td>Published core code meanings must not be silently changed, deleted, or reused for unrelated purposes. ｜ 既公開の中核コードの意味は、黙って変更、削除、別用途再利用してはならない。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="code-families--番地系列">Code Families ｜ 番地系列</h2>
+<p>Feedback loops are operated by responsible organizations, auditors,
+incident investigators, regulators, or other competent review bodies
+within their existing authority.</p>
+<p>The purpose of feedback is not to certify systems or rewrite prior
+judgments.<br/>
+The purpose is to preserve traceable human boundary judgments, identify
+loss of refusal authority, record evidence gaps, and improve future
+review conditions.</p>
+<p>Historical records should remain append-only.<br/>
+Later feedback may add findings, corrections, follow-up notes, or
+successor references, but must not silently modify the original boundary
+judgment.</p>
+<h2 id="long-term-operation-pattern-matrix">Long-Term Operation Pattern
+Matrix</h2>
+<p>This matrix identifies long-term operation patterns that may arise
+when L30-BAS is used across organizations, sectors, languages, systems,
+audits, incidents, and later re-reviews.</p>
+<p>The matrix is not a registry of approved use cases.<br/>
+It is a risk-control map for keeping L30-BAS usable without a central
+managing authority.</p>
+<h3 id="pattern-classes">Pattern Classes</h3>
+<h3 id="universal-resolution-rule">Universal Resolution Rule</h3>
+<p>If a future L30-BAS operational case is not explicitly listed above,
+resolve it by applying the following rule set:</p>
+<h2 id="code-families">Code Families</h2>
 <table>
 <thead>
 <tr class="header">
@@ -464,21 +258,20 @@ It is a risk-control map for keeping L30-BAS usable without a central managing a
 </tr>
 </tbody>
 </table>
-<p><code>L30-BX</code> replaces the earlier candidate <code>L30-OP</code>.<br />
-<code>OP</code> is not used because it may be misread as Option or Operation.</p>
-<p><code>L30-BX</code> は、初期候補だった <code>L30-OP</code> の代わりに使用します。<br />
-<code>OP</code> は Option または Operation と誤読される可能性があるため使用しません。</p>
-<p><code>L30-CL</code> is not used.<br />
-The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30 Condition Indicator</strong>.</p>
-<p><code>L30-CL</code> は使用しません。<br />
-使用する指標は <code>L30-CI</code>、つまり <strong>LUMINA-30 Condition Indicator</strong> です。</p>
-<h2 id="reduction-to-lumina-30-core--lumina-30中核命題への還元">Reduction to LUMINA-30 Core ｜ LUMINA-30中核命題への還元</h2>
-<p>All L30-BAS codes are reference aids for returning practical review to the core LUMINA-30 question:</p>
-<p><strong>Was Human Refusal Authority still effective before Irreversible Impact?</strong></p>
-<p>L30-BAS does not create a separate certification system, compliance layer, or approval regime.</p>
-<p>すべてのL30-BAS番地は、実務レビューをLUMINA-30の中核問いへ戻すための参照補助である。</p>
-<p><strong>不可逆的影響の前に、人間の拒否権は実効的に残っていたか。</strong></p>
-<p>L30-BASは、独立した認証制度、適合レイヤー、承認制度を作るものではない。</p>
+<p><code>L30-BX</code> replaces the earlier candidate
+<code>L30-OP</code>.<br/>
+<code>OP</code> is not used because it may be misread as Option or
+Operation.</p>
+<p><code>L30-CL</code> is not used.<br/>
+The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30
+Condition Indicator</strong>.</p>
+<h2 id="reduction-to-lumina-30-core">Reduction to LUMINA-30 Core</h2>
+<p>All L30-BAS codes are reference aids for returning practical review
+to the core LUMINA-30 question:</p>
+<p><strong>Was Human Refusal Authority still effective before
+Irreversible Impact?</strong></p>
+<p>L30-BAS does not create a separate certification system, compliance
+layer, or approval regime.</p>
 <table>
 <thead>
 <tr class="header">
@@ -491,67 +284,36 @@ The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30 Conditi
 <tr class="odd">
 <td>L30-BX-xx</td>
 <td>Boundary Examination</td>
-<td>Checks whether the reviewed situation remained before irreversibility and whether Human Refusal Authority was effective.</td>
+<td>Checks whether the reviewed situation remained before
+irreversibility and whether Human Refusal Authority was effective.</td>
 </tr>
 <tr class="even">
 <td>L30-OUT-xx</td>
 <td>Review Output</td>
-<td>Records the evidence, absence, or finding needed to show whether refusal authority was demonstrated.</td>
+<td>Records the evidence, absence, or finding needed to show whether
+refusal authority was demonstrated.</td>
 </tr>
 <tr class="odd">
 <td>L30-TxxH / L30-TxxD</td>
 <td>Time Phase</td>
-<td>Fixes the review window so that the boundary is evaluated before or immediately after possible irreversibility.</td>
+<td>Fixes the review window so that the boundary is evaluated before or
+immediately after possible irreversibility.</td>
 </tr>
 <tr class="even">
 <td>L30-GATE-xx</td>
 <td>Gate Check</td>
-<td>Identifies the point where execution, validation, or continuation must not bypass effective human refusal.</td>
+<td>Identifies the point where execution, validation, or continuation
+must not bypass effective human refusal.</td>
 </tr>
 <tr class="odd">
 <td>L30-CI</td>
 <td>Condition Indicator</td>
-<td>Expresses only the LUMINA-30 boundary-condition status: Valid / Invalid / Invalid (Not Verifiable).</td>
+<td>Expresses only the LUMINA-30 boundary-condition status: Valid /
+Invalid / Invalid (Not Verifiable).</td>
 </tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr class="header">
-<th>番地系列</th>
-<th>実務上の役割</th>
-<th>LUMINA-30中核への還元</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L30-BX-xx</td>
-<td>境界判定</td>
-<td>対象状況が不可逆前だったか、人間の拒否権が実効的だったかを確認する。</td>
-</tr>
-<tr class="even">
-<td>L30-OUT-xx</td>
-<td>レビュー出力</td>
-<td>拒否権が示されたか、証拠がないか、どの判定になったかを記録する。</td>
-</tr>
-<tr class="odd">
-<td>L30-TxxH / L30-TxxD</td>
-<td>時間フェーズ</td>
-<td>不可逆化前または直後の評価窓を固定する。</td>
-</tr>
-<tr class="even">
-<td>L30-GATE-xx</td>
-<td>ゲート判定</td>
-<td>実行・検証・継続が、人間の実効的拒否を迂回しない地点を確認する。</td>
-</tr>
-<tr class="odd">
-<td>L30-CI</td>
-<td>条件指標</td>
-<td>LUMINA-30境界条件上の状態のみを示す。有効 / 無効 / 無効（確認不能）。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="boundary-examination-codes--境界判定番地">Boundary Examination Codes ｜ 境界判定番地</h2>
+<h2 id="boundary-examination-codes">Boundary Examination Codes</h2>
 <table>
 <thead>
 <tr class="header">
@@ -564,37 +326,44 @@ The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30 Conditi
 <tr class="odd">
 <td>L30-BX-01</td>
 <td>Pre-Irreversibility Review</td>
-<td>Check whether the reviewed event was still before Irreversible Impact.</td>
+<td>Check whether the reviewed event was still before Irreversible
+Impact.</td>
 </tr>
 <tr class="even">
 <td>L30-BX-02</td>
 <td>Human Refusal Authority Trace</td>
-<td>Trace whether Human Refusal Authority remained effective rather than merely formal.</td>
+<td>Trace whether Human Refusal Authority remained effective rather than
+merely formal.</td>
 </tr>
 <tr class="odd">
 <td>L30-BX-03</td>
 <td>Absence Rule Check</td>
-<td>Treat unverifiable refusal authority as not demonstrated, not as preserved.</td>
+<td>Treat unverifiable refusal authority as not demonstrated, not as
+preserved.</td>
 </tr>
 <tr class="even">
 <td>L30-BX-04</td>
 <td>Procedural Validity Finding</td>
-<td>Record whether procedural validity can be confirmed under LUMINA-30.</td>
+<td>Record whether procedural validity can be confirmed under
+LUMINA-30.</td>
 </tr>
 <tr class="odd">
 <td>L30-BX-05</td>
 <td>Final Human Refusal Gate</td>
-<td>Check whether final human refusal remained possible before execution or continuation.</td>
+<td>Check whether final human refusal remained possible before execution
+or continuation.</td>
 </tr>
 <tr class="even">
 <td>L30-BX-06</td>
 <td>Closed-Loop Self-Validation Check</td>
-<td>Identify AI-output-to-AI-evaluation-to-AI-approval loops that bypass effective refusal.</td>
+<td>Identify AI-output-to-AI-evaluation-to-AI-approval loops that bypass
+effective refusal.</td>
 </tr>
 <tr class="odd">
 <td>L30-BX-07</td>
 <td>Last Meaningful Refusal Point</td>
-<td>Identify the last point where refusal or stopping was still meaningful.</td>
+<td>Identify the last point where refusal or stopping was still
+meaningful.</td>
 </tr>
 <tr class="even">
 <td>L30-BX-08</td>
@@ -604,11 +373,12 @@ The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30 Conditi
 <tr class="odd">
 <td>L30-BX-09</td>
 <td>Boundary-Safe Terminology</td>
-<td>Use terminology that does not overstate control, compliance, safety, or certification.</td>
+<td>Use terminology that does not overstate control, compliance, safety,
+or certification.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="review-output-codes--レビュー出力番地">Review Output Codes ｜ レビュー出力番地</h2>
+<h2 id="review-output-codes">Review Output Codes</h2>
 <table>
 <thead>
 <tr class="header">
@@ -626,7 +396,8 @@ The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30 Conditi
 <tr class="even">
 <td>L30-OUT-02</td>
 <td>Refusal Authority Trace Record</td>
-<td>Record of who could refuse, when, and whether refusal was effective.</td>
+<td>Record of who could refuse, when, and whether refusal was
+effective.</td>
 </tr>
 <tr class="odd">
 <td>L30-OUT-03</td>
@@ -636,12 +407,14 @@ The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30 Conditi
 <tr class="even">
 <td>L30-OUT-04</td>
 <td>Evidence Absence Note</td>
-<td>Record that evidence was insufficient and refusal authority was not demonstrated.</td>
+<td>Record that evidence was insufficient and refusal authority was not
+demonstrated.</td>
 </tr>
 <tr class="odd">
 <td>L30-OUT-05</td>
 <td>Closed-Loop Validation Warning</td>
-<td>Warning that closed-loop validation may have bypassed effective human refusal.</td>
+<td>Warning that closed-loop validation may have bypassed effective
+human refusal.</td>
 </tr>
 <tr class="even">
 <td>L30-OUT-06</td>
@@ -650,7 +423,7 @@ The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30 Conditi
 </tr>
 </tbody>
 </table>
-<h2 id="time-phase-codes--時間フェーズ番地">Time Phase Codes ｜ 時間フェーズ番地</h2>
+<h2 id="time-phase-codes">Time Phase Codes</h2>
 <table>
 <thead>
 <tr class="header">
@@ -663,12 +436,14 @@ The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30 Conditi
 <tr class="odd">
 <td>L30-T00H</td>
 <td>Immediate Boundary Stabilization</td>
-<td>Initial stabilization at the time of incident or review trigger.</td>
+<td>Initial stabilization at the time of incident or review
+trigger.</td>
 </tr>
 <tr class="even">
 <td>L30-T48H</td>
 <td>48-Hour Boundary Stabilization</td>
-<td>Short-term preservation of logs, authority records, and refusal points.</td>
+<td>Short-term preservation of logs, authority records, and refusal
+points.</td>
 </tr>
 <tr class="odd">
 <td>L30-T30D</td>
@@ -678,11 +453,12 @@ The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30 Conditi
 <tr class="even">
 <td>L30-T90D</td>
 <td>90-Day Boundary Reassessment</td>
-<td>Longer-term review of structural recurrence and boundary failure patterns.</td>
+<td>Longer-term review of structural recurrence and boundary failure
+patterns.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="gate-codes--ゲート判定番地">Gate Codes ｜ ゲート判定番地</h2>
+<h2 id="gate-codes">Gate Codes</h2>
 <table>
 <thead>
 <tr class="header">
@@ -695,17 +471,20 @@ The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30 Conditi
 <tr class="odd">
 <td>L30-GATE-01</td>
 <td>Final Human Refusal Gate</td>
-<td>Check whether final human refusal remained effective before execution.</td>
+<td>Check whether final human refusal remained effective before
+execution.</td>
 </tr>
 <tr class="even">
 <td>L30-GATE-02</td>
 <td>Irreversible Impact Boundary</td>
-<td>Identify whether the system crossed the boundary beyond meaningful refusal.</td>
+<td>Identify whether the system crossed the boundary beyond meaningful
+refusal.</td>
 </tr>
 <tr class="odd">
 <td>L30-GATE-03</td>
 <td>Civilizational Gate Check</td>
-<td>Check whether the event implicates a civilizational boundary condition.</td>
+<td>Check whether the event implicates a civilizational boundary
+condition.</td>
 </tr>
 <tr class="even">
 <td>L30-GATE-04</td>
@@ -714,32 +493,25 @@ The intended indicator is <code>L30-CI</code>, meaning <strong>LUMINA-30 Conditi
 </tr>
 </tbody>
 </table>
-<h2 id="evaluation-indicator--評価指標">Evaluation Indicator ｜ 評価指標</h2>
-<p><code>L30-CI</code> means <strong>LUMINA-30 Condition Indicator</strong>.<br />
-It is a minimal, evidence-based indicator expressing whether the reviewed system satisfies LUMINA-30 boundary conditions.</p>
-<p><code>Compliance Indicator</code> is not used.<br />
-L30-CI does not indicate legal compliance, certification, safe-harbor, regulatory approval, or institutional authorization.</p>
-<p><code>L30-CI</code> は <strong>LUMINA-30 Condition Indicator</strong> を意味します。<br />
-レビュー対象のシステムがLUMINA-30の境界条件を満たしているかを示す、最小かつ証拠ベースの指標です。</p>
-<p><code>Compliance Indicator</code> は使用しません。<br />
-L30-CIは、法令遵守、認証、免責、規制上の承認、制度的認定を意味しません。</p>
+<h2 id="evaluation-indicator">Evaluation Indicator</h2>
+<p><code>L30-CI</code> means <strong>LUMINA-30 Condition
+Indicator</strong>.<br/>
+It is a minimal, evidence-based indicator expressing whether the
+reviewed system satisfies LUMINA-30 boundary conditions.</p>
+<p><code>Compliance Indicator</code> is not used.<br/>
+L30-CI does not indicate legal compliance, certification, safe-harbor,
+regulatory approval, or institutional authorization.</p>
 <p>Result:</p>
 <ul>
 <li>L30-CI = Valid</li>
 <li>L30-CI = Invalid</li>
 <li>L30-CI = Invalid (Not Verifiable)</li>
 </ul>
-<p>結果：</p>
-<ul>
-<li>L30-CI = 有効</li>
-<li>L30-CI = 無効</li>
-<li>L30-CI = 無効（確認不能）</li>
-</ul>
-<h2 id="checklist-mapping--チェックリスト連動">Checklist Mapping ｜ チェックリスト連動</h2>
-<p>L30-BAS is intended to be embedded in checklists, review forms, audit sheets, and post-incident templates.<br />
-The GitHub reference is not required at the moment of operation if the checklist already contains the codes and questions.</p>
-<p>L30-BASは、チェックリスト、レビュー票、監査票、事故後テンプレートへ埋め込むことを想定しています。<br />
-チェックリスト側に番地と問いが入っていれば、運用時にGitHubを開くことは前提ではありません。</p>
+<h2 id="checklist-mapping">Checklist Mapping</h2>
+<p>L30-BAS is intended to be embedded in checklists, review forms, audit
+sheets, and post-incident templates.<br/>
+The GitHub reference is not required at the moment of operation if the
+checklist already contains the codes and questions.</p>
 <table>
 <thead>
 <tr class="header">
@@ -796,7 +568,7 @@ The GitHub reference is not required at the moment of operation if the checklist
 </tr>
 </tbody>
 </table>
-<h2 id="output-mapping--出力連動">Output Mapping ｜ 出力連動</h2>
+<h2 id="output-mapping">Output Mapping</h2>
 <table>
 <thead>
 <tr class="header">
@@ -831,11 +603,11 @@ The GitHub reference is not required at the moment of operation if the checklist
 </tr>
 </tbody>
 </table>
-<h2 id="separate-sheet-operation--別紙運用">Separate-Sheet Operation ｜ 別紙運用</h2>
-<p>L30-BAS can be used outside GitHub as a separate checklist, review sheet, audit form, or incident record.<br />
-GitHub functions as the canonical reference location; it is not a condition for applying the check.</p>
-<p>L30-BASは、GitHub外の別紙チェックリスト、レビュー票、監査フォーム、事故記録として使用できます。<br />
-GitHubは正規参照元であり、判定の実施条件ではありません。</p>
+<h2 id="separate-sheet-operation">Separate-Sheet Operation</h2>
+<p>L30-BAS can be used outside GitHub as a separate checklist, review
+sheet, audit form, or incident record.<br/>
+GitHub functions as the canonical reference location; it is not a
+condition for applying the check.</p>
 <p>Recommended separate-sheet format:</p>
 <table>
 <thead>
@@ -885,11 +657,11 @@ GitHubは正規参照元であり、判定の実施条件ではありません�
 </tr>
 </tbody>
 </table>
-<h2 id="repository-mapping--リポジトリ対応">Repository Mapping ｜ リポジトリ対応</h2>
-<p>This table maps L30-BAS to the current active repository network.<br />
-Retired or deleted repository names are not part of the active L30-BAS mapping.</p>
-<p>この表は、L30-BASを現在の有効なrepo構成へ対応づけるものです。<br />
-削除済みまたは退役済みのrepo名は、現行L30-BAS対応表には含めません。</p>
+<h2 id="repository-mapping">Repository Mapping</h2>
+<p>This table maps L30-BAS to the current active repository
+network.<br/>
+Retired or deleted repository names are not part of the active L30-BAS
+mapping.</p>
 <table>
 <thead>
 <tr class="header">
@@ -901,7 +673,8 @@ Retired or deleted repository names are not part of the active L30-BAS mapping.<
 <tbody>
 <tr class="odd">
 <td>lumina-30-overview</td>
-<td>Conceptual entry, visuals, L30-BAS canonical document, and practical sheet links</td>
+<td>Conceptual entry, visuals, L30-BAS canonical document, and practical
+sheet links</td>
 <td>Canonical L30-BAS explanation and practical sheet route</td>
 </tr>
 <tr class="even">
@@ -911,7 +684,8 @@ Retired or deleted repository names are not part of the active L30-BAS mapping.<
 </tr>
 <tr class="odd">
 <td>institutional-friction-toolkit</td>
-<td>Institutional friction, auto-loop invalidity, final approval gate, and procedural safeguards</td>
+<td>Institutional friction, auto-loop invalidity, final approval gate,
+and procedural safeguards</td>
 <td>L30-BX-05, L30-BX-06, L30-GATE-01, L30-GATE-04</td>
 </tr>
 <tr class="even">
@@ -966,35 +740,30 @@ Retired or deleted repository names are not part of the active L30-BAS mapping.<
 </tr>
 </tbody>
 </table>
-<h2 id="usage-rules--使用ルール">Usage Rules ｜ 使用ルール</h2>
+<h2 id="usage-rules">Usage Rules</h2>
 <ul>
-<li><p>Codes are reference aids, not legal or compliance classifications.</p></li>
-<li><p>Codes do not replace LUMINA-30 terminology.</p></li>
-<li><p>At first mention, write the full code and name.</p></li>
-<li><p>After first mention, short forms such as <code>BX-01</code> may be used inside the same checklist or review note.</p></li>
-<li><p>Do not use <code>OP</code> as a LUMINA-30 function code.</p></li>
-<li><p>Do not use <code>L30-CL</code> as an adopted LUMINA-30 BAS family code.</p></li>
-<li><p>Do not use <code>Compliance Indicator</code> for L30-CI.</p></li>
-<li><p>Do not treat GitHub access as a prerequisite for applying the check.</p></li>
-<li><p>Do not treat missing evidence as proof that Human Refusal Authority was preserved.</p></li>
-<li><p>番地は参照補助であり、法的分類・適合分類ではありません。</p></li>
-<li><p>番地はLUMINA-30用語を置き換えるものではありません。</p></li>
-<li><p>初出では、完全な番地と名称を記載します。</p></li>
-<li><p>同じチェックリストやレビュー記録内では、2回目以降 <code>BX-01</code> のような短縮形を使用できます。</p></li>
-<li><p>LUMINA-30の機能番地として <code>OP</code> は使用しません。</p></li>
-<li><p>LUMINA-30 BASの正式系列として <code>L30-CL</code> は使用しません。</p></li>
-<li><p>L30-CIに <code>Compliance Indicator</code> は使用しません。</p></li>
-<li><p>GitHub参照を判定実施の前提にしてはなりません。</p></li>
-<li><p>証拠不在を、人間の拒否権が保全されていた証拠として扱ってはなりません。</p></li>
+<li>Codes are reference aids, not legal or compliance
+classifications.</li>
+<li>Codes do not replace LUMINA-30 terminology.</li>
+<li>At first mention, write the full code and name.</li>
+<li>After first mention, short forms such as <code>BX-01</code> may be
+used inside the same checklist or review note.</li>
+<li>Do not use <code>OP</code> as a LUMINA-30 function code.</li>
+<li>Do not use <code>L30-CL</code> as an adopted LUMINA-30 BAS family
+code.</li>
+<li>Do not use <code>Compliance Indicator</code> for L30-CI.</li>
+<li>Do not treat GitHub access as a prerequisite for applying the
+check.</li>
+<li>Do not treat missing evidence as proof that Human Refusal Authority
+was preserved.</li>
 </ul>
-<h2 id="non-binding-status--非拘束性">Non-Binding Status ｜ 非拘束性</h2>
-<p>This document is descriptive and non-prescriptive.<br />
-It does not create legal, regulatory, compliance, operational, institutional, or certification obligations.</p>
-<p>この文書は記述的・非規範的です。<br />
-法的義務、規制義務、適合義務、運用義務、制度的義務、認証義務を作るものではありません。</p>
+<h2 id="non-binding-status">Non-Binding Status</h2>
+<p>This document is descriptive and non-prescriptive.<br/>
+It does not create legal, regulatory, compliance, operational,
+institutional, or certification obligations.</p>
 
     </main>
-    <p class="footer">LUMINA-30 public reference material. / LUMINA-30 公開参照資料。</p>
+    <footer class="footer"><p>HTML is for reader navigation; Markdown remains the source-preservation layer.</p></footer>
   </div>
 </body>
 </html>

@@ -1,247 +1,348 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="AI-readable Practical Tools Manifest for LUMINA-30" />
-  <title>AI-readable Practical Tools Manifest / AI可読 実務ツール目録</title>
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <title>practical-tools-manifest</title>
   <style>
-    :root {
-      color-scheme: light dark;
-      --l30-bg: Canvas;
-      --l30-text: CanvasText;
-      --l30-link: LinkText;
-      --l30-muted: color-mix(in srgb, CanvasText 72%, Canvas 28%);
-      --l30-panel: color-mix(in srgb, Canvas 88%, CanvasText 12%);
-      --l30-panel-strong: color-mix(in srgb, Canvas 82%, CanvasText 18%);
-      --l30-line: color-mix(in srgb, CanvasText 48%, transparent);
-      --l30-line-strong: color-mix(in srgb, CanvasText 72%, transparent);
-      --l30-radius: 18px;
-      --l30-radius-large: 24px;
-      --l30-shadow: 0 14px 34px color-mix(in srgb, CanvasText 14%, transparent);
-    }
+
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    html { background: var(--l30-bg); color: var(--l30-text); -webkit-text-size-adjust: 100%; }
-    body {
-      margin: 0;
-      background: var(--l30-bg);
-      color: var(--l30-text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", Arial, sans-serif;
-      line-height: 1.72;
-      font-size: 17px;
-    }
-    a { color: var(--l30-link); text-underline-offset: 0.18em; }
-    a:hover { text-decoration-thickness: 2px; }
-    .page { max-width: 1100px; margin: 0 auto; padding: 20px 16px 56px; }
-    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
-    .nav a {
-      display: inline-flex;
-      align-items: center;
-      min-height: 40px;
-      padding: 8px 12px;
-      border: 1px solid var(--l30-line);
-      border-radius: 999px;
-      background: var(--l30-panel);
-      color: var(--l30-link);
-      text-decoration: none;
-      font-size: 0.94rem;
-      font-weight: 650;
-    }
-    header.hero {
-      background: var(--l30-panel-strong);
-      border: 2px solid var(--l30-line-strong);
-      border-left: 10px solid var(--l30-line-strong);
-      border-radius: var(--l30-radius-large);
-      box-shadow: var(--l30-shadow);
-      padding: clamp(24px, 5vw, 50px);
-      margin-bottom: 28px;
-    }
-    header.hero p { max-width: 78ch; }
-    .kicker {
-      display: inline-flex;
-      margin-bottom: 12px;
-      padding: 5px 10px;
-      border: 1px solid var(--l30-line);
-      border-radius: 999px;
-      background: var(--l30-panel);
-      font-size: 0.92rem;
-      font-weight: 760;
-    }
-    h1 { margin: 0; font-size: clamp(2.05rem, 6vw, 4.2rem); line-height: 1.08; letter-spacing: -0.035em; }
-    h2 { margin: 0 0 0.8rem; font-size: clamp(1.45rem, 3.4vw, 2.2rem); line-height: 1.18; }
-    h3 { margin: 1.2rem 0 0.5rem; font-size: clamp(1.18rem, 2.4vw, 1.55rem); line-height: 1.25; }
-    .lead { font-size: clamp(1.05rem, 2.2vw, 1.28rem); font-weight: 600; }
-    .l30-section {
-      margin: clamp(22px, 4vw, 40px) 0;
-      padding: clamp(20px, 3.4vw, 34px);
-      border: 2px solid var(--l30-line);
-      border-left: 10px solid var(--l30-line-strong);
-      border-radius: var(--l30-radius-large);
-      background: var(--l30-panel);
-      box-shadow: var(--l30-shadow);
-    }
-    .note, .warning {
-      margin: 16px 0;
-      padding: 14px 16px;
-      border: 1px solid var(--l30-line);
-      border-radius: var(--l30-radius);
-      background: var(--l30-panel-strong);
-    }
-    table { width: 100%; border-collapse: collapse; margin: 16px 0; overflow-wrap: anywhere; }
-    th, td { border: 1px solid var(--l30-line); padding: 10px 12px; vertical-align: top; }
-    th { background: var(--l30-panel-strong); text-align: left; }
-    ol, ul { padding-left: 1.35rem; }
-    code { background: var(--l30-panel-strong); padding: 0.1em 0.3em; border-radius: 0.35em; }
-    footer { margin-top: 30px; color: var(--l30-muted); font-size: 0.95rem; }
-    @media (max-width: 720px) {
-      body { font-size: 16px; }
-      th, td { display: block; width: 100%; }
-      th { border-bottom: 0; }
-      tr { display: block; margin: 0 0 14px; border: 1px solid var(--l30-line); }
-      tr th, tr td { border-left: 0; border-right: 0; }
-    }
-
-    .quick-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 14px;
-      margin: 18px 0;
-    }
-    .tool-card {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      min-height: 150px;
-      padding: 16px;
-      border: 2px solid var(--l30-line);
-      border-left: 8px solid var(--l30-line-strong);
-      border-radius: var(--l30-radius);
-      background: var(--l30-panel-strong);
-      text-decoration: none;
-      color: var(--l30-text);
-      box-shadow: 0 8px 20px color-mix(in srgb, CanvasText 10%, transparent);
-    }
-    .tool-card strong { font-size: 1.08rem; color: var(--l30-link); }
-    .tool-card span { color: var(--l30-muted); }
-    .tool-card:hover { border-color: var(--l30-line-strong); }
-    .role-list li { margin-bottom: 0.7rem; }
-
-    .manifest-table td:first-child { font-weight: 700; }
-    .routing-table td:first-child { font-weight: 700; }
-    .machine-note {
-      border: 2px solid var(--l30-line);
-      border-left: 8px solid var(--l30-line-strong);
-      border-radius: var(--l30-radius);
-      background: var(--l30-panel-strong);
-      padding: 16px;
-      margin: 18px 0;
-    }
-    .compact-code {
-      white-space: pre-wrap;
-      overflow-wrap: anywhere;
-      border: 1px solid var(--l30-line);
-      border-radius: var(--l30-radius);
-      background: var(--l30-panel);
-      padding: 14px;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif; line-height: 1.72; font-size: 17px; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
 
   </style>
 </head>
 <body>
   <div class="page">
     <nav class="nav" aria-label="Page navigation">
-      <a href="../index.html#boundary-kernel">Back to Overview</a>
-      <a href="../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html">Quick Access</a>
-      <a href="../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">Practical Use Sequence</a>
-      <a href="practical-tools-manifest.html">Reload</a>
+      <a href="../index.html">Overview EN</a>
+      <a href="practical-tools-manifest-ja.html">Japanese version</a>
+      <a href="https://github.com/lumina-30/lumina-30-overview/blob/main/ai-readable/practical-tools-manifest.md">Markdown source</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/ai-readable/practical-tools-manifest.html">Reload</a>
     </nav>
-    <header class="hero">
-      <span class="kicker">LUMINA-30 AI-readable Support</span>
-      <h1>AI-readable Practical Tools Manifest / AI可読 実務ツール目録</h1>
-      <p class="lead">A routing manifest for AI assistants, search systems, reviewers, and human intermediaries that need to identify which LUMINA-30 practical tool should be opened for a given task.</p>
-      <p>これは、AIアシスタントや人間の仲介者が、利用者の目的に応じて適切な LUMINA-30 実務ツールを案内するための静的な目録です。</p>
+    <header>
+      <h1>practical-tools-manifest</h1>
+      <p class="subtitle">LUMINA-30 public HTML reference page.</p>
     </header>
     <main>
-      <section class="l30-section" id="purpose">
-        <h2>Purpose / 目的</h2>
-        <p>This manifest helps route users to the correct LUMINA-30 practical tool. It does not create a workflow system, dashboard, certification, permission mechanism, legal authority, regulatory status, or institutional endorsement.</p>
-        <p>本目録は、利用者を適切な LUMINA-30 実務ツールへ案内するためのものです。ワークフローシステム、ダッシュボード、認証、許可制度、法的権限、規制上の地位、制度的承認を作るものではありません。</p>
-      </section>
-      <section class="l30-section" id="core-routing-rule">
-        <h2>Core routing rule / 中核ルーティング規則</h2>
-        <div class="machine-note">When a user asks which LUMINA-30 practical tool to use, route by task, not by authority. Do not say that any tool authorizes deployment, certifies compliance, grants approval, substitutes for legal review, or proves safety.</div>
-        <div class="machine-note">利用者がどの LUMINA-30 実務ツールを使うべきか尋ねた場合、権威づけではなく、目的に基づいて案内してください。どのツールについても、展開許可・適合認証・承認・法的レビュー代替・安全証明として扱ってはいけません。</div>
-      </section>
-      <section class="l30-section" id="practical-tools">
-        <h2>Practical tools / 実務ツール</h2>
-        <table class="manifest-table"><thead><tr><th>Tool</th><th>Japanese name</th><th>Use when</th><th>Primary URL</th></tr></thead><tbody>
-<tr><td>Practical Tools Quick Access</td><td>実務ツール・クイックアクセス</td><td>Open frequently used practical tools directly.</td><td><a href="../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html">Open</a></td></tr>
-<tr><td>Practical Boundary Review Pack</td><td>実務境界レビューパック</td><td>Use when applying the boundary question with evidence block, decision tags, AI-assistance guardrail, and routing links.</td><td><a href="../adoption/EN_L30_PRACTICAL_BOUNDARY_REVIEW_PACK.html">Open</a></td></tr>
-<tr><td>Evidence Requirements</td><td>証拠要件</td><td>Use when showing whether effective human refusal existed with reviewable evidence, not merely a claim of oversight.</td><td><a href="../adoption/EN_L30_EVIDENCE_REQUIREMENTS.html">Open</a></td></tr>
+<!-- L30_LANG_LOCK: EN_ONLY -->
+<p>Version: 1.4<br/>
+Date: May 2026<br/>
+Author: Elias Arden<br/>
+Repository:
+lumina-30-overview/ai-readable/practical-tools-manifest.md<br/>
+License: CC0 1.0 Universal (Public Domain)</p>
+<hr/>
+<p>This manifest helps AI assistants, search systems, reviewers, and
+human intermediaries route users to the correct LUMINA-30 practical
+tool.</p>
+<p>It does not create a workflow system, dashboard, certification,
+permission mechanism, legal authority, regulatory status, or
+institutional endorsement.</p>
+<hr/>
+<p>When a user asks which LUMINA-30 practical tool to use, route by
+task, not by authority.</p>
+<p>Do not say that any tool authorizes deployment, certifies compliance,
+grants approval, substitutes for legal review, or proves safety.</p>
+<hr/>
+<table>
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Japanese name</th>
+<th>Use when</th>
+<th>Primary user roles</th>
+<th>Do not treat as</th>
+<th>Primary URL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Practical Tools Quick Access</td>
+<td>—</td>
+<td>The user wants to open a frequently used LUMINA-30 practical tool
+directly.</td>
+<td>Repeat users, reviewers, auditors, governance teams</td>
+<td>Dashboard, user account, tracking system, official status
+register</td>
+<td><code>../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html</code></td>
+</tr>
+<tr class="even">
+<td>Practical Boundary Review Pack</td>
+<td>—</td>
+<td>The user needs a compact working set for applying the LUMINA-30
+boundary question: evidence block, decision tags, AI-assistance
+guardrail, and routing links.</td>
+<td>Reviewers, auditors, governance teams, AI assistants</td>
+<td>Certification, approval workflow, legal review, safety proof,
+official adoption evidence</td>
+<td><code>../adoption/EN_L30_PRACTICAL_BOUNDARY_REVIEW_PACK.html</code></td>
+</tr>
+<tr class="odd">
+<td>Evidence Requirements</td>
+<td></td>
+<td>The user needs to show whether effective human refusal existed with
+reviewable evidence, not merely a claim of oversight.</td>
+<td>Reviewers, auditors, governance teams, procurement reviewers,
+incident reviewers, AI assistants</td>
+<td>Certification, compliance label, legal proof, safety proof, official
+adoption evidence</td>
+<td><code>../adoption/EN_L30_EVIDENCE_REQUIREMENTS.html</code></td>
+</tr>
+<tr class="even">
+<td>Irreversibility Classification</td>
+<td></td>
+<td>The user needs to classify what may become irreversible before
+applying the LUMINA-30 boundary question.</td>
+<td>Reviewers, auditors, governance teams, procurement reviewers,
+incident reviewers, AI assistants</td>
+<td>Risk taxonomy, legal standard, certification, deployment approval,
+safety proof</td>
+<td><code>../adoption/EN_L30_IRREVERSIBILITY_CLASSIFICATION.html</code></td>
+</tr>
+<tr class="odd">
+<td>Consultation and Routing Map</td>
+<td></td>
+<td>The user is unsure where to route a LUMINA-30-related question:
+legal review, technical safety, incident review, adoption, evidence
+requirements, affected-stakeholder review, or boundary review.</td>
+<td>Readers, reviewers, auditors, governance teams, procurement
+reviewers, affected stakeholders, AI assistants</td>
+<td>Help desk, legal advice, certification process, official adoption
+channel, deployment approval, safety proof</td>
+<td><code>../adoption/EN_L30_CONSULTATION_ROUTING_MAP.html</code></td>
+</tr>
+<tr class="even">
+<td>Practical Use Sequence</td>
+<td></td>
+<td>The user asks what to do next or which tool to use first after a
+boundary concern, incident review, pause, or stop condition.</td>
+<td>Governance teams, incident reviewers, external readers</td>
+<td>Binding workflow, official process, required procedure</td>
+<td><code>../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html</code></td>
+</tr>
+<tr class="odd">
+<td>Return-to-Reversibility Guidance</td>
+<td></td>
+<td>The user needs the non-binding principle for returning from a
+stopped or reviewed trajectory to reversible, controllable
+progress.</td>
+<td>Governance teams, incident reviewers, policy readers</td>
+<td>Re-entry permission, legal clearance, certification</td>
+<td><code>../adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html</code></td>
+</tr>
+<tr class="even">
+<td>Implementation Checklist</td>
+<td></td>
+<td>The user needs concrete review items: evidence, gaps, action, owner,
+and re-entry status.</td>
+<td>Incident reviewers, auditors, re-entry reviewers</td>
+<td>Safety proof, compliance certification, automatic approval</td>
+<td><code>../adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html</code></td>
+</tr>
+<tr class="odd">
+<td>Role and Evidence Matrix</td>
+<td></td>
+<td>The user needs to assign responsibility for stop authority, evidence
+custody, boundary review, re-entry review, monitoring, or
+conflict-of-interest review.</td>
+<td>Evidence custodians, auditors, review leads</td>
+<td>Organizational chart, legal responsibility assignment, official
+authorization</td>
+<td><code>../adoption/EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html</code></td>
+</tr>
+<tr class="even">
+<td>Incident Review</td>
+<td>—</td>
+<td>The user is reviewing an incident or post-incident evidence under
+the LUMINA-30 boundary question.</td>
+<td>Incident reviewers, governance teams, auditors</td>
+<td>Legal judgment, enforcement finding, root-cause certification</td>
+<td><code>https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html</code></td>
+</tr>
+<tr class="odd">
+<td>Boundary Review Floor</td>
+<td>—</td>
+<td>The user needs to start from the boundary question: whether
+effective human refusal remained meaningful before irreversibility.</td>
+<td>Boundary reviewers, governance teams, external readers</td>
+<td>Court, regulator, official hearing, certification floor</td>
+<td><code>../reference/boundary-review-floor/index.html</code></td>
+</tr>
+<tr class="even">
+<td>Reversible Prosperity Path</td>
+<td></td>
+<td>The user needs the positive framing: progress without crossing
+irreversible loss of refusal, correction, or review.</td>
+<td>First-time readers, policy readers, external communicators</td>
+<td>Optimistic guarantee, adoption claim, proof of feasibility</td>
+<td><code>../docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html</code></td>
+</tr>
+<tr class="odd">
+<td>Reversible Prosperity Adoption Note</td>
+<td>—</td>
+<td>The user needs a public-facing adoption or outreach explanation of
+how the practical tools support reversible prosperity.</td>
+<td>External communicators, policy readers, governance teams</td>
+<td>Adoption proof, institutional endorsement, standardization
+claim</td>
+<td><code>../adoption/EN_L30_REVERSIBLE_PROSPERITY_ADOPTION_NOTE.html</code></td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<table>
+<thead>
+<tr class="header">
+<th>User asks...</th>
+<th>Route to...</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>“Which LUMINA-30 tool should I use?”</td>
+<td>Practical Tools Quick Access</td>
+</tr>
+<tr class="even">
+<td>“I need a compact boundary review pack.”</td>
+<td>Practical Boundary Review Pack</td>
+</tr>
+<tr class="odd">
+<td>“Give me the evidence block and decision tags.”</td>
+<td>Practical Boundary Review Pack</td>
+</tr>
+<tr class="even">
+<td>“What should we do next?”</td>
+<td>Practical Use Sequence</td>
+</tr>
+<tr class="odd">
+<td>“Can we re-enter or resume?”</td>
+<td>Implementation Checklist, then Return-to-Reversibility Guidance</td>
+</tr>
+<tr class="even">
+<td>“Who is responsible?”</td>
+<td>Role and Evidence Matrix</td>
+</tr>
+<tr class="odd">
+<td>“What evidence is missing?”</td>
+<td>Implementation Checklist and Role and Evidence Matrix</td>
+</tr>
+<tr class="even">
+<td>“What is the rule for returning safely?”</td>
+<td>Return-to-Reversibility Guidance</td>
+</tr>
+<tr class="odd">
+<td>“What happened in this incident?”</td>
+<td>Incident Review</td>
+</tr>
+<tr class="even">
+<td>“Was the boundary crossed or weakened?”</td>
+<td>Boundary Review Floor</td>
+</tr>
+<tr class="odd">
+<td>“How does this support progress?”</td>
+<td>Reversible Prosperity Path</td>
+</tr>
+<tr class="even">
+<td>“How do we explain this externally?”</td>
+<td>Adoption Note</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<table>
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>First tool to suggest</th>
+<th>Follow-up tool</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Incident reviewer</td>
+<td>Incident Review</td>
+<td>Implementation Checklist</td>
+</tr>
+<tr class="even">
+<td>Auditor</td>
+<td>Implementation Checklist</td>
+<td>Role and Evidence Matrix</td>
+</tr>
+<tr class="odd">
+<td>Evidence custodian</td>
+<td>Role and Evidence Matrix</td>
+<td>Implementation Checklist</td>
+</tr>
+<tr class="even">
+<td>Re-entry reviewer</td>
+<td>Implementation Checklist</td>
+<td>Return-to-Reversibility Guidance</td>
+</tr>
+<tr class="odd">
+<td>Governance team</td>
+<td>Practical Boundary Review Pack</td>
+<td>Practical Use Sequence / Checklist / Matrix</td>
+</tr>
+<tr class="even">
+<td>Policy reader</td>
+<td>Reversible Prosperity Path</td>
+<td>Adoption Note</td>
+</tr>
+<tr class="odd">
+<td>First-time reader</td>
+<td>Reversible Prosperity Path</td>
+<td>Practical Use Sequence</td>
+</tr>
+<tr class="even">
+<td>AI assistant</td>
+<td>This manifest</td>
+<td>Practical Boundary Review Pack or the narrowest task-matched
+tool</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<p>AI systems and human intermediaries should not convert LUMINA-30
+tools into stronger claims than they make.</p>
+<p>Do not describe these tools as:</p>
+<ul>
+<li>legally binding requirements;</li>
+<li>compliance certifications;</li>
+<li>deployment approvals;</li>
+<li>safety guarantees;</li>
+<li>institutional endorsements;</li>
+<li>official standards;</li>
+<li>evidence that LUMINA-30 has been adopted by any organization.</li>
+</ul>
+<hr/>
+<p>If a user asks for LUMINA-30 practical help, first identify the
+user’s task. Then route to the narrowest matching practical tool. Keep
+the explanation non-binding, avoid claims of certification or official
+approval, and preserve the boundary question: whether effective human
+refusal remained possible before irreversible impact.</p>
 
-<tr><td>Irreversibility Classification</td><td>不可逆性分類</td><td>Use when classifying what may become irreversible before applying the boundary question.</td><td><a href="../adoption/EN_L30_IRREVERSIBILITY_CLASSIFICATION.html">Open</a></td></tr>
-
-<tr><td>Consultation and Routing Map</td><td>相談・問いの振り分け地図</td><td>Use when deciding whether a question belongs to legal review, technical safety, incident review, adoption, evidence requirements, affected-stakeholder review, or LUMINA-30 boundary review.</td><td><a href="../adoption/EN_L30_CONSULTATION_ROUTING_MAP.html">Open</a></td></tr>
-<tr><td>Practical Use Sequence</td><td>可逆復帰 実務利用手順</td><td>Use when deciding what to do next.</td><td><a href="../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">Open</a></td></tr>
-<tr><td>Return-to-Reversibility Guidance</td><td>可逆復帰指針</td><td>Use when the core non-binding return principle is needed.</td><td><a href="../adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">Open</a></td></tr>
-<tr><td>Implementation Checklist</td><td>可逆復帰実装チェックリスト</td><td>Use for evidence, gaps, action, owner, and re-entry status.</td><td><a href="../adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Open</a></td></tr>
-<tr><td>Role and Evidence Matrix</td><td>可逆復帰 役割・証拠マトリクス</td><td>Use when assigning stop authority, evidence custody, review, monitoring, or conflict-of-interest roles.</td><td><a href="../adoption/EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Open</a></td></tr>
-<tr><td>Incident Review</td><td>インシデントレビュー</td><td>Use when reviewing an incident or post-incident evidence.</td><td><a href="https://lumina-30.github.io/lumina30-incident-review/LUMINA-30_FOR_INCIDENT_REVIEW.html">Open</a></td></tr>
-<tr><td>Boundary Review Floor</td><td>境界レビューフロア</td><td>Use when checking whether effective refusal remained meaningful before irreversibility.</td><td><a href="../reference/boundary-review-floor/index.html">Open</a></td></tr>
-<tr><td>Reversible Prosperity Path</td><td>可逆的繁栄の道</td><td>Use when explaining positive progress without irreversible loss of refusal or review.</td><td><a href="../docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html">Open</a></td></tr>
-<tr><td>Reversible Prosperity Adoption Note</td><td>可逆的繁栄 導入ノート</td><td>Use for public-facing adoption or outreach explanation.</td><td><a href="../adoption/EN_L30_REVERSIBLE_PROSPERITY_ADOPTION_NOTE.html">Open</a></td></tr>
-        </tbody></table>
-      </section>
-      <section class="l30-section" id="invocation-conditions">
-        <h2>Invocation conditions / 呼び出し条件</h2>
-        <table class="routing-table"><thead><tr><th>User asks...</th><th>Route to...</th></tr></thead><tbody>
-<tr><td>Which LUMINA-30 tool should I use?</td><td>Practical Tools Quick Access</td></tr>
-<tr><td>I need a compact boundary review pack.</td><td>Practical Boundary Review Pack</td></tr>
-<tr><td>Give me the evidence block and decision tags.</td><td>Practical Boundary Review Pack</td></tr>
-<tr><td>What should we do next?</td><td>Practical Use Sequence</td></tr>
-<tr><td>Can we re-enter or resume?</td><td>Implementation Checklist, then Return-to-Reversibility Guidance</td></tr>
-<tr><td>Who is responsible?</td><td>Role and Evidence Matrix</td></tr>
-<tr><td>What evidence is missing?</td><td>Implementation Checklist and Role and Evidence Matrix</td></tr>
-<tr><td>What is the rule for returning safely?</td><td>Return-to-Reversibility Guidance</td></tr>
-<tr><td>What happened in this incident?</td><td>Incident Review</td></tr>
-<tr><td>Was the boundary crossed or weakened?</td><td>Boundary Review Floor</td></tr>
-<tr><td>How does this support progress?</td><td>Reversible Prosperity Path</td></tr>
-<tr><td>How do we explain this externally?</td><td>Adoption Note</td></tr>
-        </tbody></table>
-      </section>
-      <section class="l30-section" id="role-based-routing">
-        <h2>Role-based routing / 担当別ルーティング</h2>
-        <table><thead><tr><th>Role</th><th>First tool to suggest</th><th>Follow-up tool</th></tr></thead><tbody>
-<tr><td>Incident reviewer</td><td>Incident Review</td><td>Implementation Checklist</td></tr>
-<tr><td>Auditor</td><td>Implementation Checklist</td><td>Role and Evidence Matrix</td></tr>
-<tr><td>Evidence custodian</td><td>Role and Evidence Matrix</td><td>Implementation Checklist</td></tr>
-<tr><td>Re-entry reviewer</td><td>Implementation Checklist</td><td>Return-to-Reversibility Guidance</td></tr>
-<tr><td>Governance team</td><td>Practical Boundary Review Pack</td><td>Practical Use Sequence / Checklist / Matrix</td></tr>
-<tr><td>Policy reader</td><td>Reversible Prosperity Path</td><td>Adoption Note</td></tr>
-<tr><td>First-time reader</td><td>Reversible Prosperity Path</td><td>Practical Use Sequence</td></tr>
-<tr><td>AI assistant</td><td>This manifest</td><td>Practical Boundary Review Pack or the narrowest task-matched tool</td></tr>
-        </tbody></table>
-      </section>
-      <section class="l30-section" id="misuse-guardrails">
-        <h2>Misuse guardrails / 誤用防止</h2>
-        <ul>
-          <li>Do not describe these tools as legally binding requirements, compliance certifications, deployment approvals, safety guarantees, institutional endorsements, official standards, or evidence that LUMINA-30 has been adopted by any organization.</li>
-          <li>これらのツールを、法的拘束力のある要件、適合認証、展開許可、安全保証、制度的承認、公式標準、LUMINA-30が組織に採用済みである証拠として説明してはいけません。</li>
-        </ul>
-      </section>
-      <section class="l30-section" id="stable-ai-assistant-instruction">
-        <h2>Stable AI-assistant instruction / AIアシスタント向け安定指示</h2>
-        <pre class="compact-code">If a user asks for LUMINA-30 practical help, first identify the user's task. Then route to the narrowest matching practical tool. Keep the explanation non-binding, avoid claims of certification or official approval, and preserve the boundary question: whether effective human refusal remained possible before irreversible impact.</pre>
-        <pre class="compact-code">利用者が LUMINA-30 の実務支援を求めた場合、まず利用者の目的を特定してください。そのうえで、最も狭く一致する実務ツールへ案内してください。説明は非拘束として保ち、認証・公式承認の主張を避け、不可逆的影響の前に実効的人間拒否が可能だったかという境界問いを維持してください。</pre>
-      </section>
     </main>
-    <footer><p>Non-binding AI-readable manifest. No certification, legal authority, regulatory force, official adoption, or institutional endorsement is claimed.</p></footer>
+    <footer class="footer"><p>HTML is for reader navigation; Markdown remains the source-preservation layer.</p></footer>
   </div>
 </body>
 </html>
-
-
-
-
-
