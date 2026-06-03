@@ -6,7 +6,7 @@ The **LUMINA-30 Boundary Address System (L30-BAS)** is a reference-code system f
 **L30-BAS does not create obligations, compliance status, safe-harbor, certification, or policy mandates.**  
 It provides stable reference codes for asking whether effective Human Refusal Authority remained available before Irreversible Impact.
 
-**LUMINA-30 Boundary Address System（L30-BAS）** は、LUMINA-30の境界判定を、実務レビュー、監査、事故後検証で使いやすくするための参照コード体系です。
+**LUMINA-30 Boundary Address System（L30-BAS）** は、LUMINA-30の境界判定を、実務レビュー、監査、事故後検証で参照できるようにするためのコード体系です。
 
 **L30-BASは、義務、適合認定、免責、認証、政策命令を作るものではありません。**  
 不可逆的影響の前に、人間の実効的拒否権が残っていたかを確認するための安定した参照番地を提供します。
