@@ -1,4 +1,3 @@
-
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 Core Translation Dictionary v1.3
 
@@ -188,8 +187,8 @@ Meaning: Selecting the narrowest matching LUMINA-30 practical tool based on the 
 意味：権威、認証、ステータスではなく、利用者の目的と担当に基づき、最も狭く一致する LUMINA-30 実務ツールを選ぶこと。
 
 AI tool compatibility <-> AIツール親和性  [canonical: AIツール親和性]
-Meaning: Making LUMINA-30 practical tools easy for AI assistants and search systems to locate, describe, route, and reuse without adding heavy user-management features to LUMINA-30 itself.
-意味：LUMINA-30 本体に重いユーザー管理機能を追加せず、AIアシスタントや検索システムが実務ツールを発見、説明、案内、再利用しやすい状態にすること。
+Meaning: Structuring LUMINA-30 practical tools so that AI assistants and search systems can locate, describe, route, and reuse them without adding heavy user-management features to LUMINA-30 itself.
+意味：LUMINA-30 本体に重いユーザー管理機能を追加せず、AIアシスタントや検索システムが実務ツールを発見、説明、案内、再利用できる構造にすること。
 
 Return-to-Reversibility Practical Use Sequence <-> 可逆復帰 実務利用手順  [canonical: 可逆復帰 実務利用手順]
 Meaning: Non-binding operational sequence for deciding when to use Return-to-Reversibility Guidance, the Implementation Checklist, and the Role and Evidence Matrix after boundary review or incident review.
@@ -275,4 +274,3 @@ Non-binding <-> 非拘束  [canonical: 非拘束]
 Reference framework <-> 参照枠組み  [canonical: 参照枠組み]  
 Not a policy <-> 政策ではない  [canonical: 政策ではない]  
 Not a specification <-> 技術仕様ではない  [canonical: 技術仕様ではない]
-

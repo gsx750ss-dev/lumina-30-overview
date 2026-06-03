@@ -175,13 +175,11 @@ Use [Minimum Boundary Review External Crosswalk ｜ 最小境界レビュー外�
 
 ## Summary ｜ 要約
 
-The purpose of this pack is to make LUMINA-30 adoptable as a small review unit.
-It can help institutions ask one missing question before irreversibility:
+The purpose of this pack is to present LUMINA-30 as a small review unit. It is intended to help institutions ask one missing question before irreversibility:
 
 > Who preserves effective human refusal, correction, transition, recovery, or rollback, and what evidence shows that this responsibility was real?
 
-本パックの目的は、LUMINA-30を小さなレビュー単位として再利用可能にすることである。
-不可逆化前に、制度が欠かしやすい1つの問いを追加するために使う。
+本パックの目的は、LUMINA-30を小さなレビュー単位として提示することである。
+不可逆化前に、制度が欠かしやすい1つの問いを確認するために用いる。
 
 > 有効な人間拒否・修正・移行・回復・撤回を誰が保存するのか。そして、その責任が実在したことを何の証拠が示すのか。
-

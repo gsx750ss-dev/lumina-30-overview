@@ -163,8 +163,8 @@ It is to offer one minimum boundary responsibility question for optional inserti
   不可逆化種別をチェックリスト利用へ振り分ける。
 
 - [Minimum Boundary Review Form ｜ 最小境界レビュー票](../templates/minimum-boundary-review-form.md)  
-  Provides the fastest usable review form.  
-  最速で使えるレビュー票を提供する。
+  Provides a compact review form for early use.  
+  初期利用向けの簡潔なレビュー票を提供する。
 
 ---
 
@@ -175,4 +175,3 @@ It is a review aid for identifying whether responsibility for preserving human r
 
 境界責任メカニズムは、新しい規制制度ではない。
 最適化圧が不可逆化を引き起こしうる場面で、人間拒否を保存する責任が定義されていたかを確認するためのレビュー補助である。
-
