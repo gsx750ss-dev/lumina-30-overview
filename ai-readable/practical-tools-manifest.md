@@ -13,7 +13,7 @@ License: CC0 1.0 Universal (Public Domain)
 
 This manifest helps AI assistants, search systems, reviewers, and human intermediaries route users to the correct LUMINA-30 practical tool.
 
-本目録は、AIアシスタント、検索システム、レビュー担当者、人間の仲介者が、利用者を適切な LUMINA-30 実務ツールへ案内しやすくするためのものです。
+本目録は、AIアシスタント、検索システム、レビュー担当者、人間の仲介者が、利用者の目的に合う LUMINA-30 実務ツールを確認するためのものです。
 
 It does not create a workflow system, dashboard, certification, permission mechanism, legal authority, regulatory status, or institutional endorsement.
 
