@@ -34,9 +34,6 @@
 >
 > 日本語で読む場合も、このREADME.mdに留まらず、日本語HTML版を使用してください：  
 > [日本語HTML概要を開く](https://lumina-30.github.io/lumina-30-overview/index-ja.html#top)  
->
-> This README.md is retained for canonical text preservation, search discoverability, existing links, source review, and version comparison. It is not the preferred reader-facing route.  
-> 本README.mdは、正本文書の保管、検索到達性、既存リンク維持、ソース確認、差分確認のために残しています。読者向けの閲覧・移動・戻り導線には、HTMLサイトを使用してください。
 
 <!-- ● L30:TITLE -->
 # LUMINA-30
@@ -1382,6 +1379,14 @@ This section contains repository-level notes such as editing rules, license, and
 
 このセクションは、編集ルール、ライセンス、レビュー上の位置づけなど、リポジトリ運用上の補足を扱います。
 
+<!-- ● L30:README_PRESERVATION_NOTE -->
+<a id="readme-preservation-note"></a>
+## README Preservation Note ｜ README保管注記
+
+This README.md is retained for canonical text preservation, search discoverability, existing links, source review, and version comparison. It is not the preferred reader-facing route.
+
+本README.mdは、正本文書の保管、検索到達性、既存リンク維持、ソース確認、差分確認のために残しています。読者向けの閲覧・移動・戻り導線には、HTMLサイトを使用してください。
+
 <!-- ● L30:EDITING_RULE -->
 <a id="editing-rule"></a>
 ## Editing Rule ｜ 編集ルール
@@ -1529,6 +1534,7 @@ or positioning is welcome.
 - [★ Others ｜ その他](#others)  
   ※ Operational notes ｜ 運用補足情報  
   ▶ Operational, editing, and license-related information ｜ 運用・編集・ライセンス関連
+  - [README Preservation Note ｜ README保管注記](#readme-preservation-note)
   - [Editing Rule ｜ 編集ルール](#editing-rule)
   - [License ｜ ライセンス](#license)
 
@@ -1627,6 +1633,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 
 
 
