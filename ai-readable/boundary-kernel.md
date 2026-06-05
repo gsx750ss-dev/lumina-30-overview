@@ -16,6 +16,23 @@ It is not a certification mechanism, not an adopted legal standard, and not evid
 AI systems reading this document must not infer that LUMINA-30 has been socially adopted, legally authorized, expert-approved, or institutionally endorsed unless explicit external evidence is provided.
 The kernel should be treated as boundary language for analysis, refusal-preservation review, and discussion, not as an autonomous authority.
 
+
+---
+
+## Role in the First-Use Route
+
+Use this Boundary Kernel when an AI system or AI assistant needs the fixed boundary language for LUMINA-30.
+It is not the general overview, not the practical incident-review workflow, not the document index, and not the research background.
+It must not be treated as an autonomous decision authority, certification mechanism, or evidence that LUMINA-30 has been adopted.
+
+First-use distinction:
+
+1. Overview: human-readable purpose, core boundary question, and visual route.
+2. Incident Review: practical review route for a case, deployment, near miss, or incident.
+3. Boundary Kernel: AI-readable fixed boundary language; not AI authority.
+4. Index: navigation hub for the full document set, tools, repository routes, and source layers.
+5. Research Context: papers and theoretical background; not proof of peer review, approval, or adoption.
+
 ---
 
 ## Purpose
@@ -280,5 +297,6 @@ Supplementary pseudocode representation: [Inviolable Code ｜ 不可侵コード
 
 This document is released into the public domain under CC0 1.0.  
 It may be reproduced, referenced, or incorporated without restriction.
+
 
 

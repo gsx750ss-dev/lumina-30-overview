@@ -39,6 +39,18 @@
 > LUMINA-30 is a public reference framework for evaluating whether effective human refusal remains possible before irreversible escalation. It is not a certification system, not an adopted legal standard, and not evidence of institutional approval.  
 > LUMINA-30は、不可逆化の前に人間の実効的拒否権が残っているかを評価するための公開参照フレームです。認証制度、採用済み法制度、制度的承認の証拠ではありません。  
 
+
+> **What to use first ｜ 最初に何を使うべきか**  
+> 1. **Overview ｜ 概要** — Understand the purpose, core boundary question, and visual route. ｜ 目的・中核境界問い・図解導線を理解する。  
+> 2. **Incident Review ｜ 実務レビュー** — Check a case, deployment, or incident. ｜ 具体的な事例・導入・事故を確認する。  
+> 3. **Boundary Kernel ｜ AI可読境界** — Give an AI the fixed boundary; it is not an autonomous decision authority. ｜ AIに固定境界を読ませる。ただしAIの自律判断権限ではない。  
+> 4. **Index ｜ 索引** — Find the full document set and tools. ｜ 文書全体と実務ツールを探す。  
+> 5. **Research Context ｜ 研究背景** — Review papers and theoretical background; this is not proof of peer review, approval, or adoption. ｜ 論文・理論背景を確認する。ただし査読・承認・採用の証拠ではない。  
+>
+> Start from the HTML overview for the human-readable route, or use the AI Briefing when giving one URL to an external AI.  
+> 人間が読む場合はHTML概要から、外部AIにURLを1つ渡す場合はAI Briefingから始めてください。  
+> [AI Briefing](https://lumina-30.github.io/Lumi30-Index/ai-briefing.html) ｜ [AIブリーフィング](https://lumina-30.github.io/Lumi30-Index/ai-briefing-ja.html)
+
 <!-- ● L30:TITLE -->
 # LUMINA-30
 
@@ -1637,6 +1649,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 
 
 
