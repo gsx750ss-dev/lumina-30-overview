@@ -365,7 +365,7 @@ It is the test of whether meaningful human control still existed before the poin
 > If this cannot be answered clearly, the system should not be treated as clearly controlled under the LUMINA-30 review lens.<br>
 > この問いに明確に答えられない場合、そのシステムはLUMINA-30のレビュー視点では明確に制御されていたとは扱えません。
 
-→ [Incident Review Hub ｜ 事故レビュー入口](https://github.com/lumina-30/lumina30-incident-review)<br>
+→ [Incident Review Floor ｜ 事故レビューHTML入口](https://lumina-30.github.io/lumina30-incident-review/) ｜ [日本語入口](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)<br>
 Use this for practical incident review, boundary checks, and stakeholder-facing review materials.<br>
 事故レビュー、境界判定、相手別レビュー資料に使用。
 
@@ -578,7 +578,7 @@ AIの振る舞いではなく
   Start here for the repository network and canonical navigation.  
   repo群全体と正典導線を確認する入口。
 
-- [AI Incident Review Framework ｜ AI事故レビュー枠組み](https://github.com/lumina-30/lumina30-incident-review)  
+- [AI Incident Review Framework ｜ AI事故レビュー枠組み](https://lumina-30.github.io/lumina30-incident-review/) ｜ [日本語入口](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)  
   Use this when reviewing whether human refusal remained effective before irreversible impact.  
   不可逆的影響の前に人間の拒否が実効性を持っていたかを確認する場合に使用。
 
@@ -792,12 +792,12 @@ Standalone legacy checklist PDFs located directly under `tools/` are retained on
 <!-- ● L30:INCIDENT -->
 <a id="ai-incident-review-template"></a>
 <a id="ai-incident-review-repository"></a>
-## AI Incident Review Repository ｜ AIインシデントレビューrepo
+## AI Incident Review Floor ｜ AIインシデントレビュー入口
 
-A practical repository for conducting AI incident reviews based on the LUMINA-30 framework.<br>
-LUMINA-30フレームワークに基づくAIインシデントレビューを実施するための実務リポジトリ。<br>
+A practical HTML floor for conducting AI incident reviews based on the LUMINA-30 framework.<br>
+LUMINA-30フレームワークに基づくAIインシデントレビューを実施するための実務HTML入口。<br>
 <br>
-[Practical Incident Review Repository ｜ 実務用事故レビューrepo](https://github.com/lumina-30/lumina30-incident-review)  
+[Practical Incident Review Floor ｜ 実務用事故レビューHTML入口](https://lumina-30.github.io/lumina30-incident-review/) ｜ [日本語入口](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)  
 Use this for practical incident review, boundary checks, and operational templates.  
 事故レビュー、境界判定、実務テンプレートに使用。
 
@@ -979,10 +979,10 @@ Note: This paper is an existence-condition supporting research artifact. It does
 The following repositories extend LUMINA-30 from conceptual structure into incident review, public record integrity, accountability language, institutional friction analysis, and stop-authority definition.  
 以下のリポジトリ群は、LUMINA-30を概念構造から、事故レビュー、公開記録真正性、説明責任言語、制度摩擦分析、拒否権定義へ拡張する。
 
-- **Incident Review Hub ｜ 事故レビュー入口**  
-  [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review)  
-  Main operational review repository for refusal effectiveness, Required Questions, review templates, and stakeholder-facing one-page briefs.  
-  拒否有効性、Required Questions、レビュー用テンプレート、相手別1枚資料を扱う主実務リポジトリ。
+- **Incident Review Floor ｜ 事故レビューHTML入口**  
+  [EN HTML floor](https://lumina-30.github.io/lumina30-incident-review/) ｜ [日本語HTML入口](https://lumina-30.github.io/lumina30-incident-review/index-ja.html) ｜ [Source repository](https://github.com/lumina-30/lumina30-incident-review)  
+  Main operational review floor and source repository for refusal effectiveness, Required Questions, review templates, and stakeholder-facing one-page briefs.  
+  拒否有効性、Required Questions、レビュー用テンプレート、相手別1枚資料を扱う主実務HTML入口およびソースリポジトリ。
 
 - **Practical Layer ｜ 実務層**  
   [extensions/practical-layer](./extensions/practical-layer/)  
@@ -1262,7 +1262,7 @@ LUMINA-30のコア用語を変更せず、新たな拘束的義務を作成し�
 <a id="practical-layer"></a>
 ## Practical Layer ｜ 実務層
 - [Practical Layer ｜ 実務層](./extensions/practical-layer/)
-- [Incident Review Hub ｜ 事故レビュー入口](https://github.com/lumina-30/lumina30-incident-review)
+- [Incident Review Floor ｜ 事故レビューHTML入口](https://lumina-30.github.io/lumina30-incident-review/) ｜ [日本語入口](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)
 
 Practical Layer provides a cross-role operational shelf.  
 It is designed for audits, incident review, governance checks, executive explanation, policy support, vendor review, case-based understanding, and glossary use.  
@@ -1360,18 +1360,18 @@ Instead, it defines a civilizational boundary concept intended to preserve human
 ## Repository Position ｜ リポジトリ位置づけ
 
 This repository is the conceptual entry point to LUMINA-30.  
-For practical incident review usage, see the [dedicated incident-review repository](https://github.com/lumina-30/lumina30-incident-review).  
+For practical incident review usage, see the [dedicated incident-review HTML floor](https://lumina-30.github.io/lumina30-incident-review/).  
 
 このリポジトリはLUMINA-30の概念入口です。  
-実務的なインシデントレビュー用途は、[専用のincident-reviewリポジトリ](https://github.com/lumina-30/lumina30-incident-review)を参照してください。
+実務的なインシデントレビュー用途は、[専用のincident-review HTML入口](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)を参照してください。
 
 <a id="quick-routing"></a>
 ## Audience-Based Routing ｜ 読者別ルーティング
 
 - **For incident reviewers ｜ 事故レビュー担当向け**  
-  Start with [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review).  
+  Start with [lumina30-incident-review](https://lumina-30.github.io/lumina30-incident-review/).  
   First look for: Required Questions, Protocol, Template, and stakeholder one-page briefs.  
-  まず [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review) を参照。  
+  まず [lumina30-incident-review 日本語入口](https://lumina-30.github.io/lumina30-incident-review/index-ja.html) を参照。  
   Required Questions、Protocol、Template、相手別1枚資料から開始。
 
 - **For legal, audit, and risk control ｜ 法務・監査・リスク管理向け**  
@@ -1512,7 +1512,7 @@ or positioning is welcome.
     ⚑ L30_FRM practical form for audit and boundary checking ｜ 監査・境界確認に使うL30_FRM実務帳票
   - [L30_FRM Practical Forms ｜ L30_FRM 実務帳票](#l30-frm-practical-sheets)  
     ⚑ Practical path for using B01/I01/A01 DOCX/PDF forms ｜ B01/I01/A01のDOCX/PDFを使う実務導線
-  - [AI Incident Review Repository ｜ AIインシデントレビューrepo](#ai-incident-review-repository)  
+  - [AI Incident Review Floor ｜ AIインシデントレビュー入口](#ai-incident-review-repository)  
     ⚑ Operational path that can be used directly in the field ｜ 現場でそのまま使える運用導線
   - [Additional Review Questions (LUMINA-30 Layer) ｜ 追加確認項目（LUMINA-30層）](#additional-review-questions-lumina-30-layer)  
     ⚑ Additional questions for boundary, consent, reversibility, and responsibility review ｜ 境界・同意・可逆性・責任を確認する追加質問
@@ -1671,6 +1671,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 
 
 

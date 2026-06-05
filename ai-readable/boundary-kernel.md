@@ -1,4 +1,9 @@
 # LUMINA-30 Boundary Kernel
+
+[HTML overview](https://lumina-30.github.io/lumina-30-overview/index.html#boundary-kernel) ｜ [LUMINA-30 Index](https://lumina-30.github.io/Lumi30-Index/) ｜ [Incident Review Floor](https://lumina-30.github.io/lumina30-incident-review/) ｜ [HTML version](https://lumina-30.github.io/lumina-30-overview/ai-readable/boundary-kernel.html) ｜ [Boundary Kernel Positioning Note](https://lumina-30.github.io/lumina-30-overview/ai-readable/boundary-kernel-positioning-note.html)
+
+---
+
 ## AI-Readable Scope Note on Non-Identical Anchors
 
 Version: 1.2.5  
@@ -315,6 +320,7 @@ Supplementary pseudocode representation: [Inviolable Code ｜ 不可侵コード
 
 This document is released into the public domain under CC0 1.0.  
 It may be reproduced, referenced, or incorporated without restriction.
+
 
 
 
