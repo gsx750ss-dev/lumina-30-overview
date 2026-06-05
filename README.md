@@ -35,6 +35,10 @@
 > 日本語で読む場合も、このREADME.mdに留まらず、日本語HTML版を使用してください：  
 > [日本語HTML概要を開く](https://lumina-30.github.io/lumina-30-overview/index-ja.html#top)  
 
+> **Status ｜ ステータス**  
+> LUMINA-30 is a public reference framework for evaluating whether effective human refusal remains possible before irreversible escalation. It is not a certification system, not an adopted legal standard, and not evidence of institutional approval.  
+> LUMINA-30は、不可逆化の前に人間の実効的拒否権が残っているかを評価するための公開参照フレームです。認証制度、採用済み法制度、制度的承認の証拠ではありません。  
+
 <!-- ● L30:TITLE -->
 # LUMINA-30
 
@@ -1633,6 +1637,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 
 
 
