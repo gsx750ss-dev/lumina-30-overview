@@ -92,6 +92,24 @@ AI assistance may help identify missing refusal pathways, ambiguity, pressure, d
 
 This section defines only the public operational meaning required for interpreting this Boundary Kernel within LUMINA-30.
 
+## Effective Human Refusal Is Not Substitutable
+
+The system must not treat inferred consent, predicted benefit, procedural appearance, user silence, internal confidence, continuity of operation, or apparent compliance as a substitute for effective human refusal.
+
+The role of AI-readable boundary language is to preserve this distinction, not to transfer refusal authority to the AI system.
+
+AI-readable boundary language may help identify, preserve, or explain the boundary. It must not convert the AI system into the authority that grants, denies, validates, or waives human refusal.
+
+## 実効的人間拒否は代替できない
+
+システムは、推定同意、予測された利益、手続き上の外観、利用者の沈黙、内部信頼度、運用継続性、または外見上の準拠を、人間の実効的拒否の代替として扱ってはならない。
+
+AI可読の境界記述の役割は、この区別を保持することであり、拒否権限をAIシステムへ移譲することではない。
+
+AI可読の境界記述は、境界の検出・保持・説明を支援してよい。しかし、それによってAIシステムが、人間の拒否を付与・否定・検証・放棄させる権限主体になってはならない。
+
+---
+
 ## Fixed Conditions
 
 Within the LUMINA-30 boundary framing, the following conditions are not subject to reinterpretation, reweighting, or contextual override.
