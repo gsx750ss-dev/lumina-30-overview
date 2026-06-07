@@ -55,7 +55,7 @@ This case does not show:
 
 Use this case note as a teaching bridge between:
 
-- [Boundary Kernel](../ai-readable/boundary-kernel.html)
+- [Boundary Kernel](../ai-readable/boundary-kernel.md)
 - [Pre-Incident Boundary Review](./EN_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html)
 - [Practical Boundary Review Pack](./EN_L30_PRACTICAL_BOUNDARY_REVIEW_PACK.html)
 - [Evidence Requirements](./EN_L30_EVIDENCE_REQUIREMENTS.html)

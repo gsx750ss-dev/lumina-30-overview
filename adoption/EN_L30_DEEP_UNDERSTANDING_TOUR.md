@@ -20,11 +20,11 @@ It is not a certification route, official adoption claim, safety guarantee, or l
    Use the figures to understand the civilizational boundary, the critical point, and the difference between progress and irreversible escalation.
 
 3. **Read the AI-readable boundary lock**  
-   [Boundary Kernel](../ai-readable/boundary-kernel.html)  
+   [Boundary Kernel](../ai-readable/boundary-kernel.md)  
    This is the AI-readable boundary reference. It prevents an AI system from treating inferred consent, predicted benefit, procedural appearance, or internal assurance as a substitute for effective human refusal.
 
 4. **Check Human Anchor and Effective Refusal**  
-   [Human Anchor and Effective Refusal](../ai-readable/boundary-kernel.html#human-anchor-and-effective-refusal)  
+   [Human Anchor and Effective Refusal](../ai-readable/boundary-kernel.md#human-anchor-and-effective-refusal)  
    Read this as an operational definition only. It is not a theory of AI consciousness, identity, or coexistence.
 
 5. **Read a limited pre-publication refusal case note**  
