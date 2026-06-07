@@ -43,4 +43,4 @@ Record the following before proceeding:
 
 This sheet is a practical pre-incident entry point. For post-incident analysis, use the incident review materials. For AI-readable non-substitution constraints, use the Boundary Kernel. For the external reference condition preventing AI from replacing refusal, see Human Anchor and Effective Refusal in the Boundary Kernel.
 
-Detailed extension note: [Pre-Incident Boundary Review Extension](../reference/Pre_Incident_Boundary_Review_Extension.md).
+Detailed extension note: [Pre-Incident Boundary Review Extension](https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/Pre_Incident_Boundary_Review_Extension.md).
