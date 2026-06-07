@@ -57,10 +57,10 @@ LUMINA-30 実務境界レビュー
 ## 既存ツールとの併用
 
 - [事故前境界レビュー — 1ページ実務シート](./JP_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html)
-- [境界レビューフロア](../reference/boundary-review-floor/index-ja.html)
-- [最小境界レビュー導入パック](./minimum-boundary-review-adoption-pack.html)
-- [最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.html)
-- [インシデントレビューrepo](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)
+- [境界レビューフロア](../reference/boundary-review-floor/index.md)
+- [最小境界レビュー導入パック](./minimum-boundary-review-adoption-pack.md)
+- [最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.md)
+- [インシデントレビューrepo](https://github.com/lumina-30/lumina30-incident-review/blob/main/README.md)
 - [導入要望と回答](./JP_L30_ADOPTION_REQUESTS_AND_RESPONSES.html)
 - [想定される疑問・批判と回答](./JP_L30_EXPECTED_QUESTIONS_OBJECTIONS_AND_RESPONSES.html)
 

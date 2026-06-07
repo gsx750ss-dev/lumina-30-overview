@@ -55,7 +55,7 @@ LUMINA-30を次のように使ってはいけません。
 - [事故前境界レビュー — 1ページ実務シート](./JP_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html)
 - [導入要望と回答](./JP_L30_ADOPTION_REQUESTS_AND_RESPONSES.html)
 - [想定される疑問・批判と回答](./JP_L30_EXPECTED_QUESTIONS_OBJECTIONS_AND_RESPONSES.html)
-- [最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.html)
+- [最小境界レビュー外部接続表](./minimum-boundary-review-external-crosswalk.md)
 
 ## 短い要約
 

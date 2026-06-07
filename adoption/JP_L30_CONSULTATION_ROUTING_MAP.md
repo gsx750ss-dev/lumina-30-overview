@@ -65,7 +65,7 @@ AI支援の限界：
 - [制度的採用への道筋](./JP_L30_INSTITUTIONAL_ADOPTION_PATH.html)
 - [導入要望と回答](./JP_L30_ADOPTION_REQUESTS_AND_RESPONSES.html)
 - [想定される疑問・批判と回答](./JP_L30_EXPECTED_QUESTIONS_OBJECTIONS_AND_RESPONSES.html)
-- [AIインシデントレビュー](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)
+- [AIインシデントレビュー](https://github.com/lumina-30/lumina30-incident-review/blob/main/README.md)
 
 ## ガードレール
 

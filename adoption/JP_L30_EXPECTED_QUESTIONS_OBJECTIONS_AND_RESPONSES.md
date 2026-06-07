@@ -87,6 +87,6 @@ LUMINA-30だけで強い主体を物理的に止められるとは主張しま�
 ## 関連ページ
 
 - [導入要望と回答](./JP_L30_ADOPTION_REQUESTS_AND_RESPONSES.html)
-- [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.html)
+- [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.md)
 - [Boundary Kernel](../ai-readable/boundary-kernel.html)
 

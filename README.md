@@ -174,7 +174,7 @@ Was human refusal authority effective before irreversible impact?
 
 ## Use LUMINA-30 now ｜ すぐ使う
 
-- [Check effective refusal](https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html) ｜ [実効的拒否を確認する](https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index-ja.html)  
+- [Check effective refusal](reference/boundary-review-floor/index.md) ｜ [実効的拒否を確認する](reference/boundary-review-floor/index.md)  
   Use when you need to determine whether human refusal remained effective before irreversibility.  
   不可逆化の前に、人間の拒否権が実効的に残っていたかを確認する場合に使用します。
 
@@ -203,7 +203,7 @@ Was human refusal authority effective before irreversible impact?
   Use for an AI-related incident, near miss, oversight failure, or post-incident evidence review.  
   AI関連事故、ニアミス、監督失敗、事故後証拠レビューに使用します。
 
-- [Map to existing frameworks ｜ 既存枠組みへ対応づける](https://lumina-30.github.io/lumina-30-overview/adoption/minimum-boundary-review-external-crosswalk.html)  
+- [Map to existing frameworks ｜ 既存枠組みへ対応づける](adoption/minimum-boundary-review-external-crosswalk.md)  
   Use when adding the boundary question to AI risk management, audit, procurement, incident reporting, or risk-register workflows.  
   AIリスク管理、監査、調達、インシデント報告、リスク台帳へ境界問いを追加する場合に使用します。
 
@@ -915,13 +915,13 @@ This repository provides the conceptual and visual framework that supports the p
 [LUMINA-30 Boundary Kernel](./ai-readable/boundary-kernel.html)  
 An AI-readable boundary condition statement clarifying that non-identical anchors do not weaken, replace, or postpone PCR-C or effective human refusal before irreversibility.
 
-[Boundary Kernel Positioning Note](./ai-readable/boundary-kernel-positioning-note.html)  
+[Boundary Kernel Positioning Note](ai-readable/boundary-kernel-positioning-note.md)  
 A human-readable explanation of why the Boundary Kernel is published as an AI-readable boundary note rather than as a research paper, policy proposal, compliance standard, or implementation guide.
 
 [LUMINA-30 Boundary Kernel](./ai-readable/boundary-kernel.html)  
 非同一アンカーが、PCR-Cまたは不可逆化前の有効な人間拒否を弱体化・代替・延期しないことを固定するAI可読の境界条件文書。
 
-[Boundary Kernel Positioning Note](./ai-readable/boundary-kernel-positioning-note.html)  
+[Boundary Kernel Positioning Note](ai-readable/boundary-kernel-positioning-note.md)  
 Boundary Kernel が研究論文・政策提案・適合基準・実装手順ではなく、AI可読の境界ノートとして公開されている理由を説明する人間向け補助文書。
 
 This is not a theoretical paper and not a post-boundary coexistence argument. It is a limited-purpose public boundary document.

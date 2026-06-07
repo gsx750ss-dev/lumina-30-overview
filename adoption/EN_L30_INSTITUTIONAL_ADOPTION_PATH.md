@@ -55,7 +55,7 @@ Do not use LUMINA-30 as:
 - [Pre-Incident Boundary Review — One-Page Practical Sheet](./EN_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html)
 - [Adoption Requests and Responses](./EN_L30_ADOPTION_REQUESTS_AND_RESPONSES.html)
 - [Expected Questions, Objections, and Responses](./EN_L30_EXPECTED_QUESTIONS_OBJECTIONS_AND_RESPONSES.html)
-- [Minimum Boundary Review External Crosswalk](./minimum-boundary-review-external-crosswalk.html)
+- [Minimum Boundary Review External Crosswalk](./minimum-boundary-review-external-crosswalk.md)
 
 ## Plain-language summary
 

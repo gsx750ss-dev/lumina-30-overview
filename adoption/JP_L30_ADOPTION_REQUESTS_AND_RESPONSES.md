@@ -88,6 +88,6 @@ LUMINA-30は中央規制機関ではなく、公開境界フレームワーク�
 
 ## 関連ページ
 
-- [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.html)
-- [Minimum Boundary Review External Crosswalk](./minimum-boundary-review-external-crosswalk.html)
+- [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.md)
+- [Minimum Boundary Review External Crosswalk](./minimum-boundary-review-external-crosswalk.md)
 - [想定される疑問・批判と回答](./JP_L30_EXPECTED_QUESTIONS_OBJECTIONS_AND_RESPONSES.html)

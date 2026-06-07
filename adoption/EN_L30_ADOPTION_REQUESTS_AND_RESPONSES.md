@@ -88,6 +88,6 @@ Then map the result to the relevant audit, risk, incident, procurement, or gover
 
 ## Related pages
 
-- [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.html)
-- [Minimum Boundary Review External Crosswalk](./minimum-boundary-review-external-crosswalk.html)
+- [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.md)
+- [Minimum Boundary Review External Crosswalk](./minimum-boundary-review-external-crosswalk.md)
 - [Expected Questions, Objections, and Responses](./EN_L30_EXPECTED_QUESTIONS_OBJECTIONS_AND_RESPONSES.html)

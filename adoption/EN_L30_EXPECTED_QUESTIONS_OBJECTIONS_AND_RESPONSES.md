@@ -87,6 +87,6 @@ Institutional adoption, legal integration, certification rules, and enforcement 
 ## Related pages
 
 - [Adoption Requests and Responses](./EN_L30_ADOPTION_REQUESTS_AND_RESPONSES.html)
-- [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.html)
+- [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.md)
 - [Boundary Kernel](../ai-readable/boundary-kernel.html)
 

@@ -57,9 +57,9 @@ Date:
 ## Use with existing tools
 
 - [Pre-Incident Boundary Review — One-Page Practical Sheet](./EN_L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.html)
-- [Boundary Review Floor](../reference/boundary-review-floor/index.html)
-- [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.html)
-- [Minimum Boundary Review External Crosswalk](./minimum-boundary-review-external-crosswalk.html)
+- [Boundary Review Floor](../reference/boundary-review-floor/index.md)
+- [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.md)
+- [Minimum Boundary Review External Crosswalk](./minimum-boundary-review-external-crosswalk.md)
 - [Incident Review repository](https://lumina-30.github.io/lumina30-incident-review/)
 - [Adoption Requests and Responses](./EN_L30_ADOPTION_REQUESTS_AND_RESPONSES.html)
 - [Expected Questions, Objections, and Responses](./EN_L30_EXPECTED_QUESTIONS_OBJECTIONS_AND_RESPONSES.html)
