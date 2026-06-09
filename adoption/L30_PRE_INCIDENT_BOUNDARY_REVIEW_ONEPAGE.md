@@ -51,7 +51,7 @@ Record the following before proceeding:
 
 ### Relation to other LUMINA-30 materials
 
-This sheet is a practical pre-incident entry point. For post-incident analysis, use the incident review materials. For AI-readable non-substitution constraints, use the Boundary Kernel. For the external reference condition preventing AI from replacing refusal, see Human Anchor and Effective Refusal in the Boundary Kernel.
+This sheet is a practical pre-incident entry point. For a staged package that starts with a one-question pilot and expands to light PCR-C review and deeper implementation modules, use the [Pre-Incident Boundary Review Starter Pack](../tools/pre-incident-boundary-review/en/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.html). For post-incident analysis, use the incident review materials. For AI-readable non-substitution constraints, use the Boundary Kernel. For the external reference condition preventing AI from replacing refusal, see Human Anchor and Effective Refusal in the Boundary Kernel.
 
 Detailed extension note: [Pre-Incident Boundary Review Extension](https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/Pre_Incident_Boundary_Review_Extension.md).
 
@@ -103,6 +103,7 @@ AI関連の公開、導入、能力露出、インフラ接続、不可逆的な
 
 ### 他のLUMINA-30資料との関係
 
-このシートは、事故前に使う実務入口です。事故後分析にはインシデントレビュー資料を使います。AI可読の非代替条件には Boundary Kernel を使います。AIが拒否を代替しないための外部参照条件については、Boundary Kernel の Human Anchor and Effective Refusal を参照してください。
+このシートは、事故前に使う実務入口です。1問パイロットから始め、軽量PCR-C確認、必要時の深層実装モジュールへ進む段階導入型の資料として、[事前境界レビュー・スターターパック](../tools/pre-incident-boundary-review/ja/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_JA.html)を使用できます。事故後分析にはインシデントレビュー資料を使います。AI可読の非代替条件には Boundary Kernel を使います。AIが拒否を代替しないための外部参照条件については、Boundary Kernel の Human Anchor and Effective Refusal を参照してください。
 
 詳細ノート：[Pre-Incident Boundary Review Extension](https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/Pre_Incident_Boundary_Review_Extension.md)。
+

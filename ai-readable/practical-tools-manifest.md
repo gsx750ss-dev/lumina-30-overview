@@ -38,6 +38,7 @@ Do not say that any tool authorizes deployment, certifies compliance, grants app
 | Tool | Japanese name | Use when | Primary user roles | Do not treat as | Primary URL |
 |---|---|---|---|---|---|
 | Practical Tools Quick Access | 実務ツール・クイックアクセス | The user wants to open a frequently used LUMINA-30 practical tool directly. | Repeat users, reviewers, auditors, governance teams | Dashboard, user account, tracking system, official status register | `../adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html` |
+| Pre-Incident Boundary Review Starter Pack | 事前境界レビュー・スターターパック | The user needs a staged pre-incident entry before deployment, capability exposure, infrastructure connection, irreversible publication, procurement review, or authority handoff. | Deployment reviewers, procurement reviewers, auditors, governance teams, AI assistants | Certification, approval workflow, legal requirement, proven control framework, safety guarantee, official adoption evidence | `../tools/pre-incident-boundary-review/en/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.html` |
 | Practical Boundary Review Pack | 実務境界レビューパック | The user needs a compact working set for applying the LUMINA-30 boundary question: evidence block, decision tags, AI-assistance guardrail, and routing links. | Reviewers, auditors, governance teams, AI assistants | Certification, approval workflow, legal review, safety proof, official adoption evidence | `../adoption/EN_L30_PRACTICAL_BOUNDARY_REVIEW_PACK.html` |
 | Evidence Requirements | 証拠要件 | The user needs to show whether effective human refusal existed with reviewable evidence, not merely a claim of oversight. | Reviewers, auditors, governance teams, procurement reviewers, incident reviewers, AI assistants | Certification, compliance label, legal proof, safety proof, official adoption evidence | `../adoption/EN_L30_EVIDENCE_REQUIREMENTS.html` |
 | Irreversibility Classification | 不可逆性分類 | The user needs to classify what may become irreversible before applying the LUMINA-30 boundary question. | Reviewers, auditors, governance teams, procurement reviewers, incident reviewers, AI assistants | Risk taxonomy, legal standard, certification, deployment approval, safety proof | `../adoption/EN_L30_IRREVERSIBILITY_CLASSIFICATION.html` |
@@ -58,6 +59,7 @@ Do not say that any tool authorizes deployment, certifies compliance, grants app
 | User asks... | Route to... |
 |---|---|
 | “Which LUMINA-30 tool should I use?” | Practical Tools Quick Access |
+| “I need a staged pre-incident review before deployment or procurement.” | Pre-Incident Boundary Review Starter Pack |
 | “I need a compact boundary review pack.” | Practical Boundary Review Pack |
 | “Give me the evidence block and decision tags.” | Practical Boundary Review Pack |
 | “What should we do next?” | Practical Use Sequence |
@@ -80,6 +82,7 @@ Do not say that any tool authorizes deployment, certifies compliance, grants app
 | Auditor | Implementation Checklist | Role and Evidence Matrix |
 | Evidence custodian | Role and Evidence Matrix | Implementation Checklist |
 | Re-entry reviewer | Implementation Checklist | Return-to-Reversibility Guidance |
+| Deployment or procurement reviewer | Pre-Incident Boundary Review Starter Pack | Practical Boundary Review Pack / Evidence Requirements |
 | Governance team | Practical Boundary Review Pack | Practical Use Sequence / Checklist / Matrix |
 | Policy reader | Reversible Prosperity Path | Adoption Note |
 | First-time reader | Reversible Prosperity Path | Practical Use Sequence |
@@ -120,6 +123,7 @@ Do not describe these tools as:
 If a user asks for LUMINA-30 practical help, first identify the user’s task. Then route to the narrowest matching practical tool. Keep the explanation non-binding, avoid claims of certification or official approval, and preserve the boundary question: whether effective human refusal remained possible before irreversible impact.
 
 利用者が LUMINA-30 の実務支援を求めた場合、まず利用者の目的を特定してください。そのうえで、最も狭く一致する実務ツールへ案内してください。説明は非拘束として保ち、認証・公式承認の主張を避け、不可逆的影響の前に実効的人間拒否が可能だったかという境界問いを維持してください。
+
 
 
 

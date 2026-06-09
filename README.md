@@ -182,6 +182,10 @@ Was human refusal authority effective before irreversible impact?
   Use before release, deployment, capability exposure, infrastructure connection, irreversible publication, or authority handoff.  
   公開、導入、能力露出、インフラ接続、不可逆的な公開、権限移譲の前に使用します。
 
+- [Pre-Incident Boundary Review Starter Pack](https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.html) ｜ [事前境界レビュー・スターターパック](https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/ja/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_JA.html)  
+  Use when you need a staged introduction: one-question pilot, light PCR-C review, and deeper implementation modules without replacing existing governance.  
+  既存ガバナンスを置き換えず、1問パイロット、軽量PCR-C確認、必要時の深層実装へ段階導入する場合に使用します。
+
 - [Practical Boundary Review Pack](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_PRACTICAL_BOUNDARY_REVIEW_PACK.html) ｜ [実務境界レビューパック](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_PRACTICAL_BOUNDARY_REVIEW_PACK.html)  
   Use when you need a compact working set: the boundary question, evidence block, decision tags, AI-assistance guardrail, and routing links.  
   境界問い、証拠欄、判定タグ、AI支援の境界、関連ツール導線をまとめて使う場合に使用します。
@@ -1671,6 +1675,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
 
 
 [⬆ TOP](#top) ｜ [➡︎ Index](#index) ｜ [➡︎ Section Jump](#quick-section-jump)
+
 
 
 

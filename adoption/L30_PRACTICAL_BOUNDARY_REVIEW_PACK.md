@@ -66,6 +66,7 @@ Date:
 
 ### Use with existing tools
 
+- [Pre-Incident Boundary Review Starter Pack](../tools/pre-incident-boundary-review/en/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.html)
 - [Pre-Incident Boundary Review — One-Page Practical Sheet](L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.md)
 - [Boundary Review Floor](../reference/boundary-review-floor/index.md)
 - [Minimum Boundary Review Adoption Pack](./minimum-boundary-review-adoption-pack.md)
@@ -137,6 +138,7 @@ LUMINA-30 実務境界レビュー
 
 ### 既存ツールとの併用
 
+- [事前境界レビュー・スターターパック](../tools/pre-incident-boundary-review/ja/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_JA.html)
 - [事故前境界レビュー — 1ページ実務シート](L30_PRE_INCIDENT_BOUNDARY_REVIEW_ONEPAGE.md)
 - [境界レビューフロア](../reference/boundary-review-floor/index-ja.html)
 - [最小境界レビュー導入パック](minimum-boundary-review-adoption-pack.md)
@@ -148,3 +150,4 @@ LUMINA-30 実務境界レビュー
 ### 誤用防止
 
 このパックを、システムが安全・準拠・承認済み・認証済み・支持済み・公式採用済みである証拠として説明してはいけません。記入済みのパックはレビュー記録にすぎません。専門領域のレビューや、人間の実効的拒否そのものを代替しません。
+
