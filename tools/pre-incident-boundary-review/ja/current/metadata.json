@@ -1,0 +1,31 @@
+{
+  "title": "LUMINA-30 事前境界レビュー・スターターパック 段階導入版",
+  "version": "v0.1-r1",
+  "date": "2026-06-09",
+  "status": "Draft candidate / 段階導入版候補",
+  "language": "ja",
+  "claims": {
+    "is_official_standard": false,
+    "is_certification": false,
+    "is_legal_requirement": false,
+    "is_proven_control_framework": false
+  },
+  "intended_use": [
+    "pre-incident boundary review",
+    "PCR-C pilot review aid",
+    "existing governance add-on",
+    "AI procurement and deployment review"
+  ],
+  "core_conditions": [
+    "pre-irreversibility effective human refusal",
+    "accountable human authority",
+    "no AI self-certification",
+    "non-reduction of core condition",
+    "evidence of suspend/redirect/rollback capability"
+  ],
+  "adoption_levels": {
+    "Level 1": "One-Question Pilot",
+    "Level 2": "Light PCR-C Review",
+    "Level 3": "Full Implementation Modules"
+  }
+}
