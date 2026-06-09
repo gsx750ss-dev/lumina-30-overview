@@ -1,0 +1,27 @@
+{
+  "title": "LUMINA-30 Pre-Incident Boundary Review Starter Pack - Staged Adoption Edition",
+  "version": "v0.1-r1",
+  "release_date": "2026-06-09",
+  "status": "Draft candidate / staged adoption edition candidate",
+  "language": "en",
+  "path_role": "current/archive/source",
+  "official_standard": false,
+  "certification_scheme": false,
+  "legal_requirement": false,
+  "safety_guarantee": false,
+  "core_conditions": [
+    "PCR-C / pre-critical cutoff check",
+    "effective human refusal before irreversibility",
+    "accountable human authority",
+    "no AI self-certification",
+    "non-reduction of the core condition",
+    "evidence of stop, hold, redirect, or rollback capability"
+  ],
+  "staged_adoption_levels": [
+    "Level 0",
+    "Level 1",
+    "Level 2",
+    "Level 3"
+  ],
+  "canonical_note": "This pack is a practical review aid and not an official standard, certification, legal requirement, or safety guarantee."
+}
