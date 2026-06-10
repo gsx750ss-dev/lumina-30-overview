@@ -9,6 +9,9 @@ This folder contains the English staged-adoption version of the LUMINA-30 Pre-In
 - `current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.md`
 - `current/AI_SEARCH_SUMMARY_EN.txt`
 - `current/metadata.json`
+- `current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.md`
+- `current/BOUNDARY_GAP_RESPONSE_SHEET_EN.md`
+- `current/PUBLIC_BOUNDARY_CHECK_STATEMENT_KIT_EN.md`
 
 ## Status
 
@@ -16,6 +19,13 @@ Version: v0.1-r1
 Release date: 2026-06-09  
 Status: Draft candidate / staged adoption edition candidate  
 Language: English
+
+
+## Next tools
+
+Use the Effective Human Refusal Decision Guide to classify YES / NO / UNKNOWN in a pre-boundary review.  
+If NO or UNKNOWN is found, use the Boundary Gap Response Sheet to record the interim measure, responsible owner, and review deadline.  
+For public explanation, use the Public Boundary Check Statement Kit.
 
 ## Important note
 
@@ -31,3 +41,4 @@ Before an AI-mediated process becomes irreversible, accountable humans must stil
 - `archive/v0.1-r1/` preserves this release for audit, citation, and review traceability.
 - `source/` contains generation source copies.
 - `SHA256SUMS.txt` records hashes for all files except itself.
+

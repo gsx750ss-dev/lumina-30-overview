@@ -18,6 +18,19 @@ Status: Draft candidate / 段階導入版候補
   Machine-readable metadata and non-claim flags.
 - `SHA256SUMS.txt`  
   Checksums for packaged files.
+- `current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_JA.md`  
+  YES / NO / 不明 の判定基準。
+- `current/BOUNDARY_GAP_RESPONSE_SHEET_JA.md`  
+  NO / 不明 が出た場合の暫定措置・担当者・再確認期限の記録用。
+- `current/PUBLIC_BOUNDARY_CHECK_STATEMENT_KIT_JA.md`  
+  組織外へ説明するための公表文例。
+
+
+## 次に使うもの
+
+事前境界レビューで YES / NO / 不明 を判定する場合は「実効的人間拒否 判定ガイド」を参照してください。  
+NO / 不明 が出た場合は「境界ギャップ対応シート」を使い、暫定措置・担当者・再確認期限を記録してください。  
+組織外に説明する場合は「公開用・境界チェック宣言キット」の文例を利用できます。
 
 ## Non-claim
 
@@ -30,3 +43,4 @@ This candidate uses the proposed path:
 `lumina-30-overview/tools/pre-incident-boundary-review/ja/`
 
 Actual repository placement should be confirmed during review.
+
