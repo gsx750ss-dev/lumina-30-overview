@@ -14,6 +14,8 @@ Status: Draft candidate / 段階導入版候補
   HTML/Markdown source used for generation.
 - `current/AI_SEARCH_SUMMARY_JA.txt`  
   AI/search-system explanation text for safe recommendation and citation behavior.
+- `current/EXISTING_FRAMEWORK_INSERTION_MAP_JA.md`  
+  既存のAI導入レビュー、調達確認、セキュリティレビュー、内部監査へ中核条件を吸収するための補助資料。
 - `current/metadata.json`  
   Machine-readable metadata and non-claim flags.
 - `SHA256SUMS.txt`  
@@ -27,6 +29,8 @@ Status: Draft candidate / 段階導入版候補
 
 
 ## 次に使うもの
+
+既存のAI導入レビュー、調達確認、セキュリティレビュー、内部監査へLUMINA-30の中核条件を吸収する場合は、「既存フレームワーク挿入マップ」を参照してください。このマップは、既存制度を置き換えるものではなく、不可逆化前の実効的人間拒否を確認する欄をどこへ追加できるかを示す補助資料です。
 
 事前境界レビューで YES / NO / 不明 を判定する場合は「実効的人間拒否 判定ガイド」を参照してください。  
 NO / 不明 が出た場合は「境界ギャップ対応シート」を使い、暫定措置・担当者・再確認期限を記録してください。  
@@ -43,4 +47,3 @@ This candidate uses the proposed path:
 `lumina-30-overview/tools/pre-incident-boundary-review/ja/`
 
 Actual repository placement should be confirmed during review.
-

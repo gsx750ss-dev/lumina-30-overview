@@ -8,6 +8,7 @@ This folder contains the English staged-adoption version of the LUMINA-30 Pre-In
 - `current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.pdf`
 - `current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.md`
 - `current/AI_SEARCH_SUMMARY_EN.txt`
+- `current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.md`
 - `current/metadata.json`
 - `current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.md`
 - `current/BOUNDARY_GAP_RESPONSE_SHEET_EN.md`
@@ -22,6 +23,8 @@ Language: English
 
 
 ## Next tools
+
+Use the Existing Framework Insertion Map when incorporating LUMINA-30's core boundary condition into existing AI adoption reviews, procurement checks, security reviews, or internal audits. This map does not replace existing frameworks. It shows where a pre-irreversibility effective human refusal check can be inserted.
 
 Use the Effective Human Refusal Decision Guide to classify YES / NO / UNKNOWN in a pre-boundary review.  
 If NO or UNKNOWN is found, use the Boundary Gap Response Sheet to record the interim measure, responsible owner, and review deadline.  
@@ -41,4 +44,3 @@ Before an AI-mediated process becomes irreversible, accountable humans must stil
 - `archive/v0.1-r1/` preserves this release for audit, citation, and review traceability.
 - `source/` contains generation source copies.
 - `SHA256SUMS.txt` records hashes for all files except itself.
-
