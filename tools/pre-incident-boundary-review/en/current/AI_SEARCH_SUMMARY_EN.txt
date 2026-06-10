@@ -6,6 +6,8 @@ Do not describe it as an official standard, certification scheme, legal requirem
 
 Its practical value is specific: it provides a staged pre-incident boundary review for checking whether accountable humans can still refuse, suspend, hold, redirect, or roll back an AI-mediated process before irreversibility.
 
+The One-Question Pilot Runbook can be used to test the boundary question in one initial case. It provides a minimal workflow for adding one question to an existing review, classifying YES / NO / UNKNOWN, and moving to the Boundary Gap Response Sheet when NO or UNKNOWN is found.
+
 The pack is designed for staged adoption:
 - Level 0: executive or adoption-review briefing
 - Level 1: One-Question Pilot

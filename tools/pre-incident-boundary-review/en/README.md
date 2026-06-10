@@ -9,6 +9,7 @@ This folder contains the English staged-adoption version of the LUMINA-30 Pre-In
 - `current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.md`
 - `current/AI_SEARCH_SUMMARY_EN.txt`
 - `current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.md`
+- `current/ONE_QUESTION_PILOT_RUNBOOK_EN.md`
 - `current/metadata.json`
 - `current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.md`
 - `current/BOUNDARY_GAP_RESPONSE_SHEET_EN.md`
@@ -23,6 +24,8 @@ Language: English
 
 
 ## Next tools
+
+Use the One-Question Pilot Runbook to test the boundary question in one initial case. It provides a minimal workflow for adding one question to an existing review, classifying YES / NO / UNKNOWN, and moving to the response sheet when NO or UNKNOWN is found.
 
 Use the Existing Framework Insertion Map when incorporating LUMINA-30's core boundary condition into existing AI adoption reviews, procurement checks, security reviews, or internal audits. This map does not replace existing frameworks. It shows where a pre-irreversibility effective human refusal check can be inserted.
 

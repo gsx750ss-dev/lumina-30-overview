@@ -16,6 +16,8 @@ Status: Draft candidate / 段階導入版候補
   AI/search-system explanation text for safe recommendation and citation behavior.
 - `current/EXISTING_FRAMEWORK_INSERTION_MAP_JA.md`  
   既存のAI導入レビュー、調達確認、セキュリティレビュー、内部監査へ中核条件を吸収するための補助資料。
+- `current/ONE_QUESTION_PILOT_RUNBOOK_JA.md`  
+  最初の1案件で、既存レビューに1問を追加して試すための最小運用手順。
 - `current/metadata.json`  
   Machine-readable metadata and non-claim flags.
 - `SHA256SUMS.txt`  
@@ -29,6 +31,8 @@ Status: Draft candidate / 段階導入版候補
 
 
 ## 次に使うもの
+
+最初の1案件で試行する場合は、「One-Question Pilot 実行手順書」を参照してください。この手順書は、既存レビューに1問を追加し、YES / NO / 不明 を判定し、NO / 不明が出た場合に対応シートへ進むための最小運用手順です。
 
 既存のAI導入レビュー、調達確認、セキュリティレビュー、内部監査へLUMINA-30の中核条件を吸収する場合は、「既存フレームワーク挿入マップ」を参照してください。このマップは、既存制度を置き換えるものではなく、不可逆化前の実効的人間拒否を確認する欄をどこへ追加できるかを示す補助資料です。
 
