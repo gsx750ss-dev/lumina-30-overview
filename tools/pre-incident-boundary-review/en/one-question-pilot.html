@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>One-Question Pilot | LUMINA-30 Boundary Review</title>
+  <meta name="description" content="A 30–60 minute entry point for adding one effective human refusal question to an existing AI governance, procurement, security, or audit review.">
+  <meta property="og:title" content="One-Question Pilot | LUMINA-30 Boundary Review">
+  <meta property="og:description" content="Test whether a responsible human can still refuse, stop, or hold an AI-mediated process before it becomes irreversible.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/one-question-pilot.html">
+  <meta name="twitter:card" content="summary">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071019;
+      --panel: #0d1b2a;
+      --panel-2: #10263a;
+      --text: #edf6ff;
+      --muted: #bdd0df;
+      --line: rgba(173, 216, 255, 0.24);
+      --accent: #77d7ff;
+      --accent-2: #9cf0d0;
+      --warning: #ffd18a;
+      --shadow: rgba(0, 0, 0, 0.35);
+      --max: 1080px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 18px;
+      line-height: 1.65;
+    }
+
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-2); }
+
+    .wrap {
+      width: min(100% - 32px, var(--max));
+      margin: 0 auto;
+    }
+
+    header.hero {
+      padding: 48px 0 30px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #0a1825 0%, var(--bg) 100%);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      margin: 0 0 18px;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--accent-2);
+      background: rgba(156, 240, 208, 0.07);
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
+    h1, h2, h3 { line-height: 1.18; }
+
+    h1 {
+      max-width: 940px;
+      margin: 0;
+      font-size: clamp(2.15rem, 7vw, 4.55rem);
+      letter-spacing: -0.045em;
+    }
+
+    .lead {
+      max-width: 900px;
+      margin: 22px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.12rem, 2.3vw, 1.45rem);
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 11px 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #132b40;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 10px 30px var(--shadow);
+    }
+
+    .button.primary {
+      border-color: rgba(119, 215, 255, 0.55);
+      background: linear-gradient(135deg, #16496a 0%, #12344d 100%);
+    }
+
+    main { padding: 28px 0 52px; }
+
+    section {
+      margin-top: 24px;
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(13, 27, 42, 0.86);
+      box-shadow: 0 14px 40px var(--shadow);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: clamp(1.45rem, 3vw, 2rem);
+      letter-spacing: -0.02em;
+    }
+
+    p { margin: 12px 0 0; }
+
+    .question-box {
+      margin-top: 16px;
+      padding: 22px;
+      border: 1px solid rgba(119, 215, 255, 0.5);
+      border-radius: 18px;
+      background: rgba(119, 215, 255, 0.08);
+      color: #f8fcff;
+      font-size: clamp(1.1rem, 2.1vw, 1.34rem);
+      font-weight: 850;
+      line-height: 1.45;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+    .card {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(16, 38, 58, 0.74);
+    }
+
+    .card strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--text);
+      font-size: 1.03rem;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .doc-card {
+      display: block;
+      min-height: 100%;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(16, 38, 58, 0.74);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .doc-card:hover {
+      border-color: rgba(119, 215, 255, 0.68);
+      background: rgba(22, 73, 106, 0.55);
+    }
+
+    .doc-card span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.94rem;
+      overflow-wrap: anywhere;
+    }
+
+    .notice {
+      border-color: rgba(255, 209, 138, 0.45);
+      background: rgba(255, 209, 138, 0.08);
+    }
+
+    .notice strong { color: var(--warning); }
+
+    footer {
+      padding: 28px 0 46px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 18px;
+      margin-top: 12px;
+    }
+
+    .footer-links a {
+      display: inline-flex;
+      padding: 8px 0;
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+    }
+
+    @media (max-width: 820px) {
+      body { font-size: 17px; }
+      header.hero { padding-top: 34px; }
+      section { padding: 22px; }
+      .grid, .grid.two { grid-template-columns: 1fr; }
+      .button { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">LUMINA-30 boundary-review entry point</p>
+      <h1>Human oversight is not enough if no one can stop the process in time.</h1>
+      <p class="lead">The One-Question Pilot helps AI governance, procurement, security, and audit teams test whether a responsible human can still refuse, stop, or hold an AI-mediated process before it becomes irreversible.</p>
+      <nav class="cta-row" aria-label="Primary actions">
+        <a class="button primary" href="current/ONE_QUESTION_PILOT_RUNBOOK_EN.md">Start with the Runbook</a>
+        <a class="button" href="current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.md">Use the Decision Guide</a>
+        <a class="button" href="current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.md">See where it fits existing reviews</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section aria-labelledby="one-question">
+      <h2 id="one-question">The one question</h2>
+      <div class="question-box">Before this AI-mediated process becomes irreversible, can a responsible human still effectively refuse, stop, or hold it? What authority, evidence, and stopping procedure support that answer?</div>
+      <p>This is not a replacement for existing AI governance. It is one additional boundary question that can be inserted into an existing review.</p>
+    </section>
+
+    <section aria-labelledby="who-should-use-this">
+      <h2 id="who-should-use-this">Who should use this</h2>
+      <div class="grid">
+        <div class="card"><strong>AI adoption reviewers</strong><p>For teams deciding whether an AI system or workflow can move forward.</p></div>
+        <div class="card"><strong>Procurement and vendor-risk teams</strong><p>For checking whether vendor-mediated processes preserve a usable hold point.</p></div>
+        <div class="card"><strong>Security reviewers</strong><p>For reviewing automation, access, deployment, escalation, and operational control paths.</p></div>
+        <div class="card"><strong>Internal audit and risk teams</strong><p>For testing whether formal oversight is backed by authority, evidence, and procedure.</p></div>
+        <div class="card"><strong>Agent and workflow evaluators</strong><p>For teams evaluating AI agents or automated workflows before production use.</p></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="pilot-does">
+      <h2 id="pilot-does">What this pilot does</h2>
+      <div class="grid">
+        <div class="card"><strong>1. Select one case</strong><p>Choose one existing review case instead of creating a new governance program.</p></div>
+        <div class="card"><strong>2. Find the irreversible point</strong><p>Identify the operation that may become difficult or impossible to reverse in time.</p></div>
+        <div class="card"><strong>3. Add one boundary question</strong><p>Insert the question into the existing review path.</p></div>
+        <div class="card"><strong>4. Classify the answer</strong><p>Record YES, NO, or UNKNOWN using the decision guide.</p></div>
+        <div class="card"><strong>5. Record the gap</strong><p>If the result is NO or UNKNOWN, record the gap and next action.</p></div>
+        <div class="card"><strong>6. Decide whether to keep it</strong><p>Assess whether this check should remain in future reviews.</p></div>
+      </div>
+    </section>
+
+    <section class="notice" aria-labelledby="useful-result">
+      <h2 id="useful-result">What counts as a useful result</h2>
+      <p><strong>A NO or UNKNOWN result is not a failure.</strong> It may reveal that formal human oversight exists, but effective human refusal is missing, unclear, or unsupported by evidence.</p>
+    </section>
+
+    <section aria-labelledby="documents">
+      <h2 id="documents">Documents</h2>
+      <p>Use this HTML page as the web-facing entry point. Then open the specific document needed for the review step.</p>
+      <div class="grid two">
+        <a class="doc-card" href="current/ONE_QUESTION_PILOT_RUNBOOK_EN.md"><strong>One-Question Pilot Runbook</strong><span>current/ONE_QUESTION_PILOT_RUNBOOK_EN.md</span></a>
+        <a class="doc-card" href="current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.md"><strong>Effective Human Refusal Decision Guide</strong><span>current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.md</span></a>
+        <a class="doc-card" href="current/BOUNDARY_GAP_RESPONSE_SHEET_EN.md"><strong>Boundary Gap Response Sheet</strong><span>current/BOUNDARY_GAP_RESPONSE_SHEET_EN.md</span></a>
+        <a class="doc-card" href="current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.md"><strong>Existing Framework Insertion Map</strong><span>current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.md</span></a>
+        <a class="doc-card" href="current/PUBLIC_BOUNDARY_CHECK_STATEMENT_KIT_EN.md"><strong>Public Boundary Check Statement Kit</strong><span>current/PUBLIC_BOUNDARY_CHECK_STATEMENT_KIT_EN.md</span></a>
+      </div>
+    </section>
+
+    <section class="notice" aria-labelledby="important-limits">
+      <h2 id="important-limits">Important limits</h2>
+      <p>This page does not provide a safety certification, legal approval, audit completion, or formal standard adoption.</p>
+      <p>LUMINA-30 is used here as a boundary-review reference. It does not replace existing legal, security, procurement, or governance processes.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Navigation</strong>
+      <div class="footer-links">
+        <a href="../ja/one-question-pilot.html">Japanese version</a>
+        <a href="../../../index.html">LUMINA-30 Overview</a>
+        <a href="https://github.com/lumina-30/lumina-30-overview">GitHub repository</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

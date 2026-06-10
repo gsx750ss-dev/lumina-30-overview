@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>One-Question Pilot HTML入口 | LUMINA-30 境界レビュー</title>
+  <meta name="description" content="AI導入レビュー・調達確認・セキュリティレビュー・内部監査に、実効的人間拒否の1問を追加して30〜60分で試すための入口ページです。">
+  <meta property="og:title" content="One-Question Pilot HTML入口 | LUMINA-30 境界レビュー">
+  <meta property="og:description" content="不可逆化前に、責任ある人間が実際に拒否・停止・保留できるかを既存レビューの中で確認するための入口です。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/ja/one-question-pilot.html">
+  <meta name="twitter:card" content="summary">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071019;
+      --panel: #0d1b2a;
+      --panel-2: #10263a;
+      --text: #edf6ff;
+      --muted: #bdd0df;
+      --line: rgba(173, 216, 255, 0.24);
+      --accent: #77d7ff;
+      --accent-2: #9cf0d0;
+      --warning: #ffd18a;
+      --shadow: rgba(0, 0, 0, 0.35);
+      --max: 1080px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 18px;
+      line-height: 1.72;
+      word-break: normal;
+      overflow-wrap: anywhere;
+    }
+
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-2); }
+
+    .wrap {
+      width: min(100% - 32px, var(--max));
+      margin: 0 auto;
+    }
+
+    header.hero {
+      padding: 48px 0 30px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #0a1825 0%, var(--bg) 100%);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      margin: 0 0 18px;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--accent-2);
+      background: rgba(156, 240, 208, 0.07);
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
+    h1, h2, h3 { line-height: 1.25; }
+
+    h1 {
+      max-width: 940px;
+      margin: 0;
+      font-size: clamp(2rem, 6.7vw, 4.1rem);
+      letter-spacing: -0.04em;
+    }
+
+    .lead {
+      max-width: 900px;
+      margin: 22px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.1rem, 2.3vw, 1.42rem);
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 11px 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #132b40;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 10px 30px var(--shadow);
+    }
+
+    .button.primary {
+      border-color: rgba(119, 215, 255, 0.55);
+      background: linear-gradient(135deg, #16496a 0%, #12344d 100%);
+    }
+
+    main { padding: 28px 0 52px; }
+
+    section {
+      margin-top: 24px;
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(13, 27, 42, 0.86);
+      box-shadow: 0 14px 40px var(--shadow);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: clamp(1.42rem, 3vw, 1.95rem);
+      letter-spacing: -0.02em;
+    }
+
+    p { margin: 12px 0 0; }
+
+    .question-box {
+      margin-top: 16px;
+      padding: 22px;
+      border: 1px solid rgba(119, 215, 255, 0.5);
+      border-radius: 18px;
+      background: rgba(119, 215, 255, 0.08);
+      color: #f8fcff;
+      font-size: clamp(1.1rem, 2.1vw, 1.3rem);
+      font-weight: 850;
+      line-height: 1.55;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+    .card {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(16, 38, 58, 0.74);
+    }
+
+    .card strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--text);
+      font-size: 1.03rem;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .doc-card {
+      display: block;
+      min-height: 100%;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(16, 38, 58, 0.74);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .doc-card:hover {
+      border-color: rgba(119, 215, 255, 0.68);
+      background: rgba(22, 73, 106, 0.55);
+    }
+
+    .doc-card span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.94rem;
+      overflow-wrap: anywhere;
+    }
+
+    .notice {
+      border-color: rgba(255, 209, 138, 0.45);
+      background: rgba(255, 209, 138, 0.08);
+    }
+
+    .notice strong { color: var(--warning); }
+
+    footer {
+      padding: 28px 0 46px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 18px;
+      margin-top: 12px;
+    }
+
+    .footer-links a {
+      display: inline-flex;
+      padding: 8px 0;
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+    }
+
+    @media (max-width: 820px) {
+      body { font-size: 17px; }
+      header.hero { padding-top: 34px; }
+      section { padding: 22px; }
+      .grid, .grid.two { grid-template-columns: 1fr; }
+      .button { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">LUMINA-30 境界レビュー入口</p>
+      <h1>人間監督は、「間に合って止められる」場合にだけ実効性を持つ。</h1>
+      <p class="lead">One-Question Pilot は、AI導入レビュー・調達確認・セキュリティレビュー・内部監査の中で、不可逆化前に責任ある人間が実際に拒否・停止・保留できるかを、最初の1案件で試すための入口です。</p>
+      <nav class="cta-row" aria-label="主要リンク">
+        <a class="button primary" href="current/ONE_QUESTION_PILOT_RUNBOOK_JA.md">実行手順を見る</a>
+        <a class="button" href="current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_JA.md">YES / NO / 不明 判定ガイドを見る</a>
+        <a class="button" href="current/EXISTING_FRAMEWORK_INSERTION_MAP_JA.md">既存レビューへの挿入位置を見る</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section aria-labelledby="one-question">
+      <h2 id="one-question">追加する1問</h2>
+      <div class="question-box">このAI媒介プロセスが不可逆化する前に、責任ある人間は実効的に拒否・停止・保留できるか。その根拠となる権限・証拠・停止手順はあるか。</div>
+      <p>これは既存のAIガバナンスを置き換えるものではありません。既存レビューに追加できる、境界確認のための1問です。</p>
+    </section>
+
+    <section aria-labelledby="target-users">
+      <h2 id="target-users">対象者</h2>
+      <div class="grid">
+        <div class="card"><strong>AI導入レビュー担当者</strong><p>AIシステムやAI利用ワークフローを進めてよいか確認する担当者向けです。</p></div>
+        <div class="card"><strong>調達・ベンダーリスク担当者</strong><p>外部サービスや委託先を介したプロセスに、実際に使える保留点があるかを確認します。</p></div>
+        <div class="card"><strong>セキュリティレビュー担当者</strong><p>自動化、権限、展開、エスカレーション、運用統制の経路を確認します。</p></div>
+        <div class="card"><strong>内部監査・リスク管理担当者</strong><p>形式的な監督が、権限・証拠・手順で支えられているかを確認します。</p></div>
+        <div class="card"><strong>本番接続前の評価担当者</strong><p>AIエージェントや自動化ワークフローを本番利用前に確認する担当者向けです。</p></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="pilot-actions">
+      <h2 id="pilot-actions">このパイロットで行うこと</h2>
+      <div class="grid">
+        <div class="card"><strong>1. 案件を1つ選ぶ</strong><p>新しい制度を作るのではなく、既存レビュー中の案件を1つ選びます。</p></div>
+        <div class="card"><strong>2. 不可逆点を探す</strong><p>時間内に戻せなくなる可能性のある操作を特定します。</p></div>
+        <div class="card"><strong>3. 1問を追加する</strong><p>既存レビューの中に、境界確認の1問を差し込みます。</p></div>
+        <div class="card"><strong>4. 判定する</strong><p>判定ガイドを使い、YES / NO / 不明 を記録します。</p></div>
+        <div class="card"><strong>5. ギャップを記録する</strong><p>NO / 不明なら、境界ギャップと次アクションを残します。</p></div>
+        <div class="card"><strong>6. 継続可否を判断する</strong><p>今後もこの確認欄を残す価値があるかを判断します。</p></div>
+      </div>
+    </section>
+
+    <section class="notice" aria-labelledby="no-unknown">
+      <h2 id="no-unknown">NO / 不明 は失敗ではない</h2>
+      <p><strong>NO / 不明 が出ることは失敗ではありません。</strong>形式的な人間監督は存在していても、実効的な人間拒否が存在しない、根拠が曖昧、または証拠で支えられていない可能性を可視化できたということです。</p>
+    </section>
+
+    <section aria-labelledby="documents">
+      <h2 id="documents">関連資料</h2>
+      <p>共有時の入口にはこのHTMLページを使い、必要な段階で各資料を開いてください。</p>
+      <div class="grid two">
+        <a class="doc-card" href="current/ONE_QUESTION_PILOT_RUNBOOK_JA.md"><strong>One-Question Pilot 実行手順書</strong><span>current/ONE_QUESTION_PILOT_RUNBOOK_JA.md</span></a>
+        <a class="doc-card" href="current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_JA.md"><strong>実効的人間拒否 YES / NO / 不明 判定ガイド</strong><span>current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_JA.md</span></a>
+        <a class="doc-card" href="current/BOUNDARY_GAP_RESPONSE_SHEET_JA.md"><strong>NO / 不明 境界ギャップ対応シート</strong><span>current/BOUNDARY_GAP_RESPONSE_SHEET_JA.md</span></a>
+        <a class="doc-card" href="current/EXISTING_FRAMEWORK_INSERTION_MAP_JA.md"><strong>既存フレームワーク挿入マップ</strong><span>current/EXISTING_FRAMEWORK_INSERTION_MAP_JA.md</span></a>
+        <a class="doc-card" href="current/PUBLIC_BOUNDARY_CHECK_STATEMENT_KIT_JA.md"><strong>公開用・境界チェック宣言キット</strong><span>current/PUBLIC_BOUNDARY_CHECK_STATEMENT_KIT_JA.md</span></a>
+      </div>
+    </section>
+
+    <section class="notice" aria-labelledby="limits">
+      <h2 id="limits">重要な限界</h2>
+      <p>このページは、安全保証・法的認証・監査完了・正式標準採用を意味するものではありません。</p>
+      <p>LUMINA-30は、既存の法務・セキュリティ・調達・AIガバナンス手順を置き換えるものではなく、それらの中に境界確認を追加するための参照資料です。</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>ナビゲーション</strong>
+      <div class="footer-links">
+        <a href="../en/one-question-pilot.html">English version</a>
+        <a href="../../../index-ja.html">LUMINA-30 Overview</a>
+        <a href="https://github.com/lumina-30/lumina-30-overview">GitHub repository</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
