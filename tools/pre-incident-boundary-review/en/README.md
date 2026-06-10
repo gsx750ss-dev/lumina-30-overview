@@ -46,4 +46,3 @@ Before an AI-mediated process becomes irreversible, accountable humans must stil
 - `current/` contains the latest English working version.
 - `archive/v0.1-r1/` preserves this release for audit, citation, and review traceability.
 - `source/` contains generation source copies.
-- `SHA256SUMS.txt` records hashes for all files except itself.
