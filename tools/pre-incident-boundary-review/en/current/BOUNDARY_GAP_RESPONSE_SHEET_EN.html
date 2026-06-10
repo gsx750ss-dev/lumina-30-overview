@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NO / UNKNOWN Boundary Gap Response Sheet | LUMINA-30 Boundary Review</title>
+  <meta name="description" content="This sheet provides a minimum record format for preventing a NO or UNKNOWN finding in a pre-boundary review from being left unresolved.">
+  <meta property="og:title" content="NO / UNKNOWN Boundary Gap Response Sheet | LUMINA-30 Boundary Review">
+  <meta property="og:description" content="This sheet provides a minimum record format for preventing a NO or UNKNOWN finding in a pre-boundary review from being left unresolved.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/current/BOUNDARY_GAP_RESPONSE_SHEET_EN.html">
+  <meta name="twitter:card" content="summary">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071019;
+      --panel: #0d1b2a;
+      --panel-2: #10263a;
+      --text: #edf6ff;
+      --muted: #bdd0df;
+      --line: rgba(173, 216, 255, 0.24);
+      --accent: #77d7ff;
+      --accent-2: #9cf0d0;
+      --warning: #ffd18a;
+      --shadow: rgba(0, 0, 0, 0.35);
+      --max: 1080px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 18px;
+      line-height: 1.72;
+    }
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-2); }
+    .wrap { width: min(100% - 32px, var(--max)); margin: 0 auto; }
+    header.hero {
+      padding: 42px 0 28px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #0a1825 0%, var(--bg) 100%);
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      margin: 0 0 16px;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--accent-2);
+      background: rgba(156, 240, 208, 0.07);
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    h1, h2, h3 { line-height: 1.22; }
+    h1 {
+      max-width: 980px;
+      margin: 0;
+      font-size: clamp(2rem, 5.8vw, 3.8rem);
+      letter-spacing: -0.04em;
+    }
+    .lead {
+      max-width: 900px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.03rem, 2.1vw, 1.25rem);
+    }
+    .cta-row, .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 10px 15px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #132b40;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 10px 30px var(--shadow);
+    }
+    .button.primary {
+      border-color: rgba(119, 215, 255, 0.55);
+      background: linear-gradient(135deg, #16496a 0%, #12344d 100%);
+    }
+    main { padding: 28px 0 52px; }
+    article.document {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(13, 27, 42, 0.86);
+      box-shadow: 0 14px 40px var(--shadow);
+    }
+    .document > *:first-child { margin-top: 0; }
+    .document h2 {
+      margin: 34px 0 12px;
+      padding-top: 4px;
+      font-size: clamp(1.42rem, 3vw, 2rem);
+      letter-spacing: -0.02em;
+    }
+    .document h3 {
+      margin: 26px 0 10px;
+      font-size: clamp(1.16rem, 2.2vw, 1.42rem);
+      color: #f8fcff;
+    }
+    .document p { margin: 12px 0 0; }
+    .document ul, .document ol { padding-left: 1.35em; margin: 12px 0 0; }
+    .document li { margin: 6px 0; }
+    .document strong { color: #f8fcff; }
+    .document code {
+      padding: 0.12em 0.35em;
+      border: 1px solid rgba(173, 216, 255, 0.18);
+      border-radius: 0.35em;
+      background: rgba(7, 16, 25, 0.72);
+      color: #e9f7ff;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 0.92em;
+      overflow-wrap: anywhere;
+    }
+    .document pre {
+      margin: 16px 0 0;
+      padding: 16px;
+      border: 1px solid rgba(173, 216, 255, 0.22);
+      border-radius: 16px;
+      background: rgba(7, 16, 25, 0.86);
+      overflow-x: auto;
+      white-space: pre;
+    }
+    .document pre code {
+      display: block;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      white-space: pre;
+      overflow-wrap: normal;
+    }
+    .table-scroll {
+      width: 100%;
+      margin: 16px 0 0;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(16, 38, 58, 0.5);
+    }
+    table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(173, 216, 255, 0.18);
+      vertical-align: top;
+      text-align: left;
+    }
+    th { color: var(--accent-2); background: rgba(7, 16, 25, 0.48); }
+    tr:last-child td { border-bottom: 0; }
+    blockquote {
+      margin: 18px 0 0;
+      padding: 14px 18px;
+      border-left: 5px solid rgba(119, 215, 255, 0.62);
+      border-radius: 12px;
+      background: rgba(119, 215, 255, 0.08);
+      color: #f8fcff;
+    }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
+    footer {
+      padding: 28px 0 46px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .footer-links a {
+      display: inline-flex;
+      padding: 8px 0;
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+    }
+    @media (max-width: 820px) {
+      body { font-size: 17px; }
+      header.hero { padding-top: 34px; }
+      article.document { padding: 22px; }
+      .button { width: 100%; }
+      table { min-width: 640px; }
+    }
+    </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">LUMINA-30 practical boundary-review document</p>
+      <h1>NO / UNKNOWN Boundary Gap Response Sheet</h1>
+      <p class="lead">This sheet provides a minimum record format for preventing a NO or UNKNOWN finding in a pre-boundary review from being left unresolved.</p>
+      <nav class="cta-row" aria-label="Document navigation">
+        <a class="button primary" href="../one-question-pilot.html">Back to One-Question Pilot</a>
+        <a class="button" href="../../ja/current/BOUNDARY_GAP_RESPONSE_SHEET_JA.html">Japanese version</a>
+        <a class="button" href="../../../../index.html">LUMINA-30 Overview</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="document">
+<p>Version: v0.1<br />
+Scope: Practical Boundary Review Add-on for LUMINA-30 pre-boundary review<br />
+Status: review draft</p>
+<h2>Purpose</h2>
+<p>This sheet provides a minimum record format for preventing a NO or UNKNOWN finding in a pre-boundary review from being left unresolved.</p>
+<p>It is designed to avoid the pattern where a boundary problem is identified but no operational action follows. It connects gaps in authority, evidence, and stopping procedures to interim measures and review deadlines before irreversibility occurs.</p>
+<p>This sheet is not a safety guarantee, certification, legal compliance finding, or replacement for existing AI governance procedures.</p>
+<h2>When to use this sheet</h2>
+<p>Use this sheet when any of the following applies.</p>
+<ul>
+<li>Effective human refusal was classified as NO.</li>
+<li>Effective human refusal was classified as UNKNOWN.</li>
+<li>Evidence, authority, stopping mechanism, or accountable owner required for YES could not be confirmed.</li>
+</ul>
+<h2>Anti-tokenization rule</h2>
+<p>If NO or UNKNOWN is found, do not close the review by writing only “check before next time.”</p>
+<p>The record must include all three items below.</p>
+<ol>
+<li>Interim measure</li>
+<li>Responsible owner</li>
+<li>Review deadline</li>
+</ol>
+<h2>Boundary Gap Response Sheet</h2>
+<pre><code class="language-text">Target process:
+Review date:
+Original classification: NO / UNKNOWN
+Recorded by:
+
+1. Authority gap
+Who should have authority to stop the process:
+Who currently has authority to stop the process:
+If no one has that authority, why not:
+Could the authority arrive too late to stop irreversibility: yes / no / unknown
+Notes:
+
+2. Evidence gap
+Documents, logs, settings, or procedures showing the authority exists: yes / no / unknown
+Evidence reviewed:
+Missing evidence:
+Owner for evidence confirmation:
+
+3. Interim measure (select at least one)
+[ ] Hold deployment
+[ ] Continue with conditions
+[ ] Request design change
+
+Description of interim measure:
+If continuing with conditions, conditions that prevent entry into irreversible operation:
+If requesting design change, required changes:
+
+4. Next action and owner
+Who:
+What:
+By when:
+Completion condition:
+
+5. Review deadline and approving authority
+Review deadline: YYYY-MM-DD
+Person or role responsible for review:
+Person or role approving the interim measure:
+
+6. Follow-up result
+Follow-up review date:
+Result: YES / NO / UNKNOWN / Continued response
+Reason:
+Next action:
+</code></pre>
+<h2>How to choose an interim measure</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Interim measure</th>
+<th>When to use it</th>
+<th>Minimum requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hold deployment</td>
+<td>A human cannot stop the process before the irreversible operation, or no stop authority exists.</td>
+<td>State that the process must not proceed to the irreversible operation.</td>
+</tr>
+<tr>
+<td>Continue with conditions</td>
+<td>Investigation, validation, or limited testing can continue without entering the irreversible operation.</td>
+<td>State the allowed scope, prohibited operations, deadline, and responsible owner.</td>
+</tr>
+<tr>
+<td>Request design change</td>
+<td>A human decision point, stopping mechanism, authority, or evidence record can be added and then re-reviewed.</td>
+<td>State the required change and review deadline.</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Closure condition</h2>
+<p>Do not treat this sheet as closed until one of the following is recorded.</p>
+<ul>
+<li>Evidence for all five conditions has been confirmed and the review is reclassified as YES.</li>
+<li>Deployment hold or cancellation has been decided.</li>
+<li>The scope, owner, and deadline for conditional continuation have been reset.</li>
+<li>Design-change completion criteria and a follow-up review date have been set.</li>
+</ul>
+<h2>Note</h2>
+<p>NO or UNKNOWN is not a record of failure. It is an operational warning that the process may not be stoppable before irreversibility.</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Navigation</strong>
+      <div class="footer-links">
+        <a href="../one-question-pilot.html">Back to One-Question Pilot</a>
+        <a href="../../ja/current/BOUNDARY_GAP_RESPONSE_SHEET_JA.html">Japanese version</a>
+        <a href="../../../../index.html">LUMINA-30 Overview</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

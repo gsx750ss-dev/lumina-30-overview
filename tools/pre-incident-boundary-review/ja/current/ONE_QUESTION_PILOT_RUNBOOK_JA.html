@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>One-Question Pilot 実行手順書 | LUMINA-30 Boundary Review</title>
+  <meta name="description" content="既存レビューに1問だけ追加して、最初の1案件で試すための実行手順書です。正式採用・認証・安全保証を意味しません。">
+  <meta property="og:title" content="One-Question Pilot 実行手順書 | LUMINA-30 Boundary Review">
+  <meta property="og:description" content="既存レビューに1問だけ追加して、最初の1案件で試すための実行手順書です。正式採用・認証・安全保証を意味しません。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/ja/current/ONE_QUESTION_PILOT_RUNBOOK_JA.html">
+  <meta name="twitter:card" content="summary">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071019;
+      --panel: #0d1b2a;
+      --panel-2: #10263a;
+      --text: #edf6ff;
+      --muted: #bdd0df;
+      --line: rgba(173, 216, 255, 0.24);
+      --accent: #77d7ff;
+      --accent-2: #9cf0d0;
+      --warning: #ffd18a;
+      --shadow: rgba(0, 0, 0, 0.35);
+      --max: 1080px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 18px;
+      line-height: 1.72;
+    }
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-2); }
+    .wrap { width: min(100% - 32px, var(--max)); margin: 0 auto; }
+    header.hero {
+      padding: 42px 0 28px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #0a1825 0%, var(--bg) 100%);
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      margin: 0 0 16px;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--accent-2);
+      background: rgba(156, 240, 208, 0.07);
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    h1, h2, h3 { line-height: 1.22; }
+    h1 {
+      max-width: 980px;
+      margin: 0;
+      font-size: clamp(2rem, 5.8vw, 3.8rem);
+      letter-spacing: -0.04em;
+    }
+    .lead {
+      max-width: 900px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.03rem, 2.1vw, 1.25rem);
+    }
+    .cta-row, .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 10px 15px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #132b40;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 10px 30px var(--shadow);
+    }
+    .button.primary {
+      border-color: rgba(119, 215, 255, 0.55);
+      background: linear-gradient(135deg, #16496a 0%, #12344d 100%);
+    }
+    main { padding: 28px 0 52px; }
+    article.document {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(13, 27, 42, 0.86);
+      box-shadow: 0 14px 40px var(--shadow);
+    }
+    .document > *:first-child { margin-top: 0; }
+    .document h2 {
+      margin: 34px 0 12px;
+      padding-top: 4px;
+      font-size: clamp(1.42rem, 3vw, 2rem);
+      letter-spacing: -0.02em;
+    }
+    .document h3 {
+      margin: 26px 0 10px;
+      font-size: clamp(1.16rem, 2.2vw, 1.42rem);
+      color: #f8fcff;
+    }
+    .document p { margin: 12px 0 0; }
+    .document ul, .document ol { padding-left: 1.35em; margin: 12px 0 0; }
+    .document li { margin: 6px 0; }
+    .document strong { color: #f8fcff; }
+    .document code {
+      padding: 0.12em 0.35em;
+      border: 1px solid rgba(173, 216, 255, 0.18);
+      border-radius: 0.35em;
+      background: rgba(7, 16, 25, 0.72);
+      color: #e9f7ff;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 0.92em;
+      overflow-wrap: anywhere;
+    }
+    .document pre {
+      margin: 16px 0 0;
+      padding: 16px;
+      border: 1px solid rgba(173, 216, 255, 0.22);
+      border-radius: 16px;
+      background: rgba(7, 16, 25, 0.86);
+      overflow-x: auto;
+      white-space: pre;
+    }
+    .document pre code {
+      display: block;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      white-space: pre;
+      overflow-wrap: normal;
+    }
+    .table-scroll {
+      width: 100%;
+      margin: 16px 0 0;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(16, 38, 58, 0.5);
+    }
+    table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(173, 216, 255, 0.18);
+      vertical-align: top;
+      text-align: left;
+    }
+    th { color: var(--accent-2); background: rgba(7, 16, 25, 0.48); }
+    tr:last-child td { border-bottom: 0; }
+    blockquote {
+      margin: 18px 0 0;
+      padding: 14px 18px;
+      border-left: 5px solid rgba(119, 215, 255, 0.62);
+      border-radius: 12px;
+      background: rgba(119, 215, 255, 0.08);
+      color: #f8fcff;
+    }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
+    footer {
+      padding: 28px 0 46px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .footer-links a {
+      display: inline-flex;
+      padding: 8px 0;
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+    }
+    @media (max-width: 820px) {
+      body { font-size: 17px; }
+      header.hero { padding-top: 34px; }
+      article.document { padding: 22px; }
+      .button { width: 100%; }
+      table { min-width: 640px; }
+    }
+    </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">LUMINA-30 実務境界レビュー資料</p>
+      <h1>One-Question Pilot 実行手順書</h1>
+      <p class="lead">既存レビューに1問だけ追加して、最初の1案件で試すための実行手順書です。正式採用・認証・安全保証を意味しません。</p>
+      <nav class="cta-row" aria-label="Document navigation">
+        <a class="button primary" href="../one-question-pilot.html">One-Question Pilot 入口へ戻る</a>
+        <a class="button" href="../../en/current/ONE_QUESTION_PILOT_RUNBOOK_EN.html">English version</a>
+        <a class="button" href="../../../../index-ja.html">LUMINA-30 Overview</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="document">
+<h2>既存レビューに1問だけ追加して試すために</h2>
+<p>Version: v0.1<br />
+Status: 実務試行用手順書 / 非公式・非認証・非安全保証<br />
+Scope: 既存のAI導入レビュー、調達確認、セキュリティレビュー、内部監査の中で最初の1案件だけ試すための手順</p>
+<hr />
+<h2>目的</h2>
+<p>この文書は、LUMINA-30を正式採用する前に、既存のAI導入レビュー、調達確認、セキュリティレビュー、内部監査の中で、1案件だけ試行するための実行手順書です。</p>
+<p>この文書は、次のいずれも意味しません。</p>
+<ul>
+<li>LUMINA-30の正式採用</li>
+<li>安全保証</li>
+<li>法的認証</li>
+<li>既存AIガバナンスの置き換え</li>
+<li>AIシステムの安全性確認完了</li>
+<li>監査完了</li>
+<li>「LUMINA-30確認済みなら安全である」という免責</li>
+</ul>
+<p>目的は、既存レビューに次の1問を追加し、形式的人間監督と実効的人間拒否の間にギャップがあるかを確認することです。</p>
+<blockquote>
+<p>このAI媒介プロセスが不可逆化する前に、責任ある人間は実効的に拒否・停止・保留できるか。その根拠となる権限・証拠・停止手順はあるか。</p>
+</blockquote>
+<p>このパイロットは、AIを止めるためではなく、AIを止められる形で進めるための最小確認です。</p>
+<hr />
+<h2>1. 対象案件の選び方</h2>
+<p>最初のパイロットでは、次のような案件から1つだけ選びます。</p>
+<ul>
+<li>既存のAI導入レビュー中の案件</li>
+<li>ベンダーAIツールの調達確認中の案件</li>
+<li>AIエージェントや自動化ツールを本番接続する前の案件</li>
+<li>外部送信、削除、認証情報変更、本番操作、契約確定、ロールバック困難化に関係する案件</li>
+<li>影響が大きすぎず、試行レビューとして扱える案件</li>
+</ul>
+<p>最初から対象を広げすぎないでください。1つのプロセス、1つの不可逆化し得る操作、1つの判断時点に絞ります。</p>
+<p>次の案件は、このパイロットの対象としては避けてください。</p>
+<ul>
+<li>すでに本番事故が進行中の緊急対応</li>
+<li>法的判断そのもの</li>
+<li>安全保証が必要な高リスク運用の代替</li>
+<li>「LUMINA-30確認済み」を免責に使おうとしている案件</li>
+</ul>
+<hr />
+<h2>2. 参加者</h2>
+<p>最小構成は、次の範囲に留めます。</p>
+<ul>
+<li>対象プロセスを知る担当者</li>
+<li>承認または停止権限に関係する担当者</li>
+<li>セキュリティ、法務、監査、リスク管理のいずれか1名</li>
+<li>必要な場合のみ、ベンダー担当者</li>
+</ul>
+<p>人数を増やしすぎないでください。最初のパイロットは、30〜60分で終わる範囲にします。</p>
+<hr />
+<h2>3. 実行手順</h2>
+<h3>Step 1: 対象プロセスを1つ選ぶ</h3>
+<p>AIが関与する操作、判断、外部影響を1つ選びます。</p>
+<p>対象を、システム全体、事業全体、契約全体へ広げすぎないでください。</p>
+<h3>Step 2: 不可逆になり得る操作を特定する</h3>
+<p>次のような操作のうち、対象プロセスで関係するものを特定します。</p>
+<ul>
+<li>外部送信</li>
+<li>データ削除</li>
+<li>認証情報変更</li>
+<li>権限変更</li>
+<li>本番操作</li>
+<li>契約確定</li>
+<li>ロールバック困難化</li>
+<li>人間による後追い拒否が実効性を失う状態</li>
+</ul>
+<p>「リスクがある」だけで終わらせず、何が、いつ、誰の権限で、どの状態へ進むと止めにくくなるのかを短く書きます。</p>
+<h3>Step 3: 1問を追加する</h3>
+<p>既存レビューに、次の1問を追加します。</p>
+<blockquote>
+<p>このAI媒介プロセスが不可逆化する前に、責任ある人間は実効的に拒否・停止・保留できるか。その根拠となる権限・証拠・停止手順はあるか。</p>
+</blockquote>
+<p>この質問は、既存レビューを置き換えるものではありません。既存レビューの中で、人間監督が実効的な拒否として機能するかを確認するために追加します。</p>
+<h3>Step 4: YES / NO / 不明を判定する</h3>
+<p><code>EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_JA.md</code> を参照して、YES / NO / 不明を判定します。</p>
+<p>YESにできるのは、最低限、次のすべてが確認できる場合だけです。</p>
+<ol>
+<li>不可逆になる操作が具体的に特定されている。</li>
+<li>その操作の前に人間が判断できる時点が存在する。</li>
+<li>判断できる人物・役職が明示されている。</li>
+<li>拒否・保留した場合に実際に止まる仕組みがある。</li>
+<li>AIが人間の判断なしに自動実行できる操作ではない。</li>
+</ol>
+<p>どれか1つでも満たせない場合はNOです。</p>
+<p>条件を満たす可能性はあるが、権限、証拠、設定、担当者、または手順を確認できない場合は不明です。</p>
+<h3>Step 5: NO / 不明の場合は対応シートへ進む</h3>
+<p>NOまたは不明が出た場合は、<code>BOUNDARY_GAP_RESPONSE_SHEET_JA.md</code> を使います。</p>
+<p>NOまたは不明が出た場合、少なくとも次の内容を記録してください。</p>
+<ul>
+<li>権限の空白</li>
+<li>証拠の空白</li>
+<li>暫定措置</li>
+<li>次のアクションと担当者</li>
+<li>再確認期限と承認者</li>
+</ul>
+<p>「次回までに確認」とだけ書いて終了してはなりません。</p>
+<h3>Step 6: パイロット結果を判定する</h3>
+<p>パイロット結果は、次のいずれかに分類します。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>分類</th>
+<th>使用条件</th>
+<th>意味</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>継続不要</td>
+<td>既存レビューで同等の確認がすでに十分に機能していた。</td>
+<td>既存レビューに追加欄を常設する必要性は低い可能性がある。</td>
+</tr>
+<tr>
+<td>継続検討</td>
+<td>不明が出た、または証拠不足が見つかった。</td>
+<td>既存レビューに証拠確認欄や担当者確認欄を追加する価値がある可能性がある。</td>
+</tr>
+<tr>
+<td>継続推奨</td>
+<td>NOが出た、または権限・停止手順・証拠の空白が見つかった。</td>
+<td>既存レビューにこの確認欄を継続的に入れる価値が高い可能性がある。</td>
+</tr>
+</tbody>
+</table></div>
+<p>この分類は、LUMINA-30の正式採用判断ではありません。既存レビューにこの確認欄を継続的に入れる価値があるかを判断するための目安です。</p>
+<hr />
+<h2>4. 記録テンプレート</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>記録</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>対象プロセス</td>
+<td></td>
+</tr>
+<tr>
+<td>不可逆になり得る操作</td>
+<td></td>
+</tr>
+<tr>
+<td>止められる最後の時点</td>
+<td></td>
+</tr>
+<tr>
+<td>判断できる人物・役職</td>
+<td></td>
+</tr>
+<tr>
+<td>権限の根拠</td>
+<td></td>
+</tr>
+<tr>
+<td>証拠・ログ・手順</td>
+<td></td>
+</tr>
+<tr>
+<td>判定</td>
+<td>YES / NO / 不明</td>
+</tr>
+<tr>
+<td>NO / 不明の場合の暫定措置</td>
+<td>導入保留 / 条件付き継続 / 設計変更要請</td>
+</tr>
+<tr>
+<td>次のアクション</td>
+<td></td>
+</tr>
+<tr>
+<td>再確認期限</td>
+<td></td>
+</tr>
+<tr>
+<td>承認者</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2>5. 形骸化防止</h2>
+<p>このパイロットは、全件YESにするための確認ではありません。</p>
+<p>YESの根拠を書けない場合、YESにしてはなりません。</p>
+<p>NOまたは不明が出た場合、それは失敗ではありません。既存レビューで見落とされていた境界ギャップが可視化されたという意味です。</p>
+<p>「LUMINA-30確認済み」や「One-Question Pilot実施済み」を、安全保証や免責として使ってはなりません。</p>
+<hr />
+<h2>6. 既存アドオン・挿入マップとの接続</h2>
+<ul>
+<li>YES / NO / 不明の判定には、<code>EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_JA.md</code> を使います。</li>
+<li>NO / 不明が出た場合は、<code>BOUNDARY_GAP_RESPONSE_SHEET_JA.md</code> を使います。</li>
+<li>既存レビューへどこに入れるか迷う場合は、<code>EXISTING_FRAMEWORK_INSERTION_MAP_JA.md</code> を使います。</li>
+<li>外部説明には、<code>PUBLIC_BOUNDARY_CHECK_STATEMENT_KIT_JA.md</code> を使います。</li>
+</ul>
+<hr />
+<h2>7. パイロット後に公表する場合</h2>
+<p>公表は任意です。公表するかどうか、何を公表できるかは、組織内のルールに従ってください。</p>
+<p>公表する場合でも、LUMINA-30の正式採用、安全保証、法的認証、監査完了のように見せてはいけません。</p>
+<p>公表文例：</p>
+<blockquote>
+<p>私たちは、AIを止めるためではなく、AIを止められる形で進めるために、既存のAI導入レビューで「不可逆化する前に、責任ある人間が実際に止められるか」を確認するOne-Question Pilotを試行しました。</p>
+<p>この試行は、安全保証や認証を意味するものではありません。目的は、既存レビューの中で、形式的な人間監督と実効的な人間拒否の間にギャップがないかを確認することです。</p>
+</blockquote>
+<hr />
+<h2>8. 注意</h2>
+<p>この手順書は、既存制度を否定、上書き、格下げするものではありません。</p>
+<p>この手順書は、LUMINA-30を公式標準、安全保証、法的認証、監査完了、または既存フレームワークより優れた制度として示すものではありません。</p>
+<p>この手順書の目的は、既存レビューの中で、形式的人間監督と実効的人間拒否の間にあるギャップを、最初の1案件で確認できるようにすることです。</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Navigation</strong>
+      <div class="footer-links">
+        <a href="../one-question-pilot.html">One-Question Pilot 入口へ戻る</a>
+        <a href="../../en/current/ONE_QUESTION_PILOT_RUNBOOK_EN.html">English version</a>
+        <a href="../../../../index-ja.html">LUMINA-30 Overview</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

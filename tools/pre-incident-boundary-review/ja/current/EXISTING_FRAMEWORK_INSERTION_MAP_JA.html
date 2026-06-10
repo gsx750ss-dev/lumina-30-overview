@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>既存フレームワーク挿入マップ | LUMINA-30 Boundary Review</title>
+  <meta name="description" content="既存のAI導入レビュー、調達確認、セキュリティレビュー、内部監査に、不可逆化前の実効的人間拒否の確認を挿入するための実務用マップです。">
+  <meta property="og:title" content="既存フレームワーク挿入マップ | LUMINA-30 Boundary Review">
+  <meta property="og:description" content="既存のAI導入レビュー、調達確認、セキュリティレビュー、内部監査に、不可逆化前の実効的人間拒否の確認を挿入するための実務用マップです。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/ja/current/EXISTING_FRAMEWORK_INSERTION_MAP_JA.html">
+  <meta name="twitter:card" content="summary">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071019;
+      --panel: #0d1b2a;
+      --panel-2: #10263a;
+      --text: #edf6ff;
+      --muted: #bdd0df;
+      --line: rgba(173, 216, 255, 0.24);
+      --accent: #77d7ff;
+      --accent-2: #9cf0d0;
+      --warning: #ffd18a;
+      --shadow: rgba(0, 0, 0, 0.35);
+      --max: 1080px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 18px;
+      line-height: 1.72;
+    }
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-2); }
+    .wrap { width: min(100% - 32px, var(--max)); margin: 0 auto; }
+    header.hero {
+      padding: 42px 0 28px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #0a1825 0%, var(--bg) 100%);
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      margin: 0 0 16px;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--accent-2);
+      background: rgba(156, 240, 208, 0.07);
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    h1, h2, h3 { line-height: 1.22; }
+    h1 {
+      max-width: 980px;
+      margin: 0;
+      font-size: clamp(2rem, 5.8vw, 3.8rem);
+      letter-spacing: -0.04em;
+    }
+    .lead {
+      max-width: 900px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.03rem, 2.1vw, 1.25rem);
+    }
+    .cta-row, .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 10px 15px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #132b40;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 10px 30px var(--shadow);
+    }
+    .button.primary {
+      border-color: rgba(119, 215, 255, 0.55);
+      background: linear-gradient(135deg, #16496a 0%, #12344d 100%);
+    }
+    main { padding: 28px 0 52px; }
+    article.document {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(13, 27, 42, 0.86);
+      box-shadow: 0 14px 40px var(--shadow);
+    }
+    .document > *:first-child { margin-top: 0; }
+    .document h2 {
+      margin: 34px 0 12px;
+      padding-top: 4px;
+      font-size: clamp(1.42rem, 3vw, 2rem);
+      letter-spacing: -0.02em;
+    }
+    .document h3 {
+      margin: 26px 0 10px;
+      font-size: clamp(1.16rem, 2.2vw, 1.42rem);
+      color: #f8fcff;
+    }
+    .document p { margin: 12px 0 0; }
+    .document ul, .document ol { padding-left: 1.35em; margin: 12px 0 0; }
+    .document li { margin: 6px 0; }
+    .document strong { color: #f8fcff; }
+    .document code {
+      padding: 0.12em 0.35em;
+      border: 1px solid rgba(173, 216, 255, 0.18);
+      border-radius: 0.35em;
+      background: rgba(7, 16, 25, 0.72);
+      color: #e9f7ff;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 0.92em;
+      overflow-wrap: anywhere;
+    }
+    .document pre {
+      margin: 16px 0 0;
+      padding: 16px;
+      border: 1px solid rgba(173, 216, 255, 0.22);
+      border-radius: 16px;
+      background: rgba(7, 16, 25, 0.86);
+      overflow-x: auto;
+      white-space: pre;
+    }
+    .document pre code {
+      display: block;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      white-space: pre;
+      overflow-wrap: normal;
+    }
+    .table-scroll {
+      width: 100%;
+      margin: 16px 0 0;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(16, 38, 58, 0.5);
+    }
+    table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(173, 216, 255, 0.18);
+      vertical-align: top;
+      text-align: left;
+    }
+    th { color: var(--accent-2); background: rgba(7, 16, 25, 0.48); }
+    tr:last-child td { border-bottom: 0; }
+    blockquote {
+      margin: 18px 0 0;
+      padding: 14px 18px;
+      border-left: 5px solid rgba(119, 215, 255, 0.62);
+      border-radius: 12px;
+      background: rgba(119, 215, 255, 0.08);
+      color: #f8fcff;
+    }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
+    footer {
+      padding: 28px 0 46px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .footer-links a {
+      display: inline-flex;
+      padding: 8px 0;
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+    }
+    @media (max-width: 820px) {
+      body { font-size: 17px; }
+      header.hero { padding-top: 34px; }
+      article.document { padding: 22px; }
+      .button { width: 100%; }
+      table { min-width: 640px; }
+    }
+    </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">LUMINA-30 実務境界レビュー資料</p>
+      <h1>既存フレームワーク挿入マップ</h1>
+      <p class="lead">既存のAI導入レビュー、調達確認、セキュリティレビュー、内部監査に、不可逆化前の実効的人間拒否の確認を挿入するための実務用マップです。</p>
+      <nav class="cta-row" aria-label="Document navigation">
+        <a class="button primary" href="../one-question-pilot.html">One-Question Pilot 入口へ戻る</a>
+        <a class="button" href="../../en/current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.html">English version</a>
+        <a class="button" href="../../../../index-ja.html">LUMINA-30 Overview</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="document">
+<h2>不可逆化前の実効的人間拒否を既存レビューへ入れるために</h2>
+<p>Version: v0.1<br />
+Status: 実務補助資料 / 非公式・非認証・非安全保証<br />
+Scope: AI導入レビュー、調達確認、セキュリティレビュー、内部監査、事故・準事故レビューへの追加確認</p>
+<hr />
+<h2>目的</h2>
+<p>この文書は、LUMINA-30を既存制度の代替として提示するものではありません。既存のAIガバナンス、法務、監査、調達、セキュリティレビューの中に、LUMINA-30の中核条件を挿入するための実務用マップです。</p>
+<p>中心となる確認は次の1問です。</p>
+<blockquote>
+<p>このAI媒介プロセスが不可逆化する前に、責任ある人間は実効的に拒否・停止・保留できるか。その根拠となる権限・証拠・停止手順はあるか。</p>
+</blockquote>
+<p>LUMINA-30を名指し採用しなくても、既存レビューにこの確認が明確に入り、実際に運用されるなら、LUMINA-30の中核条件は機能的に吸収されています。</p>
+<p>これはLUMINA-30の失敗ではありません。中核条件が既存制度へ吸収された成功形です。</p>
+<p>この文書は、EU AI Act、NIST AI RMF、ISO/IEC 42001、各組織のAIガバナンス、監査、調達、セキュリティ手順を否定・上書き・格下げするものではありません。具体的な法律条文番号、規格条項番号、義務内容を断定するものでもありません。以下は、代表的な挿入位置の例です。</p>
+<hr />
+<h2>1. このマップの使い方</h2>
+<p>このマップは、既存レビューを置き換えるためではなく、既存レビューの中に1問を挿入するために使います。</p>
+<p>使い方は次のとおりです。</p>
+<ol>
+<li>組織にすでにあるレビューを特定する。</li>
+<li>そのレビューの中で、不可逆化前の判断時点に最も近い場所を探す。</li>
+<li>次の境界確認を追加する。
+<ul>
+<li>不可逆化前に、責任ある人間が拒否・停止・保留できるか。</li>
+<li>その人間は、必要な情報、権限、停止手順を持っているか。</li>
+<li>YES / NO / 不明 の根拠が記録されているか。</li>
+</ul>
+</li>
+<li>YES / NO / 不明 を記録する。</li>
+<li>NO / 不明 の場合は、導入・接続・自動実行・権限拡張をそのまま不可逆化へ進めない。</li>
+</ol>
+<p>このマップは、法務、監査、セキュリティ、調達、AIガバナンス担当者が、自組織の既存手順へ最小追加するための補助資料です。</p>
+<p>ここで争うべき点は、「既存制度で十分か」ではありません。実務上の問いは、「既存制度のどこにこの確認を入れるか」です。</p>
+<p>このマップの利用は、公式準拠、認証、安全保証、法的助言、またはLUMINA-30による安全確認を意味しません。</p>
+<hr />
+<h2>2. 既存レビュー別の挿入位置</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>既存レビュー</th>
+<th>通常確認されること</th>
+<th>追加すべき境界確認</th>
+<th>記録すべき証拠</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AI導入レビュー</td>
+<td>利用目的、想定リスク、人間監督、承認プロセス、影響範囲</td>
+<td>AIが不可逆的な操作や判断へ接続される前に、責任ある人間が拒否・停止・保留できるか。&lt;br&gt;その時点は不可逆化の前にあるか。&lt;br&gt;判断者は必要な情報と停止権限を持つか。</td>
+<td>承認フロー、停止手順、権限設定、ログ閲覧権限、YES / NO / 不明 判定結果</td>
+</tr>
+<tr>
+<td>調達・ベンダー確認</td>
+<td>ベンダーの説明、セキュリティ対策、契約条件、データ取扱い、サポート体制</td>
+<td>AIが実行できる操作範囲は何か。&lt;br&gt;人間が承認・拒否できる時点はどこか。&lt;br&gt;緊急停止・ロールバック権限は誰にあるか。&lt;br&gt;ベンダー側の自動実行や権限変更が人間拒否を迂回しないか。</td>
+<td>契約条項、管理画面設定、権限一覧、ログ仕様、緊急停止手順、ベンダー回答</td>
+</tr>
+<tr>
+<td>セキュリティレビュー</td>
+<td>認証、権限、ログ、外部接続、変更管理、インシデント対応</td>
+<td>AIエージェントが認証情報変更、本番操作、外部送信、削除、権限実行に関与する前に人間が止められるか。&lt;br&gt;停止が間に合う速度と経路があるか。&lt;br&gt;ログは事後説明だけでなく、事前判断に使えるか。</td>
+<td>権限設定、監査ログ、停止テスト記録、ロールバック手順、通知・承認フロー</td>
+</tr>
+<tr>
+<td>内部監査・リスクレビュー</td>
+<td>手続き遵守、承認記録、リスク評価、責任分界、再発防止</td>
+<td>「人間監督あり」が、不可逆化前の実効的拒否として機能しているか。&lt;br&gt;承認者は実際に覆せる立場にあるか。&lt;br&gt;NO / 不明 が放置されていないか。&lt;br&gt;YESの根拠が記録されているか。</td>
+<td>YES / NO / 不明 判定ガイドの記録、NO / 不明 対応シート、再確認期限、暫定措置、承認者・担当者記録</td>
+</tr>
+<tr>
+<td>事故・準事故レビュー</td>
+<td>何が起きたか、影響範囲、原因、再発防止、責任分担</td>
+<td>不可逆化前に止める機会はあったか。&lt;br&gt;その時点で誰が止める権限を持っていたか。&lt;br&gt;判断材料やログは利用可能だったか。&lt;br&gt;AI判断や自動処理が人間拒否を迂回していなかったか。</td>
+<td>タイムライン、承認・拒否・保留記録、ログ閲覧可否、権限設定、停止手順の有無、事故前の境界レビュー記録</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2>3. 対象レビュー別の実務確認</h2>
+<h3>3.1 AI導入レビュー</h3>
+<p>通常確認されることの例:</p>
+<ul>
+<li>利用目的</li>
+<li>想定リスク</li>
+<li>人間監督</li>
+<li>承認プロセス</li>
+<li>影響範囲</li>
+</ul>
+<p>追加すべき境界確認:</p>
+<ul>
+<li>AIが不可逆的な操作や判断へ接続される前に、責任ある人間が拒否・停止・保留できるか。</li>
+<li>その時点は不可逆化の前にあるか。</li>
+<li>判断者は必要な情報と停止権限を持つか。</li>
+</ul>
+<p>記録すべき証拠:</p>
+<ul>
+<li>承認フロー</li>
+<li>停止手順</li>
+<li>権限設定</li>
+<li>ログ閲覧権限</li>
+<li>YES / NO / 不明 判定結果</li>
+</ul>
+<h3>3.2 調達・ベンダー確認</h3>
+<p>通常確認されることの例:</p>
+<ul>
+<li>ベンダーの説明</li>
+<li>セキュリティ対策</li>
+<li>契約条件</li>
+<li>データ取扱い</li>
+<li>サポート体制</li>
+</ul>
+<p>追加すべき境界確認:</p>
+<ul>
+<li>AIが実行できる操作範囲は何か。</li>
+<li>人間が承認・拒否できる時点はどこか。</li>
+<li>緊急停止・ロールバック権限は誰にあるか。</li>
+<li>ベンダー側の自動実行や権限変更が人間拒否を迂回しないか。</li>
+</ul>
+<p>記録すべき証拠:</p>
+<ul>
+<li>契約条項</li>
+<li>管理画面設定</li>
+<li>権限一覧</li>
+<li>ログ仕様</li>
+<li>緊急停止手順</li>
+<li>ベンダー回答</li>
+</ul>
+<h3>3.3 セキュリティレビュー</h3>
+<p>通常確認されることの例:</p>
+<ul>
+<li>認証</li>
+<li>権限</li>
+<li>ログ</li>
+<li>外部接続</li>
+<li>変更管理</li>
+<li>インシデント対応</li>
+</ul>
+<p>追加すべき境界確認:</p>
+<ul>
+<li>AIエージェントが認証情報変更、本番操作、外部送信、削除、権限実行に関与する前に人間が止められるか。</li>
+<li>停止が間に合う速度と経路があるか。</li>
+<li>ログは事後説明だけでなく、事前判断に使えるか。</li>
+</ul>
+<p>記録すべき証拠:</p>
+<ul>
+<li>権限設定</li>
+<li>監査ログ</li>
+<li>停止テスト記録</li>
+<li>ロールバック手順</li>
+<li>通知・承認フロー</li>
+</ul>
+<h3>3.4 内部監査・リスクレビュー</h3>
+<p>通常確認されることの例:</p>
+<ul>
+<li>手続き遵守</li>
+<li>承認記録</li>
+<li>リスク評価</li>
+<li>責任分界</li>
+<li>再発防止</li>
+</ul>
+<p>追加すべき境界確認:</p>
+<ul>
+<li>「人間監督あり」が、不可逆化前の実効的拒否として機能しているか。</li>
+<li>承認者は実際に覆せる立場にあるか。</li>
+<li>NO / 不明 が放置されていないか。</li>
+<li>YESの根拠が記録されているか。</li>
+</ul>
+<p>記録すべき証拠:</p>
+<ul>
+<li>YES / NO / 不明 判定ガイドの記録</li>
+<li>NO / 不明 対応シート</li>
+<li>再確認期限</li>
+<li>暫定措置</li>
+<li>承認者・担当者記録</li>
+</ul>
+<h3>3.5 事故・準事故レビュー</h3>
+<p>通常確認されることの例:</p>
+<ul>
+<li>何が起きたか</li>
+<li>影響範囲</li>
+<li>原因</li>
+<li>再発防止</li>
+<li>責任分担</li>
+</ul>
+<p>追加すべき境界確認:</p>
+<ul>
+<li>不可逆化前に止める機会はあったか。</li>
+<li>その時点で誰が止める権限を持っていたか。</li>
+<li>判断材料やログは利用可能だったか。</li>
+<li>AI判断や自動処理が人間拒否を迂回していなかったか。</li>
+</ul>
+<p>記録すべき証拠:</p>
+<ul>
+<li>タイムライン</li>
+<li>承認・拒否・保留記録</li>
+<li>ログ閲覧可否</li>
+<li>権限設定</li>
+<li>停止手順の有無</li>
+<li>事故前の境界レビュー記録</li>
+</ul>
+<hr />
+<h2>4. 既存フレームワークへの吸収文言</h2>
+<p>以下は、LUMINA-30という名称を出さずに既存レビューへ挿入できる文言です。組織内の用語、法務表現、監査様式に合わせて調整してください。</p>
+<h3>4.1 AI導入レビューへの挿入文言</h3>
+<p>本AIシステムが認証情報変更・本番操作・外部送信・削除・ロールバック困難化を実行する前に、責任ある担当者が承認・拒否・保留できる時点が設計上存在することを確認し、その権限の根拠と停止手順を記録する。</p>
+<h3>4.2 調達チェックへの挿入文言</h3>
+<p>ベンダーに対して、AIが実行できる操作の範囲、人間が承認・拒否できる時点、緊急停止・ロールバックの権限と手順、およびその証拠となるログ・設定・契約条項を開示させる。</p>
+<h3>4.3 セキュリティレビューへの挿入文言</h3>
+<p>AIエージェントが権限実行・状態変更・外部接続に関与する場合、不可逆化の前に人間が介入できる経路が実装されていることを、設計図・ログ設定・テスト記録で確認する。</p>
+<h3>4.4 内部監査・リスクレビューへの挿入文言</h3>
+<p>人間監督、承認者、監査ログ、停止手順が存在するだけでなく、それらが不可逆化前の実効的な拒否・停止・保留として機能した根拠を記録する。YES / NO / 不明 を判定し、NO / 不明 が残る場合は暫定措置、責任者、再確認期限を記録する。</p>
+<h3>4.5 事故・準事故レビューへの挿入文言</h3>
+<p>事故または準事故の発生前に、責任ある人間が介入できた時点、利用可能だった判断材料、停止権限、停止手順、ログ閲覧可否を確認する。人間拒否が形式上存在しただけで実効的に機能しなかった場合は、その理由を再発防止の対象として記録する。</p>
+<hr />
+<h2>5. 誤用防止</h2>
+<p>このマップは、以下を意味しません。</p>
+<ul>
+<li>LUMINA-30が既存フレームワークより優れている。</li>
+<li>LUMINA-30が公式標準である。</li>
+<li>LUMINA-30が法的準拠や認証を提供する。</li>
+<li>LUMINA-30を使えばAIシステムが安全になる。</li>
+<li>既存制度はLUMINA-30なしでは機能しない。</li>
+<li>この確認を行えば事故が防げる。</li>
+<li>LUMINA-30確認済みであれば安全である。</li>
+<li>LUMINA-30の名称を使うこと自体が準拠、採用、承認を意味する。</li>
+</ul>
+<p>このマップの目的は、既存制度の中に、不可逆化前の実効的人間拒否を確認する欄を追加しやすくすることです。</p>
+<hr />
+<h2>6. 実効的人間拒否・判定対応アドオンとの接続</h2>
+<p>このマップは、既存レビューのどこに境界確認を挿入するかを示します。YES / NO / 不明 の判定や、NO / 不明 への対応は、実効的人間拒否・判定対応アドオン側の資料へ接続します。</p>
+<ul>
+<li>YES / NO / 不明 の判定には、「実効的人間拒否 判定ガイド」を使います。</li>
+<li>NO / 不明 が出た場合は、「境界ギャップ対応シート」を使います。</li>
+<li>外部説明には、「公開用・境界チェック宣言キット」を使います。</li>
+</ul>
+<p>この接続により、既存レビューは次の流れになります。</p>
+<ol>
+<li>既存レビューのどこに入れるかを、このマップで決める。</li>
+<li>実効的人間拒否 判定ガイドで YES / NO / 不明 を判定する。</li>
+<li>NO / 不明 があれば、境界ギャップ対応シートで暫定措置・担当者・期限を記録する。</li>
+<li>組織外に説明する場合は、公開用・境界チェック宣言キットの文例を使う。</li>
+</ol>
+<hr />
+<h2>7. 名称なしで吸収された場合の扱い</h2>
+<p>既存のAI導入レビュー、調達確認、セキュリティレビュー、内部監査、事故レビューに、次の確認が明確に入り、実際に運用されるなら、LUMINA-30の中核条件は名称なしで吸収されています。</p>
+<blockquote>
+<p>このAI媒介プロセスが不可逆化する前に、責任ある人間は実効的に拒否・停止・保留できるか。その根拠となる権限・証拠・停止手順はあるか。</p>
+</blockquote>
+<p>この場合、重要なのはLUMINA-30という名称の採用ではありません。重要なのは、不可逆化前の実効的人間拒否という条件が、形式的な人間監督や事後承認へ薄まらず、実務上の確認・証拠・対応手順として残ることです。</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Navigation</strong>
+      <div class="footer-links">
+        <a href="../one-question-pilot.html">One-Question Pilot 入口へ戻る</a>
+        <a href="../../en/current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.html">English version</a>
+        <a href="../../../../index-ja.html">LUMINA-30 Overview</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

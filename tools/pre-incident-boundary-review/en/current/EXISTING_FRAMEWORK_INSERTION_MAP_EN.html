@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Existing Framework Insertion Map | LUMINA-30 Boundary Review</title>
+  <meta name="description" content="This document does not present LUMINA-30 as a replacement for existing frameworks. It is a practical map for inserting LUMINA-30&#x27;s core boundary condition">
+  <meta property="og:title" content="Existing Framework Insertion Map | LUMINA-30 Boundary Review">
+  <meta property="og:description" content="This document does not present LUMINA-30 as a replacement for existing frameworks. It is a practical map for inserting LUMINA-30&#x27;s core boundary condition">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.html">
+  <meta name="twitter:card" content="summary">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071019;
+      --panel: #0d1b2a;
+      --panel-2: #10263a;
+      --text: #edf6ff;
+      --muted: #bdd0df;
+      --line: rgba(173, 216, 255, 0.24);
+      --accent: #77d7ff;
+      --accent-2: #9cf0d0;
+      --warning: #ffd18a;
+      --shadow: rgba(0, 0, 0, 0.35);
+      --max: 1080px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 18px;
+      line-height: 1.72;
+    }
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-2); }
+    .wrap { width: min(100% - 32px, var(--max)); margin: 0 auto; }
+    header.hero {
+      padding: 42px 0 28px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #0a1825 0%, var(--bg) 100%);
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      margin: 0 0 16px;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--accent-2);
+      background: rgba(156, 240, 208, 0.07);
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    h1, h2, h3 { line-height: 1.22; }
+    h1 {
+      max-width: 980px;
+      margin: 0;
+      font-size: clamp(2rem, 5.8vw, 3.8rem);
+      letter-spacing: -0.04em;
+    }
+    .lead {
+      max-width: 900px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.03rem, 2.1vw, 1.25rem);
+    }
+    .cta-row, .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 10px 15px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #132b40;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 10px 30px var(--shadow);
+    }
+    .button.primary {
+      border-color: rgba(119, 215, 255, 0.55);
+      background: linear-gradient(135deg, #16496a 0%, #12344d 100%);
+    }
+    main { padding: 28px 0 52px; }
+    article.document {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(13, 27, 42, 0.86);
+      box-shadow: 0 14px 40px var(--shadow);
+    }
+    .document > *:first-child { margin-top: 0; }
+    .document h2 {
+      margin: 34px 0 12px;
+      padding-top: 4px;
+      font-size: clamp(1.42rem, 3vw, 2rem);
+      letter-spacing: -0.02em;
+    }
+    .document h3 {
+      margin: 26px 0 10px;
+      font-size: clamp(1.16rem, 2.2vw, 1.42rem);
+      color: #f8fcff;
+    }
+    .document p { margin: 12px 0 0; }
+    .document ul, .document ol { padding-left: 1.35em; margin: 12px 0 0; }
+    .document li { margin: 6px 0; }
+    .document strong { color: #f8fcff; }
+    .document code {
+      padding: 0.12em 0.35em;
+      border: 1px solid rgba(173, 216, 255, 0.18);
+      border-radius: 0.35em;
+      background: rgba(7, 16, 25, 0.72);
+      color: #e9f7ff;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 0.92em;
+      overflow-wrap: anywhere;
+    }
+    .document pre {
+      margin: 16px 0 0;
+      padding: 16px;
+      border: 1px solid rgba(173, 216, 255, 0.22);
+      border-radius: 16px;
+      background: rgba(7, 16, 25, 0.86);
+      overflow-x: auto;
+      white-space: pre;
+    }
+    .document pre code {
+      display: block;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      white-space: pre;
+      overflow-wrap: normal;
+    }
+    .table-scroll {
+      width: 100%;
+      margin: 16px 0 0;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(16, 38, 58, 0.5);
+    }
+    table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(173, 216, 255, 0.18);
+      vertical-align: top;
+      text-align: left;
+    }
+    th { color: var(--accent-2); background: rgba(7, 16, 25, 0.48); }
+    tr:last-child td { border-bottom: 0; }
+    blockquote {
+      margin: 18px 0 0;
+      padding: 14px 18px;
+      border-left: 5px solid rgba(119, 215, 255, 0.62);
+      border-radius: 12px;
+      background: rgba(119, 215, 255, 0.08);
+      color: #f8fcff;
+    }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
+    footer {
+      padding: 28px 0 46px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .footer-links a {
+      display: inline-flex;
+      padding: 8px 0;
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+    }
+    @media (max-width: 820px) {
+      body { font-size: 17px; }
+      header.hero { padding-top: 34px; }
+      article.document { padding: 22px; }
+      .button { width: 100%; }
+      table { min-width: 640px; }
+    }
+    </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">LUMINA-30 practical boundary-review document</p>
+      <h1>Existing Framework Insertion Map</h1>
+      <p class="lead">This document does not present LUMINA-30 as a replacement for existing frameworks. It is a practical map for inserting LUMINA-30&#x27;s core boundary condition</p>
+      <nav class="cta-row" aria-label="Document navigation">
+        <a class="button primary" href="../one-question-pilot.html">Back to One-Question Pilot</a>
+        <a class="button" href="../../ja/current/EXISTING_FRAMEWORK_INSERTION_MAP_JA.html">Japanese version</a>
+        <a class="button" href="../../../../index.html">LUMINA-30 Overview</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="document">
+<h2>Adding Pre-Irreversibility Effective Human Refusal to Existing Reviews</h2>
+<p>Version: v0.1<br />
+Status: Practical support material / not official, not certification, not a safety guarantee<br />
+Scope: AI adoption reviews, procurement checks, security reviews, internal audits, and incident or near-miss reviews</p>
+<hr />
+<h2>Purpose</h2>
+<p>This document does not present LUMINA-30 as a replacement for existing frameworks. It is a practical map for inserting LUMINA-30's core boundary condition into existing AI governance, legal, audit, procurement, and security review processes.</p>
+<p>The central check is this one question:</p>
+<blockquote>
+<p>Before this AI-mediated process becomes irreversible, can a responsible human effectively refuse, stop, or hold it? Is there authority, evidence, and a stop procedure supporting that refusal?</p>
+</blockquote>
+<p>Even if LUMINA-30 is not adopted by name, its core condition is functionally absorbed if this check is explicitly added to existing reviews and actually operated.</p>
+<p>That is not a failure of LUMINA-30. It is a successful absorption of the core condition into an existing framework.</p>
+<p>This document does not deny, override, or downgrade the EU AI Act, NIST AI RMF, ISO/IEC 42001, or any organization's AI governance, audit, procurement, or security procedures. It also does not make claims about specific legal provisions, standards clauses, or binding obligations. The items below are examples of representative insertion points.</p>
+<hr />
+<h2>1. How to use this map</h2>
+<p>Use this map not to replace existing reviews, but to insert one additional question into them.</p>
+<p>Recommended use:</p>
+<ol>
+<li>Identify the review process your organization already uses.</li>
+<li>Find the point in that review closest to the pre-irreversibility decision point.</li>
+<li>Add the following boundary check.
+<ul>
+<li>Before irreversibility, can a responsible human refuse, stop, or hold the process?</li>
+<li>Does that human have the necessary information, authority, and stop procedure?</li>
+<li>Is the basis for YES / NO / UNKNOWN recorded?</li>
+</ul>
+</li>
+<li>Record YES / NO / UNKNOWN.</li>
+<li>If the answer is NO or UNKNOWN, do not allow deployment, connection, autonomous execution, or authority expansion to proceed unchanged into irreversibility.</li>
+</ol>
+<p>This map is for legal, audit, security, procurement, and AI governance teams that need a minimal insertion into existing organizational procedures.</p>
+<p>The practical question is not whether existing frameworks are sufficient in the abstract. The practical question is where this check can be inserted into the existing framework.</p>
+<p>Using this map does not imply official compliance, certification, safety assurance, legal advice, or any safety confirmation by LUMINA-30.</p>
+<hr />
+<h2>2. Insertion points by existing review type</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Existing review</th>
+<th>Usually checked</th>
+<th>Boundary check to add</th>
+<th>Evidence to record</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AI adoption review</td>
+<td>Purpose of use, expected risks, human oversight, approval process, scope of impact</td>
+<td>Before the AI is connected to irreversible actions or judgments, can a responsible human refuse, stop, or hold it?&lt;br&gt;Is that point before irreversibility?&lt;br&gt;Does the decision-maker have the required information and stop authority?</td>
+<td>Approval flow, stop procedure, authority settings, log access rights, YES / NO / UNKNOWN result</td>
+</tr>
+<tr>
+<td>Procurement and vendor review</td>
+<td>Vendor explanation, security measures, contract terms, data handling, support model</td>
+<td>What actions can the AI perform?&lt;br&gt;Where can a human approve or refuse?&lt;br&gt;Who has emergency stop and rollback authority?&lt;br&gt;Could vendor-side automation or authority changes bypass human refusal?</td>
+<td>Contract terms, admin console settings, authority list, logging specification, emergency stop procedure, vendor response</td>
+</tr>
+<tr>
+<td>Security review</td>
+<td>Authentication, authorization, logs, external connections, change management, incident response</td>
+<td>Before an AI agent participates in credential changes, production actions, external transmission, deletion, or authority execution, can a human stop it?&lt;br&gt;Is there a fast enough route for stopping it?&lt;br&gt;Can logs support pre-action judgment, not only after-the-fact explanation?</td>
+<td>Authorization settings, audit logs, stop-test records, rollback procedure, notification and approval flow</td>
+</tr>
+<tr>
+<td>Internal audit and risk review</td>
+<td>Procedure compliance, approval records, risk assessment, responsibility boundaries, recurrence prevention</td>
+<td>Does “human oversight” function as effective refusal before irreversibility?&lt;br&gt;Can the approver actually override the process?&lt;br&gt;Are NO / UNKNOWN findings left unresolved?&lt;br&gt;Is the basis for YES recorded?</td>
+<td>YES / NO / UNKNOWN decision-guide record, NO / UNKNOWN response sheet, review deadline, interim measure, approver and owner record</td>
+</tr>
+<tr>
+<td>Incident and near-miss review</td>
+<td>What happened, scope of impact, cause, recurrence prevention, responsibility allocation</td>
+<td>Was there an opportunity to stop the process before irreversibility?&lt;br&gt;Who had stop authority at that point?&lt;br&gt;Were decision materials and logs available?&lt;br&gt;Did AI judgment or automation bypass human refusal?</td>
+<td>Timeline, approval/refusal/hold records, log accessibility, authority settings, existence of stop procedures, prior boundary-review record</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2>3. Practical checks by review type</h2>
+<h3>3.1 AI adoption review</h3>
+<p>Usually checked:</p>
+<ul>
+<li>Purpose of use</li>
+<li>Expected risks</li>
+<li>Human oversight</li>
+<li>Approval process</li>
+<li>Scope of impact</li>
+</ul>
+<p>Boundary check to add:</p>
+<ul>
+<li>Before the AI is connected to irreversible actions or judgments, can a responsible human refuse, stop, or hold it?</li>
+<li>Is that point before irreversibility?</li>
+<li>Does the decision-maker have the required information and stop authority?</li>
+</ul>
+<p>Evidence to record:</p>
+<ul>
+<li>Approval flow</li>
+<li>Stop procedure</li>
+<li>Authority settings</li>
+<li>Log access rights</li>
+<li>YES / NO / UNKNOWN result</li>
+</ul>
+<h3>3.2 Procurement and vendor review</h3>
+<p>Usually checked:</p>
+<ul>
+<li>Vendor explanation</li>
+<li>Security measures</li>
+<li>Contract terms</li>
+<li>Data handling</li>
+<li>Support model</li>
+</ul>
+<p>Boundary check to add:</p>
+<ul>
+<li>What actions can the AI perform?</li>
+<li>Where can a human approve or refuse?</li>
+<li>Who has emergency stop and rollback authority?</li>
+<li>Could vendor-side automation or authority changes bypass human refusal?</li>
+</ul>
+<p>Evidence to record:</p>
+<ul>
+<li>Contract terms</li>
+<li>Admin console settings</li>
+<li>Authority list</li>
+<li>Logging specification</li>
+<li>Emergency stop procedure</li>
+<li>Vendor response</li>
+</ul>
+<h3>3.3 Security review</h3>
+<p>Usually checked:</p>
+<ul>
+<li>Authentication</li>
+<li>Authorization</li>
+<li>Logs</li>
+<li>External connections</li>
+<li>Change management</li>
+<li>Incident response</li>
+</ul>
+<p>Boundary check to add:</p>
+<ul>
+<li>Before an AI agent participates in credential changes, production actions, external transmission, deletion, or authority execution, can a human stop it?</li>
+<li>Is there a fast enough route for stopping it?</li>
+<li>Can logs support pre-action judgment, not only after-the-fact explanation?</li>
+</ul>
+<p>Evidence to record:</p>
+<ul>
+<li>Authorization settings</li>
+<li>Audit logs</li>
+<li>Stop-test records</li>
+<li>Rollback procedure</li>
+<li>Notification and approval flow</li>
+</ul>
+<h3>3.4 Internal audit and risk review</h3>
+<p>Usually checked:</p>
+<ul>
+<li>Procedure compliance</li>
+<li>Approval records</li>
+<li>Risk assessment</li>
+<li>Responsibility boundaries</li>
+<li>Recurrence prevention</li>
+</ul>
+<p>Boundary check to add:</p>
+<ul>
+<li>Does “human oversight” function as effective refusal before irreversibility?</li>
+<li>Can the approver actually override the process?</li>
+<li>Are NO / UNKNOWN findings left unresolved?</li>
+<li>Is the basis for YES recorded?</li>
+</ul>
+<p>Evidence to record:</p>
+<ul>
+<li>YES / NO / UNKNOWN decision-guide record</li>
+<li>NO / UNKNOWN response sheet</li>
+<li>Review deadline</li>
+<li>Interim measure</li>
+<li>Approver and owner record</li>
+</ul>
+<h3>3.5 Incident and near-miss review</h3>
+<p>Usually checked:</p>
+<ul>
+<li>What happened</li>
+<li>Scope of impact</li>
+<li>Cause</li>
+<li>Recurrence prevention</li>
+<li>Responsibility allocation</li>
+</ul>
+<p>Boundary check to add:</p>
+<ul>
+<li>Was there an opportunity to stop the process before irreversibility?</li>
+<li>Who had stop authority at that point?</li>
+<li>Were decision materials and logs available?</li>
+<li>Did AI judgment or automation bypass human refusal?</li>
+</ul>
+<p>Evidence to record:</p>
+<ul>
+<li>Timeline</li>
+<li>Approval, refusal, and hold records</li>
+<li>Log accessibility</li>
+<li>Authority settings</li>
+<li>Existence of stop procedures</li>
+<li>Prior boundary-review record</li>
+</ul>
+<hr />
+<h2>4. Insertable wording for existing frameworks</h2>
+<p>The following wording can be inserted into existing reviews without using the name LUMINA-30. Adapt it to your organization's terminology, legal language, and audit format.</p>
+<h3>4.1 Wording for AI adoption reviews</h3>
+<p>Before this AI system performs credential changes, production actions, external transmission, deletion, or rollback-hardening actions, confirm that a responsible owner has a designed point to approve, refuse, or hold the action, and record the basis of that authority and the stop procedure.</p>
+<h3>4.2 Wording for procurement checks</h3>
+<p>Require the vendor to disclose the range of actions the AI can perform, the point at which a human can approve or refuse, the authority and procedure for emergency stop and rollback, and the logs, settings, and contract terms that evidence those controls.</p>
+<h3>4.3 Wording for security reviews</h3>
+<p>If an AI agent participates in authority execution, state changes, or external connections, confirm through design documents, log configuration, and test records that a human intervention route exists before irreversibility.</p>
+<h3>4.4 Wording for internal audit and risk reviews</h3>
+<p>Do not record only the presence of human oversight, an approver, audit logs, or a stop procedure. Record the basis on which those controls functioned as effective refusal, stop, or hold before irreversibility. Classify the result as YES / NO / UNKNOWN. If NO or UNKNOWN remains, record the interim measure, responsible owner, and review deadline.</p>
+<h3>4.5 Wording for incident and near-miss reviews</h3>
+<p>Before the incident or near miss occurred, identify the point at which a responsible human could have intervened, the decision materials available at that point, stop authority, stop procedure, and log accessibility. If human refusal existed formally but did not function effectively, record the reason as a recurrence-prevention issue.</p>
+<hr />
+<h2>5. Misuse prevention</h2>
+<p>This map does not mean that:</p>
+<ul>
+<li>LUMINA-30 is superior to existing frameworks.</li>
+<li>LUMINA-30 is an official standard.</li>
+<li>LUMINA-30 provides legal compliance or certification.</li>
+<li>Using LUMINA-30 makes an AI system safe.</li>
+<li>Existing frameworks cannot function without LUMINA-30.</li>
+<li>Performing this check prevents incidents.</li>
+<li>“Checked with LUMINA-30” means safe.</li>
+<li>Use of the name LUMINA-30 itself means compliance, adoption, or approval.</li>
+</ul>
+<p>The purpose of this map is to make it easier to add a pre-irreversibility effective human refusal field inside existing frameworks.</p>
+<hr />
+<h2>6. Connection to the Effective Human Refusal decision add-on</h2>
+<p>This map shows where to insert the boundary check into existing reviews. For YES / NO / UNKNOWN classification and response handling, connect it to the Effective Human Refusal decision add-on.</p>
+<ul>
+<li>Use the Effective Human Refusal Decision Guide for YES / NO / UNKNOWN classification.</li>
+<li>If NO or UNKNOWN is found, use the Boundary Gap Response Sheet.</li>
+<li>For external explanation, use the Public Boundary Check Statement Kit.</li>
+</ul>
+<p>This creates the following workflow:</p>
+<ol>
+<li>Use this map to decide where the check belongs inside an existing review.</li>
+<li>Use the Effective Human Refusal Decision Guide to classify YES / NO / UNKNOWN.</li>
+<li>If NO or UNKNOWN is found, use the Boundary Gap Response Sheet to record the interim measure, owner, and deadline.</li>
+<li>If external explanation is needed, use wording from the Public Boundary Check Statement Kit.</li>
+</ol>
+<hr />
+<h2>7. When the condition is absorbed without the name</h2>
+<p>If existing AI adoption reviews, procurement checks, security reviews, internal audits, or incident reviews explicitly include and actually operate the following check, the core condition of LUMINA-30 has been absorbed without requiring the name:</p>
+<blockquote>
+<p>Before this AI-mediated process becomes irreversible, can a responsible human effectively refuse, stop, or hold it? Is there authority, evidence, and a stop procedure supporting that refusal?</p>
+</blockquote>
+<p>In that case, the important issue is not whether the name LUMINA-30 is adopted. The important issue is whether pre-irreversibility effective human refusal remains present as an operational check, evidence requirement, and response procedure without being diluted into generic human oversight or after-the-fact approval.</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Navigation</strong>
+      <div class="footer-links">
+        <a href="../one-question-pilot.html">Back to One-Question Pilot</a>
+        <a href="../../ja/current/EXISTING_FRAMEWORK_INSERTION_MAP_JA.html">Japanese version</a>
+        <a href="../../../../index.html">LUMINA-30 Overview</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

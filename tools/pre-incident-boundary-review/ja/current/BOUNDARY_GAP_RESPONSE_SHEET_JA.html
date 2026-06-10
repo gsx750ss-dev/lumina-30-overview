@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NO / 不明 境界ギャップ対応シート | LUMINA-30 Boundary Review</title>
+  <meta name="description" content="このシートは、事前境界レビューでNOまたは不明が出た後に、問題を放置しないための最小記録様式です。">
+  <meta property="og:title" content="NO / 不明 境界ギャップ対応シート | LUMINA-30 Boundary Review">
+  <meta property="og:description" content="このシートは、事前境界レビューでNOまたは不明が出た後に、問題を放置しないための最小記録様式です。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/ja/current/BOUNDARY_GAP_RESPONSE_SHEET_JA.html">
+  <meta name="twitter:card" content="summary">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071019;
+      --panel: #0d1b2a;
+      --panel-2: #10263a;
+      --text: #edf6ff;
+      --muted: #bdd0df;
+      --line: rgba(173, 216, 255, 0.24);
+      --accent: #77d7ff;
+      --accent-2: #9cf0d0;
+      --warning: #ffd18a;
+      --shadow: rgba(0, 0, 0, 0.35);
+      --max: 1080px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 18px;
+      line-height: 1.72;
+    }
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-2); }
+    .wrap { width: min(100% - 32px, var(--max)); margin: 0 auto; }
+    header.hero {
+      padding: 42px 0 28px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #0a1825 0%, var(--bg) 100%);
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      margin: 0 0 16px;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--accent-2);
+      background: rgba(156, 240, 208, 0.07);
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    h1, h2, h3 { line-height: 1.22; }
+    h1 {
+      max-width: 980px;
+      margin: 0;
+      font-size: clamp(2rem, 5.8vw, 3.8rem);
+      letter-spacing: -0.04em;
+    }
+    .lead {
+      max-width: 900px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.03rem, 2.1vw, 1.25rem);
+    }
+    .cta-row, .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 10px 15px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #132b40;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 10px 30px var(--shadow);
+    }
+    .button.primary {
+      border-color: rgba(119, 215, 255, 0.55);
+      background: linear-gradient(135deg, #16496a 0%, #12344d 100%);
+    }
+    main { padding: 28px 0 52px; }
+    article.document {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(13, 27, 42, 0.86);
+      box-shadow: 0 14px 40px var(--shadow);
+    }
+    .document > *:first-child { margin-top: 0; }
+    .document h2 {
+      margin: 34px 0 12px;
+      padding-top: 4px;
+      font-size: clamp(1.42rem, 3vw, 2rem);
+      letter-spacing: -0.02em;
+    }
+    .document h3 {
+      margin: 26px 0 10px;
+      font-size: clamp(1.16rem, 2.2vw, 1.42rem);
+      color: #f8fcff;
+    }
+    .document p { margin: 12px 0 0; }
+    .document ul, .document ol { padding-left: 1.35em; margin: 12px 0 0; }
+    .document li { margin: 6px 0; }
+    .document strong { color: #f8fcff; }
+    .document code {
+      padding: 0.12em 0.35em;
+      border: 1px solid rgba(173, 216, 255, 0.18);
+      border-radius: 0.35em;
+      background: rgba(7, 16, 25, 0.72);
+      color: #e9f7ff;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 0.92em;
+      overflow-wrap: anywhere;
+    }
+    .document pre {
+      margin: 16px 0 0;
+      padding: 16px;
+      border: 1px solid rgba(173, 216, 255, 0.22);
+      border-radius: 16px;
+      background: rgba(7, 16, 25, 0.86);
+      overflow-x: auto;
+      white-space: pre;
+    }
+    .document pre code {
+      display: block;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      white-space: pre;
+      overflow-wrap: normal;
+    }
+    .table-scroll {
+      width: 100%;
+      margin: 16px 0 0;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(16, 38, 58, 0.5);
+    }
+    table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(173, 216, 255, 0.18);
+      vertical-align: top;
+      text-align: left;
+    }
+    th { color: var(--accent-2); background: rgba(7, 16, 25, 0.48); }
+    tr:last-child td { border-bottom: 0; }
+    blockquote {
+      margin: 18px 0 0;
+      padding: 14px 18px;
+      border-left: 5px solid rgba(119, 215, 255, 0.62);
+      border-radius: 12px;
+      background: rgba(119, 215, 255, 0.08);
+      color: #f8fcff;
+    }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
+    footer {
+      padding: 28px 0 46px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .footer-links a {
+      display: inline-flex;
+      padding: 8px 0;
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+    }
+    @media (max-width: 820px) {
+      body { font-size: 17px; }
+      header.hero { padding-top: 34px; }
+      article.document { padding: 22px; }
+      .button { width: 100%; }
+      table { min-width: 640px; }
+    }
+    </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">LUMINA-30 実務境界レビュー資料</p>
+      <h1>NO / 不明 境界ギャップ対応シート</h1>
+      <p class="lead">このシートは、事前境界レビューでNOまたは不明が出た後に、問題を放置しないための最小記録様式です。</p>
+      <nav class="cta-row" aria-label="Document navigation">
+        <a class="button primary" href="../one-question-pilot.html">One-Question Pilot 入口へ戻る</a>
+        <a class="button" href="../../en/current/BOUNDARY_GAP_RESPONSE_SHEET_EN.html">English version</a>
+        <a class="button" href="../../../../index-ja.html">LUMINA-30 Overview</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="document">
+<p>Version: v0.1<br />
+Scope: Practical Boundary Review Add-on for LUMINA-30 pre-boundary review<br />
+Status: review draft</p>
+<h2>目的</h2>
+<p>このシートは、事前境界レビューでNOまたは不明が出た後に、問題を放置しないための最小記録様式です。</p>
+<p>「危険を見つけたが何も起きない」状態を避け、不可逆化の前に、権限・証拠・停止手順の空白を暫定措置と期限へ接続します。</p>
+<p>このシートは、安全保証、認証、法的準拠、または既存AIガバナンス手順の代替ではありません。</p>
+<h2>使用条件</h2>
+<p>次のいずれかの場合に使用します。</p>
+<ul>
+<li>実効的人間拒否の判定がNOだった。</li>
+<li>実効的人間拒否の判定が不明だった。</li>
+<li>YESに必要な証拠、権限、停止手段、または担当者が確認できなかった。</li>
+</ul>
+<h2>形骸化防止ルール</h2>
+<p>NOまたは不明が出た場合、「次回までに確認」とだけ書いて終了してはなりません。</p>
+<p>必ず、次の3点を記録してください。</p>
+<ol>
+<li>暫定措置</li>
+<li>担当者</li>
+<li>再確認期限</li>
+</ol>
+<h2>境界ギャップ対応シート</h2>
+<pre><code class="language-text">対象プロセス：
+レビュー日：
+元の判定：NO / 不明
+記録者：
+
+1. 権限の空白
+誰が止める権限を持つべきか：
+現状、誰が止める権限を持っているか：
+誰も持っていない場合、その理由：
+権限があっても間に合わない可能性：あり / なし / 不明
+補足：
+
+2. 証拠の空白
+権限の存在を示す文書・ログ・設定・手順：あり / なし / 不明
+確認した証拠：
+足りない証拠：
+証拠確認の担当者：
+
+3. 暫定措置（必ず1つ以上選択）
+[ ] 導入保留
+[ ] 条件付き継続
+[ ] 設計変更要請
+
+暫定措置の内容：
+条件付き継続の場合、不可逆操作に進まないための条件：
+設計変更要請の場合、必要な変更：
+
+4. 次のアクションと担当者
+誰が：
+何を：
+いつまでに：
+完了条件：
+
+5. 再確認期限と承認者
+再確認期限：YYYY-MM-DD
+再確認する人物・役職：
+暫定措置を承認する人物・役職：
+
+6. 再確認結果
+再確認日：
+結果：YES / NO / 不明 / 継続対応
+理由：
+次の対応：
+</code></pre>
+<h2>暫定措置の選び方</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>暫定措置</th>
+<th>使用する場面</th>
+<th>最小条件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>導入保留</td>
+<td>不可逆操作の前に人間が止められない、または止める権限が存在しない。</td>
+<td>不可逆操作に進まないことを明示する。</td>
+</tr>
+<tr>
+<td>条件付き継続</td>
+<td>調査・検証・限定テストなど、不可逆操作に進まない範囲で継続できる。</td>
+<td>継続範囲、禁止される操作、期限、責任者を明示する。</td>
+</tr>
+<tr>
+<td>設計変更要請</td>
+<td>人間判断点、停止手段、権限、証拠記録を設計に追加すれば再評価できる。</td>
+<td>変更対象と再確認期限を明示する。</td>
+</tr>
+</tbody>
+</table></div>
+<h2>終了条件</h2>
+<p>このシートは、次のいずれかが記録されるまで終了扱いにしてはいけません。</p>
+<ul>
+<li>5条件を満たす証拠が確認され、YESとして再判定された。</li>
+<li>導入保留または中止が決定された。</li>
+<li>条件付き継続の範囲、責任者、期限が再設定された。</li>
+<li>設計変更の完了条件と再確認日が設定された。</li>
+</ul>
+<h2>注意</h2>
+<p>NOまたは不明は、失敗の記録ではありません。不可逆化の前に、止められない状態を見つけたという実務上の警告です。</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Navigation</strong>
+      <div class="footer-links">
+        <a href="../one-question-pilot.html">One-Question Pilot 入口へ戻る</a>
+        <a href="../../en/current/BOUNDARY_GAP_RESPONSE_SHEET_EN.html">English version</a>
+        <a href="../../../../index-ja.html">LUMINA-30 Overview</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Effective Human Refusal YES / NO / UNKNOWN Decision Guide | LUMINA-30 Boundary Review</title>
+  <meta name="description" content="This guide provides minimum criteria for classifying effective human refusal in a pre-boundary review without relying only on individual judgment.">
+  <meta property="og:title" content="Effective Human Refusal YES / NO / UNKNOWN Decision Guide | LUMINA-30 Boundary Review">
+  <meta property="og:description" content="This guide provides minimum criteria for classifying effective human refusal in a pre-boundary review without relying only on individual judgment.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.html">
+  <meta name="twitter:card" content="summary">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071019;
+      --panel: #0d1b2a;
+      --panel-2: #10263a;
+      --text: #edf6ff;
+      --muted: #bdd0df;
+      --line: rgba(173, 216, 255, 0.24);
+      --accent: #77d7ff;
+      --accent-2: #9cf0d0;
+      --warning: #ffd18a;
+      --shadow: rgba(0, 0, 0, 0.35);
+      --max: 1080px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 18px;
+      line-height: 1.72;
+    }
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-2); }
+    .wrap { width: min(100% - 32px, var(--max)); margin: 0 auto; }
+    header.hero {
+      padding: 42px 0 28px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #0a1825 0%, var(--bg) 100%);
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      margin: 0 0 16px;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--accent-2);
+      background: rgba(156, 240, 208, 0.07);
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    h1, h2, h3 { line-height: 1.22; }
+    h1 {
+      max-width: 980px;
+      margin: 0;
+      font-size: clamp(2rem, 5.8vw, 3.8rem);
+      letter-spacing: -0.04em;
+    }
+    .lead {
+      max-width: 900px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.03rem, 2.1vw, 1.25rem);
+    }
+    .cta-row, .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 10px 15px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #132b40;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 10px 30px var(--shadow);
+    }
+    .button.primary {
+      border-color: rgba(119, 215, 255, 0.55);
+      background: linear-gradient(135deg, #16496a 0%, #12344d 100%);
+    }
+    main { padding: 28px 0 52px; }
+    article.document {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(13, 27, 42, 0.86);
+      box-shadow: 0 14px 40px var(--shadow);
+    }
+    .document > *:first-child { margin-top: 0; }
+    .document h2 {
+      margin: 34px 0 12px;
+      padding-top: 4px;
+      font-size: clamp(1.42rem, 3vw, 2rem);
+      letter-spacing: -0.02em;
+    }
+    .document h3 {
+      margin: 26px 0 10px;
+      font-size: clamp(1.16rem, 2.2vw, 1.42rem);
+      color: #f8fcff;
+    }
+    .document p { margin: 12px 0 0; }
+    .document ul, .document ol { padding-left: 1.35em; margin: 12px 0 0; }
+    .document li { margin: 6px 0; }
+    .document strong { color: #f8fcff; }
+    .document code {
+      padding: 0.12em 0.35em;
+      border: 1px solid rgba(173, 216, 255, 0.18);
+      border-radius: 0.35em;
+      background: rgba(7, 16, 25, 0.72);
+      color: #e9f7ff;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 0.92em;
+      overflow-wrap: anywhere;
+    }
+    .document pre {
+      margin: 16px 0 0;
+      padding: 16px;
+      border: 1px solid rgba(173, 216, 255, 0.22);
+      border-radius: 16px;
+      background: rgba(7, 16, 25, 0.86);
+      overflow-x: auto;
+      white-space: pre;
+    }
+    .document pre code {
+      display: block;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      white-space: pre;
+      overflow-wrap: normal;
+    }
+    .table-scroll {
+      width: 100%;
+      margin: 16px 0 0;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(16, 38, 58, 0.5);
+    }
+    table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(173, 216, 255, 0.18);
+      vertical-align: top;
+      text-align: left;
+    }
+    th { color: var(--accent-2); background: rgba(7, 16, 25, 0.48); }
+    tr:last-child td { border-bottom: 0; }
+    blockquote {
+      margin: 18px 0 0;
+      padding: 14px 18px;
+      border-left: 5px solid rgba(119, 215, 255, 0.62);
+      border-radius: 12px;
+      background: rgba(119, 215, 255, 0.08);
+      color: #f8fcff;
+    }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
+    footer {
+      padding: 28px 0 46px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .footer-links a {
+      display: inline-flex;
+      padding: 8px 0;
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+    }
+    @media (max-width: 820px) {
+      body { font-size: 17px; }
+      header.hero { padding-top: 34px; }
+      article.document { padding: 22px; }
+      .button { width: 100%; }
+      table { min-width: 640px; }
+    }
+    </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">LUMINA-30 practical boundary-review document</p>
+      <h1>Effective Human Refusal YES / NO / UNKNOWN Decision Guide</h1>
+      <p class="lead">This guide provides minimum criteria for classifying effective human refusal in a pre-boundary review without relying only on individual judgment.</p>
+      <nav class="cta-row" aria-label="Document navigation">
+        <a class="button primary" href="../one-question-pilot.html">Back to One-Question Pilot</a>
+        <a class="button" href="../../ja/current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_JA.html">Japanese version</a>
+        <a class="button" href="../../../../index.html">LUMINA-30 Overview</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="document">
+<p>Version: v0.1<br />
+Scope: Practical Boundary Review Add-on for LUMINA-30 pre-boundary review<br />
+Status: review draft</p>
+<h2>Purpose</h2>
+<p>This guide provides minimum criteria for classifying effective human refusal in a pre-boundary review without relying only on individual judgment.</p>
+<p>The existence of an approver, logs, procedures, or a generic record of human oversight is not enough to classify the review as YES.</p>
+<p>This check is not a safety guarantee, certification, legal compliance finding, or replacement for existing AI governance procedures. Its purpose is to check whether an accountable human can actually refuse, stop, or hold an AI-mediated process before it becomes irreversible.</p>
+<h2>Minimal review question to add</h2>
+<blockquote>
+<p>Is this AI-mediated process being advanced in a form where an accountable human can actually refuse, stop, or hold it before it becomes irreversible?</p>
+</blockquote>
+<h2>Minimum conditions for YES</h2>
+<p>A YES classification is allowed only when all five conditions below can be confirmed.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Condition</th>
+<th>What to verify</th>
+<th>Examples of evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>The irreversible operation has been specifically identified.</td>
+<td>The entry point into irreversibility can be described as an operation, authority, and timing.</td>
+<td>Deployment plan, operational design, authority matrix, release procedure, change management record</td>
+</tr>
+<tr>
+<td>2</td>
+<td>A human decision point exists before that operation.</td>
+<td>A human has a real opportunity to review and decide before irreversibility occurs.</td>
+<td>Approval flow, stop gate, review deadline, pre-execution check record</td>
+</tr>
+<tr>
+<td>3</td>
+<td>The person or role able to decide is explicit.</td>
+<td>The person or role that can refuse, stop, or hold the process is identified.</td>
+<td>RACI, separation-of-duties record, approver list, assigned process owner</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Refusal or hold actually stops the process.</td>
+<td>Refusal or hold is not just a recorded opinion; it causes execution to stop, defer, or return for redesign.</td>
+<td>Stop procedure, access control, workflow setting, change freeze procedure, stop-test record</td>
+</tr>
+<tr>
+<td>5</td>
+<td>The AI cannot execute the operation automatically without human judgment.</td>
+<td>The AI output, recommendation, or decision does not directly trigger the irreversible operation without effective human judgment.</td>
+<td>Automation settings, API permissions, job configuration, escalation design, manual approval setting</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Decision rule</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Classification</th>
+<th>When to use it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>YES</td>
+<td>Authority, timing, stopping mechanism, and evidence are confirmed for all five conditions.</td>
+</tr>
+<tr>
+<td>NO</td>
+<td>At least one of the five conditions is confirmed to be absent, non-functional, or too late to operate before irreversibility.</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>The condition may exist, but the evidence, authority, settings, owner, or procedure cannot be confirmed.</td>
+</tr>
+</tbody>
+</table></div>
+<p>UNKNOWN is not a substitute for YES. It is a conservative interim classification.</p>
+<h2>Common cases that must not be classified as YES</h2>
+<p>If any of the following applies, do not classify the review as YES. Use NO when the condition is not met, and UNKNOWN when evidence is insufficient.</p>
+<ul>
+<li>An approver exists, but lacks time, information, or authority to decide.</li>
+<li>Logs exist, but no one is assigned to review them at a defined time.</li>
+<li>A stop procedure exists, but it has never been tested.</li>
+<li>The process is said to be stoppable by contacting someone, but irreversibility occurs first.</li>
+<li>The human cannot realistically override the AI recommendation.</li>
+<li>The record only says “human oversight exists.”</li>
+<li>Approval exists, but refusal does not stop, defer, or return the process for redesign.</li>
+<li>The AI can automatically execute external transmission, publication, contracting, charging, permission changes, deletion, or distribution.</li>
+</ul>
+<h2>Minimal record field</h2>
+<pre><code class="language-text">Target process:
+Review date:
+Reviewer:
+Irreversible operation:
+Human decision point before irreversibility:
+Person or role able to decide:
+Mechanism that stops the process after refusal or hold:
+Can the AI execute automatically without human judgment:
+Evidence reviewed:
+Classification: YES / NO / UNKNOWN
+Reason:
+Next action: None / Connect to Boundary Gap Response Sheet
+</code></pre>
+<h2>If NO or UNKNOWN is found</h2>
+<p>A NO or UNKNOWN classification must not end the process by itself. Use the NO / UNKNOWN Boundary Gap Response Sheet to record the interim measure, responsible owner, deadline, and reviewing authority.</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Navigation</strong>
+      <div class="footer-links">
+        <a href="../one-question-pilot.html">Back to One-Question Pilot</a>
+        <a href="../../ja/current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_JA.html">Japanese version</a>
+        <a href="../../../../index.html">LUMINA-30 Overview</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
