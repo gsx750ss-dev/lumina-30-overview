@@ -22,6 +22,14 @@
       --accent: #77d7ff;
       --accent-2: #9cf0d0;
       --warning: #ffd18a;
+      --action-panel: rgba(119, 215, 255, 0.105);
+      --action-line: rgba(119, 215, 255, 0.42);
+      --docs-panel: rgba(156, 240, 208, 0.065);
+      --docs-line: rgba(156, 240, 208, 0.26);
+      --note-panel: rgba(173, 216, 255, 0.045);
+      --limit-panel: rgba(255, 209, 138, 0.08);
+      --limit-line: rgba(255, 209, 138, 0.46);
+      --nav-panel: rgba(7, 16, 25, 0.64);
       --shadow: rgba(0, 0, 0, 0.35);
       --max: 1080px;
     }
@@ -71,11 +79,19 @@
       color: var(--muted);
       font-size: clamp(1.03rem, 2.1vw, 1.25rem);
     }
-    .cta-row, .footer-links {
+    .cta-row, .nav-strip, .footer-links {
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
       margin-top: 24px;
+    }
+
+    .nav-strip {
+      padding: 14px;
+      border: 1px solid rgba(173, 216, 255, 0.18);
+      border-radius: 18px;
+      background: var(--nav-panel);
+      box-shadow: none;
     }
     .button {
       display: inline-flex;
@@ -91,9 +107,20 @@
       font-weight: 800;
       box-shadow: 0 10px 30px var(--shadow);
     }
+
+    .nav-strip .button {
+      min-height: 42px;
+      background: rgba(16, 38, 58, 0.52);
+      box-shadow: none;
+      font-weight: 750;
+    }
     .button.primary {
       border-color: rgba(119, 215, 255, 0.55);
       background: linear-gradient(135deg, #16496a 0%, #12344d 100%);
+    }
+
+    .nav-strip .button.primary {
+      background: rgba(119, 215, 255, 0.12);
     }
     main { padding: 28px 0 52px; }
     article.document {
@@ -171,16 +198,26 @@
     blockquote {
       margin: 18px 0 0;
       padding: 14px 18px;
-      border-left: 5px solid rgba(119, 215, 255, 0.62);
+      border: 1px solid rgba(173, 216, 255, 0.18);
+      border-left: 5px solid rgba(119, 215, 255, 0.5);
       border-radius: 12px;
-      background: rgba(119, 215, 255, 0.08);
+      background: var(--note-panel);
       color: #f8fcff;
     }
     hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
     footer {
-      padding: 28px 0 46px;
-      border-top: 1px solid var(--line);
+      padding: 30px 0 48px;
+      border-top: 1px solid rgba(173, 216, 255, 0.16);
+      background: var(--nav-panel);
       color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    footer .wrap {
+      padding: 16px 18px;
+      border: 1px solid rgba(173, 216, 255, 0.16);
+      border-radius: 18px;
+      background: rgba(7, 16, 25, 0.34);
     }
     .footer-links a {
       display: inline-flex;
@@ -192,6 +229,7 @@
       body { font-size: 17px; }
       header.hero { padding-top: 34px; }
       article.document { padding: 22px; }
+      .nav-strip { padding: 14px; gap: 10px; }
       .button { width: 100%; }
       table { min-width: 640px; }
     }
@@ -203,7 +241,7 @@
       <p class="eyebrow">LUMINA-30 practical boundary-review document</p>
       <h1>One-Question Pilot Runbook</h1>
       <p class="lead">This document is a runbook for testing one initial case before formally adopting LUMINA-30. It is meant to be used inside an existing AI adoption review</p>
-      <nav class="cta-row" aria-label="Document navigation">
+      <nav class="nav-strip" aria-label="Document navigation">
         <a class="button primary" href="../one-question-pilot.html">Back to One-Question Pilot</a>
         <a class="button" href="../../ja/current/ONE_QUESTION_PILOT_RUNBOOK_JA.html">Japanese version</a>
         <a class="button" href="../../../../index.html">LUMINA-30 Overview</a>
