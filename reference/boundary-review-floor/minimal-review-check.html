@@ -96,6 +96,18 @@ before execution.</li>
 <li>Documentation showing that override was connected to the actual
 execution path. override</li>
 </ul>
+<h2 id="supplemental-checks-for-ongoing-or-connected-systems">Supplemental checks for ongoing or connected systems</h2>
+<p>Use these checks when the reviewed system is already operational, becoming relied upon, connected to other systems, or difficult to roll back. These checks do not replace the five minimal questions above.</p>
+<table><thead><tr><th>No.</th><th>Supplemental check</th></tr></thead><tbody>
+<tr><td>6</td><td>Is effective refusal still current, or has it weakened through dependency, coupling, stop cost, or loss of alternatives?</td></tr>
+<tr><td>7</td><td>Are the evidence, stop tests, rollback records, and manual fallback procedures recent enough for the current configuration?</td></tr>
+<tr><td>8</td><td>For higher-risk uses, is the evidence supported by independent, external, or tamper-resistant mechanisms rather than internal self-reporting alone?</td></tr>
+<tr><td>9</td><td>If multiple systems, agents, APIs, vendors, or workflows are connected, can the relevant whole or hazardous part still be stopped, separated, degraded, or rolled back?</td></tr>
+<tr><td>10</td><td>What is the maximum irreversible coupling range if refusal is delayed or fails?</td></tr>
+</tbody></table>
+<p>If these supplemental checks cannot be answered with current evidence, do not treat the result as YES. Use UNKNOWN and define the next evidence or reduction action.</p>
+<p>See also: <a href="refusal-continuity-composition-supplement.html">H Room: Refusal Continuity &amp; Composition Supplement</a>.</p>
+
 <h2 id="external-use-context">External-use context</h2>
 <p>This room keeps the operational check minimal. For external
 incident-response, standards, governance, or human-oversight contexts,
@@ -125,3 +137,4 @@ certification, or compliance determination.</p>
 </div>
 </body>
 </html>
+

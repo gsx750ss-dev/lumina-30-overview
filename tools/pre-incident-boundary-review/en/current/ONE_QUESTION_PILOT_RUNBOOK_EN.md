@@ -137,6 +137,23 @@ Classify the pilot outcome as one of the following:
 
 This classification is not a decision to formally adopt LUMINA-30. It is a practical indicator for deciding whether this check is worth keeping inside the existing review.
 
+
+## 3A. Supplemental check for ongoing or connected systems
+
+For an initial pilot, keep the scope small. However, if the target case is already operational, becoming relied upon, connected to other systems, agentic, vendor-dependent, or difficult to roll back, add a short supplemental check.
+
+Ask whether effective refusal is still current after considering:
+
+- Refusal Drift: whether dependency, coupling, stop cost, or loss of alternatives has weakened the practical ability to stop or hold the process.
+- Evidence Drift: whether stop tests, rollback records, manual fallback procedures, logs, and authority records are current for the present configuration.
+- Refusal Assurance Boundary: whether the evidence depends only on internal self-reporting, or whether independent, external, or tamper-resistant evidence is needed for the risk level.
+- Refusal Composition Risk: whether connected systems, agents, APIs, vendors, or workflows can still be stopped, separated, degraded, or rolled back as a relevant whole or hazardous part.
+- Maximum Irreversible Coupling Range: the largest practical range of systems, workflows, data, contracts, users, or external effects that may become difficult to unwind if refusal is delayed or fails.
+
+If this supplemental check cannot be answered with current evidence, do not convert the result to YES. Keep the result as UNKNOWN and record the next evidence or reduction action.
+
+See also: `../../../../reference/boundary-review-floor/refusal-continuity-composition-supplement.md`.
+
 ---
 
 ## 4. Record template
@@ -199,3 +216,4 @@ This runbook does not deny, override, or downgrade existing frameworks.
 This runbook does not present LUMINA-30 as an official standard, safety guarantee, legal certification, audit completion, or a system superior to existing frameworks.
 
 The purpose of this runbook is to help an organization test, in one initial case, whether an existing review leaves a gap between formal human oversight and effective human refusal.
+

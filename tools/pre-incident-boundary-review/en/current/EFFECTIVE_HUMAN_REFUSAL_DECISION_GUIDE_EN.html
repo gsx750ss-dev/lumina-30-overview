@@ -422,12 +422,27 @@ Status: review draft</p>
 </tbody>
 </table></div>
 <p>UNKNOWN is not a substitute for YES. It is a conservative interim classification.</p>
+<h2>Continuity and composition limits for YES</h2>
+<p>A YES classification is not permanent. It applies only to the reviewed configuration, evidence, authority, and stopping mechanism at the time of review.</p>
+<p>For ongoing, high-risk, or connected systems, also check whether:</p>
+<ul>
+<li>the stopping mechanism has been tested recently enough for the current configuration;</li>
+<li>evidence is current rather than stale, self-reported only, or disconnected from operations;</li>
+<li>manual fallback, degraded mode, rollback, or isolation remains practical;</li>
+<li>connected systems, agents, APIs, vendors, or workflows can be stopped or separated as a relevant whole or hazardous part;</li>
+<li>the maximum irreversible coupling range has been identified.</li>
+</ul>
+<p>If these cannot be confirmed, classify the result as UNKNOWN rather than YES.</p>
+
 <h2>Common cases that must not be classified as YES</h2>
 <p>If any of the following applies, do not classify the review as YES. Use NO when the condition is not met, and UNKNOWN when evidence is insufficient.</p>
 <ul>
 <li>An approver exists, but lacks time, information, or authority to decide.</li>
 <li>Logs exist, but no one is assigned to review them at a defined time.</li>
 <li>A stop procedure exists, but it has never been tested.</li>
+<li>A previous stop test or rollback record exists, but it is stale or no longer matches the current configuration.</li>
+<li>Each component appears stoppable, but the connected workflow, API chain, agent chain, or vendor stack has no effective whole-configuration stop or separation path.</li>
+<li>For a higher-risk use, evidence is based only on internal self-reporting where independent, external, or tamper-resistant evidence is needed.</li>
 <li>The process is said to be stoppable by contacting someone, but irreversibility occurs first.</li>
 <li>The human cannot realistically override the AI recommendation.</li>
 <li>The record only says “human oversight exists.”</li>
@@ -465,3 +480,4 @@ Next action: None / Connect to Boundary Gap Response Sheet
   </footer>
 </body>
 </html>
+

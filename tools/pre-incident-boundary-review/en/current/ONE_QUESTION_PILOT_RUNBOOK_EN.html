@@ -470,6 +470,20 @@ Scope: Testing one initial case inside an existing AI adoption review, procureme
 </table></div>
 <p>This classification is not a decision to formally adopt LUMINA-30. It is a practical indicator for deciding whether this check is worth keeping inside the existing review.</p>
 <hr />
+<h2>3A. Supplemental check for ongoing or connected systems</h2>
+<p>For an initial pilot, keep the scope small. However, if the target case is already operational, becoming relied upon, connected to other systems, agentic, vendor-dependent, or difficult to roll back, add a short supplemental check.</p>
+<p>Ask whether effective refusal is still current after considering:</p>
+<ul>
+<li><strong>Refusal Drift:</strong> whether dependency, coupling, stop cost, or loss of alternatives has weakened the practical ability to stop or hold the process.</li>
+<li><strong>Evidence Drift:</strong> whether stop tests, rollback records, manual fallback procedures, logs, and authority records are current for the present configuration.</li>
+<li><strong>Refusal Assurance Boundary:</strong> whether the evidence depends only on internal self-reporting, or whether independent, external, or tamper-resistant evidence is needed for the risk level.</li>
+<li><strong>Refusal Composition Risk:</strong> whether connected systems, agents, APIs, vendors, or workflows can still be stopped, separated, degraded, or rolled back as a relevant whole or hazardous part.</li>
+<li><strong>Maximum Irreversible Coupling Range:</strong> the largest practical range of systems, workflows, data, contracts, users, or external effects that may become difficult to unwind if refusal is delayed or fails.</li>
+</ul>
+<p>If this supplemental check cannot be answered with current evidence, do not convert the result to YES. Keep the result as UNKNOWN and record the next evidence or reduction action.</p>
+<p>See also: <a href="../../../../reference/boundary-review-floor/refusal-continuity-composition-supplement.html">Refusal Continuity &amp; Composition Supplement</a>.</p>
+
+<hr />
 <h2>4. Record template</h2>
 <div class="table-scroll"><table>
 <thead>
@@ -568,3 +582,4 @@ Scope: Testing one initial case inside an existing AI adoption review, procureme
   </footer>
 </body>
 </html>
+

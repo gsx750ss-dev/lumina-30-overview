@@ -127,6 +127,7 @@ You should be able to:
 | E. Practice Room ｜ E. 実務の部屋 | Use a minimal review check for incidents, audits, or governance review. ｜ 事故後レビュー、監査、ガバナンス確認で使う | [Enter E Room](./minimal-review-check.md) ｜ [Eルームへ](./minimal-review-check.md) |
 | F. Review Lens Check ｜ F. レビュー視点チェック | Choose Level 1, 2, or 3 and check whether you can use the review lens without treating it as certification. ｜ Level 1〜3を選び、認証ではなくレビュー視点を使えるか自己確認する | [Enter F Room](./review-lens-check.md) ｜ [Fルームへ](./review-lens-check.md) |
 | G. Walkthrough Room ｜ G. 読み替え例の部屋 | See a short fictional example of re-reading formal oversight through the boundary question. ｜ 架空の短い例で、形式的監督を境界質問で読み替える | [Enter G Room](./walkthrough-room.md) ｜ [Gルームへ](./walkthrough-room.md) |
+| H. Refusal Continuity & Composition Supplement ｜ H. 拒否権継続性・合成リスク補足 | Check refusal drift, evidence drift, assurance boundary, composition risk, and maximum irreversible coupling range for ongoing or connected systems. ｜ 継続運用・接続システムについて、拒否権ドリフト、証拠ドリフト、拒否権保証境界、合成リスク、最大不可逆化範囲を確認する | [Enter H Room](./refusal-continuity-composition-supplement.md) ｜ [Hルームへ](./refusal-continuity-composition-supplement.md) |
 
 ## How the floor is intended to work ｜ このフロアの使い方
 
@@ -137,6 +138,7 @@ You should be able to:
 5. Use C Room if you want to share the question with someone else.  
 6. Use D Room if you work with existing governance, audit, risk, ethics, or policy frameworks.  
 7. Use E Room if you need a minimal review check.
+8. Use H Room if the case involves ongoing operation, stale evidence, dependency growth, or multi-system coupling.
 
 1. 中核の境界質問を早く持ち帰りたい場合は、**Level 1** を使ってください。  
 2. 境界質問を基本的なレビュー視点として使いたい場合は、**Level 2** を使ってください。  
@@ -145,6 +147,7 @@ You should be able to:
 5. 他の人に共有したい場合は、Cルームを使ってください。  
 6. 既存ガバナンス、監査、リスク、倫理、政策枠組みに関わる場合は、Dルームを使ってください。  
 7. 最小レビュー確認が必要な場合は、Eルームを使ってください。
+8. 継続運用、証拠陳腐化、依存増加、複数システム結合が関係する場合は、Hルームを使ってください。
 
 ## External-use references ｜ 外部制度・団体接続参照
 
@@ -171,4 +174,5 @@ This page is non-binding and does not provide legal advice, certification, or co
 
 [Back to Boundary Review Floor](./index.md) ｜ [境界レビューフロアへ戻る](./index.md)  
 [Back to Main Floor](../../README.md) ｜ [メインフロアへ戻る](../../README.md)
+
 

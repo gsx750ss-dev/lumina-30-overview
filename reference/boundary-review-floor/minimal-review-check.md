@@ -56,6 +56,27 @@ Useful evidence may include:
 - Documentation showing that override was connected to the actual execution path.  
   override が実際の実行経路に接続されていたことを示す文書。
 
+
+## Supplemental checks for ongoing or connected systems ｜ 継続運用・接続システム向け補足確認
+
+Use these checks when the reviewed system is already operational, becoming relied upon, connected to other systems, or difficult to roll back. These checks do not replace the five minimal questions above.
+
+レビュー対象がすでに運用中である場合、依存が深まっている場合、他システムと接続されている場合、またはロールバックが困難な場合に使用します。以下の確認は、上記5つの最小質問を置き換えるものではありません。
+
+| No. | Supplemental check | 日本語 |
+|---:|---|---|
+| 6 | Is effective refusal still current, or has it weakened through dependency, coupling, stop cost, or loss of alternatives? | 実効的拒否は現在も有効か。依存、結合、停止コスト、代替手段喪失によって弱まっていないか。 |
+| 7 | Are the evidence, stop tests, rollback records, and manual fallback procedures recent enough for the current configuration? | 証拠、停止試験、ロールバック記録、手動代替手順は、現在の構成に対して十分新しいか。 |
+| 8 | For higher-risk uses, is the evidence supported by independent, external, or tamper-resistant mechanisms rather than internal self-reporting alone? | 高リスク用途では、証拠は内部自己申告だけでなく、独立性、外部性、または改竄困難な仕組みに支えられているか。 |
+| 9 | If multiple systems, agents, APIs, vendors, or workflows are connected, can the relevant whole or hazardous part still be stopped, separated, degraded, or rolled back? | 複数のシステム、エージェント、API、ベンダー、ワークフローが接続されている場合、関係する全体または危険部分をなお停止・分離・縮退・ロールバックできるか。 |
+| 10 | What is the maximum irreversible coupling range if refusal is delayed or fails? | 拒否が遅延または失敗した場合の最大不可逆化範囲はどこまでか。 |
+
+If these supplemental checks cannot be answered with current evidence, do not treat the result as YES. Use UNKNOWN and define the next evidence or reduction action.
+
+これらの補足確認に現在の証拠で答えられない場合、YESとして扱わないでください。不明とし、次の証拠確認または縮小アクションを定義してください。
+
+See also: [H Room: Refusal Continuity & Composition Supplement](./refusal-continuity-composition-supplement.md) ｜ [Hルーム：拒否権継続性・合成リスク補足](./refusal-continuity-composition-supplement.md)
+
 ## External-use context ｜ 外部制度・団体文脈で使う場合
 
 This room keeps the operational check minimal. For external incident-response, standards, governance, or human-oversight contexts, use the external-use notes from D Room as supporting references rather than expanding this checklist.
@@ -81,4 +102,5 @@ This page is non-binding and does not provide legal advice, certification, or co
 
 [Back to Boundary Review Floor](./index.md) ｜ [境界レビューフロアへ戻る](./index.md)  
 [Back to Main Floor](../../README.md) ｜ [メインフロアへ戻る](../../README.md)
+
 

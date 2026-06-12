@@ -73,6 +73,41 @@ No. This page is non-binding. It is intended as a review lens that can be volunt
 
 いいえ。このページは非拘束です。事故後レビュー、監査、ガバナンス、政策、リスク、調達、評価のワークフローに任意で追加できるレビュー視点として設計されています。
 
+
+### 11. Does a YES result remain valid forever?
+
+No. A YES result is current only for the reviewed configuration and evidence. Effective refusal can decay over time as dependency, coupling, stop cost, or loss of alternatives increases. This is Refusal Drift.
+
+いいえ。YES判定は、レビュー時点の構成と証拠に対してのみ有効です。依存、結合、停止コスト、代替手段喪失が増えると、実効的拒否は時間とともに劣化し得ます。これを拒否権ドリフトと呼びます。
+
+### 12. What if evidence exists but is stale?
+
+Stale evidence should not be treated as YES by default. A stop test, rollback record, manual fallback procedure, or authority record must still correspond to the current configuration. If it does not, classify the result as UNKNOWN until current evidence is available. This is Evidence Drift.
+
+古い証拠を自動的にYESとして扱うべきではありません。停止試験、ロールバック記録、手動代替手順、権限記録は、現在の構成に対応している必要があります。対応していない場合、現在の証拠が得られるまで不明として扱います。これを証拠ドリフトと呼びます。
+
+### 13. Is internal self-reporting enough?
+
+Not always. Internal self-attestation may be useful, but higher-risk uses may require independent review, externality, tamper-resistant evidence, or conservative UNKNOWN classification. This is the Refusal Assurance Boundary.
+
+常に十分とは限りません。内部自己申告は有用な場合がありますが、高リスク用途では、独立レビュー、外部性、改竄困難な証拠、または安全側の不明判定が必要になり得ます。これを拒否権保証境界と呼びます。
+
+### 14. If each connected system is stoppable, is the whole configuration stoppable?
+
+Not necessarily. Refusal is not automatically compositional. Individual systems may each appear stoppable, while the connected workflow, agent chain, vendor stack, API network, or operational configuration is not stoppable as a whole. This is Refusal Composition Risk.
+
+必ずしもそうではありません。拒否権は自動的には合成保存されません。個々のシステムは止められるように見えても、接続されたワークフロー、エージェント連鎖、ベンダースタック、APIネットワーク、運用構成全体は止められない場合があります。これを拒否権の合成リスクと呼びます。
+
+### 15. How should composition risk be bounded in practice?
+
+Do not try to evaluate every possible combination one by one. Identify the Maximum Irreversible Coupling Range: the largest practical range of workflows, systems, data flows, contracts, users, or external effects that may become difficult to separate once the deployment deepens.
+
+すべての組み合わせを一つずつ評価しようとしないでください。最大不可逆化範囲を特定します。これは、導入が深まった後に分離困難になり得るワークフロー、システム、データ流通、契約、利用者、外部影響の最大実務範囲です。
+
+For the consolidated supplement, see [H Room: Refusal Continuity & Composition Supplement](./refusal-continuity-composition-supplement.md).
+
+統合補足は、[Hルーム：拒否権継続性・合成リスク補足](./refusal-continuity-composition-supplement.md) を参照してください。
+
 ## What this room deliberately avoids ｜ この部屋で意図的に避けること
 
 - It does not create a separate decision authority.  
@@ -98,5 +133,6 @@ This page is non-binding and does not provide legal advice, certification, or co
 
 [Back to Boundary Review Floor](./index.md) ｜ [境界レビューフロアへ戻る](./index.md)  
 [Back to Main Floor](../../README.md) ｜ [メインフロアへ戻る](../../README.md)
+
 
 

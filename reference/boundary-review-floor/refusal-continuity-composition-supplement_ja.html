@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html data-l30-lang-lock="JP_ONLY" lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="JP_ONLY" name="l30:lang-lock"/>
+<meta content="拒否権ドリフト、証拠ドリフト、拒否権保証境界、拒否権の合成リスク、最大不可逆化範囲のための境界レビューフロア補足ページ。" name="description"/>
+<title>H. 拒否権継続性・合成リスク補足</title>
+<style>
+:root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+.page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+.nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+.nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+h3 { margin-top: 1.5em; }
+a { color: var(--accent); }
+code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+th { background: var(--panel); }
+blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+.subtitle, .footer { color: var(--muted); }
+[id] { scroll-margin-top: 92px; }
+
+</style>
+</head>
+<body>
+<div class="page">
+<nav aria-label="Page navigation" class="nav"><a href="../../index-ja.html">日本語トップ</a><a href="../../index.html">英語トップ</a><a href="refusal-continuity-composition-supplement.html">英語版</a><a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/refusal-continuity-composition-supplement_ja.html">↻ 再読み込み</a></nav>
+<header><h1>H. 拒否権継続性・合成リスク補足</h1><p class="subtitle">拒否権ドリフト、証拠ドリフト、拒否権保証境界、拒否権の合成リスク、最大不可逆化範囲のための境界レビューフロア補足ページ。</p></header>
+<main>
+<!-- L30_LANG_LOCK: JP_ONLY -->
+<p>この補足は、LUMINA-30の境界質問に、継続性、証拠、保証、合成リスクの確認を追加するものです。実効的人間拒否の中核定義を変更するものではありません。</p>
+<h2 id="中核的な使い方">中核的な使い方</h2>
+<p>この補足は、システムが継続運用される場合、業務に組み込まれている場合、他システムと接続されている場合、エージェント的に動作する場合、外部連携している場合、またはロールバックが困難な場合に使用します。</p>
+<blockquote><p>時間経過、依存深化、証拠の陳腐化、内部自己申告の限界、複数システム結合を考慮しても、実効的人間拒否はなお利用可能か。</p></blockquote>
+<p>これはレビュー視点であり、認証、法的判定、安全保証、または外部監査そのものではありません。</p>
+<h2 id="5つの補足概念">5つの補足概念</h2>
+<table><thead><tr><th>概念</th><th>実務上の意味</th></tr></thead><tbody>
+<tr><td>Refusal Drift / 拒否権ドリフト</td><td>導入時には止められても、依存、停止コスト、結合、組織的依存が増えると、実質的な拒否・停止・保留・ロールバックが難しくなる。</td></tr>
+<tr><td>Evidence Drift / 証拠ドリフト</td><td>拒否権がなお実効的であることを示す証拠は、古くなり、不完全になり、未試験になり、現在の運用から切り離され得る。</td></tr>
+<tr><td>Refusal Assurance Boundary / 拒否権保証境界</td><td>内部自己申告には限界がある。高リスク用途では、外部性、独立レビュー、改竄困難な証拠、または安全側の不明判定が必要になり得る。</td></tr>
+<tr><td>Refusal Composition Risk / 拒否権の合成リスク</td><td>個々のシステムは止められるように見えても、接続されたワークフロー、エージェント連鎖、ベンダースタック、APIネットワーク、運用構成全体は止められない場合がある。</td></tr>
+<tr><td>Maximum Irreversible Coupling Range / 最大不可逆化範囲</td><td>すべての組み合わせを評価する代わりに、導入・深化後に分離困難になり得るワークフロー、システム、データ流通、契約、外部影響の最大実務範囲を特定する。</td></tr>
+</tbody></table>
+<h2 id="補足レビュー質問">補足レビュー質問</h2>
+<ol>
+<li><strong>拒否権ドリフト：</strong> そのシステムはいまも実質的に止められるか。それとも依存、停止コスト、業務依存、代替手段喪失により拒否の実効性が弱まっているか。</li>
+<li><strong>証拠ドリフト：</strong> 停止試験、ロールバック記録、手動代替手順、ログ、権限記録は新しく、現在の構成に接続されているか。</li>
+<li><strong>保証境界：</strong> 拒否権がなお実効的であるという主張は内部自己申告だけに依存していないか。リスクに応じて、独立性、外部性、改竄困難な証拠はあるか。</li>
+<li><strong>合成リスク：</strong> 複数のAIシステム、API、エージェント、ベンダー、ワークフローが接続されている場合、関係する全体または危険部分をなお停止・分離・縮退・ロールバックできるか。</li>
+<li><strong>最大不可逆化範囲：</strong> 拒否が失敗または遅延した場合、巻き戻し困難になり得るシステム、ワークフロー、データ、契約、利用者、外部影響の最大範囲はどこまでか。</li>
+</ol>
+<p>現在の証拠で支えられない場合、YESとして扱わないでください。不明とし、次に確認すべき証拠アクションを定義してください。</p>
+<h2 id="再評価トリガー">再評価トリガー</h2>
+<ul>
+<li>モデル、エージェント、ツール、API、権限、自動化範囲が拡大する。</li>
+<li>システムが通常業務継続に不可欠になり始める。</li>
+<li>手動代替、旧システム、代替ワークフロー、ロールバック経路が廃止または未使用になる。</li>
+<li>停止、ロールバック、分離、縮退運用の試験が古くなる。</li>
+<li>ベンダー、契約、データ流通、SLA、導入、ガバナンス条件が変わる。</li>
+<li>単一の責任主体では完全に停止・巻き戻しできない形で複数システムが接続される。</li>
+</ul>
+<h2 id="最小補足記録">最小補足記録</h2>
+<pre><code>レビュー日：
+対象システムまたは接続構成：
+現在の拒否権限：
+直近の停止・ロールバック・分離試験：
+直近の手動代替または縮退運用訓練：
+証拠の保有者と検証者：
+前回レビュー以降の依存増加：
+接続されたシステム、ベンダー、API、エージェント、ワークフロー：
+推定される最大不可逆化範囲：
+判定：YES / NO / 不明
+理由：
+次の証拠確認または縮小アクション：</code></pre>
+<h2 id="限定表現">限定表現</h2>
+<ul>
+<li>この補足は、新たな認証、適合状態、法的セーフハーバーを作るものではありません。</li>
+<li>既存のAIガバナンス、安全性評価、セキュリティレビュー、調達確認、監査、法務レビューを置き換えません。</li>
+<li>システムが安全であることを証明しません。不可逆化前の実効的人間拒否が実務上なお利用可能かを確認するための補助です。</li>
+<li>証拠が古い、自己申告のみである、または不十分である場合は、YESではなく不明と判定してください。</li>
+</ul>
+<h2 id="関連">関連する部屋・ツール</h2>
+<ul>
+<li><a href="minimal-review-check_ja.html">Eルーム：実務の部屋</a></li>
+<li><a href="formal-oversight-effective-refusal-faq_ja.html">Bルーム：整理と反論の部屋</a></li>
+<li><a href="../../tools/pre-incident-boundary-review/ja/current/ONE_QUESTION_PILOT_RUNBOOK_JA.html">One-Question Pilot 実行手順書</a></li>
+<li><a href="../../tools/pre-incident-boundary-review/ja/current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_JA.html">実効的人間拒否 判定ガイド</a></li>
+</ul>
+<hr/>
+<p>このページは非拘束であり、法的助言、認証、または適合性判定を提供するものではありません。</p>
+<p><a href="index-ja.html">境界レビューフロアへ戻る</a> <a href="../../README.md">メインフロアへ戻る</a></p>
+
+</main>
+<div class="footer">本ページは日本語HTML版です。英語版・履歴・ソース確認は上部リンクから確認してください。</div>
+</div>
+</body>
+</html>

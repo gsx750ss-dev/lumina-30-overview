@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html data-l30-lang-lock="EN_ONLY" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="EN_ONLY" name="l30:lang-lock"/>
+<meta content="Boundary Review Floor supplement for refusal drift, evidence drift, assurance boundary, composition risk, and maximum irreversible coupling range." name="description"/>
+<title>H. Refusal Continuity &amp; Composition Supplement</title>
+<style>
+:root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+.page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+.nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+.nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+h3 { margin-top: 1.5em; }
+a { color: var(--accent); }
+code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+th { background: var(--panel); }
+blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+.subtitle, .footer { color: var(--muted); }
+[id] { scroll-margin-top: 92px; }
+
+</style>
+</head>
+<body>
+<div class="page">
+<nav aria-label="Page navigation" class="nav"><a href="../../index.html">EN Top</a><a href="../../index-ja.html">JP Top</a><a href="refusal-continuity-composition-supplement_ja.html">Japanese</a><a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/refusal-continuity-composition-supplement.html">↻ Reload</a></nav>
+<header><h1>H. Refusal Continuity &amp; Composition Supplement</h1><p class="subtitle">Boundary Review Floor supplement for refusal drift, evidence drift, assurance boundary, composition risk, and maximum irreversible coupling range.</p></header>
+<main>
+<!-- L30_LANG_LOCK: EN_ONLY -->
+<p>This supplement adds continuity, evidence, assurance, and composition checks to the LUMINA-30 boundary question. It does not change the core definition of effective human refusal.</p>
+<h2 id="core-use">Core use</h2>
+<p>Use this supplement when a system is ongoing, operationally embedded, connected to other systems, agentic, externally integrated, or difficult to roll back.</p>
+<blockquote><p>Does effective human refusal still remain available after time, dependency, evidence aging, internal self-reporting limits, and multi-system coupling are considered?</p></blockquote>
+<p>This is a review lens, not a certification, legal determination, safety guarantee, or external audit by itself.</p>
+<h2 id="five-concepts">Five supplemental concepts</h2>
+<table><thead><tr><th>Concept</th><th>Practical meaning</th></tr></thead><tbody>
+<tr><td>Refusal Drift</td><td>A system may be stoppable at deployment but become practically harder to refuse, stop, hold, or roll back as dependency, cost, coupling, and organizational reliance increase.</td></tr>
+<tr><td>Evidence Drift</td><td>Evidence that refusal remains effective can become stale, incomplete, untested, or disconnected from current operations.</td></tr>
+<tr><td>Refusal Assurance Boundary</td><td>Internal self-attestation has limits. Higher-risk uses may require externality, independent review, tamper-resistant evidence, or conservative UNKNOWN classification.</td></tr>
+<tr><td>Refusal Composition Risk</td><td>Individual systems may each appear stoppable, while the connected workflow, agent chain, vendor stack, API network, or operational configuration is not stoppable as a whole.</td></tr>
+<tr><td>Maximum Irreversible Coupling Range</td><td>Instead of checking every possible combination, identify the largest practical range of workflows, systems, data flows, contracts, or external effects that would become hard to separate once the system is deployed or deepened.</td></tr>
+</tbody></table>
+<h2 id="supplemental-review-questions">Supplemental review questions</h2>
+<ol>
+<li><strong>Refusal Drift:</strong> Is the system still practically stoppable, or has dependency, cost, workflow reliance, or loss of alternatives made refusal less effective?</li>
+<li><strong>Evidence Drift:</strong> Are the stop tests, rollback records, manual fallback procedures, logs, and authority records recent and connected to the current configuration?</li>
+<li><strong>Assurance Boundary:</strong> Is the claim that refusal remains effective based only on internal self-reporting, or is there independent, external, or tamper-resistant evidence where risk requires it?</li>
+<li><strong>Composition Risk:</strong> If multiple AI systems, APIs, agents, vendors, or workflows are connected, can the relevant whole or hazardous part still be stopped, separated, degraded, or rolled back?</li>
+<li><strong>Maximum Irreversible Coupling Range:</strong> If refusal fails or is delayed, what is the largest range of systems, workflows, data, contracts, users, or external effects that may become difficult to unwind?</li>
+</ol>
+<p>If an answer cannot be supported by current evidence, do not treat it as YES. Use UNKNOWN and define the next evidence action.</p>
+<h2 id="trigger-events">Trigger events</h2>
+<ul>
+<li>Model, agent, tool, API, permission, or automation scope expands.</li>
+<li>The system becomes necessary for ordinary business continuity.</li>
+<li>Manual fallback, old systems, alternative workflows, or rollback paths are retired or unused.</li>
+<li>Stop, rollback, isolation, or degraded-mode tests become stale.</li>
+<li>Vendor, contract, data-flow, SLA, deployment, or governance conditions change.</li>
+<li>Multiple systems are connected in a way that no single owner can fully stop or unwind.</li>
+</ul>
+<h2 id="minimal-record">Minimal supplemental record</h2>
+<pre><code>Review date:
+Target system or connected configuration:
+Current refusal authority:
+Most recent stop / rollback / isolation test:
+Most recent manual fallback or degraded-mode exercise:
+Evidence owner and verifier:
+Known dependency increase since last review:
+Connected systems, vendors, APIs, agents, or workflows:
+Estimated maximum irreversible coupling range:
+Classification: YES / NO / UNKNOWN
+Reason:
+Next evidence or reduction action:</code></pre>
+<h2 id="limiting-statements">Limiting statements</h2>
+<ul>
+<li>This supplement does not create a new certification, compliance status, or legal safe harbor.</li>
+<li>It does not replace existing AI governance, safety evaluation, security review, procurement review, audit, or legal review.</li>
+<li>It does not prove that a system is safe. It only helps test whether effective human refusal remains practically available before irreversibility.</li>
+<li>Where evidence is stale, self-reported only, or insufficient, classify the result as UNKNOWN rather than YES.</li>
+</ul>
+<h2 id="related">Related rooms and tools</h2>
+<ul>
+<li><a href="minimal-review-check.html">E Room: Practice Room</a></li>
+<li><a href="formal-oversight-effective-refusal-faq.html">B Room: Clarification &amp; Objection Room</a></li>
+<li><a href="../../tools/pre-incident-boundary-review/en/current/ONE_QUESTION_PILOT_RUNBOOK_EN.html">One-Question Pilot Runbook</a></li>
+<li><a href="../../tools/pre-incident-boundary-review/en/current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.html">Effective Human Refusal Decision Guide</a></li>
+</ul>
+<hr/>
+<p>This page is non-binding and does not provide legal advice, certification, or compliance determination.</p>
+<p><a href="index.html">Back to Boundary Review Floor</a> <a href="../../README.md">Back to Main Floor</a></p>
+
+</main>
+<div class="footer">This page is the English HTML version. For Japanese, use the Japanese link above.</div>
+</div>
+</body>
+</html>

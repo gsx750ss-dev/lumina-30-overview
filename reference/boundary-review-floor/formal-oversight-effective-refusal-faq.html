@@ -103,6 +103,18 @@ mandatory?</h3>
 <p>No. This page is non-binding. It is intended as a review lens that
 can be voluntarily added to incident review, audit, governance, policy,
 risk, procurement, or evaluation workflows.</p>
+<h3 id="11-does-a-yes-result-remain-valid-forever">11. Does a YES result remain valid forever?</h3>
+<p>No. A YES result is current only for the reviewed configuration and evidence. Effective refusal can decay over time as dependency, coupling, stop cost, or loss of alternatives increases. This is Refusal Drift.</p>
+<h3 id="12-what-if-evidence-exists-but-is-stale">12. What if evidence exists but is stale?</h3>
+<p>Stale evidence should not be treated as YES by default. A stop test, rollback record, manual fallback procedure, or authority record must still correspond to the current configuration. If it does not, classify the result as UNKNOWN until current evidence is available. This is Evidence Drift.</p>
+<h3 id="13-is-internal-self-reporting-enough">13. Is internal self-reporting enough?</h3>
+<p>Not always. Internal self-attestation may be useful, but higher-risk uses may require independent review, externality, tamper-resistant evidence, or conservative UNKNOWN classification. This is the Refusal Assurance Boundary.</p>
+<h3 id="14-if-each-connected-system-is-stoppable-is-the-whole-configuration-stoppable">14. If each connected system is stoppable, is the whole configuration stoppable?</h3>
+<p>Not necessarily. Refusal is not automatically compositional. Individual systems may each appear stoppable, while the connected workflow, agent chain, vendor stack, API network, or operational configuration is not stoppable as a whole. This is Refusal Composition Risk.</p>
+<h3 id="15-how-should-composition-risk-be-bounded-in-practice">15. How should composition risk be bounded in practice?</h3>
+<p>Do not try to evaluate every possible combination one by one. Identify the Maximum Irreversible Coupling Range: the largest practical range of workflows, systems, data flows, contracts, users, or external effects that may become difficult to separate once the deployment deepens.</p>
+<p>For the consolidated supplement, see <a href="refusal-continuity-composition-supplement.html">H Room: Refusal Continuity &amp; Composition Supplement</a>.</p>
+
 <h2 id="what-this-room-deliberately-avoids">What this room deliberately
 avoids</h2>
 <ul>
@@ -128,3 +140,4 @@ certification, or compliance determination.</p>
 </div>
 </body>
 </html>
+

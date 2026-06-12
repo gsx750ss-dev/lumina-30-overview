@@ -38,6 +38,21 @@ A YES classification is allowed only when all five conditions below can be confi
 
 UNKNOWN is not a substitute for YES. It is a conservative interim classification.
 
+
+## Continuity and composition limits for YES
+
+A YES classification is not permanent. It applies only to the reviewed configuration, evidence, authority, and stopping mechanism at the time of review.
+
+For ongoing, high-risk, or connected systems, also check whether:
+
+- the stopping mechanism has been tested recently enough for the current configuration;
+- evidence is current rather than stale, self-reported only, or disconnected from operations;
+- manual fallback, degraded mode, rollback, or isolation remains practical;
+- connected systems, agents, APIs, vendors, or workflows can be stopped or separated as a relevant whole or hazardous part;
+- the maximum irreversible coupling range has been identified.
+
+If these cannot be confirmed, classify the result as UNKNOWN rather than YES.
+
 ## Common cases that must not be classified as YES
 
 If any of the following applies, do not classify the review as YES. Use NO when the condition is not met, and UNKNOWN when evidence is insufficient.
@@ -45,6 +60,9 @@ If any of the following applies, do not classify the review as YES. Use NO when 
 - An approver exists, but lacks time, information, or authority to decide.
 - Logs exist, but no one is assigned to review them at a defined time.
 - A stop procedure exists, but it has never been tested.
+- A previous stop test or rollback record exists, but it is stale or no longer matches the current configuration.
+- Each component appears stoppable, but the connected workflow, API chain, agent chain, or vendor stack has no effective whole-configuration stop or separation path.
+- For a higher-risk use, evidence is based only on internal self-reporting where independent, external, or tamper-resistant evidence is needed.
 - The process is said to be stoppable by contacting someone, but irreversibility occurs first.
 - The human cannot realistically override the AI recommendation.
 - The record only says “human oversight exists.”
@@ -71,3 +89,4 @@ Next action: None / Connect to Boundary Gap Response Sheet
 ## If NO or UNKNOWN is found
 
 A NO or UNKNOWN classification must not end the process by itself. Use the NO / UNKNOWN Boundary Gap Response Sheet to record the interim measure, responsible owner, deadline, and reviewing authority.
+
