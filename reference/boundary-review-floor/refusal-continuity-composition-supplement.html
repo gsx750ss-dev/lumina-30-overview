@@ -58,6 +58,24 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
 <li><strong>Maximum Irreversible Coupling Range:</strong> If refusal fails or is delayed, what is the largest range of systems, workflows, data, contracts, users, or external effects that may become difficult to unwind?</li>
 </ol>
 <p>If an answer cannot be supported by current evidence, do not treat it as YES. Use UNKNOWN and define the next evidence action.</p>
+<h2 id="estimating-maximum-irreversible-coupling-range">Estimating the maximum irreversible coupling range</h2>
+<p>Do not try to enumerate every possible system combination. Instead, estimate the widest practical range that could become hard to stop, separate, degrade, or recover if refusal is delayed or fails.</p>
+<p>Use three practical checks:</p>
+<ol>
+<li><strong>Dependency map:</strong> What inputs, outputs, APIs, agents, vendors, workflows, contracts, users, or downstream decisions depend on this system or feed into it?</li>
+<li><strong>Stop-chain:</strong> If the system is stopped, isolated, rolled back, or placed into degraded mode, what else stops, continues unsafely, loses consistency, or shifts decisions elsewhere?</li>
+<li><strong>Recovery path:</strong> Can the affected parts be separated, returned to manual or degraded operation, rolled back, and assigned to accountable owners before irreversible effects occur?</li>
+</ol>
+<p>A simple level estimate can help communicate the result without turning the supplement into a certification score.</p>
+<table><thead><tr><th>Level</th><th>Condition</th><th>Review meaning</th></tr></thead><tbody>
+<tr><td>0</td><td>Local stoppability</td><td>The system can be stopped with local and reversible effects.</td></tr>
+<tr><td>1</td><td>Limited coupling</td><td>Some connected effects exist, but separation and degraded-mode procedures are known.</td></tr>
+<tr><td>2</td><td>Operational dependency</td><td>Several workflows or teams depend on the system, but manual or degraded operation remains tested.</td></tr>
+<tr><td>3</td><td>Organizational lock-in</td><td>Stopping the system becomes a management, contract, customer, or cross-department decision.</td></tr>
+<tr><td>4</td><td>Structural lock-in</td><td>Stopping or separating the configuration is no longer a practical option before irreversible effects.</td></tr>
+</tbody></table>
+<p>The estimate should not be used as a pass/fail label. Its purpose is to identify where effective human refusal may be lost before that loss becomes irreversible.</p>
+
 <h2 id="trigger-events">Trigger events</h2>
 <ul>
 <li>Model, agent, tool, API, permission, or automation scope expands.</li>
@@ -77,6 +95,7 @@ Evidence owner and verifier:
 Known dependency increase since last review:
 Connected systems, vendors, APIs, agents, or workflows:
 Estimated maximum irreversible coupling range:
+Optional coupling level estimate: 0 / 1 / 2 / 3 / 4 / UNKNOWN
 Classification: YES / NO / UNKNOWN
 Reason:
 Next evidence or reduction action:</code></pre>

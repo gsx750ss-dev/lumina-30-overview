@@ -54,6 +54,39 @@ If an answer cannot be supported by current evidence, do not treat it as YES. Us
 
 現在の証拠で支えられない場合、YESとして扱わないでください。不明とし、次に確認すべき証拠アクションを定義してください。
 
+## Estimating the maximum irreversible coupling range ｜ 最大不可逆化範囲の見積り
+
+Do not try to enumerate every possible system combination. Instead, estimate the widest practical range that could become hard to stop, separate, degrade, or recover if refusal is delayed or fails.
+
+すべてのシステム組み合わせを列挙しようとしないでください。代わりに、拒否が遅延または失敗した場合に、停止、分離、縮退、復旧が困難になり得る最大の実務範囲を見積もります。
+
+Use three practical checks:
+
+実務上は、次の3点を確認します。
+
+1. **Dependency map:** What inputs, outputs, APIs, agents, vendors, workflows, contracts, users, or downstream decisions depend on this system or feed into it?  
+   **依存関係図：** どの入力、出力、API、エージェント、ベンダー、ワークフロー、契約、利用者、下流判断がこのシステムに依存しているか、またはこのシステムへ流れ込んでいるか。
+2. **Stop-chain:** If the system is stopped, isolated, rolled back, or placed into degraded mode, what else stops, continues unsafely, loses consistency, or shifts decisions elsewhere?  
+   **停止連鎖：** このシステムを停止、分離、ロールバック、縮退運用にした場合、他に何が止まり、何が危険に動き続け、何が整合性を失い、どこへ判断が移るか。
+3. **Recovery path:** Can the affected parts be separated, returned to manual or degraded operation, rolled back, and assigned to accountable owners before irreversible effects occur?  
+   **復旧経路：** 影響を受ける部分を、不可逆的影響が出る前に、分離し、手動または縮退運用へ戻し、ロールバックし、責任主体へ割り当てられるか。
+
+A simple level estimate can help communicate the result without turning the supplement into a certification score.
+
+単純な段階見積りは、この補足を認証スコアに変えずに結果を伝えるための補助になります。
+
+| Level | Condition | Review meaning | 日本語 |
+|---|---|---|---|
+| 0 | Local stoppability | The system can be stopped with local and reversible effects. | 局所停止可能：局所的かつ可逆的な影響で停止できる。 |
+| 1 | Limited coupling | Some connected effects exist, but separation and degraded-mode procedures are known. | 限定結合：一部連携はあるが、分離手順と縮退運用手順が把握されている。 |
+| 2 | Operational dependency | Several workflows or teams depend on the system, but manual or degraded operation remains tested. | 業務依存：複数ワークフローまたはチームが依存しているが、手動または縮退運用が試験済みである。 |
+| 3 | Organizational lock-in | Stopping the system becomes a management, contract, customer, or cross-department decision. | 組織的ロックイン：停止が経営、契約、顧客、部門横断の判断になる。 |
+| 4 | Structural lock-in | Stopping or separating the configuration is no longer a practical option before irreversible effects. | 構造的ロックイン：不可逆的影響の前に停止または分離することが実務上の選択肢ではなくなる。 |
+
+The estimate should not be used as a pass/fail label. Its purpose is to identify where effective human refusal may be lost before that loss becomes irreversible.
+
+この見積りを合否ラベルとして使わないでください。目的は、実効的人間拒否が不可逆的に失われる前に、どこで失われ得るかを特定することです。
+
 ## Trigger events ｜ 再評価トリガー
 
 Re-run the relevant LUMINA-30 check when any of the following occurs:
@@ -85,6 +118,7 @@ Evidence owner and verifier:
 Known dependency increase since last review:
 Connected systems, vendors, APIs, agents, or workflows:
 Estimated maximum irreversible coupling range:
+Optional coupling level estimate: 0 / 1 / 2 / 3 / 4 / UNKNOWN
 Classification: YES / NO / UNKNOWN
 Reason:
 Next evidence or reduction action:
@@ -100,6 +134,7 @@ Next evidence or reduction action:
 前回レビュー以降の依存増加：
 接続されたシステム、ベンダー、API、エージェント、ワークフロー：
 推定される最大不可逆化範囲：
+任意の結合レベル見積り：0 / 1 / 2 / 3 / 4 / 不明
 判定：YES / NO / 不明
 理由：
 次の証拠確認または縮小アクション：
