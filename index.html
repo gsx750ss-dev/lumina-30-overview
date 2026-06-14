@@ -43,6 +43,30 @@ L30_QA_DATE: 2026-06-02
       font-weight: 800;
       font-size: .98rem;
     }
+
+    .square-return {
+      display: inline-flex;
+      align-items: center;
+      gap: .35em;
+      margin: .45rem 0 1rem .6rem;
+      padding: .36rem .68rem;
+      border-radius: 999px;
+      border: 1px solid var(--line, var(--border, currentColor));
+      background: transparent;
+      color: var(--accent, LinkText);
+      font-weight: 800;
+      font-size: .95rem;
+      text-decoration: none;
+    }
+    .square-return:hover,
+    .square-return:focus {
+      text-decoration: underline;
+    }
+    @media (max-width: 640px) {
+      .square-return {
+        margin-left: 0;
+      }
+    }
 </style>
   <style>
 
@@ -74,6 +98,8 @@ L30_QA_DATE: 2026-06-02
 <p><a href="index-ja.html">Japanese version</a> | <a
 href="https://github.com/lumina-30/lumina-30-overview/blob/main/README.md">Source
 README</a></p>
+<div class="place-badge" aria-label="Current location">🔭 Observation Deck</div>
+<a class="square-return" href="https://lumina-30.github.io/Lumi30-Index/">🧭 Return to Central Square</a>
 <p><a id="top"></a></p>
 <!-- L30_EDIT_LOCK: G_FIGURES_ARE_15_SECOND_UNDERSTANDING_BLOCK. The G00-G06 figures are the visible 15-second understanding block. Do not push them down with status notes, long explanations, core terms, warnings, related terms, AI guidance, or new figures. Keep any necessary text before the figures minimal; move details after the G figures. -->
 
@@ -327,6 +353,7 @@ irreversible real-world impact occurred?</p>
 <div class="title">
 <p>Caution</p>
 </div>
+<a class="square-return" href="https://lumina-30.github.io/Lumi30-Index/">🧭 Return to Central Square</a>
 <p>If this cannot be answered clearly, the system should not be treated
 as clearly controlled under the LUMINA-30 review lens.<br></p>
 </div>
@@ -759,6 +786,7 @@ argument. It is a limited-purpose public boundary document.</p>
 <p><a id="research-paper"></a></p>
 <h2 id="research-reading-guide">Research Reading Guide</h2>
 <div class="place-badge" aria-label="Current location">🧬 Research District</div>
+<a class="square-return" href="https://lumina-30.github.io/Lumi30-Index/">🧭 Return to Central Square</a>
 <p>This research paper introduces the PCR-C concept,<br />
 which addresses the problem of irreversible external impact<br />
 from advanced AI systems.</p>
