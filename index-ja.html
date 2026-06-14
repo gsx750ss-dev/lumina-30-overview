@@ -28,7 +28,23 @@ L30_QA_DATE: 2026-06-02
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+  
+
+
+    .place-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .45em;
+      margin: .45rem 0 1rem;
+      padding: .38rem .72rem;
+      border-radius: 999px;
+      border: 1px solid var(--line, var(--border, currentColor));
+      background: var(--soft, var(--panel, Canvas));
+      color: var(--text, CanvasText);
+      font-weight: 800;
+      font-size: .98rem;
+    }
+</style>
 <style>
 
 :root{color-scheme:light dark;--bg:Canvas;--paper:color-mix(in srgb,Canvas 94%,CanvasText 6%);--ink:CanvasText;--muted:color-mix(in srgb,CanvasText 70%,Canvas 30%);--line:color-mix(in srgb,CanvasText 24%,Canvas 76%);--accent:LinkText;--accent-soft:color-mix(in srgb,LinkText 12%,Canvas 88%);--warn:MarkText;--max:1040px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Arial,"Noto Sans JP",sans-serif;font-size:16px;line-height:1.72}.page{max-width:var(--max);margin:0 auto;padding:18px 18px 56px}.site-header{border-bottom:1px solid var(--line);background:var(--paper)}.site-header-inner{max-width:var(--max);margin:0 auto;padding:12px 18px;display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap}.brand{font-weight:700;letter-spacing:.02em}.topnav{display:flex;gap:10px;flex-wrap:wrap}.topnav a{color:var(--accent);text-decoration:none;font-size:.94rem}.topnav a:hover{text-decoration:underline}main{background:var(--paper);border:1px solid var(--line);padding:26px 30px;margin-top:18px}.doc-note{border-left:4px solid var(--accent);background:var(--accent-soft);padding:10px 14px;margin:12px 0 18px;color:var(--ink)}h1{font-size:clamp(1.85rem,4vw,2.6rem);line-height:1.15;margin:8px 0 14px}h2{font-size:clamp(1.32rem,3vw,1.65rem);line-height:1.25;margin:34px 0 12px;padding-top:10px;border-top:1px solid var(--line)}h3{font-size:1.12rem;margin:24px 0 8px}h4{font-size:1rem;margin:18px 0 6px}p{margin:0 0 12px}a{color:var(--accent);text-underline-offset:2px}blockquote{margin:14px 0;padding:10px 14px;border-left:4px solid var(--line);background:var(--accent-soft);color:var(--ink)}ul,ol{margin:8px 0 14px 1.3rem;padding:0}li{margin:.25rem 0}table{width:100%;border-collapse:collapse;margin:14px 0 20px;font-size:.95rem}th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}th{background:var(--accent-soft);text-align:left}img{max-width:100%;height:auto;border:1px solid var(--line);background:var(--paper)}.figure-card, figure{margin:14px 0 24px;padding:0;border:0;background:transparent}.quick-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:16px 0}.quick-links a{display:block;border:1px solid var(--line);background:var(--paper);padding:10px 12px;text-decoration:none}.quick-links a:hover{border-color:var(--accent);background:var(--accent-soft)}code{background:var(--accent-soft);padding:.1rem .25rem;border-radius:3px}.footer{max-width:var(--max);margin:18px auto 0;padding:0 18px 36px;color:var(--muted);font-size:.9rem}.l30-local-nav{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin:18px 0 20px;padding:8px 10px;border:1px solid var(--line);background:var(--paper);font-size:.92rem}.l30-local-nav a{text-decoration:none}.l30-local-nav a:hover{text-decoration:underline}.l30-status-note{border:1px solid var(--line);background:var(--paper);padding:12px 14px;margin:16px 0 20px}.l30-status-note strong{display:block;margin-bottom:.35rem}@media (max-width:640px){body{font-size:15px;line-height:1.65}.page{padding:10px}main{padding:18px 14px;margin-top:10px;border-left:0;border-right:0}.site-header-inner{padding:10px}.topnav{gap:8px}h2{margin-top:26px}table{font-size:.88rem;display:block;overflow-x:auto;white-space:normal}th,td{min-width:120px;padding:7px 8px}}
@@ -515,6 +531,7 @@ Boundary Kernel
 <p>これは理論論文でも、境界失敗後の共存論でもありません。限定目的の公開境界文書です。</p>
 <p><strong>人間アンカー</strong> ここでいう 人間アンカーは、境界カーネルがAIシステムに吸収・模倣・代替されないよう保護しようとする、人間側の拒否・停止・再審査の外部参照点を指します。これはPCR-C、法律、組織判断、インシデントレビューを代替するものではありません。評価対象システムの外側に、実効的人間拒否が残らなければならない理由を明確にするための位置づけです。</p>
 <p><a id="research-paper"></a></p>
+<div class="place-badge" aria-label="現在地">🧬 理論研究区</div>
 <h2 id="研究読書ガイド">研究読書ガイド</h2>
 <p>本研究論文は、<br/>
 高度AIによる不可逆的外界影響の問題に対処するための<br/>

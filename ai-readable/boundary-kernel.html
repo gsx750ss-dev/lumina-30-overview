@@ -45,7 +45,23 @@
     blockquote { margin: 1em 0; padding: .8em 1em; border-left: 4px solid var(--accent); background: var(--soft); }
     hr { border: none; border-top: 1px solid var(--line); margin: 2em 0; }
     footer { margin-top: 42px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .95rem; }
-  </style>
+  
+
+
+    .place-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .45em;
+      margin: .45rem 0 1rem;
+      padding: .38rem .72rem;
+      border-radius: 999px;
+      border: 1px solid var(--line, var(--border, currentColor));
+      background: var(--soft, var(--panel, Canvas));
+      color: var(--text, CanvasText);
+      font-weight: 800;
+      font-size: .98rem;
+    }
+</style>
 </head>
 <body>
   <div class="page">
@@ -59,6 +75,7 @@
     </nav>
     <header>
       <h1>LUMINA-30 Boundary Kernel</h1>
+      <div class="place-badge" aria-label="Current location">🤖 AI Reading Room</div>
     </header>
     <main>
 <h2 id="ai-readable-scope-note-on-non-identical-anchors">AI-Readable Scope Note on Non-Identical Anchors</h2>
