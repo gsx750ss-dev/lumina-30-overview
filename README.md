@@ -28,12 +28,10 @@
 
 > [EN Top](https://lumina-30.github.io/lumina-30-overview/index.html#top) ｜ [JP Top](https://lumina-30.github.io/lumina-30-overview/index-ja.html#top) ｜ [↻ Reload](https://github.com/lumina-30/lumina-30-overview/blob/main/README.md)
 >
-> **Use the HTML website for reading ｜ 閲覧にはHTMLサイトを使用してください**  
-> For first-time reading, navigation, return paths, and long-form browsing, use the HTML overview site rather than staying on this README.md:  
-> [Open the English HTML overview](https://lumina-30.github.io/lumina-30-overview/index.html#top)  
+> **Use Start by Concern for a first visit ｜ 初めて読む場合はStart by Concernを使用してください**  
+> For a first visit, use [Start by Concern](https://lumina-30.github.io/Lumi30-Index/start-by-concern.html). Use this Overview when you need deeper background.  
 >
-> 日本語で読む場合も、このREADME.mdに留まらず、日本語HTML版を使用してください：  
-> [日本語HTML概要を開く](https://lumina-30.github.io/lumina-30-overview/index-ja.html#top)  
+> 初めて読む場合は、[関心から入る](https://lumina-30.github.io/Lumi30-Index/start-by-concern-ja.html)を使用してください。背景を詳しく確認したい場合は、このOverviewを参照してください。  
 
 > **Status ｜ ステータス**  
 > LUMINA-30 is a public reference framework for evaluating whether effective human refusal remains possible before irreversible escalation. It is not a certification system, not an adopted legal standard, and not evidence of institutional approval.  
@@ -63,7 +61,7 @@
 
 
 > **What to use first ｜ 最初に何を使うべきか**  
-> 1. **Overview ｜ 概要** — Understand the purpose, core boundary question, and visual route. ｜ 目的・中核境界問い・図解導線を理解する。  
+> 1. **Start by Concern ｜ 関心から入る** — Choose the route that matches your purpose. ｜ 目的に合う入口を選ぶ。 [EN](https://lumina-30.github.io/Lumi30-Index/start-by-concern.html) ｜ [日本語](https://lumina-30.github.io/Lumi30-Index/start-by-concern-ja.html)  
 > 2. **Incident Review ｜ 実務レビュー** — Check a case, deployment, or incident. ｜ 具体的な事例・導入・事故を確認する。  
 > 3. **Boundary Kernel ｜ AI可読境界** — Give an AI the fixed boundary; it is not an autonomous decision authority. ｜ AIに固定境界を読ませる。ただしAIの自律判断権限ではない。  
 > 4. **Index ｜ 索引** — Find the full document set and tools. ｜ 文書全体と実務ツールを探す。  

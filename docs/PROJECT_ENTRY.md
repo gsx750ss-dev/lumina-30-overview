@@ -17,13 +17,13 @@ The purpose of this repository is not to prescribe actions,
 but to define boundary conditions for human refusal authority
 before irreversible impact.
 
-## Current Entry Route ｜ 現行入口導線
+## Public Entry Route ｜ 公開入口
 
-For current interpretation, first identify the user’s purpose and route them to the appropriate entry point.
+For a first visit, start with Start by Concern. Use the Overview only when deeper background is needed.
 
-現行の解釈では、まず利用目的を特定し、適切な入口へ案内する。
+初めて読む場合は、Start by Concernから始める。Overviewは背景を詳しく確認する場合だけ使用する。
 
-- Conceptual overview / 概念概要: [README](../README.md)
+- First visit / 初見: [Start by Concern](https://lumina-30.github.io/Lumi30-Index/start-by-concern.html) ｜ [関心から入る](https://lumina-30.github.io/Lumi30-Index/start-by-concern-ja.html)
 - One-page institutional overview / 1ページ制度概要: [Institutional Summary](./Institutional_Summary_1Page.md)
 - Boundary address reference / 境界番地参照: [L30-BAS](./L30_BOUNDARY_ADDRESS_SYSTEM.md)
 - Practical forms / 実務帳票: [L30_FRM Practical Forms](https://github.com/lumina-30/lumina30-incident-review/blob/main/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md)
