@@ -1,8 +1,5 @@
 LUMINA-30 Project Entry
 
-Conceptual overview repository
-https://github.com/lumina-30/lumina-30-overview
-
 Description
 LUMINA-30 is a civilizational boundary framework for evaluating whether meaningful human refusal authority remains before irreversible external impact from advanced AI systems emerges.
 

@@ -67,8 +67,8 @@
 > 4. **Index ｜ 索引** — Find the full document set and tools. ｜ 文書全体と実務ツールを探す。  
 > 5. **Research Context ｜ 研究背景** — Review papers and theoretical background; this is not proof of peer review, approval, or adoption. ｜ 論文・理論背景を確認する。ただし査読・承認・採用の証拠ではない。  
 >
-> Start from the HTML overview for the human-readable route, or use the AI Briefing when giving one URL to an external AI.  
-> 人間が読む場合はHTML概要から、外部AIにURLを1つ渡す場合はAI Briefingから始めてください。  
+> Start with Start by Concern for the human-readable route, or use the AI Briefing when giving one URL to an external AI.  
+> 人間が読む場合はStart by Concernから、外部AIにURLを1つ渡す場合はAI Briefingから始めてください。  
 > [AI Briefing](https://lumina-30.github.io/Lumi30-Index/ai-briefing.html) ｜ [AIブリーフィング](https://lumina-30.github.io/Lumi30-Index/ai-briefing-ja.html)
 
 <!-- ● L30:TITLE -->
