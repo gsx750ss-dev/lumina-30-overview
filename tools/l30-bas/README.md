@@ -19,8 +19,8 @@ Current document IDs:
 | `L30_FRM_I01` | Incident Review Template ｜ 事故レビュー記録表 | `L30_FRM_I01_Incident_Review_Template.docx` / `.pdf` | `L30_FRM_I01_Incident_Review_Template_JA.docx` / `.pdf` |
 | `L30_FRM_A01` | Audit Checklist ｜ 監査チェックリスト | `L30_FRM_A01_Audit_Checklist.docx` / `.pdf` | `L30_FRM_A01_Audit_Checklist_JA.docx` / `.pdf` |
 
-The older files in this folder, if still present, are legacy continuity files and should not be used as the current practical form set. They may be removed after the L30_FRM links are confirmed in production.  
-このフォルダに旧ファイルが残っている場合、それらは継続参照用の旧ファイルであり、現行の実務帳票群として扱いません。L30_FRM導線の本番確認後に削除対象とします。
+The older files in this folder, if still present, are legacy continuity files and are not part of the current practical form set.  
+このフォルダに旧ファイルが残っている場合、それらは継続参照用の旧ファイルであり、現行の実務帳票群には含まれません。
 
 These forms do not create certification, compliance status, approval status, legal safe harbor, or policy mandates. They do not replace PCR-C or the LUMINA-30 Boundary Kernel.  
 これらの帳票は、認証、適合状態、承認状態、法的免責、政策命令を作るものではありません。PCR-CまたはLUMINA-30 Boundary Kernelを代替しません。

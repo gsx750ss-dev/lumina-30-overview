@@ -1,28 +1,4 @@
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
-<!-- ===================================================== -->
-<!-- LUMINA-30 README REVIEW WORKFLOW BLOCK -->
-<!-- This document is structure-critical. -->
-<!-- ===================================================== -->
-<!-- Editing Policy / 編集ポリシー -->
-<!-- This README is a primary public entry point for LUMINA-30. -->
-<!-- 本READMEはLUMINA-30の主要な公開入口です。 -->
-<!-- Use completed-file candidate updates, not patch or fragment application. -->
-<!-- patch、断片貼り付け、検索置換ではなく、完成版candidateで更新します。 -->
-<!-- Broad and complex revisions are allowed when they preserve or improve the structure. -->
-<!-- 構造を保持または改善する場合、大規模・複雑な改修を許可します。 -->
-<!-- Required workflow: change summary describing scope and purpose -> repo-structured candidate -> REVIEW_BUNDLE comparison -> GO/STOP review -> production apply. -->
-<!-- 必須手順：対象範囲と目的を示す変更概要 → repo構造込みcandidate → REVIEW_BUNDLE比較 → GO/STOPレビュー → 本番適用。 -->
-<!-- Preserve core navigation, non-binding framing, G/A/S series references, and human-refusal/irreversibility semantics unless the candidate explicitly improves them. -->
-<!-- 中核導線、非拘束性、G/A/Sシリーズ参照、人間拒否・不可逆性の意味は、改善目的が明確なcandidate内で扱います。 -->
-<!-- Do not reduce content merely for brevity or visual neatness. -->
-<!-- 見た目や短さだけを理由に情報量を削らないでください。 -->
-<!-- AI Interaction Rule / AI作業ルール -->
-<!-- If context is insufficient, stop and ask before generating the candidate. -->
-<!-- 文脈が不足する場合は、candidate作成前に停止して確認してください。 -->
-<!-- ## Slide Generation Template -->
-<!-- Defines the structure and generation rules for S-series slides. -->
-<!-- スライド生成の構造とルールを定義します。 -->
-<!-- [S_SERIES_TEMPLATE](./docs/L30_S_SERIES_TEMPLATE.md) -->
 ---
 <a id="top"></a>
 
