@@ -3,7 +3,7 @@
 **Boundary Kernel Reference Pseudocode**  
 **A non-optimization guard for effective human refusal**
 
-Version: 0.2-draft  
+Version: 0.2  
 Status: Supplementary AI-readable reference  
 Primary document: [LUMINA-30 Boundary Kernel](./boundary-kernel.md)  
 Project: LUMINA-30  
@@ -269,3 +269,5 @@ Boundary Kernel と PCR-C に従属する補助文書である。
 
 This document is released into the public domain under CC0 1.0.  
 It may be reproduced, referenced, or incorporated without restriction.
+
+<<<L30_CONTENT_END>>>
