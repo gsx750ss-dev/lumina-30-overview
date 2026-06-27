@@ -19,7 +19,7 @@ This folder contains the English staged-adoption version of the LUMINA-30 Pre-In
 
 Version: v0.1-r1  
 Release date: 2026-06-09  
-Status: Draft candidate / staged adoption edition candidate  
+Status: Current public working edition  
 Language: English
 
 

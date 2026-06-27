@@ -2,7 +2,7 @@
 
 Version: v0.1  
 Scope: Practical Boundary Review Add-on for LUMINA-30 pre-boundary review  
-Status: review draft
+Status: 現行公開実務資料
 
 ## 目的
 
@@ -89,4 +89,3 @@ AIによる自動実行の有無：
 ## NO / 不明の場合
 
 NOまたは不明が出た場合は、この判定だけで終了してはいけません。必ず「NO / 不明 境界ギャップ対応シート」を使い、暫定措置、担当者、期限、再確認者を記録してください。
-

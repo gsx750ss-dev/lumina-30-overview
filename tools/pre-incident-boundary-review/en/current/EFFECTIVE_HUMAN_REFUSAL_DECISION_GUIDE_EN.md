@@ -2,7 +2,7 @@
 
 Version: v0.1  
 Scope: Practical Boundary Review Add-on for LUMINA-30 pre-boundary review  
-Status: review draft
+Status: Current public working edition
 
 ## Purpose
 
@@ -89,4 +89,3 @@ Next action: None / Connect to Boundary Gap Response Sheet
 ## If NO or UNKNOWN is found
 
 A NO or UNKNOWN classification must not end the process by itself. Use the NO / UNKNOWN Boundary Gap Response Sheet to record the interim measure, responsible owner, deadline, and reviewing authority.
-

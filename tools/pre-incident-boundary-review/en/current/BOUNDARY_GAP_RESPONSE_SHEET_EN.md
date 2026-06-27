@@ -2,7 +2,7 @@
 
 Version: v0.1  
 Scope: Practical Boundary Review Add-on for LUMINA-30 pre-boundary review  
-Status: review draft
+Status: Current public working edition
 
 ## Purpose
 

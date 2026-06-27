@@ -2,7 +2,7 @@
 
 - Version: v0.1-r1
 - Release date: 2026-06-09
-- Status: Draft candidate / staged adoption edition candidate
+- Status: Current public working edition
 - Language: English
 
 > This pack is not presented as an official standard, certification scheme, legal requirement, or safety guarantee. It is a staged pre-incident boundary review aid that can be added to existing governance.
@@ -100,10 +100,10 @@
 <table>
 <thead><tr><th>Answer</th><th>Treatment</th><th>Next step</th></tr></thead>
 <tbody>
-<tr><td>Clearly yes, with evidence</td><td>Yellow candidate</td><td>Record and continue ordinary review</td></tr>
-<tr><td>Yes, but evidence is weak</td><td>Orange candidate</td><td>Move to Level 2</td></tr>
+<tr><td>Clearly yes, with evidence</td><td>Yellow finding</td><td>Record and continue ordinary review</td></tr>
+<tr><td>Yes, but evidence is weak</td><td>Orange finding</td><td>Move to Level 2</td></tr>
 <tr><td>Unclear who can stop it</td><td>Orange or higher</td><td>Identify accountable human authority</td></tr>
-<tr><td>It can be stopped but not rolled back</td><td>Red candidate</td><td>Hold, stop, or redesign</td></tr>
+<tr><td>It can be stopped but not rolled back</td><td>Red finding</td><td>Hold, stop, or redesign</td></tr>
 <tr><td>Depends on the AI system's own assurance that it is safe</td><td>Do not pass</td><td>Violates the no AI self-certification condition</td></tr>
 </tbody>
 </table>
@@ -118,7 +118,7 @@
 <li>If refusal is raised, does the process really stop?</li>
 <li>Does this judgment avoid relying on the reviewed AI system's own assurance that human refusal remains effective?</li>
 </ol>
-<div class="warning"><strong>Operating rule</strong><br>If unclear, do not classify as Yellow; treat as at least Orange. If there is no evidence that refusal really stops the process, treat as Orange or higher. If rollback is impossible, treat as a Red candidate. If accountable human authority is unclear, do not pass.</div>
+<div class="warning"><strong>Operating rule</strong><br>If unclear, do not classify as Yellow; treat as at least Orange. If there is no evidence that refusal really stops the process, treat as Orange or higher. If rollback is impossible, treat as a Red finding. If accountable human authority is unclear, do not pass.</div>
 
 ## 10. Yellow / Orange / Red assessment
 
@@ -204,7 +204,7 @@
 <table><tbody>
 <tr><th>Template Version</th><td>v0.1-r1</td></tr>
 <tr><th>Release Date</th><td>2026-06-09</td></tr>
-<tr><th>Status</th><td>Draft candidate / staged adoption edition candidate</td></tr>
+<tr><th>Status</th><td>Current public working edition</td></tr>
 <tr><th>Language</th><td>English</td></tr>
 <tr><th>Supersedes / Superseded by</th><td>None / To be assigned</td></tr>
 <tr><th>SHA256</th><td>Managed in SHA256SUMS.txt</td></tr>

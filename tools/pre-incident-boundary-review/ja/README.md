@@ -2,7 +2,7 @@
 
 Version: v0.1-r1  
 Date: 2026-06-09  
-Status: Draft candidate / 段階導入版候補
+Status: 現行公開実務資料
 
 ## Files
 
@@ -46,8 +46,8 @@ This pack must not be described as an official standard, certification system, l
 
 ## Placement note
 
-This candidate uses the proposed path:
+この公開実務資料は次のパスで提供されています:
 
 `lumina-30-overview/tools/pre-incident-boundary-review/ja/`
 
-Actual repository placement should be confirmed during review.
+このパスは、日本語の事前境界レビュー資料の公開実務配置です。
