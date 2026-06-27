@@ -1,14 +1,18 @@
 <!-- L30_LANG_LOCK: EN_ONLY -->
-# LUMINA-30 Visualization Rules (Strict)
+# LUMINA-30 Visualization Reference
+
+Status: Public maintenance reference / not a reader-facing LUMINA-30 guidance document
+
+This document records visualization constraints for diagrams and slides related to LUMINA-30. It is not a prompt, not a canonical LUMINA-30 text, not an operational checklist, and not evidence of institutional adoption.
 
 ## Purpose
-This document defines strict visualization constraints for generating diagrams and slides related to LUMINA-30.
+Preserve visual consistency when maintainers prepare diagrams and slides related to LUMINA-30.
 
 ---
 
-## Style Constraints (Critical)
+## Style Constraints
 
-- No colors (grayscale only)
+- Grayscale only
 - No gradients, shadows, or effects
 - No icons, illustrations, or decorative elements
 - No logos, branding, or watermarks
@@ -21,7 +25,7 @@ This document defines strict visualization constraints for generating diagrams a
 - Structure over visual attractiveness
 - Clarity over aesthetics
 - Neutral and technical appearance
-- Must resemble an academic diagram
+- Academic-diagram style
 
 ---
 
@@ -33,7 +37,7 @@ Allowed:
 - Lines
 - Layer structures
 
-Not allowed:
+Avoid:
 - Artistic layouts
 - Infographics
 - Presentation-style visuals
@@ -50,9 +54,9 @@ Not allowed:
 
 ## Output Requirement
 
-- Must be interpretable within 5 seconds
-- Must not introduce new concepts
-- Must not alter relationships between:
+- Interpretable within 5 seconds
+- No new concepts introduced
+- No alteration of relationships between:
   - Human Refusal Authority
   - Irreversibility Threshold
   - Civilizational Boundary
@@ -62,6 +66,5 @@ Not allowed:
 
 ## Final Rule
 
-Do NOT optimize for visual attractiveness.  
+Do not optimize for visual attractiveness.  
 Optimize for structural clarity and neutrality.
-

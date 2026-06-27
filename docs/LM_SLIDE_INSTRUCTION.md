@@ -1,8 +1,12 @@
 <!-- L30_LANG_LOCK: EN_ONLY -->
-# LM Slide Generation Instruction (Fixed)
+# LM Slide Preparation Reference
+
+Status: Public maintenance reference / not a reader-facing LUMINA-30 guidance document
+
+This document records preparation constraints for research-oriented LUMINA-30 slide decks. It is not a prompt, not a canonical LUMINA-30 text, not an operational checklist, and not evidence of institutional adoption.
 
 ## Purpose
-Generate a research-oriented slide deck explaining the LUMINA-30 framework.
+Support a research-oriented slide deck explaining the LUMINA-30 framework.
 The goal is to enable AI researchers to understand the structure and purpose within 30 seconds.
 
 ---
@@ -14,7 +18,7 @@ The goal is to enable AI researchers to understand the structure and purpose wit
 
 ---
 
-## Style Constraints (Strict)
+## Style Constraints
 - Minimal structure
 - Neutral and academic tone
 - No emotional or narrative expressions
@@ -25,43 +29,43 @@ The goal is to enable AI researchers to understand the structure and purpose wit
 
 ---
 
-## Hard Layout Rules (Critical)
-- Maximum 5 lines per slide (strict limit)
-- If content exceeds 5 lines, split into multiple slides without exception
+## Layout Rules
+- Maximum 5 lines per slide
+- If content exceeds 5 lines, split into multiple slides
 - No dense paragraphs
 - No multi-section slides
 - Prefer separation over completeness
 
 ---
 
-## Diagram Rules (Strict)
-Only the following are allowed:
+## Diagram Rules
+Use only:
 - Boxes
 - Arrows
 - Layer structures
 
-Prohibited:
+Avoid:
 - Decorative illustrations
 - Icons
 - Infographics
 
 Additional constraints:
 - One diagram per slide
-- Diagrams must fit within a single screen (no vertical overflow)
-- Do not compress diagrams to fit one slide
+- Diagrams should fit within a single screen without vertical overflow
+- Do not compress diagrams to force excessive content into one slide
 
 ---
 
 ## Slide Structure Rules
 - Total slides: 8–10
-- Each slide must have a clear title
-- Each slide must contain only one logical unit
+- Each slide should have a clear title
+- Each slide should contain only one logical unit
 - Do not merge multiple concepts into one slide
 
 ---
 
 ## Content Source
-- Follow [L30_S_SERIES_TEMPLATE.md](./L30_S_SERIES_TEMPLATE.md) strictly
+- Follow [S-Series Slide Reference](./L30_S_SERIES_TEMPLATE.md)
 - Do not invent new concepts
 - Do not expand beyond defined structure
 - Preserve terminology consistency
@@ -69,30 +73,21 @@ Additional constraints:
 ---
 
 ## Language Rules
-- Output must include both English and Japanese
-- Structure must be identical between EN and JP
+- Output may include both English and Japanese where needed
+- Structure should be identical between EN and JP versions
 - Do not mix languages within the same sentence
 - Maintain consistent terminology across slides
 
 ---
 
-## Generation Priority
+## Priority
 - Structure > completeness
 - Readability > density
 - Consistency > explanation
 
 ---
 
-## Output Format
+## Output Format Reference
 - Slide-based structure
 - Title + bullet points only
 - No additional explanations outside slides
-
----
-
-## Execution Instruction
-You must strictly follow all rules above.
-Do not deviate.
-
-
-

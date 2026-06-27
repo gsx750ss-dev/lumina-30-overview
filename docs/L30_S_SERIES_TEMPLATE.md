@@ -1,13 +1,16 @@
 <!-- L30_LANG_LOCK: EN_ONLY -->
-# S-Series Template v1.0
+# S-Series Slide Reference v1.0
 
-This document defines the standardized generation rules for all S-series slides in LUMINA-30.
+Status: Public maintenance reference / not a reader-facing LUMINA-30 guidance document
+
+This document records structural rules for maintainers preparing S-series slides about LUMINA-30. It is not a prompt, not a canonical LUMINA-30 text, not an operational checklist, and not evidence of institutional adoption.
 
 ---
 
 ## 1. Concept Template (S01–S03)
 
-You are generating a research-oriented slide deck explaining the LUMINA-30 framework.
+### Purpose
+Support a research-oriented slide deck explaining the LUMINA-30 framework.
 
 ### Goal
 Enable AI researchers to understand the structure and purpose within 30 seconds.
@@ -18,7 +21,7 @@ AI safety researchers, governance experts, technical reviewers
 ### Format
 - 8–10 slides
 - Each slide: max 5 bullet points
-- Each slide must have a clear title
+- Each slide should have a clear title
 - Maintain consistent layout across all slides
 
 ### Style
@@ -29,12 +32,12 @@ AI safety researchers, governance experts, technical reviewers
 - Prioritize whitespace over density
 
 ### Diagram Rules
-Only use:
+Use only:
 - Boxes
 - Arrows
 - Layer structures
 
-Must include:
+Recommended diagrams:
 1. Layer structure (bottom → top)
 2. Boundary diagram (safe vs irreversible)
 3. Decision flow (input → validation → output)
@@ -58,16 +61,17 @@ Use LUMINA-30 Core Terminology without rephrasing.
 
 ## 2. Operational Template (S04–)
 
-Create a single-slide layout (16:9) for a presentation.
+### Purpose
+Support a single-slide layout (16:9) for an operational presentation.
 
 ### Goal
 Instantly convey an operational structure within 5 seconds.
 
 ### Constraints
-- Must fit within ONE slide
-- No overflow
+- Fit within one slide
+- Avoid overflow
 - Maximum 6 steps
-- Each step must be 1–3 words
+- Each step should be 1–3 words
 - Maintain clear vertical or linear flow
 - Use arrows only
 - Keep sufficient spacing
@@ -85,13 +89,13 @@ Instantly convey an operational structure within 5 seconds.
 - One definition line at the bottom
 
 ### Content Rules
-- Must align with LUMINA-30 Core Terminology
-- No rephrasing of key terms
-- No additional concepts
+- Align with LUMINA-30 Core Terminology
+- Do not rephrase key terms
+- Do not add new concepts
 
-### Output
+### Output Reference
 - Slide text only
-- No explanation
+- No explanatory text outside the slide sequence
 
 ---
 
@@ -114,27 +118,23 @@ S06 = Operational (Decision)
 3. Do not reduce or expand information arbitrarily  
 4. Structure over design  
 5. One slide = one message
-6. Each step must be visually separable
+6. Each step should be visually separable
 7. Avoid text wrapping within steps
-
 
 ---
 
 ## 5. Notes
 
-This template defines structural consistency across all S-series outputs.  
-All future slides must follow this specification.
+This reference defines structural consistency across S-series outputs.  
+It should not be read as LUMINA-30 public guidance or a normative rule.
 
-Output Rules:
-- English and Japanese slides must have identical structure
-- Slide count must match
-- Line count per slide must match
-- Do not translate loosely; maintain structural equivalence
+Output rules:
+- English and Japanese slides should have identical structure
+- Slide count should match
+- Line count per slide should match
+- Avoid loose translation; maintain structural equivalence
 
+### Priority
 
-### Generation Priority
-
-Structure must be preserved over completeness.
-Do not add explanatory text beyond defined constraints.
-
-
+Structure should be preserved over completeness.
+Do not add explanatory text beyond the defined constraints.

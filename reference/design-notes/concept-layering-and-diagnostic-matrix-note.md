@@ -1,8 +1,8 @@
 # Concept Layering and Diagnostic Matrix Note v0.1
 # 概念階層化・診断マトリクスメモ v0.1
 
-Status: Design note / non-canonical / not an implementation checklist
-位置づけ：設計メモ / 非正典 / 実装チェックリストではない
+Status: Supplementary design note / non-canonical / not an implementation checklist
+位置づけ：補助設計メモ / 非正典 / 実装チェックリストではない
 
 This note preserves a high-value structural insight from LUMINA-30 design discussion. It is not a canonical LUMINA-30 definition, not a certification document, not a compliance standard, and not evidence of institutional adoption.
 
@@ -191,9 +191,9 @@ Rule:
 
 ルール：
 
-This layer should usually be opened only when needed. It is not the first screen for a first-time user.
+This layer should usually be opened only when needed. It is not the main entry point for first-time readers.
 
-この層は通常、必要になったときだけ開く。初見利用者に最初からすべて見せる層ではない。
+この層は通常、必要になったときだけ開く。初見読者の主要入口ではない。
 
 Summary:
 
@@ -379,7 +379,7 @@ Example:
 ### Rule 5: If it does not clearly fit, preserve it as a design note first.
 ### ルール5：明確に分類できない場合は、まず設計メモとして保存する。
 
-If a concept is promising but not yet stable, it should be stored as a design note before being integrated into public-facing materials.
+If a concept is promising but still under review, it should remain in the design-note archive until it is separately rewritten for public-facing materials.
 
 有望だが安定していない概念は、公開資料へ統合する前に設計メモとして保存する。
 
@@ -537,3 +537,4 @@ It preserves the distinction between:
 > 新しい論点の多くは、公開概念にする前に補助質問へ変換する。
 >
 > 中核は固定し、深い道具は必要なときだけ展開する。
+

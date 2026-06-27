@@ -1,23 +1,23 @@
 # Framework Goodhart Risk and Self-Referential Defense Note v0.3
 # フレームワークGoodhart化リスクと自己言及的防御メモ v0.3
 
-Status: supplementary concept note / 補助概念メモ
+Status: supplementary design note / 補助設計メモ
 Date: 2026-06-13
-Scope: LUMINA-30 conceptual preservation note
+Scope: non-canonical LUMINA-30 design-note archive
 
-This note is a standalone preservation document. It does not modify the LUMINA-30 canonical core, does not create a certification scheme, and does not claim legal, regulatory, academic, or institutional adoption.
+This note is a standalone supplementary design note. It does not modify the LUMINA-30 canonical core, does not create a certification scheme, and does not claim legal, regulatory, academic, or institutional adoption.
 
-この文書は、議論成果を保存するための単体メモである。LUMINA-30の正典的中核を変更するものではなく、認証制度を作るものでもなく、法的・規制上・学術上・制度上の採用を主張するものでもない。
+この文書は、補助的な設計上の観察を保存するための単体メモである。LUMINA-30の正典的中核を変更するものではなく、認証制度を作るものでもなく、法的・規制上・学術上・制度上の採用を主張するものでもない。
 
 
-Storage path: reference/design-notes/
-Storage convention: unlinked design note / 非リンク型設計メモ
+Reference location: reference/design-notes/
+Folder convention: supplementary design-note archive / 補助設計メモ・アーカイブ
 
-This file is stored in the design-notes folder. That folder is reserved for high-value conceptual notes that should be preserved in the repository but should not yet be treated as public guidance, canonical text, or an operational checklist.
+This file is stored in the design-notes folder. That folder preserves supplementary conceptual notes separately from public guidance, canonical text, and operational checklists.
 
-このファイルは design-notes フォルダに保存する。このフォルダは、リポジトリ内に保存する価値はあるが、まだ公開導線・正典本文・運用チェックリストとして扱うべきではない高価値の概念メモを置くための場所である。
+このファイルは design-notes フォルダに保存されている。このフォルダは、補助的な概念メモを、公開ガイダンス、正典本文、運用チェックリストとは分けて保持する場所である。
 
-## 0. Purpose, use, objections, and publication timing
+## 0. Purpose, use, objections, and limits
 
 ### 0.1 Why this note exists
 
@@ -41,7 +41,7 @@ This note may be useful for:
 - preserving discussion outcomes that may otherwise be lost in chat threads;
 - reminding future contributors that the canonical core should remain fixed while verification probes may need partial variation.
 
-This note should not be used as a claim that LUMINA-30 has solved framework Goodhartization. It only identifies the risk and records candidate safeguards.
+This note should not be used as a claim that LUMINA-30 has solved framework Goodhartization. It only identifies the risk and records possible safeguards.
 
 ### 0.2 想定される使い道
 
@@ -81,7 +81,7 @@ These objections are valid. For that reason, this note does not recommend changi
 
 ### 0.4 Publication and integration timing
 
-This note is suitable for preservation now, but not necessarily for immediate top-level public navigation. It should remain unlinked or lightly linked until at least one of the following conditions applies:
+This note is suitable as a supplementary design-note archive. It should not be treated as a top-level public entry unless at least one of the following conditions applies:
 
 - LUMINA-30 is being discussed as an operational checklist by external users;
 - repeated YES outcomes or checklist-style usage become a visible concern;
@@ -101,7 +101,7 @@ Until then, the recommended status is preservation-only: keep the note available
 - 外部レビュー者から、LUMINA-30自身の形式化が儀式化するリスクをどう防ぐのか問われた
 - 将来版で、Framework Goodhart Riskを、測定可能性境界、解消不能な不明、または介入窓の指針と統合する必要が出た
 
-それまでは、保存専用の扱いが望ましい。すなわち、リポジトリ内で参照可能な状態に保つが、主要入口としては前面化しない。
+それまでは、補助設計メモとして扱う。すなわち、リポジトリ内で参照可能な状態に保つが、主要入口としては前面化しない。
 
 ---
 
@@ -301,10 +301,11 @@ LUMINA-30は、拒否権を演出するためのチェックリストになっ�
 
 ## 7. Preservation note
 
-This document preserves a self-referential defense layer developed through discussion. It is intentionally standalone and contains no external hyperlinks. It is not intended to replace existing LUMINA-30 materials. It is a candidate supplement for future integration or review. Its current role is preservation, not primary public navigation.
+This document preserves a self-referential defense layer developed through discussion. It is intentionally standalone and contains no external hyperlinks. It is not intended to replace existing LUMINA-30 materials. It is a supplementary design note for later review. Its role is archival reference, not primary public navigation.
 
 ---
 
 ## 7. 保存メモ
 
 この文書は、議論を通じて形成された自己言及的防御層を保存するためのものである。意図的に単体文書とし、外部リンクを含めていない。既存のLUMINA-30資料を置き換えるものではない。将来の統合またはレビューのための補助候補である。現時点での役割は、主要公開導線ではなく保存である。
+
