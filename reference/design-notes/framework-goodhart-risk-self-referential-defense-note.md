@@ -301,11 +301,11 @@ LUMINA-30は、拒否権を演出するためのチェックリストになっ�
 
 ## 7. Preservation note
 
-This document preserves a self-referential defense layer developed through discussion. It is intentionally standalone and contains no external hyperlinks. It is not intended to replace existing LUMINA-30 materials. It is a supplementary design note for later review. Its role is archival reference, not primary public navigation.
+This document preserves a self-referential defense layer developed through discussion. It is intentionally standalone and contains no external hyperlinks. It is not intended to replace existing LUMINA-30 materials. It is retained as a supplementary design-note archive for later review, not as primary public navigation or an active implementation plan.
 
 ---
 
 ## 7. 保存メモ
 
-この文書は、議論を通じて形成された自己言及的防御層を保存するためのものである。意図的に単体文書とし、外部リンクを含めていない。既存のLUMINA-30資料を置き換えるものではない。将来の統合またはレビューのための補助候補である。現時点での役割は、主要公開導線ではなく保存である。
+この文書は、議論を通じて形成された自己言及的防御層を保存するためのものである。意図的に単体文書とし、外部リンクを含めていない。既存のLUMINA-30資料を置き換えるものではない。将来の整理やレビュー時に参照するための補助設計メモ・アーカイブとして保持する。主要公開導線または実装計画として提示するものではない。
 

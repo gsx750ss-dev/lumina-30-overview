@@ -1,5 +1,5 @@
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
-# Certification Mark
+# Non-operational Certification-Mark Note
 
 > **Non-operational note:**  
 > This file is retained only as a historical / conceptual extension note.  
@@ -12,32 +12,32 @@
 > いかなるシステム、組織、文書、実装についても、LUMINA-30による認証・承認・準拠・推奨・認可を主張するために使用してはならない。
 
 ## Position ｜ 位置づけ
-Signaling extension.
-シグナリング拡張。
+Historical / conceptual signaling note only. Not an active certification mark.
+過去の構想・概念上のシグナリングメモのみ。現行の認証マークではない。
 
 ---
 
 ## Purpose ｜ 目的
-Visual representation.
-視覚表現。
+To preserve a past mark-related concept while preventing it from being mistaken for certification, approval, compliance, or endorsement.
+過去のマーク関連構想を保存しつつ、それが認証・承認・準拠・推奨と誤解されないようにする。
 
 ---
 
 ## Scope ｜ 範囲
-- Symbol
-- Criteria reference
-・シンボル
-・基準参照
+- Historical symbol concept
+- Historical criteria-reference concept
+・過去のシンボル概念
+・過去の基準参照概念
 
 ---
 
 ## Interpretation ｜ 解釈
-Does not define validity.
-有効性は定義しない。
+Does not create certification, validity, approval, compliance, or endorsement.
+認証、有効性、承認、準拠、推奨を発生させない。
 
 ---
 
 ## Constraint ｜ 制約
-Supplement only.
-補助のみ。
+Historical reference only; not for operational signaling.
+過去参照のみ。運用上の表示には使用しない。
 

@@ -1281,7 +1281,7 @@ Potential examples include:
 - Medical decision automation
 - Autonomous escalation systems
 
-These are not currently treated as fully implemented operational layers.
+These are listed as possible extension domains only; they are not presented as current operational layers or implemented programs.
 
 LUMINA-30で用いられる境界構造は、不可逆な人間排除、または実効的拒否権の喪失を伴う他領域にも拡張可能である。
 
@@ -1293,7 +1293,7 @@ LUMINA-30で用いられる境界構造は、不可逆な人間排除、また�
 - 医療判断の自動化
 - 自律的エスカレーション
 
-ただし、これらは現時点ではすべてが実装済みの運用レイヤーではない。
+ただし、これらは可能な適用領域の例であり、現行の運用レイヤーまたは実装済みプログラムとして提示するものではない。
 
 <a id="signaling"></a>
 ## Signaling ｜ シグナリング
@@ -1636,7 +1636,7 @@ Use this section to choose the next destination by purpose, not to browse the wh
   視覚的理解、説明資料、プレゼン用資料を確認する場合。
 
 - [Check possible extension domains ｜ 拡張可能な適用領域を確認する](#possible-extension-domains)  
-  For confirming domains where the same boundary structure may be extended without treating them as fully implemented operational layers.  
+  For confirming possible extension domains without presenting them as current operational layers or implemented programs.  
   同じ境界構造が拡張可能な領域を、実装済み運用レイヤーとは区別して確認する場合。
 
 - [Check optional support materials ｜ 補助資料を確認する](#extensions)  

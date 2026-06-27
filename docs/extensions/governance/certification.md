@@ -1,5 +1,5 @@
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
-# Certification
+# Non-operational Certification Note
 
 > **Non-operational note:**  
 > This file is retained only as a historical / conceptual extension note.  
@@ -12,32 +12,32 @@
 > いかなるシステム、組織、文書、実装についても、LUMINA-30による認証・承認・準拠・推奨・認可を主張するために使用してはならない。
 
 ## Position ｜ 位置づけ
-Non-core extension. Governance-related signaling structure.
-非コア拡張。ガバナンスに関するシグナリング構造。
+Historical / conceptual note only. Not an active certification mechanism.
+過去の構想・概念メモのみ。現行の認証メカニズムではない。
 
 ---
 
 ## Purpose ｜ 目的
-To describe how compliance visibility may be externally represented.
-適合状態を外部に可視化する方法を記述する。
+To preserve a past signaling concept while preventing it from being mistaken for certification, approval, or compliance status.
+過去のシグナリング構想を保存しつつ、それが認証・承認・準拠状態と誤解されないようにする。
 
 ---
 
 ## Scope ｜ 範囲
-- Certification signals
-- External recognition mechanisms
-・認定シグナル
-・外部認識メカニズム
+- Historical certification-related signals
+- External recognition concepts
+・過去の認証関連シグナル
+・外部認識に関する概念
 
 ---
 
 ## Interpretation ｜ 解釈
-Certification does not determine validity but may reflect perceived compliance.
-認定は有効性を決定するものではなく、適合の認識を示すにとどまる。
+This note does not create certification or validity. It records only a past conceptual signaling idea.
+本メモは認証または有効性を発生させない。過去の概念的シグナリング案のみを記録する。
 
 ---
 
 ## Constraint ｜ 制約
-This document does not define procedural validity.
-本資料は手続的有効性を定義しない。
+This document must not be used as a certification, approval, compliance, or endorsement basis.
+本資料は、認証・承認・準拠・推奨の根拠として使用してはならない。
 
