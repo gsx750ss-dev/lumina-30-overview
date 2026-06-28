@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUMINA-30 Existing Anonymous Responses</title>
+  <link rel="stylesheet" href="../assets/visitor-response.css">
+  <script src="../assets/config.js"></script>
+  <script src="../assets/visitor-response.js" defer></script>
+</head>
+<body data-mode="responses" data-locale="en">
+<main>
+  <header class="header">
+    <div class="eyebrow">LUMINA-30 Visitor Response Archive</div>
+    <h1>View existing anonymous responses</h1>
+    <p class="lead">Only reviewed and anonymized posts are shown. Newer posts appear first.</p>
+  </header>
+
+  <section class="panel">
+    <h2>Filters</h2>
+    <div class="filters">
+      <div><label for="category">Category</label><select id="category"></select></div>
+      <div><label for="role">Perspective</label><select id="role"></select></div>
+      <div><label for="domain">Domain</label><select id="domain"></select></div>
+      <div><label for="stage">Stage</label><select id="stage"></select></div>
+      <div><button id="apply-filters" type="button">Apply filters</button></div>
+    </div>
+    <p class="help">Select “Pre-adoption concern” to view concerns before applying the question.</p>
+  </section>
+
+  <div class="button-row">
+    <a class="button" href="submit.html">Send your own anonymous response</a>
+  </div>
+
+  <section id="responses-list"></section>
+
+  <footer>
+    Submitter names are not displayed. The displayed ID is a public response ID.
+  </footer>
+</main>
+</body>
+</html>

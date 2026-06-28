@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUMINA-30 既存の匿名応答</title>
+  <link rel="stylesheet" href="../assets/visitor-response.css">
+  <script src="../assets/config.js"></script>
+  <script src="../assets/visitor-response.js" defer></script>
+</head>
+<body data-mode="responses" data-locale="ja">
+<main>
+  <header class="header">
+    <div class="eyebrow">LUMINA-30 Visitor Response Archive</div>
+    <h1>既存の匿名応答を見る</h1>
+    <p class="lead">確認・匿名化された投稿だけを表示します。新しい投稿が上に表示されます。</p>
+  </header>
+
+  <section class="panel">
+    <h2>絞り込み</h2>
+    <div class="filters">
+      <div><label for="category">投稿カテゴリ</label><select id="category"></select></div>
+      <div><label for="role">投稿者の立場</label><select id="role"></select></div>
+      <div><label for="domain">対象領域</label><select id="domain"></select></div>
+      <div><label for="stage">適用段階</label><select id="stage"></select></div>
+      <div><button id="apply-filters" type="button">表示する</button></div>
+    </div>
+    <p class="help">「一問を自分の現場に当てる前の悩み」だけを選ぶと、導入前の迷いを一覧できます。</p>
+  </section>
+
+  <div class="button-row">
+    <a class="button" href="submit.html">自分も匿名応答を送る</a>
+  </div>
+
+  <section id="responses-list"></section>
+
+  <footer>
+    投稿者名は表示しません。表示されるIDは公開用の投稿IDです。
+  </footer>
+</main>
+</body>
+</html>

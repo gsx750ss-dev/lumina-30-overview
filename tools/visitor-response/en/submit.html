@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUMINA-30 Anonymous One-Question Response</title>
+  <link rel="stylesheet" href="../assets/visitor-response.css">
+  <script src="../assets/config.js"></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" defer></script>
+  <script src="../assets/visitor-response.js" defer></script>
+</head>
+<body data-mode="submit" data-locale="en">
+<main>
+  <header class="header">
+    <div class="eyebrow">LUMINA-30 Visitor Response</div>
+    <h1>Send an anonymous One-Question response</h1>
+    <p class="lead">This form receives structured responses about applying the LUMINA-30 question to a real context, concern, or review. No GitHub account name is displayed.</p>
+  </header>
+
+  <section class="notice">
+    The public list does not display a name, account, email address, or organization. Submissions are not published automatically. They may be reviewed, anonymized, summarized, quarantined, hidden, or rejected before publication. Do not include personal information, confidential information, organization names, private incident details, credentials, or non-public details.
+  </section>
+
+  <form id="response-form">
+    <div class="grid">
+      <div>
+        <label for="category">Post category</label>
+        <select id="category" name="category" required></select>
+      </div>
+      <div>
+        <label for="role">Your perspective</label>
+        <select id="role" name="role" required></select>
+      </div>
+      <div>
+        <label for="domain">Target domain</label>
+        <select id="domain" name="domain" required></select>
+      </div>
+      <div>
+        <label for="stage">Application stage</label>
+        <select id="stage" name="stage" required></select>
+      </div>
+      <div>
+        <label for="public_scope">Publication preference</label>
+        <select id="public_scope" name="public_scope" required></select>
+      </div>
+      <div>
+        <label for="source_page">Source page</label>
+        <input id="source_page" name="source_page" maxlength="220" placeholder="One-Question Pilot / Start by Concern / other">
+      </div>
+    </div>
+
+    <label for="title">Title</label>
+    <input id="title" name="title" maxlength="160" required placeholder="Example: This question may look like blame in a procurement review">
+
+    <label for="body">Response text</label>
+    <textarea id="body" name="body" maxlength="5000" required placeholder="Describe your concern before applying the question, your result after applying it, an insertion point, or an objection."></textarea>
+
+    <label for="peer_reference">What may help others in a similar position?</label>
+    <textarea id="peer_reference" name="peer_reference" maxlength="2000" placeholder="Add anything that may help later visitors with a similar concern."></textarea>
+
+    <div id="turnstile-box" class="panel"></div>
+
+    <div class="button-row">
+      <button type="submit">Submit response</button>
+      <a class="button secondary" href="responses.html">View existing responses</a>
+    </div>
+    <div id="status" class="status"></div>
+  </form>
+
+  <footer>
+    This is not a general comment box. It is a structured response channel for connecting the LUMINA-30 question to actual decisions, concerns, and reviews.
+  </footer>
+</main>
+</body>
+</html>

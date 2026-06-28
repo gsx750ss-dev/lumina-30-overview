@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUMINA-30 一問への匿名応答</title>
+  <link rel="stylesheet" href="../assets/visitor-response.css">
+  <script src="../assets/config.js"></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" defer></script>
+  <script src="../assets/visitor-response.js" defer></script>
+</head>
+<body data-mode="submit" data-locale="ja">
+<main>
+  <header class="header">
+    <div class="eyebrow">LUMINA-30 Visitor Response</div>
+    <h1>一問への匿名応答を送る</h1>
+    <p class="lead">このフォームは、LUMINA-30の一問を自分の現場・悩み・レビューに当てる時の反応を受け付ける入口です。GitHubアカウント名は表示されません。</p>
+  </header>
+
+  <section class="notice">
+    公開一覧には、名前・アカウント・メールアドレス・所属名を表示しません。投稿は自動公開されません。公開前に確認され、必要に応じて匿名化・要約・隔離・非表示・却下されます。個人情報、機密情報、組織名、非公開の事故情報、認証情報、未公開の詳細は書かないでください。
+  </section>
+
+  <form id="response-form">
+    <div class="grid">
+      <div>
+        <label for="category">投稿カテゴリ</label>
+        <select id="category" name="category" required></select>
+      </div>
+      <div>
+        <label for="role">投稿者の立場</label>
+        <select id="role" name="role" required></select>
+      </div>
+      <div>
+        <label for="domain">対象領域</label>
+        <select id="domain" name="domain" required></select>
+      </div>
+      <div>
+        <label for="stage">一問の適用段階</label>
+        <select id="stage" name="stage" required></select>
+      </div>
+      <div>
+        <label for="public_scope">公開してよい範囲</label>
+        <select id="public_scope" name="public_scope" required></select>
+      </div>
+      <div>
+        <label for="source_page">どのページから来ましたか</label>
+        <input id="source_page" name="source_page" maxlength="220" placeholder="One-Question Pilot / Start by Concern / other">
+      </div>
+    </div>
+
+    <label for="title">タイトル</label>
+    <input id="title" name="title" maxlength="160" required placeholder="例：調達レビューにこの一問を入れると責任追及に見えそうです">
+
+    <label for="body">本文</label>
+    <textarea id="body" name="body" maxlength="5000" required placeholder="一問を当てる前の悩み、実際に当てた結果、既存レビューへの挿入案、反論などを書いてください。"></textarea>
+
+    <label for="peer_reference">同じ立場の人の参考になりそうな点</label>
+    <textarea id="peer_reference" name="peer_reference" maxlength="2000" placeholder="他の来場者が参考にできそうな点があれば書いてください。"></textarea>
+
+    <div id="turnstile-box" class="panel"></div>
+
+    <div class="button-row">
+      <button type="submit">送信する</button>
+      <a class="button secondary" href="responses.html">既存の応答を見る</a>
+    </div>
+    <div id="status" class="status"></div>
+  </form>
+
+  <footer>
+    これは自由コメント欄ではありません。LUMINA-30の一問を実際の判断・悩み・レビューに接続するための構造化応答口です。
+  </footer>
+</main>
+</body>
+</html>
