@@ -1,4 +1,5 @@
 
+
 const LABELS = {
   en: {
     categories: {
@@ -294,7 +295,10 @@ function initResponses(locale) {
   emptyAny.textContent = locale === "ja" ? "すべて" : "All";
   for (const id of ["category", "role", "domain", "stage"]) {
     const select = document.getElementById(id);
-    if (select) select.prepend(emptyAny.cloneNode(true));
+    if (select) {
+      select.prepend(emptyAny.cloneNode(true));
+      select.value = "";
+    }
   }
   document.getElementById("apply-filters")?.addEventListener("click", () => loadResponses(locale));
   loadResponses(locale);
@@ -306,3 +310,4 @@ document.addEventListener("DOMContentLoaded", () => {
   if (mode === "submit") initSubmit(locale);
   if (mode === "responses") initResponses(locale);
 });
+
