@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>One-Question Pilot | LUMINA-30 Boundary Review</title>
-  <meta name="description" content="A 30–60 minute entry to add one effective human refusal question before AI deployment, escalation, or dependency becomes irreversible.">
+  <meta name="description" content="A focused entry page for adding one effective human-refusal question to AI incident reviews, audits, model-risk assessments, procurement, and agent deployment decisions.">
   <meta property="og:title" content="One-Question Pilot | LUMINA-30 Boundary Review">
-  <meta property="og:description" content="Test whether a responsible human can still refuse, stop, or hold an AI-mediated process before it becomes irreversible.">
+  <meta property="og:description" content="Add one boundary question to an existing AI review: can humans still refuse, stop, verify, or redirect before irreversibility?">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/one-question-pilot.html">
   <meta name="twitter:card" content="summary">
@@ -392,6 +392,53 @@
       text-underline-offset: 0.22em;
     }
 
+
+    /* 10d: One-Question Pilot v0.2 entry-flow clarification. */
+    header.hero .question-box {
+      max-width: 900px;
+      margin-top: 24px;
+    }
+
+    .reassurance {
+      max-width: 900px;
+      margin: 14px 0 0;
+      padding: 14px 16px;
+      border-left: 6px solid var(--limit-line);
+      border-radius: 14px;
+      background: var(--limit-panel);
+      color: var(--muted);
+      box-shadow: none;
+    }
+
+    .reassurance strong { color: var(--warning); }
+
+    .cta-note {
+      width: 100%;
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .grid.compact { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+    .grid.compact .card { padding: 14px 16px; }
+
+    .grid.compact .card strong { margin-bottom: 0; }
+
+    .resource-group { margin-top: 18px; }
+
+    .resource-group h3 {
+      margin: 0 0 10px;
+      color: var(--accent-2);
+      font-size: 1.08rem;
+      letter-spacing: -0.01em;
+    }
+
+    .doc-card.primary-resource {
+      border-color: rgba(119, 215, 255, 0.46);
+      border-left-color: rgba(119, 215, 255, 0.95);
+    }
+
     @media (max-width: 820px) {
       body { font-size: 17px; }
       header.hero { padding-top: 34px; }
@@ -407,60 +454,61 @@
     <div class="wrap">
       <p class="eyebrow">LUMINA-30 boundary-review entry point</p>
       <h1>Human oversight is not enough if no one can stop the process in time.</h1>
-      <p class="lead">The One-Question Pilot helps AI governance, procurement, security, and audit teams test whether a responsible human can still refuse, stop, or hold an AI-mediated process before it becomes irreversible.</p>
-      <nav class="cta-row" aria-label="Primary actions">
-        <a class="button primary" href="current/ONE_QUESTION_PILOT_RUNBOOK_EN.html">Start with the Runbook</a>
-        <a class="button" href="current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.html">Use the Decision Guide</a>
-        <a class="button" href="current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.html">See where it fits existing reviews</a>
+      <p class="lead">Human oversight only works if someone can still say no before the process becomes impossible to reverse. This is a single question you can add to an existing AI incident review, audit, model-risk assessment, procurement review, or agent deployment decision.</p>
+      <div class="question-box hero-question">Before this AI-mediated process becomes irreversible, can a responsible human still effectively refuse, stop, verify, or redirect it? What authority, evidence, and stopping procedure support that answer?</div>
+      <p class="reassurance"><strong>A NO or UNKNOWN result is not a failure.</strong> It may reveal that formal human oversight exists, but effective human refusal is missing, unclear, or unsupported by evidence.</p>
+      <nav class="cta-row" aria-label="Primary action">
+        <a class="button primary" href="current/ONE_QUESTION_PILOT_RUNBOOK_EN.html">Start with the One-Question Pilot Runbook</a>
+        <p class="cta-note">Decision guidance, gap response, insertion mapping, and public-statement support are listed below if needed.</p>
       </nav>
-      <p class="response-route"><a href="../../visitor-response/en/responses.html">See other responses / leave an anonymous response</a></p>
     </div>
   </header>
 
   <main class="wrap">
-    <section aria-labelledby="one-question">
-      <h2 id="one-question">The one question</h2>
-      <div class="question-box">Before this AI-mediated process becomes irreversible, can a responsible human still effectively refuse, stop, or hold it? What authority, evidence, and stopping procedure support that answer?</div>
-      <p>This is not a replacement for existing AI governance. It is one additional boundary question that can be inserted into an existing review.</p>
-    </section>
+
 
     <section aria-labelledby="who-should-use-this">
       <h2 id="who-should-use-this">Who should use this</h2>
-      <div class="grid">
-        <div class="card"><strong>AI adoption reviewers</strong><p>For teams deciding whether an AI system or workflow can move forward.</p></div>
-        <div class="card"><strong>Procurement and vendor-risk teams</strong><p>For checking whether vendor-mediated processes preserve a usable hold point.</p></div>
-        <div class="card"><strong>Security reviewers</strong><p>For reviewing automation, access, deployment, escalation, and operational control paths.</p></div>
-        <div class="card"><strong>Internal audit and risk teams</strong><p>For testing whether formal oversight is backed by authority, evidence, and procedure.</p></div>
-        <div class="card"><strong>Agent and workflow evaluators</strong><p>For teams evaluating AI agents or automated workflows before production use.</p></div>
+      <p>Use this if your organization already reviews AI-mediated deployment, procurement, security, audit, model risk, incident response, or agent deployment decisions.</p>
+      <div class="grid compact">
+        <div class="card"><strong>Incident Review</strong></div>
+        <div class="card"><strong>AI Audit</strong></div>
+        <div class="card"><strong>Model Risk</strong></div>
+        <div class="card"><strong>Agent Deployment Review</strong></div>
+        <div class="card"><strong>Procurement / Vendor Risk</strong></div>
+        <div class="card"><strong>Security / Production Readiness</strong></div>
       </div>
     </section>
 
     <section aria-labelledby="pilot-does">
       <h2 id="pilot-does">What this pilot does</h2>
       <div class="grid">
-        <div class="card"><strong>1. Select one case</strong><p>Choose one existing review case instead of creating a new governance program.</p></div>
-        <div class="card"><strong>2. Find the irreversible point</strong><p>Identify the operation that may become difficult or impossible to reverse in time.</p></div>
-        <div class="card"><strong>3. Add one boundary question</strong><p>Insert the question into the existing review path.</p></div>
-        <div class="card"><strong>4. Classify the answer</strong><p>Record YES, NO, or UNKNOWN using the decision guide.</p></div>
-        <div class="card"><strong>5. Record the gap</strong><p>If the result is NO or UNKNOWN, record the gap and next action.</p></div>
-        <div class="card"><strong>6. Decide whether to keep it</strong><p>Assess whether this check should remain in future reviews.</p></div>
+        <div class="card"><strong>1. Select one real case</strong><p>Use one existing review case rather than starting a new governance program.</p></div>
+        <div class="card"><strong>2. Find the irreversible point</strong><p>Identify where the process may become difficult or impossible to reverse in time.</p></div>
+        <div class="card"><strong>3. Insert the boundary question</strong><p>Add the question at the decision point where refusal, stopping, verification, or redirection still matters.</p></div>
+        <div class="card"><strong>4. Classify the answer</strong><p>Record YES, NO, or UNKNOWN using the Runbook and Decision Guide.</p></div>
       </div>
     </section>
 
-    <section class="notice" aria-labelledby="useful-result">
-      <h2 id="useful-result">What counts as a useful result</h2>
-      <p><strong>A NO or UNKNOWN result is not a failure.</strong> It may reveal that formal human oversight exists, but effective human refusal is missing, unclear, or unsupported by evidence.</p>
-    </section>
+
 
     <section aria-labelledby="documents">
       <h2 id="documents">Documents</h2>
-      <p>Open the Runbook to conduct the pilot. Use the other documents as needed.</p>
-      <div class="grid two">
-        <a class="doc-card" href="current/ONE_QUESTION_PILOT_RUNBOOK_EN.html"><strong>One-Question Pilot Runbook</strong><span>current/ONE_QUESTION_PILOT_RUNBOOK_EN.html</span></a>
-        <a class="doc-card" href="current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.html"><strong>Effective Human Refusal Decision Guide</strong><span>current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.html</span></a>
-        <a class="doc-card" href="current/BOUNDARY_GAP_RESPONSE_SHEET_EN.html"><strong>Boundary Gap Response Sheet</strong><span>current/BOUNDARY_GAP_RESPONSE_SHEET_EN.html</span></a>
-        <a class="doc-card" href="current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.html"><strong>Existing Framework Insertion Map</strong><span>current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.html</span></a>
-        <a class="doc-card" href="current/PUBLIC_BOUNDARY_CHECK_STATEMENT_KIT_EN.html"><strong>Public Boundary Check Statement Kit</strong><span>current/PUBLIC_BOUNDARY_CHECK_STATEMENT_KIT_EN.html</span></a>
+      <p>Start with the Runbook. Use the other documents only when that specific question appears during the pilot.</p>
+      <div class="resource-group">
+        <h3>Start here</h3>
+        <div class="grid two">
+          <a class="doc-card primary-resource" href="current/ONE_QUESTION_PILOT_RUNBOOK_EN.html"><strong>One-Question Pilot Runbook</strong><span>Conduct the pilot in one existing review case.</span></a>
+        </div>
+      </div>
+      <div class="resource-group">
+        <h3>Use if needed</h3>
+        <div class="grid two">
+          <a class="doc-card" href="current/EFFECTIVE_HUMAN_REFUSAL_DECISION_GUIDE_EN.html"><strong>Effective Human Refusal Decision Guide</strong><span>Use when classifying YES, NO, or UNKNOWN.</span></a>
+          <a class="doc-card" href="current/BOUNDARY_GAP_RESPONSE_SHEET_EN.html"><strong>Boundary Gap Response Sheet</strong><span>Use when the result is NO or UNKNOWN.</span></a>
+          <a class="doc-card" href="current/EXISTING_FRAMEWORK_INSERTION_MAP_EN.html"><strong>Existing Framework Insertion Map</strong><span>Use when deciding where this question fits an existing review process.</span></a>
+          <a class="doc-card" href="current/PUBLIC_BOUNDARY_CHECK_STATEMENT_KIT_EN.html"><strong>Public Boundary Check Statement Kit</strong><span>Use only if you need to describe a boundary check externally.</span></a>
+        </div>
       </div>
     </section>
 
@@ -477,6 +525,7 @@
         <a class="doc-card" href="https://lumina-30.github.io/Lumi30-Index/start-by-concern.html"><strong>Find another practical route</strong><span>Open Start by Concern</span></a>
         <a class="doc-card" href="https://lumina-30.github.io/Lumi30-Index/"><strong>Return to the full document map</strong><span>Open the LUMINA-30 Index</span></a>
         <a class="doc-card" href="../../../index.html"><strong>Read the background and full structure</strong><span>Open the Overview — optional deeper reading</span></a>
+        <a class="doc-card" href="../../visitor-response/en/responses.html"><strong>See other responses or leave a short anonymous response</strong><span>Open the response archive</span></a>
       </div>
     </section>
   </main>
