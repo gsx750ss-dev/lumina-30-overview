@@ -32,6 +32,14 @@ Use this sheet **before** an AI-related release, deployment, capability exposure
 5. **AI assistance boundary** — Is AI being used only to support review?
    - AI may identify evidence gaps, ambiguity, pressure, dependency, and missing refusal pathways. It must not become the reviewer, certify the anchor, simulate consent, or replace human refusal.
 
+### Review scope and repetition
+
+- **Evaluation unit** — Record whether the review covers a single action, a repeated operation, a deployment stage, or a connected operational configuration.
+- **Repeated or cumulative effects** — Check whether individually reversible actions may open an irreversible path through repetition, cumulative effects, dependency, or coupling.
+- **Re-review trigger** — Repeat the review when scope, permissions, automation, vendor or contract conditions, data flows, dependencies, evidence, or connected configurations materially change.
+
+For continuity, composition, evidence-drift, and trigger details, use the [Refusal Continuity & Composition Supplement](../reference/boundary-review-floor/refusal-continuity-composition-supplement.md).
+
 ### Result classification
 
 - **Proceed with review record** — Evidence shows that effective human refusal remains available before the action becomes irreversible.
@@ -84,6 +92,14 @@ AI関連の公開、導入、能力露出、インフラ接続、不可逆的な
 5. **AI支援の境界** — AIはレビュー支援に留まっているか。
    - AIは証拠ギャップ、曖昧性、圧力、依存、拒否経路の欠落を見つける補助に使える。ただし、AIがレビュー主体、アンカー認証者、同意シミュレーター、人間拒否の代替になってはならない。
 
+### 評価範囲と反復確認
+
+- **評価対象単位** — 単一行為、反復操作、導入段階、接続された運用構成のどれを確認対象とするか記録する。
+- **反復・累積効果** — 個々には可逆的な行為でも、反復、累積効果、依存深化、結合によって不可逆経路を開かないか確認する。
+- **再レビュー発火条件** — 対象範囲、権限、自動化、ベンダー・契約条件、データ流通、依存関係、証拠、接続構成が実質的に変わった場合は、レビューを再実施する。
+
+継続性、合成リスク、証拠ドリフト、再評価トリガーの詳細には、[拒否権継続性・合成リスク補足](../reference/boundary-review-floor/refusal-continuity-composition-supplement.md)を使用する。
+
 ### 結果分類
 
 - **レビュー記録つきで進行可** — 不可逆化前に人間の実効的拒否が残っている証拠がある。
@@ -106,4 +122,5 @@ AI関連の公開、導入、能力露出、インフラ接続、不可逆的な
 このシートは、事故前に使う実務入口です。1問パイロットから始め、軽量PCR-C確認、必要時の深層実装モジュールへ進む段階導入型の資料として、[事前境界レビュー・スターターパック](../tools/pre-incident-boundary-review/ja/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_JA.html)を使用できます。事故後分析にはインシデントレビュー資料を使います。AI可読の非代替条件には Boundary Kernel を使います。AIが拒否を代替しないための外部参照条件については、Boundary Kernel の Human Anchor and Effective Refusal を参照してください。
 
 詳細ノート：[Pre-Incident Boundary Review Extension](https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/Pre_Incident_Boundary_Review_Extension.md)。
+
 

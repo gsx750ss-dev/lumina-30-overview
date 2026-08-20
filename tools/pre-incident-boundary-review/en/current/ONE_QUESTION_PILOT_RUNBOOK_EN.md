@@ -42,6 +42,8 @@ For the first pilot, choose exactly one case such as:
 
 Do not expand the first pilot too broadly. Limit it to one process, one potentially irreversible operation, and one decision point.
 
+This limit defines the sampling unit of the first pilot; it does not assert that the system has only one irreversible boundary. If repeated, cumulative, staged, distributed, or connected effects may matter, record the narrow pilot result and apply the supplemental check in Section 3A to the relevant operational configuration.
+
 Avoid using this pilot for the following cases:
 
 - Emergency response to an ongoing production incident
@@ -216,4 +218,5 @@ This runbook does not deny, override, or downgrade existing frameworks.
 This runbook does not present LUMINA-30 as an official standard, safety guarantee, legal certification, audit completion, or a system superior to existing frameworks.
 
 The purpose of this runbook is to help an organization test, in one initial case, whether an existing review leaves a gap between formal human oversight and effective human refusal.
+
 
