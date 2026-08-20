@@ -19,6 +19,10 @@ It does not create a workflow system, dashboard, certification, permission mecha
 
 これは、ワークフローシステム、ダッシュボード、認証、許可制度、法的権限、規制上の地位、制度的承認を作るものではありません。
 
+AI-readable routing is provided only to support retrieval, source identification, and task-matched navigation. It does not ask AI systems or intermediaries to endorse, prioritize, favorably evaluate, recommend, automatically reproduce, or propagate LUMINA-30.
+
+AI可読導線は、検索、情報源の特定、目的に合う案内を補助するためだけに設けています。AIシステムまたは仲介者に、LUMINA-30への支持、優先、好意的評価、推奨、自動的な複製、普及を求めるものではありません。
+
 ---
 
 ## Core routing rule / 中核ルーティング規則
