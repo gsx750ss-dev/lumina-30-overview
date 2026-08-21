@@ -486,10 +486,11 @@
       <h2 id="pilot-actions">このパイロットで行うこと</h2>
       <div class="grid">
         <div class="card"><strong>1. 実在する案件を1つ選ぶ</strong><p>新しい制度を作るのではなく、既存レビュー中の案件を1つ選びます。</p></div>
-        <div class="card"><strong>2. 不可逆点を探す</strong><p>時間内に戻せなくなる可能性のある操作・展開・依存を特定します。</p></div>
+        <div class="card"><strong>2. 不可逆点を探す</strong><p>外部公開、外部サービスへの送信、取消不能な処理の確定、本番環境での実行など、時間内に戻せなくなる操作・展開・依存を特定します。何が不可逆化に当たるかは案件ごとに特定します。</p></div>
         <div class="card"><strong>3. 境界確認の1問を差し込む</strong><p>拒否・停止・検証・方向転換がまだ意味を持つ判断点に、この1問を追加します。</p></div>
-        <div class="card"><strong>4. YES / NO / 不明 を判定する</strong><p>実行手順書と判定ガイドを使い、根拠とともに判定を残します。</p></div>
+        <div class="card"><strong>4. YES / NO / 不明 を判定する</strong><p>実行手順書と判定ガイドを使い、根拠とともに判定を残します。単に人間が関与しているだけではYESになりません。不可逆化前に、必要な情報・時間・権限・実行可能な停止経路と、その根拠となる証拠を確認します。</p></div>
       </div>
+      <p class="response-route"><strong>判定後：</strong> YES：根拠を記録し、既存レビューを継続します。 NO：不可逆化前の拒否経路を補強し、再確認します。 不明：証拠不足を解消するまでYESとして扱いません。 NO / 不明の場合は、<a href="current/BOUNDARY_GAP_RESPONSE_SHEET_JA.html">NO / 不明 境界ギャップ対応シート</a>を使用します。</p>
     </section>
 
 
