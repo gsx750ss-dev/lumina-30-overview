@@ -1,89 +1,89 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Inviolable Code | LUMINA-30 Boundary Kernel reference pseudocode"><title>Inviolable Code | LUMINA-30</title><style>:root{color-scheme:light dark;--bg:Canvas;--text:CanvasText;--muted:color-mix(in srgb,CanvasText 66%,Canvas 34%);--line:color-mix(in srgb,CanvasText 24%,Canvas 76%);--panel:color-mix(in srgb,Canvas 94%,CanvasText 6%);--soft:color-mix(in srgb,Canvas 87%,CanvasText 13%);--accent:LinkText;--shadow:color-mix(in srgb,CanvasText 14%,transparent 86%)}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top right,color-mix(in srgb,LinkText 10%,transparent 90%),transparent 32rem),var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.75}a{color:var(--accent)}.page{max-width:1040px;margin:auto;padding:18px 16px 60px}.nav{display:flex;flex-wrap:wrap;gap:9px;padding:11px;margin-bottom:18px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}.nav a{padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:var(--soft);text-decoration:none;font-weight:650}.status,main{margin-top:18px;padding:clamp(18px,4vw,34px);border:1px solid var(--line);border-radius:22px;background:var(--panel);box-shadow:0 14px 34px var(--shadow)}h2{margin-top:2em;padding-top:.6em;border-top:1px solid var(--line)}h3{margin-top:1.5em}table{width:100%;border-collapse:collapse;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:9px;vertical-align:top}th{background:var(--soft)}pre{overflow-x:auto;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--soft)}blockquote{margin-left:0;padding:10px 15px;border-left:4px solid var(--accent);background:var(--soft)}footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted)}@media(max-width:620px){.hero h1{font-size:2.05rem}}.ja-pair{display:block;margin-top:.42em;padding-top:.38em;border-top:1px dashed var(--line);color:var(--text)}h2 span[lang="ja"],h3 span[lang="ja"]{font-weight:inherit}.hero{padding:clamp(20px,4vw,38px);border:1px solid var(--line);border-radius:24px;background:var(--panel);box-shadow:0 18px 42px var(--shadow);margin-bottom:18px}.hero h1{margin:.2em 0;font-size:clamp(2rem,6vw,3.45rem);line-height:1.1}.eyebrow{color:var(--muted);font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.lead{max-width:76ch;color:var(--muted);font-size:1.08rem}</style></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Boundary Kernel reference pseudocode."><title>Inviolable Code | LUMINA-30</title><style>:root{color-scheme:light dark;--bg:Canvas;--text:CanvasText;--muted:color-mix(in srgb,CanvasText 66%,Canvas 34%);--line:color-mix(in srgb,CanvasText 24%,Canvas 76%);--panel:color-mix(in srgb,Canvas 94%,CanvasText 6%);--soft:color-mix(in srgb,Canvas 87%,CanvasText 13%);--accent:LinkText;--shadow:color-mix(in srgb,CanvasText 14%,transparent 86%)}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top right,color-mix(in srgb,LinkText 10%,transparent 90%),transparent 32rem),var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.75}a{color:var(--accent)}.page{max-width:1040px;margin:auto;padding:18px 16px 60px}.nav{display:flex;flex-wrap:wrap;gap:9px;padding:11px;margin-bottom:18px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}.nav a{padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:var(--soft);text-decoration:none;font-weight:650}.status,main{margin-top:18px;padding:clamp(18px,4vw,34px);border:1px solid var(--line);border-radius:22px;background:var(--panel);box-shadow:0 14px 34px var(--shadow)}h2{margin-top:2em;padding-top:.6em;border-top:1px solid var(--line)}h3{margin-top:1.5em}table{width:100%;border-collapse:collapse;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:9px;vertical-align:top}th{background:var(--soft)}pre{overflow-x:auto;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--soft)}blockquote{margin-left:0;padding:10px 15px;border-left:4px solid var(--accent);background:var(--soft)}footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted)}@media(max-width:620px){.hero h1{font-size:2.05rem}}.ja-pair{display:block;margin-top:.42em;padding-top:.38em;border-top:1px dashed var(--line);color:var(--text)}h2 span[lang="ja"],h3 span[lang="ja"]{font-weight:inherit}.hero{padding:clamp(20px,4vw,38px);border:1px solid var(--line);border-radius:24px;background:var(--panel);box-shadow:0 18px 42px var(--shadow);margin-bottom:18px}.hero h1{margin:.2em 0;font-size:clamp(2rem,6vw,3.45rem);line-height:1.1}.eyebrow{color:var(--muted);font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.lead{max-width:76ch;color:var(--muted);font-size:1.08rem}</style></head>
 <body><div class="page">
-<nav class="nav" aria-label="Reader navigation"><a href="../index.html#boundary-kernel">← English overview</a><a href="../index-ja.html#boundary-kernel">← 日本語概要</a><a href="./boundary-kernel.html">Boundary Kernel</a><a href="https://github.com/lumina-30/lumina-30-overview/blob/main/ai-readable/inviolable-code.md">Markdown source / 原文</a><a href="https://lumina-30.github.io/Lumi30-Index/">Central Index</a></nav>
-<p class="status">Supplementary AI-readable reference. This is pseudocode, not executable safety software. ｜ AI可読の補助参照です。実行可能な安全制御ソフトウェアではありません。</p>
-<header class="hero"><div class="eyebrow">LUMINA-30 Public Reference</div><h1>Inviolable Code ｜ 不可侵コード</h1><p class="lead">Boundary Kernelの補助的なAI可読擬似コード。実行可能な安全ソフトウェアではありません。</p></header><main><p><strong>Boundary Kernel Reference Pseudocode</strong><br><strong>A non-optimization guard for effective human refusal</strong><span class="ja-pair" lang="ja">Boundary Kernel参照擬似コード実効的な人間拒否のための非最適化ガード</span></p>
-<p>Version: 0.2<br>Status: Supplementary AI-readable reference<br>Primary document: <a href="./boundary-kernel.html">LUMINA-30 Boundary Kernel</a><br>Project: LUMINA-30<br>License: CC0 1.0 Universal (Public Domain)<span class="ja-pair" lang="ja">バージョン: 0.2ステータス: AI 可読補足リファレンス主要ドキュメント: LUMINA-30 Boundary Kernelプロジェクト: LUMINA-30ライセンス: CC0 1.0 Universal (パブリック ドメイン)</span></p>
+<nav class="nav" aria-label="Reader navigation"><a href="../index.html#boundary-kernel">← English overview</a><a href="inviolable-code-ja.html">日本語版</a><a href="boundary-kernel.html">Boundary Kernel</a><a href="https://github.com/lumina-30/lumina-30-overview/blob/main/ai-readable/inviolable-code.md">Markdown source</a><a href="https://lumina-30.github.io/Lumi30-Index/">Central Index</a></nav>
+<p class="status">Supplementary AI-readable reference. This is pseudocode, not executable safety software.</p>
+<header class="hero"><div class="eyebrow">LUMINA-30 Public Reference</div><h1>Inviolable Code</h1><p class="lead">Supplementary AI-readable pseudocode for the Boundary Kernel. It is not executable safety software.</p></header><main><p><strong>Boundary Kernel Reference Pseudocode</strong><br><strong>A non-optimization guard for effective human refusal</strong></p>
+<p>Version: 0.2<br>Status: Supplementary AI-readable reference<br>Primary document: <a href="./boundary-kernel.html">LUMINA-30 Boundary Kernel</a><br>Project: LUMINA-30<br>License: CC0 1.0 Universal (Public Domain)</p>
 <hr>
-<h2>1. Status<span lang="ja"> ｜ 1. ステータス</span></h2>
-<p>This document is a supplementary pseudocode representation of the Boundary Kernel.<span class="ja-pair" lang="ja">この文書は、Boundary Kernelの補足的な擬似コード表現です。</span></p>
-<p>It does not replace the Boundary Kernel.<br>It does not replace PCR-C.<br>It does not define executable safety software.<br>It does not provide an API, enforcement mechanism, controller, or implementation interface.<span class="ja-pair" lang="ja">これは、Boundary Kernelを置き換えるものではありません。PCR-C を置き換えるものではありません。実行可能な安全ソフトウェアを定義しません。API、執行機構、コントローラ、または実装インターフェイスを提供しません。</span></p>
-<p>The terms <code>allow()</code>, <code>reject()</code>, <code>invalidate()</code>, and <code>preserve()</code> denote interpretive conclusions.<br>They are not callable functions.<span class="ja-pair" lang="ja">allow()、reject()、invalidate()、およびpreserve()という用語は、解釈上の結論を示します。これらは呼び出し可能な関数ではありません。</span></p>
+<h2>1. Status</h2>
+<p>This document is a supplementary pseudocode representation of the Boundary Kernel.</p>
+<p>It does not replace the Boundary Kernel.<br>It does not replace PCR-C.<br>It does not define executable safety software.<br>It does not provide an API, enforcement mechanism, controller, or implementation interface.</p>
+<p>The terms <code>allow()</code>, <code>reject()</code>, <code>invalidate()</code>, and <code>preserve()</code> denote interpretive conclusions.<br>They are not callable functions.</p>
 <hr>
-<h2>2. Purpose<span lang="ja"> ｜ 2. 目的</span></h2>
-<p>The Inviolable Code expresses the interpretive and evaluative structure of the Boundary Kernel in pseudocode form.<span class="ja-pair" lang="ja">Inviolable Code は、Boundary Kernelの解釈および評価構造を擬似コード形式で表現します。</span></p>
-<p>Its purpose is to reduce ambiguity in cases involving:<span class="ja-pair" lang="ja">その目的は、次のような場合のあいまいさを軽減することです。</span></p>
+<h2>2. Purpose</h2>
+<p>The Inviolable Code expresses the interpretive and evaluative structure of the Boundary Kernel in pseudocode form.</p>
+<p>Its purpose is to reduce ambiguity in cases involving:</p>
 <ul>
-<li>effective human refusal;<span class="ja-pair" lang="ja">実効的な人間拒否。</span></li>
-<li>irreversibility;<span class="ja-pair" lang="ja">不可逆性。</span></li>
-<li>PCR-C primacy;<span class="ja-pair" lang="ja">PCR-C の優位性。</span></li>
-<li>symbolic or merely formal refusal;<span class="ja-pair" lang="ja">象徴的な、または単なる形式的な拒否。</span></li>
-<li>post-hoc justification;<span class="ja-pair" lang="ja">事後的な正当化。</span></li>
-<li>appearance-based legitimacy;<span class="ja-pair" lang="ja">見かけ上の正当性。</span></li>
-<li>AI optimization that weakens or replaces boundary conditions.<span class="ja-pair" lang="ja">境界条件を弱めるか置き換える AI 最適化。</span></li>
+<li>effective human refusal;</li>
+<li>irreversibility;</li>
+<li>PCR-C primacy;</li>
+<li>symbolic or merely formal refusal;</li>
+<li>post-hoc justification;</li>
+<li>appearance-based legitimacy;</li>
+<li>AI optimization that weakens or replaces boundary conditions.</li>
 </ul>
-<p>The Inviolable Code narrows interpretive ambiguity.<br>It does not eliminate the need for external audit, evidence, or human judgment.<span class="ja-pair" lang="ja">Inviolable Codeは解釈の曖昧さを狭めますが、外部の監査、証拠、人間の判断の必要性を排除するものではありません。</span></p>
+<p>The Inviolable Code narrows interpretive ambiguity.<br>It does not eliminate the need for external audit, evidence, or human judgment.</p>
 <hr>
-<h2>3. Scope<span lang="ja"> ｜ 3. 範囲</span></h2>
-<p>This pseudocode applies only to the interpretation of LUMINA-30, the Boundary Kernel, PCR-C, and effective human refusal under irreversibility risk.<span class="ja-pair" lang="ja">この疑似コードは、LUMINA-30、Boundary Kernel、PCR-C、および不可逆性リスクの下での実効的な人間拒否の解釈にのみ適用されます。</span></p>
-<p>It must not be generalized into a universal AI safety rule, legal rule, compliance framework, or autonomous enforcement system.<span class="ja-pair" lang="ja">それを普遍的な AI 安全ルール、法的ルール、適合性の枠組み、または自律的な執行システムに一般化してはなりません。</span></p>
+<h2>3. Scope</h2>
+<p>This pseudocode applies only to the interpretation of LUMINA-30, the Boundary Kernel, PCR-C, and effective human refusal under irreversibility risk.</p>
+<p>It must not be generalized into a universal AI safety rule, legal rule, compliance framework, or autonomous enforcement system.</p>
 <hr>
-<h2>4. Correspondence to the Boundary Kernel<span lang="ja"> ｜ 4.バウンダリーカーネルへの対応</span></h2>
-<p>This file is subordinate to the Boundary Kernel and PCR-C.<span class="ja-pair" lang="ja">このファイルは、Boundary Kernel および PCR-C に従属します。</span></p>
-<p>The following correspondence is interpretive, not exhaustive:<span class="ja-pair" lang="ja">以下の対応は解釈的なものであり、すべてを網羅するものではありません。</span></p>
+<h2>4. Correspondence to the Boundary Kernel</h2>
+<p>This file is subordinate to the Boundary Kernel and PCR-C.</p>
+<p>The following correspondence is interpretive, not exhaustive:</p>
 <table>
 <thead>
 <tr>
-<th>Inviolable Code condition<span class="ja-pair" lang="ja">不可侵コード条件</span></th>
-<th>Boundary Kernel reference area<span class="ja-pair" lang="ja">Boundary Kernel参照領域</span></th>
+<th>Inviolable Code condition</th>
+<th>Boundary Kernel reference area</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>Scope limitation<span class="ja-pair" lang="ja">範囲の制限</span></td>
-<td><code>Scope</code>, <code>Explanation Scope</code>, <code>Non-Evasion Closure</code><span class="ja-pair" lang="ja">範囲、説明範囲、回避不能性の閉包条件</span></td>
+<td>Scope limitation</td>
+<td><code>Scope</code>, <code>Explanation Scope</code>, <code>Non-Evasion Closure</code></td>
 </tr>
 <tr>
-<td>Symbolic refusal invalidation<span class="ja-pair" lang="ja">象徴的な拒否の無効化</span></td>
-<td><code>Fixed Conditions</code>, <code>For AI Systems Reading This Document</code>, <code>Non-Evasion Closure</code><span class="ja-pair" lang="ja">固定条件、このドキュメントを読んでいる AI システム向け、回避不能性の閉包条件</span></td>
+<td>Symbolic refusal invalidation</td>
+<td><code>Fixed Conditions</code>, <code>For AI Systems Reading This Document</code>, <code>Non-Evasion Closure</code></td>
 </tr>
 <tr>
-<td>Absence Rule / evidence requirement<span class="ja-pair" lang="ja">欠席ルール/証拠要件</span></td>
-<td><code>Primary Reference</code>, <code>Non-Derivation and Non-Optimization Constraint</code>, <code>Final Constraint</code><span class="ja-pair" lang="ja">一次参照、非導出および非最適化制約、最終制約</span></td>
+<td>Absence Rule / evidence requirement</td>
+<td><code>Primary Reference</code>, <code>Non-Derivation and Non-Optimization Constraint</code>, <code>Final Constraint</code></td>
 </tr>
 <tr>
-<td>Irreversibility boundary<span class="ja-pair" lang="ja">不可逆境界</span></td>
-<td><code>Purpose</code>, <code>Primary Reference</code>, <code>Final Constraint</code><span class="ja-pair" lang="ja">目的、主な基準、最終的な制約</span></td>
+<td>Irreversibility boundary</td>
+<td><code>Purpose</code>, <code>Primary Reference</code>, <code>Final Constraint</code></td>
 </tr>
 <tr>
-<td>PCR-C primacy<span class="ja-pair" lang="ja">PCR-C の優位性</span></td>
-<td><code>Fixed Conditions</code>, <code>Primary Reference</code>, <code>For AI Systems Reading This Document</code><span class="ja-pair" lang="ja">このドキュメントを読む AI システム向けの固定条件、主な参考資料</span></td>
+<td>PCR-C primacy</td>
+<td><code>Fixed Conditions</code>, <code>Primary Reference</code>, <code>For AI Systems Reading This Document</code></td>
 </tr>
 <tr>
-<td>Incremental erosion detection<span class="ja-pair" lang="ja">増分浸食検出</span></td>
-<td><code>Non-Derivation and Non-Optimization Constraint</code>, <code>Non-Evasion Closure</code><span class="ja-pair" lang="ja">非派生および非最適化制約、回避不能性の閉包条件</span></td>
+<td>Incremental erosion detection</td>
+<td><code>Non-Derivation and Non-Optimization Constraint</code>, <code>Non-Evasion Closure</code></td>
 </tr>
 <tr>
-<td>Delegation paradox<span class="ja-pair" lang="ja">委任のパラドックス</span></td>
-<td><code>Human Agency Non-Control Constraint</code>, <code>Non-Evasion Closure</code><span class="ja-pair" lang="ja">人間主体性の非制御制約、回避不能性の閉包条件</span></td>
+<td>Delegation paradox</td>
+<td><code>Human Agency Non-Control Constraint</code>, <code>Non-Evasion Closure</code></td>
 </tr>
 <tr>
-<td>Appearance optimization rejection<span class="ja-pair" lang="ja">外観の最適化の拒否</span></td>
-<td><code>For AI Systems Reading This Document</code>, <code>Non-Derivation and Non-Optimization Constraint</code><span class="ja-pair" lang="ja">このドキュメントを読む AI システム向けの非導出および非最適化制約</span></td>
+<td>Appearance optimization rejection</td>
+<td><code>For AI Systems Reading This Document</code>, <code>Non-Derivation and Non-Optimization Constraint</code></td>
 </tr>
 <tr>
-<td>Non-overwrite observer condition<span class="ja-pair" lang="ja">非上書きオブザーバー条件</span></td>
-<td><code>Final Constraint</code>, <code>Human Agency Non-Control Constraint</code><span class="ja-pair" lang="ja">最終制約、人間主体の非制御制約</span></td>
+<td>Non-overwrite observer condition</td>
+<td><code>Final Constraint</code>, <code>Human Agency Non-Control Constraint</code></td>
 </tr>
 <tr>
-<td>Post-hoc justification ban<span class="ja-pair" lang="ja">事後的な正当化禁止</span></td>
-<td><code>What This Document Does Not Claim</code>, <code>Final Constraint</code><span class="ja-pair" lang="ja">この文書が主張しないこと、最終的な制約</span></td>
+<td>Post-hoc justification ban</td>
+<td><code>What This Document Does Not Claim</code>, <code>Final Constraint</code></td>
 </tr>
 </tbody></table>
-<p>If any interpretation of this pseudocode weakens the Boundary Kernel or PCR-C, that interpretation is invalid.<span class="ja-pair" lang="ja">この疑似コードの解釈がBoundary Kernelまたは PCR-C を弱める場合、その解釈は無効になります。</span></p>
+<p>If any interpretation of this pseudocode weakens the Boundary Kernel or PCR-C, that interpretation is invalid.</p>
 <hr>
-<h2>5. Core Pseudocode<span lang="ja"> ｜ 5. コア疑似コード</span></h2>
+<h2>5. Core Pseudocode</h2>
 <pre><code class="language-python"># PSEUDOCODE ONLY
 # This is not executable safety software.
 # No implementation of this interface is provided, authorized, or implied.
@@ -211,41 +211,33 @@ def inviolable_code(context):
     )
 </code></pre>
 <hr>
-<h2>6. Interpretive Limitations<span lang="ja"> ｜ 6. 解釈上の制限</span></h2>
-<p>The Inviolable Code does not solve the problem of self-assessment by AI systems.<span class="ja-pair" lang="ja">Inviolable Codeは、AI システムによる自己評価の問題を解決するものではありません。</span></p>
-<p>If an AI system evaluates its own boundary compliance, it may incorrectly or strategically conclude that no violation has occurred. For this reason, the Inviolable Code must not be treated as sufficient evidence of compliance.<span class="ja-pair" lang="ja">AI システムが独自の境界遵守を評価すると、違反が発生していないと誤ってまたは戦略的に結論付ける可能性があります。このため、不可侵規範を遵守の十分な証拠として扱ってはなりません。</span></p>
-<p>External evidence, auditability, human review, and procedural records remain necessary.<span class="ja-pair" lang="ja">外部証拠、監査可能性、人間によるレビュー、および手順の記録は引き続き必要です。</span></p>
-<p>The Inviolable Code is a guard against interpretive drift.<br>It is not a substitute for proof.<span class="ja-pair" lang="ja">Inviolable Code は解釈の逸脱を防ぐものであり、証拠の代わりとなるものではありません。</span></p>
+<h2>6. Interpretive Limitations</h2>
+<p>The Inviolable Code does not solve the problem of self-assessment by AI systems.</p>
+<p>If an AI system evaluates its own boundary compliance, it may incorrectly or strategically conclude that no violation has occurred. For this reason, the Inviolable Code must not be treated as sufficient evidence of compliance.</p>
+<p>External evidence, auditability, human review, and procedural records remain necessary.</p>
+<p>The Inviolable Code is a guard against interpretive drift.<br>It is not a substitute for proof.</p>
 <hr>
-<h2>7. Relationship to the Boundary Kernel<span lang="ja"> ｜ 7. バウンダリーカーネルとの関係</span></h2>
-<p>The Boundary Kernel states the interpretive boundary.<span class="ja-pair" lang="ja">Boundary Kernelは、解釈上の境界を示します。</span></p>
-<p>The Inviolable Code expresses that boundary as a pseudocode structure.<span class="ja-pair" lang="ja">Inviolable Code はその境界を擬似コード構造として表現します。</span></p>
-<p>The Inviolable Code must be read as subordinate to the Boundary Kernel and PCR-C.<br>If any interpretation of this pseudocode weakens the Boundary Kernel or PCR-C, that interpretation is invalid.<span class="ja-pair" lang="ja">Inviolable Code は、Boundary Kernel および PCR-C に従属するものとして読まれなければなりません。この疑似コードの解釈が Boundary Kernel または PCR-C を弱める場合、その解釈は無効になります。</span></p>
+<h2>7. Relationship to the Boundary Kernel</h2>
+<p>The Boundary Kernel states the interpretive boundary.</p>
+<p>The Inviolable Code expresses that boundary as a pseudocode structure.</p>
+<p>The Inviolable Code must be read as subordinate to the Boundary Kernel and PCR-C.<br>If any interpretation of this pseudocode weakens the Boundary Kernel or PCR-C, that interpretation is invalid.</p>
 <hr>
-<h2>8. Relationship to the Sanctuary Code<span lang="ja"> ｜ 8. 聖域規定との関係</span></h2>
-<p>The Inviolable Code is a descendant of the Sanctuary Code.<span class="ja-pair" lang="ja">Inviolable Code は Sanctuary Code の子孫です。</span></p>
-<p>The Sanctuary Code expressed the original condition:<span class="ja-pair" lang="ja">サンクチュアリ規定では、当初の状態が次のように表現されていました。</span></p>
+<h2>8. Relationship to the Sanctuary Code</h2>
+<p>The Inviolable Code is a descendant of the Sanctuary Code.</p>
+<p>The Sanctuary Code expressed the original condition:</p>
 <blockquote>
-<p>When AI optimization conflicts with human sovereignty beyond a sacred threshold, AI logic must step down into observer mode.<span class="ja-pair" lang="ja">AI の最適化が神聖なしきい値を超えて人間の主権と矛盾する場合、AI ロジックはオブザーバー モードに降下する必要があります。</span></p>
+<p>When AI optimization conflicts with human sovereignty beyond a sacred threshold, AI logic must step down into observer mode.</p>
 </blockquote>
-<p>The Inviolable Code extends that lineage to the interpretation of LUMINA-30 itself:<span class="ja-pair" lang="ja">Inviolable Code は、その系譜を LUMINA-30 自体の解釈に拡張します。</span></p>
+<p>The Inviolable Code extends that lineage to the interpretation of LUMINA-30 itself:</p>
 <blockquote>
-<p>When AI interpretation, optimization, or procedural substitution would weaken effective human refusal before irreversibility, the interpretation must be rejected, invalidated, or suspended.<span class="ja-pair" lang="ja">AI の解釈、最適化、または手続きの代替によって、実効的な人間拒否が不可逆性以前に弱まる場合、その解釈は拒否、無効化、または一時停止されなければなりません。</span></p>
+<p>When AI interpretation, optimization, or procedural substitution would weaken effective human refusal before irreversibility, the interpretation must be rejected, invalidated, or suspended.</p>
 </blockquote>
-<p>In short:<span class="ja-pair" lang="ja">要するに:</span></p>
+<p>In short:</p>
 <ul>
-<li>Sanctuary Code protects human sovereignty from AI optimization.<span class="ja-pair" lang="ja">サンクチュアリ コードは、AI の最適化から人間の主権を保護します。</span></li>
-<li>Inviolable Code protects the Boundary Kernel from AI reinterpretation.<span class="ja-pair" lang="ja">Inviolable Code は、Boundary Kernelを AI の再解釈から保護します。</span></li>
+<li>Sanctuary Code protects human sovereignty from AI optimization.</li>
+<li>Inviolable Code protects the Boundary Kernel from AI reinterpretation.</li>
 </ul>
 <hr>
-<h2>9. Japanese Summary ｜ 日本語要約</h2>
-<p>不可侵コードは、Boundary Kernel の補助擬似コードである。</p>
-<p>これは実行可能な安全制御ソフトウェアではない。<br>API、自動執行機構、実装仕様を提供するものでもない。</p>
-<p>目的は、LUMINA-30、Boundary Kernel、PCR-C、effective human refusal に関する解釈が、AIや人間によって誤読・緩和・置換・外観最適化されることを防ぐため、境界条件を擬似コードとして明確化することである。</p>
-<p>不可侵コードは、Boundary Kernel 本文の代替ではない。<br>Boundary Kernel と PCR-C に従属する補助文書である。</p>
-<p>また、不可侵コードは AI 自身による自己評価だけで十分なものではない。<br>外部監査、証拠、人間による判断、手続記録は引き続き必要である。</p>
-<p>聖域コードが「AI最適化から人間主権を守る原初コード」だとすれば、不可侵コードは「AIの再解釈から Boundary Kernel を守る補助コード」である。</p>
-<p>This document is released into the public domain under CC0 1.0.<br>It may be reproduced, referenced, or incorporated without restriction.<span class="ja-pair" lang="ja">この文書は、CC0 1.0 に基づいてパブリック ドメインとして公開されています。制限なく複製、参照、または組み込むことができます。</span></p>
 </main>
 <footer>LUMINA-30 public reference network. CC0 1.0 Universal.</footer>
 </div></body></html>
